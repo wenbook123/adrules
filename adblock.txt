@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Chrbs43gRLJ/M+lsMMhIxg
+! Checksum: 0A8hM5B/t2IPuKjM2Tuy6w
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-06-24 14:02:24（北京时间） 
-! Total count: 91768
+! Version: 2022-06-24 15:04:26（北京时间） 
+! Total count: 91774
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -13081,6 +13081,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /dynamicyield/*
 /dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
 /dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.jbhunt.com|~dynatrace.udemy.com|~dynatrace.zoom.us|~github.com|~github.io
+/dynatrace/*$domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
 /dynimpression?rkey=
 /dzwww/ad_dzw_inner.js
 /e.gif?
@@ -17294,6 +17295,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /v.gif?logtype=
 /v1/ads/*
 /v1/analytics.js
+/v1/analytics/*
 /v1/custom-metrics
 /v1/impressions
 /v1/log_event
@@ -24322,6 +24324,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||pailcrime.com^$script,xmlhttprequest
 @@||paintplantation.com^$script,xmlhttprequest
 @@||paleleaf.com^$script,xmlhttprequest
+@@||palixi.net/assets/js/prebid-ads.js
 @@||pamelarandom.com^$script,xmlhttprequest
 @@||pan.quark.cn^
 @@||panditfiles.pro^$generichide
@@ -39230,6 +39233,8 @@ paidthe.site##+js(abort-on-property-read, open)
 paidtomoney.com##+js(window.open-defuser)
 paigeeworld.com##.top-ad-container
 painart.ru##body > div[id][style^="display: block"][style*="background: red"]
+palixi.net##+js(no-fetch-if, pagead2.googlesyndication.com)
+palixi.net##+js(set-constant, canRunAds, true)
 palmtube.com##+js(window.open-defuser)
 pan.baidu.com###share_ad_info_panl
 pan.baidu.com##.decrease-active
@@ -49779,6 +49784,7 @@ zznews.cn##.ad:not([style])
 ||ad.xiaomi.com^
 ||ad1.tone.ne.jp^
 ||ad123.ynet.com^
+||ad1x.com^$third-party
 ||ad4.com.cn^
 ||ad44.cc^
 ||ad4989.co.kr^$third-party
