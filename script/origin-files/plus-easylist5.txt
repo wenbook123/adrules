@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202206240349
+! Version: 202206250312
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 41658
+! Lenth = 41672
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -2571,6 +2571,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /dynamicyield/*
 /dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
 /dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.jbhunt.com|~dynatrace.udemy.com|~dynatrace.zoom.us|~github.com|~github.io
+/dynatrace/*$domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
 /dynimpression?rkey=
 /e.gif?
 /e086ec.aspx?q=l3mkwgak
@@ -5842,6 +5843,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /v.gif?
 /v.gif?t=
 /v1/analytics.js
+/v1/analytics/*
 /v1/custom-metrics
 /v1/impressions
 /v1/log_event
@@ -6450,7 +6452,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||akamai.net^*/omniture.jsp$script,domain=walmart.com
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
 @@||akamaihd.net/worldwide_analytics/tagcommander/Ubisoft$domain=account.ubisoft.com|connect.ubisoft.com|store.ubi.com
-@@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
+@@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com|ubisoftconnect.com
 @@||akamaized.net^*/js/tracking/ninja.js$script,domain=olx.ua
 @@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
 @@||akamaized.net^*/tracking/ninja.js$domain=olx.pl
@@ -7514,7 +7516,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtm.js$domain=bunte.de|stiefelparadies.de
 @@||googletagmanager.com/gtm.js$domain=cabinet.planetakino.ua
 @@||googletagmanager.com/gtm.js$domain=capital.fr
-@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it
+@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it|video.repubblica.it
 @@||googletagmanager.com/gtm.js$domain=ccleaner.com
 @@||googletagmanager.com/gtm.js$domain=cdek.ru
 @@||googletagmanager.com/gtm.js$domain=chainreactioncycles.com
@@ -9215,6 +9217,8 @@ newsdig.tbs.co.jp#?#.l-contents-wrap > div[v-scope^="Recommend"]:upward(1)
 newslab.ru##.r-recommend
 newslab.ru##.sharing
 nikkansports.com##div[id^="cx_"]
+nine.com.au#%#(()=>{window.tracking={setConfig(){},trackPage(){},trackVideoAutoFail(){}}})();
+nine.com.au#%#//scriptlet('prevent-element-src-loading', 'script', 'share.9cdn.net/share/long_cache/js/tracking/tracking')
 nlab.itmedia.co.jp##div[id^="logly-"] + div.h10px.colBoxClear
 nnmclub.ro,nnm-club.t0r.xyz,nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnmclub.to#@#img[width="88"][height="31"]
 notonthehighstreet.com#%#//scriptlet('set-constant', 'window.DD_RUM.init', 'noopFunc')
@@ -10955,6 +10959,7 @@ znak.com##.relap
 ||ad.tempstaff.co.jp^
 ||ad.udition.jp^
 ||ad1.tone.ne.jp^
+||ad1x.com^$third-party
 ||ad3.cross-a.net^
 ||ad4m.at^
 ||ad4m.at^$third-party
@@ -12406,6 +12411,7 @@ znak.com##.relap
 ||andmlb.kshwtj.com^
 ||android-stat.acestream.net^
 ||android.bugly.qq.com^
+||androidauthority.com/track?u=
 ||androidfilehost.com/libs/otf/stats.otf.php?
 ||androidpolice.com/pixel.png?
 ||andyhoppe.com/count/
@@ -12583,6 +12589,7 @@ znak.com##.relap
 ||api.instabug.com^
 ||api.ip.sb/geoip$third-party
 ||api.ipdata.co^$third-party
+||api.ipify.org/?format=json$xmlhttprequest,redirect=nooptext,domain=utils.surf
 ||api.iterative.ly^
 ||api.jetlore.com/track.png?
 ||api.keen.io/*/projects/$domain=faceit.com
@@ -13374,6 +13381,7 @@ znak.com##.relap
 ||banggood.com/collectException
 ||banggood.com/statistics.html
 ||bangkokpost.com/hits/
+||bangkokpost.com/hits/*?t=
 ||bango.net/exid/*.gif?
 ||bango.net/id/*.gif?
 ||bankinter.com/res/img/documento_cargado.gif?
@@ -14675,6 +14683,7 @@ znak.com##.relap
 ||cdn.mediatradecraft.com^$third-party
 ||cdn.megadata.co.kr/dist/prod/enp_tracker_
 ||cdn.melhorplano.net/scripts/tracker/mpt.min.js
+||cdn.memo.co^$third-party
 ||cdn.merklesearch.com/merkle_track.js
 ||cdn.milffox.com/static/milffox.com/js/gtm.js
 ||cdn.odoscope.cloud^
@@ -18517,6 +18526,7 @@ znak.com##.relap
 ||elr.sfr.fr^
 ||els-cdn.com^*/analytics.js
 ||els298548211.medtronic.com^
+||elsa.memoinsights.com^
 ||eltex.co.jp^$third-party
 ||eluxer.net^$third-party
 ||em-email.thermofisher.com^
@@ -27251,7 +27261,6 @@ znak.com##.relap
 ||ninja.onap.io^
 ||ninjacat.io^$third-party
 ||niojlt.veneta.com^
-||nitropay.com^$third-party
 ||njam.tv/tracking/
 ||njskjq.juicedbikes.com^
 ||njtwub.schneider.de^
@@ -28555,6 +28564,7 @@ znak.com##.relap
 ||piquantstove.com^$third-party
 ||piranha.minnmyatsoe.com^
 ||piratepx.com^$third-party
+||pirsch.io^$third-party
 ||piti.bplaced.net^
 ||pitomec.ru/top.gif
 ||pivol.com/analytic/$third-party
@@ -29016,6 +29026,7 @@ znak.com##.relap
 ||postgraduate.smu.edu.sg^
 ||postgraduate2.smu.edu.sg^
 ||postguam.com/shared-content/art/stats/common/tracker.js
+||posthog.com^$third-party
 ||postuler.bpost.be^
 ||posty.kr/api/tr|
 ||potterybarnkids.com/pkimgs/*/external/thirdparty.js
@@ -37034,6 +37045,7 @@ znak.com##.relap
 ||tokei.upstract.com^
 ||tom.itv.com/itv/count/*
 ||tomonline-inc.com^$third-party
+||toneden.io/*/analytics/
 ||tongji.mafengwo.cn^
 ||tongji.meizu.com^
 ||tongji.xinmin.cn^
@@ -39196,6 +39208,7 @@ znak.com##.relap
 ||ultraoranges.com^$third-party
 ||ultund.misterspex.nl^
 ||um-public-panel-prod.s3.amazonaws.com^
+||um.viuapi.io/loggingservice/
 ||um2ext.sip.net.zooplus.de^
 ||umami.wakarimasen.moe^
 ||umassmemorial.hrm.healthgrades.com^
@@ -40557,6 +40570,7 @@ znak.com##.relap
 ||wscdn.com/analytics/
 ||wsj.com/asset/amt.js
 ||wsknow.net/jssdk/track/
+||wsmcdn.audioeye.com^
 ||wsogqp.klikdokter.com^
 ||wspeed.qq.com^
 ||wssgmstats.vibbo.com^
