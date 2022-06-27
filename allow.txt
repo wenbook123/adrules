@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Fc99jWoXiPZFT3fTyD/fdQ
+! Checksum: OsqvOn9w2nmd4zFSgcsNNA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-06-27 16:54:11（北京时间） 
-! Total count: 19508
+! Version: 2022-06-28 01:12:41（北京时间） 
+! Total count: 19517
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket! EasyPrivacy
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -2457,6 +2457,7 @@
 @@||api.splice.com/www/advertisement/community-explore$domain=splice.com
 @@||api.surfeasy.com/*/geo_lookup$stealth
 @@||api.taboola.com^$domain=samsung.com|thestartmagazine.com
+@@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||api.tv.sohu.com/mobile_user/device^$app=com.sohu.sohuvideo
 @@||api.tv.sohu.com^
 @@||api.useinsider.com/sw.js$domain=gratis.com
@@ -9540,6 +9541,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nettavisen.no
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=netzwelt.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=news.tvb.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=news4jax.com|gmg-wjxt-prod.cdn.arcpublishing.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nova.cz
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=noz.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nrl.com
@@ -9731,6 +9733,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=tubitv.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=10play.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|embed.comicbook.com|sbs.com.au
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=news4jax.com|gmg-wjxt-prod.cdn.arcpublishing.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=timesnownews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=vk.sportsbull.jp
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=wcvb.com
@@ -10362,6 +10365,8 @@
 @@||js.taplytics.com/jssdk/$domain=foxnews.com
 @@||js.tv.itc.cn/gg.seed.js
 @@||js.vpro.nl/vpro/*/statcounter.js?
+@@||js.wpadmngr.com/static/adManager.js$domain=test.madshiba.fun
+@@||jsainsbury.*.qualtrics.com/jfe/form/$subdocument
 @@||jsc.adskeeper.co.uk/*/megaup.net.*.js$domain=megaup.net
 @@||jsc.mgid.com^*/putlocker.is.$script,domain=putlocker.is
 @@||jscdn.greeter.me/dropgalaxy.onlinehead.js$script,domain=dropgalaxy.com
@@ -12728,6 +12733,7 @@
 @@||optimost.com/counter/*/event.js?$domain=bebo.com
 @@||optimost.com^*/FT_live.js$domain=ft.com
 @@||optimost.com^*/content.js?$domain=bebo.com
+@@||optimove.net^$domain=app.touchnote.com
 @@||optout*.*^$domain=privacy.aol.com
 @@||optout.mookie1.com/optout
 @@||optout.networkadvertising.org^$document
@@ -14171,6 +14177,7 @@
 @@||pubads.g.doubleclick.net/ssai/event/*/master.m3u8$domain=timesnowhindi.com|timesnowmarathi.com
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$domain=10play.com.au
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$domain=cbc.ca
+@@||pubads.g.doubleclick.net/ssai/event/*/streams$xmlhttprequest,domain=news4jax.com|gmg-wjxt-prod.cdn.arcpublishing.com
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$xmlhttprequest,domain=rotana.net
 @@||pubads.g.doubleclick.net^$app=com.bloomberg.android.plus
 @@||pubads.g.doubleclick.net^$app=com.cbs.app
@@ -18680,6 +18687,7 @@
 @@||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$~third-party,domain=~halowaypoint.com
 @@||wcs.naver.com/m$image,domain=sooldamhwa.com
 @@||wcs.naver.net/wcslog.js$domain=ciokorea.com|adpiamall.com|live.joins.com|naver.com|jbe.go.kr|privatenote.co.kr
+@@||wcs.naver.net/wcslog.js$domain=ciokorea.com|adpiamall.com|live.joins.com|naver.com|jbe.go.kr|privatenote.co.kr|dabangapp.com|kyobobook.co.kr
 @@||wcvb.com^$ghide
 @@||wd.adcolony.com^|$app=com.jellybtn.cashkingmobile
 @@||wdbloog.com^$generichide
@@ -19059,6 +19067,7 @@
 @@||www.google-analytics.com^$app=jp.naver.line.android
 @@||www.google-analytics.com^$app=pl.promate.bilkom
 @@||www.google-analytics.com^$domain=myqqjd.com
+@@||www.google.*/aclk?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.4
 @@||www.google.*/aclk?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk|googleadservices.com
 @@||www.google.*/adometry.$~third-party,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||www.google.*/adometry/$~third-party,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
