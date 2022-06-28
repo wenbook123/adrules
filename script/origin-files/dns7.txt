@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202206271213
+! Version: 202206280332
 ! Title: EasyPrivacy
-! Last modified: 27 Jun 2022 12:13 UTC
+! Last modified: 28 Jun 2022 03:32 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3003,6 +3003,7 @@
 /mpl/mpulse.
 /mpulse.js
 /mpulse.min.js
+/ms.analytics-
 /msa-vowels/1/OP/*
 /msftaudience.
 /mstartracking/*
@@ -4936,7 +4937,7 @@
 /uxm_tracking.
 /v.gif?
 /v1/analytics.js
-/v1/analytics/*
+/v1/analytics/*$domain=~platform.axway.com
 /v1/custom-metrics
 /v1/impressions
 /v1/log_event
@@ -9157,6 +9158,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||abstractedauthority.com^
 ||absurdapple.com^$third-party
 ||absurdwater.com^
+||achieverknee.com^
 ||acidpigs.com^
 ||acousticairplane.com^
 ||acousticsapparel.com^
@@ -9852,6 +9854,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pluckypocket.com^
 ||pocketsonic.com^
 ||podiumpresto.com^
+||pointlesspocket.com^
 ||pointlessrifle.com^
 ||poisedpig.com^
 ||politegoldfish.com^
@@ -9932,6 +9935,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||resonantrock.com^$third-party
 ||respectrain.com^
 ||rhetoricalloss.com^$third-party
+||rhetoricalveil.com^
 ||rhymezebra.com^
 ||rhythmmoney.com^
 ||richreceipt.com^
@@ -10285,6 +10289,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wateryvan.com^
 ||wearbasin.com^
 ||wearywater.com^
+||wellgroomedapparel.com^
 ||wellgroomedbat.com^
 ||wellmadefrog.com^
 ||whineattempt.com^
@@ -11574,6 +11579,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||asterpix.com/tagcloudview/
 ||at.cbsi.com^*/event?
 ||atcdn.co.uk/frostbite/
+||atgsvcs.com/js/atgsvcs.js
 ||atlassian.net/rest/collectors/$third-party
 ||atom-data.io/session/latest/track.html?$third-party
 ||attn.tv^*/dtag.js
@@ -12678,6 +12684,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ora.tv/j/ora_evttracking.js
 ||orb.ee/collect
 ||ordergroove.com/log/offer?
+||organiccdn.io/assets/sdk/monitor.unit-sdk.js
 ||organicfruitapps.com/analytics/
 ||orts.wixawin.com^$third-party
 ||outbrain.com/nanoWidget/externals/cookie/
@@ -15780,7 +15787,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webengage.sky.com^$xmlhttprequest
 ||weblog.flyasiana.com^
 ||weblog.strawberrynet.com^
-||webmd.com/pixel/
 ||webmd.com/static/v/c?
 ||wellsfargo.com/AIDO/
 ||wellsfargo.com/tracking/
@@ -15866,6 +15872,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bing.com^*/glinkping.aspx$ping,xmlhttprequest
 ||bing.com^*/GLinkPingPost.aspx$ping,xmlhttprequest
 ! Site specific elements (due to EP)
+###cxense-recs-in-article
 ##.embed-responsive-trendmd
 ! Aliexpress
 ||aliyuncs.com/r.png
@@ -26556,6 +26563,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com
+@@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.itunes.apple.com^$~third-party
 @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
@@ -27275,6 +27283,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||androidgalaxys.net/wp-content/plugins/*/google-analyticator/$script
 @@||beppegrillo.it/mt-static/js/ga_social_tracking.js
 @@||cdn.trustcommander.net/privacy$script,domain=enigaseluce.com
+@@||clerk.io/clerk.js$script,domain=trony.it
 @@||codicebusiness.shinystat.com/cgi-bin/getcod.cgi?$script,domain=grazia.it|panorama-auto.it|panorama.it
 @@||codicefl.shinystat.com/cgi-bin/getserver.cgi?$script,domain=3bmeteo.com|quotidiano.net|radioitalia.it
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
