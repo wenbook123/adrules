@@ -7464,6 +7464,7 @@ file-upload.*##.adsbygoogle
 file-upload.*##center
 ! https://github.com/uBlockOrigin/uAssets/issues/13862
 ||file-upload.com^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation
+file-upload.com##^meta[http-equiv="refresh"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3194
 @@||nordpresse.be^$ghide
@@ -18567,8 +18568,8 @@ katmoviehd.*##+js(acis, Math.imul)
 limontorrents.com##+js(aopw, _pop)
 @@||limontorrents.com^$ghide
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/51427
 ! https://github.com/uBlockOrigin/uAssets/issues/13751
+luscious.net##+js(nostif, router)
 @@||luscious.net^$ghide
 luscious.net##.ad_lead
 *$script,redirect-rule=noopjs,domain=luscious.net
