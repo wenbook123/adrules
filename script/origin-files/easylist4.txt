@@ -1,15 +1,15 @@
 [Adblock Plus 3.0]
-! Checksum: xpezD81r7Zh4WgRJftw66A
+! Checksum: xth33W2xe8/I6iSr75klKQ
 ! Title: My AdFilters（for PC）
 ! Expires: 2 hours
-! Version: 202207080054
-! Last Modified: 2022年07月08日 00:54
+! Version: 202207081040
+! Last Modified: 2022年07月08日 10:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
-! Total count: 73151
+! Total count: 73175
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -6029,7 +6029,6 @@
 ##DFP-AD
 ##FBS-AD
 ##LEADERBOARD-AD
-##SCRIPT + A[target="_bank"] > IMG[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##[class*="__adspot-title-container"]
 ##[class*="__adv-block"]
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
@@ -6142,6 +6141,7 @@
 ##a[href*=".saeilkorea.com/"]
 ##a[href*=".sky1818.net"]
 ##a[href*=".ssmh"][href*="?u="]
+##a[href*=".supernfp.com/"]
 ##a[href*=".tea123.me"]
 ##a[href*=".thejierou.net"]
 ##a[href*=".tholikiranam.com/"]
@@ -6553,6 +6553,7 @@
 ##script + #coupletBox
 ##script + #rbbox
 ##script + a[href^="https://l.hyenadata.com/"]
+##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script[src="/static/base.js"] + #couplet
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
 ##span[id^="ezoic-pub-ad-placeholder-"]
@@ -9951,7 +9952,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /csp_log?
 /csp_report.gne?
 /css/78dfj/*.js
-/css/ad-$domain=~ad-shield.io
 /css/ad.
 /css/ads-
 /css/ads.
@@ -12204,7 +12204,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /pageview?user_guid=
 /pageviews-counter-
 /pageviews.gif?
-/pageviews/*$domain=~mediawiki.org|~pageviews.wmcloud.org|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
+/pageviews/*$domain=~mediawiki.org|~pageviews.wmcloud.org|~quiz.mkpo.li|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
 /pageviews?token=
 /pageviews_counter.
 /parsely-events.
@@ -12658,7 +12658,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /radio-analytics.htm
 /radium-one.js
 /rainbow/master-js
-/rainbow/track
+/rainbow/track|
 /randomad.
 /rass7.$script,~third-party
 /rass7.*.js^$script,domain=upornia.com|vjav.com
@@ -22578,7 +22578,6 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id*="_SponsoredProducts"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id*="_ad-placements-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="dpx-sponsored-products-detail_csm_instrumentation_wrapper"]
-amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sims-consolidated-3_csm_instrumentation_wrapper"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sims-mobile-consolidated-4_csm_instrumentation_wrapper"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sp-rhf-desktop-carousel_desktop-rhf_0"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sp-shiptrack-desktop-carousel_desktop-yo-shiptrack_0"]
@@ -22586,8 +22585,9 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="LEFT-SAFE_FRAME-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="adplacements:"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="multi-brand-detail-creative-desktop_"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="sims-consolidated-"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="sims-mobile-consolidated-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[data-a-carousel-options*="\\\"isSponsoredProduct\\\":\\\"true\\\""]
-amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[data-cel-widget="sims-consolidated-4_csm_instrumentation_wrapper"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[data-cel-widget="sp-rhf-desktop-carousel_desktop-rhf_1"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[data-cel-widget="sp-shiptrack-desktop-carousel_desktop-yo-shiptrack_0"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[data-cel-widget^="MAIN-FEATURED_ASINS_LIST-"]
@@ -23991,6 +23991,7 @@ cagedarkbang.work##head > style[nonce]
 caijing.com.cn##.downdiv
 caixin.com##.course_box
 calciomercato.com##.adv--300x250:not(#generic-video-player)
+calculat.io##.calc67-container
 calculate.plus##+js(no-setTimeout-if, checkStopBlock)
 calculator-online.net##+js(no-fetch-if, /pagead2\.googlesyndication\.com|cdn\.snigelweb\.com/)
 calculator-online.net##+js(no-setTimeout-if, .css('display','block');)
@@ -25729,6 +25730,8 @@ ehubsoft.net##+js(set-constant, gadb, false)
 eic.org.cn##.lx-btm-box
 einthusan.ca,einthusan.com,einthusan.tv##div[class^="adspace-"]
 einthusan.tv###load-status-screen
+eisamay.com##div[class^="ad"]
+eisamay.com##div[class^="ad-wrapper"]
 ekantipur.com##.static-sponsor
 ekstrabladet.dk##+js(set-constant, apntag.requests, noopFunc)
 ekstrabladet.dk##.eb-position
@@ -25902,6 +25905,7 @@ eslfast.com##+js(no-setTimeout-if, test.offsetHeight)
 eslfast.com#@#.adsBox
 esnai.com##.tlgg
 esnai.com##table[width="960"] > tbody > tr > td[height="90"]
+esos.gr##.pane-ad-manager
 espncricinfo.com##.adSlotCnt
 esportnow.pl##aside a[href^="https://bit.ly/"] > img
 esportnow.pl#?#aside > .widget:has(> .textwidget > a[href^="https://bit.ly/"] > img)
@@ -28157,6 +28161,7 @@ icons8.com##.ads-ss
 icourse163.org##.promotion-banner-wrapper
 icourse163.org#@#.sns-link
 icube.ru#@#.top-banners
+idahostatesman.com,xxx-videosex.porn,vidsvidsvids.com##.zone
 idalponse.blogspot.com#@##adcontent
 iddeas.xyz##+js(window.open-defuser)
 idea4cash.com##+js(window.open-defuser, 1, popnc.com)
@@ -31830,6 +31835,7 @@ phuongtrinhhoahoc.com##+js(no-setTimeout-if, adsbygoogle iframe)
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
 piacenza24.eu##a.gofollow[data-track]
+pianba.tv##.a-loading
 pianetafanta.it,fullcrackpc.com,wikitrik.com,duit.cc#@##AdRectangle
 pianetafanta.it,fullcrackpc.com,wikitrik.com,duit.cc#@##Adrectangle
 pianetafanta.it,fullcrackpc.com,wikitrik.com,duit.cc#@##Ads
@@ -37932,6 +37938,7 @@ zznews.cn##.ad:not([style])
 ||666653.xyz^
 ||666657.xyz^
 ||666672.xyz^
+||666673.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666video.asia^
@@ -41142,6 +41149,7 @@ zznews.cn##.ad:not([style])
 ||api.decentralize.today^
 ||api.elliehuxtable.com^
 ||api.fanmatics.com/event
+||api.ffm.to/sl/e/$image
 ||api.getadx.com^
 ||api.grumft.com^$third-party
 ||api.kodcloud.com/data/notify/
@@ -41341,6 +41349,7 @@ zznews.cn##.ad:not([style])
 ||arrietty.nrj.fr^
 ||arrowpushengine.com^$third-party
 ||arsdev.net^$third-party
+||arshineensnarl.com^
 ||arsonexchangefly.com^
 ||arstechnica.com/keys/arstechnica.com/p.js
 ||arswabluchan.com^
@@ -41656,6 +41665,7 @@ zznews.cn##.ad:not([style])
 ||avenseo.com^$third-party
 ||averageamusement.com^
 ||averoconnector.com^$third-party
+||aviesanct.website^
 ||avito.ru/stat/
 ||avito.ru^*/some-pretty-script.js
 ||avitop.com/aviation/hitlist.asp
@@ -42071,6 +42081,7 @@ zznews.cn##.ad:not([style])
 ||bawdybalance.com^$third-party
 ||bawdybeast.com^
 ||bawdypets.com^
+||bawkedaimyos.casa^
 ||bayirksrap.com^
 ||bayno.cn^
 ||baynote.net^$third-party
@@ -42901,6 +42912,7 @@ zznews.cn##.ad:not([style])
 ||bpimg.com/4851/19f7543667f26682.jpg
 ||bpmmqbtstmbf.com^
 ||bpmonline.com^$third-party
+||bpnhgan.cn^
 ||bptxcg.xyz^
 ||bqgyy.com^
 ||bqhkix.mosmexa.ru^
@@ -43724,6 +43736,7 @@ zznews.cn##.ad:not([style])
 ||cdrvrs.com^
 ||cdsbnrs.com^
 ||cdtbox.rocks^
+||cdweikebaba.xin^
 ||cdxyb.cn^
 ||cdynxqqckkxof.com^
 ||cdyqc.com^
@@ -44115,6 +44128,7 @@ zznews.cn##.ad:not([style])
 ||cleanbrowser.network^
 ||cleanflawlessredir.com^
 ||cleanmediaads.com^
+||clear7.love^
 ||clearadnetwork.com^
 ||clearant.club^
 ||clearbitjs.com^$third-party
@@ -50584,6 +50598,7 @@ zznews.cn##.ad:not([style])
 ||greatdexchange.com^
 ||greatdexchange.com^$popup
 ||greatnfq.com^
+||greatnfw.com^
 ||greatviews.de^$third-party
 ||greatwit.cn^
 ||gredraus.net^
@@ -52998,6 +53013,7 @@ zznews.cn##.ad:not([style])
 ||j1.ax.xrea.com^
 ||j198.registercitizen.com^
 ||j45.webringporn.com^
+||j46rwh.site^
 ||j4a73n7v5k.com^
 ||j6rudlybdy.com^
 ||j6zh4g0.cn^
@@ -53328,6 +53344,7 @@ zznews.cn##.ad:not([style])
 ||joomxer.fun^
 ||joskgw.sewingmachinesplus.com^
 ||jotform.io/getReferrer/$third-party
+||jotocyxe.xyz^
 ||jotrening.com^
 ||journalforum.org^
 ||journey.cisco.com^
@@ -54197,6 +54214,7 @@ zznews.cn##.ad:not([style])
 ||lavageethion.com^
 ||lavishvanish.com^
 ||law-lib.com/wstyle/images/gffirm.jpg
+||lawhulophe.com^
 ||lawumi.cn^
 ||lawyers.rigbycooke.com.au^
 ||lb.billing01.email-allstate.com^
@@ -54755,6 +54773,7 @@ zznews.cn##.ad:not([style])
 ||liupan.asia^
 ||liushuaib.xyz^
 ||liuxue86.com/js/ideng/liuxue-show
+||liuzhen.love^
 ||liuzishen.com^
 ||live-partner.com/tags?
 ||live.alljobs.co.il^
@@ -56057,6 +56076,7 @@ zznews.cn##.ad:not([style])
 ||mdhv.io^
 ||mdiyay.vseinstrumenti.ru^
 ||mdjxa.com^
+||mdjxm.com^
 ||mdjxz.com^
 ||mdklc.top^
 ||mdmpix.com/js/connector.php?
@@ -66426,6 +66446,7 @@ zznews.cn##.ad:not([style])
 ||superhh.top^
 ||superjob.ru/ws/
 ||supernff.com^
+||supernfq.com^
 ||superonclick.com^
 ||superonclick.com^$third-party
 ||superpointlesshamsters.com^
@@ -66468,7 +66489,7 @@ zznews.cn##.ad:not([style])
 ||surnamesubqueryaloft.com^
 ||survey.interquest.com^
 ||survey.io/log?
-||surveymonkey.com/collect/
+||surveymonkey.com/collect/$third-party
 ||surveymonkey.com/resp/api/metrics
 ||surveyscout.com^$third-party
 ||surveywall-api.survata.com^$third-party
@@ -68204,6 +68225,7 @@ zznews.cn##.ad:not([style])
 ||track.cafu.com^
 ||track.cedsdigital.it^
 ||track.clubcar.com^
+||track.coherentpath.com^
 ||track.contently.com^
 ||track.cordial.io^
 ||track.custora.com^
@@ -72634,6 +72656,7 @@ zznews.cn##.ad:not([style])
 ||yysvzaodorhv.com^
 ||yytcdn.com/js/common/widget/pcpusher.
 ||yyttc.top^
+||yyttm.top^
 ||yyv.co/Webservices/jsParseLinks.aspx$script,third-party
 ||yyv.co/visitScript/$script,third-party
 ||yywz123.com/file/A*.js
@@ -73107,6 +73130,7 @@ zznews.cn##.ad:not([style])
 ||zylytavo.com^
 ||zymro.com^
 ||zynga.com/track/
+||zypanafo.pro^
 ||zype.com^$third-party,domain=bossip.com|hiphopwired.com|madamenoire.com
 ||zyq2.destinia.sk^
 ||zyqtc.cn^
