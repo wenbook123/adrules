@@ -229,7 +229,7 @@ dcdirtylaundry.com,ipatriot.com,newser.com,politicalcowboy.com##+js(aost, Math, 
 telexplorer.com.ar##+js(aost, Math.random, /injectedScript.*inlineScript/)
 
 whatfinger.com##+js(set, oeo, noopFunc)
-@@*$ghide,domain=bestfunnyjokes4u.com|cheatsheet.com|clashdaily.com|craigjames.com|designbump.com|grammarist.com|madworldnews.com|reviveusa.com|sonsoflibertymedia.com|thedesigninspiration.com|themattwalshblog.com|videogamesblogger.com
+@@*$ghide,domain=bestfunnyjokes4u.com|clashdaily.com|craigjames.com|designbump.com|grammarist.com|madworldnews.com|reviveusa.com|sonsoflibertymedia.com|thedesigninspiration.com|themattwalshblog.com|videogamesblogger.com
 bestfunnyjokes4u.com,cheatsheet.com,clashdaily.com,craigjames.com,designbump.com,grammarist.com,madworldnews.com,reviveusa.com,sonsoflibertymedia.com,thedesigninspiration.com,themattwalshblog.com,videogamesblogger.com##.adsbygoogle
 bestfunnyjokes4u.com,cheatsheet.com,clashdaily.com,craigjames.com,designbump.com,grammarist.com,madworldnews.com,reviveusa.com,sonsoflibertymedia.com,thedesigninspiration.com,themattwalshblog.com,videogamesblogger.com##[id*="box-ad"]
 ! https://github.com/NanoMeow/QuickReports/issues/2493
@@ -1407,7 +1407,7 @@ ext=$script,1p,domain=slreamplay.*
 @@||streamp1ay.*^$ghide
 *$xhr,frame,3p,domain=streamp1ay.cc,denyallow=spcdn.cc
 ! https://github.com/uBlockOrigin/uAssets/issues/8244
-slreamplay.*,steamplay.*,steanplay.*,stemplay.*,streamp1ay.*,streanplay.*##+js(nowoif)
+slreamplay.*,steamplay.*,steanplay.*,stemplay.*,streamp1ay.*,streanplay.*,streampiay.*##+js(nowoif)
 streanplay.*##+js(set, console.log, noopFunc)
 streanplay.*##+js(set, console.clear, noopFunc)
 streanplay.*,steanplay.*##+js(aeld, , BACK)
@@ -1417,6 +1417,7 @@ steamplay.*,steanplay.*,streamp1ay.*,streanplay.*##.ad
 slreamplay.*,steamplay.*,steanplay.*,stemplay.*,streamp1ay.*,streanplay.*###uverlay
 steanplay.*,streanplay.*##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
 /jsa.hh?z=$script,1p
+||streampiay.me/drh.hh$frame,1p
 *$xhr,frame,3p,domain=steanplay.*|streanplay.cc,denyallow=spcdn.cc
 ||ucationin.club^
 
@@ -8580,6 +8581,9 @@ leechpremium.link##body:style(overflow: auto !important;)
 @@/peel.js$script,domain=leechpremium.link
 leechpremium.link##+js(aopr, app_vars.force_disable_adblock)
 *$script,3p,denyallow=bootstrapcdn.com|cloudflare.net|google.com|googleapis.com|gstatic.com|recaptcha.net|tawk.to|jsdelivr.net,domain=leechpremium.link
+! https://github.com/AdguardTeam/AdguardFilters/issues/123870
+@@||leechpremium.net^$ghide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=leechpremium.net
 
 ! https://github.com/NanoMeow/QuickReports/issues/236
 @@||tsubasa.im^$ghide
@@ -19630,17 +19634,18 @@ frkmusic.*##+js(aopr, mdpDeBlocker)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51985
 faupto.com##+js(aopr, show_ads_gr8_lite)
 dogemate.com##+js(nowoif)
-dogemate.com##+js(aopr, adbUrl)
 dogemate.com##+js(acis, $, .filter)
+dogemate.com##+js(aopw, _pop)
 faupto.com,dogemate.com##+js(aopr, disableButtonTimer)
-faupto.com,dogemate.com##+js(nano-sib)
+faupto.com##+js(nano-sib)
 *$frame,script,3p,denyallow=bootstrapcdn.com|consensu.org|google.com|gstatic.com|hcaptcha.com|hwcdn.net|jquery.com|recaptcha.net|wp.com,domain=faupto.com
 *$3p,script,frame,denyallow=bootstrapcdn.com|cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com|hwcdn.net|jquery.com|recaptcha.net,domain=dogemate.com
-faupto.com,dogemate.com##[href^="https://brave.com"]
-faupto.com,dogemate.com##.shadow.bg-dark
-dogemate.com##.my-1.overflow-hidden.text-center
-dogemate.com##[href^="http://cointiply.com/"]
+faupto.com##[href^="https://brave.com"]
+faupto.com##.shadow.bg-dark
 dogemate.com##div[class][style="width:300px;height:250px;display: inline-block;margin: 0 auto"]
+@@||dogemate.com/banner/$image,1p
+dogemate.com##img[id^="ads-"]:style(visibility: hidden !important;)
+||firumuti.xyz^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51992
 ! https://github.com/uBlockOrigin/uAssets/issues/10608
