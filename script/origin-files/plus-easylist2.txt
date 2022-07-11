@@ -1824,6 +1824,7 @@ kisshentai.net##+js(aopr, adblock)
 ninjastream.to##+js(nosiif, document['write'])
 ninjastream.to##+js(aopr, SmartPopunder)
 ninjastream.to##+js(aeld, , 0x)
+ninjastream.to##+js(aopr, NinjaJsPop)
 ninjastream.to##.video-fake
 
 ! https://github.com/uBlockOrigin/uAssets/issues/739
@@ -9517,6 +9518,8 @@ fileone.tv##+js(nowoif)
 hpav.tv,hpjav.tv##[id*="_ad_"]
 @@||cdn.tsyndicate.com/sdk/$script,domain=hpav.tv|hpjav.tv
 /vast3.js$domain=hpav.tv|hpjav.tv
+||hpav.tv/a720.html
+||hpjav.tv/a720.html
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4216
 mywatchseries.*##+js(nosiif, visibility, 1000)
@@ -18290,14 +18293,6 @@ porndaa.com##+js(aeld, getexoloader)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49626
 @@||earlymanga.website^$ghide
 
-! https://github.com/NanoMeow/QuickReports/issues/3017
-popjav.tv##+js(nostif, debugger)
-popjav.tv##div[style*="width: 426px; height: 240px;"]:has-text(Close AD)
-popjav.tv##li.releated_video:has-text(AD)
-popjav.tv##.poplayer
-popjav.tv##.video-boxad
-@@||cdn.tsyndicate.com/sdk/$script,domain=popjav.tv
-
 ! https://github.com/NanoMeow/QuickReports/issues/3022
 journaldev.com##+js(acis, jQuery, ai_adb)
 
@@ -19960,6 +19955,8 @@ imgalor.xyz,imgjut.buzz,imgkane.buzz,imgkia.*,imgklx.xyz,imgkoka.buzz,imgkuiw.xy
 imgalor.xyz,imgjut.buzz,imgkane.buzz,imgkia.*,imgklx.xyz,imgkoka.buzz,imgkuiw.xyz,imglina.xyz,imgtrw.buzz,imgveni.xyz,imgweika.buzz,imgwex.buzz,imgowk.buzz,imgokr.buzz,imgoiu.buzz,imgiut.buzz,imgizw.buzz,imguytx.buzz,imgxaqq.buzz##div[id][style^="position: fixed; display: block; width: 100%;"]
 imgjut.buzz,imgkane.buzz,imgkia.*,imgkoka.buzz,imgkuiw.xyz,imglina.xyz,imgtrw.buzz,imgveni.xyz,imgweika.buzz,imgwex.buzz,imgowk.buzz,imgokr.buzz,imgoiu.buzz,imgiut.buzz,imgizw.buzz,imguytx.buzz,imgxaqq.buzz##div[style="width:100%;height:110px"]
 imgalor.xyz,imgjut.buzz,imgkane.buzz,imgkia.*,imgkoka.buzz,imgkuiw.xyz,imglina.xyz,imgtrw.buzz,imgveni.xyz,imgwex.buzz,imgowk.buzz,imgokr.buzz,imgoiu.buzz,imgiut.buzz,imgizw.buzz,imguytx.buzz,imgxaqq.buzz##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+?tb=https://$popup,3p,domain=buzz
+buzz##div[id][style^="position: fixed; display: block; width: 100%; height: 15%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0); z-index:"]
 
 ||chaglihysty.pro^
 ||gahapule.pro^

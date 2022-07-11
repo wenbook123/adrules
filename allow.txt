@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: jnDHezghnO9cOobuQ+ApSQ
+! Checksum: o3ktmOY99mYjBHpFQLyo4g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-07-11 16:56:06（北京时间） 
-! Total count: 19521
+! Version: 2022-07-12 01:21:05（北京时间） 
+! Total count: 19540
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket! EasyPrivacy
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -1120,6 +1120,7 @@
 @@||acgdraw.com/ad$xmlhttprequest
 @@||acgvideo.com/*/ad/$xmlhttprequest,object-subrequest,domain=bilibili.com
 @@||acgvideo.com^$stealth,domain=bilibili.com
+@@||achieves.2gis.com/*/achieves?locale=$stealth,xmlhttprequest
 @@||acid2.acidtests.org^$document
 @@||acid3.acidtests.org^$document
 @@||acidcow.com^$csp=script-src 'self' * blob: data:
@@ -2867,6 +2868,7 @@
 @@||azgeek01.*^$ghide
 @@||azlink.xyz^$ghide
 @@||azmath.info/peel.js
+@@||aztelekom.az^$stealth
 @@||azulyblanco.co^$generichide
 @@||azulyblanco.co^$stealth
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
@@ -2945,6 +2947,7 @@
 @@||bankofamerica.com^*?adx=
 @@||bankofamerica.com^*?adx=$~third-party,xmlhttprequest
 @@||bankomap.com.ua^$ghide
+@@||bankrespublika.az^$stealth
 @@||banma.com/statics/js/??
 @@||banmancounselling.com/wp-content/themes/banman/
 @@||banned.video/videojs-event-tracking/dist/videojs-event-tracking.js$script,domain=banned.video|infowars.com
@@ -3016,6 +3019,7 @@
 @@||bce.baidu.com^
 @@||bcebos.com/static/translation/widget/translate/output/AdBanner/AdBanner.js
 @@||bcebos.com^$script,domain=31xiaoshuo.com|biququ.info|jingwubook.com
+@@||bcee.snet.lu^$stealth
 @@||bchangtai.vip/static/ad/main.js
 @@||bcicl.*.evergage.com^|
 @@||bclikeqt.com^$ghide
@@ -3068,6 +3072,7 @@
 @@||beinsports.com^$ghide
 @@||belfasttelegraph.co.uk^$ghide
 @@||bella-thorne.org^$generichide
+@@||beltelecom.by^$stealth
 @@||bemobile.ua/lib/lib.js$domain=tsn.ua
 @@||benczmark.pl^*/b.ads.js
 @@||beneficialbeef.com^$script,xmlhttprequest
@@ -3215,6 +3220,7 @@
 @@||bitporno.com^$generichide
 @@||bitrix.info/ba.js$domain=galamart.ru
 @@||bitsilver.io^$generichide
+@@||bitssurf.com/assets/ads-*.js$~third-party
 @@||bitterbear.com^$script,xmlhttprequest
 @@||bittorrent.com/public/min/index.php?ipbv=*/socialicons.css
 @@||bittube.me/*/js/ads2.js$xhr,1p
@@ -3255,6 +3261,7 @@
 @@||blog.logrocket.com^|
 @@||blog.naverblogwidget.com/ExternalWidgetRender.$stealth
 @@||blog.taryo.net^$generichide
+@@||blog.torproject.org^$stealth
 @@||blog.ztjal.info^$generichide
 @@||blogfa.com/static/ads/
 @@||bloggingdekh.xyz^$generichide
@@ -4281,7 +4288,6 @@
 @@||cdn.trustcommander.net/privacy/*/privacy_v*.js$domain=tf1.fr
 @@||cdn.trustcommander.net/privacy/*/privacy_v*.js$domain=tf1info.fr
 @@||cdn.tsyndicate.com/sdk/$script,domain=hpav.tv|hpjav.tv
-@@||cdn.tsyndicate.com/sdk/$script,domain=popjav.tv
 @@||cdn.tsyndicate.com/sdk/v*/n.js$domain=popjav.tv
 @@||cdn.tt.omtrdc.net/cdn/target.js
 @@||cdn.turner.com/*.swf
@@ -4921,7 +4927,6 @@
 @@||compressnow.com^$ghide
 @@||compriso.speedtestcustom.com/api/js/servers$stealth
 @@||compriso.speedtestcustom.com^$third-party,stealth
-@@||computerbase.de/img/ads/
 @@||computerbase.de/img/ads/120x600.png
 @@||computerbase.de/js/ads.$script
 @@||computerbase.de^*/consent/$script,xmlhttprequest
@@ -6486,6 +6491,7 @@
 @@||exosrv.com/ads-iframe-display.php$domain=getrelax.cc|sexylove.club
 @@||exosrv.com/ads.js$domain=getrelax.cc|sexylove.club
 @@||exosrv.com/popunder1000.js$script,domain=uflash.tv
+@@||exosrv.com/video-slider.js$domain=xfreehd.com
 @@||expansion.com^$generichide
 @@||expansioneggnog.com^$script,xmlhttprequest
 @@||expedia.*/opinionlab/oo_engine.js$script
@@ -6757,6 +6763,7 @@
 @@||filebebo.com/js/advertisement.js
 @@||filebebo.net^$generichide
 @@||filecheck.ru^$elemhide
+@@||filecity.co.kr^$stealth
 @@||filecr.com/wp-content/plugins/holdback/$script,stylesheet
 @@||filecrypt.cc/js/ad.js^
 @@||filecrypt.co/js/ad.js
@@ -7444,6 +7451,7 @@
 @@||geoguessr.com/_ads/*$script,1p
 @@||geoguessr.com^$xhr,1p
 @@||geoip-db.com/jsonp/$script,third-party
+@@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|luminskin.com|myvanillacard.com|web.aw.ca
 @@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|myvanillacard.com|web.aw.ca
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
 @@||geoip.redirect-ads.com/js/$script,~third-party
@@ -7527,6 +7535,7 @@
 @@||ghacks.net/wp-content/uploads/*/google-plus-
 @@||ghbtns.com/github-btn.html$domain=etcher.io
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
+@@||ghxi.com^$stealth
 @@||gia.jd.com^
 @@||gias.jd.com/js/td.js
 @@||gibchess.com/vendor/cookiesdirective/jquery.cookiesdirective.js
@@ -7633,6 +7642,7 @@
 @@||go.cz.bbelements.com/bb/bb_one2n.$script,domain=hrej.cz
 @@||go.goldbachpoland.bbelements.com/bb/bb_one2n.js$domain=uploaduj.net
 @@||go.goldbachpoland.bbelements.com/please/showit/*$domain=uploaduj.net
+@@||go.gov.il^$stealth
 @@||go.idmnet.bbelements.com/bb/bb_one$script,domain=cba.pl|j.pl|c0.pl|y0.pl
 @@||go.idmnet.bbelements.com/bb/bb_one$script,domain=missmedia.pl
 @@||go.idmnet.bbelements.com/please/showit/$script,domain=cba.pl|j.pl|c0.pl|y0.pl
@@ -8615,6 +8625,7 @@
 @@||gorod-812.ru/wp-content/plugins/easy-vkontakte-connect/js/social-likes.min.js
 @@||gostanford.com/common/templates/dfp/dfp-component-template.html
 @@||gostream.nu/themes/v*/js/ads.js$~third-party
+@@||gosuslugi.ru^$stealth
 @@||gotceleb.com/wp-content/plugins/wppas/templates/js/advertising.js
 @@||gotceleb.com^$ghide
 @@||goto.target.com^|
@@ -10662,6 +10673,7 @@
 @@||ktube.kr^$generichide
 @@||kubadownload.com^$generichide
 @@||kubadownload.com^$ghide
+@@||kun.uz^$stealth
 @@||kuntv.pw/sdembed$domain=strikeout.nu
 @@||kupongid.ru/design/js/adblock_detector.js$script
 @@||kupujemprodajem.com/scripts/ads.js
@@ -11635,6 +11647,7 @@
 @@||mexashare.com/advertisements.js
 @@||mf.advantage.as/if/imcreat.php$domain=mobilmania.cz
 @@||mf.advantage.as/if/imshow.php$domain=f1sport.autorevue.cz
+@@||mfah.org^$stealth
 @@||mfbcdn.net/scripts/ads.js$domain=myfxbook.com
 @@||mfcdn.net/store/$stealth,domain=fanfox.net
 @@||mfcreative.com^*/mbox.js
@@ -11684,6 +11697,7 @@
 @@||mije.net^$generichide
 @@||mijn.kpn.com^$stealth
 @@||mijn.ou.nl/web/ou/$stealth
+@@||mil.by^$stealth
 @@||milanworld.net^$generichide
 @@||milb.com/shared/scripts/bam.tracking.js
 @@||milfnut.net/pop.js
@@ -13990,6 +14004,7 @@
 @@||pq-direct.revsci.net/pql?placementIdList=$domain=player.m6web.fr
 @@||pr0gramm.com^
 @@||pradjadj.com/assets/plugins/*/assets/js/advertisement.min.js
+@@||pravo.by^$stealth
 @@||prayersalltime.com/wp-content/plugins/*/assets/fuckadblock.js
 @@||prebid.adnxs.com/pbc/v*/cache$domain=go.cnn.com
 @@||prebid.adnxs.com^$xmlhttprequest,domain=go.cnn.com
@@ -15207,6 +15222,7 @@
 @@||sdk.privacy-center.org^$domain=jofogas.hu
 @@||sdk.privacy-center.org^$domain=lasprovincias.es
 @@||sdk.privacy-center.org^$domain=ledauphine.com
+@@||sdk.privacy-center.org^$domain=lesoir.be
 @@||sdk.privacy-center.org^$domain=marianne.net
 @@||sdk.privacy-center.org^$domain=programme-television.org
 @@||sdk.privacy-center.org^$domain=public.fr
@@ -17210,6 +17226,7 @@
 @@||thefreedictionary.com^$generichide
 @@||thegamesshop.com.au/controls/ajaxpages/*.aspx?ad=
 @@||thegay.com/js/advertising.js
+@@||thegioididong.com^$stealth
 @@||thegrommet.com/js/onetrust-$script,~third-party
 @@||thehackernews.com/images^
 @@||thehansindia.com/xhr/
@@ -17775,6 +17792,7 @@
 @@||tvnturbo.pl^$generichide
 @@||tvpc.us^$ghide
 @@||tvplayer.com^$stealth
+@@||tvr.by^$stealth
 @@||tvs.jagobd.com^$generichide
 @@||tvserial.it^$ghide
 @@||tvseriesonline.pl/wp-content/themes/tvseriesonline/js/adsbygoogle.js$script
@@ -18024,7 +18042,6 @@
 @@||urlex.org^$generichide
 @@||urlex.org^$ghide
 @@||urlgalleries.net^$generichide
-@@||urlgalleries.net^$generichide! EasyList China
 @@||urlpay.net/wp-content/plugins/*/assets/fuckadblock.js
 @@||us-east-1.amazonaws.com^
 @@||usaa.com^$document
@@ -19190,6 +19207,8 @@
 @@||xfinity.com^$stealth
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
+@@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide! EasyList China
 @@||xfreehd.com^$ghide
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
