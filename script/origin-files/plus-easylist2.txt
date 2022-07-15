@@ -705,9 +705,8 @@ x1337x.eu##.mgbox
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3142
 ! https://github.com/uBlockOrigin/uAssets/issues/12845
+*$script,redirect-rule=noopjs,domain=linkneverdie.net
 linkneverdie.net##+js(nostif, _0)
-linkneverdie.net##+js(acis, DetecAdBlockByLoadJsFile3)
-||optad360.io^$script,redirect-rule=noopjs,domain=linkneverdie.net
 linkneverdie.net###adsqc
 linkneverdie.net##.quangcao
 ||bidtimize.com^
@@ -2825,7 +2824,7 @@ vidlox.*##A[href$=".html"][rel="nofollow norefferer noopener"]
 *$script,redirect-rule=noopjs,domain=arkadium.com
 @@||arkadiumhosted.com^$script,domain=arkadium.com|arkadiumarena.com|games.baltimoresun.com|games.charlotteobserver.com|games.chicagotribune.com|games.dailypress.com|games.express.co.uk|games.mcall.com|games.nydailynews.com|games.orlandosentinel.com|games.sun-sentinel.com|puzzles.bestforpuzzles.com|puzzles.independent.co.uk|puzzles.standard.co.uk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=arkadium.com|arkadiumarena.com|games.baltimoresun.com|games.charlotteobserver.com|games.chicagotribune.com|games.dailypress.com|games.express.co.uk|games.mcall.com|games.nydailynews.com|games.orlandosentinel.com|games.sun-sentinel.com|puzzles.bestforpuzzles.com|puzzles.independent.co.uk|puzzles.standard.co.uk|games.startribune.com
-arkadium.com##[class*="Banner"], [class^="Ad-"]
+arkadium.com##div[class^="GameTemplate-gameAreaTopAdContainer"]
 arkadium.com##+js(nano-sib)
 ##[class^="DisplayAd"]
 ##.ark-ad-message
@@ -16235,6 +16234,7 @@ ihow.info##+js(nostif, getComputedStyle, 250)
 @@||eldia.com^$ghide
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/dv0n5w/torrentgalaxy_ads/
+torrentgalaxy.to##+js(aost, String.prototype.charCodeAt, $)
 *$script,3p,denyallow=bootstrapcdn.com|disqus.com|disquscdn.com|jsdelivr.net|jwpcdn.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,domain=torrentgalaxy.*
 torrentgalaxy.to##.alert
 
@@ -18153,7 +18153,6 @@ limontorrents.com##+js(aopw, _pop)
 @@||limontorrents.com^$ghide
 
 ! https://github.com/uBlockOrigin/uAssets/issues/13751
-luscious.net##+js(nostif, router)
 @@||luscious.net^$ghide
 luscious.net##.ad_lead
 *$script,redirect-rule=noopjs,domain=luscious.net
