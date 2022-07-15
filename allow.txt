@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: kz48QC6JrwNjSfT04TNfqw
+! Checksum: wgiwf7nFb3NXyDAOmRhxqQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-07-15 12:52:20（北京时间） 
-! Total count: 19584
+! Version: 2022-07-15 16:21:10（北京时间） 
+! Total count: 19595
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket! EasyPrivacy
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -301,6 +301,7 @@
 @@/cdn-cgi/pe/bag2?*skimlinks.js$domain=droid-life.com
 @@/cdn-cgi/pe/bag2?*static.getclicky.com%2Fjs$domain=amazingpics.net
 @@/cdn-cgi/pe/bag2?*yieldbot.intent.js$domain=droid-life.com
+@@/cdn/*/tracks-*/*/*.js$stealth,domain=strims.top
 @@/cdn/hls/*/master.txt$stealth,domain=hdizle2.net|diziyo.*|dzyco.*
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/check.php?callback=$script,domain=ytmp3.cc
@@ -656,6 +657,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtrics.nutraingredients-latam.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -4181,6 +4183,8 @@
 @@||cdn.questionpro.com^$domain=questionpro.*
 @@||cdn.radiantmediatechs.com^$domain=kora-online.tv
 @@||cdn.radiostreamlive.com/v*/js/adblock/advert-1bb.js
+@@||cdn.raino.xyz/hls/*.m3u8$stealth
+@@||cdn.raino.xyz/hls/*.ts$stealth
 @@||cdn.rawgit.com/*/lazyload.js$domain=javmost.com
 @@||cdn.rawgit.com/sitexw/FuckAdBlock/*/fuckadblock.js$domain=eskago.pl
 @@||cdn.refersion.com^
@@ -6394,6 +6398,7 @@
 @@||epicgames.com/id/api/analytics$~third-party,xmlhttprequest
 @@||epiotrkow.pl/js/reklama.js
 @@||episode.pmcontent.com^$stealth
+@@||eplayer.click/*/*.php$stealth
 @@||eplayer.click/reclama/ads.js
 @@||eppingforestguardian.co.uk^$ghide
 @@||epst.hindustantimes.com/Js/_show_Ads.js
@@ -10792,6 +10797,7 @@
 @@||leakforums.co^$ghide
 @@||leaklinks.com/js/prebid-ads.js
 @@||leakyfaucet.uk/show_ads.js$script
+@@||leanplum.com^$domain=arkadium.com
 @@||leanplum.com^$domain=nbc.com|leanplum.com
 @@||leapfaucet.com^$script,xmlhttprequest
 @@||leaplunchroom.com^$script,xmlhttprequest
@@ -16261,6 +16267,8 @@
 @@||srs.blastingnews.com/js/adv/_compiled.js$script
 @@||srv.clickfuse.com/showads/adunit.php$domain=aha-music.com
 @@||srv.clickfuse.com/showads/showad.js$domain=aha-music.com
+@@||srv.vhls.ru.com/cdn/*/*/*.m3u8$stealth
+@@||srv.vhls.ru.com/cdn/*/*/*.ts$stealth
 @@||ss.cnnic.cn^
 @@||ss.phncdn.com^$script,domain=redtube.com|redtube.net
 @@||ss999.me/i.php?i=
@@ -16534,6 +16542,7 @@
 @@||static.okccdn.com/builds/desktop/js/tracking_center.$script,domain=okcupid.com
 @@||static.opensubtitles.org/libs/js/common.js
 @@||static.opensubtitles.org/libs/js/urlshortener.js
+@@||static.panda-novel.com/static/*/js/plugins/adview_*_ads.js
 @@||static.parastorage.com/services/editor-elements/dist/facebookshare.$script,third-party
 @@||static.parastorage.com^*/ScrollToPlugin.min.js$domain=wix.com|wixsite.com
 @@||static.parsely.com/p.js$domain=nfl.com
@@ -17934,6 +17943,7 @@
 @@||ulogin.ru/auth.php
 @@||ulogin.ru/fill.php
 @@||ultimate-guitar.com/components/ads/interstitial/
+@@||ultimaterewardspoints.chase.com/web-analytics/ur-reporting.js$~third-party
 @@||ultimedia.com/api/widget/getwidget/$xmlhttprequest,domain=ouest-france.fr
 @@||ultimedia.com/deliver/video$domain=ultimedia.com,xmlhttprequest,other
 @@||ultimedia.com/js/common/jquery.gatracker.js
@@ -18402,6 +18412,7 @@
 @@||viglink.com^$domain=dealsrunner.com
 @@||viid.me^$generichide
 @@||viki.io/cms-uploads/uncategorized/ima3.js$domain=viki.com
+@@||vikistream.com:*/hls/*.m3u8$stealth
 @@||villatalk.com^$ghide
 @@||vimeocdn.com/js_opt/share2_combined.min.js$domain=vimeo.com
 @@||vimeocdn.com^*/facebook.svg$domain=vimeo.com
