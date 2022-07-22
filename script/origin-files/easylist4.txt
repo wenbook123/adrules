@@ -1,15 +1,15 @@
 [Adblock Plus 3.0]
-! Checksum: 7gw1j3tZ3aFf8yUJBV6Htw
+! Checksum: 3I4JA+y2O9UUoZZtD9V/2g
 ! Title: My AdFilters（for PC）
 ! Expires: 2 hours
-! Version: 202207212337
-! Last Modified: 2022年07月21日 23:37
+! Version: 202207220733
+! Last Modified: 2022年07月22日 07:33
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
-! Total count: 73067
+! Total count: 73080
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -892,6 +892,8 @@
 ###advert-article-3
 ###advert-banner
 ###advert-banner-container
+###advert-banner2
+###advert-fireplace
 ###advert-leaderboard
 ###advert-rectangle
 ###advert-skyscraper
@@ -1883,6 +1885,7 @@
 ##.Ads-slot
 ##.AdsBox
 ##.AdsInnov_responsive_ad
+##.AdsSections
 ##.AdsSlot
 ##.Adsense
 ##.Adsinnov_flex_adcontainer
@@ -2078,6 +2081,7 @@
 ##.ad-after-content
 ##.ad-alert-message-text
 ##.ad-alert-wrapper
+##.ad-alignment
 ##.ad-anchor
 ##.ad-area
 ##.ad-atf
@@ -6263,6 +6267,7 @@
 ##a[href*=".erolabs.cloud"]
 ##a[href*=".etechedge.com/"]
 ##a[href*=".gghktv.com/"]
+##a[href*=".greatnff.com/"]
 ##a[href*=".hbjimin.com/"]
 ##a[href*=".hjikv.cc/"]
 ##a[href*=".hndazhan.com/"]
@@ -23678,6 +23683,7 @@ baloo.co,123tvseries.co##+js(abort-current-script, z, stop.bind)
 baltic-course.com,webfail.com###bannertop
 balticlivecam.com##.vjs-poster
 bananamovies.net,youwatchporn.com##+js(window.open-defuser, 1, snowdayonline.xyz)
+bang14.com##+js(abort-current-script, $, setCookie)
 bangkokbiznews.com##.ads-sticky
 bangkokbiznews.com##.default-billboard
 bangkokbiznews.com#?#.col-lg-4 > div > .widget-content:has(> .ads-sticky)
@@ -24880,6 +24886,7 @@ coinmarketcap.com##a[href^="/currencies/"] + div[class^="sc-"]
 coinranking.com,tutorialrepublic.com,adz7short.space,short.croclix.me,milesplit.com,adz7short.space,forum.xda-developers.com,countle.com,chron.com,poidb.com,picmix.com,pornsfw.com##.leaderboard
 coinsearns.com,luckydice.net##.text-center > [class][style*="display:"]
 coinsparty.com##+js(window.open-defuser)
+coinsparty.com,streamgo.to,daddylive.eu,limetorrents.cyou,poscitech.click,daddylive.me,iguarras.com,iputitas.net,coinsurl.com,luckydice.net,coinsearns.com,easymp3converter.com,fastconv.com,akwam.*,dogemate.com,promo-visits.site##+js(abort-on-property-read, afScript)
 coinsparty.mcrypto.club##+js(window.open-defuser)
 cointelegraph.com##.header-zone > div > .container[class$="=="] > div[class$="=="]
 cointelegraph.com#?#.posts-listing__list > li.posts-listing__item:has(> div[class] > div[class] > .banner-blocked)
@@ -28148,6 +28155,7 @@ hentaidude.com###idunder
 hentaidude.com,vevosex.com###videoOverAd
 hentaidude.tv,nxbrew.com,getintocourse.com,mymanagementguide.com,schooldrillers.com,colors-newyork.com,aceofhacking.com,msftnext.com,thispointer.com,scienceabc.com,freesoft.id,winhelponline.com,kerala-travel-tourism.com,indieshortsmag.com,wpghub.com,hentaihaven.org,kodi-tutorials.uk,ahegao.online,camwhores.co,wabetainfo.com,studydhaba.com,justlightnovels.com###custom_html-2
 hentaienglish.com##+js(set-constant, vidorev_jav_plugin_video_ads_object.vid_ads_m_video_ads, '')
+hentaifox.com###slider
 hentaifox.com##+js(abort-on-property-read, adsbyjuicy)
 hentaifox.com##+js(abort-on-property-read, mmpsqbdosy)
 hentaihand.com##main > div.row.mx-auto
@@ -28923,12 +28931,6 @@ instacart.com#$#hide-if-matches-xpath './/div[@id]//div[text()="Sponsored"]/ance
 instacart.com#$#hide-if-matches-xpath './/div[@id]/a[contains(@href, "/campaign/")]//p[.="Sponsored"]/ancestor::div[@id][1]'
 instacart.com#$#hide-if-matches-xpath './/div[@role]//img[@alt="Sponsored"]/ancestor::li//parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/div[@role]//span[text()="Sponsored"]/ancestor-or-self::div[starts-with(@role,"none")]'
-instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(.css-2btcbn-SponsoredProductBadge)
-instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-ads-badge="Sponsored"])
-instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-sp-badge="Sponsored"])
-instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-spp-badge="Sponsored"])
-instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-sppr-badge="Sponsored"])
-instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-spr-badge="Sponsored"])
 instalki.pl###outer > #banner
 instalki.pl##.module-adv
 instamp3.zone##+js(remove-attr, href, a.getUrl.btn)
@@ -29914,7 +29916,6 @@ league-funny.com##.player_bb
 leakite.com##+js(abort-on-property-write, ai_check_block)
 leaklinks.com##+js(abort-current-script, isAdBlockActive)
 leaklinks.com,yourbittorrent2.com##iframe[src^="//a.adtng.com/"]
-leaknud.com##+js(abort-on-property-write, afStorage)
 leaknud.com,daddylive.eu,streamgo.to,imsdb.pw,ikuhentai.net,vidplaystream.top,toolsolutions.top,nikaraw.com,welovestream.xyz,bitlinks.pw##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 learn-c.org,learn-cpp.org,learn-golang.org,learn-html.org,learn-js.org,learn-perl.org,learn-php.org,learncs.org,learnjavaonline.org,learnpython.org,learnrubyonline.org,learnscala.org,learnshell.org,learnsqlonline.org#?##google-ad-right > div[class]:not(:has(> div > a[href]))
 learn-c.org,learn-cpp.org,learn-golang.org,learn-html.org,learn-js.org,learn-perl.org,learn-php.org,learncs.org,learnjavaonline.org,learnpython.org,learnrubyonline.org,learnscala.org,learnshell.org,learnsqlonline.org#?##google-ad-right > h4:contains(Sponsors)
@@ -31608,7 +31609,8 @@ nightfallnews.com##+js(set-constant, adBlockDetected, noopFunc)
 nikaraw.com##div[style*="width: 350px"][style*="height: 250px"]
 nikaraw.com#$#abort-on-property-read afStorage
 nikaraw.com,cashearn.cc##+js(abort-on-property-write, u_cfg)
-nikaraw.com,coinsparty.com,streamgo.to,daddylive.eu,limetorrents.cyou,poscitech.click,daddylive.me,iguarras.com,iputitas.net,coinsurl.com,luckydice.net,coinsearns.com,easymp3converter.com,fastconv.com,akwam.*,dogemate.com,promo-visits.site##+js(abort-on-property-read, afScript)
+nikaraw.com,leaknud.com##+js(abort-on-property-write, afStorage)
+nikaraw.com,pahe.win,javplay.me,hispasexy.org,moviecrumbs.net,segurosdevida.site,xvideos.com,technicalatg.xyz,czxxx.org,ashemaletube.com,moviesand.com,prostylex.org,faptube.xyz,erogarga.com,redhdtube.xxx,nyafilmer.*##+js(abort-on-property-read, popns)
 nikee.net#?#td[valign="Top"] > div[style^=" font-family: Verdana; font-size:"] > div[style*="background-color:"]:contains(Reklama)
 nikonrumors.com##.xoxo > li[id^="custom_html-"]
 nimbusweb.me,mp3download.to##.ads-container
@@ -32065,7 +32067,6 @@ pacogames.com###ga_sp_banner
 pacogames.com###ga_sp_preloader
 pacogames.com##div[id^="gp_"]
 pagalworld.us##+js(window.open-defuser)
-pahe.win,javplay.me,hispasexy.org,moviecrumbs.net,segurosdevida.site,xvideos.com,technicalatg.xyz,czxxx.org,ashemaletube.com,moviesand.com,prostylex.org,faptube.xyz,erogarga.com,redhdtube.xxx,nyafilmer.*##+js(abort-on-property-read, popns)
 paid4.link##+js(remove-class, get-link, a.ybtn.get-link[target="_blank"])
 paid4.link##+js(window.open-defuser)
 paidappstore.xyz##+js(no-xhr-if, pagead2.googlesyndication.com)
@@ -42983,6 +42984,7 @@ zznews.cn##.ad:not([style])
 ||bhphotovideo.com/aperture/shared/js/dataLayer.js
 ||bhphotovideo.com/imp/
 ||bhu9.bankia.es^
+||bhujiwwb.top^
 ||bhxemw.charleskeith.com^
 ||bhyblanket.cn^
 ||bhzsid.deghishop.it^
@@ -46210,6 +46212,7 @@ zznews.cn##.ad:not([style])
 ||d1ros97qkrwjf5.cloudfront.net^
 ||d1t8it0ywk3xu.cloudfront.net^
 ||d1t9uctetvi0tu.cloudfront.net^
+||d1twn22x8kvw17.cloudfront.net^
 ||d1u1byonn4po0b.cloudfront.net^
 ||d1uanozc5el74n.cloudfront.net^
 ||d1upt0rqzff34l.cloudfront.net^
@@ -47294,6 +47297,7 @@ zznews.cn##.ad:not([style])
 ||dmdt.io/collect
 ||dmeq7blex6x1u.cloudfront.net^
 ||dmfjeu.xyz^
+||dmg-dd.oss-accelerate.aliyuncs.com^
 ||dmg0877nfcvqj.cloudfront.net^
 ||dmkt.solutions.cas.org^
 ||dmm.aizhan.com^
@@ -49141,6 +49145,7 @@ zznews.cn##.ad:not([style])
 ||faachen.cn^
 ||fabricww.com^$third-party
 ||fac.fanucamerica.com^
+||facai383.oss-cn-guangzhou.aliyuncs.com^
 ||facebook.com*/impression.php
 ||facebook.com*/impression.php$domain=autobild.de|focus.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tellows.de|transfermarkt.de
 ||facebook.com/a/bz?
@@ -51527,6 +51532,9 @@ zznews.cn##.ad:not([style])
 ||hentaicdn.com/cdn/v2.assets/js/exc
 ||hentaicounter.com^$third-party
 ||hentaidude.com/wp-content/themes/awp/assets/side.js
+||hentaifox.com/dhf.html
+||hentaifox.com/js/ajs.js
+||hentaifox.com/js/slider.js
 ||hentaigold.net^$third-party
 ||hentaionline.net^
 ||hentaistream.com^$popup
@@ -53474,6 +53482,7 @@ zznews.cn##.ad:not([style])
 ||jewgn8une.com^
 ||jewhouca.net^
 ||jewishcontentnetwork.com^$third-party
+||jfecfzzuwevyqc.com^
 ||jfp6.destinia.de^
 ||jfsm5.top^
 ||jg0c.sfr.fr^
@@ -58884,6 +58893,7 @@ zznews.cn##.ad:not([style])
 ||ora.tv/j/ora_evttracking.js
 ||oracle.com/visitorinfo/
 ||oracleinfinity.io^$third-party
+||orahmaggi.xyz^
 ||oranegfodnd.com^
 ||orangeads.fr^
 ||orangeoperation.com^
@@ -60397,6 +60407,7 @@ zznews.cn##.ad:not([style])
 ||preposterousdecidedfollowing.com^
 ||presage.io^$third-party
 ||presetrabbits.com^
+||presidentrestoration.com^
 ||pressablecdn.com/wp-content/uploads/2022/06/OCI-Free-Tier-Campaign-set
 ||pressize.com^
 ||presspage.com/statistics/
@@ -61804,6 +61815,7 @@ zznews.cn##.ad:not([style])
 ||rftslb.com^
 ||rfyqtv2.com^
 ||rgd.com.cn/counter/
+||rggtt.top^
 ||rgiixp.sperry.com^
 ||rgjeow3.com^
 ||rgks.net^
@@ -70046,6 +70058,7 @@ zznews.cn##.ad:not([style])
 ||vgo.vegaoo.pt^
 ||vgo.vegaooparty.com^
 ||vgo.vegaoopro.com^
+||vhanime.com/js/bnanime.js
 ||vhlret.cn^
 ||vhodzh.pdonna.ru^
 ||vi-serve.com^
