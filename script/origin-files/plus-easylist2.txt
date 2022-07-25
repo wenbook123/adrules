@@ -9033,10 +9033,6 @@ nandatrio.com##+js(aopw, adBlockDetected)
 @@||lenouvelliste.com^$ghide
 lenouvelliste.com##.adsbygoogle
 
-! https://forums.lanik.us/viewtopic.php?f=64&t=42128
-@@||v.fwmrm.net/ad/g/$script,domain=helmiradio.fi|hs.fi|is.fi|loop.fi|radioaalto.fi|radiorock.fi|radiosuomipop.fi|supla.fi
-@@||v.fwmrm.net^*ad/g/*_Supla_Audio_HTML5_Live$script
-
 ! https://github.com/NanoMeow/QuickReports/issues/311
 ani-stream.com##+js(no-fetch-if, damoh.ani-stream.com)
 !#if env_chromium
@@ -19156,9 +19152,11 @@ pdfkitapp.com##.clearfix.container.header-main
 @@||shorterall.com^$ghide
 @@||shorterall.com/libs/advertisement$script,1p
 @@||gogshorterall.tk/adsense1.js$script,domain=promo-visits.site|satoshi-win.xyz|shorterall.com
+*$frame,redirect-rule=noopframe,domain=promo-visits.site|satoshi-win.xyz|shorterall.com
 promo-visits.site,satoshi-win.xyz,shorterall.com##+js(set, blurred, false)
 promo-visits.site,satoshi-win.xyz,shorterall.com##+js(set, google_ads, true)
-promo-visits.site,satoshi-win.xyz,shorterall.com##+js(set, detected, noopFunc)
+promo-visits.site,satoshi-win.xyz,shorterall.com##+js(set, window.adsEnd, true)
+promo-visits.site,satoshi-win.xyz,shorterall.com##+js(set, detectedtest, noopFunc)
 shorterall.com##+js(aopr, disableButtonTimer)
 shorterall.com##+js(nosiif, visibility, 1000)
 satoshi-win.xyz,shorterall.com##+js(aopw, _pop)
