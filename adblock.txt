@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: YKL5EBkWjUW3getYfX4Fwg
+! Checksum: hU59/dDSruzGn+0PD1KdJg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-07-30 00:22:50（北京时间） 
-! Total count: 93281
+! Version: 2022-07-30 09:36:01（北京时间） 
+! Total count: 93288
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -8730,6 +8730,7 @@ $removeparam=ml_subscriber
 $removeparam=ml_subscriber_hash
 $removeparam=mms_chref
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com|wsj.com
+$removeparam=mode,domain=omaha.com
 $removeparam=module,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion|scmp.com
 $removeparam=mots,domain=marketscreener.com
 $removeparam=mp,domain=lazada.com.my
@@ -39118,7 +39119,6 @@ nikaraw.com##div[style*="width: 350px"][style*="height: 250px"]
 nikaraw.com#$#abort-on-property-read afStorage
 nikaraw.com,cashearn.cc##+js(abort-on-property-write, u_cfg)
 nikaraw.com,leaknud.com##+js(abort-on-property-write, afStorage)
-nikaraw.com,pahe.win,javplay.me,hispasexy.org,moviecrumbs.net,segurosdevida.site,xvideos.com,technicalatg.xyz,czxxx.org,ashemaletube.com,moviesand.com,prostylex.org,faptube.xyz,erogarga.com,redhdtube.xxx,nyafilmer.*##+js(abort-on-property-read, popns)
 nikee.net#?#td[valign="Top"] > div[style^=" font-family: Verdana; font-size:"] > div[style*="background-color:"]:contains(Reklama)
 nikonrumors.com##.xoxo > li[id^="custom_html-"]
 nimbusweb.me,mp3download.to##.ads-container
@@ -39559,6 +39559,7 @@ opticsky.cn##.p83_gridC > .cc
 optifine.net##+js(remove-attr, onclick, a[href^="download"][onclick="onDownload()"])
 optifine.net#@#.tableAds
 orangespotlight.com##+js(abort-on-property-read, adBlockDetected)
+orbispatches.com##+js(set-constant, viAPItag, noopFunc)
 orbispatches.com##+js(set-constant, window.adsloaded, true)
 order-order.com##+js(no-setTimeout-if, fetchBad)
 oregonlive.com#@##adTower
@@ -42812,6 +42813,8 @@ sunporno.com##+js(abort-on-property-read, exoNoExternalUI38djdkjDDJsio96)
 sunporno.com##.close-invid
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
+super.cz###adPlachtaStart-1 + div[style]
+super.cz###adSkyscraperStart-1 + div[style]
 super.cz##iframe[frameborder][scrolling][src^="https://www.super.cz/"]
 super.cz#$#override-property-read sspPositions null
 super.cz#@#+js(abort-current-script, String.fromCharCode)
@@ -42861,6 +42864,7 @@ sxyprn.com##.tbd
 sxyprn.com##body > div[style^="z-index: 999999;"][style*="position: absolute;"]
 sxyprn.com#$#abort-current-inline-script vast_urls; override-property-read D4zz undefined
 sxyprn.net###yps_player_vpaid
+sxyprn.net,nikaraw.com,pahe.win,javplay.me,hispasexy.org,moviecrumbs.net,segurosdevida.site,xvideos.com,technicalatg.xyz,czxxx.org,ashemaletube.com,moviesand.com,prostylex.org,faptube.xyz,erogarga.com,redhdtube.xxx,nyafilmer.*##+js(abort-on-property-read, popns)
 sydneytoday.com##.mygad
 sydneytoday.com##.news-list > .row > .col-xs-12
 sydneytoday.com##div[style$="-144px;top: 115px;"]
@@ -59497,7 +59501,6 @@ zznews.cn##.ad:not([style])
 ||digital-engineering.de^
 ||digital-metric.com^$third-party
 ||digital.anicom-sompo.co.jp^
-||digital.att.com^
 ||digital.flytedesk.com/js/head.js
 ||digital.opsbase.com^
 ||digitaladvisor.dk^$third-party
@@ -65802,6 +65805,7 @@ zznews.cn##.ad:not([style])
 ||howtogeek.com/emv2/
 ||howtoremoveadblock.com/js/adblock-detector.js$script
 ||hoyxuuk.cn^
+||hozzs.hk^
 ||hp.com^$removeparam=jumpid
 ||hpav.tv/a720.html
 ||hpdwfd2.com^
@@ -70162,6 +70166,8 @@ zznews.cn##.ad:not([style])
 ||linkedin.com/platform-telemetry/
 ||linkedin.com/sensorCollect/
 ||linkedin.com/tscp-serving/
+||linkedin.com^$removeparam=original_referer
+||linkedin.com^$removeparam=refId
 ||linkedprepenseprepense.com^
 ||linker.ba^$third-party
 ||linker.hr^$third-party
@@ -73588,6 +73594,7 @@ zznews.cn##.ad:not([style])
 ||mxtads.com^
 ||mxtoolbox.com/Public/Lookup.aspx/GetNextInlineAd
 ||mxuiso.com^
+||mxwgt.cn^
 ||mxxgs.cn^
 ||mxyxgkuexjr.com^
 ||mxzmz.com/js/
