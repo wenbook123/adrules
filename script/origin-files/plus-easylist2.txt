@@ -691,7 +691,7 @@ money.cnn.com##section.column:has(:scope > #moneySponsors)
 1337x.*##a[href*="//steepto.com/"]
 1337x.*##[href*="vpn"]
 1337x.*,x1337x.*##.no-top-radius div > a[href]:has-text(VPN)
-/^https:\/\/x?1337x\.(?:[0-9a-z]{3,9}\.)?[a-z]{2,4}\/(?:css\/)?(?:images\/)?[0-9a-zA-Z]+\.(?:gif|jpe?g)/$image,1p,domain=1337x.*|1337x.g3g.*|x1337x.*|unblockit.*
+/^https:\/\/x?1337x\.(?:[0-9a-z]{3,9}\.)?[a-z]{2,4}\/(?:css\/)?(?:images\/)?[0-9a-zA-Z]+\.(?:gif|jpe?g|png)/$image,1p,domain=1337x.*|1337x.g3g.*|x1337x.*|unblockit.*
 ||1337x.*/sw.js^
 ! https://github.com/uBlockOrigin/uAssets/issues/635
 ! https://www.reddit.com/r/uBlockOrigin/comments/81hcu5/1337xto_annoying_popup/
@@ -2501,10 +2501,9 @@ hotmovs.*##.video-right-top
 vjav.com##+js(acis, document.getElementById, pop)
 vjav.com##+js(aeld, , window.open)
 vjav.com##+js(nosiif, document.readyState)
-*$script,3p,denyallow=gstatic.com,domain=vjav.com
+*$script,3p,denyallow=gstatic.com,domain=vjav.*
 ||vjav.com/sw.js$script,1p
 vjav.com###in_v
-##[src*="/dutti/"]
 vjav.com##.movable-top:remove()
 vjav.com##.bx-un:remove()
 vjav.com##.iRx9
@@ -2514,6 +2513,8 @@ vjav.*##.video-page__content > .right
 vjav.com##.afs_ads + span[class] > div[style=""]:only-child > div:only-child
 vjav.tube##.jwplayer > .afs_ads + span[class]
 vjav.*##.hv-block
+vjav.*##.fiioed
+vjav.*##.suggestions
 ! pornq .com popups
 pornq.com##+js(aeld, , window.open)
 ||pornq.com/sw.js$script,1p
@@ -8453,6 +8454,7 @@ cambay.tv,camwhoreshd.com,camwhorespy.com,cwtvembeds.com##+js(nowoif)
 cambay.tv,caminspector.net,camwhoreshd.com,camgoddess.tv##+js(set, hasPoped, true)
 camwhorescloud.com##+js(aost, Math.round, inlineScript)
 camwhoreshd.com,cwtvembeds.com##.hola_top_element
+cwtvembeds.com##+js(set, flashvars.protect_block, '')
 cwtvembeds.com##+js(set, flashvars.video_click_url, undefined)
 camwhoreshd.com##+js(aopr, loadTool)
 cambay.tv,camporn.tube,camwhorescloud.com,camwhoreshd.com,camgoddess.tv##.table
@@ -10196,26 +10198,6 @@ gazetedamga.com.tr##+js(aopw, importFAB)
 
 ! https://github.com/NanoMeow/QuickReports/issues/498
 sledujfilmy.to##+js(acis, $, hide)
-
-! https://github.com/uBlockOrigin/uAssets/issues/3011
-forum.soft98.ir##.shad
-soft98.ir##+js(nostif, hasAttributes)
-soft98.ir##+js(nostif, {e()})
-soft98.ir##+js(nosiif, remove)
-soft98.ir##article.card > div[class]:nth-child(5):style(pointer-events:none !important)
-soft98.ir##[class$="-link"] > .text-danger:upward(2)
-soft98.ir,~forum.soft98.ir##img[src*="forum.soft98.ir/"]:upward(1):style(pointer-events:none !important)
-soft98.ir##img[src*="hostdl"]:upward(3):remove()
-soft98.ir##div[id] img[src*="file.soft98.ir"]:remove()
-soft98.ir##.b8d12y:remove()
-soft98.ir###sidebar > section.card > .card-header:has-text(آ):upward(1):remove()
-soft98.ir###sidebar > section.card > .card-header:not(:has-text(لیست)):upward(1):remove()
-soft98.ir###sideb9r-sticky:remove()
-soft98.ir##[id*="r-sticky"]:remove()
-*$image,strict3p,denyallow=cdn.soft98.ir,domain=soft98.ir|~forum.soft98.ir
-||file.soft98.ir^$all
-||cdn.hostdl.com^$all,domain=soft98.ir
-@@||soft98.ir^$ghide
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4368#issuecomment-450665976
 bitlk.com##+js(aopr, app_vars.force_disable_adblock)
