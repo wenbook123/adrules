@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: L12hX667fd6ULGjKp/LyhA
+! Checksum: BpHZsYtfDyNWJzZqVWXoHg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-08-01 16:21:47（北京时间） 
-! Total count: 19741
+! Version: 2022-08-02 00:21:59（北京时间） 
+! Total count: 19713
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket! EasyPrivacy
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -49,6 +49,7 @@
 @@*$image,domain=wstream.video
 @@*$media,domain=camvideos.org
 @@*$script,1p,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
+@@*$script,1p,domain=promo-visits.site|satoshi-win.xyz|shorterall.com
 @@*$script,1p,domain=solvetube.*
 @@*$third-party,image,domain=avaxhome.pro
 @@*$xhr,domain=cbssports.com
@@ -460,7 +461,6 @@
 @@/plugins/noadblock-nice-message/assets/js/ads.js?$script,~third-party
 @@/pop.js|$domain=fistfast.net
 @@/pop.js|$domain=pornve.com
-@@/prebid.$domain=aternos.org
 @@/progress.php?callback=$script,domain=ytmp3.cc
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
@@ -1343,7 +1343,6 @@
 @@||addthisedge.com/live/$xmlhttprequest,domain=serialomaniak.pl
 @@||addtoany.com/menu/page.js$domain=similarpages.com
 @@||adengine.rt.ru^$domain=rt.ru
-@@||adengine.snigelweb.com/aternos.org/*/adngin.js$domain=aternos.org
 @@||adengine.snigelweb.com/paraphraser.io/*/adngin.js$domain=paraphraser.io
 @@||adf.acrosspf.com/js/acrossadx.js$domain=ytn.co.kr
 @@||adf.ly/1market.php
@@ -1741,6 +1740,7 @@
 @@||adx.adform.net/adx$domain=vvvvid.it
 @@||adx.adform.net/adx/$xmlhttprequest,other,domain=tvp.pl
 @@||adx.adform.net/adx/openrtb$xhr,domain=aternos.org
+@@||adx.adform.net/adx/openrtb$xmlhttprequest,domain=aternos.org
 @@||adx.adform.net/videoad/?$domain=vvvvid.it
 @@||adx.yiche.com/cityindex.ashx
 @@||adx.yiche.com/ssp/echo/v1.0/en?*,*,*&cs=
@@ -2661,7 +2661,6 @@
 @@||arubedo.*^$ghide
 @@||arukikata.com/images_ad/$image,~third-party
 @@||arvest.com/common/urchin/urchin.js
-@@||as-sec.casalemedia.com/cygnus|$domain=aternos.org
 @@||as.com^$ghide
 @@||as.uncn.jp/uwt/$script,domain=www3.nissan.co.jp
 @@||asadcdn.com/adlib/$css,domain=bild.de
@@ -3160,8 +3159,8 @@
 @@||bibblio.org^*/bib-related-content.min.js$script,domain=hindawi.com
 @@||bicycling.com/*ad$script
 @@||bid.g.doubleclick.net/$object-subrequest,domain=play.tv|playtv.fr
-@@||bidder.criteo.com/cdb$xmlhttprequest,domain=aternos.org
 @@||bidder.criteo.com/cdb?$xhr,domain=aternos.org
+@@||bidder.criteo.com/cdb?$xmlhttprequest,domain=aternos.org
 @@||bigad.me^$domain=bigad.me
 @@||bigappboi.com/captchalocker/js/popup.js.php
 @@||bigappboi.com/cp/js/captcha.js.php
@@ -3561,9 +3560,7 @@
 @@||c.ad6media.fr/l.js$domain=scan-manga.com
 @@||c.ad6media.fr/l.js$script,domain=fit.sh
 @@||c.adsco.re/|$script,domain=hotfrog.*
-@@||c.amazon-adsystem.com/*/bid?$xmlhttprequest,domain=aternos.org
 @@||c.amazon-adsystem.com/aax2/amzn_ads.js$domain=mylifetime.com
-@@||c.amazon-adsystem.com/aax2/apstag.js$domain=aternos.org
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=baltimoresun.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=edition.cnn.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=epochtimes.de
@@ -3581,8 +3578,6 @@
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=wivb.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=businessinsider.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=mylifetime.com
-@@||c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js$domain=aternos.org
-@@||c.amazon-adsystem.com/cdn/prod/config?$domain=aternos.org
 @@||c.betrad.com/geo/h1.js$domain=video.corriere.it
 @@||c.betrad.com/pub/c/*.js$domain=video.corriere.it
 @@||c.brightcove.com/services/mobile/streaming/index/*.m3u8$domain=conservativetribune.com
@@ -4254,21 +4249,11 @@
 @@||cdn.segmentify.com^$domain=pttavm.com
 @@||cdn.sendpulse.com/js/push/*.js$domain=surfingbird.ru
 @@||cdn.smartclip-services.com^$script,domain=cerebriti.com
-@@||cdn.snigelweb.com/adconsent/*/adconsent__tcfapi.js$domain=aternos.org
 @@||cdn.snigelweb.com/adconsent/*/adconsent__tcfapi.js$domain=paraphraser.io
-@@||cdn.snigelweb.com/adconsent/*/views/adconsent__tcfapi_*.js$domain=aternos.org
 @@||cdn.snigelweb.com/adconsent/*/views/adconsent__tcfapi_en.js$domain=paraphraser.io
-@@||cdn.snigelweb.com/adconsent/adconsent.js$domain=aternos.org
-@@||cdn.snigelweb.com/adconsent/adconsent_bp2starter.js$domain=aternos.org
-@@||cdn.snigelweb.com/adengine/aternos.org/loader.js$domain=aternos.org
 @@||cdn.snigelweb.com/adengine/falixnodes.net/loader.js$domain=panel.falixnodes.net
 @@||cdn.snigelweb.com/adengine/paraphraser.io/loader.js$domain=paraphraser.io
-@@||cdn.snigelweb.com/gvl/vendor-list.json$domain=aternos.org
 @@||cdn.snigelweb.com/gvl/vendor-list.json$domain=paraphraser.io
-@@||cdn.snigelweb.com/prebid/*/prebid.js$domain=aternos.org
-@@||cdn.snigelweb.com/pub/aternos.org/*/snhb-aternos.org.min.js$domain=aternos.org
-@@||cdn.snigelweb.com/sncmp/latest/sncmp.min.js$domain=aternos.org
-@@||cdn.snigelweb.com/snhb/snhbGlobalSettings.js$domain=aternos.org
 @@||cdn.sofifa.org/scripts/main.min.js$domain=sofifa.com
 @@||cdn.sorsware.com/bsl/ContentImages/Banner/*.gif$domain=bsl.com.tr
 @@||cdn.spilcloud.com/*/fuckadblock.js
@@ -4318,8 +4303,6 @@
 @@||cdn.taboola.com^$domain=samsung.com|thestartmagazine.com
 @@||cdn.tagcommander.com/cmp-api/cmp.js$domain=tf1.fr
 @@||cdn.tagcommander.com/cmp-api/cmp.js$script,domain=tf1.fr
-@@||cdn.tech426.com/prebid/*/prebid.js$domain=aternos.org
-@@||cdn.tech426.com/pub/aternos.org/*/snhb-aternos.org.min.js$domain=aternos.org
 @@||cdn.theatlantic.com/assets/static/*/js/advertisement.2.js
 @@||cdn.trackjs.com/agent/v*/latest/t.js$domain=adshnk.com|pairom.com|adshrink.it
 @@||cdn.trackjs.com/agent/v*/latest/t.js$script,domain=adshrink.it
@@ -4827,7 +4810,6 @@
 @@||cmp.faktor.mgr.consensu.org^$domain=consent.talpanetwork.com
 @@||cmp.quantcast.com^$domain=comingsoon.it
 @@||cmp.quantcast.com^*/cmp2.js$domain=express.co.uk
-@@||cmp.tech426.com/latest/sncmp.min.js$domain=aternos.org
 @@||cmpv2.cookist.it/embed2/rmi/1.2.5|$subdocument
 @@||cmpv2.fanpage.it/embed2/rmi/1.2.5|$subdocument
 @@||cms.gentwo.com/pulses/$~third-party,xmlhttprequest
@@ -6739,8 +6721,8 @@
 @@||fastcontentdelivery.com^$script,domain=flashx.to|flashx.tv
 @@||fastdrama.me/scripts/fuckadblock.js
 @@||fastenfather.com^$script,xmlhttprequest
-@@||fastlane.rubiconproject.com/a/api/fastlane.json$domain=aternos.org
 @@||fastlane.rubiconproject.com/a/api/fastlane.json?$xhr,domain=aternos.org
+@@||fastlane.rubiconproject.com/a/api/fastlane.json?$xmlhttprequest,domain=aternos.org
 @@||fastly.net/js/_ads/prebid-*-min.js$domain=spanishdict.com
 @@||fastly.net^$domain=www.cbs.com
 @@||fastmail.com^$generichide
@@ -6939,7 +6921,6 @@
 @@||flair.be/js/default/*_jq.$script
 @@||flakyfeast.com^$script,xmlhttprequest
 @@||flashstreams.net^$stealth
-@@||flashtalking.com/lgc|$domain=aternos.org
 @@||flashx.*/counter.cgi$script
 @@||flashx.*/counter.cgi?$~third-party
 @@||flashx.*/flashx.php?f=fail&fxfx=$~third-party
@@ -7794,7 +7775,6 @@
 @@||google-analytics.com/analytics.js$domain=antenaplay.ro
 @@||google-analytics.com/analytics.js$domain=apkmaza.net
 @@||google-analytics.com/analytics.js$domain=askona.ru
-@@||google-analytics.com/analytics.js$domain=aternos.org
 @@||google-analytics.com/analytics.js$domain=avast.com
 @@||google-analytics.com/analytics.js$domain=avselectro.ru
 @@||google-analytics.com/analytics.js$domain=beinsports.com
@@ -7980,6 +7960,8 @@
 @@||google-analytics.com/analytics.js$domain=zolotoyvek.ua
 @@||google-analytics.com/analytics.js$script,domain=hobbyhall.fi
 @@||google-analytics.com/analytics.js$script,domain=m.dcinside.com|mupload.dcinside.com
+@@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=expressvpn.com
+@@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=nordvpn.com,important
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=tv-media.at,important
 @@||google-analytics.com/analytics.js$stealth,domain=tv-media.at
 @@||google-analytics.com/analytics.js^$domain=cosstores.com
@@ -8397,6 +8379,7 @@
 @@||googletagmanager.com/gtm.js$domain=elnuevodia.com
 @@||googletagmanager.com/gtm.js$domain=evernote.com
 @@||googletagmanager.com/gtm.js$domain=evofone.com
+@@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||googletagmanager.com/gtm.js$domain=falkirkherald.co.uk
 @@||googletagmanager.com/gtm.js$domain=filgoal.com
 @@||googletagmanager.com/gtm.js$domain=filmzie.com
@@ -8947,17 +8930,17 @@
 @@||hb.improvedigital.com/pbw/headerlift.min.js$domain=spielen.com
 @@||hb.improvedigital.com/pbw/prebid/prebid-idhb-v*.min.js$domain=html5.gamedistribution.com
 @@||hb.improvedigital.com/pbw/prebid/prebid-v*-pbjsgd.min.js$domain=html5.gamedistribution.com
-@@||hb.vntsm.com/*/live/*$domain=aternos.org
 @@||hb.vntsm.com/assets/venatus_gscale.png$domain=duellinksmeta.com
 @@||hb.vntsm.com/v2/live/$xhr,domain=aternos.org
+@@||hb.vntsm.com/v2/live/$xmlhttprequest,domain=aternos.org
 @@||hb.vntsm.com/v3/live/ad-manager.min.js$script,domain=aternos.org
 @@||hbimg.huabanimg.com^$stealth,domain=huaban.com
 @@||hboav.com/guga/adss.js
 @@||hboav.com/js/wlfloat.js
 @@||hbogo.pl^$extension
 @@||hbomax.com^$generichide
-@@||hbopenbid.pubmatic.com/translator$domain=aternos.org
 @@||hbopenbid.pubmatic.com/translator?source=prebid-client$xhr,domain=aternos.org
+@@||hbopenbid.pubmatic.com/translator?source=prebid-client$xmlhttprequest,domain=aternos.org
 @@||hbu.cn^*/ad.css?$stylesheet
 @@||hc360.com/ad/*.css
 @@||hcaptcha.com/*/api.js
@@ -9220,6 +9203,7 @@
 @@||hsn.com/coremetrics/cmcustom.js
 @@||ht.cdn.turner.com/*.smil$document
 @@||htlb.casalemedia.com/cygnus?s=$xhr,domain=aternos.org
+@@||htlb.casalemedia.com/cygnus?s=$xmlhttprequest,domain=aternos.org
 @@||htlbid.com/*/motherjones.com/htlbid.js$domain=motherjones.com
 @@||html-online.com^$ghide
 @@||html.net^$generichide
@@ -9338,7 +9322,6 @@
 @@||ib.adnxs.com/getuidj|$domain=independent.co.uk
 @@||ib.adnxs.com/opt$domain=wearemiq.com|infectiousmedia.com
 @@||ib.adnxs.com/ptv$domain=tele5.de
-@@||ib.adnxs.com/ut/v3/prebid|$domain=aternos.org
 @@||ib.adnxs.com^$app=se.prisjakt.pricespy
 @@||ibadual.com/design/ibadual/javascript/cookieconsent.min.js$~third-party
 @@||ibeta-www.oss-cn-beijing.aliyuncs.com^$stealth,domain=betahub.cn
@@ -9879,6 +9862,7 @@
 @@||imasdk.googleapis.com^$app=com.zattoo.player|com.sfr.android.redtv
 @@||imasdk.googleapis.com^$app=de.cellular.focus
 @@||imasdk.googleapis.com^$app=fr.tf1.mytf1
+@@||imasdk.googleapis.com^$app=it.rainet|it.radiorai
 @@||imasdk.googleapis.com^$app=jp.hamitv.hamiand1
 @@||imasdk.googleapis.com^$app=jp.naver.line.android
 @@||imasdk.googleapis.com^$app=pl.polsatgo
@@ -11255,7 +11239,6 @@
 @@||m.myplaycity.com/online/*/admanager.js
 @@||m.olx.pl/api/v*/ads/*?adId=
 @@||m.photos.timesofindia.com^$ghide
-@@||m.postimees.ee/static/libraries/fuckadblock.js
 @@||m.qpic.cn^
 @@||m.sports.naver.com/*/gamecenter/*tab=record$elemhide,jsinject
 @@||m.thepiratebay.org/comments.php
@@ -11665,6 +11648,7 @@
 @@||megaxtreme.net^$generichide
 @@||megaxz.com/ext/*.png#/
 @@||megaxz.com^$generichide
+@@||mein.eon-energie.at/qpo/portal/eonat/frontend/css/cookiebar.css
 @@||meine.postbank.de/translations/*-cookieDisclaimer-*.json$~third-party,xmlhttprequest
 @@||meituan.net/bs/js/*/js/tracker.js
 @@||meizu.com/fileserver/ad/img/
@@ -12013,6 +11997,7 @@
 @@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mp.4dex.io/prebid$xhr,domain=aternos.org
+@@||mp.4dex.io/prebid$xmlhttprequest,domain=aternos.org
 @@||mp.weixin.qq.com/mp/qrcode?$removeparam=scene
 @@||mp3fy.com^$generichide
 @@||mp3fy.com^$ghide
@@ -12761,7 +12746,6 @@
 @@||onet.pl/*?*utm_campaign=$removeparam
 @@||onet.pl/?utm_source=$removeparam
 @@||onet.pl/?utm_source=$stealth
-@@||onetag-sys.com/prebid-request$domain=aternos.org
 @@||onetrust.com/consent/$domain=panasonic.com|technics.com
 @@||onetrust.com/consent/*.json$domain=nintendolife.com
 @@||onetrust.com/request/$xmlhttprequest
@@ -12976,7 +12960,6 @@
 @@||pagead2.googlesyndication.com/*show_ads$script,domain=napisy24.pl
 @@||pagead2.googlesyndication.com/favicon.ico$domain=maxedtech.com
 @@||pagead2.googlesyndication.com/getconfig/sodar$domain=jaanmusic.in
-@@||pagead2.googlesyndication.com/getconfig/sodar?$domain=aternos.org
 @@||pagead2.googlesyndication.com/getconfig/sodar?$xmlhttprequest,domain=spiegel.de
 @@||pagead2.googlesyndication.com/page/js/adsbygoogle.js?_=$domain=thehouseofportable.com
 @@||pagead2.googlesyndication.com/pagead$xmlhttprequest,script,domain=freemcserver.net
@@ -13076,6 +13059,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dl.ccbluex.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dl2f.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=docs-python.ru
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dogeen.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=door2windows.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.mokeedev.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.pixelexperience.org|knowfacts.info|lacoste.com|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|teemo.gg|thefreedictionary.com
@@ -14144,6 +14128,7 @@
 @@||pravo.by^$stealth
 @@||prayersalltime.com/wp-content/plugins/*/assets/fuckadblock.js
 @@||prebid.a-mo.net/a/c$xhr,domain=aternos.org
+@@||prebid.a-mo.net/a/c$xmlhttprequest,domain=aternos.org
 @@||prebid.adnxs.com/pbc/v*/cache$domain=go.cnn.com
 @@||prebid.adnxs.com^$xmlhttprequest,domain=go.cnn.com
 @@||precheck-in.adsjudo.com/*/advertisement.js^
@@ -14172,8 +14157,8 @@
 @@||prezzibenzina.it/www2/images/btn_facebook_new.png
 @@||prf.hn^
 @@||prfshop.ru/*/cookies-policy/
-@@||prg.smartadserver.com/prebid/v1$domain=aternos.org
 @@||prg.smartadserver.com/prebid/v1$xhr,domain=aternos.org
+@@||prg.smartadserver.com/prebid/v1$xmlhttprequest,domain=aternos.org
 @@||prgwonders.blogspot.com^$generichide
 @@||pri.org^$generichide
 @@||pricegrabber.com/js/combine.js.php?*=s_code_h.
@@ -14467,7 +14452,6 @@
 @@||quantcast.mgr.consensu.org/GVL-v2/vendor-list.json
 @@||quantcast.mgr.consensu.org/GVL-v2/vendor-list.json$domain=joe.ie|joe.co.uk
 @@||quantcast.mgr.consensu.org/choice/$domain=joe.ie|joe.co.uk
-@@||quantcast.mgr.consensu.org/choice/*$domain=aternos.org
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=0calc.es
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=express.co.uk
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=independentespanol.com
@@ -15462,7 +15446,6 @@
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=theinquirer.net
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=wtf.nl
 @@||securepubads.g.doubleclick.net/gampad/ads$xmlhttprequest,domain=tetrads.io
-@@||securepubads.g.doubleclick.net/gampad/ads?$domain=aternos.org
 @@||securepubads.g.doubleclick.net/gampad/ads?$domain=bloomberg.com
 @@||securepubads.g.doubleclick.net/gampad/ads?$domain=league-funny.com
 @@||securepubads.g.doubleclick.net/gampad/ads?$domain=purepeople.com
@@ -15519,7 +15502,6 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=agario-play.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=akinator.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=arcai.com
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=aternos.org
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=autocentre.ua
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=beinsports.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=castlesiege.io
@@ -15590,11 +15572,9 @@
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=downdetector.in
 @@||securepubads.g.doubleclick.net/pagead/ppub_config?$domain=bloomberg.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config?$domain=purepeople.com
-@@||securepubads.g.doubleclick.net/pagead/ppub_config?ippd=aternos.org$domain=aternos.org
 @@||securepubads.g.doubleclick.net/pcs/view/*$xhr,domain=joyn.de
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=10play.com.au
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=agario-play.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=aternos.org
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=avclub.com|clickhole.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=bloomberg.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=castlesiege.io
@@ -16120,10 +16100,6 @@
 @@||sndcdn.com/images/connect_social.png$domain=soundcloud.com
 @@||sneakystew.com^$script,xmlhttprequest
 @@||snesfun.com/js/ads.js$script
-@@||snigel-d.openx.net/*/arj$domain=aternos.org
-@@||snigel-d.openx.net/w/1.0/arj?cc=1$domain=aternos.org
-@@||snigelweb.com/*/argus.js$domain=aternos.org
-@@||snigelweb.com/bp/$domain=aternos.org
 @@||snipboard.io^$ghide
 @@||snippets.studybreakmedia.com/doubleclick/ads.js
 @@||snopes.com^$generichide
@@ -16627,13 +16603,7 @@
 @@||static.go3.tv/file/go3/resources/*/onetrust.html$domain=play.tv3.lt|tv3play.skaties.lv
 @@||static.googles.com/adserver/adlogger_tracker.php$domain=cnbeta.com
 @@||static.gota.infomaker.io^$stealth,domain=blt.se
-@@||static.h-bid.com/aternos.org/*/snhb-aternos.org.min.js$domain=aternos.org
-@@||static.h-bid.com/gdpr/cmp.stub.js$domain=aternos.org
-@@||static.h-bid.com/prebid/*/prebid.js$domain=aternos.org
 @@||static.h-bid.com/prebid/*/prebid.js$domain=makeuseof.com
-@@||static.h-bid.com/sncmp/sncmp.min.js$domain=aternos.org
-@@||static.h-bid.com/sncmp/sncmp_stub.min.js$domain=aternos.org
-@@||static.h-bid.com/snhb/snhbGlobalSettings.js$domain=aternos.org
 @@||static.hdslb.com/ad-images/$image
 @@||static.hentai.direct/$stealth,image
 @@||static.hltv.org/images/*/AD.gif$image
@@ -17618,8 +17588,8 @@
 @@||tlc.com^$generichide
 @@||tldrify.com/static/*/sharebox.$script,stylesheet,~third-party
 @@||tldrify.com^$generichide
-@@||tlx.3lift.com/header/auction$domain=aternos.org
 @@||tlx.3lift.com/header/auction?$xhr,domain=aternos.org
+@@||tlx.3lift.com/header/auction?$xmlhttprequest,domain=aternos.org
 @@||tm-offers.gamingadult.com/?offer=$frame,domain=gamcore.com|69games.xxx
 @@||tm.jsuol.com.br/uoltm.js$domain=batepapo.uol.com.br|noticias.uol.com.br|economia.uol.com.br
 @@||tm.jsuol.com.br/uoltm.js$domain=hugogloss.uol.com.br
@@ -18396,6 +18366,7 @@
 @@||velet.jp/images/adv/$image,~third-party
 @@||velholdt.no/media/catalog/*/300x250/
 @@||venatusmedia-d.openx.net/w/1.0/arj$xhr,domain=aternos.org
+@@||venatusmedia-d.openx.net/w/1.0/arj$xmlhttprequest,domain=aternos.org
 @@||vendiscuss.net/uploads/set_resources_*ad$script
 @@||vendorlist.consensu.org/*/vendorlist.json^$domain=reuters.com
 @@||vendorlist.consensu.org/vendorlist.json$domain=cmp.cookist.it
@@ -19404,6 +19375,7 @@
 @@||xenforo.pk/js/*.js?_v=
 @@||xenforo.pk^$script,1p
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
+@@||xes.pl/sign-in.html$stealth
 @@||xfinity.com^$stealth
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
