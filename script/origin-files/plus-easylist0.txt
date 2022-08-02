@@ -6659,6 +6659,20 @@ gourmetscans.net##+js(acis, document.oncontextmenu)
 ! https://github.com/uBlockOrigin/uAssets/issues/14170
 minimum-wage.org##.alert-dismissible
 
+! https://github.com/uBlockOrigin/uAssets/issues/14193
+oricon.co.jp##+js(ra, oncontextmenu|onmousedown|onselectstart, .all-lyrics)
+oricon.co.jp##.all-lyrics:style(-webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/14191
+morosedog.gitlab.io##+js(set, checkAds, noopFunc)
+
+! https://github.com/uBlockOrigin/uAssets/issues/14183
+awebstories.com##+js(acis, document.oncontextmenu)
+awebstories.com##+js(set, stopPrntScr, noopFunc)
+awebstories.com##+js(set, disableSelection, noopFunc)
+||awebstories.com/wp-content/plugins/secure-copy-content-protection^$all
+awebstories.com##*::selection:style(background-color:#338FFF !important;)
+
 
 
 
