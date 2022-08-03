@@ -1,8 +1,8 @@
-! Checksum: lWlIpC5ck4j4VDOp6i4zRg
+! Checksum: 8CGGslv+CgndZC77wyq/0g
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.62.96
-! TimeUpdated: 2022-08-03T07:31:01+00:00
+! Version: 2.0.63.1
+! TimeUpdated: 2022-08-03T15:31:03+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2238,9 +2238,6 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
 !
 !
-! https://github.com/uBlockOrigin/uAssets/issues/14210
-bilibili.com#@?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
-bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--ad-img) { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123608
 hyperallergic.com#@#.ad-above-footer
 ! https://github.com/easylist/easylistchina/issues/201
@@ -3499,7 +3496,6 @@ ubmcmm.baidustatic.com
 ##.bus_adsbox
 ##.buyaoa-below
 ##.cari-ads
-##.carousel-inner > a[href="/hth.html"]
 ##.cfa_popup
 ##.chat-ad
 ##.chat-right-ad
@@ -3680,7 +3676,7 @@ ubmcmm.baidustatic.com
 ##.room-ad-top
 ##.room-ad-video-down
 ##.rotate-adv
-##.row > a[href="/hth.html"]
+##a[title][href="/hth.html"]
 ##.rtcenter_game
 ##.scupioadslot
 ##.self-gg
@@ -3694,7 +3690,6 @@ ubmcmm.baidustatic.com
 ##.t5[style="border:1px solid #a6cbe7;"] + .t[style="margin-top:8px"]
 ##.tab-content + .col-pd
 ##.table_ad
-##.text-center > a[href="/hth.html"]
 ##.textadlist
 ##.theme_custom_slidebox-ad-below
 ##.themepark_advertisement
@@ -4928,6 +4923,13 @@ ubmcmm.baidustatic.com
 ||zp1999.online^
 ||ifczkst.cn^
 ||juringupstage.com^
+||twuafbj.cn^
+||pjcdjtn.cn^
+||tzcfyre.cn^
+||ijre.club^
+||honqdyg.cn^
+||hnmucsm.cn^
+||huanleshijie.top^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
