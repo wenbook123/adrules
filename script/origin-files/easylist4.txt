@@ -1,15 +1,15 @@
 [Adblock Plus 3.0]
-! Checksum: 2NhjFdreEZOhJr1xjtnXNw
+! Checksum: WZ4QAt0PZKtR77YvBhNzqA
 ! Title: My AdFilters（for PC）
 ! Expires: 2 hours
-! Version: 202208032338
-! Last Modified: 2022年08月03日 23:38
+! Version: 202208040732
+! Last Modified: 2022年08月04日 07:32
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
-! Total count: 75208
+! Total count: 75219
 ###ADInterest
 ###ADSLOT_1
 ###ADTOP
@@ -5786,7 +5786,6 @@
 ##.tl-ad
 ##.tm-ad
 ##.tm-ads
-##.tm3all2h4b
 ##.tmo-ad
 ##.tmo-ad-ezoic
 ##.tmsads
@@ -13589,7 +13588,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /stats?event=
 /stats?object
 /stats?referer=
-/stats?sid=
 /stats?style$~xmlhttprequest
 /statsVisitesAnnonces?
 /stats_adcalls/*
@@ -20943,7 +20941,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||short24.pw^$generichide
 @@||shortadd.com^$generichide
 @@||shortzon.com^$generichide
-@@||shoutcast.hubu.fm/stats?sid=$script,~third-party
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/publishertag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/pubtag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -28906,7 +28903,7 @@ insider.gr##.admanager-content
 insidermonkey.com##.top-left-ad
 insidertracking.com##+js(no-setTimeout-if, no_ad, 15000)
 insomnia.gr,kingsinteriors.co.uk#@#.adlink
-instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[@data-ssp-badge="Sponsored"]/ancestor::li[1]'
+instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[@*="Sponsored"]/ancestor::li[1]'
 instalki.pl###outer > #banner
 instalki.pl##.module-adv
 instamp3.zone##+js(remove-attr, href, a.getUrl.btn)
@@ -36304,7 +36301,6 @@ walmart.com#?#div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:-abp-has(div[dat
 walmart.com#?#li.items-center:-abp-has(div[data-ad-component-type="wpa-tile"])
 wan.douyu.com
 wandhi.com##a[style="display: inline-block;position: relative"]
-wangqianfang.cn##a[href^="http://mai.qnfuli.com/"]
 wankoz.com##div[data-banner]
 wanqu.co##.left-nav-panel:first-child
 wantgoo.com###FixModal
@@ -36880,6 +36876,7 @@ xhamster.one#$#abort-on-property-read wih-popunder; abort-on-property-write data
 xhamster11.com##+js(abort-on-property-write, wio-vpopunder)
 xhamster2.com,xhamster.one#$#abort-current-inline-script document.createElement initTabUnder
 xhamster5.desi##+js(abort-on-property-read, wih-popunder)
+xhand.com##.video div[style^="text-align: center"]
 xhardhempus.net##+js(no-setTimeout-if, test.offsetHeight)
 xhardhempus.net#@#.adsbygoogle
 xhd.cn##.xinad
@@ -41100,6 +41097,7 @@ zznews.cn##.ad:not([style])
 ||aggestose.com^
 ||aggressivefrequentneckquirky.com^
 ||aghtag.tech^$third-party
+||agielspick.com^
 ||agilecrm.com^$third-party
 ||agilesrv.com^$third-party
 ||agillic.eu^$third-party
@@ -42664,6 +42662,7 @@ zznews.cn##.ad:not([style])
 ||auspiciousyard.com^
 ||austinareahomeschoolers.com^
 ||autchoog.net^
+||autcxfcdlev.com^
 ||auteboon.net^
 ||authcaptcha.com^
 ||authedmine.eu^$third-party
@@ -44230,6 +44229,7 @@ zznews.cn##.ad:not([style])
 ||bred4tula.com^
 ||breedingunspeakableplaice.com^
 ||breedtagask.com^
+||breemi.com^
 ||brftedjb.com^
 ||brid.tv^$script,domain=67hailhail.com|deepdaledigest.com|forevergeek.com|geordiebootboys.com|hammers.news|hitc.com|molineux.news|nottinghamforest.news|rangersnews.uk|realitytitbit.com|spin.com|tbrfootball.com|thechelseachronicle.com|thefocus.news|thewrap.com|washingtonexaminer.com
 ||bridge-ashiato.appspot.com/beacon/
@@ -46459,6 +46459,7 @@ zznews.cn##.ad:not([style])
 ||coordinatedbedroom.com^
 ||coordinatedcoat.com^$third-party
 ||coordinatedcub.com^$third-party
+||coozoaji.net^
 ||copilot-telemetry.githubusercontent.com^
 ||copperchickens.com^
 ||copperegg.com^$third-party
@@ -46991,6 +46992,7 @@ zznews.cn##.ad:not([style])
 ||cxense.com^$third-party
 ||cxfzw.cn^
 ||cxgfq.pinlue.com^
+||cxhjpcrvxd.com^
 ||cxkivjsorpburb.com^
 ||cxmygp.xyz^
 ||cxnroh6u.xyz^
@@ -49917,6 +49919,7 @@ zznews.cn##.ad:not([style])
 ||esearchvision.com^$third-party
 ||eservices.lubetech.com^
 ||esheprice.online^
+||eshkol.io^$popup
 ||eshouloo.net^
 ||esignificanvi.info^
 ||eskimi.com^$third-party
@@ -52201,6 +52204,7 @@ zznews.cn##.ad:not([style])
 ||gostats.ro^$third-party
 ||gostats.ru^$third-party
 ||gostats.vn^$third-party
+||gosweethomes.com^
 ||got-to-be.com^
 ||got-to-be.com^$popup
 ||gotadd.cn^
@@ -53097,6 +53101,7 @@ zznews.cn##.ad:not([style])
 ||hnjinruda.xyz^
 ||hnjls.com.cn^
 ||hnltcw.com^
+||hnmucsm.cn^
 ||hnnuaa.willhaben.at^
 ||hnnuange.com^
 ||hnshangzhongxia.com^
@@ -53321,6 +53326,7 @@ zznews.cn##.ad:not([style])
 ||huaerduo.com^
 ||huahuagoudc.com^
 ||huahuaxiji.love^
+||huanleshijie.top^
 ||huanqiu.com/resource/js/base
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 ||huarenjie.com/attachment/myfiles/
@@ -55804,6 +55810,7 @@ zznews.cn##.ad:not([style])
 ||kvexx.com^
 ||kvezz.com^
 ||kvhaa.com^
+||kvjkkwyomjrx.com^
 ||kvkaa.com^
 ||kvlzsbxn.com^
 ||kvskic.jadore-jun.jp^
@@ -58615,6 +58622,7 @@ zznews.cn##.ad:not([style])
 ||mignished-sility.com^
 ||migrantspiteconnecting.com^
 ||migrantspiteconnecting.com^$popup
+||miixtocmpfjwlw.com^
 ||mikanani.me/images/Masha/
 ||mil.news.sina.com.cn/iframe/109/2012/1024/photo.html
 ||mil.news.sina.com.cn/iframe/109/2013/1015/hotpic.html
@@ -64735,6 +64743,7 @@ zznews.cn##.ad:not([style])
 ||semiglorifyseek.com^
 ||semiocast.com^$third-party
 ||semirawbatter.com^
+||semjurljffawpt.com^
 ||semnicneposilejte.cz^$third-party
 ||semtracker.de^$third-party
 ||send.preply.com^
@@ -68184,6 +68193,7 @@ zznews.cn##.ad:not([style])
 ||strategycompanion.actonservice.com^
 ||straticjustice.com^
 ||strawberry.basf.com^
+||strcloud.in/stat/
 ||strdef.world/js/acheck.js
 ||streakattempt.com^
 ||stream.cz/*/vast?
@@ -69284,6 +69294,7 @@ zznews.cn##.ad:not([style])
 ||thorsado.net^
 ||thoudroa.net^
 ||thoughtmetric.io^$third-party
+||thoupsou.net^
 ||threadloom.com/ga/
 ||threat-analytics.com^$third-party
 ||threatbook.cn^$third-party

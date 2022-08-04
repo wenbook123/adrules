@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: azrhLoQnJhWl0LpALmN+jQ
+! Checksum: p+y1gOxhd4MpV08lSnmQVQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-08-04 00:21:15（北京时间） 
-! Total count: 92981
+! Version: 2022-08-04 09:11:11（北京时间） 
+! Total count: 92994
 ###ADInterest
 ###ADSLOT_1
 ###ADTOP
@@ -16713,7 +16713,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /stats?event=
 /stats?object
 /stats?referer=
-/stats?sid=
 /stats?style$~xmlhttprequest
 /statsVisitesAnnonces?
 /stats_adcalls/*
@@ -24050,6 +24049,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||negotiatetime.com^$script,xmlhttprequest
 @@||neighborlywatch.com^$script,xmlhttprequest
 @@||neko-miku.com^$generichide
+@@||nelonenmedia.fi/logger/logger-ini.json$xmlhttprequest,domain=embed.sanoma-sndp.fi
 @@||nemlog-in.dk/resources/js/adrum.js$~third-party
 @@||neobux.com/css/ads.css
 @@||nervoussummer.com^$script,xmlhttprequest
@@ -25399,7 +25399,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||short24.pw^$generichide
 @@||shortadd.com^$generichide
 @@||shortzon.com^$generichide
-@@||shoutcast.hubu.fm/stats?sid=$script,~third-party
 @@||show.g.mediav.com/s?type=$domain=v.360kan.com
 @@||show.g.mediav.com/s?type=$script,domain=miercn.com
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -35337,7 +35336,7 @@ insider.gr##.admanager-content
 insidermonkey.com##.top-left-ad
 insidertracking.com##+js(no-setTimeout-if, no_ad, 15000)
 insomnia.gr,kingsinteriors.co.uk#@#.adlink
-instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[@data-ssp-badge="Sponsored"]/ancestor::li[1]'
+instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[@*="Sponsored"]/ancestor::li[1]'
 instalki.pl###outer > #banner
 instalki.pl##.module-adv
 instamp3.zone##+js(remove-attr, href, a.getUrl.btn)
@@ -45606,6 +45605,7 @@ xhamster.one#$#abort-on-property-read wih-popunder; abort-on-property-write data
 xhamster11.com##+js(abort-on-property-write, wio-vpopunder)
 xhamster2.com,xhamster.one#$#abort-current-inline-script document.createElement initTabUnder
 xhamster5.desi##+js(abort-on-property-read, wih-popunder)
+xhand.com##.video div[style^="text-align: center"]
 xhardhempus.net##+js(no-setTimeout-if, test.offsetHeight)
 xhardhempus.net#@#.adsbygoogle
 xhd.cn##.xinad
@@ -51226,6 +51226,7 @@ zznews.cn##.ad:not([style])
 ||aggestose.com^
 ||aggressivefrequentneckquirky.com^
 ||aghtag.tech^$third-party
+||agielspick.com^
 ||agilecrm.com^$third-party
 ||agilesrv.com^$third-party
 ||agillic.eu^$third-party
@@ -53112,6 +53113,7 @@ zznews.cn##.ad:not([style])
 ||auspiciousyard.com^
 ||austinareahomeschoolers.com^
 ||autchoog.net^
+||autcxfcdlev.com^
 ||auteboon.net^
 ||authcaptcha.com^
 ||authedmine.eu^$third-party
@@ -55092,6 +55094,7 @@ zznews.cn##.ad:not([style])
 ||bred4tula.com^
 ||breedingunspeakableplaice.com^
 ||breedtagask.com^
+||breemi.com^
 ||brftedjb.com^
 ||brid.tv^$script,domain=67hailhail.com|deepdaledigest.com|forevergeek.com|geordiebootboys.com|hammers.news|hitc.com|molineux.news|nottinghamforest.news|rangersnews.uk|realitytitbit.com|spin.com|tbrfootball.com|thechelseachronicle.com|thefocus.news|thewrap.com|washingtonexaminer.com
 ||bridge-ashiato.appspot.com/beacon/
@@ -57662,6 +57665,7 @@ zznews.cn##.ad:not([style])
 ||coordinatedbedroom.com^
 ||coordinatedcoat.com^$third-party
 ||coordinatedcub.com^$third-party
+||coozoaji.net^
 ||copilot-telemetry.githubusercontent.com^
 ||copperchickens.com^
 ||copperegg.com^$third-party
@@ -58248,6 +58252,7 @@ zznews.cn##.ad:not([style])
 ||cxense.com^$third-party
 ||cxfzw.cn^
 ||cxgfq.pinlue.com^
+||cxhjpcrvxd.com^
 ||cxkivjsorpburb.com^
 ||cxmygp.xyz^
 ||cxnroh6u.xyz^
@@ -61557,6 +61562,7 @@ zznews.cn##.ad:not([style])
 ||esearchvision.com^$third-party
 ||eservices.lubetech.com^
 ||esheprice.online^
+||eshkol.io^$popup
 ||eshouloo.net^
 ||esignificanvi.info^
 ||eskimi.com^$third-party
@@ -64242,6 +64248,7 @@ zznews.cn##.ad:not([style])
 ||gostats.ro^$third-party
 ||gostats.ru^$third-party
 ||gostats.vn^$third-party
+||gosweethomes.com^
 ||got-to-be.com^
 ||got-to-be.com^$popup
 ||gotadd.cn^
@@ -65526,6 +65533,7 @@ zznews.cn##.ad:not([style])
 ||hnjls.com.cn^
 ||hnkuangshan.cn^
 ||hnltcw.com^
+||hnmucsm.cn^
 ||hnnuaa.willhaben.at^
 ||hnnuange.com^
 ||hnpxsm.com.cn^
@@ -65839,6 +65847,7 @@ zznews.cn##.ad:not([style])
 ||huancaicp.com/?pid=$popup
 ||huangyeqing.cn^
 ||huanjugu.com/dm
+||huanleshijie.top^
 ||huanqiu.com/resource/js/base
 ||huanqiu.com/ssi/show_*_mall.ssi
 ||huanqiu.com/statics/*/dist/js/detected_block.js
@@ -69251,6 +69260,7 @@ zznews.cn##.ad:not([style])
 ||kvexx.com^
 ||kvezz.com^
 ||kvhaa.com^
+||kvjkkwyomjrx.com^
 ||kvkaa.com^
 ||kvlzsbxn.com^
 ||kvskic.jadore-jun.jp^
@@ -72692,6 +72702,7 @@ zznews.cn##.ad:not([style])
 ||migrantspiteconnecting.com^
 ||migrantspiteconnecting.com^$popup
 ||miguyu.com/AD/
+||miixtocmpfjwlw.com^
 ||mikanani.me/images/Masha/
 ||mikuclub.it/pub/
 ||mil.news.sina.com.cn/iframe/109/2012/1024/photo.html
@@ -77362,7 +77373,6 @@ zznews.cn##.ad:not([style])
 ||putaoys.com/static/js/acb1.js
 ||putonghua520.com/skins/10ym/3jin.gif
 ||putonghua520.com/skins/10ym/baicai.gif
-||puui.qpic.cn^
 ||puutarha.net/ffsw-pushcrew.js
 ||puutarha.net/statb.asp
 ||puwpush.com^
@@ -80090,6 +80100,7 @@ zznews.cn##.ad:not([style])
 ||semiglorifyseek.com^
 ||semiocast.com^$third-party
 ||semirawbatter.com^
+||semjurljffawpt.com^
 ||semnicneposilejte.cz^$third-party
 ||semtracker.de^$third-party
 ||send.preply.com^
@@ -83898,6 +83909,7 @@ zznews.cn##.ad:not([style])
 ||strategycompanion.actonservice.com^
 ||straticjustice.com^
 ||strawberry.basf.com^
+||strcloud.in/stat/
 ||strdef.world/js/acheck.js
 ||streakattempt.com^
 ||stream.cz/*/vast?
@@ -85220,6 +85232,7 @@ zznews.cn##.ad:not([style])
 ||thorsado.net^
 ||thoudroa.net^
 ||thoughtmetric.io^$third-party
+||thoupsou.net^
 ||threadloom.com/ga/
 ||threat-analytics.com^$third-party
 ||threatbook.cn^$third-party
