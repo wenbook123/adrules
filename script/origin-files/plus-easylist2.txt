@@ -1336,7 +1336,7 @@ primewire.*##.ico.close
 ||laratlacrestot.pro^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/458#issuecomment-315818190
-metacritic.com##.ad_unit
+metacritic.com##.ad_unit:not(.text-ad)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7113
 ! https://github.com/uBlockOrigin/uAssets/issues/9118
@@ -11181,7 +11181,7 @@ autojournal.fr,autoplus.fr,sportauto.fr##+js(nostif, (), 1)
 ! https://github.com/NanoAdblocker/NanoFilters/issues/274
 ! https://github.com/NanoAdblocker/NanoFilters/issues/314
 uploadev.*##+js(nowoif)
-uploadev.*##+js(aopr, Object.assign)
+uploadev.*##+js(set, openInNewTab, noopFunc)
 ||rydohimowa.info^
 
 ! https://forums.lanik.us/viewtopic.php?p=145808#p145808
