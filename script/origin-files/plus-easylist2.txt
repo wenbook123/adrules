@@ -1886,8 +1886,7 @@ apkmirror.com##.google-ad-leaderboard:style(opacity: 0 !important;)
 apkmirror.com##span.advertisement-text
 apkmirror.com##[href^="https://bstk.me/"]
 
-apkmirror.com##+js(aost, document.querySelector, /(?=(stackDepth:3\s|stackDepth:2\s|stackDepth:4\s))(?=^(?!.*(Object|HTMLInputElement|https|Search|HTMLDocument)))/)
-apkmirror.com##+js(acis, document.querySelectorAll, style.width="100%")
+apkmirror.com##+js(aost, document.querySelectorAll, visibleEl)
 
 apkmirror.com##.downloadCountdown
 apkmirror.com##.OUTBRAIN
@@ -15022,9 +15021,6 @@ solopajeros.com##+js(aopr, domains_delivery)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/40255
 uploadas.com##+js(aopw, Fingerprint2)
 
-! https://github.com/uBlockOrigin/uAssets/issues/6261
-videos.giga.de##+js(set, requirejs.s.contexts._.defined.homad, noopFunc)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39692#issuecomment-530184367
 hindimetoons.net##+js(aopw, adBlockDetected)
 
@@ -16182,6 +16178,7 @@ preisvergleich.pcgameshardware.de#@#+js(set-constant, CustomEvent, noopFunc)
 ! https://github.com/uBlockOrigin/uAssets/issues/6541#issuecomment-1140232770
 autobild.de,computerbild.de,golem.de,desired.de,t-online.de,stern.de,familie.de,tvnow.de,kino.de,spieletipps.de##+js(no-xhr-if, damoh)
 vip.de,rtl.de##+js(no-xhr-if, svonm)
+||damoh.giga.de^$script,1p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7508#issuecomment-659267224
 ||damoh.gmx.*/*$media,redirect=noop-0.1s.mp3,1p
@@ -18642,7 +18639,11 @@ forbes.com##.ad-rail
 3dsounada1.blogspot.com##[href^="http://www.geragera.com.br/"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10165
-*$script,xhr,3p,denyallow=google.com|googleapis.com|gstatic.com,domain=uplinkto.*
+*$3p,denyallow=google.com|googleapis.com|gstatic.com,domain=uplinkto.*
+||ardslediana.com^
+||dlooqrhebkjoh.cloudfront.net^
+||rummaringp.pics^
+||uklyeconnected.monster^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51125
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51218

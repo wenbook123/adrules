@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8/340E9KV2nrJMtipHfr+w
+! Checksum: 53s3rQ2CcHlopxntutHWjQ
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202208090733
-! Last modified: 2022-08-09 07:33 UTC
+! Version: 202208091533
+! Last modified: 2022-08-09 15:33 UTC
 ! Expires: 3 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2503,9 +2503,9 @@
 /adsbox.$~script,domain=~adsbox.com.sg|~adsbox.in
 /adsby.
 /adsbytenmax.
-/adscale.$domain=~adscale.com|~adscale.io|~adscale.net|~adscale.pl
+/adscale.$domain=~adscale.com|~adscale.dev|~adscale.io|~adscale.net|~adscale.pl
 /adscale1.
-/adscale_$domain=~adscale.com
+/adscale_$domain=~adscale.com|~adscale.dev
 /adscbg/*
 /adscdn.
 /adscloud.
@@ -25539,6 +25539,7 @@ _800x80_
 ##.google-advertisement
 ##.google-advertisement_txt
 ##.google-afc-wrapper
+##.google-bottom-ads
 ##.google-csi-ads
 ##.google-dfp-ad-caption
 ##.google-dfp-ad-label
@@ -57762,7 +57763,6 @@ apnews.com##.Leaderboard
 israelnationalnews.com##.LeftInfo
 johnogroat-journal.co.uk,stamfordmercury.co.uk##.MPU
 metservice.com##.Mrec-min-height
-tvtv.us##.MuiPaper-elevation2.MuiPaper-root
 ahaan.co.uk##.MuiSnackbar-anchorOriginBottomCenter
 news18.com##.NAT_add
 ask.com##.PartialKelkooResults
@@ -62213,8 +62213,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||forexprostools.com^$subdocument,domain=fx-rashinban.com
 @@||freeride.se/img/admarket/$~third-party
 @@||friends.ponta.jp/app/assets/images/$~third-party
-@@||fwmrm.net/ad/g/$script,domain=viafree.se
-@@||fwmrm.net^*/LinkTag2.js$domain=viafree.se
 @@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|pccomponentes.com|tv-tokyo.co.jp|voici.fr
 @@||g.doubleclick.net/gpt/pubads_impl_$domain=bloomberg.com|chelseafc.com|digitaltrends.com|edy.rakuten.co.jp|gentside.com|pccomponentes.com|voici.fr
 @@||g.doubleclick.net/pagead/ppub_config?$domain=bloomberg.com
@@ -70315,7 +70313,6 @@ _mongo_stats/
 ||portfold.com^$third-party
 ||posst.co^$third-party
 ||postaffiliatepro.com^$third-party
-||postclickmarketing.com^$third-party
 ||posthog.com^$third-party
 ||prchecker.info^$third-party
 ||precisioncounter.com^$third-party
@@ -72346,6 +72343,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plotrabbit.com^
 ||pluckypocket.com^
 ||pluckytaste.com^
+||pocketfaucet.com^
 ||pocketsonic.com^
 ||podiumpresto.com^
 ||pointlesspocket.com^
@@ -99255,6 +99253,8 @@ _subscribers_newsletters/
 ###inlineBannerForApp
 ###mn-app-banner
 ###smartbanner-desktop
+###smartbanner.android
+###smartbanner.ios
 ##.app-banner-container
 ##.app-banner-header
 ##.appInstlBnr
@@ -121069,7 +121069,6 @@ _subscribers_newsletters/
 ##.CookieLayout
 ##.CookieMessage
 ##.CookieMessageDiv
-##.CookieMessage__cookieMessage
 ##.CookieModal
 ##.CookieMonsterBox
 ##.CookieMsg
@@ -129208,6 +129207,7 @@ _subscribers_newsletters/
 ##div.CookieAlert
 ##div.CookieConfirmation
 ##div.CookieInfo
+##div.CookieMessage__cookieMessage
 ##div.CookiePrompt
 ##div.CookieWrapper
 ##div.Cookie__Popup
@@ -133175,10 +133175,10 @@ _subscribers_newsletters/
 ||futura-sciences.com/clientscript/push.js
 ||horoscope.fr/notifications/
 ||push.neko-san.fr^
-||rd.fi/sites/default/files/mini_banner.jpg
-||rd.fi/sites/default/files/vp-uutiskirje$image
 ||tut.by/push/
 ||tutto.tv/wp-content/plugins/plugin-notifiche-
+! Mobile Notifications
+!
 ||3dmark.com/proxycon/images/front-some-fb.png
 ||76.my/Auc/
 ||abc.net.au^*/news-podcasts-
@@ -133370,11 +133370,11 @@ _subscribers_newsletters/
 ||vinted.*/api/*/banners
 ||windguru.cz/forms/consent.php
 ||yimg.com^*/guce.js
-! sp-prod.net specific
+! privacy-mgmt.com script specific
 ! https://github.com/easylist/easylist/issues/12806
-/wrapperMessagingWithoutDetection.js$domain=4players.de|7sur7.be|ad-alliance.de|auto-motor-und-sport.de|autoexpress.co.uk|automobil-elektronik-kongress.de|autozeitung.de|axelspringer.com|baby-und-familie.de|badoo.com|bestcheck.de|businessinsider.com|businessinsider.es|camping.info|capital.de|caravaning.de|cardscout.de|cavallo.de|channelpartner.de|chesterstandard.co.uk|cio.com|cio.de|classicfm.com|computerfrage.net|computerhoy.com|computerwoche.de|computerworld.com|csoonline.com|dailyresearchplot.com|denofgeek.com|dexerto.com|digitalartsonline.co.uk|dpd.com|dpd.de|duden.de|edpc.eu|eiu.com|elektroauto-news.net|essen-und-trinken.de|expertreviews.co.uk|familie.de|finanzen100.de|finanzfrage.net|flugrevue.de|frag-mutti.de|geo-television.de|geo.de|gladbachlive.de|globalplayer.com|greenbot.com|gruenderkueche.de|gutefrage.net|handelsblatt.com|hannover.de|heise.de|helpster.de|hobbyconsolas.com|idealo.de|iskelma.fi|itpro.co.uk|itworld.com|jameda.de|jetzt.de|justthenews.com|kachelmannwetter.com|kn-online.de|krzbb.de|kuechengoetter.de|lancashiretelegraph.co.uk|leonberger-kreiszeitung.de|lepoint.fr|leserreisen.mz-web.de|liberation.fr|livingathome.de|ln-online.de|lovelybooks.de|macwelt.de|macworld.com|mcnmotorcycleshow.com|mediaimpact.de|meine.noz.de|meineorte.com|menshealth.de|mountainbike-magazin.de|muehlacker-tagblatt.de|myhomebook.de|n-page.de|netdoktor.de|netmoms.de|networkworld.com|neuepresse.de|nitro-tv.de|nnn.de|nowtv.it|noz.de|oekotest.de|pcwelt.de|pcworld.com|planet3ds.de|planetds.de|planetgameboy.de|planetiphone.de|planetswitch.de|planetvita.de|playpilot.com|playstationportable.de|podplay.com|politico.eu|portablegaming.de|praxisvita.de|prignitzer.de|radio.de|radio.net|radio.pl|radionova.fi|radioplay.fi|reisefrage.net|rheinpfalz.de|roadbike.de|rtl-passion.de|rtlplus.de|rugbydump.com|scholieren.com|senioren-ratgeber.de|shz.de|sky.com|sky.de|speed.io|sportbible.com|stern.de|studyflix.de|stuff.tv|sueddeutsche.de|sueddeutscher-verlag.de|sv-veranstaltungen.de|svz.de|swmh.de|tecchannel.de|techadvisor.co.uk|techadvisor.com|techadvisor.fr|techhive.com|techstage.de|testedich.de|the-sun.com|thepeoplesperson.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|toggo.de|travelbook.de|tv14.de|tvnow.at|tvnow.de|visit-hannover.com|vkmag.com|vkz.de|voice.fi|vox.de|wetteronline.de|whats-on-netflix.com|zvw.de
+/wrapperMessagingWithoutDetection.js$domain=4players.de|7sur7.be|ad-alliance.de|auto-motor-und-sport.de|autoexpress.co.uk|automobil-elektronik-kongress.de|autozeitung.de|axelspringer.com|baby-und-familie.de|badoo.com|bestcheck.de|businessinsider.com|businessinsider.es|camping.info|capital.de|caravaning.de|cardscout.de|cavallo.de|channelpartner.de|chesterstandard.co.uk|cio.com|cio.de|classicfm.com|computerfrage.net|computerhoy.com|computerwoche.de|computerworld.com|csoonline.com|dailyresearchplot.com|denofgeek.com|dexerto.com|digitalartsonline.co.uk|dpd.com|dpd.de|duden.de|edpc.eu|eiu.com|elektroauto-news.net|essen-und-trinken.de|expertreviews.co.uk|familie.de|finanzen100.de|finanzfrage.net|flugrevue.de|frag-mutti.de|geo-television.de|geo.de|gladbachlive.de|globalplayer.com|greenbot.com|gruenderkueche.de|gutefrage.net|handelsblatt.com|hannover.de|heise.de|helpster.de|hobbyconsolas.com|idealo.de|iskelma.fi|itpro.co.uk|itworld.com|jameda.de|jetzt.de|justthenews.com|kachelmannwetter.com|kn-online.de|krzbb.de|kuechengoetter.de|lancashiretelegraph.co.uk|leonberger-kreiszeitung.de|lepoint.fr|leserreisen.mz-web.de|liberation.fr|livingathome.de|ln-online.de|lovelybooks.de|macwelt.de|macworld.com|mcnmotorcycleshow.com|mediaimpact.de|meine.noz.de|meineorte.com|menshealth.de|mountainbike-magazin.de|muehlacker-tagblatt.de|myhomebook.de|n-page.de|netdoktor.de|netmoms.de|networkworld.com|neuepresse.de|nitro-tv.de|nnn.de|nowtv.it|noz.de|oekotest.de|pcwelt.de|pcworld.com|planet3ds.de|planetds.de|planetgameboy.de|planetiphone.de|planetswitch.de|planetvita.de|playpilot.com|playstationportable.de|podplay.com|politico.eu|portablegaming.de|praxisvita.de|prignitzer.de|radio.de|radio.net|radio.pl|radionova.fi|radioplay.fi|reisefrage.net|rheinpfalz.de|roadbike.de|rtl-passion.de|rtlplus.de|rugbydump.com|sanakirja.org|scholieren.com|senioren-ratgeber.de|shz.de|sky.com|sky.de|speed.io|sportbible.com|stern.de|studyflix.de|stuff.tv|sueddeutsche.de|sueddeutscher-verlag.de|sv-veranstaltungen.de|svz.de|swmh.de|tecchannel.de|techadvisor.co.uk|techadvisor.com|techadvisor.fr|techhive.com|techstage.de|testedich.de|the-sun.com|thepeoplesperson.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|toggo.de|travelbook.de|tv14.de|tvnow.at|tvnow.de|visit-hannover.com|vkmag.com|vkz.de|voice.fi|vox.de|wetteronline.de|whats-on-netflix.com|zvw.de
 ! cmp.quantcast.com specifics
-||cmp.quantcast.com^$script,domain=agoravox.tv|auto1.fi|blogit.fi|buzz.ie|dagospia.com|eurheilu.org|foreca.fi|gekkonen.net|ilmainensanakirja.fi|irc-galleria.net|kilokalori.net|mamaclever.de|nylon.com|reader.gr|riemurasia.net|suomi24.fi|telsu.fi|testeri.fi|tilannehuone.fi|timeanddate.com
+||cmp.quantcast.com^$script,domain=agoravox.tv|auto1.fi|base64encode.org|blogit.fi|buzz.ie|dagospia.com|eurheilu.org|foreca.fi|gekkonen.net|ilmainensanakirja.fi|irc-galleria.net|kilokalori.net|mamaclever.de|nylon.com|reader.gr|riemurasia.net|suomi24.fi|telsu.fi|testeri.fi|tilannehuone.fi|timeanddate.com
 ! cookielaw.org specifics
 ||cookielaw.org^$domain=cdon.fi|elisa.fi|elisaviihde.fi|findit.fi|ign.com|ikea.com|maaseuduntulevaisuus.fi|quora.com|rollingstone.com|suomi24.fi|urbandictionary.com
 ! fundingchoicesmessages (consents)
@@ -137394,6 +137394,7 @@ bleacherreport.com##.appInstallButton
 cookpad.com##.app_promotion
 cookpad.com##.appinstall
 castbox.fm##.banner
+m.yelp.com##.banner__09f24__A12gg
 canberratimes.com.au##.bg-gray-100.block
 ivoox.com##.bg-lightest.wrapper
 meetup.com##.bg-midnightDark.align-center.flex
@@ -137428,6 +137429,7 @@ merckmanuals.com,msdmanuals.com##.marketing-block-wrapper
 usbair.com##.mobile-app
 speedtest.net##.mobile-pretest
 malaysiaairlines.com##.mobileapp
+mobile.here.com##.newbanner
 france24.com##.o-pwa-ah2s
 bing.com##.opal_serpftrc
 india.com##.open-app
@@ -139471,6 +139473,7 @@ fwg-vg-linz.de##.Mrku11502
 allinone.im,jsonquerytool.com##.MuiDialog-root
 bbb.org##.MuiDrawer-root
 sweetcombecottages.co.uk##.MuiPaper-elevation0.MuiAlert-standardInfo
+tvtv.us##.MuiPaper-elevation6[role="alert"]
 gpic.com##.MyConsent_Outer
 freewebsitetemplates.com,wilderssecurity.com##.Notices
 leti.com##.NoticesBox
@@ -140034,7 +140037,6 @@ itv.com##.js-site-alert-content
 cgtn.com##.js-tools-dialog
 anker.com,kurasu.kyoto##.jsFixedMessage
 gettr.com##.jss121
-tvtv.us##.jss14
 gettr.com##.jss142
 guard.io##.jss50
 arcanys.com##.jss63
@@ -140048,6 +140050,7 @@ starwalk.space##.kCVdJs
 steller.co##.kDyVQY
 depop.com##.kXlWIL
 play.acast.com##.kaNSQD
+theculturetrip.com##.kcTwAg
 nreal.ai##.kcmHGd
 kdkcn.com##.kdk-cookie
 loxam.com##.khZIi
@@ -140129,6 +140132,7 @@ ahotu.com,usnews.com##.modal-window
 thebagster.com##.modalBackground
 bridgestonesports.bridgestone.com.br##.modalContainer
 moaa.org##.modal__overlay
+labsnews.com##.modal__policy
 newdayspharmacy.com##.modal_terms
 sekwens.com##.module-abovebox
 motherless.com##.motherless-cookie-wrapper
@@ -143981,7 +143985,6 @@ mobiili.fi##.mobsome_icons
 ampparit.com##.social-media-links > .sidebox-content
 ampparit.com##.social-media-links > h3[class="sidebox-header"]
 forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
-||rd.fi/sites/default/files/vp-fbssa-banner$image
 !
 !---------- Greek Specific Social Media Elements ----------
 !
@@ -145177,6 +145180,7 @@ ruggon.com.tw##.privacy_box
 u-car.com.tw##.privacyforsite
 skbank.com.tw##.space-mobile-inside-side
 app.mycard520.com.tw##.spu-bg
+accupass.com##.style-746d86c4-cookie-container
 abnova.com.tw##.ui-dialog
 abnova.com.tw##.ui-widget-overlay
 !
@@ -146296,6 +146300,7 @@ promobit.com.br##.e85akae0
 tjsc.jus.br##.fixed-bottom
 posthaus.com.br##.foPcpY
 compass.jeep.com.br##.gfUNpP
+discoverybrasil.com##.hCHxpg
 gazin.com.br##.hZeYRd
 fiat.com.br##.hub-info-bar-component
 gympass.com##.iTHgOb
@@ -148119,13 +148124,14 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||braze.com/api/$domain=deezer.com
 @@||forums.opera.com/assets/src/modules/notifications.js$~third-party
 @@||inevent.com/js/wizard/pushNotification.js$script,~third-party
-@@||mafia.ua/js/jquery.smartbanner.js$script,~third-party
-@@||mirage.ru/js/jquery.smartbanner.js$script,~third-party
 @@||oakley.com/_ui/dist/scripts/modules/notifications.js$script,~third-party
 @@||paste.crdroid.net/assets/js/modules/notifications.js$script,~third-party
 @@||snrcdn.net/sdk/3.0/synerise-javascript-sdk.min.js$domain=komputronik.pl
 @@||st.mycdn.me/static/*/WebPush.js$script,domain=ok.ru
 @@||webpush.jp/js/browserpushv3.js$domain=zakzak.co.jp
+! Mobile Notifications
+@@||mafia.ua/js/jquery.smartbanner.js$script,~third-party
+@@||mirage.ru/js/jquery.smartbanner.js$script,~third-party
 @@/assets/cookiebanner.$domain=homify.ae|homify.ca|homify.cl|homify.co.id|homify.co.kr|homify.co.th|homify.co.uk|homify.co.za|homify.com|homify.com.ar|homify.com.br|homify.com.co|homify.com.eg|homify.com.mx|homify.com.my|homify.com.tr|homify.com.ve|homify.de|homify.es|homify.fr|homify.hk|homify.in|homify.it|homify.jp|homify.nl|homify.pe|homify.pk|homify.pl|homify.pt|homify.ru|homify.sa|homify.sg|homify.tw|homify.ua|homify.vn
 @@/cookie*/jquery.cookie.js$script,~third-party,domain=~albeco.com.pl
 @@/cookie_law/plugin.js$script,~third-party
