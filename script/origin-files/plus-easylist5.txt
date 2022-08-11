@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202208100258
+! Version: 202208110249
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 43160
+! Lenth = 43172
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -73,6 +73,7 @@ $cookie=Gdyn
 $cookie=Gtest
 $cookie=IDE
 $cookie=MUIDB
+$cookie=MgidStorage
 $cookie=PUBMDCID
 $cookie=PWA_adbd,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl
 $cookie=SC_ANALYTICS_GLOBAL_COOKIE
@@ -84,6 +85,7 @@ $cookie=STvisit,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetoma
 $cookie=TAPID
 $cookie=TRADEDOUBLER
 $cookie=TestIfCookieP
+$cookie=TicimaxReferer
 $cookie=TradeDoublerGUID
 $cookie=UserMatchHistory
 $cookie=VtexFingerPrint
@@ -95,6 +97,7 @@ $cookie=WPtcs2,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetoman
 $cookie=__auc
 $cookie=__gads
 $cookie=__gfp_64b
+$cookie=__gpi
 $cookie=__igaw__adid
 $cookie=__pvi
 $cookie=__qca
@@ -209,6 +212,7 @@ $cookie=ki_t
 $cookie=li_sugr
 $cookie=lms_ads
 $cookie=lms_analytics
+$cookie=muidn
 $cookie=obuid
 $cookie=optimizelyEndUserId
 $cookie=outbrain_cid_fetch
@@ -216,6 +220,7 @@ $cookie=pbjs-unifiedid
 $cookie=pnespsdk_ssn
 $cookie=pnespsdk_visitor
 $cookie=pubmaticuid
+$cookie=pvc_visits[0]
 $cookie=rbzsessionid
 $cookie=remixgp
 $cookie=remixrefkey
@@ -537,6 +542,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .instructure.com/page_views
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image
+.inxmail-commerce.com/tracking/$image
+.inxserver.com/transparent.gif
 .io/track?
 .jp/analyze/
 .jp/b.gif?
@@ -2485,6 +2492,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /data_collect.js
 /datacapture/track
 /datacollectcode?
+/datacollectionapi-client/*
 /datadome/*
 /dbdm-events.
 /dbdm-events/*
@@ -4220,6 +4228,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /pageview?pageviewId
 /pageview?t=
 /pageview?user_guid=
+/pageview_candidate.
 /pageviews-counter-
 /pageviews.gif?
 /pageviews/*$domain=~mediawiki.org|~pageviews.wmcloud.org|~quiz.mkpo.li|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
@@ -4610,7 +4619,9 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /record_clicks.
 /record_visitor.
 /recstatsv2.
+/redir.inxmail-commerce.com/r/*$image
 /redirectexittrack.php?
+/redis_stats/*
 /reelevant.js
 /ref_analytics.
 /refer-tracking.
@@ -7639,6 +7650,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtm.js$domain=gratis.com
 @@||googletagmanager.com/gtm.js$domain=gumtree.com
 @@||googletagmanager.com/gtm.js$domain=harveynorman.co.nz|harveynorman.com.au
+@@||googletagmanager.com/gtm.js$domain=hepsiburada.com
 @@||googletagmanager.com/gtm.js$domain=highsnobiety.com
 @@||googletagmanager.com/gtm.js$domain=hipolink.net
 @@||googletagmanager.com/gtm.js$domain=hub.docker.com
@@ -8087,13 +8099,11 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||marcokrenn.com/public/js/logger.js
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||marketingsolutions.com.pl^*/googleanalytics-$image,domain=marketingsolutions.com.pl
-@@||marketo.com/*/form$domain=orcad.com
 @@||marketo.com//index.php/form/
 @@||marketo.com//js/forms$script,stylesheet
 @@||marketo.com/index.php/form/
 @@||marketo.com/js/forms$script,stylesheet
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
-@@||marvel-*.bc0a.com/*/images/$domain=whittard.co.uk
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
 @@||material.io/inline-tools/direct-embed/bower_components/angularytics/$script,~third-party
 @@||matomo.miraheze.org/matomo.js$script,~third-party
@@ -13931,7 +13941,6 @@ znak.com##.relap
 ||bc.thestreet.com/DG/DEFAULT/rest/
 ||bc0a.com/api/
 ||bc0a.com/autopilot/
-||bc0a.com^$third-party
 ||bc34.wijnvoordeel.nl^
 ||bcanl.bca-autoveiling.nl^
 ||bcbits.com/bundle/bundle/1/analytics-$domain=bandcamp.com
@@ -15158,7 +15167,6 @@ znak.com##.relap
 ||cedexis-radar.net^
 ||cedexis.com^
 ||cedexis.com^$third-party
-||cedexis.net^$third-party
 ||ceggfe.msc-kreuzfahrten.de^
 ||celebros-analytics.com^$third-party
 ||celebrus.com^$third-party
@@ -18320,6 +18328,7 @@ znak.com##.relap
 ||dsr.livefyre.com/*/collection/
 ||dsr.livefyre.com/livecountping/
 ||dt.nrjmobile.fr^
+||dtag.breadfinancial.com^
 ||dtc-v6t.com^$third-party
 ||dtch.brunel.nl^
 ||dti-ranker.com^$third-party
@@ -24010,6 +24019,7 @@ znak.com##.relap
 ||leadchampion.com^$third-party
 ||leaddyno.com^$third-party
 ||leadelephant.com^$third-party
+||leadfamly.com^$third-party
 ||leadfeeder.com^$third-party
 ||leadforce1.com^$third-party
 ||leadforensics.com^$third-party
@@ -30598,6 +30608,7 @@ znak.com##.relap
 ||rabbitrifle.com^$third-party
 ||rabota.by/analytics?
 ||rabota.by/stat?
+||rac.ruutu.fi/rac.gif$image
 ||rac.ruutu.fi/sat/sat.gif$image
 ||rackcdn.com/gate.js
 ||rackcdn.com/stf.js
@@ -37925,7 +37936,7 @@ znak.com##.relap
 ||technology.informaengage.com^
 ||technolutions.net/ping?
 ||technorati.com/technoratimedia-pixel.js
-||techpowerup.com/_log
+||techpowerup.com/__botcheck
 ||techprovider.intel.com^
 ||techssl.net.zooplus.de^
 ||techstage.de/ivw-bin/ivw/CP^
@@ -39191,6 +39202,7 @@ znak.com##.relap
 ||track.bizjournals.com^
 ||track.briskfile.com^
 ||track.buybox.click^
+||track.buyma.com^
 ||track.byzon.swelen.net^$third-party
 ||track.cafu.com^
 ||track.catalogs.com^
