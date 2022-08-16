@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202208150352
+! Version: 202208160327
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 43208
+! Lenth = 43221
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -67,6 +67,9 @@ $cookie=AnalyticsSyncHistory
 $cookie=BDh,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl
 $cookie=BDhs,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl
 $cookie=BrowserId_sec
+$cookie=CN_ad_block
+$cookie=CN_xid
+$cookie=CN_xid_refresh
 $cookie=DSID
 $cookie=ELOQUA
 $cookie=Gdyn
@@ -214,6 +217,7 @@ $cookie=lms_ads
 $cookie=lms_analytics
 $cookie=muidn
 $cookie=obuid
+$cookie=omni_visit_id
 $cookie=optimizelyEndUserId
 $cookie=outbrain_cid_fetch
 $cookie=pbjs-unifiedid
@@ -1203,6 +1207,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /addLinkerEvents-std.
 /addLinkerEvents.js
 /addTrackingScripts.
+/add_anonymous_identifier
 /add_page_view?
 /add_stats
 /add_utm_links.
@@ -6597,6 +6602,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||aolcdn.com^*/beacon.min.js$domain=autoblog.com|dailyfinance.com
 @@||apc-pli.com/api/tracking/$~third-party,xmlhttprequest
 @@||api-analytics.magstimconnect.net^$~third-party
+@@||api-js.datadome.co/js/$domain=sso.garena.com
 @@||api-v4.trbo.com/r.php?$script,domain=blau.de
 @@||api.babbel.io/gamma/v1/$ping,domain=my.babbel.com
 @@||api.chartbeat.com^script,domain=financialpost.com|wcpo.com|couriermail.com.au|betabeat.com
@@ -7077,6 +7083,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||dashboard.unity3d.com/services/analytics/$~third-party
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
 @@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|usa.experian.com
+@@||datadome.co/js/$xmlhttprequest,domain=sso.garena.com
+@@||datadome.co/tags.js$domain=sso.garena.com
 @@||dcinfos.abtasty.com/geolocAndWeather.php^$domain=tf1.fr
 @@||dcinside.com$cookie=_ga
 @@||ddmcdn.com^*/adobe.visitor-$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
@@ -7978,6 +7986,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||js.agkn.com/prod/v0/tag.js$domain=netd.com
 @@||js.appboycdn.com/web-sdk/*/appboy.min.js$domain=equinox.com
 @@||js.appboycdn.com/web-sdk/*/appboy.min.js$domain=learning.edx.org
+@@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.datadome.co/tags.js^$domain=hermes.com
 @@||js.dmtry.com/channel.js$domain=zillow.com
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com
@@ -8742,6 +8751,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||svtrd.com^$domain=moneyou.de|ns.nl
 @@||swa.mail.ru/cgi-bin/counters?$script
 @@||switch.atdmt.com/iaction/$subdocument,domain=bestbuy.com
+@@||switchfly.com/static/108f088/resources/shopping/.build/scripts/analytics-$script,domain=reise-services.americanexpress.de|travel.americanexpress.co.uk|viaggi.americanexpress.it
 @@||swr3.de/static/swrplayer/web/plugins/ivw/ivw.js
 @@||szukajka.tv/jsverify.php$~third-party,xmlhttprequest
 @@||szukajka.tv/szukaj|$~third-party,xmlhttprequest
@@ -12116,6 +12126,7 @@ znak.com##.relap
 ||am-trc-events.taboola.com^
 ||am-vid-events.taboola.com^
 ||am.belambra.com^
+||am.i.mullvad.net^$third-party
 ||am2lma0ay.xrpmerchstore.com^
 ||ama.planet-wissen.de^
 ||ama.wdr.de^
@@ -20644,6 +20655,7 @@ znak.com##.relap
 ||gacraft.jp/publish/token.html
 ||gadasource.storage.googleapis.com/ivc.js
 ||gaddet.com/*/event-tracking.js
+||gadgets360.com/analytics.js
 ||gae.karte.io^
 ||gafpjt.maybe-baby.co.kr^
 ||gaiaonline.com/internal/mkt_t.php?
@@ -20852,7 +20864,6 @@ znak.com##.relap
 ||get.anthem.com^
 ||get.diamanti.com^
 ||get.docusign.com^
-||get.geojs.io^$domain=pirate-bay.net
 ||get.hydrosystemsco.com^
 ||get.incisive.com^
 ||get.sage.com^
@@ -21007,6 +21018,7 @@ znak.com##.relap
 ||globel.co.uk^$third-party
 ||globes.co.il/shared/s.ashx?
 ||globetrackr.com^$third-party
+||globo-ab.globo.com^
 ||globo.com/geo?
 ||glomera.com/stats
 ||glomex.com^$ping
@@ -26223,6 +26235,7 @@ znak.com##.relap
 ||metaffiliation.com^*^mclic=
 ||metalyzer.com^$third-party
 ||metaprom.ru/top100/counter.php
+||metaversn.site^
 ||metcon.hulu.com^
 ||meteorsolutions.com^$third-party
 ||meter-svc.nytimes.com^
