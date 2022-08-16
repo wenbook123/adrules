@@ -2152,7 +2152,7 @@ magesypro.*##.adsbygoogle
 magesy.*,magesypro.*,majesy.com##+js(nostif, $)
 magesypro.*##+js(aopr, $)
 magesypro.*##+js(no-xhr-if, ads)
-magesy.*##+js(acis, decodeURIComponent, ai_)
+magesy.*##+js(acis, decodeURIComponent, /\b(ai_|fromCharCode)\b/)
 magesy.*##+js(set, detectAdBlock, noopFunc)
 magesy.*##^script:has-text(adBlockDetected)
 
@@ -4898,7 +4898,6 @@ lolhentai.net##.sponsor
 ! https://www.reddit.com/r/uBlockOrigin/comments/a6bbib/this_website_seems_to_be_able_to_bypass_ublock/
 mangafreak.net##+js(nowoif)
 mangafreak.net##+js(acis, setTimeout, document.querySelector)
-*/nsu.js|$script,3p
 ||cdn.siteswithcontent.com/js/push/subscribe.js$script,important
 ||cdn.contentsitesrv.com/js/push/subscribe.js$script,important
 mangafreak.net##[src^="/scripts/"]
