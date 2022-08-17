@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: h2zCoEIBAeTdAWOLrPCMJA
+! Checksum: eijTBSUpAqRp/7qkZ3olrQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-08-17 09:10:56（北京时间） 
-! Total count: 19794
+! Version: 2022-08-17 16:22:36（北京时间） 
+! Total count: 19796
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -296,6 +296,7 @@
 @@/cdn/hls/*/master.txt$stealth,domain=hdizle2.net|diziyo.*|dzyco.*
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/check.php?callback=$script,domain=ytmp3.cc
+@@/chunklist.m3u8$stealth,domain=liveply.me
 @@/clarity-*.js$domain=clarity-project.info
 @@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/common/templates/dfp/dfp-component-template.html$~third-party,domain=usrowing.org|bigten.org|gousfbulls.com
@@ -345,7 +346,7 @@
 @@/friendbuy.min.js$script,domain=butcherbox.com
 @@/frosmo.easy.js$domain=sklep.pl.canalplus.com
 @@/fuckadblock.$domain=bde4.com|datehub.co|dilidili.one|golangnote.com|lnk2.cc|nfmovies.com|papalah.com|qqdie.com
-@@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|papalah.com|poedb.tw|share1223.com
+@@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|poedb.tw|share1223.com
 @@/fuckadblock.$script,~third-party
 @@/fuckadblock.js$domain=playview.io
 @@/fuckadblock.js$domain=uniqueten.net|topcryptoz.net|allcryptoz.net|openload.casa|meucdn.vip|yandexcdn.com|videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
@@ -425,6 +426,7 @@
 @@/mangakakalot/*$stealth,image,domain=manganelo.com|mangakakalot.com
 @@/mbox-configuration.$script
 @@/mbox.js$domain=enamora.de|dianping.com|aol.com|dominos.com|hrblock.com|live.com|movieweb.com|rd.com|skypeassets.com|superpages.com|wdpromedia.com
+@@/media_*.ts$stealth,domain=liveply.me
 @@/mediaserver/*$removeparam,domain=ramtrucks.com|chrysler.com|fiatusa.com|alfaromeousa.com|jeep.com|dodge.com
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/modules/ads/*$domain=shopee.tw
@@ -1563,7 +1565,6 @@
 @@||ads.proboards.com/ad/
 @@||ads.programattik.com/yoc$domain=youronlinechoices.com
 @@||ads.pubmatic.com/AdServer/js/pwt/$script,domain=independent.co.uk|india.com
-@@||ads.pubmatic.com/AdServer/js/pwt/$script,domain=india.com
 @@||ads.pubmatic.com/AdServer/js/pwt/*/pwt.js$domain=dnaindia.com
 @@||ads.remix.es/advertisement.js|
 @@||ads.roblox.com/v*/sponsored-pages$xmlhttprequest
@@ -8340,7 +8341,6 @@
 @@||googletagmanager.com/gtm.js$domain=20min.ch
 @@||googletagmanager.com/gtm.js$domain=accupass.com
 @@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=ads.allegro.pl
 @@||googletagmanager.com/gtm.js$domain=aena.es
 @@||googletagmanager.com/gtm.js$domain=amd.com
@@ -9037,6 +9037,7 @@
 @@||helios.pl/*/*/*?ajax=$xmlhttprequest,content,elemhide,jsinject,extension
 @@||hellenicbank.com/portalserver/*/cookies-consent.js$script
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org
+@@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|furniturevillage.co.uk
 @@||hellporno.net/_a_ht/s/s/js/ssu.v2.js
 @@||hellporno.net/_a_ht/s/s/su.php?
 @@||hells-hack.com^$generichide
@@ -13505,6 +13506,7 @@
 @@||panter.ultifree.ml/reklam/js/*.js$~third-party
 @@||panzi.github.io/SocialSharePrivacy/
 @@||papahd.live^$ghide
+@@||papalah.com^$generichide
 @@||paperpk.com/Ads/site/$image,domain=paperpk.com
 @@||paperpk.com/ads_pic_directory/$image,domain=paperpk.com
 @@||paperpk.com/pk_img/$image,domain=paperpk.com
