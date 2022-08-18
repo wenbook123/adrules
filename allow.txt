@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: DUtaJ7dEqDw85REOmKjisA
+! Checksum: wAbRzaJ5K/hW6f3i0iTsvw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-08-18 16:19:59（北京时间） 
-! Total count: 19806
+! Version: 2022-08-19 00:25:39（北京时间） 
+! Total count: 19812
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -651,6 +651,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtlocker.nl^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2354,6 +2355,7 @@
 @@||api.babbel.io/gamma/v1/$ping,domain=my.babbel.com
 @@||api.babbel.io^$stealth
 @@||api.bbc.com/bbcdotcom/assets/*/script/av/emp/adverts.js
+@@||api.bileto.com^$stealth,domain=arriva.cz
 @@||api.bilibili.com^$removeparam
 @@||api.bitwarden.com^$stealth
 @@||api.branch.io$app=com.zingat.emlak
@@ -3724,6 +3726,7 @@
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
 @@||catchsms.co^$generichide
 @@||catchsms.com^$generichide
+@@||catlat.link/iframe.php$stealth
 @@||catracalivre.com.br^$ghide
 @@||catschickens.com^$script,xmlhttprequest
 @@||causecherry.com^$script,xmlhttprequest
@@ -4108,6 +4111,7 @@
 @@||cdn.onesignal.com/sdks/OneSignalSDK.js$domain=warhead.su
 @@||cdn.onesignal.com/sdks/OneSignalSDK.js^$domain=puls4.com
 @@||cdn.onesignal.com/sdks/OneSignalSDK.js^$domain=satoshimonster.com|satoshihero.com
+@@||cdn.onesignal.com/sdks/amp/amp-helper-frame.js$domain=lelum.pl
 @@||cdn.onlystream.tv/ads/pop.js
 @@||cdn.opencmp.net/tcf-v2/amp/cmp.html$domain=www-kreiszeitung-de.cdn.ampproject.org
 @@||cdn.opencmp.net/tcf-v2/cmp-latest.js$script,domain=foraum.de
@@ -5638,6 +5642,7 @@
 @@||delet.jhi.pl/bower_components/angular-google-analytics/$script,~third-party
 @@||delfi.lv/celojumi^$elemhide
 @@||delightfulhour.com^$script,xmlhttprequest
+@@||delivery-node-*.voe-network.net/hls/$stealth
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||delivery.vidible.tv/jsonp/$script,domain=delivery.vidible.tv
 @@||delivery.vidible.tv/jsonp/$script,domain=engadget.com
@@ -15714,6 +15719,7 @@
 @@||sellercentral.amazon.com/gp/remote-nav-html.html$elemhide,jsinject
 @@||sellercentral.amazon.com/hz/inventory/$elemhide,jsinject
 @@||sellpoint.net/smart_button/$script,domain=walmart.com
+@@||sellthing.co//?advertiserId=&platform=
 @@||selly.gg^$extension
 @@||selly.pl/wp-content/themes/$image
 @@||semimkv.net^$ghide
