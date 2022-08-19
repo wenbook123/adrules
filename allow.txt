@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: wAbRzaJ5K/hW6f3i0iTsvw
+! Checksum: TYbyzgyYYjhLnUuciOKfbQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-08-19 00:25:39（北京时间） 
-! Total count: 19812
+! Version: 2022-08-19 09:08:40（北京时间） 
+! Total count: 19819
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -651,7 +651,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtlocker.nl^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2460,6 +2459,7 @@
 @@||api.penpencil.xyz^$stealth,domain=physicswallah.live|pw.live
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.pinger.com$stealth
+@@||api.playstation.com^$stealth
 @@||api.pluto.tv^
 @@||api.pnd.gs/v*/sources/$domain=thenews.im
 @@||api.privacy-center.org/v*/events$domain=programme-television.org
@@ -4169,9 +4169,12 @@
 @@||cdn.privacy-mgmt.com/index.html$domain=mein-schoener-garten.de
 @@||cdn.privacy-mgmt.com/index.html$domain=saechsische.de
 @@||cdn.privacy-mgmt.com/index.html$domain=t3n.de
+@@||cdn.privacy-mgmt.com/mms/$domain=businessinsider.de
 @@||cdn.privacy-mgmt.com/mms/$xmlhttprequest,domain=ccpa-notice.sp-prod.net
 @@||cdn.privacy-mgmt.com/mms/choice_action_response$domain=cyberport.de
 @@||cdn.privacy-mgmt.com/mms/choice_select
+@@||cdn.privacy-mgmt.com/privacy-manager/$domain=businessinsider.de
+@@||cdn.privacy-mgmt.com/wrapper/$domain=businessinsider.de
 @@||cdn.privacy-mgmt.com/wrapper/$domain=saechsische.de
 @@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=bold.dk
 @@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=computerbild.de
@@ -7542,6 +7545,7 @@
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|luminskin.com|mybalancenow.com|myvanillacard.com|web.aw.ca
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
+@@||geoip.cookieyes.com/geoip/checker/result.php$domain=marktechpost.com
 @@||geoip.redirect-ads.com/js/$script,~third-party
 @@||geoip.redirect-ads.com^$subdocument,third-party
 @@||geoloc.hurriyet.com.tr/api/country/$domain=hurriyet.com.tr
@@ -12568,6 +12572,7 @@
 @@||nowvideo.to/banner.php$script
 @@||noz-cdn.de/version-*/assets/ads.js
 @@||noz.de^$ghide
+@@||np.community.playstation.net^$stealth
 @@||npr-news.streaming.adswizz.com^
 @@||npr.org/sponsorship/targeting/$other,xmlhttprequest,domain=npr.org
 @@||npr.org/sponsorship/targeting/$~third-party,xmlhttprequest
@@ -18687,6 +18692,7 @@
 @@||vk.com/js/api/share.js$domain=bobfilm1.net|bobfilm.net
 @@||vk.com/js/api/share.js$domain=ctc.ru
 @@||vk.com/js/api/share.js$domain=filmec.in.ua
+@@||vk.com/js/api/share.js$domain=golf.ru
 @@||vk.com/js/api/share.js$domain=radio7.ru
 @@||vk.com/js/api/share.js$domain=redspell.ru
 @@||vk.com/js/api/share.js$domain=tahc.ru
@@ -18986,6 +18992,7 @@
 @@||web.de/fairplay/?section=$ghide
 @@||web.facebook.com^$generichide
 @@||web.mention.com^$document
+@@||web.np.playstation.com/api^$stealth
 @@||web.skype.com^$stealth
 @@||web.telegram.org^$generichide
 @@||web.webpushs.com/js/push/$domain=culture.ru

@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 6t+bToafiKqzqRYr8duT/Q
+! Checksum: dZg2NdNqZ/qZrx+Hw8OXtg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-08-19 00:25:38（北京时间） 
-! Total count: 93265
+! Version: 2022-08-19 09:08:39（北京时间） 
+! Total count: 93285
 ###ADInterest
 ###ADSLOT_1
 ###ADTOP
@@ -2121,6 +2121,7 @@
 ##.GoogleAd
 ##.GoogleDfpAd
 ##.GoogleDfpAd-Content
+##.GoogleDfpAd-Float
 ##.GoogleDfpAd-wrap
 ##.GridHouseAdRight
 ##.InsertedAd
@@ -9340,7 +9341,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 .com*/ps/psCreat.js
 .com.au/HG?hc=
 .com.com/redir?timestamp
-.com.my#@#.sticky-ad
 .com/11nvnv/
 .com/1clkn/
 .com/?Intr=$popup,third-party
@@ -22121,6 +22121,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|luminskin.com|mybalancenow.com|myvanillacard.com|web.aw.ca
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
+@@||geoip.cookieyes.com/geoip/checker/result.php$domain=marktechpost.com
 @@||geoip.redirect-ads.com/js/$script,~third-party
 @@||geoip.redirect-ads.com^$subdocument,third-party
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
@@ -32365,6 +32366,7 @@ forbes.com#$#.main-content--body { padding-top: unset !important; }
 forbes.com#@#.ads-loaded
 forbes.com,nasdaq.com##.video-placeholder
 forbes.pl##.placeholder
+forced-tube.net,hqasianporn.org##.coverup
 fordclub.eu#@#.reklama
 fordgalaxy.org.uk##+js(no-setTimeout-if, test.offsetHeight)
 forebears.io##.banner-h
@@ -33474,6 +33476,9 @@ gq.com#@#.text-ads
 gq.com#@#.textAd
 gq.com#@#.text_ad
 gq.com#@#.text_ads
+gra.pl##.componentsPromotionsVideo
+gra.pl##.promoContainer
+gra.pl##div[style="height: 900px; padding-bottom: 20px;"]
 grab.tc##+js(set-constant, NoAdBlock, noopFunc)
 grab.tc##+js(set-constant, noAdBlock.on, noopFunc)
 grabfone.com##.adsbygoogle
@@ -34716,7 +34721,7 @@ iframejav.com##+js(window.open-defuser)
 ifsp.tv##.video-page-right
 ifxtx.com##.ppsy_content758
 igamemod.com##+js(abort-on-property-read, mdp_deblocker)
-igberetvnews.com###wallpaper
+igberetvnews.com,nextnewssource.com###wallpaper
 igg-games.co,igg-games.com##+js(abort-current-script, $, advads)
 igg-games.co,igg-games.com##+js(no-setTimeout-if, /divAds|_0x[\s\S]*?getElementsByTagName/)
 igg-games.co,igg-games.com##a[href^="http://s.igg-games.com/index.php?qc="]
@@ -35044,6 +35049,8 @@ insidertracking.com##+js(no-setTimeout-if, no_ad, 15000)
 insomnia.gr,kingsinteriors.co.uk#@#.adlink
 instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[.="sponsored"]/ancestor::li[1]'
 instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[@*="sponsored"]/ancestor::li[1]'
+instagram.com#$?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:contains(/Спонсор публикации:|Sponsored/)) { visibility: hidden !important; }
+instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:contains(/Спонсор публикации:|Sponsored/))
 instalki.pl###outer > #banner
 instalki.pl##.module-adv
 instamp3.zone##+js(remove-attr, href, a.getUrl.btn)
@@ -43114,7 +43121,12 @@ thepostmillennial.com##.support
 thepostmillennial.com##.surfsharkcontent
 thepostmillennial.com#?#.bg-yellow-400:-abp-has(.topAlertAds)
 thepressproject.gr#@#iframe[width="100%"][height="120"]
+thequint.com##.membership-widget-wrapper
+thequint.com##div[class^="wru-recommendations-widget"]
+thequint.com##div[style="height:50px"]
+thequint.com#$#.content { margin-top: 160px!important; }
 thequint.com#?#.container div:has(> div > div > .adunitContainer)
+thequint.com#?#div[class] > span:contains(/^ADVERTISEMENT$/):upward(1)
 theregister.com##.wptl
 therichest.com##.ad-zone-container
 theroar.com.au##.pm-ad-unit
@@ -43588,6 +43600,7 @@ tribuneindia.com##.add-sec
 tribunnews.com###adspop
 tribunnews.com###wideskyscraper
 tribunnews.com##.box__reserved
+tricksrecharge.com##div[class^="trick-"]
 trickznhax.in##+js(no-xhr-if, pagead2.googlesyndication.com)
 tripadvisor.at,tripadvisor.be,tripadvisor.ca,tripadvisor.ch,tripadvisor.cl,tripadvisor.cn,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.il,tripadvisor.co.kr,tripadvisor.co.nz,tripadvisor.co.uk,tripadvisor.co.za,tripadvisor.com,tripadvisor.com.ar,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.eg,tripadvisor.com.gr,tripadvisor.com.hk,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.pe,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.com.ve,tripadvisor.com.vn,tripadvisor.de,tripadvisor.dk,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.pt,tripadvisor.ru,tripadvisor.se#?#.listItem:-abp-has(.sponsored_v2)
 tripadvisor.de,tripadvisor.ca,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.uk,tripadvisor.com,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.gr,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.net,tripadvisor.nl,tripadvisor.se,tripadvisor.be##.ppr_priv_header_banner_ad
@@ -43995,6 +44008,7 @@ uktvplay.co.uk,uktvplay.uktv.co.uk##+js(no-xhr-if, v.fwmrm.net/ad/)
 uktvplay.co.uk,uktvplay.uktv.co.uk##+js(set-constant, FW_plugin.prototype._adPlayer, noopFunc)
 ukvarminting.com#@#.ipsAd
 ulmdb.cn
+uloz.to###bandzoneHint
 ulozto.net#$#.l-wrapper { padding-top: 0!important; }
 ultimate-guitar.com##.js-ab-regular
 ultimate-guitar.com##.js-ad-alternative
@@ -47381,6 +47395,7 @@ zznews.cn##.ad:not([style])
 ||2kandy.com/js/123/
 ||2kjg.xyz^
 ||2l0g3xd.cn^
+||2l6ddsmnm.de^
 ||2laezi9.cn^
 ||2lian.com^$third-party
 ||2llmonds4ehcr93nb.com^
@@ -51563,7 +51578,6 @@ zznews.cn##.ad:not([style])
 ||alzexa.com^$third-party
 ||am-vid-events.taboola.com^
 ||am.belambra.com^
-||am.i.mullvad.net^$third-party
 ||am.szhome.com^
 ||am.titsx.com^
 ||am11.ru^
@@ -51999,6 +52013,7 @@ zznews.cn##.ad:not([style])
 ||analytics.ovh.com^
 ||analytics.paddle.com^
 ||analytics.pagefly.io^
+||analytics.partcommunity.com^
 ||analytics.pgatour.com^
 ||analytics.pgncs.notion.so^
 ||analytics.piksel.com^
@@ -53118,6 +53133,7 @@ zznews.cn##.ad:not([style])
 ||axqpn.cn^
 ||axt.cool^
 ||axuns.com^
+||axvnsla.top^
 ||ay.delivery^
 ||ayads.co^
 ||ayahucapasso.website^
@@ -66336,6 +66352,7 @@ zznews.cn##.ad:not([style])
 ||ihear123.com^
 ||iheart.com/api/v3/playback/reporting
 ||iheart.com/events
+||iherb.com/VtidNbtC/init.js
 ||ihfwer.aboutyou.com^
 ||ihhii.xyz^
 ||ihhmh.com/mg/show
@@ -72274,6 +72291,7 @@ zznews.cn##.ad:not([style])
 ||metal-bitcoin.com/libs/check.js$script
 ||metalyzer.com^$third-party
 ||metauniverse88.com^
+||metaversn.site^$third-party
 ||meteor.today/ad/
 ||meteorsolutions.com^$third-party
 ||meter.bref.sh^
@@ -75659,6 +75677,7 @@ zznews.cn##.ad:not([style])
 ||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2019.js$script,xmlhttprequest,redirect=noop.js,domain=beatsnoop.com
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,domain=ehubsoft.net,redirect=noop.js
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noop.js,domain=herokuapp.com
+||pagead2.googlesyndication.com/pagead/sma8.js$script,redirect=noop.js,domain=anydebrid.com,important
 ||pagead2.googlesyndication.com^
 ||pagead2.googlesyndication.com^$domain=spiegel.de
 ||pagechoice.net^$third-party
@@ -86485,6 +86504,7 @@ zznews.cn##.ad:not([style])
 ||track.eadv.it^
 ||track.effiliation.com/servlet/$popup,domain=referencemega.com
 ||track.effiliation.com^$image,script
+||track.emerse.com^
 ||track.emeza.ch^
 ||track.emeza.com^
 ||track.express.de^
