@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: TYbyzgyYYjhLnUuciOKfbQ
+! Checksum: ACkdSZHGezAjURl9RiBErg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-08-19 09:08:40（北京时间） 
-! Total count: 19819
+! Version: 2022-08-19 16:21:24（北京时间） 
+! Total count: 19826
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -651,6 +651,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1398,6 +1399,7 @@
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||ado.delfi.ee/files/js/ado.js$script,domain=delfi.ee
+@@||adobe-campaign.com^
 @@||adobe.com/uber/js/*s_code
 @@||adobe.com/www.adobe.com/uber/js/pdc_s_code.js
 @@||adobe.com^*/delicious.png$domain=adobe.com
@@ -1848,6 +1850,8 @@
 @@||akamaihd.net/i^$third-party
 @@||akamaihd.net/login/static/images/login/social/facebook-$image,domain=battle.net
 @@||akamaihd.net/login/static/images/login/social/google-$image,domain=battle.net
+@@||akamaihd.net/nbad/player/*/appmeasurement.js$domain=watch.nba.com
+@@||akamaihd.net/nbad/player/*/visitorapi.js$domain=watch.nba.com
 @@||akamaihd.net/nbad/player/v*/nba/site*/player/scripts/nlad.js$domain=nba.com
 @@||akamaihd.net/origin-com-store-webassets/$script,document
 @@||akamaihd.net/r/tedcdnpf-a.akamaihd.net/images/playlists/social_$image,domain=ted.com
@@ -2664,6 +2668,7 @@
 @@||arukikata.com/images_ad/$image,~third-party
 @@||arvest.com/common/urchin/urchin.js
 @@||as.com^$ghide
+@@||as.mgtv.com^
 @@||as.uncn.jp/uwt/$script,domain=www3.nissan.co.jp
 @@||asadcdn.com/adlib/$css,domain=bild.de
 @@||asadcdn.com/adlib/libmodules/desktop/instream.$script,domain=bild.de
@@ -5536,7 +5541,6 @@
 @@||dashboard.streetlib.com/_next/static/chunks/pages/$~third-party
 @@||dashboard.tovarro.com^$~third-party
 @@||dashboard.unity.com/dist/udash/app/assets/services/analytics/$~third-party
-@@||dashboard.unity3d.com/services/analytics/$~third-party
 @@||dashingdirt.com^$script,xmlhttprequest
 @@||dashingdrop.com^$script,xmlhttprequest
 @@||dashingsweater.com^$script,xmlhttprequest
@@ -7723,6 +7727,7 @@
 @@||glossysense.com^$script,xmlhttprequest
 @@||gls-group.eu/*/csomagkovetes$elemhide,jsinject
 @@||gls-group.eu^$extension
+@@||gm.mmstat.com^
 @@||gmads.net^$object-subrequest,domain=sat1.de|sat1.ch
 @@||gmclan.org^*/images/fb_$image
 @@||gminazamosc.pl/wp-content/plugins/wp-google-analytics-events/js/ga-scroll-events.js?
@@ -8529,7 +8534,6 @@
 @@||googletagmanager.com/gtm.js$domain=rollingstone.com
 @@||googletagmanager.com/gtm.js$domain=rottentomatoes.com
 @@||googletagmanager.com/gtm.js$domain=runlesswire.com
-@@||googletagmanager.com/gtm.js$domain=sante.journaldesfemmes.fr
 @@||googletagmanager.com/gtm.js$domain=sanwacompany.co.jp
 @@||googletagmanager.com/gtm.js$domain=saturn.de
 @@||googletagmanager.com/gtm.js$domain=sciencesetavenir.fr
@@ -9533,6 +9537,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$app=com.nextmediatw
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$app=net.ettoday.phone
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=10play.com.au
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|rte.ie|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|watch.nba.com|worldsurfleague.com|wsj.com|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|rte.ie|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|worldsurfleague.com|wsj.com|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=24h.com.vn
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=3bmeteo.com
@@ -9660,6 +9665,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=m.timesofindia.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mariogames.be
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=matchtv.ru|sportbox.ru
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=meczyki.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=medyaradar.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=meilleurpronostic.fr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mein-schoener-garten.de
@@ -10216,6 +10222,7 @@
 @@||interpals.net/js/ads.js
 @@||intersport.no/cookiewall?$~third-party
 @@||intersport.peerius.com/tracker/*.page$domain=intersport.de
+@@||intersport.peerius.com/tracker/tracker.page$script,domain=intersport.de
 @@||intersport.peerius.com^|
 @@||intersport.peerius.com^|$domain=intersport.de
 @@||intocam.com/chat/advertisement.js
