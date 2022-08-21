@@ -1,15 +1,15 @@
 [Adblock Plus 3.0]
-! Checksum: 0MI4FMl4GX+PXkimiAc7fw
+! Checksum: OS+kDj80eant3DRuGPbE0w
 ! Title: My AdFilters（for PC）
 ! Expires: 2 hours
-! Version: 202208211529
-! Last Modified: 2022年08月21日 15:29
+! Version: 202208212332
+! Last Modified: 2022年08月21日 23:32
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
-! Total count: 73782
+! Total count: 73801
 ###ADInterest
 ###ADSLOT_1
 ###ADTOP
@@ -5040,6 +5040,7 @@
 ##.mpuAdvert
 ##.mpu_ad
 ##.mpu_container
+##.mpu_wrapper
 ##.mrec-ads
 ##.mrec-scrollable-cont
 ##.mrecAds
@@ -6207,6 +6208,7 @@
 ##AD-TRIPLE-BOX
 ##AMP-AD
 ##A[href*=".com/?Agent="]
+##A[href*="/uu5566.cn.com/"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href="http://goo.gl/jQ9bcz"]
@@ -12021,6 +12023,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /media/ad/*
 /media/ads/*
 /media/miner.
+/media/users/*.js$image
 /media_viewed_tracking.
 /medialaanUniversalTracker.
 /mediametrie.js
@@ -13833,7 +13836,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /template/paody/aaaa/all-top.js
 /template/shoujigg/*
 /templates/*/js/_banner.js
-/templates/frontend/airav/js/*.gif$image
+/templates/frontend/airav/js/*$image
 /templets/*/js/couplet-ad.
 /templets/yycms3/img/*
 /tenant.min.js
@@ -29746,6 +29749,8 @@ kbb.com##[data-lean-auto="flexible-native-2"]
 kbb.com##div#kbbAdsMedRec
 kbb.com#@#.ad-med-rec
 kbb.com#@#.gpt-ad
+kdhome.net,xinhuanet.com,yxdm.live##.adv3
+kdhome.net,yxdm.live##.adv2
 kdnet.net##.download-bar
 kdnuggets.com##div[id^="kdnug-"]
 kdramahood.com##.player_nav > div[style^="text-align:center; padding-top:"]
@@ -32305,6 +32310,7 @@ pcccp.cn##DIV[id^="xydl"]
 pccomponentes.com#@#.dfp-banner
 pcgamebenchmark.com##.nova_wrapper
 pcgamebenchmark.com##.side
+pcgamebenchmark.com,pcgamesn.com,pockettactics.com,theloadout.com###nn_astro_wrapper
 pcgamer.com##+js(set-constant, handleHeaderError, noopFunc)
 pcgamer.com,tomsguide.com,tomshardware.com##div[class*="ad-unit"]
 pcgames.com.cn##.aFollowb
@@ -32317,7 +32323,6 @@ pcgamesn.com##.static_mpu_wrap
 pcgamesn.com#$##nn_astro_wrapper { height: 50px !important; }
 pcgamesn.com#$#body header.banner:not(#style_important) { top: 0 !important; }
 pcgamesn.com,ign.com,theatlantic.com##.ad-wrapper
-pcgamesn.com,pockettactics.com,theloadout.com###nn_astro_wrapper
 pcgamesn.com,pockettactics.com,theloadout.com##.inlinerail
 pcgamesn.com,theloadout.com##.sticky_rail600
 pcgamingwiki.com#$#.home-information-column { padding-top: 40px!important; }
@@ -37523,6 +37528,8 @@ yuukinohana.co.jp#@##gwd-ad
 yuzu-emu.org##.column > div.px-md
 yuzu-emu.org#?#div[class="hero-body"] > div.has-text-centered > ins.adsbygoogle:upward(2)
 yxbao.com###gs_down
+yxdm.live##.adv-bt
+yxdm.live##.adv0
 yxdown.com###highdown
 yxdown.com###tl_adv
 yxdown.com##.pc_down
@@ -38127,6 +38134,7 @@ zznews.cn##.ad:not([style])
 ||23962340.com^
 ||23986834.com^
 ||23991511.com^
+||23img.com^*/qomnyi.
 ||23taoke.xyz^
 ||23wm.cc^
 ||24-sportnews.com^
@@ -38635,6 +38643,7 @@ zznews.cn##.ad:not([style])
 ||666763.xyz^
 ||666764.xyz^
 ||666765.xyz^
+||666767.xyz^
 ||6669667.com^
 ||66998.top^
 ||6699fa.cn/js/
@@ -38753,6 +38762,7 @@ zznews.cn##.ad:not([style])
 ||885842.com^
 ||8881919.cc^
 ||8889888.vip^
+||888yh.xyz^
 ||88eg.cn^
 ||88rpg.net^
 ||89h8.com^
@@ -41448,6 +41458,7 @@ zznews.cn##.ad:not([style])
 ||analytics.hiome.com^
 ||analytics.hotelclub.com^
 ||analytics.humanautomation.ai^
+||analytics.ikyu.com^
 ||analytics.infobae.com^
 ||analytics.inform.com^
 ||analytics.iraiser.eu^
@@ -42578,6 +42589,7 @@ zznews.cn##.ad:not([style])
 ||baj.fanwenzhan.com^
 ||bakbb.com^
 ||bakercommunications.actonservice.com^
+||bakeryembedded.com^
 ||bakteso.ru^
 ||bakupost.az/banner
 ||balancemailbox.com^
@@ -52418,6 +52430,7 @@ zznews.cn##.ad:not([style])
 ||img2.126.net^
 ||img2.titan007.com^
 ||img3.126.net^
+||img301.com^
 ||img50.pingguolv.com^
 ||img599.net/images/*0x
 ||img599.net^$domain=18board.com|18p2p.com
@@ -52448,6 +52461,7 @@ zznews.cn##.ad:not([style])
 ||imgur.com^$domain=up-load.io
 ||imgwdyey.com^
 ||imhd.io^$third-party
+||imhentai.xxx/js/slider.js
 ||imiclk.com^
 ||imiek.com^
 ||imilroshoors.com^$all
@@ -64252,6 +64266,7 @@ zznews.cn##.ad:not([style])
 ||sk1n.fr^$third-party
 ||sk8t.fr^$third-party
 ||skatestooped.com^
+||skbao.co^
 ||skechers.com/dL6GOSf9/init.js
 ||skeeping.com/live/$subdocument,third-party
 ||skeimg.com/i/*.gif
@@ -70693,6 +70708,7 @@ zznews.cn##.ad:not([style])
 ||utrosy.com^
 ||uts.auction.co.kr^
 ||uttermosthobbies.com^
+||uu2e.com^
 ||uu99k.com^
 ||uue2.destinia.ir^
 ||uuidksinc.net^$third-party
@@ -73354,6 +73370,8 @@ zznews.cn##.ad:not([style])
 ||ywxigvzbkqg.com^
 ||ywywjrlbsuv.com^$script
 ||yxdm.*/js/ddetector.js
+||yxdm.live/js/*_
+||yxdm.live/js/gad.js
 ||yxdown.com/cj/
 ||yxdown.com/count.js
 ||yxdown.com/pc/news/js/news
@@ -73605,6 +73623,7 @@ zznews.cn##.ad:not([style])
 ||zlink2.com^
 ||zlink6.com^
 ||zlinkm.com^
+||zlmbnh.cn^
 ||zlolhl.3dnews.ru^
 ||zlolhl.anekdot.ru^
 ||zlolhl.briefly.ru^

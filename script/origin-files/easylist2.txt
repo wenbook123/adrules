@@ -1,10 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: 几十KB的轻量规则
 ! Homepage: https://github.com/damengzhu/banad
-! Update Time: 2022-08-21 13:59:22（北京时间） 
-! Total Count: 2186
+! Update Time: 2022-08-21 21:14:49（北京时间） 
+! Total Count: 2193
 ! by: 酷安@大萌主
 ! Host
+||hgjxp.cn^
 ||wn80drk.shop^
 ||cw9twuas.xyz^
 ||cw9twua9.shop^
@@ -1662,6 +1663,17 @@
 ||err.ifengcloud.ifeng.com^
 ||ztyumn.ifeng.com^
 ! URL
+@@qhres2.com$domain=baike.so.com
+@@||pagead2.googlesyndication.com^$domain=myqqjd.com
+@@||www.google-analytics.com^$domain=myqqjd.com
+@@||www.googletagmanager.com^$domain=myqqjd.com
+@@||myqqjd.com^
+@@www.cocomanga.com/js/ad_/ad2.js
+@@f*.baidu.com/it/u=*,*&fm=*JPEG
+@@f*.baidu.com/it/u=*,*&fm=*PNG
+@@guokr.com/apis/flowingboard/item/m_article
+@@guokr.com/apis/flowingboard/item/m_home_
+||baidu.com/newspage/api/getmobads?
 .top/*/*-*-*-*.*?_=*
 .top/Report/*-*-*-*-*
 ||pubfuture.com^$third-party
@@ -1673,16 +1685,6 @@ n5m5.com/static/js/playcon.js
 /js/ads
 /tongji.js
 anluyg.net/static/js/channel*.js
-@@||pagead2.googlesyndication.com^$domain=myqqjd.com
-@@||www.google-analytics.com^$domain=myqqjd.com
-@@||www.googletagmanager.com^$domain=myqqjd.com
-@@||myqqjd.com^
-@@www.cocomanga.com/js/ad_/ad2.js
-@@f*.baidu.com/it/u=*,*&fm=*JPEG
-@@f*.baidu.com/it/u=*,*&fm=*PNG
-@@guokr.com/apis/flowingboard/item/m_article
-@@guokr.com/apis/flowingboard/item/m_home_
-||baidu.com/newspage/api/getmobads?
 google-analytics.com$third-party
 killcovid2021.com/*.mp4
 lewenma.com/js/read.js
@@ -1879,6 +1881,7 @@ www.baidu.com###content_left > *:not([id]) *,[class="result c-container new-pmd"
 so.toutiao.com##section.commonbox.hasfooter
 pornhub.com##DIV.adContainer
 pornhub.com##DIV.topAdContainter
+baike.so.com##section#business-flow.business-flow
 smartapps.cn##swan-nest-banner-ad.ad-expose
 smartapps.cn##.sw-22__bdad-wrap,.sw-22__ad-expose
 mini.yyrtv.com##.right-gg
@@ -1944,6 +1947,10 @@ sohu.com##.float-discuss-up.float-discuss-enter
 sohu.com##.float-discuss-container
 sohu.com##.feedback
 sohu.com##DIV#recommendSearch
+##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
+##[href='/aga2/1661087']
+##.player_pic_link > [src*='/player.gif']
+##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
 ##[data-url='http://xixi.stylar.hk/']
 ##[href^='https://jincai.sohu.com/']
 ##[href*='sohu.com/hy-op']
