@@ -1,15 +1,15 @@
 [Adblock Plus 3.0]
-! Checksum: agTTK2JPsrkUYBHN+jfi8Q
+! Checksum: 0aTRx0PRGM76faUUFVS/ZA
 ! Title: My AdFilters（for PC）
 ! Expires: 2 hours
-! Version: 202208271529
-! Last Modified: 2022年08月27日 15:29
+! Version: 202208272333
+! Last Modified: 2022年08月27日 23:33
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
-! Total count: 74092
+! Total count: 74082
 ###ADTOP
 ###ADVERTISE_RECTANGLE1
 ###ADVERTISE_RECTANGLE2
@@ -490,9 +490,6 @@
 ###ad_table
 ###ad_takeover
 ###ad_text:not(textarea)
-###ad_thread1_1
-###ad_thread_first_post_content
-###ad_thread_last_post_content
 ###ad_top
 ###ad_top_banner
 ###ad_topbanner
@@ -516,7 +513,6 @@
 ###adbanner1
 ###adbar
 ###adbcontainer-popup
-###adbdiv
 ###adblock-alert
 ###adblock-box
 ###adblock-honeypot
@@ -540,7 +536,6 @@
 ###adblocker_modal_overlay
 ###adblockinfo
 ###adblockpopup
-###adbn_UMU
 ###adbody
 ###adbottom
 ###adbox
@@ -2274,6 +2269,7 @@
 ##.ad-outline
 ##.ad-overlay
 ##.ad-padding
+##.ad-page-setting
 ##.ad-panel
 ##.ad-place
 ##.ad-placeholder
@@ -2418,6 +2414,7 @@
 ##.ad-unit-text
 ##.ad-unit-top
 ##.ad-unit-wrapper
+##.ad-units-single-header-wrapper
 ##.ad-v
 ##.ad-v2
 ##.ad-vertical
@@ -2439,6 +2436,7 @@
 ##.ad-wrapper
 ##.ad-wrapper--flexibleportrait
 ##.ad-wrapper-250
+##.ad-wrapper-solid
 ##.ad-wrapper-top
 ##.ad-wrapper__ad-slug
 ##.ad-x10x20x30
@@ -2913,7 +2911,6 @@
 ##.add300
 ##.add300x250
 ##.add_300x250
-##.add_top-wrp-in
 ##.addarea
 ##.addbanner
 ##.addisclaimer
@@ -2949,15 +2946,11 @@
 ##.adlinks
 ##.adlist
 ##.adloaded
-##.adloc-is-banner
 ##.admain
-##.admania_themead
 ##.admiddle
 ##.admz
 ##.adnSpot
 ##.adname
-##.adnewslist
-##.adnl_zone
 ##.adnotice
 ##.adnotification
 ##.adocean
@@ -3386,6 +3379,9 @@
 ##.adunit-googleadmanager
 ##.adunit-middle
 ##.adunit-parent
+##.adunit-search-midstream
+##.adunit-skyscraper-1
+##.adunit-skyscraper-2
 ##.adunit-title
 ##.adunit-wrapper
 ##.adunit300x250
@@ -4449,6 +4445,7 @@
 ##.gpAdFooter
 ##.gpt-ad
 ##.gpt-ad-container
+##.gpt-ad-sidebar-wrap
 ##.gpt-ads
 ##.gpt-billboard
 ##.gpt-breaker-container
@@ -4628,6 +4625,7 @@
 ##.inline-ad-wrap
 ##.inline-ad-wrapper
 ##.inline-advert
+##.inline-banner-ad
 ##.inline-display-ad
 ##.inline-iframe.article--content-embed
 ##.inlineAd
@@ -4719,6 +4717,7 @@
 ##.js-right-ad-block
 ##.js-skyscraper-ad
 ##.js-sticky-ad
+##.js-sticky-advert-details-mpu
 ##.js-widget-distroscale.distroscale
 ##.jsAdSlot
 ##.jsOneAd
@@ -5209,6 +5208,7 @@
 ##.primary-ad-widget
 ##.primis-player
 ##.primis-player__container
+##.print-ad-wrapper
 ##.print-adslot
 ##.pro_ad_adzone
 ##.product-ad
@@ -5400,6 +5400,7 @@
 ##.sdc-advert__top-1
 ##.search + #midBox
 ##.search-ad
+##.search-result--sponsored-ad
 ##.search-results-ad
 ##.search-results-banner-ad
 ##.searchAd
@@ -6804,8 +6805,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 &action=js_stats_
 &ad_code=
 &ad_height=
-&ad_ids=
-&ad_slot=
 &ad_system=
 &ad_type=
 &ad_url=
@@ -6890,9 +6889,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 -ad-300x600-
 -ad-banner-
 -ad-bottom-
--ad-changer-
 -ad-code/
--ad-iframe.
 -ad-manager/$~stylesheet
 -ad-sidebar-
 -ad-targeting?
@@ -6916,8 +6913,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 -ads-widget/
 -ads.gif
 -ads.php?
--ads/ad-
--ads/assets/
 -ads/img/
 -adserver-
 -adserver.$domain=~aqua-adserver.com|~revive-adserver.com
@@ -7059,11 +7054,9 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .ads.controller.
 .ads.css
 .adsales.
-.adsame-
 .adsdk.
 .adsense.
 .adserver.
-.adsync.
 .adtech_
 .advert.$domain=~advert.ae|~advert.io|~advert.ly|~advert.media|~advert.org.pl
 .ae/ads/
@@ -7786,7 +7779,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /GoogleAnalyticsPlugIn.
 /GoogleAnalyticsPlus/*
 /GoogleAnalyticsTrackingProvider.js
-/GoogleDFP.
 /HeatmapSessionRecording/*$domain=~plugins.matomo.org|~shop.matomo.org
 /HiroBeacon?
 /Hit.ashx?
@@ -8127,6 +8119,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /a.php?ref=
 /a/ads/*
 /a/analytics/*
+/a/display.php?$script
 /a/ipn/js/*
 /a/pop/js/*
 /a8c-analytics.
@@ -8136,6 +8129,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /aadb/script.js|$script
 /aap/stats
 /aas/r45d/vki/*$script,third-party
+/ab_fl.js$script
 /ab_my/pc_pf.js
 /ab_track.
 /abb-msg.js
@@ -8424,7 +8418,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /addrtlog/*
 /adds/counter.js
 /addstats?callback=
-/adengage/*
 /adengine.
 /adevent.$domain=~adevent.com
 /adex.js
@@ -8570,8 +8563,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /adrum-
 /adrum.
 /adrum_
-/ads-05.
-/ads-5.
 /ads-api.
 /ads-arc.
 /ads-beacon.
@@ -8580,8 +8571,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ads-frontend.
 /ads-loader.
 /ads-min.
-/ads-no-
-/ads-pd.
 /ads-top.
 /ads.bundle.
 /ads.css
@@ -8734,10 +8723,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /adsys/*
 /adsystem/*
 /adtag.
-/adtag/*
 /adtag?
 /adtags.
-/adtags/*
 /adtctr.
 /adtech.$~script,domain=~adtech.co.uk|~adtech.io|~adtech.md
 /adtech/*
@@ -8777,7 +8764,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /adv_out.
 /adv_teasers.
 /adv_top.
-/advagg_font.
 /advanced-ads-$domain=~wordpress.org
 /advanced-ads/*$domain=~wordpress.org
 /adver.
@@ -8835,7 +8821,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /advscript.
 /advstats/*
 /advt.$domain=~advt.ch|~advt.it
-/advt/*
 /adw.$domain=~adw.amsterdam.nl|~adw.be|~adw.olsztyn.pl|~adw.org|~adw.org.pl|~gnome.org|~valadoc.org
 /adweb.$domain=~adweb.clarkson.edu|~adweb.com.au|~adweb.cz|~adweb.pro
 /adwolf.$domain=~adwolf.ru
@@ -8844,12 +8829,9 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /adwords/*$domain=~google.com
 /adx.$domain=~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.rs|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu|~solutionshill.com
 /adx.$domain=~adx.uk.com|~adx.wowfi.com
-/adx_blacklist.js
 /adx_flash.
 /adx_remote.
 /adxv.
-/adzone.
-/adzone/*
 /adzones.
 /aegis_tracking.
 /afd/entry
@@ -10122,6 +10104,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /counters/pages?
 /countertab.js?
 /countinj.cgi?
+/countly.js
+/countly.min.js
 /countpixel.
 /countstat.php?
 /countubn.
@@ -10189,7 +10173,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /curveball/ads/*
 /custom-analytics.js
 /custom-tracking.
-/custom11x5ad.
 /custom_ads.
 /custom_ads/*
 /cv/conversion.js
@@ -10203,9 +10186,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /cxense-candy.js
 /cxense-video/*
 /cxense/cx.js
-/cxf-ad-banner
 /cxf-tracking
-/cyad1.
 /cyberestat/*
 /d.gif?
 /d/*-*-*.ap|$script,third-party
@@ -10402,7 +10383,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ea_ctrl?
 /eae-logger/*
 /earlybirds/script_
-/eas_tag.1.0.js
 /easyazon-
 /eatms.js
 /ebay_analytics.
@@ -10638,8 +10618,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /fe/track/*
 /fe_logger?
 /federated-analytics.
-/feedads.
-/fel456.js
+/fel456.js$script
 /fender_analytics.
 /figanalytics.
 /figanalytics/*
@@ -10738,7 +10717,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /fshow.php?id=$script,third-party
 /fsjghgwyegh_f.js
 /fsrscripts/*
-/ft/hit/*
 /fuckadb.js
 /fuckadblock-$script,redirect=nofab.js
 /fuckadblock.$script,redirect=nofab.js
@@ -11131,7 +11109,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /hit-counter/*
 /hit.asp?
 /hit.c?
-/hit.gif?hash=
 /hit.php?
 /hit.png?
 /hit.t?
@@ -11430,12 +11407,10 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /insights-emitter/*
 /insitemetrics/*
 /instart.js
-/integration?pixel=
 /intellitracker.js
 /intercept.js
 /internal-ad-
 /internal/page_view?
-/interstitial_ad.
 /intervigil.
 /intextlinks-tracking/*
 /intstatcheck.
@@ -12622,7 +12597,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /pixel1/impression.
 /pixel2.gif?
 /pixel?cid=
-/pixel?google_
 /pixel?id=
 /pixel?m=
 /pixel?sm_
@@ -12681,6 +12655,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /plugins/anti-block/*
 /plugins/better-stop-adblock/*
 /plugins/catman/*
+/plugins/dx-ads/*$script
 /plugins/exactmetrics-
 /plugins/ibd-block-adblocker/*$script,stylesheet
 /plugins/main/js/jquery.simplemodal.js$script
@@ -13117,6 +13092,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /s/su.php?t=
 /s1.php?type=
 /sTrackStats.
+/s_code_global_context.js
 /s_trans.gif?
 /s_trans_nc.
 /sa-tracker-
@@ -15708,7 +15684,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 9miao.com###deanrlc22
 9now.com.au##.vjs-cuepoints-bar
 9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co##.ad-disclaimer-container
-9to5google.com,9to5mac.com,audiokarma.org,beeradvocate.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,computerworld.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,gmanetwork.com,grammarbook.com,hbr.org,insidehook.com,intouchweekly.com,khou.com,ktvu.com,lifeandstylemag.com,macstories.net,memuplay.com,metro.us,miningweekly.com,mobilesyrup.com,modernhealthcare.com,my9nj.com,nbcnews.com,nzherald.co.nz,oneesports.gg,opb.org,physiology.org,pixiv.net,politico.com,punchng.com,realsport101.com,reason.com,scroll.in,seattletimes.com,sportskeeda.com,theglobeandmail.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,toofab.com,usmagazine.com,wogx.com##.ad-container
+9to5google.com,9to5mac.com,audiokarma.org,beeradvocate.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,computerworld.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,gmanetwork.com,grammarbook.com,hbr.org,insidehook.com,intouchweekly.com,khou.com,ktvu.com,lifeandstylemag.com,macstories.net,memuplay.com,metro.us,miningweekly.com,mobilesyrup.com,modernhealthcare.com,my9nj.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,physiology.org,pixiv.net,politico.com,punchng.com,realsport101.com,reason.com,scroll.in,seattletimes.com,sportskeeda.com,theglobeandmail.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,toofab.com,usmagazine.com,wogx.com##.ad-container
 9to5mac.com,9to5google.com,9to5toys.com##iframe[data-google-container-id]
 9to5mac.com,9to5google.com,9to5toys.com##iframe[title="Advertisement"]
 9to5mac.com,9to5google.com,9to5toys.com,marketrealist.com,electrek.co,dronedj.com##iframe[title="3-rd party ad content"]
@@ -15811,7 +15787,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 =Postroll$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 =Preroll$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 =Qa-retoll$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-=adView&$domain=~adview.online
 =adunit&
 =ajaxGetAds&type=
 =autapay/*,|$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
@@ -22435,7 +22410,6 @@ _ads.html
 _ads.js?
 _ads.php?
 _ads/css/
-_ads_only&
 _ads_updater-
 _adsense.
 _adserver.
@@ -22512,7 +22486,6 @@ _impression_analytics/
 _impressions.gif?
 _interaction_analytics/
 _link-ad.
-_load_ad?
 _logHuman=
 _masterTagCallback&
 _metric_collect.
@@ -25535,6 +25508,7 @@ demonslayermanga.com#@#.adBlock
 demonslayermanga.com,readjujutsukaisen.com##.js-a-container
 demotywatory.pl##article > .demotivator > video[id="vjs-rcp1"]:empty
 denofgeek.com##.ad-dog
+departures.com##.paid-banner
 deportealdia.live,noweconomy.live,clk.asia##+js(window.open-defuser)
 depositfiles.com,depositfiles.org,dfiles.eu,dfiles.ru##.banner1
 derpibooru.org###imagespns
@@ -26979,6 +26953,7 @@ formula1.com##.js-promo-item
 forobasketcatala.com##+js(abort-on-property-read, mMCheckAgainBlock)
 fortress.com.hk,youdao.com#@#.share-icon
 fortune.com###Leaderboard0
+fortune.com##.sc-efBctP
 fortune.com#?#.homepage:-abp-has(> div[id^="InStream"])
 forum.bestflowers.ru###exposeMask
 forum.bestflowers.ru##.xenOverlay
@@ -28983,6 +28958,7 @@ influencersgonewild.com#?#.g1-advertisement-inside-grid:upward(li)
 info-mage.ru###helpme[style="display: block;"]
 info.cz,lupa.cz,karaoketexty.cz,hnonline.sk#$#abort-current-inline-script Math.random adb
 infobel.com##+js(set-constant, canRunAds, true)
+infoplease.com###block-ipmiddlewaread
 infoplease.com#@#.bannerad
 infoq.cn##.live-fixed-bar
 infoq.cn##.widget-slide-weekly
@@ -31768,6 +31744,7 @@ nicotv.biz,nicotv.club,nicotv.me##nav + .ff-bg > .slide
 nicy-spicy.pw##+js(addEventListener-defuser, /click|touchend/, _0x)
 nightfallnews.com##+js(set-constant, adBlockDetected, noopFunc)
 nikaraw.com##+js(abort-current-script, navigator, break;case)
+nikaraw.com##div[style*="height: 250px"]
 nikaraw.com##div[style*="width: 350px"][style*="height: 250px"]
 nikaraw.com#$#abort-on-property-read afStorage
 nikaraw.com,cashearn.cc##+js(abort-on-property-write, u_cfg)
@@ -31969,6 +31946,7 @@ nxmac.com#@#div[id^="advads-"]
 nxpop.tistory.com##+js(no-setTimeout-if, adblocktest)
 nxpop.tistory.com#@#.adbanner
 nyafilmer2.com,nyafilmer1.com,nyafilmer.*##+js(window.open-defuser)
+nybooks.com##.toast-cta
 nypost.com##.billboard-overlay
 nypost.com##.recirc--outbrain
 nypost.com##.widget_nypost_dfp_ad_widget
@@ -42452,6 +42430,7 @@ zznews.cn##.ad:not([style])
 ||aztsefz.cn^
 ||aztwwe.satom.ru^
 ||azulcw7.com^
+||azureedge.net/adtags/
 ||azureedge.net/cdn/js/rad.js
 ||azureedge.net/javascripts/Tracking.
 ||azureedge.net/prod/cosprings/loader.min.js$domain=gazette.com
@@ -43460,6 +43439,7 @@ zznews.cn##.ad:not([style])
 ||boqufs.2nn.jp^
 ||borckt.abarth.it^
 ||bordeaux.futurecdn.net/bordeaux.js
+||bordsnewsjule.com^
 ||boredborder.com^
 ||boredcrown.com^
 ||boringberry.com^
@@ -43762,6 +43742,7 @@ zznews.cn##.ad:not([style])
 ||buzzurl.jp/api/counter/
 ||buzzvids-direct.com^
 ||bv8888.com^
+||bvcxd.com^
 ||bvexmf.bigtv.ru^
 ||bvfmdoo.cn^
 ||bvmcdn.net^
@@ -44523,6 +44504,7 @@ zznews.cn##.ad:not([style])
 ||choachim.com^
 ||choconart.com^
 ||choicestream.com^*/pixel/
+||chok8.com/statics/ad/
 ||chokupsupto.com^
 ||cholosfuhrer.com^
 ||chong-wu.net^
@@ -51715,6 +51697,7 @@ zznews.cn##.ad:not([style])
 ||hjfile.cn/site/hj-lzs/
 ||hjfile.cn/site/js/pop_gift_plugin.js
 ||hjhbhddren.com^
+||hjjkk66.xyz^
 ||hjqkwjyu.com^
 ||hjqsyyy.com^
 ||hjqwe.com^
@@ -54520,6 +54503,7 @@ zznews.cn##.ad:not([style])
 ||laoma.ltd^
 ||laosiji.com/static/js/lib/od_statistics.js
 ||laoyg.com^
+||lapblra5do4j7rfit7e.com^
 ||laprovence.com/fatalistic^
 ||lapsebreak.com
 ||lapwlbz.cn^
@@ -57232,6 +57216,7 @@ zznews.cn##.ad:not([style])
 ||minyaartcrafts.cn^
 ||minzhouxinxi.cn^
 ||mipcdn.com^*/mip-*ad-
+||mipcdn.com^*/mip-*ad.
 ||mipengine.baidu.com/common?
 ||miraclejay.work^
 ||miraclenecklace.com^
@@ -58593,6 +58578,7 @@ zznews.cn##.ad:not([style])
 ||nrj.fr/nrj?Page=/rg.fake&
 ||nrk.no^*/stats/
 ||nrxduw5.com^
+||nrysogsic.uno^
 ||ns-cdn.com^*/ns_vmtag.js
 ||ns-zhy.com^
 ||ns.machinevision-getter.net.zooplus.it^
@@ -70228,6 +70214,7 @@ zznews.cn##.ad:not([style])
 ||tucao.lol/uploadfile/*/1000_150.
 ||tucao.lol/uploadfile/*/960-80.
 ||tucao.lol/uploadfile/*1000X100
+||tucao.lol/uploadfile/*_365.gif
 ||tucao.lol/uploadfile/20*/1000-*.gif
 ||tucao.lol/uploadfile/20*/20*.gif
 ||tudown.com^$third-party
@@ -70412,6 +70399,7 @@ zznews.cn##.ad:not([style])
 ||u0071.com^
 ||u0075.com^
 ||u0078.com^
+||u0079.com^
 ||u0081.com^
 ||u0083.com^
 ||u0r9.cn^
@@ -71740,6 +71728,7 @@ zznews.cn##.ad:not([style])
 ||web3ads.net^
 ||web3ads.net^$third-party
 ||webads.eu^$third-party
+||webanalysis.dev^$third-party
 ||webassembly.stream^$third-party
 ||webbc.fivecdm.com^
 ||webbificio.com/add.asp?
@@ -71838,6 +71827,7 @@ zznews.cn##.ad:not([style])
 ||webt.eu.teac-audio.com^
 ||webt.pure.com^
 ||webtalking.ru^$third-party
+||webtemsilcisi.com^$third-party
 ||webtoonscan.com/*ads.js
 ||webtrack.biz^$third-party
 ||webtracker.apicasystem.com^

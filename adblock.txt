@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: JGFxhJefV73VQp1vCmYBdA
+! Checksum: 104XsndsiVvRtrJBrton+g
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-08-27 16:22:20（北京时间） 
-! Total count: 93591
+! Version: 2022-08-28 00:20:38（北京时间） 
+! Total count: 93581
 ###ADTOP
 ###ADVERTISE_RECTANGLE1
 ###ADVERTISE_RECTANGLE2
@@ -509,9 +509,6 @@
 ###ad_table
 ###ad_takeover
 ###ad_text:not(textarea)
-###ad_thread1_1
-###ad_thread_first_post_content
-###ad_thread_last_post_content
 ###ad_top
 ###ad_top_banner
 ###ad_topbanner
@@ -535,7 +532,6 @@
 ###adbanner1
 ###adbar
 ###adbcontainer-popup
-###adbdiv
 ###adblock-alert
 ###adblock-box
 ###adblock-honeypot
@@ -559,7 +555,6 @@
 ###adblocker_modal_overlay
 ###adblockinfo
 ###adblockpopup
-###adbn_UMU
 ###adbody
 ###adbottom
 ###adbox
@@ -2440,6 +2435,7 @@
 ##.ad-outline
 ##.ad-overlay
 ##.ad-padding
+##.ad-page-setting
 ##.ad-panel
 ##.ad-place
 ##.ad-placeholder
@@ -2586,6 +2582,7 @@
 ##.ad-unit-text
 ##.ad-unit-top
 ##.ad-unit-wrapper
+##.ad-units-single-header-wrapper
 ##.ad-v
 ##.ad-v2
 ##.ad-vertical
@@ -2607,6 +2604,7 @@
 ##.ad-wrapper
 ##.ad-wrapper--flexibleportrait
 ##.ad-wrapper-250
+##.ad-wrapper-solid
 ##.ad-wrapper-top
 ##.ad-wrapper__ad-slug
 ##.ad-x10x20x30
@@ -3095,7 +3093,6 @@
 ##.add300
 ##.add300x250
 ##.add_300x250
-##.add_top-wrp-in
 ##.addarea
 ##.addbanner
 ##.addisclaimer
@@ -3131,15 +3128,11 @@
 ##.adlinks
 ##.adlist
 ##.adloaded
-##.adloc-is-banner
 ##.admain
-##.admania_themead
 ##.admiddle
 ##.admz
 ##.adnSpot
 ##.adname
-##.adnewslist
-##.adnl_zone
 ##.adnotice
 ##.adnotification
 ##.adocean
@@ -3572,6 +3565,9 @@
 ##.adunit-googleadmanager
 ##.adunit-middle
 ##.adunit-parent
+##.adunit-search-midstream
+##.adunit-skyscraper-1
+##.adunit-skyscraper-2
 ##.adunit-title
 ##.adunit-wrapper
 ##.adunit300x250
@@ -4689,6 +4685,7 @@
 ##.gpost-below
 ##.gpt-ad
 ##.gpt-ad-container
+##.gpt-ad-sidebar-wrap
 ##.gpt-ads
 ##.gpt-billboard
 ##.gpt-breaker-container
@@ -4882,6 +4879,7 @@
 ##.inline-ad-wrap
 ##.inline-ad-wrapper
 ##.inline-advert
+##.inline-banner-ad
 ##.inline-display-ad
 ##.inline-iframe.article--content-embed
 ##.inlineAd
@@ -4974,6 +4972,7 @@
 ##.js-right-ad-block
 ##.js-skyscraper-ad
 ##.js-sticky-ad
+##.js-sticky-advert-details-mpu
 ##.js-widget-distroscale.distroscale
 ##.jsAdSlot
 ##.jsOneAd
@@ -5500,6 +5499,7 @@
 ##.primary-ad-widget
 ##.primis-player
 ##.primis-player__container
+##.print-ad-wrapper
 ##.print-adslot
 ##.privilege-promote
 ##.pro_ad_adzone
@@ -5699,6 +5699,7 @@
 ##.sdc-advert__top-1
 ##.search + #midBox
 ##.search-ad
+##.search-result--sponsored-ad
 ##.search-results-ad
 ##.search-results-banner-ad
 ##.searchAd
@@ -8949,8 +8950,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 &action=js_stats_
 &ad_code=
 &ad_height=
-&ad_ids=
-&ad_slot=
 &ad_system=
 &ad_type=
 &ad_url=
@@ -9042,9 +9041,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 -ad-300x600-
 -ad-banner-
 -ad-bottom-
--ad-changer-
 -ad-code/
--ad-iframe.
 -ad-manager/$~stylesheet
 -ad-sidebar-
 -ad-targeting?
@@ -9068,8 +9065,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 -ads-widget/
 -ads.gif
 -ads.php?
--ads/ad-
--ads/assets/
 -ads/img/
 -adserver-
 -adserver.$domain=~aqua-adserver.com|~revive-adserver.com
@@ -9214,11 +9209,9 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 .ads.controller.
 .ads.css
 .adsales.
-.adsame-
 .adsdk.
 .adsense.
 .adserver.
-.adsync.
 .adtech_
 .advert.$domain=~advert.ae|~advert.io|~advert.ly|~advert.media|~advert.org.pl
 .ae/ads/
@@ -10122,7 +10115,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /GoogleAnalyticsPlugIn.
 /GoogleAnalyticsPlus/*
 /GoogleAnalyticsTrackingProvider.js
-/GoogleDFP.
 /HeatmapSessionRecording/*$domain=~plugins.matomo.org|~shop.matomo.org
 /HiroBeacon?
 /Hit.ashx?
@@ -10479,6 +10471,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /a.php?ref=
 /a/ads/*
 /a/analytics/*
+/a/display.php?$script
 /a/ipn/js/*
 /a/p?adid=
 /a/pop/js/*
@@ -10490,6 +10483,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /aadb/script.js|$script
 /aap/stats
 /aas/r45d/vki/*$script,third-party
+/ab_fl.js$script
 /ab_my/pc_pf.js
 /ab_res/m/common.js
 /ab_res/pc/fixed/fixed.js
@@ -10786,7 +10780,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /addrtlog/*
 /adds/counter.js
 /addstats?callback=
-/adengage/*
 /adengine.
 /adevent.$domain=~adevent.com
 /adex.js
@@ -10938,8 +10931,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /adrum-
 /adrum.
 /adrum_
-/ads-05.
-/ads-5.
 /ads-api.
 /ads-arc.
 /ads-beacon.
@@ -10948,8 +10939,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /ads-frontend.
 /ads-loader.
 /ads-min.
-/ads-no-
-/ads-pd.
 /ads-top.
 /ads.bundle.
 /ads.css
@@ -11104,10 +11093,8 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /adsys/*
 /adsystem/*
 /adtag.
-/adtag/*
 /adtag?
 /adtags.
-/adtags/*
 /adtctr.
 /adtech.$~script,domain=~adtech.co.uk|~adtech.io|~adtech.md
 /adtech/*
@@ -11148,7 +11135,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /adv_out.
 /adv_teasers.
 /adv_top.
-/advagg_font.
 /advanced-ads-$domain=~wordpress.org
 /advanced-ads/*$domain=~wordpress.org
 /adver.
@@ -11206,7 +11192,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /advscript.
 /advstats/*
 /advt.$domain=~advt.ch|~advt.it
-/advt/*
 /adw.$domain=~adw.amsterdam.nl|~adw.be|~adw.olsztyn.pl|~adw.org|~adw.org.pl|~gnome.org|~valadoc.org
 /adweb.$domain=~adweb.clarkson.edu|~adweb.com.au|~adweb.cz|~adweb.pro
 /adwolf.$domain=~adwolf.ru
@@ -11215,12 +11200,9 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /adwords/*$domain=~google.com
 /adx.$domain=~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.rs|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu|~solutionshill.com
 /adx.$domain=~adx.uk.com|~adx.wowfi.com
-/adx_blacklist.js
 /adx_flash.
 /adx_remote.
 /adxv.
-/adzone.
-/adzone/*
 /adzones.
 /aegis_tracking.
 /aeiou/*$domain=discuss.com.hk|uwants.com
@@ -12548,6 +12530,8 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /counters/pages?
 /countertab.js?
 /countinj.cgi?
+/countly.js
+/countly.min.js
 /countpixel.
 /countstat.php?
 /countubn.
@@ -12619,7 +12603,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /curveball/ads/*
 /custom-analytics.js
 /custom-tracking.
-/custom11x5ad.
 /custom_ads.
 /custom_ads/*
 /cv/conversion.js
@@ -12633,9 +12616,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /cxense-candy.js
 /cxense-video/*
 /cxense/cx.js
-/cxf-ad-banner
 /cxf-tracking
-/cyad1.
 /cyberestat/*
 /d.gif?
 /d/*-*-*.ap|$script,third-party
@@ -12840,7 +12821,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /ea_ctrl?
 /eae-logger/*
 /earlybirds/script_
-/eas_tag.1.0.js
 /easyazon-
 /eatms.js
 /ebay_analytics.
@@ -13080,8 +13060,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /fe/track/*
 /fe_logger?
 /federated-analytics.
-/feedads.
-/fel456.js
+/fel456.js$script
 /fender_analytics.
 /figanalytics.
 /figanalytics/*
@@ -13185,7 +13164,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /fshow.php?id=$script,third-party
 /fsjghgwyegh_f.js
 /fsrscripts/*
-/ft/hit/*
 /fuckadb.js
 /fuckadblock-$script,redirect=nofab.js
 /fuckadblock.$script,redirect=nofab.js
@@ -13598,7 +13576,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /hit-counter/*
 /hit.asp?
 /hit.c?
-/hit.gif?hash=
 /hit.php?
 /hit.png?
 /hit.t?
@@ -13920,12 +13897,10 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /insights-emitter/*
 /insitemetrics/*
 /instart.js
-/integration?pixel=
 /intellitracker.js
 /intercept.js
 /internal-ad-
 /internal/page_view?
-/interstitial_ad.
 /intervigil.
 /intextlinks-tracking/*
 /intstatcheck.
@@ -15213,7 +15188,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /pixel1/impression.
 /pixel2.gif?
 /pixel?cid=
-/pixel?google_
 /pixel?id=
 /pixel?m=
 /pixel?sm_
@@ -15274,6 +15248,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /plugins/anti-block/*
 /plugins/better-stop-adblock/*
 /plugins/catman/*
+/plugins/dx-ads/*$script
 /plugins/exactmetrics-
 /plugins/ibd-block-adblocker/*$script,stylesheet
 /plugins/main/js/jquery.simplemodal.js$script
@@ -15726,6 +15701,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /s/su.php?t=
 /s1.php?type=
 /sTrackStats.
+/s_code_global_context.js
 /s_trans.gif?
 /s_trans_nc.
 /sa-tracker-
@@ -19113,7 +19089,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 9miao.com###deanrlc22
 9now.com.au##.vjs-cuepoints-bar
 9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co##.ad-disclaimer-container
-9to5google.com,9to5mac.com,audiokarma.org,beeradvocate.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,computerworld.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,gmanetwork.com,grammarbook.com,hbr.org,insidehook.com,intouchweekly.com,khou.com,ktvu.com,lifeandstylemag.com,macstories.net,memuplay.com,metro.us,miningweekly.com,mobilesyrup.com,modernhealthcare.com,my9nj.com,nbcnews.com,nzherald.co.nz,oneesports.gg,opb.org,physiology.org,pixiv.net,politico.com,punchng.com,realsport101.com,reason.com,scroll.in,seattletimes.com,sportskeeda.com,theglobeandmail.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,toofab.com,usmagazine.com,wogx.com##.ad-container
+9to5google.com,9to5mac.com,audiokarma.org,beeradvocate.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,computerworld.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,gmanetwork.com,grammarbook.com,hbr.org,insidehook.com,intouchweekly.com,khou.com,ktvu.com,lifeandstylemag.com,macstories.net,memuplay.com,metro.us,miningweekly.com,mobilesyrup.com,modernhealthcare.com,my9nj.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,physiology.org,pixiv.net,politico.com,punchng.com,realsport101.com,reason.com,scroll.in,seattletimes.com,sportskeeda.com,theglobeandmail.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,toofab.com,usmagazine.com,wogx.com##.ad-container
 9to5mac.com,9to5google.com,9to5toys.com##iframe[data-google-container-id]
 9to5mac.com,9to5google.com,9to5toys.com##iframe[title="Advertisement"]
 9to5mac.com,9to5google.com,9to5toys.com,marketrealist.com,electrek.co,dronedj.com##iframe[title="3-rd party ad content"]
@@ -19259,7 +19235,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 =Preroll$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 =Qa-retoll$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 =SOGOU_WAP_SETJSONADSLOT&
-=adView&$domain=~adview.online
 =ad_top_slider&
 =adservice$removeparam=coid,domain=~radioreference.com|~finanzonline.bmf.gv.at
 =adunit&
@@ -26573,7 +26548,6 @@ _ads.html
 _ads.js?
 _ads.php?
 _ads/css/
-_ads_only&
 _ads_updater-
 _adsense.
 _adserver.
@@ -26655,7 +26629,6 @@ _impression_analytics/
 _impressions.gif?
 _interaction_analytics/
 _link-ad.
-_load_ad?
 _logHuman=
 _masterTagCallback&
 _metric_collect.
@@ -30550,6 +30523,7 @@ demonslayermanga.com#@#.adBlock
 demonslayermanga.com,readjujutsukaisen.com##.js-a-container
 demotywatory.pl##article > .demotivator > video[id="vjs-rcp1"]:empty
 denofgeek.com##.ad-dog
+departures.com##.paid-banner
 deportealdia.live,noweconomy.live,clk.asia##+js(window.open-defuser)
 depositfiles.com,depositfiles.org,dfiles.eu,dfiles.ru##.banner1
 derpibooru.org###imagespns
@@ -32413,6 +32387,7 @@ formula1.com##.js-promo-item
 forobasketcatala.com##+js(abort-on-property-read, mMCheckAgainBlock)
 fortress.com.hk,youdao.com#@#.share-icon
 fortune.com###Leaderboard0
+fortune.com##.sc-efBctP
 fortune.com#?#.homepage:-abp-has(> div[id^="InStream"])
 fortunechina.com##.pinglunmask
 fortunechina.com##.pinglunwindow
@@ -35020,6 +34995,7 @@ influencersgonewild.com#?#.g1-advertisement-inside-grid:upward(li)
 info-mage.ru###helpme[style="display: block;"]
 info.cz,lupa.cz,karaoketexty.cz,hnonline.sk#$#abort-current-inline-script Math.random adb
 infobel.com##+js(set-constant, canRunAds, true)
+infoplease.com###block-ipmiddlewaread
 infoplease.com#@#.bannerad
 infoq.cn##.geo-banner
 infoq.cn##.live-fixed-bar
@@ -38931,6 +38907,7 @@ nicotv.me##a[href^="http://img.kingsnug.cn/gamecenter/"]
 nicy-spicy.pw##+js(addEventListener-defuser, /click|touchend/, _0x)
 nightfallnews.com##+js(set-constant, adBlockDetected, noopFunc)
 nikaraw.com##+js(abort-current-script, navigator, break;case)
+nikaraw.com##div[style*="height: 250px"]
 nikaraw.com##div[style*="width: 350px"][style*="height: 250px"]
 nikaraw.com#$#abort-on-property-read afStorage
 nikaraw.com,cashearn.cc##+js(abort-on-property-write, u_cfg)
@@ -39169,6 +39146,7 @@ nxpop.tistory.com##+js(no-setTimeout-if, adblocktest)
 nxpop.tistory.com#@#.adbanner
 nyaa.fun##div[class^="servers-cost-money"]
 nyafilmer2.com,nyafilmer1.com,nyafilmer.*##+js(window.open-defuser)
+nybooks.com##.toast-cta
 nypost.com##.billboard-overlay
 nypost.com##.recirc--outbrain
 nypost.com##.widget_nypost_dfp_ad_widget
@@ -53324,6 +53302,7 @@ zznews.cn##.ad:not([style])
 ||aztsefz.cn^
 ||aztwwe.satom.ru^
 ||azulcw7.com^
+||azureedge.net/adtags/
 ||azureedge.net/cdn/js/rad.js
 ||azureedge.net/javascripts/Tracking.
 ||azureedge.net/prod/cosprings/loader.min.js$domain=gazette.com
@@ -54958,6 +54937,7 @@ zznews.cn##.ad:not([style])
 ||boqufs.2nn.jp^
 ||borckt.abarth.it^
 ||bordeaux.futurecdn.net/bordeaux.js
+||bordsnewsjule.com^
 ||boredborder.com^
 ||boredcrown.com^
 ||boredpanda.com^$removeparam=h
@@ -55337,6 +55317,7 @@ zznews.cn##.ad:not([style])
 ||buzzvids-direct.com^
 ||bv.lyszsz.cn^
 ||bv8888.com^
+||bvcxd.com^
 ||bvexmf.bigtv.ru^
 ||bvfmdoo.cn^
 ||bvlang.com/ad/
@@ -56415,6 +56396,7 @@ zznews.cn##.ad:not([style])
 ||chocolate521.online^
 ||choconart.com^
 ||choicestream.com^*/pixel/
+||chok8.com/statics/ad/
 ||chokupsupto.com^
 ||cholosfuhrer.com^
 ||chong-wu.net^
@@ -65569,6 +65551,7 @@ zznews.cn##.ad:not([style])
 ||hjfile.cn/site/js/pop_gift_plugin.js
 ||hjgd.ltd^
 ||hjhbhddren.com^
+||hjjkk66.xyz^
 ||hjjnpx.com^
 ||hjqkwjyu.com^
 ||hjqsyyy.com^
@@ -69679,6 +69662,7 @@ zznews.cn##.ad:not([style])
 ||laozuo.org/wp-content/themes/weisaysimple/js/content40width.js
 ||laozuo.org/wp-content/themes/weisaysimple/js/index-top.js
 ||laozuo.org/wp-content/themes/weisaysimple/js/sidebar
+||lapblra5do4j7rfit7e.com^
 ||laprovence.com/fatalistic^
 ||lapsebreak.com
 ||lapwlbz.cn^
@@ -73034,6 +73018,7 @@ zznews.cn##.ad:not([style])
 ||minyaartcrafts.cn^
 ||minzhouxinxi.cn^
 ||mipcdn.com^*/mip-*ad-
+||mipcdn.com^*/mip-*ad.
 ||mipengine.baidu.com/common?
 ||mipujia.com^$third-party
 ||miraclejay.work^
@@ -74717,6 +74702,7 @@ zznews.cn##.ad:not([style])
 ||nrk.no^*/stats/
 ||nrsfh.com/neirong/
 ||nrxduw5.com^
+||nrysogsic.uno^
 ||ns-cdn.com^*/ns_vmtag.js
 ||ns-zhy.com^
 ||ns.adobe.com^
@@ -87699,6 +87685,7 @@ zznews.cn##.ad:not([style])
 ||tucao.lol/uploadfile/*/1000_150.
 ||tucao.lol/uploadfile/*/960-80.
 ||tucao.lol/uploadfile/*1000X100
+||tucao.lol/uploadfile/*_365.gif
 ||tucao.lol/uploadfile/20*/1000-*.gif
 ||tucao.lol/uploadfile/20*/20*.gif
 ||tudown.com^$third-party
@@ -87940,6 +87927,7 @@ zznews.cn##.ad:not([style])
 ||u0071.com^
 ||u0075.com^
 ||u0078.com^
+||u0079.com^
 ||u0081.com^
 ||u0083.com^
 ||u0r9.cn^
@@ -89582,6 +89570,7 @@ zznews.cn##.ad:not([style])
 ||web3ads.net^$third-party
 ||web8.net^$third-party
 ||webads.eu^$third-party
+||webanalysis.dev^$third-party
 ||webassembly.stream^$third-party
 ||webbc.fivecdm.com^
 ||webbificio.com/add.asp?
@@ -89682,6 +89671,7 @@ zznews.cn##.ad:not([style])
 ||webt.eu.teac-audio.com^
 ||webt.pure.com^
 ||webtalking.ru^$third-party
+||webtemsilcisi.com^$third-party
 ||webtoonscan.com/*ads.js
 ||webtrack.biz^$third-party
 ||webtracker.apicasystem.com^
