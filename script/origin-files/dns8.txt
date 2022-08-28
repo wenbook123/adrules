@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hd44V/Kz/58x9m6LWsuzNA
+! Checksum: IDI85u3Rv6DchMmJl5mJMg
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202208271533
-! Last modified: 2022-08-27 15:33 UTC
+! Version: 202208280033
+! Last modified: 2022-08-28 00:33 UTC
 ! Expires: 3 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -62893,7 +62893,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /gweb/analytics/*
 /hash_stat/*
 /hash_stat_bulk/*
-/hc/tracking/*
+/hc/activity
 /hc_pixel.gif?
 /headerpixel.gif?
 /headupstats.gif?
@@ -75731,7 +75731,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||flipboard.com/usage?
 ||flipkart.com/api/3/data/collector/
 ||flirt4free.com/pixel/
-||flyasiana.com/ykjEIhcZLYg2zoOOoA/
 ||foodcouture.net/public_html/ra/script.php
 ||formula1.com/api/track
 ||foursquare.com/v2/private/logactions
@@ -75802,6 +75801,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hbo.com/events/
 ||healthline.com/api/metrics
 ||heap.drop.com^
+||hfp.intuit.com^
 ||hilton.com/zJbufaUX/
 ||hindustantimes.com/res/images/one-pixel.png
 ||hltv.org/scripts/hltv-tracking.js
@@ -76488,9 +76488,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wsj.com/asset/amt.js
 ||wstats.e-wok.tv^
 ||wtk.db.com^
+||xero.com/api/events/
 ||xfinity.com/event/
 ||xfinity.com/prod/event/
-||xfinity.com/z8ufpC5q/
 ||xhcdn.com/js/track.
 ||xing.com/logjam/
 ||xstats.evoload.io^
@@ -87383,6 +87383,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/
 @@||cqcounter.com^$domain=cqcounter.com
 @@||cruisemapper.com/assets/*/js/tracker.js$script,~third-party
+@@||cults3d.com/packs/js/quantcast-$~third-party
 @@||currys.co.uk/on/*/js/tracking.js$script,~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||d1igp3oop3iho5.cloudfront.net^*/zaius.js$script,domain=subscriptions.management
@@ -131812,7 +131813,7 @@ _subscribers_newsletters/
 ||google.com^*/fastbutton?$domain=autobild.de|tellows.de
 ||platform.twitter.com/js/button.$domain=focus.de|spiegel.de|transfermarkt.de
 ||twitter.com/js/timeline.$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-/wp-content/blog-plugins/wordads-classes/js/banner.bundle.js
+/wp-content/blog-plugins/wordads-classes/js/notice.bundle.js$script
 ||7plus.com.au/js/CookieNotice
 ||agicssecurity.com/Header/ajax/cookie.php
 ||appconsent.io^
@@ -140109,7 +140110,7 @@ mikehuckabee.com##.email-signup-section
 pcgamesn.com##.end-of-post-social-cta
 thescoop.us##.essb_mailform
 pcgamer.com,windowscentral.com##.exit-intent
-cinemablend.com,gamesradar.com,laptopmag.com,livescience.com,space.com,techradar.com,tomshardware.co.uk,tomshardware.com,whathifi.com,whattowatch.com##.exitIntent
+cinemablend.com,cyclingnews.com,gamesradar.com,guitarworld.com,laptopmag.com,livescience.com,marieclaire.com,space.com,techradar.com,tomsguide.com,tomshardware.co.uk,tomshardware.com,whathifi.com,whattowatch.com##.exitIntent
 fortune.com##.favorites_widget
 blog.feedspot.com##.fixedBar
 breakingnews.ie##.flex.bg-gray-900.pt-12
@@ -141048,6 +141049,7 @@ minfin.com.ua##.mail-subscribe-user
 ! Finnish
 mobiili.fi###text-61
 netrauta.fi##.modals-wrapper
+moottori.fi#?#.item.sidebar.reader-comp.main-gray-bg:-abp-has(a[href="/tilaa-moottorin-uutiskirje/"])
 !------------------------Specific ABP/uBO rules ------------------------!
 ! ABP-specific fixes
 !#if ext_abp
