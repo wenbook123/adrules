@@ -1,15 +1,15 @@
 [Adblock Plus 3.0]
-! Checksum: bpBhy7k42WXcE9TWQhrxCQ
+! Checksum: bRc11xiyRg9CSiSfAT0RFA
 ! Title: My AdFilters（for PC）
 ! Expires: 2 hours
-! Version: 202208290731
-! Last Modified: 2022年08月29日 07:31
+! Version: 202208291535
+! Last Modified: 2022年08月29日 15:35
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
-! Total count: 74088
+! Total count: 74091
 ###ADTOP
 ###ADVERTISE_RECTANGLE1
 ###ADVERTISE_RECTANGLE2
@@ -8078,6 +8078,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
 /_/lite/performance/*
+/_/oh-noes$~third-party,xmlhttprequest
 /_/trace/trace/*
 /__analytics/*
 /__dam.gif?
@@ -69996,7 +69997,7 @@ zznews.cn##.ad:not([style])
 ||trilogyed.com^$third-party
 ||trimbrushed.com^
 ||trinitymedia.ai/api/collect?
-||tripadvisor.com/data/2.0/rum
+||tripadvisor.*/wm/record
 ||tripleoleum.com^
 ||triptease.io^$third-party
 ||triptease.net^$third-party
@@ -71484,6 +71485,7 @@ zznews.cn##.ad:not([style])
 ||vzovmzc.cn^
 ||w-cached.cncenter.cz/js/cnc-ads-controller.$script,domain=blesk.cz|extra.cz|reflex.cz|zive.cz|auto.cz|e15.cz|autorevue.cz|dama.cz|maminka.cz|mojezdravi.cz|zeny.cz|onetv.cz|info.cz|ahaonline.cz
 ||w-profiling.cibc.com^$script
+||w-profiling.simplii.com^
 ||w.xiaopiaoyou.com^
 ||w010w.com.cn^$subdocument
 ||w11.zhongkaohelp.com^
@@ -72351,6 +72353,7 @@ zznews.cn##.ad:not([style])
 ||wsj.com/asset/amt.js
 ||wsmcdn.audioeye.com^
 ||wspeed.qq.com^
+||wspisp.net/logger.php
 ||wssgmstats.vibbo.com^
 ||wsstats.coches.net^
 ||wstats.e-wok.tv^
