@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: lC+hH0OT+iYx1jbSjGoQgg
+! Checksum: unyPLSDhdKf1Fm/fmGdlkA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-08-31 16:21:19（北京时间） 
-! Total count: 19485
+! Version: 2022-09-01 00:24:18（北京时间） 
+! Total count: 19497
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -106,6 +106,7 @@
 @@.strmrdrpx.xyz^$stealth
 @@.tv/javascript/adwords.js$domain=cc-fan.tv|cn-fan.tv|fox-fan.tv|nf-fan.tv
 @@.vaughnsoft.net/abvs.php?a=
+@@/*/*.jpg$stealth,image,domain=mangarawjp.com
 @@/.adforge.|$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
 @@//aka-cdn-ns.adtechus.com/images/$domain=cinemablend.com
 @@//mycloud.to/resources/js/player.js
@@ -1458,8 +1459,8 @@
 @@||ads.ad-center.com/smart_ad/display?$subdocument,domain=wstream.video
 @@||ads.ad-center.com^$subdocument,domain=dayt.se
 @@||ads.adfox.ru/*/getCode$app=ru.infoshell.android
-@@||ads.adfox.ru/*/getCodeTest?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru|tv.yandex.ua
-@@||ads.adfox.ru/*/prepareCode?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru|tv.yandex.ua
+@@||ads.adfox.ru/*/getCodeTest?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru
+@@||ads.adfox.ru/*/prepareCode?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru
 @@||ads.adfox.ru/crossdomain.xml$object-subrequest,domain=carambatv.ru
 @@||ads.adthrive.com/builds/$script,domain=www.mediaite.com
 @@||ads.adthrive.com/core/*/js/adthrive.min.js$domain=mediaite.com
@@ -3602,6 +3603,7 @@
 @@||camhub.world/player/player_ads.html
 @@||camhun.com^$ghide
 @@||camif.fr/skin/m/
+@@||camsecure.co/httpswebcam/*.html$stealth
 @@||camsexvideo.net/js/advertising.js
 @@||camvideoshub.com/livejasmin.com.js$script
 @@||camvideosorg1.wpnrtnmrewunrtok.xyz/remote_control.php$domain=camvideos.org
@@ -3752,6 +3754,7 @@
 @@||cdn-ukwest.onetrust.com/scripttemplates/*/otBannerSdk.js$domain=nintendolife.com
 @@||cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js$domain=nintendolife.com
 @@||cdn.adguard.com/public/$domain=adguard.com|adguard.ru
+@@||cdn.adpushup.com/*/adpushup.js$domain=duplichecker.com
 @@||cdn.adrise.tv/js/ads.js
 @@||cdn.adsafeprotected.com/*.*.js$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|esgentside.com|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.com.br|ohmirevista.com
 @@||cdn.adsafeprotected.com/*.js$domain=gentside.com|ohmymag.com
@@ -5168,6 +5171,7 @@
 @@||crawlist.net^$generichide
 @@||crayoncompetition.com^$script,xmlhttprequest
 @@||crazy-factory.com/ajax_box_cookie_banner.php$~third-party
+@@||crazygames.com/prebid.js$script,~third-party
 @@||crazygames.com^$content
 @@||crazyhd.com^$ghide
 @@||create.jd.com/ad/
@@ -7012,6 +7016,7 @@
 @@||frailoffer.com^$script,xmlhttprequest
 @@||franceculture.fr/static/vendor/js/xtcore
 @@||frandroid.com/ads.js
+@@||frankenpost.de/www/libs/_responsive/*/js/_final/apps/cookiebar.js
 @@||franklymedia.com/*/300x150_WBNQ_TEXT.png$image,domain=wbnq.com
 @@||franticcarpenter.com^$script,xmlhttprequest
 @@||frantictrail.com^$script,xmlhttprequest
@@ -9394,6 +9399,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=games.word.tips
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gameswf.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gamezhero.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gauchazh.clicrbs.com.br
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|esgentside.com|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.com.br|ohmirevista.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=get.x-link.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=globoplay.globo.com
@@ -11314,9 +11320,11 @@
 @@||mc.yandex.ru/metrika/tag.js$script,domain=auto.yandex|coddyschool.com
 @@||mc.yandex.ru/metrika/watch.js$domain=f5haber.com
 @@||mc.yandex.ru/metrika/watch.js$domain=letmefix.ru
+@@||mc.yandex.ru/metrika/watch.js$domain=m.market.yandex.ru|m.market.yandex.by|m.market.yandex.kz
 @@||mc.yandex.ru/metrika/watch.js$domain=m.market.yandex.ru|m.market.yandex.ua|m.market.yandex.by|m.market.yandex.kz
-@@||mc.yandex.ru/metrika/watch.js$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru|tv.yandex.ua
+@@||mc.yandex.ru/metrika/watch.js$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru
 @@||mc.yandex.ru/watch/$xmlhttprequest,domain=mtstv.mts.ru
+@@||mc.yandex.ru/webwisor/$domain=metrika.yandex.ru|metrika.yandex.by|metrika.yandex.kz|metrika.yandex.com.tr
 @@||mc.yandex.ru/webwisor/$domain=metrika.yandex.ru|metrika.yandex.ua|metrika.yandex.by|metrika.yandex.kz|metrika.yandex.com.tr
 @@||mc.yandex.ru^$app=ru.rostel
 @@||mc.yandex.ru^$app=ru.rtlabs.mobile.ebs.android
@@ -12366,6 +12374,7 @@
 @@||nutritiondata.self.com/ads/js/cn.dart.bun.min.js
 @@||nutshell.com/media/images-landing/integration-logo-$~third-party
 @@||nuttyorganization.com^$script,xmlhttprequest
+@@||nvidia.cn^*-300x250-
 @@||nwch.az-cdn.ch^$script,domain=oltnertagblatt.ch
 @@||nwolb.com^
 @@||nxmac.com^$ghide
@@ -12883,6 +12892,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dthforum.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=duit.cc
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=duolingo.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=duplichecker.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ed-protect.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=educationat.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=egzamin-e14.blogspot.com
@@ -15816,11 +15826,11 @@
 @@||smallseotools.com/imgs/ads/love_you_son.jpg
 @@||smallseotools.com^$generichide
 @@||smallseotools.com^$generichide,badfilter
-@@||smart.idmnet.pl/*/smartConfig_*.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl
-@@||smart.idmnet.pl/consent/*.json$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl
-@@||smart.idmnet.pl/consent/cmp-widget-latest.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl
-@@||smart.idmnet.pl/prebidBoilerplate.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl
-@@||smart.idmnet.pl/prebidBoilerplate_tmp.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl
+@@||smart.idmnet.pl/*/smartConfig_*.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl
+@@||smart.idmnet.pl/consent/*.json$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl
+@@||smart.idmnet.pl/consent/cmp-widget-latest.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl
+@@||smart.idmnet.pl/prebidBoilerplate.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl
+@@||smart.idmnet.pl/prebidBoilerplate_tmp.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl
 @@||smartadcheck.de/js/*/ad/$script
 @@||smartadserver.com/3310/call$xmlhttprequest,domain=dr.dk
 @@||smartadserver.com/ac?nwid=3310^$script,domain=dr.dk
@@ -19225,6 +19235,7 @@
 @@||xxxpornplease.*^$ghide
 @@||y0.cn^
 @@||y2mate.com/themes/images/tip-download-youtube.jpg$image
+@@||yabs.yandex.ru$domain=yandex.by|yandex.com.tr|yandex.kz|yandex.ru
 @@||yabs.yandex.ru$domain=yandex.by|yandex.com.tr|yandex.kz|yandex.ru|yandex.ua
 @@||yadayadayada.nl/banner/banner.php$image,domain=murf.nl|workhardclimbharder.nl
 @@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp|yahoo.co.jp
@@ -19241,7 +19252,7 @@
 @@||yandex.ru/metrika/watch.js$domain=anoncer.net
 @@||yandex.ru/watch/$xmlhttprequest,domain=anoncer.net
 @@||yandex.ru/webvisor/$xmlhttprequest,domain=anoncer.net
-@@||yandex.st/share/share.js$domain=66.ru|calculatewater.ru|ktk.kz|splav.ru|vnukovo.ru|yadi.sk|gama-gama.ru|foxtrot.com.ua|radiorecord.ru|xn--80aneaaefcxzcih6g1e.xn--p1ai|24auto.ru|calculatewater.ru|novoeradio.by|pikucha.ru|realty.dmir.ru|transport.mos.ru|yandex.com|yandex.ru|yandex.ua
+@@||yandex.st/share/share.js$domain=66.ru|calculatewater.ru|ktk.kz|splav.ru|vnukovo.ru|yadi.sk|gama-gama.ru|foxtrot.com.ua|radiorecord.ru|xn--80aneaaefcxzcih6g1e.xn--p1ai|24auto.ru|calculatewater.ru|novoeradio.by|pikucha.ru|realty.dmir.ru|transport.mos.ru|yandex.com|yandex.ru
 @@||yandex.st/swfobject^
 @@||yandexcdn.com/ad/api/popunder.js$script
 @@||yandexcdn.com^$ghide
@@ -19252,9 +19263,10 @@
 @@||yarobleirc.ru/bitrix/templates/yarobleirc/js/twitterFetcher_min.js
 @@||yasss.es^$ghide
 @@||yast.rutube.ru/crossdomain.xml$object-subrequest
-@@||yastatic.net/*/share.js$domain=sworm.io|trans.ru|chepetsk.ru|iz.ru|thequestion.ru|readovka.ru|mazda.ru|vse.fm|kinogo-720.net|xn--80aneaaefcxzcih6g1e.xn--p1ai|playground.ru|foxtrot.com.ua|biglion.ru|master-of-orion.ru|ktk.kz|universarium.org|pix.playground.ru|xn--80aaelc4ars1a7ab6d.xn--p1ai|kramola.info|myfin.by|zona.plus|culture.ru|yitservice.ru|open.kzn.ru|globus.ru|readovka.news|possiblegroup.ru|prcl.ru|kinopoisk.ru|alexey-osipov.ru|avtodispetcher.ru|fanserials.tv|yandex.by|yandex.kz|yandex.ru|yandex.ua|gorod.gov.spb.ru|sostav.ru|recyclemap.ru|106i9fm.ru|radiorecord.ru|radioc.ru|100i6fm.ru|99-1.ru|alfafm.ru|echoekb.ru|echovolgograd.ru|jamfm.ru|olimpfm.ru|radio-megapolis.ru|sputnik107.ru|sputnikfm.ru|globalaffairs.ru|365livesport.me
+@@||yastatic.net/*/share.js$domain=sworm.io|trans.ru|chepetsk.ru|iz.ru|thequestion.ru|readovka.ru|mazda.ru|vse.fm|kinogo-720.net|xn--80aneaaefcxzcih6g1e.xn--p1ai|playground.ru|foxtrot.com.ua|biglion.ru|master-of-orion.ru|ktk.kz|universarium.org|pix.playground.ru|xn--80aaelc4ars1a7ab6d.xn--p1ai|kramola.info|myfin.by|zona.plus|culture.ru|yitservice.ru|open.kzn.ru|globus.ru|readovka.news|possiblegroup.ru|prcl.ru|kinopoisk.ru|alexey-osipov.ru|avtodispetcher.ru|fanserials.tv|yandex.by|yandex.kz|yandex.ru|gorod.gov.spb.ru|sostav.ru|recyclemap.ru|106i9fm.ru|radiorecord.ru|radioc.ru|100i6fm.ru|99-1.ru|alfafm.ru|echoekb.ru|echovolgograd.ru|jamfm.ru|olimpfm.ru|radio-megapolis.ru|sputnik107.ru|sputnikfm.ru|globalaffairs.ru|365livesport.me
 @@||yastatic.net/awaps-ad-sdk-js$domain=kinopoisk.ru|video.yandex.ru,script
-@@||yastatic.net/daas/atom.js$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.ua|mail.yandex.com|mail.yandex.com.tr
+@@||yastatic.net/daas/atom.js$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.com|mail.yandex.com.tr
+@@||yastatic.net/metrika/*/bower_components/$domain=metrika.yandex.ru|metrika.yandex.by|metrika.yandex.kz|metrika.yandex.com.tr
 @@||yastatic.net/metrika/*/bower_components/$domain=metrika.yandex.ru|metrika.yandex.ua|metrika.yandex.by|metrika.yandex.kz|metrika.yandex.com.tr
 @@||yastatic.net/pcode/adfox/header-bidding.js$domain=kp.ru|kp.by|kp.kg|kp.kz|kp.md
 @@||yastatic.net/pcode/adfox/header-bidding.js$domain=onedio.ru
