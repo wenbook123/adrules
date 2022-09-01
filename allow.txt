@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: +2XLwRDwZPBX2k7oB0WGXw
+! Checksum: +CsOYGEnyhz9MG1+hS8pYQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-09-01 16:23:01（北京时间） 
-! Total count: 19491
+! Version: 2022-09-02 00:23:53（北京时间） 
+! Total count: 19499
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -70,6 +70,7 @@
 @@.com^*/ad_oas/$image
 @@.de*/ad_oas/$image
 @@.de/*/ad_$image
+@@.dmf.link/dl/$stealth
 @@.doubleclick.net^$domain=mcstatic.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.gif#$domain=clasicotas.org
@@ -1729,6 +1730,7 @@
 @@||afdah.to/show-ad
 @@||aff.bstatic.com/static/affiliate_base/js/booking_sp_widget.js$domain=arukikata.co.jp
 @@||aff.bstatic.com^$image,domain=tonkosti.ru
+@@||affiliates.sankmo.com/iframe-redirect$domain=getcashfree7.blogspot.com
 @@||affyun.com^$generichide
 @@||afi-b.com^|
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
@@ -3242,6 +3244,7 @@
 @@||blizzard.com/oauth2$removeparam
 @@||blizzcon.com/static/scripts/bootstrap-blz-cookie-consent.js$script,~third-party
 @@||blizzcon.com/static/scripts/vendor/cookie-consent-filter-compat.js$script,~third-party
+@@||blob.core.windows.net/bge/src/js/google-analytics.js$domain=secure2.bge.com
 @@||blob.core.windows.net^*/annonser/$image,domain=bilplan.net
 @@||blockadblock.com^$generichide
 @@||blockadsnot.com^$domain=nowvid.online
@@ -4024,7 +4027,9 @@
 @@||cdn.krxd.net/amp/remote.min.js$domain=static.telegraph.co.uk
 @@||cdn.krxd.net/controltag/*.js$domain=video.foxnews.com|video.foxbusiness.com
 @@||cdn.lib.getjad.io/library/$domain=purepeople.com
+@@||cdn.lib.getjad.io/library/*Moviepilot$script,domain=moviepilot.de
 @@||cdn.lib.getjad.io/prebid/$domain=purepeople.com
+@@||cdn.lib.getjad.io/prebid/*$script,domain=moviepilot.de
 @@||cdn.ligainsider.de/uploads/elements/*/js/ads.js
 @@||cdn.lsicloud.net/kendall/Images/AD/$domain=shop.kendallelectric.com
 @@||cdn.mangaeden.com/js/ad/advertisement.js
@@ -15276,6 +15281,7 @@
 @@||securepubads.g.doubleclick.net/gampad/ads^$domain=radio.de|radio.at
 @@||securepubads.g.doubleclick.net/gampad/ads^$domain=theatlantic.com
 @@||securepubads.g.doubleclick.net/gpt/pubads$domain=line.me
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl$script,domain=moviepilot.de
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=15min.lt
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=askmen.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=bloomberg.com
@@ -15411,6 +15417,7 @@
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=wunderground.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=dropgalaxy.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=gentside.*|ohmymag.*|esgentside.com|ohmirevista.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=moviepilot.de
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=olx.pl
 @@||securepubads.g.doubleclick.net^$domain=hoyts.com.au
 @@||securepubads.g.doubleclick.net^$script,subdocument,domain=geektime.co.il
@@ -15488,7 +15495,7 @@
 @@||servermonster.online/*.mp4$stealth
 @@||service.4gtv.tv/4gtv/Data/GetAD.ashx
 @@||service.collarity.com/cust/nbcu/ucs.js$xmlhttprequest
-@@||service.force.com/embeddedservice/*/esw.min.js$domain=visible.com|playstation.com
+@@||service.force.com/embeddedservice/*/esw.min.js$domain=visible.com|playstation.com|cyberpowersystems.com
 @@||service.hotstar.com/vs/getad.php?*adspot=
 @@||service.maxymiser.net/api/eu/mediamarkt.tr/*/mmapi.js$domain=mediamarkt.com.tr
 @@||service.maxymiser.net/cdn/nbty/puritan/js/mmcore.js$domain=puritan.com
@@ -17270,6 +17277,7 @@
 @@||thomas.co/sites/default/files/google_tag/primary/google_tag.script.js$script,~third-party
 @@||thomastorch.com^$script,xmlhttprequest
 @@||thop.in/ads.js
+@@||thothd.com/player/player_ads.html?advertising_id=$subdocument,domain=thothd.com
 @@||threatbook.cn/public/asset/js/zhugeIo.
 @@||threatbook.cn^
 @@||threechurch.com^$script,xmlhttprequest
