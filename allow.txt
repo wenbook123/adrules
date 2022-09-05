@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Dbzfmh53X8qUIt+LKHh3nA
+! Checksum: hfPDMwxoVtekjwE3kZFgfw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-09-05 16:21:37（北京时间） 
-! Total count: 19515
+! Version: 2022-09-06 00:21:00（北京时间） 
+! Total count: 19521
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -293,6 +293,7 @@
 @@/cdn-cgi/pe/bag2?*yieldbot.intent.js$domain=droid-life.com
 @@/cdn/*/tracks-*/*/*.js$stealth,domain=strims.top
 @@/cdn/hls/*/master.txt$stealth,domain=hdizle2.net|diziyo.*|dzyco.*
+@@/cdn/premium*/tracks-*/*.js$stealth,domain=streamservicehd.click|livetvon.click
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/check.php?callback=$script,domain=ytmp3.cc
 @@/chunklist.m3u8$stealth,domain=liveply.me
@@ -8451,6 +8452,7 @@
 @@||googletagmanager.com/gtm.js?id=$domain=tradera.com|xxl.se
 @@||googletagmanager.com/gtm.js?id=$script,domain=komputronik.pl
 @@||googletagmanager.com/gtm.js?id=GTM$domain=spiegel.de
+@@||googletagmanager.com/gtm.js?id=GTM-TSHZLHD$domain=cyclingnews.com
 @@||googletagmanager.com/gtm.js^$domain=asus.com
 @@||googletagmanager.com/gtm.js^$domain=benscrub.com
 @@||googletagmanager.com/gtm.js^$domain=boyner.com.tr
@@ -14291,6 +14293,8 @@
 @@||quantcast.mgr.consensu.org/GVL-v2/vendor-list.json$domain=joe.ie|joe.co.uk
 @@||quantcast.mgr.consensu.org/choice/$domain=joe.ie|joe.co.uk
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=0calc.es
+@@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=cinemablend.com
+@@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=cyclingnews.com
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=express.co.uk
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=independentespanol.com
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=nfl.com
@@ -15844,7 +15848,6 @@
 @@||smallseotool.org^$ghide
 @@||smallseotools.com/images/Popup2.png
 @@||smallseotools.com/imgs/ads/$image
-@@||smallseotools.com/imgs/ads/love_you_son.jpg
 @@||smallseotools.com^$generichide
 @@||smallseotools.com^$generichide,badfilter
 @@||smart.idmnet.pl/*/smartConfig_*.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl
@@ -16659,6 +16662,7 @@
 @@||streamplay.gdn/js/ads*.js|
 @@||streamrapid.ru/embed-$subdocument
 @@||streamsb.net/pop.js
+@@||streamservicehd.click/*.php$stealth
 @@||streamtape.*/ad.js
 @@||streamtape.com^$subdocument
 @@||streamxxx.tv^$ghide
@@ -18251,6 +18255,7 @@
 @@||video.oms.eu/crossdomain.xml$domain=badische-zeitung.de
 @@||video.oms.eu/projekt/download/OMSComponent.swf$domain=badische-zeitung.de
 @@||video.onnetwork.tv/adblock_notify.js
+@@||video.qq.com/getvinfo?*&otype=*&host=*&refer=htt$domain=v.qq.com
 @@||video.repubblica.it^$generichide
 @@||video.repubblica.it^*/nielsen.js
 @@||video.snidigital.com/*/AdManager.swf$domain=video.snidigital.com
@@ -18750,6 +18755,7 @@
 @@||webtrendslive.com^*/wtid.js?$domain=att.yahoo.com
 @@||webtv.stofa.dk/public/js/cookie-banner.*.js$domain=webtv.stofa.dk
 @@||webtvhd.com^$ghide
+@@||webui.vhls.ru.com/cdn/*/tracks-*/$stealth
 @@||weby.aaas.org/weby_bundle_v*.js$domain=sciencemag.org
 @@||webzjac.reg.*.com^$stealth,domain=passport.youdao.com
 @@||webzjcaptcha.reg.*.com/api/$stealth,domain=passport.youdao.com
