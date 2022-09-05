@@ -955,6 +955,8 @@ proxyrarbg.*,rarbg.is,rarbg.to,rarbgget.org,rarbgenter.org,rarbgprx.org,rarbgp2p
 proxyrarbg.*,rarbg.is,rarbg.to,rarbgget.org,rarbgenter.org,rarbgprx.org,rarbgp2p.org,rarbgto.org,rarbgtor.org,rarbgtorrents.org,rarbg2018.org,rarbg2019.org,rarbg2020.org,rarbg2021.org,rarbgaccess.org,rarbgcore.org,rarbgdata.org,rarbggo.org,rarbgmirror.*,rarbgmirrored.org,rarbgproxied.*,rarbgproxy.*,rarbgunblock.*,rarbgunblocked.org,rarbgweb.org,unblockedrarbg.org##.lista > tbody > tr:has-text(/v\s{0,}p\s{0,}n/i)
 ||ladsup.com^$all
 mediafire.com##+js(aeld, click, ClickHandler)
+mediafire.com##+js(aeld, load, IsAdblockRequest)
+||circumstantialeltondirtiness.com^
 mediafire.com##.errorExtraContent
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3826
@@ -7962,6 +7964,7 @@ hitomi.la##+js(aopr, pops)
 hitomi.la##+js(aopw, hitomi)
 hitomi.la##[href*="nutaku.net/signup/"]
 hitomi.la##[class^="hitomi-"]
+hitomi.la##.container > div[class$="content"] > div[class] > script:upward(1)
 /^https:\/\/ltn\.hitomi\.la\/[A-Za-z]{4,}\/(?=[a-z]{0,19}[A-Z])[A-Za-z]{4,20}\.js$/$script,1p,match-case,domain=hitomi.la
 
 ! https://forums.lanik.us/viewtopic.php?p=141036#p141036
