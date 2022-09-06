@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: hfPDMwxoVtekjwE3kZFgfw
+! Checksum: Wd7JxITvx5JI3TFK54NvUA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-09-06 00:21:00（北京时间） 
-! Total count: 19521
+! Version: 2022-09-06 09:17:14（北京时间） 
+! Total count: 19529
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -4642,6 +4642,8 @@
 @@||closeload.com/video/embed/$stealth
 @@||closermag.fr^$ghide
 @@||closetopic.site^$ghide
+@@||cloud-*.onionflix.$stealth
+@@||cloud-*.onionplay.$stealth
 @@||cloud.189.cn/web/subapp/main.html$jsinject,elemhide,extension
 @@||cloud.189.cn^$xmlhttprequest,elemhide,jsinject,extension
 @@||cloud.google.com^$generichide
@@ -15214,7 +15216,7 @@
 @@||sdk.privacy-center.org^$domain=rtl.be
 @@||sdk.privacy-center.org^$domain=seguro.elespanol.com
 @@||sdk.privacy-center.org^$domain=sudinfo.be
-@@||sdk.privacy-center.org^$script,domain=20minutos.es|allocine.fr|as.com|bfmtv.com|bonduelle.it|cnews.fr|corrieredellosport.it|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|filmweb.pl|fip.fr|franceculture.fr|franceinter.fr|francetvinfo.fr|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|mundodeportivo.com|naszemiasto.pl|nieuwsblad.be|onmeda.de|podcasts.leparisien.fr|rtl.be|rtl.fr|seguro.elespanol.com|standaard.be|strefabiznesu.pl|telegraaf.nl|tuttosport.com|vecernji.hr|xataka.com
+@@||sdk.privacy-center.org^$script,domain=20minutos.es|allocine.fr|as.com|bfmtv.com|bonduelle.it|cnews.fr|corrieredellosport.it|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|filmweb.pl|fip.fr|franceculture.fr|franceinter.fr|francetvinfo.fr|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|mundodeportivo.com|naszemiasto.pl|nieuwsblad.be|onmeda.de|podcasts.leparisien.fr|rtl.be|rtl.fr|seguro.elespanol.com|sncf-connect.com|standaard.be|strefabiznesu.pl|telegraaf.nl|tuttosport.com|vecernji.hr|xataka.com
 @@||sdk.privacy-center.org^$script,domain=francetvinfo.fr
 @@||sdk.privacy-center.org^$script,domain=vecernji.hr
 @@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~third-party
@@ -17198,7 +17200,11 @@
 @@||thefastlaneforum.com/community/js/*/adblocker-leader.js
 @@||thefreedictionary.com^$generichide
 @@||thegamesshop.com.au/controls/ajaxpages/*.aspx?ad=
+@@||thegay.com/assets/jwplayer-*/jwplayer.core.controls.html5.js|$domain=thegay.com
+@@||thegay.com/assets/jwplayer-*/jwplayer.js|$domain=thegay.com
 @@||thegay.com/js/advertising.js
+@@||thegay.com/upd/*/assets/preview*.js|$domain=thegay.com
+@@||thegay.com/upd/*/static/js/*.js|$domain=thegay.com
 @@||thegioididong.com^$stealth
 @@||thegrommet.com/js/onetrust-$script,~third-party
 @@||thehackernews.com/images^
@@ -17528,6 +17534,7 @@
 @@||tr.line.me^$app=jp.co.alc.eow
 @@||tr.outbrain.com^$app=jp.co.alc.eow
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
+@@||tra.scds.pmdstatic.net/advertising-core/$script,domain=esgentside.com|gentside.*|gentside.it|gentside.com|gentside.de|gentside.co.uk|maxisciences.com|ohmirevista.com|ohmymag.com|ohmymag.de|ohmymag.co.uk
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|voici.fr
 @@||track.adform.net/*serving/opt/iab
 @@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
@@ -18760,6 +18767,7 @@
 @@||webzjac.reg.*.com^$stealth,domain=passport.youdao.com
 @@||webzjcaptcha.reg.*.com/api/$stealth,domain=passport.youdao.com
 @@||webzook.net/js/fuckadblock.js
+@@||wecast.to/walid.php^$stealth
 @@||weeklyad.target.com.edgesuite.net^
 @@||weeklyad.target.com^
 @@||weheartit.com/ads.js^
