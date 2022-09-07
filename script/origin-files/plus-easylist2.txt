@@ -666,8 +666,6 @@ freethesaurus.com,thefreedictionary.com###sidebar > .widget:not([id]):has(>.hold
 ! https://news.ycombinator.com/item?id=12677179
 ||x.shopsavvy.com^$3p
 
-! https://github.com/uBlockOrigin/uAssets/issues/160
-cnn.com##.OUTBRAIN
 ! https://github.com/NanoMeow/QuickReports/issues/3179
 money.cnn.com##section.column:has(:scope > #moneySponsors)
 
@@ -1634,6 +1632,7 @@ jav.guru##.alignnone
 9anime.*##+js(set, console.clear, undefined)
 9anime.*##section.sda
 9anime.*##.mba-block
+9anime.*##.adx
 @@||9anime.*^$ghide
 ||9anime.*/sw.js$script
 mcloud.to##+js(acis, Math, XMLHttpRequest)
@@ -3462,6 +3461,7 @@ gogoanime.*##+js(set, check_adblock, true)
 gogoanime.*##+js(acs, document.createElement, /function\(__[a-z]+\)/)
 gogoanime.*##.banner_center
 gogoanime.*##.anime_video_body_cate > div[style]:has(:scope > div[id] + script[src])
+gogoanime.*##.adx
 gogoanimetv.*##+js(aopr, AaDetector)
 gogoanimetv.*##+js(nosiif, _0x)
 ||gogoanime.*/api/pop.php$xhr,1p
@@ -8098,6 +8098,7 @@ simulasyonturk.com##+js(aopw, ai_adb_overlay)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3610
 4horlover.com##+js(aopw, _pop)
+4horlover.com##^script[data-cfasync]:has-text(h=decodeURIComponent)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3608
 @@||i8086.de^$ghide
