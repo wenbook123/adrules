@@ -1,15 +1,15 @@
 [Adblock Plus 3.0]
-! Checksum: cK1PinC7XhU38PbGrxQbfw
+! Checksum: U1NR8aXBHkSO9T1Ps0AMiw
 ! Title: My AdFilters（for PC）
 ! Expires: 2 hours
-! Version: 202209072338
-! Last Modified: 2022年09月07日 23:38
+! Version: 202209080739
+! Last Modified: 2022年09月08日 07:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
-! Total count: 76799
+! Total count: 76811
 ###ADTOP
 ###AD_G
 ###AD_L
@@ -6291,6 +6291,7 @@
 ##a#wrapper_left_bg[target="_blank"]
 ##a#wrapper_right_bg[target="_blank"]
 ##a[data-redirect^="https://paid.outbrain.com/network/redir?"]
+##a[href*=".516624.com/"]
 ##a[href*=".5250.cn"]
 ##a[href*=".9377s.com/"]
 ##a[href*=".ahhxwavi.cn"]
@@ -7998,7 +7999,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /YandexAds.$badfilter
 /YuduStatistics/*
 /ZagUser.js
-/\.(com|cn|top)\/k\/[0-9]{6}$/$third-party,script
+/\.(com|cn|top)\/k\/[0-9]{6}$/$script,third-party
+/\.com\/[0-9a-z]{12,}\/[0-9a-z]{12,}\.js$/$script,~third-party,domain=uneasydoll.com|tube-teen-18.com|teen-hd-sex.com|xxx-asian-tube.com
 /\.com\/[_0-9a-zA-Z]+\.jpg$/$image,~third-party,domain=hottystop.com
 /\.com\/[a-zA-Z]{10}\.js$/$script,~third-party,domain=povaddict.com
 /\.tube\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=bdsmx.tube
@@ -24771,6 +24773,8 @@ chooyomi.com#@##ad-banner:not([style="height: 5px; width: 5px; position: absolut
 chooyomi.com#@#.ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"]):not(.blocker-tester + .ad-banner):not(:empty)
 chosun.com#?#aside[class^="grid__col--lg grid__col--lg-right grid__col--lg-3"] > div.heading-title--top:contains(Branded Contents)
 chrissmoove.com#@##adserver
+chrohat.com#$##adblock_msg { display: none !important; }
+chrohat.com#$#body { overflow: visible !important; }
 chronicle.com##+js(no-setTimeout-if, checkPageIntegrity())
 chronicle.com##.GoogleDfpAd-container
 chsi.com.cn##.zx-axvert
@@ -31383,7 +31387,6 @@ metruyenchu.com##.post-body > div[class="pt-3 text-center"][style="margin-right:
 metruyenchu.com#$#abort-on-property-write window.onclick
 metservice.com##.Header
 metservice.com##.Mrec-min-height
-metx.me,starlive.xyz,daddylive.*,vikistream.com,embedstream.me,streamgo.to##+js(window.open-defuser)
 mexashare.com##+js(abort-current-script, document.getElementById, adblockinfo)
 mfiles.pl###float_square
 mfk-shorter.com##+js(window.open-defuser)
@@ -33951,6 +33954,7 @@ qq.com,sogou.com##div[class^="page-top-banner"]
 qq.com,sogou.com##div[pbflag="coolsitefeed_ad"]
 qq.com,yxad.com##.l_qq_com
 qqaiqin.com#@#.ad_468
+qqxiuzi.cn##div[onclick][style]
 qrz.com#@#.show_ads
 quandangdang.net
 quantrimang.com##.adbox
@@ -34039,6 +34043,7 @@ radomszczanska.pl##.l-container--rwd > .l-row > .l-box > p > a:not([href*="radom
 radomszczanska.pl##.l-container--rwd > .l-row > .l-box > p > img[src^="/static/files/inline_images/"]
 radomszczanska.pl#?#.l-col--side > .l-col__item[style]:has(.adsbygoogle)
 raftaar.in##a[href="https://www.astrologyadvice.in/"] > img
+ragnaru.net,metx.me,starlive.xyz,daddylive.*,vikistream.com,embedstream.me,streamgo.to##+js(window.open-defuser)
 raider.io##+js(abort-on-property-read, RIO_OnProviderBlocked)
 raider.io##.rio-zone
 rainanime.net#$#abort-on-property-read NativeAd
@@ -36499,6 +36504,7 @@ toy-people.com##.good72890
 toy-people.com##.rightAd_300250
 toyota-club.eu##+js(remove-attr, class, body > div#obalovydiv)
 toyota-club.eu#@#.reklama
+tpb.party##a[href^="https://www.getonlineuserprotection.com/"]
 tpbay.link#$#abort-on-property-read _wm_settings
 tproger.ru#?#article.type-post:-abp-has([href="/adblock"])
 tpu.ro##.banner-box
@@ -37357,6 +37363,9 @@ vn.trueid.net##+js(no-fetch-if, www3.doubleclick.net)
 vnexpress.net##.title_box_category[style*="background:url(https://scdn.vnecdn.net/doisong/restruct/i/"][style*="/graphics/bg_fado_search.jpg)"]
 vnexpress.net##iframe[src^="https://fado.vn/iframe/search?ref_id="]
 vnkb.com##a[href^="https://vnkb.com/e/"]
+vnphimmoi.com##.ad-container
+vnphimmoi.com##.popUpBannerBox
+vnphimmoi.com##div[id^="sideAds"]
 voachinese.com##.slide-in-wg
 vocm.com###leaderboard-area
 vocm.com##.nccBigBox
@@ -37551,7 +37560,6 @@ wccftech.com#?#.post-details-container > .row > div > .related-stories:has(> hea
 wco.tv##+js(no-setTimeout-if, AdBlock)
 wco.tv##+js(set-constant, isAdBlockActive, false)
 wco.tv#@#.adBanner
-wco.tv,wcoanimesub.tv,wcofun.com,wcoforever.net,wcoanimedub.tv,wcoforever.com,wcostream.com,watchcartoononline.io##.anti-ad
 wcoanimedub.tv##+js(no-setTimeout-if, AdBlock)
 wcoanimedub.tv##+js(set-constant, isAdBlockActive, false)
 wcoanimedub.tv,wco.tv##div[style^="float:right; width:300px; height:"]
@@ -37569,6 +37577,7 @@ wcofun.net,wcofun.com##+js(set-constant, isAdBlockActive, false)
 wcofun.net,wcofun.com#@#.adBanner
 wcostream.com##.reklam_pve
 wcostream.com#@#.adBanner
+wcostream.net,wco.tv,wcoanimesub.tv,wcofun.com,wcoforever.net,wcoanimedub.tv,wcoforever.com,wcostream.com,watchcartoononline.io##.anti-ad
 weakstreams.com##+js(no-setTimeout-if, atob(e).)
 weartesters.com#?#.sidebar-content-inner > div:has(> div > div > div[id="taboola-right-rail-thumbnails"])
 weartesters.com#?#.sidebar-content-inner > div:has(> div > div > div[id^="weartesters_300x250"])
@@ -38186,7 +38195,7 @@ xueqiu.com##.regist-guide-container
 xueqiu.com##.widget__download-app
 xuite.net##.articleExtAd
 xunlei.com##.mini-pop
-xuongphim18z.com,phimdinhcao.com,phimtopz.com,truyensieuhay.com,tvchill.org,2phimmoi.net,lxhentai.com,quangcaoyenbai.com#$#abort-on-property-read document.cookie
+xuongphim18z.com,phimdinhcao.com,phimtopz.com,truyensieuhay.com,tvchill.org,2phimmoi.net,lxhentai.com,quangcaoyenbai.com,fullcrackpc.com#$#abort-on-property-read document.cookie
 xup.in##+js(no-setTimeout-if, wrapfabtest)
 xup.in##+js(set-constant, showab, noopFunc)
 xv-videos1.com,xvideos.*###video-ad + div[class]
@@ -39914,6 +39923,7 @@ zznews.cn##.ad:not([style])
 ||666793.xyz^
 ||666794.xyz^
 ||666795.xyz^
+||666796.xyz^
 ||6669667.com^
 ||666video.asia^
 ||66997.top^
@@ -44007,6 +44017,7 @@ zznews.cn##.ad:not([style])
 ||avenuescrupuloustheological.com^
 ||averageamusement.com^
 ||averoconnector.com^$third-party
+||aviole.com/script/pustrck.js
 ||avito.ru/stat/
 ||avito.ru^*/some-pretty-script.js
 ||avitop.com/aviation/hitlist.asp
@@ -57366,6 +57377,7 @@ zznews.cn##.ad:not([style])
 ||lxbjs.baidu.com^$third-party
 ||lxdrddeomww.com^
 ||lxiaoxin.com^
+||lxlidl.ink^
 ||lxlx.shop^
 ||lxoemc.libero.it^
 ||lxqcgj.com^

@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: gIaHO7el0ApCmPT8A89D+Q
+! Checksum: 2RoP+0MvOfoDQkJ8wD4RHg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-09-08 00:22:50（北京时间） 
-! Total count: 95857
+! Version: 2022-09-08 09:13:00（北京时间） 
+! Total count: 95873
 ###ADTOP
 ###AD_G
 ###AD_L
@@ -6877,6 +6877,7 @@
 ##a[href*=".222bz.com/"]
 ##a[href*=".233787.com/"]
 ##a[href*=".3366722.com"]
+##a[href*=".516624.com/"]
 ##a[href*=".51gogogou.com"]
 ##a[href*=".5250.cn"]
 ##a[href*=".5599722.com"]
@@ -10364,7 +10365,8 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /YandexAds.$badfilter
 /YuduStatistics/*
 /ZagUser.js
-/\.(com|cn|top)\/k\/[0-9]{6}$/$third-party,script
+/\.(com|cn|top)\/k\/[0-9]{6}$/$script,third-party
+/\.com\/[0-9a-z]{12,}\/[0-9a-z]{12,}\.js$/$script,~third-party,domain=uneasydoll.com|tube-teen-18.com|teen-hd-sex.com|xxx-asian-tube.com
 /\.com\/[_0-9a-zA-Z]+\.jpg$/$image,~third-party,domain=hottystop.com
 /\.com\/[a-zA-Z]{10}\.js$/$script,~third-party,domain=povaddict.com
 /\.tube\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=bdsmx.tube
@@ -29555,6 +29557,8 @@ chooyomi.com#@##ad-banner:not([style="height: 5px; width: 5px; position: absolut
 chooyomi.com#@#.ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"]):not(.blocker-tester + .ad-banner):not(:empty)
 chosun.com#?#aside[class^="grid__col--lg grid__col--lg-right grid__col--lg-3"] > div.heading-title--top:contains(Branded Contents)
 chrissmoove.com#@##adserver
+chrohat.com#$##adblock_msg { display: none !important; }
+chrohat.com#$#body { overflow: visible !important; }
 chromecj.com##.topblock
 chronicle.com##+js(no-setTimeout-if, checkPageIntegrity())
 chronicle.com##.GoogleDfpAd-container
@@ -38336,7 +38340,6 @@ metruyenchu.com##.post-body > div[class="pt-3 text-center"][style="margin-right:
 metruyenchu.com#$#abort-on-property-write window.onclick
 metservice.com##.Header
 metservice.com##.Mrec-min-height
-metx.me,starlive.xyz,daddylive.*,vikistream.com,embedstream.me,streamgo.to##+js(window.open-defuser)
 mexashare.com##+js(abort-current-script, document.getElementById, adblockinfo)
 mf.meizu.cn##.guide-suspend.suspend
 mfiles.pl###float_square
@@ -41435,6 +41438,7 @@ qqaiqin.com#@#.ad_468
 qqjia.com###myadsL
 qqjia.com##.mainad
 qqxiazai.com##.bt_abtn2
+qqxiuzi.cn##div[onclick][style]
 qqyouyue.com##.table-responsive
 qqyy.com##.ind_ad
 qqyy.com##.right_dcotor_tab
@@ -41555,6 +41559,7 @@ radomszczanska.pl##.l-container--rwd > .l-row > .l-box > p > a:not([href*="radom
 radomszczanska.pl##.l-container--rwd > .l-row > .l-box > p > img[src^="/static/files/inline_images/"]
 radomszczanska.pl#?#.l-col--side > .l-col__item[style]:has(.adsbygoogle)
 raftaar.in##a[href="https://www.astrologyadvice.in/"] > img
+ragnaru.net,metx.me,starlive.xyz,daddylive.*,vikistream.com,embedstream.me,streamgo.to##+js(window.open-defuser)
 raider.io##+js(abort-on-property-read, RIO_OnProviderBlocked)
 raider.io##.rio-zone
 rainanime.net#$#abort-on-property-read NativeAd
@@ -44537,6 +44542,7 @@ toy-people.com##.good72890
 toy-people.com##.rightAd_300250
 toyota-club.eu##+js(remove-attr, class, body > div#obalovydiv)
 toyota-club.eu#@#.reklama
+tpb.party##a[href^="https://www.getonlineuserprotection.com/"]
 tpbay.link#$#abort-on-property-read _wm_settings
 tproger.ru#?#article.type-post:-abp-has([href="/adblock"])
 tpu.ro##.banner-box
@@ -45509,6 +45515,9 @@ vn.trueid.net##+js(no-fetch-if, www3.doubleclick.net)
 vnexpress.net##.title_box_category[style*="background:url(https://scdn.vnecdn.net/doisong/restruct/i/"][style*="/graphics/bg_fado_search.jpg)"]
 vnexpress.net##iframe[src^="https://fado.vn/iframe/search?ref_id="]
 vnkb.com##a[href^="https://vnkb.com/e/"]
+vnphimmoi.com##.ad-container
+vnphimmoi.com##.popUpBannerBox
+vnphimmoi.com##div[id^="sideAds"]
 voachinese.com##.slide-in-wg
 vocm.com###leaderboard-area
 vocm.com##.nccBigBox
@@ -45737,7 +45746,6 @@ wcjbb.com###frameo834m9
 wco.tv##+js(no-setTimeout-if, AdBlock)
 wco.tv##+js(set-constant, isAdBlockActive, false)
 wco.tv#@#.adBanner
-wco.tv,wcoanimesub.tv,wcofun.com,wcoforever.net,wcoanimedub.tv,wcoforever.com,wcostream.com,watchcartoononline.io##.anti-ad
 wcoanimedub.tv##+js(no-setTimeout-if, AdBlock)
 wcoanimedub.tv##+js(set-constant, isAdBlockActive, false)
 wcoanimedub.tv,wco.tv##div[style^="float:right; width:300px; height:"]
@@ -45755,6 +45763,7 @@ wcofun.net,wcofun.com##+js(set-constant, isAdBlockActive, false)
 wcofun.net,wcofun.com#@#.adBanner
 wcostream.com##.reklam_pve
 wcostream.com#@#.adBanner
+wcostream.net,wco.tv,wcoanimesub.tv,wcofun.com,wcoforever.net,wcoanimedub.tv,wcoforever.com,wcostream.com,watchcartoononline.io##.anti-ad
 wdzj.com###ggao-article-bottom
 wdzj.com##.ggao-everyone-rebeat
 wdzj.com##.left-gg-box > div.sl-ggao > div.gg
@@ -46644,7 +46653,7 @@ xuite.net##[class^="ad-mid"]
 xuite.net##div[id^="index-ad-mid"]
 xunlei.com##.mini-pop
 xunyingwang.com###adModalLabel
-xuongphim18z.com,phimdinhcao.com,phimtopz.com,truyensieuhay.com,tvchill.org,2phimmoi.net,lxhentai.com,quangcaoyenbai.com#$#abort-on-property-read document.cookie
+xuongphim18z.com,phimdinhcao.com,phimtopz.com,truyensieuhay.com,tvchill.org,2phimmoi.net,lxhentai.com,quangcaoyenbai.com,fullcrackpc.com#$#abort-on-property-read document.cookie
 xup.in##+js(no-setTimeout-if, wrapfabtest)
 xup.in##+js(set-constant, showab, noopFunc)
 xv-videos1.com,xvideos.*###video-ad + div[class]
@@ -48522,6 +48531,7 @@ zznews.cn##.ad:not([style])
 ||2qqfxz5kecr4.www.eldorado.gg^
 ||2r45.cn^
 ||2rr7y7gd2qrm.com^
+||2smt6mfgo.de^
 ||2smt6mfgo.de^$third-party
 ||2tty.overstappen.nl^
 ||2txt.cc:8862^
@@ -49376,6 +49386,7 @@ zznews.cn##.ad:not([style])
 ||666793.xyz^
 ||666794.xyz^
 ||666795.xyz^
+||666796.xyz^
 ||6669667.com^
 ||666video.asia^
 ||668559.com^$third-party
@@ -54438,6 +54449,7 @@ zznews.cn##.ad:not([style])
 ||averageamusement.com^
 ||averoconnector.com^$third-party
 ||avgle.topgirlsdating.com^$domain=avgle.com
+||aviole.com/script/pustrck.js
 ||avito.ru/stat/
 ||avito.ru^*/some-pretty-script.js
 ||avitop.com/aviation/hitlist.asp
@@ -63493,6 +63505,7 @@ zznews.cn##.ad:not([style])
 ||f1t5pb.cn^
 ||f1tbit.com^
 ||f250b19813.com^
+||f27tltnd.de^
 ||f2dsex1.com/public/fb*.png
 ||f2zd.com^
 ||f329cba40e.com^
@@ -64057,6 +64070,7 @@ zznews.cn##.ad:not([style])
 ||fiwinet.firmenwissen.de^
 ||fixchidie.com^
 ||fixcounter.com^$third-party
+||fixel.ai^
 ||fixel.ai^$third-party
 ||fixiondenied.com^
 ||fj.sina.com.cn/iframe/63/
@@ -64834,6 +64848,7 @@ zznews.cn##.ad:not([style])
 ||g8913795075.co^
 ||g8ads.com^
 ||g9111879410.co^
+||g9706132415.co^
 ||g990421675.co^
 ||g990421676.co^
 ||g9o.cn^
@@ -72767,6 +72782,7 @@ zznews.cn##.ad:not([style])
 ||lxdrddeomww.com^
 ||lxiaoxin.com^
 ||lxiu.shop^
+||lxlidl.ink^
 ||lxlx.shop^
 ||lxoemc.libero.it^
 ||lxqcgj.com^
