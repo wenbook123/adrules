@@ -1,8 +1,8 @@
-! Checksum: erASu+Xc6o6wCDxJnPvxqA
+! Checksum: s4LjSNBoQFc3NnSntUGM7A
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.66.50
-! TimeUpdated: 2022-09-08T07:31:02+00:00
+! Version: 2.0.66.52
+! TimeUpdated: 2022-09-08T15:31:03+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -395,10 +395,11 @@ hkcards.com#@##ad-slot
 ! https://github.com/AdguardTeam/AdguardFilters/issues/124117
 docsmall.com#%#//scriptlet("set-constant", "_AdBlockInit", "noopFunc")
 ! rjno1.com
-rjno1.com#%#//scriptlet('set-constant', 'rwc20adloadok', 'true')
-rjno1.com$$script[tag-content="rwc20ad"]
-rjno1.com$$div[id="rwc20ad"]
-rjno1.com$$script[onerror="rwc20ad"]
+rjno1.com#@#[id^="aswift_"]
+rjno1.com#%#//scriptlet("prevent-addEventListener", "error", "event.target.tagName")
+rjno1.com#%#AG_onLoad(function(){var a=document.body,b=document.createElement("div");a&&(a.appendChild(b),b.setAttribute("id","aswift_1"))});
+rjno1.com#%#(function(){const b=function(d){const a=Math.pow(10,d-1),b=Math.pow(10,d);return Math.floor(Math.random()*(b-a)+a)}(12);window.addEventListener("load",function(){window.google_image_requests=[],window.google_global_correlator=b,window._hmt=window._hmt||[],_hmt.id=b})})();
+rjno1.com#%#function preventError(a){window.addEventListener("error",function(b){if(b.srcElement&&b.srcElement.src){const c=new RegExp(a);if(c.test(b.srcElement.src)){if("function"==typeof b.srcElement.onload)return void(b.srcElement.onerror=b.srcElement.onload);b.srcElement.onerror=function(){}}}},!0)}preventError("zol.com.cn/adrs/");
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122085
 yibian.hopto.org###no-adblock-box
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121515
@@ -5663,6 +5664,8 @@ ubmcmm.baidustatic.com
 ||amtwcvh.cn^
 ||rfigekm.cn^
 ||showcoopdc.xyz^
+||bxlidv.ink^
+||nijj990.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
