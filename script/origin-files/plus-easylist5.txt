@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202209130350
+! Version: 202209140328
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 41774
+! Lenth = 41790
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -3859,6 +3859,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /metricool.js
 /metrics-backend/*
 /metrics-ga.
+/metrics/event?
 /metrics/ga.html?
 /metrics/image.gif?
 /metrics/init?
@@ -8871,6 +8872,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
 @@||targetimg1.com/webui/$script,domain=target.com
+@@||tatacliq.com^$cookie=/^AMCVS?_.*AdobeOrg/
+@@||tataunistore.tt.omtrdc.net/rest/v1/mbox?client=tataunistore$xmlhttprequest,domain=tatacliq.com
 @@||taximaxim.com/assets/*/fingerprint2.min.js
 @@||tbs.com/modules/custom/ten_video/js/analytics.js$script,~third-party
 @@||tc.bankofamerica.com/c?
@@ -12053,6 +12056,7 @@ znak.com##.relap
 ||adobecorp.hb-api.omtrdc.net^
 ||adobecorp.hb.omtrdc.net^
 ||adobedc.demdex.net^
+||adobedc.net/collector/
 ||adobedtm.com^$third-party,domain=~adobe.com
 ||adobedtm.com^*/satelliteLib-$script,domain=euronews.com|allrecipes.com|nvidia.at|nvidia.be|nvidia.cn|nvidia.co.jp|nvidia.co.kr|nvidia.co.uk|nvidia.com|nvidia.com.br|nvidia.com.mx|nvidia.com.tr|nvidia.com.tw|nvidia.cz|nvidia.de|nvidia.dk|nvidia.es|nvidia.fi|nvidia.fr|nvidia.in|nvidia.it|nvidia.nl|nvidia.no|nvidia.pl|nvidia.ru|nvidia.se
 ||adobeedge.my.gov.au^
@@ -15483,6 +15487,10 @@ znak.com##.relap
 ||campaigncog.com^$third-party
 ||campaignmonitor.com^$third-party
 ||campaigns-collector.albacross.com^$third-party
+||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=device_code
+||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=exc_ads
+||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=history_adids
+||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=history_postids
 ||campaigns.amadeus.com^
 ||campaigns.cm.be^
 ||campaigns.engage.cebglobal.com^
@@ -17050,6 +17058,7 @@ znak.com##.relap
 ||coral.diks.fi/assets/js/count.js
 ||coralogix.com^$third-party
 ||core-cen-54.com^$third-party
+||core.airbridge.io^
 ||core.bunchbox.co/geo.js^
 ||core.unit-sense.net^
 ||corebipublic.blob.core.windows.net/*/corebi.event.js
@@ -18272,8 +18281,7 @@ znak.com##.relap
 ||deliveroo.com^*/events
 ||delivery.hunterycity.com^
 ||delivery.r2b2.cz/events.php?
-||delivery.satr.jp^
-||delivery.satr.jp^$third-party
+||delivery.satr.jp/event/
 ||delivery.youplay.se/report?
 ||deliveryrank.com/drapp070eb2deb1932e2101e6.js
 ||delivra.com/tracking/$third-party
@@ -19992,6 +20000,7 @@ znak.com##.relap
 ||events.api.red.wemesh.ca^
 ||events.appsflyer.com^
 ||events.artirix.com^
+||events.askjdhaa.com^
 ||events.attentivemobile.com^
 ||events.audiate.me^
 ||events.audioplace.me^$third-party
@@ -21601,6 +21610,7 @@ znak.com##.relap
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=avast.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=beymen.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=bookmyshow.com
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=carrefoursa.com,important
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=carsmile.pl
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=chip.com.tr
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=cildimveben.com
@@ -22234,7 +22244,6 @@ znak.com##.relap
 ||hktvmall.com/_ui/desktop/common/js/uiAnalytics/
 ||hktvmall.com/_ui/shared/common/js/InappCommunicationManager.js
 ||hktvmall.com/_ui/shared/common/js/analytics/with-intersection-track.js
-||hktvmall.com/_ui/shared/common/js/util/Logger.js
 ||hktvmall.com/_ui/shared/common/js/util/jquery.analytics-utils.js
 ||hktvmall.com/api/event
 ||hktvmall.com/yuicombo|$script,~third-party
@@ -22787,7 +22796,6 @@ znak.com##.relap
 ||indeed.com/m/rpc/log/
 ||indeed.com/rpc/$~xmlhttprequest
 ||indeed.com/rpc/log/
-||indeed.com/rpc/log^$xmlhttprequest,other,image,redirect=nooptext,important
 ||indeed.com/rpc/timing?logEvent=
 ||indeed.com/rpc/vjslog?
 ||independenthealth.tt.omtrdc.net^
@@ -23162,6 +23170,8 @@ znak.com##.relap
 ||internetmap.info^$third-party
 ||internetslang.com/jass/
 ||internships.com/oGckki0e/init.js
+||interpark.com/elog
+||interpark.com/logs/
 ||intersc.igaming-service.io/hltv.org.js
 ||interseek.si^*/visit.js
 ||interstateanalytics.com^$third-party
@@ -24571,6 +24581,7 @@ znak.com##.relap
 ||log.cizion.com^
 ||log.cloud.sbs.co.kr^
 ||log.codemarketing.cloud^
+||log.cognativex.com/pixel.
 ||log.cpex.cz^
 ||log.ctrl.blog^
 ||log.data.disney.com^
@@ -28796,6 +28807,7 @@ znak.com##.relap
 ||player-files.remixd.com/ping.gif
 ||player-telemetry.vimeo.com^
 ||player.ani-stream.com/log
+||player.hdgay.net/cdn-cgi/trace
 ||player.kwikmotion.com/packages/videojs-stat/
 ||player.ooyala.com/errors/report?
 ||player.vimeo.com/log
@@ -31066,6 +31078,7 @@ znak.com##.relap
 ||sdk-log-inter.youdao.com^
 ||sdk-orion.appboy.com^
 ||sdk.51.la^$third-party
+||sdk.airbridge.io^
 ||sdk.appbrain.com/api/
 ||sdk.stats-locations.com^
 ||sdkconfig.ad.intl.xiaomi.com^
@@ -31740,6 +31753,7 @@ znak.com##.relap
 ||sig.ig.com^
 ||signal-collector.gemaltodigitalbankingidcloud.com^$script
 ||signalayer.com^$third-party
+||signals.carrefoursa.com^
 ||signifyd.com^$third-party
 ||signin.ebay.com/t_n.html
 ||signup-way.com^$third-party
@@ -34815,6 +34829,7 @@ znak.com##.relap
 ||static-trackers.adtarget.me^
 ||static-tracking.klaviyo.com^
 ||static.actu.fr/assets/js/smarttag*.js
+||static.airbridge.io/sdk/
 ||static.analytics-site.com^
 ||static.ao.gl/js/analytics-min.js
 ||static.bbci.co.uk/bbcdotcom/*/script/av/emp/analytics.js
@@ -38040,6 +38055,7 @@ znak.com##.relap
 ||track.mp3bars.com^$third-party
 ||track.mp3vizor.com^$third-party
 ||track.mp4.center^
+||track.mrgugu.com^
 ||track.mycliplister.com^
 ||track.netzero.net^
 ||track.nifty.com^
