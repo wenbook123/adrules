@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: upCaKc4fWbbQ0c85PoMnbA
-! Version: 202209141551
+! Checksum: vwE6LvrcvNOLnHherCBpWQ
+! Version: 202209150051
 ! Title: EasyPrivacy
-! Last modified: 14 Sep 2022 15:51 UTC
+! Last modified: 15 Sep 2022 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2250,6 +2250,7 @@
 /googleanalytics/*
 /googleAnalytics1.
 /googleAnalytics2.
+/googleAnalytics4.
 /GoogleAnalytics?utmac=
 /googleAnalytics_
 /googleAnalyticsBase_
@@ -5959,6 +5960,7 @@ _mongo_stats/
 ||cbdatatracker.com^
 ||cdnhst.xyz^
 ||ciqtracking.com^
+||clearbitscripts.com^
 ||click360.io^
 ||cloudwp.io^
 ||clrt.ai^
@@ -6061,6 +6063,7 @@ _mongo_stats/
 ||liveyield.com^
 ||lltrck.com^
 ||lmepbq.com^
+||logicanalytics.io^
 ||loloclicks.biz^
 ||lsdm.co^
 ||maggieeatstheangel.com^
@@ -6637,6 +6640,7 @@ _mongo_stats/
 ||clarium.io^$third-party
 ||clarivoy.com^$third-party
 ||cleananalytics.com^$third-party
+||clearbit.com^$third-party
 ||clearbitjs.com^$third-party
 ||cleveritics.com^$third-party
 ||clevi.com^$third-party
@@ -8621,6 +8625,7 @@ _mongo_stats/
 ||va-endpoint.com^$third-party
 ||valuedopinions.co.uk^$third-party
 ||vbanalytics.com^$third-party
+||vbt.io^$third-party
 ||vdna-assets.com^$third-party
 ||veduy.com^$third-party
 ||veille-referencement.com^$third-party
@@ -12026,6 +12031,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||counter.top.ge^
 ||counter.yadro.ru^
 ||counters.freewebs.com^
+||coveo.com/coveo.analytics.js/
 ||covery.ai/fp/$third-party
 ||covet.pics/beacons
 ||creator.zmags.com^
@@ -12897,6 +12903,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||playtomic.com/Tracker/
 ||plista.com/activity
 ||pm.boostintegrated.com^
+||pmetrics.performancing.com^
 ||poool.fr/api/v3/access/event
 ||porpoise.azettl.net^
 ||postageapp.com/receipt/$third-party
@@ -13594,6 +13601,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webvoo.com^*/logtodb.
 ||webworx24.co.uk/123trace.php
 ||webzel.com/counter/
+||weglot.com/pageviews?
 ||wetpaint.com^*/track?
 ||whooshkaa.com/identify
 ||whooshkaa.com/listen/track
@@ -13851,7 +13859,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||realperson.de/system/third-party/rpfp/rpfp.min.js
 ||ref.dealerinspire.com^
 ||resu.io/scripts/resclient.min.js
-||risk.clearbit.com^
 ||socital.com^*/socital.js
 ||talkingdata.com^*/sdk_release.js
 ||targeting.voxus.tv^
@@ -30266,6 +30273,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||live.house.gov/js/analytics.$~third-party
 @@||logging.apache.org^$~third-party
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
+@@||logo.clearbit.com^$image,third-party
 @@||lowesgiftcardbonus.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||lr-ingest.io/logger.min.js$script,domain=pumpkin.care
 @@||material.io/inline-tools/direct-embed/bower_components/angularytics/$script,~third-party
@@ -30578,8 +30586,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
 @@||lzstatic.com^*/gdpr/consentHandler/google_analytics.js$domain=ladenzeile.de
 @@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$domain=ladenzeile.de
-@@||online.mps-gba.de/praeludium/ams.js?$domain=auto-motor-und-sport.de
-@@||online.mps-gba.de/praeludium/caravAFW.js?$domain=caravaning.de
+@@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||optimizely.com^$script,domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
