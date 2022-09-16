@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: OMRIhfWJ0307DVOulRcpVQ
+! Checksum: lCiY42QQXpmDLjdZZGB9TQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-09-16 00:24:28（北京时间） 
-! Total count: 98775
+! Version: 2022-09-16 09:17:25（北京时间） 
+! Total count: 98797
 ###ADTOP
 ###AD_G
 ###AD_L
@@ -1951,7 +1951,6 @@
 ##.GoogleDfpAd-Float
 ##.GoogleDfpAd-wrap
 ##.GoogleDfpAd-wrapper
-##.GridHouseAdRight
 ##.InsertedAd
 ##.LearderAd_Border
 ##.ListicleAdRow
@@ -6996,6 +6995,7 @@
 ##a[href*=".iziyo.com/"]
 ##a[href*=".jgg18.me"]
 ##a[href*=".jiq339.com/"]
+##a[href*=".kefuyuming.vip"]
 ##a[href*=".kluvcc.com/"]
 ##a[href*=".ktvxn.com/"]
 ##a[href*=".lacquermall.com/"]
@@ -10383,6 +10383,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /YandexAds.$badfilter
 /YuduStatistics/*
 /ZagUser.js
+/\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(cc|com|top|xyz)\/i\/v$/$xmlhttprequest,third-party
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{4}\.js\?[a-z0-9]{10,}/$script,third-party
@@ -10832,6 +10833,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /adlink.
 /adlink.$domain=~adlink.com|adlink.guru|~adlinktech.com|~github.com
 /adlink/*$domain=~adlinktech.com|~github.com
+/adlinks.$domain=~adlinks.io|~adlinks.to
 /adload.
 /adloader.
 /adloader/*
@@ -20464,6 +20466,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||bahamut.com.tw/s01/$domain=forum.gamer.com.tw
 @@||baidu-taobao-av.com/js/home.js
 @@||baidu-taobao-av.com/js/jquery.
+@@||baidu.com/api/bidder/$domain=jump2.bdimg.com
 @@||baidu.com/cse/search?$domain=16xx8.com
 @@||baidu.com/h.js$domain=19lou.com|baomihua.com|ihome99.com
 @@||baidu.com/hm.js$domain=cainiao.com|dwz.cn|ramboplay.com|seo.chinaz.com
@@ -20471,6 +20474,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||baidu.com/share/count?
 @@||baidu.com/static/touch/js/lib/fingerprint.js$~third-party
 @@||baidu.com^*&cb=BaiduSuggestion.
+@@||baidu.com^*/track.gif$image,domain=jump2.bdimg.com
 @@||bail-bonds.me^$generichide
 @@||baixing.net/combine/*,/css/ad-
 @@||bajaenlaces.com/adblock.js$script
@@ -22271,9 +22275,9 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
 @@||googletagmanager.com/gtm.js$script,domain=komputronik.pl|upc.pl
 @@||googletagmanager.com/gtm.js$script,domain=olx.ro
+@@||googletagmanager.com/gtm.js$script,domain=pccomponentes.com|tn.com.ar
 @@||googletagmanager.com/gtm.js$script,domain=sport-wear.com.ua
 @@||googletagmanager.com/gtm.js$script,domain=telia.no
-@@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
 @@||googletagmanager.com/gtm.js$script,domain=vtvgo.vn
 @@||googletagmanager.com/gtm.js?$domain=autorevue.cz|e15.cz|mobilmania.cz|zive.cz
 @@||googletagmanager.com/gtm.js?$domain=feex.co.il
@@ -35528,6 +35532,10 @@ insidertracking.com##+js(no-setTimeout-if, no_ad, 15000)
 insomnia.gr,kingsinteriors.co.uk#@#.adlink
 instacart.com#$#race start; hide-if-matches-xpath './/section[translate(@data-*-badge, "sponsored", "SPONSORED")]/ancestor::li[1]'; hide-if-matches-xpath './/*[translate(@data-*-badge, "sponsored", "SPONSORED")][@data-sp-eligible]/ancestor::li[1]'; race stop;
 instagram.com#$?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:contains(/Спонсор публикации:|Sponsored/)) { visibility: hidden !important; }
+instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership with ))
+instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership))
+instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:-abp-has(span:-abp-contains(Paid partnership with ))
+instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:-abp-has(span:-abp-contains(Paid partnership))
 instagram.com#?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:contains(/Спонсор публикации:|Sponsored/))
 instalki.pl###outer > #banner
 instalki.pl##.module-adv
@@ -36905,6 +36913,7 @@ kpzpw.com##.littlebanner
 krebsonsecurity.com##.a-statement
 krebsonsecurity.com#?#.nobullet > li:has(> a[href^="https://www.amazon.com/"])
 kreskowkazone.pl#@#.myTestAd
+kroger.com##a[title^="Advertisement:"]
 krolik.biz#$#abort-current-inline-script document.createElement
 krs-online.com.pl##+js(set-constant, canRunAds, true)
 krunker.io###aHolder
@@ -38118,6 +38127,7 @@ mangarock.com#?#div[role="presentation"] > div[id^="vertical-page-"]:last-child 
 mangarockteam.com#?#.body-wrap > .c-top-second-sidebar:not(:has(.widget-manga-popular-slider))
 mangarockteam.com,nitroscans.com##.c-top-second-sidebar
 mangas-raw.com##+js(abort-on-property-write, showInfoAdBlock)
+mangas-raw.com##center > div[style]
 mangasail.co##+js(abort-on-property-read, adb_checker)
 mangashiro.co##+js(window.open-defuser)
 mangatone.com#?#.c-sidebar:has(div.textwidget > div[id="protag-header"])
@@ -42660,7 +42670,8 @@ silver.org.cn##.zl_login
 silver.org.cn##div[class*="_gg"]
 silver.org.cn##div[class^="ads_"]
 silverpic.com,pics4you.net,naughtymachinima.com,kropic.com,imgbaron.com,torrents-club.info,pornorips.com,mactorrent.co,windows-portal.pw,erowall.com,adultwalls.com,motaen.com,camclips.cc,camwhores.biz,freeporn-site.com,imageteam.org,cambabe.video,cambabe.me,caminspector.net,free-strip-games.com,hdgirlstock.com,camwhores.tv,torrents-club.net,free-porn.games,picusha.net,porno-tracker.com,torrents-club.org,windows-soft.info,nudepatch.net,bustybloom.com,eroticahall.com,girlwallpaper.pro##+js(set-constant, loadTool, undefined)
-silverspoon.site#?#table[style="width:100%; height:1200px"] > tbody > tr > td > div[data-ad-slot]:upward(2)
+silverspoon.site#?#table[style="width:100%; height:1200px"] > tbody > tr:first-child > td > div[data-ad-slot]:upward(2)
+silverspoon.site#@#.adsbyvli
 simkl.com##.blockplace
 simpasian.net##.hideme
 simple-adblock.com#@#iframe[width="300"][height="250"]
@@ -43394,7 +43405,12 @@ sportslogos.net##.bigBoxHomepage
 sportsplanetmag.com##.adshow
 sportsseoul.com###article_viewWrap > div[style="height:167px;"]
 sportsv.net##.box.ad
+sportswatcher.xyz##+js(no-setTimeout-if, ad-modal)
+sportswatcher.xyz##.adsbyvli[data-ad-slot]
+sportswatcher.xyz#@#.adsbygoogle
+sportswatcher.xyz#@#.adsbyvli
 sportswatcher.xyz,app-how-to-use-it.com,faqforge.com,xscholarship.com,psdly.com,droidwin.com,mangasy.com,taradinhos.com,dvdgayporn.com,thetaiwantimes.com##.widget_custom_html
+sportswatcher.xyz,wpking.in,eegybest.xyz,mdn.world,sakarnewz.com,playstore.pw,sevenjournals.com,footy.to,sportnews.to,bloggingguidance.com,onroid.com,girls-like.me,mcrypto.club,welovemanga.net,greaterkashmir.com###id-custom_banner
 sporttery.cn###newDiv
 sporttvdireto.com#@##ads1
 sportvgratis1.com###eplayer
@@ -46357,7 +46373,6 @@ wp.pl#@#body > div:nth-of-type(1)[style^="display: block;"]:not(#page)
 wp.pl,pudelek.pl#$#abort-on-property-read wpjscb
 wpbeginner.com##.sidebardeals
 wpjam.com###wpjam_blog_300x250_1
-wpking.in,eegybest.xyz,mdn.world,sakarnewz.com,playstore.pw,sevenjournals.com,footy.to,sportnews.to,bloggingguidance.com,onroid.com,girls-like.me,mcrypto.club,welovemanga.net,greaterkashmir.com###id-custom_banner
 wplink.online##+js(window.open-defuser)
 wpmienphi.com###d7b2
 wpolityce.pl##.adunit:not(#widget_playlist)
@@ -46918,6 +46933,7 @@ yafud.pl###adsense_banner_top
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
+yahoo.com###HPSPON-ad
 yahoo.com###crazyAD
 yahoo.com###crazyad_mask
 yahoo.com###hp-ad-left
@@ -47398,6 +47414,7 @@ zahuishi.com##.index950x90
 zahuishi.com##.index960x90
 zahuishi.com##.show2960x90
 zakon.kz##.adblock_alert
+zalando.be,zalando.ch,zalando.co.uk,zalando.cz,zalando.de,zalando.dk,zalando.ee,zalando.es,zalando.fi,zalando.fr,zalando.ie,zalando.it,zalando.lv,zalando.no,zalando.pl,zalando.se,zalando.si#?#.DvypSJ:-abp-has(span:-abp-contains(/Gesponsert|Gesponsord|Patrocinado|Sponset|Sponsitud|Sponsored|Sponsoreret|Sponsorēts|Sponsorizzato|Sponsorisé|Sponsoroitu|Sponsorowane|Sponsrad|Sponzorirano|Sponzorováno/))
 zalora.co.id,zalora.co.th,zalora.com.hk,zalora.com.my,zalora.com.ph,zalora.com.tw,zalora.sg#@#.advertisement-block
 zalora.com.hk#@#.advertisement-block
 zamana.info#@##banner-top
@@ -48309,6 +48326,7 @@ zznews.cn##.ad:not([style])
 ||160.com/statics/statics/js/code_13.js
 ||160.com/statics/statics/js/code_15.js
 ||1615792.com^
+||1615vip.com^*.jsonp
 ||1616.net/jd/data/index/indexad.json
 ||162.212.182.$subdocument
 ||162.252.214.4^
@@ -61213,6 +61231,7 @@ zznews.cn##.ad:not([style])
 ||custom.plausible.io^
 ||custom.search.yahoo.co.jp/images/window/*.gif
 ||customads.co^
+||customapi.top^
 ||customer.io^$third-party
 ||customerconversio.com^$third-party
 ||customerlabs.co^$third-party
@@ -61794,6 +61813,7 @@ zznews.cn##.ad:not([style])
 ||daima.ysdui.com^
 ||daima.yuzhulin.com^
 ||daimude.com^
+||daineely.net^
 ||dainifei3.com^
 ||daipeept.net^
 ||daishu.shop^
@@ -87585,6 +87605,7 @@ zznews.cn##.ad:not([style])
 ||sportscn.com/js/commerical
 ||sportsmansguide.com/scripts/vendor/at_
 ||sportsv.net/dist/ads/
+||sportswatcher.xyz^$removeheader=refresh
 ||sporttvdireto.com/ads/popunder.php$popup
 ||spotify.com^$removeparam=nd
 ||spotify.com^$removeparam=si
@@ -97292,6 +97313,7 @@ zznews.cn##.ad:not([style])
 ||yimg.com/cv/api/hk/fp_czy_ad/
 ||yimg.com/cx/vzm/cs.js
 ||yimg.com/dy/ads/readmo.js
+||yimg.com/nn/lib/*/advertisement
 ||yimg.com/nn/lib/metro/g/sda/$domain=yahoo.com
 ||yimg.com/no/$domain=~yahoo.com
 ||yimg.com/rq/darla/
