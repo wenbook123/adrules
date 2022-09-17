@@ -3,7 +3,7 @@
 ! Expires: 4 days
 ! Last modified: %timestamp%
 ! Homepage: https://github.com/uBlockOrigin/uAssets
-! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 !
 ! GitHub issues: https://github.com/uBlockOrigin/uAssets/issues
 ! GitHub pull requests: https://github.com/uBlockOrigin/uAssets/pulls
@@ -5217,8 +5217,7 @@ trekbbs.com##div[style^="width:970px"]
 @@||popcornflix.com^$ghide
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2142
-hdbox.ws##+js(nobab)
-hdbox.ws##+js(aeld, load, nextFunction)
+hdbox.ws##+js(nostif, show)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2130
 @@||benkhouya.com^$script,domain=anonymousemail.me
@@ -14476,6 +14475,10 @@ onlythots.com##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6107
 bravoerotica.com##+js(aopr, ExoLoader.serve)
+bravoerotica.net##+js(set, flashvars.adv_pause_html, '')
+bravoerotica.net##+js(set, flashvars.adv_start_html, '')
+bravoerotica.net##.place
+bravoerotica.net##.table
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6111
 @@||emu-games.com^$ghide
@@ -19226,9 +19229,6 @@ claimcrypto.cc##+js(aopr, adBlockDetected)
 claimcrypto.cc##[class^="bmadblock"]
 ||bmfads.com^$3p
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/52002
-@@||igtools.net^$ghide
-
 ! https://github.com/uBlockOrigin/uAssets/issues/7139
 @@||sledujserialy.*^$script,1p
 ||sledujserialy.*/theme/json/episode.ad.php^$subdocument
@@ -19458,9 +19458,6 @@ fishki.net###privacypolicy
 
 ! https://github.com/NanoMeow/QuickReports/issues/3439
 dailymaverick.co.za##+js(nostif, t(), 0)
-
-! https://github.com/NanoMeow/QuickReports/issues/3441
-hdbox.ws##+js(nostif, mdpDeBlocker)
 
 ! https://github.com/NanoMeow/QuickReports/issues/3446
 notiziemusica.it##+js(aopw, adBlockDetected)
