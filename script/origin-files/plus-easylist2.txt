@@ -1895,7 +1895,7 @@ apkmirror.com##span.advertisement-text
 apkmirror.com##[href^="https://bstk.me/"]
 ! https://github.com/uBlockOrigin/uAssets/issues/14719
 apkmirror.com##[class*="ains-apkm_"]
-apkmirror.com##+js(aost, document.querySelectorAll, onload)
+apkmirror.com##+js(aost, addEventListener, /(?=^.*inlineScript)(?!^.*https).*/)
 apkmirror.com##div.appRow[style]
 apkmirror.com##.downloadCountdown
 apkmirror.com##.OUTBRAIN
@@ -3525,8 +3525,10 @@ badjojo.com##.embed-overlay
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1300
 eroprofile.com##+js(acis, ExoLoader)
-||eroprofile.com/nvbl.php$script,1p
+||eroprofile.com/js/fp-interstitial.js
+||eroprofile.com/js/nvbla.js
 eroprofile.com##.center-block
+eroprofile.com###divVideoListAd2
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1301
 feet9.com##+js(aopr, __ADX_URL_U)
@@ -12381,10 +12383,6 @@ fuqer.com#@#.spot-thumbs > .right
 
 ! https://github.com/NanoMeow/QuickReports/issues/1056
 @@||villatalk.com^$ghide
-
-! https://github.com/NanoMeow/QuickReports/issues/1058
-@@||freevpn4you.net^$ghide
-@@||freevpn4you.net/ads/*$image,1p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5305#issuecomment-485317006
 lurdchinexgist.blogspot.com##+js(aeld, load, 2000)
