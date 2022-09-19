@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: RQvzunu+Qy2KLHJUPV+7uw
+! Checksum: Ol6x5iMxGqO0Phs9eHZPcg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-09-19 16:39:01（北京时间） 
-! Total count: 19564
+! Version: 2022-09-20 00:30:01（北京时间） 
+! Total count: 19572
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -473,6 +473,7 @@
 @@/show_ad_$domain=wb.qq.com
 @@/show_ads.js$script,domain=bithourly.com|dailyfreebits.com|jewelrybitco.in|welovebtc.com|robcoins.eu|elenabitco.in|freebetco.in|qoinfaucet.com
 @@/show_ads.js$script,domain=imgclick.net
+@@/show_ads_$domain=ygo-sem.cn
 @@/showads.$~third-party,domain=rte.ie
 @@/site/ad/*$domain=islide.cc
 @@/site=*/size=*/viewid=$domain=morningstar.in
@@ -580,6 +581,8 @@
 @@_ads_cpc_$domain=90lover.cn
 @@_adview_$domain=muzlan.top
 @@_cpa_cpm_$domain=52xkdy.com
+@@_cpc_cpm/$domain=youranshare.com
+@@_cpc_cpm_$domain=saraba1st.com
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn|youranshare.com
 @@acloud*.com^$stealth,image,domain=wfwf135.com|wfwf137.com|wfwf138.com
 @@adm.fwmrm.net/p/aetn_live/AdManager.swf$domain=mylifetime.com|aetnd.com
@@ -1600,6 +1603,7 @@
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
 @@||adserver.lumsearch.com^$xhr,1p
 @@||adserver.rhombusads.com/api/$domain=spin.com
+@@||adserver.skiresort-service.com/www/delivery/spcjs.php?$script,domain=skiresort.de|skiresort.fr|skiresort.info|skiresort.it|skiresort.nl
 @@||adserver.xpanama.net^$script,domain=gsmarena.com
 @@||adservex.media.net/videoAds.js?$script,domain=forbes.com
 @@||adservice.$script,domain=stltoday.com
@@ -3381,6 +3385,7 @@
 @@||breakfastboat.com^$script,xmlhttprequest
 @@||breakoutlist.com/assets/logos/*-logo.png$domain=breakoutlist.com
 @@||brenhealth.com^$generichide
+@@||bricodepot.ro/static/*/frontend/Magento/base/default/Amasty_GdprCookie/$domain=bricodepot.ro
 @@||brid.tv/player/build/plugins/adunit.js$script,domain=pluralist.com
 @@||briefbears.com^$script,xmlhttprequest
 @@||briefstem.com^$script,xmlhttprequest
@@ -5381,6 +5386,7 @@
 @@||d396ihyrqc81w.cloudfront.net^$domain=currys.co.uk
 @@||d3c3cq33003psk.cloudfront.net/opentag$domain=sunglasses-shop.co.uk|sunglasses-shop.fi|sunglasses-shop.nl|sunglasses-shop.se|sunglassesshop.com|sunglassesshop.dk|sunglassesshop.fr|sunglassesshop.no
 @@||d3ncat0syb6rim.cloudfront.net^$script,domain=worldfree4u.lol
+@@||d3njgrq4uvb497.cloudfront.net/videojs/videojs-contrib-ads.js$domain=ksl.com
 @@||d3pkae9owd2lcf.cloudfront.net/mb105.gz.js$script,domain=hotslogs.com
 @@||d3pkae9owd2lcf.cloudfront.net^$script,domain=hockeybuzz.com|hotslogs.com|wowhead.com
 @@||d3q1qj9jzsu8nw.cloudfront.net/js/cookie-banner-gdpr/app.min.js$domain=cn.nytimes.com
@@ -9674,6 +9680,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=wordgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=wuxiaworld.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=zattoo.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=ksl.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,xhr,domain=spiele.bild.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$xhr,script,domain=vtm.be
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$xmlhttprequest,domain=animefever.tv
@@ -9728,6 +9735,7 @@
 @@||imasdk.googleapis.com^$app=be.persgroep.android.news.mobilead
 @@||imasdk.googleapis.com^$app=com.bamnetworks.mobile.android.gameday.atbat
 @@||imasdk.googleapis.com^$app=com.cbs.app
+@@||imasdk.googleapis.com^$app=com.graymatrix.did
 @@||imasdk.googleapis.com^$app=com.mperience.vvvvidmobile
 @@||imasdk.googleapis.com^$app=com.tour.pgatour
 @@||imasdk.googleapis.com^$app=com.zattoo.player|com.sfr.android.redtv
@@ -11264,7 +11272,6 @@
 @@||maps.googleapis.com/maps/api/$stealth,domain=budmatauto.pl
 @@||maps.googleapis.com/maps/api/$stealth,domain=offerup.com
 @@||maps.googleapis.com^$domain=last.fm,script
-@@||maps.gstatic.com/mapfiles/santatracker/*.html$extension
 @@||maps4heroes.com^$generichide
 @@||maps4heroes.com^$ghide
 @@||marca.com^$generichide
@@ -12611,6 +12618,7 @@
 @@||oneprovider.com^$elemhide,jsinject,extension
 @@||onesecond.designly.com/img/*.gif$~third-party
 @@||onesignal.com/sdks/OneSignalSDK.js$domain=wowbiz.ro
+@@||onesignal.com^$domain=e1.ru
 @@||onet.pl/*?*utm_campaign=$removeparam
 @@||onet.pl/?utm_source=$removeparam
 @@||onet.pl/?utm_source=$stealth
@@ -12914,6 +12922,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|poppamr.com|adnit.xyz|seg-ashort1a-ma.tk|miuiku.com|tatangga.com|flash-firmware.blogspot.com|ghostsnet.com|rezkozpatch.xyz|rumahit.id|sekilastekno.com|romfirmware.com|orirom.com|gsmfirmware.net|animekuro.net|ashort1a.xyz|akwam.*|health-and.me|fc-lc.com|fc.lc|note1s.com|paste1s.com|playstore.pw|yoshare.net|pes-patches.com|1shorten.com|publicananker.com|publicananker.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bricozone.fr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chartdj.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chd4.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cmacapps.com
@@ -13145,6 +13154,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=asiaon.top
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=b2bhint.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=babymodz.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|myqqjd.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|myqqjd.com|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=gamalk-sehetk.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=getintoway.com
@@ -15515,7 +15525,6 @@
 @@||semimkv.net^$ghide
 @@||sendgb.com/*/?utm_source=$removeparam=utm_source
 @@||sendgrid.com/marketing_campaigns$document
-@@||senpa.io^$extension
 @@||senpa.io^$ghide
 @@||senseoflaw.com^$stealth
 @@||seo-fast.ru/js/adv.js
@@ -18204,7 +18213,6 @@
 @@||vancouversun.com^$ghide
 @@||vanfireworks.com^$script,xmlhttprequest
 @@||vanis.io/ads.js
-@@||vanis.io^$extension
 @@||vape.ru/*/?filter_count=$jsinject,elemhide,extension
 @@||vape.ru/*/action.php?$jsinject,elemhide,extension
 @@||varagesale.com/assets/analytics-$script,~third-party
