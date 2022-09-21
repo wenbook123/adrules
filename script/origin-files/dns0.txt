@@ -1,8 +1,8 @@
-! Checksum: v/HmAamgpK5czE4dQBlk7A
+! Checksum: C3p2btNrwtamEg1jRlSduw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.67.80
-! TimeUpdated: 2022-09-21T06:31:06+00:00
+! Version: 2.0.67.82
+! TimeUpdated: 2022-09-21T14:31:01+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -987,6 +987,9 @@ nfmovies.com#%#//scriptlet("prevent-setTimeout", "/document\.getElementById[\s\S
 !--------------------------------------!
 ! SECTION: Chinese - CSS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/130277
+huaban.com#$#div[data-content-source="导航栏"] > a.modalOpenWidth { display: none !important; }
+huaban.com#$#.wrapper > div[data-content-source] > .modalOpenWidth[style*="top:"] { top: 80px !important; }
 ! https://github.com/abp-filters/abp-filters-anti-cv/issues/1124
 69xx.one,theporn.cc#%#//scriptlet("set-constant", "is_show", "false")
 69xx.one,theporn.cc#$##alert_windows { display: none !important; }
@@ -1146,7 +1149,6 @@ boylove.cc###yteggbue
 docs.cfw.lbyczf.com###推广
 docs.cfw.lbyczf.com###推广 + div.list
 myqqjd.com##aside[id^="sponsor-"]
-huaban.com##div[data-content-source="导航栏"] > a.modalOpenWidth
 ctee.com.tw##.qxd
 thecatcity.com##.article-page__ad-block
 cupfox.app##.banner-box
@@ -17218,6 +17220,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+sogou.com##div[class^="news-top-banner"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
