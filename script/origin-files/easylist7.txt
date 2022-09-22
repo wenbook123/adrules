@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202209210309
+! Version: 202209220348
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 27041
+! Lenth = 27058
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###Layeraa1
@@ -1126,6 +1126,7 @@
 ##a[href*="/7267224.com/"]
 ##a[href*="/7699j.com:"]
 ##a[href*="/7763349.com/"]
+##a[href*="/7900y.com?"]
 ##a[href*="/8616.tech"]
 ##a[href*="/9716t.com"]
 ##a[href*="/?INTR="]
@@ -5574,6 +5575,7 @@ bilibili.com###fixed_app_download
 bilibili.com###slide_ad + .ad-report
 bilibili.com##.ad-e1
 bilibili.com##.ad-f
+bilibili.com##.adblock-tips
 bilibili.com##.banner-card
 bilibili.com##.bili-dyn-ads
 bilibili.com##.desktop-download-tip
@@ -6634,9 +6636,7 @@ duba.com##.ss_sider_list[href*=".wan.liebao.cn"]
 duba.com##.taobao_search
 duba.com##.tempAd
 duba.com##a[w="topad"]
-duba.com#$#.fav_box_wrap { visibility: hidden; height: 60px!important; }
 duba.com#?#.newslist  > .news_ctm_wrap:-abp-has(> .ctm_ad)
-duba.com#@#.fav_box
 duba.com,iduba.com,newduba.cn###J_sideFooter
 duba.com,iduba.com,newduba.cn##.left_slidebar_con
 duba.com,iduba.com,newduba.cn,uu114.cn##.fav_box
@@ -7762,7 +7762,8 @@ htmlsucai.com,sucai8.cn,ui.cn#@#.adv_img
 huaban.com###top_promotion
 huaban.com##.hb-ad
 huaban.com##div[class="pin wfc ad wft"]
-huaban.com##div[data-content-source="导航栏"] > a.modalOpenWidth
+huaban.com#$#.wrapper > div[data-content-source] > .modalOpenWidth[style*="top:"] { top: 80px !important; }
+huaban.com#$#div[data-content-source="导航栏"] > a.modalOpenWidth { display: none !important; }
 huaban.com,start.firefoxchina.cn##.extra
 huaban.com,zcool.com.cn##.ad
 hualongxiang.com##.bbs_box_gg
@@ -10469,6 +10470,7 @@ sogou.com##.top_adv_wrap
 sogou.com##.trans-side-banner
 sogou.com##.u-page-gg
 sogou.com##A[data-log*="PicAd"]
+sogou.com##div[class^="news-top-banner"]
 sogou.com#?#div[class^="right-feedback"]:-abp-has(>.list-step-title:-abp-contains(网游))
 sohu.com###apkBanner
 sohu.com###hotpicnew
@@ -13199,6 +13201,7 @@ zznews.cn##.ad:not([style])
 ||6gt.cc^
 ||6gustis.xyz^
 ||6huu.com^
+||6onm.fun^
 ||6pan.cc/ps/vip.jpg
 ||6park.com/img/*0.gif
 ||6park.com/parks/$script
@@ -14756,6 +14759,7 @@ zznews.cn##.ad:not([style])
 ||bayno.cn^
 ||bazhangda.shop^
 ||bazinga12138.online^
+||bb-bbjsyuming.cc^
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/C-79.gif
 ||bbbx.xyz^
@@ -16647,9 +16651,11 @@ zznews.cn##.ad:not([style])
 ||dpbsosu.cn^
 ||dpbyc.com^
 ||dpjszs.com^
+||dq3e.top^
 ||dq8c.top^
 ||dqcztxmu.com^
 ||dqh.ink^
+||dqhxczj.cn^
 ||dqruhue.cn^
 ||dqsft.com^
 ||dqzsteel.com/Website/Image/Index/ytgg.gif
@@ -16878,6 +16884,7 @@ zznews.cn##.ad:not([style])
 ||easyjz.com.cn^
 ||easyliao.com^$third-party
 ||eatncx.cn^
+||ebazhaheiw.top^
 ||ebiotrade.com/jslibrary/js
 ||ebiotrade.com/netother/sy2013.ashx?type=quanping
 ||ebiotrade.com/newsf/js/inpic.js
@@ -20091,6 +20098,7 @@ zznews.cn##.ad:not([style])
 ||kneadface.com^
 ||knja123.top^
 ||knk95.cn^
+||knmnamr.cn^
 ||knowmore.cc/style/head.js
 ||kocpc.com.tw/adsbyso.js
 ||kohen.biz^
@@ -20390,6 +20398,7 @@ zznews.cn##.ad:not([style])
 ||lfzxcp.com^
 ||lggbxf.com^
 ||lggff.com^
+||lgh2.fun^
 ||lgjygg.com^
 ||lgl.ink^
 ||lglady.cn^
@@ -20786,6 +20795,7 @@ zznews.cn##.ad:not([style])
 ||m.ailezhai.cn^$third-party
 ||m.aty.sohu.com^
 ||m.audio699.com/template/m/js/qqwweef
+||m.bjdcfy.net^*.js
 ||m.danmeixsw.com/js/mwap.js
 ||m.dglscm.cn^$third-party
 ||m.ercos.cn^$third-party
@@ -22284,6 +22294,7 @@ zznews.cn##.ad:not([style])
 ||ptenwy.cn^
 ||ptfish.com/*/ad$image,object
 ||ptnxa.xyz^
+||pttwq.xyz^
 ||ptujvmq.cn^
 ||ptyw.yiche.com/ssp/
 ||ptzkjko.cn^
@@ -22977,6 +22988,7 @@ zznews.cn##.ad:not([style])
 ||rvbztg.cn^
 ||rvlmpo.xyz^
 ||rvpbdcf.cn^
+||rwadakesz.cyou^
 ||rwjfs.com^
 ||rwogldz.top^
 ||rwwfmb.cn^
@@ -24966,6 +24978,7 @@ zznews.cn##.ad:not([style])
 ||watchsk.com^
 ||wayexiaofei.club^
 ||wb9c.top^
+||wbazhaheie.top^
 ||wbdsj.top^
 ||wbiao.cn/common/adapi/
 ||wbiao.cn/common/newsbannerAds/
@@ -25087,6 +25100,7 @@ zznews.cn##.ad:not([style])
 ||wfyqc.com^
 ||wgnlz.com^
 ||wgqhwcg.cn^
+||wgttjk.cn^
 ||whafwl.com^
 ||whale123.com^$third-party
 ||whatisupman.site^
@@ -25753,6 +25767,7 @@ zznews.cn##.ad:not([style])
 ||xulizui6.com^
 ||xumnxwvw.ink^
 ||xunhuaji.cn^
+||xuningk.xyz^
 ||xunjiu.online^
 ||xunlei.com/api/stat/rt/js?
 ||xunsu.cc/js/indexbottom.js
@@ -25940,6 +25955,7 @@ zznews.cn##.ad:not([style])
 ||yeeyi.com/bbs/api.php?mod=js&bid=
 ||yefu365.com/rebo/function.js
 ||yehaobo5.com/js/
+||yeip5aehi.icu^
 ||yelmlrq.cn^
 ||yema.shop^
 ||yemancomic.com/static/maoshuang.js
@@ -26056,6 +26072,7 @@ zznews.cn##.ad:not([style])
 ||yinyuetai.com/proment/get-play-medias?*&position=pauseroll
 ||yinyuetai.com/proment/get-play-medias?json=true&position=preroll
 ||yinzantouzi.com^
+||yiop2bace.icu^
 ||yiotufp.cn^
 ||yipanhaocai.com^
 ||yiparts.com/Chance.php?aid=
