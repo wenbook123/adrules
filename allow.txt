@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: vPdEzz6EQvedjbloXNWH8Q
+! Checksum: E+GcAl1ZtavzG2gu8vWcRQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-09-23 00:32:35（北京时间） 
-! Total count: 19510
+! Version: 2022-09-23 09:27:44（北京时间） 
+! Total count: 19515
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -104,6 +104,7 @@
 @@.png#$domain=readrawmanga.com
 @@.png#*/ad$image
 @@.porntube.com^$stealth
+@@.ts^$stealth
 @@.tv/javascript/adwords.js$domain=cc-fan.tv|cn-fan.tv|fox-fan.tv|nf-fan.tv
 @@.vaughnsoft.net/abvs.php?a=
 @@/*/*.jpg$stealth,image,domain=mangarawjp.com
@@ -297,6 +298,7 @@
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/check.php?callback=$script,domain=ytmp3.cc
 @@/chunklist.m3u8$stealth,domain=liveply.me
+@@/chunks.m3u8$stealth
 @@/clarity-*.js$domain=clarity-project.info
 @@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/common/templates/dfp/dfp-component-template.html$~third-party,domain=usrowing.org|bigten.org|gousfbulls.com
@@ -356,6 +358,7 @@
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
+@@/hls.key$stealth
 @@/home.php$popup,domain=mlwbd.*
 @@/home/ads/*$domain=esunbank.com.tw
 @@/html/images/blank.png$image,domain=mocospace.com
@@ -442,6 +445,7 @@
 @@/pdc_s_code.js$domain=adobe.com
 @@/peel.js$script,domain=leechpremium.link
 @@/pic/ad/*$domain=ybjk.com
+@@/playlist.m3u8$stealth
 @@/plugins/ad-blocking-detector/*$script
 @@/plugins/ad-blocking-detector/assets/js/*$script
 @@/plugins/blockalyzer-adblock-counter/js/advert.js$script
@@ -5629,6 +5633,7 @@
 @@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
 @@||developer.softonic.com^$document
 @@||developer.tomtom.com/sites/all/modules/contrib/eu_cookie_compliance/js/jquery.cookie-*.min.js
+@@||developers.google.*/analytics/$~third-party,xmlhttprequest
 @@||developers.google.com/ad-manager/$~third-party
 @@||developers.google.com/ads/images/$domain=google.com
 @@||developers.google.com/analytics/devguides/collection/analyticsjs/$~third-party,xmlhttprequest
