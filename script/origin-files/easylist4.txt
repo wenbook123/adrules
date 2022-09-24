@@ -1,15 +1,15 @@
 [Adblock Plus 3.0]
-! Checksum: nz5+udkDtrsVEG4pUY8JiA
+! Checksum: 1dvWhnHPOxcPxR4OYm8auQ
 ! Title: My AdFilters（for PC）
 ! Expires: 2 hours
-! Version: 202209241533
-! Last Modified: 2022年09月24日 15:33
+! Version: 202209242336
+! Last Modified: 2022年09月24日 23:36
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
-! Total count: 79517
+! Total count: 79527
 ###ADTOP
 ###AD_G
 ###AD_L
@@ -1264,7 +1264,6 @@
 ###leaderAdContainer
 ###leaderBoardAd
 ###leaderboard-ad
-###leaderboard-ad-1
 ###leaderboard-advert
 ###leaderboard-atf
 ###leaderboard.ad
@@ -2194,7 +2193,9 @@
 ##.ad-parent-class
 ##.ad-place
 ##.ad-placeholder
+##.ad-placeholder--mpu
 ##.ad-placeholder-leaderboard
+##.ad-placeholder__inner
 ##.ad-placement
 ##.ad-places
 ##.ad-poc
@@ -5442,7 +5443,6 @@
 ##.smart-ad
 ##.smartad
 ##.social-ad
-##.sovrn_ad_unit
 ##.sp-ad
 ##.spLinks
 ##.sp_ad
@@ -5463,7 +5463,6 @@
 ##.sponsor-link
 ##.sponsor-links
 ##.sponsor-logo
-##.sponsor-promo
 ##.sponsor-text
 ##.sponsor-wrap
 ##.sponsorAd
@@ -5682,6 +5681,7 @@
 ##.tnt-ads
 ##.tnt-ads-container
 ##.tnt-dmp-reactive
+##.toolkit-ad-shell
 ##.top > a > .topline[src^="/photo/"]
 ##.top-ad
 ##.top-ad-728
@@ -18944,7 +18944,7 @@ $xmlhttprequest,redirect-rule=noop.txt,domain=zdam.xyz
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=worldsurfleague.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=wsls.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$important,domain=digi24.ro
-@@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|pch.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|insideedition.com|pch.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=cbssports.com
 @@||imasdk.googleapis.com/js/sdkloader/loader.js$domain=einthusan.ca|einthusan.tv|einthusan.com
 @@||imasdk.googleapis.com/js/sdkloader/outstream.js$domain=wanted5games.com
@@ -28630,8 +28630,6 @@ hentai4manga.com#?##innerContent div[style]:has(> div[id^="banner"])
 hentaiasmr.moe###inPlayerGGzone
 hentaiblue.com##.widget_text
 hentaicloud.com#?#main > section:has(> div.container > div.row > div.col-6 > div.manga-item > div.thumbnail > a[href^="https://www.nutaku.net/signup/landing/"])
-hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com,wnacgs.com#@##adsbox
-hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com,wnacgs.com#@#.google-ads
 hentaicomics.pro##+js(window.open-defuser)
 hentaidexy.com##+js(set-constant, userExperienceImpacted, false)
 hentaidude.com###idunder
@@ -36325,6 +36323,7 @@ thienhatruyen.com#$#abort-current-inline-script $ pc-popup-2
 thinbug.com###inktokad
 thingiverse.com##+js(no-fetch-if, www3.doubleclick.net)
 thingiverse.com##div[class^="AdCard"]
+thinkcomputers.org##.apPluginContainer
 thinkphp.cn##.a6
 thisav.com###vjs-banner-container
 thisav.com#@#.adsBox
@@ -37791,6 +37790,7 @@ weibo.com##div[class^="HotTopic_doticon_"] + div[class^="HotTopic_tit_"]
 weibo.com##div[feedtype="ad"]
 weibo.com#?#.card-content > ul > li:-abp-has(>a[action-type="realtimehot_ad"])
 weibo.com#?#.card-wrap:-abp-has(>.card-top>.s-fr:-abp-contains(广告))
+weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-auth-tag>div:-abp-contains(热推))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_authtag_"]>img[src^="data"])
 weibo.com#?#.wbpro-side-panel:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(商))
 weightlossgroove.com#@#div[id^="advads-"]
@@ -37946,6 +37946,9 @@ wn789.com##.sidebar > .widget:not(:first-child):not(.widget_ui_posts)
 wn789.com##a[href^="http"]:not([href*="://www.wn789."]) > img
 wnacg.com,wnacg.org##a[href^="http"]:not([href*="wnacg."]) img
 wnacg.com,wnacg.org##script + div > a > img
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@##adsbox
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@#.aasdwa
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@#.google-ads
 wnp.pl##body div.ad.block
 woego.cn#@##topAds
 wolframclient.net#@#.adsbygoogle
@@ -40486,6 +40489,7 @@ zznews.cn##.ad:not([style])
 ||9ihome.com/info/ADTopvnet/
 ||9j1y.cn^
 ||9j3a.cn^
+||9js6.icu^
 ||9k9k.com/jscode/js/
 ||9kkf51ovqex1.com^
 ||9kkjfywjz50v.www.eventus.io^
@@ -52070,6 +52074,7 @@ zznews.cn##.ad:not([style])
 ||eduynp.fcl-hid.com^
 ||eduzzjy.com^
 ||edvfwlacluo.com^
+||edwad.co^
 ||edysn.cn^
 ||eebuwr.cn^
 ||eec.crunchyroll.com^
@@ -55580,6 +55585,7 @@ zznews.cn##.ad:not([style])
 ||hearob.klix.ba^
 ||hearstapps.com/moapt/moapt-hdm.latest.js
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
+||hearstnp.com/scripts/loadads.js
 ||heartbiddsp.monster^$popup
 ||hearthorn.com^$third-party
 ||heathertravelledpast.com^
@@ -72175,6 +72181,7 @@ zznews.cn##.ad:not([style])
 ||t.nevadawolfpack.com^
 ||t.newsletter.thetimes.co.uk^
 ||t.nusports.com^
+||t.nypost.com^
 ||t.ofsys.com^
 ||t.paydirekt.de^
 ||t.paypal.com^$image
@@ -75478,6 +75485,7 @@ zznews.cn##.ad:not([style])
 ||v1svcapiserver.marketing.account.net.zooplus.de^
 ||v2api.alpha.net.zooplus.de^
 ||v2nginxowaoid.development.net.zooplus.nl^
+||v2zn.xyz^
 ||v3.mail.net.shop.com.mm^
 ||v34ffs.site^
 ||v3cdn.net^$third-party
@@ -76938,6 +76946,7 @@ zznews.cn##.ad:not([style])
 ||wn68din.cn^
 ||wnacg.*/1605524662751.gif
 ||wnacg.*/themes/mo/images/*.gif
+||wnacgcdn.top/data/game/
 ||wneia.iaskhot.com^
 ||wnet.ink^
 ||wnllmofqxsziio.com^
@@ -79371,6 +79380,7 @@ zznews.cn##.ad:not([style])
 ||zqtk.net^
 ||zquitw.fxpro.com^
 ||zqwlkj.cn^
+||zrbn.ltd^
 ||zrkwtf.proidee.de^
 ||zrljkhcwhxhh.com^
 ||zrmxswrl.com^

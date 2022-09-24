@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: G5/UbYlIpzDyR79L+rtqpw
+! Checksum: +H5UC27gmWMDuTG+feqNZA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-09-24 16:30:13（北京时间） 
-! Total count: 99060
+! Version: 2022-09-25 00:29:12（北京时间） 
+! Total count: 99081
 ###ADTOP
 ###AD_G
 ###AD_L
@@ -1332,7 +1332,6 @@
 ###leaderAdContainer
 ###leaderBoardAd
 ###leaderboard-ad
-###leaderboard-ad-1
 ###leaderboard-advert
 ###leaderboard-atf
 ###leaderboard.ad
@@ -2359,7 +2358,9 @@
 ##.ad-parent-class
 ##.ad-place
 ##.ad-placeholder
+##.ad-placeholder--mpu
 ##.ad-placeholder-leaderboard
+##.ad-placeholder__inner
 ##.ad-placement
 ##.ad-places
 ##.ad-poc
@@ -5743,7 +5744,6 @@
 ##.smcms-wrap > .group-box > a[target="_blank"] > img
 ##.smcms-wrap > a[target="_blank"] > img
 ##.social-ad
-##.sovrn_ad_unit
 ##.sp-ad
 ##.spLinks
 ##.sp_ad
@@ -5765,7 +5765,6 @@
 ##.sponsor-link
 ##.sponsor-links
 ##.sponsor-logo
-##.sponsor-promo
 ##.sponsor-text
 ##.sponsor-wrap
 ##.sponsorAd
@@ -5995,6 +5994,7 @@
 ##.tnt-ads
 ##.tnt-ads-container
 ##.tnt-dmp-reactive
+##.toolkit-ad-shell
 ##.tooltip > #tp
 ##.top > a > .topline[src^="/photo/"]
 ##.top-ad
@@ -22810,7 +22810,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=worldsurfleague.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=wsls.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$important,domain=digi24.ro
-@@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|pch.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|insideedition.com|pch.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=cbssports.com
 @@||imasdk.googleapis.com/js/sdkloader/loader.js$domain=einthusan.ca|einthusan.tv|einthusan.com
 @@||imasdk.googleapis.com/js/sdkloader/outstream.js$domain=wanted5games.com
@@ -44299,6 +44299,7 @@ thienhatruyen.com#$#abort-current-inline-script $ pc-popup-2
 thinbug.com###inktokad
 thingiverse.com##+js(no-fetch-if, www3.doubleclick.net)
 thingiverse.com##div[class^="AdCard"]
+thinkcomputers.org##.apPluginContainer
 thinkphp.cn##.a6
 thisav.com###vjs-banner-container
 thisav.com#@#.adsBox
@@ -46015,6 +46016,7 @@ weibo.com#?#.card-content > ul > li:-abp-has(>a[action-type="realtimehot_ad"])
 weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains(广告))
 weibo.com#?#.card-wrap:-abp-has(>.card-top>.s-fr:-abp-contains(广告))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contains(广告))
+weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-auth-tag>div:-abp-contains(热推))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_authtag_"]>img[src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_authicon_"][src^="data"])
 weibo.com#?#.wbpro-side-panel:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(商))
@@ -46258,6 +46260,9 @@ wnacg.com,wnacg.org##a[href^="http"]:not([href*="wnacg."]) img
 wnacg.com,wnacg.org##img[width="399"][height*="6"]
 wnacg.com,wnacg.org##script + div > a > img
 wnacg.org##a[href^="https://l.tyrantdb.com/"][target="_blank"] > img
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@##adsbox
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@#.aasdwa
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@#.google-ads
 wnp.pl##body div.ad.block
 woego.cn#@##topAds
 wolframclient.net#@#.adsbygoogle
@@ -50152,6 +50157,7 @@ zznews.cn##.ad:not([style])
 ||9ist.com/others/ad/
 ||9j1y.cn^
 ||9j3a.cn^
+||9js6.icu^
 ||9jsp.com/pay.png
 ||9k9k.com/jscode/js/
 ||9kh5b.cn^$third-party
@@ -53402,6 +53408,7 @@ zznews.cn##.ad:not([style])
 ||ahp18.site^
 ||ahp19.site^
 ||ahp2.site^
+||ahp24.site^
 ||ahp28.site^
 ||ahp29.site^
 ||ahp3.site^
@@ -58745,6 +58752,7 @@ zznews.cn##.ad:not([style])
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
 ||cdn.gallery^$third-party
+||cdn.hanaya-m.com^
 ||cdn.haocaa.com^
 ||cdn.haokongbu1.com^*.js
 ||cdn.hiido.cn^$third-party
@@ -58755,6 +58763,7 @@ zznews.cn##.ad:not([style])
 ||cdn.j.gs/js/display.js$script,third-party
 ||cdn.j.gs/js/entry.js$script,third-party
 ||cdn.j.gs/js/link-converter.js$script,third-party
+||cdn.jquery-cdn.cc^
 ||cdn.jquery-uim.download^
 ||cdn.jsdelivr.net/gh/Arlina-Design/quasar@master/arlinablock.js
 ||cdn.jsdelivr.net/gh/ayoubcr5/bestnhl/ad.js
@@ -63407,6 +63416,7 @@ zznews.cn##.ad:not([style])
 ||dreamware.com.cn^
 ||dreaty.com^
 ||drebz4f.shop^
+||dreemdmbabys.oss-cn-guangzhou.aliyuncs.com^
 ||dressexpansion.com^
 ||dressuresl.top^
 ||drfdisvc.walmart.com^
@@ -64276,6 +64286,7 @@ zznews.cn##.ad:not([style])
 ||eduynp.fcl-hid.com^
 ||eduzzjy.com^
 ||edvfwlacluo.com^
+||edwad.co^
 ||edysn.cn^
 ||edzyhx.cn^
 ||ee.32z8d.cn^$third-party
@@ -67630,6 +67641,7 @@ zznews.cn##.ad:not([style])
 ||gongshu168.cn^
 ||gongwuyuan.name^
 ||gongxifc.com^
+||gongyong002.xyz^
 ||goo.ne.jp^*/vltracedmd.js
 ||good8866.com/js/*.js
 ||goodadvert.ru^
@@ -68103,6 +68115,7 @@ zznews.cn##.ad:not([style])
 ||guang.sdsgwy.com^
 ||guang1.zhakao.cn/common/ni_h/common/ffx_f/ek.js
 ||guang1.zhakao.cn^
+||guanggao28.xyz^
 ||guanggaolianmeng.net/plushuan/ad_js.php?aid=
 ||guangweixinxi345.cn^
 ||guangzhengtwentynine.top^
@@ -68698,6 +68711,7 @@ zznews.cn##.ad:not([style])
 ||hearob.klix.ba^
 ||hearstapps.com/moapt/moapt-hdm.latest.js
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
+||hearstnp.com/scripts/loadads.js
 ||heartbiddsp.monster^$popup
 ||hearthorn.com^$third-party
 ||heathertravelledpast.com^
@@ -89803,6 +89817,7 @@ zznews.cn##.ad:not([style])
 ||t.newsletter.thetimes.co.uk^
 ||t.njzrxx.xyz^$third-party
 ||t.nusports.com^
+||t.nypost.com^
 ||t.ofsys.com^
 ||t.paydirekt.de^
 ||t.paypal.com^$image
@@ -93807,6 +93822,7 @@ zznews.cn##.ad:not([style])
 ||v2api.alpha.net.zooplus.de^
 ||v2nginxowaoid.development.net.zooplus.nl^
 ||v2rayssr.com/wp-content/plugins/eazy-
+||v2zn.xyz^
 ||v3.fstats.xyz^
 ||v3.mail.net.shop.com.mm^
 ||v34ffs.site^
@@ -95527,6 +95543,7 @@ zznews.cn##.ad:not([style])
 ||wnacg.org/img/500_60
 ||wnacg.org/img/wap
 ||wnacg4.com/data/game/
+||wnacgcdn.top/data/game/
 ||wnacgs.com/data/game/
 ||wneia.iaskhot.com^
 ||wnet.ink^
@@ -97037,6 +97054,8 @@ zznews.cn##.ad:not([style])
 ||xray.mail.ru^
 ||xrdkktrdgkvcpn.com^
 ||xrecord.xyz^
+||xrkadslmgg.top^
+||xrkadslmgg.xyz^
 ||xroqbkk.cn^
 ||xryrylt.cn^
 ||xs.houyi.baofeng.net^
@@ -98420,6 +98439,7 @@ zznews.cn##.ad:not([style])
 ||zhandi.cc/Runtime/js/index
 ||zhandi.cc^$third-party
 ||zhangbaochang.top^
+||zhangchi.work^
 ||zhangdujia.com^
 ||zhangfeiyijuepifa.com^
 ||zhangguangzong.com^$third-party
@@ -98822,6 +98842,7 @@ zznews.cn##.ad:not([style])
 ||zrbl21.cn^
 ||zrblog.net/zanzhu/virpus.gif
 ||zrblog.net/zzimg/
+||zrbn.ltd^
 ||zrkwtf.proidee.de^
 ||zrljkhcwhxhh.com^
 ||zrmxswrl.com^
