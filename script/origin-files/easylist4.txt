@@ -1,15 +1,15 @@
 [Adblock Plus 3.0]
-! Checksum: 1dvWhnHPOxcPxR4OYm8auQ
+! Checksum: CALhORdCYvGy/5Azxz2VDg
 ! Title: My AdFilters（for PC）
 ! Expires: 2 hours
-! Version: 202209242336
-! Last Modified: 2022年09月24日 23:36
+! Version: 202209250736
+! Last Modified: 2022年09月25日 07:36
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
-! Total count: 79527
+! Total count: 79531
 ###ADTOP
 ###AD_G
 ###AD_L
@@ -15550,6 +15550,8 @@ $xmlhttprequest,redirect-rule=noop.txt,domain=zdam.xyz
 8muses.com#?#.gallery > a.t-hover:has(> div.image > iframe[src^="/banner/"])
 8muses.com#@#[style*="background: transparent url(\"data:image/gif;base64,"]
 8muses.xxx##.gallery > a[href=""][title=""]
+8se.me##.push-bottoms
+8se.me##.push-top
 8shrt.me##+js(remove-attr, href, #linkdown > center > a.btn)
 8shrt.me##+js(remove-attr, onclick, center > form[action^="https://8shrt.me/"][onclick^="window.open"])
 8wayrun.com#@#.adsbygoogle
@@ -32161,6 +32163,7 @@ naughtyblog.org##div[class^="promo-"]
 naughtymachinima.com##+js(set-constant, presrc, '')
 naughtymachinima.com##iframe[src^="https://chaturbate.com/"]
 naughtymachinima.com#$#abort-on-property-read window.open; abort-on-property-read loadTool
+nautiljon.com###cmsg
 navbharattimes.indiatimes.com##.atf-wrapper
 navbharattimes.indiatimes.com#?#.leftmain > div[style] ~ div[class*=" "]:has(> div > div > a[onclick])
 naver.com##a[onclick^="callWebAdBannerClick"]
@@ -54652,6 +54655,7 @@ zznews.cn##.ad:not([style])
 ||glossisobelhay.com^
 ||glossysense.com^
 ||gloumsee.net^
+||glpca.com^
 ||glpen08.com^
 ||glrcy.cn^
 ||glssp.net^

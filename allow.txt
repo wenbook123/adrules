@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 4axiO/h7Ape4oT3CZbooLA
+! Checksum: +D/UYC3iJ882HVQhGQzZDQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-09-25 00:29:12（北京时间） 
-! Total count: 19497
+! Version: 2022-09-25 09:21:36（北京时间） 
+! Total count: 19501
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -648,6 +648,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org|stat-ssl.hitosara.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2866,6 +2867,7 @@
 @@||azulyblanco.co^$generichide
 @@||azulyblanco.co^$stealth
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
+@@||azureedge.net/scripts/*.m3u8$stealth
 @@||azureedge.net^
 @@||azurewebsites.net/Plugins/ExternalAuth.Facebook/Content/images/facebook-signing.png
 @@||azvideo.net^$generichide
@@ -5029,6 +5031,7 @@
 @@||content.pouet.net/avatars/adx.gif$image,~third-party
 @@||content.s8bbs.com/ad/bbs/*.jpg
 @@||content.unicredit.it/etc/designs/ucpublic/it/css/cookie/main.css
+@@||content.uplynk.com/preplay/*.json$stealth
 @@||contentlockingnetworks.com/gLoader.php?GID=$script,third-party
 @@||contentlockingnetworks.com/gTemplate.php?GID=$subdocument,third-party
 @@||contents*.00110.citi.com^|
@@ -9190,6 +9193,7 @@
 @@||icebergindigo.com^$script,xmlhttprequest
 @@||icebitco.in/show_ads.js$script
 @@||iceppsn.com/templates/frontend/iceporn*/js/ads.js
+@@||icetoot.me/*/chunklist.m3u8$stealth
 @@||icloud.com^$generichide
 @@||icloud.com^$stealth
 @@||iconfinder.com/data/icons/$~third-party
