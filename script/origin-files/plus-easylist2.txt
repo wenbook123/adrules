@@ -10583,7 +10583,7 @@ kinoger.to##+js(nowebrtc)
 kinoger.ru##+js(nowoif)
 kinoger.re##+js(nostif, 0x)
 kinoger.ru##[style]:has([target="_blank"])
-kinoger.to##center
+kinoger.to##a[href^="//fbmedia-ckl.com/get"]
 ||notifyvideo.info/p/creative-video/*$media,3p,redirect=noopmp4-1s
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4683
@@ -12758,6 +12758,7 @@ streameast.*##+js(nowebrtc)
 streameast.*##[id^="Advertisement"]
 sportlive.*##+js(ra, onclick)
 *$image,redirect-rule=32x32.png,domain=streameast.*
+||streameast.*/*.gif$image
 
 ! https://github.com/NanoMeow/QuickReports/issues/1151
 play-old-pc-games.com##+js(nostif, checkAdStatus)
