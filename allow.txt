@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: HgRw9JJ9WfRxhclHbFU9Bw
+! Checksum: /+3xLLXe4EjMFR+kR2iMNg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-10-06 16:32:39（北京时间） 
-! Total count: 19536
+! Version: 2022-10-07 00:34:17（北京时间） 
+! Total count: 19533
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -2362,6 +2362,8 @@
 @@||api.cxense.com/document/search?$domain=itmedia.co.jp
 @@||api.cxense.com/document/search?$script,domain=tv-tokyo.co.jp
 @@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
+@@||api.cxense.com/persisted/execute$domain=nippon.com
+@@||api.cxense.com/public/widget/$domain=nippon.com
 @@||api.cxense.com/public/widget/$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data$domain=dhnet.be
 @@||api.cxense.com/public/widget/data$domain=friday.gold
@@ -5436,7 +5438,6 @@
 @@||dailythanthi.com^$ghide
 @@||dailyvoice.com^$ghide
 @@||dallasnews.com^$generichide
-@@||dallasobserver.com/*/ads.js
 @@||dama.bg^*/js/ad$script
 @@||damageddistance.com^$script,xmlhttprequest
 @@||damasgate.com^$generichide
@@ -5806,6 +5807,7 @@
 @@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||dnsleaktest.com^$content,elemhide,jsinject
 @@||dnspod.cn/static/common/js/analytics.js
+@@||dnvodcdn.me/*/mp4$stealth,domain=iyf.tv
 @@||doc.echoban.ru/delivery/spcjs.php?id=1$domain=echo.msk.ru|doc.echoban.ru
 @@||doc.weixin.qq.com^
 @@||doc110.com^*/ad.css?$stylesheet
@@ -9573,7 +9575,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=videotarget.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vidyome.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=viki.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vivo.sx
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vizita.si
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vod.mbcsportsplus.com
@@ -13069,7 +13070,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=viajarsinmotivo.site
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vide-greniers.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=viewingcat.tistory.com|liveinincheon.tistory.com|ilsangt.tistory.com|moroa.tistory.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=viki.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=viralmods.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vladan.fr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vorsprung-online.de
@@ -14166,9 +14166,7 @@
 @@||pubads.g.doubleclick.net/gampad/ads?ad_rule=0&d_imp=1&gdfp_req=1&impl=ifr$domain=youtube.com
 @@||pubads.g.doubleclick.net/gampad/ads?ad_rule=0&d_imp=1&gdfp_req=1&iu=%2F6762%2Fmkt.ythome_1x1$domain=youtube.com
 @@||pubads.g.doubleclick.net/gampad/ads?adk=$domain=viki.io
-@@||pubads.g.doubleclick.net/gampad/ads?adk=*www.viki.com
 @@||pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&output=xml_vast*&url=http%3A%2F%2Famp.usatoday.com
-@@||pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1*www.viki.com
 @@||pubads.g.doubleclick.net/gampad/adx$domain=watoday.com.au
 @@||pubads.g.doubleclick.net/gampad/adx^$domain=saavn.com
 @@||pubads.g.doubleclick.net/gampad/live/*.mediapason.it$xhr,domain=imasdk.googleapis.com
@@ -15099,6 +15097,7 @@
 @@||scdn.cxense.com/cx.js$domain=gizmodo.jp
 @@||scdn.cxense.com/cx.js$domain=itmedia.co.jp
 @@||scdn.cxense.com/cx.js$domain=letelegramme.fr
+@@||scdn.cxense.com/cx.js$domain=nippon.com
 @@||scdn.cxense.com/cx.js$domain=pcgames.de
 @@||scdn.cxense.com/cx.js$domain=sbs.com.au
 @@||scdn.cxense.com/cx.js$domain=wsj.com
@@ -18249,7 +18248,6 @@
 @@||vev.*^$ghide
 @@||vg.no^$generichide
 @@||vg247.com/wp-content/themes/vg247/scripts/AdsLoad.js
-@@||vg247.com^$generichide
 @@||vhls.ru.com/*.m3u8$xmlhttprequest,stealth
 @@||vi-serve.com/vis-media/*$domain=9gag.com
 @@||via-midgard.com/min/?*,image_social_icon.$script,stylesheet,~third-party
@@ -18364,7 +18362,6 @@
 @@||viggle.tv/ads.js
 @@||viglink.com^$domain=dealsrunner.com
 @@||viid.me^$generichide
-@@||viki.io/cms-uploads/uncategorized/ima3.js$domain=viki.com
 @@||vikistream.com/embed$stealth
 @@||vikistream.com:*/hls/*.m3u8$stealth
 @@||villatalk.com^$ghide
