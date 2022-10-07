@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 5jAZQIWLvK0PJqSI3Y8cdQ
+! Checksum: 7UbpY3Oy650QEPbAHg14TA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-10-07 16:30:25（北京时间） 
-! Total count: 19542
+! Version: 2022-10-08 00:35:17（北京时间） 
+! Total count: 19547
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -202,6 +202,7 @@
 @@/adpop.js$domain=doyki.com
 @@/adriver.js$script,domain=habrahabr.ru|megamozg.ru|geektimes.ru
 @@/adrum.js$domain=usbank.com
+@@/ads-api.$domain=moneysave.info
 @@/ads-api.$domain=zxmee.com
 @@/ads.*.js$domain=notebookcheck-hu.com|notebookcheck.com|notebookcheck.net|notebookcheck.org|notebookcheck.biz|notebookcheck.it|notebookcheck.nl|notebookcheck.info|notebookcheck-tr.com|notebookcheck.se|notebookcheck-ru.com
 @@/ads.html$subdocument,domain=theantiadblocker.com
@@ -2585,6 +2586,7 @@
 @@||appspot-preview.l.google.com^
 @@||appspot.com/?adTagUrl=$domain=daisuki.net
 @@||appspot.com/static/js/tracker/$script,domain=bugs.avm99963.com
+@@||appsync-api.*.amazonaws.com/graphql$stealth,domain=goodreads.com
 @@||appvn.com^$generichide
 @@||appvn.com^$ghide
 @@||appzdam.net^$elemhide
@@ -7342,6 +7344,7 @@
 @@||gamersky.com/Common/GetHits.aspx?
 @@||gamersky.com^*/dhgame_
 @@||games-pc.ro/*adv*.js
+@@||games.crazygames.com/*/index.html$stealth
 @@||games.gamesplaza.com/shared/loader/advert.js
 @@||games.gamesplaza.com/shared/loader/gads.js
 @@||games.gamesplaza.com^$generichide
@@ -11805,6 +11808,7 @@
 @@||money18.on.cc/js/ad/liveinfo_page/
 @@||money18.on.cc/js/adbanner.js
 @@||moneymorning.com/wp-content/plugins/mm-social-share/$stylesheet
+@@||moneysave.info^$generichide
 @@||moneyweb.co.za^*/social-shares.min.js?
 @@||mongoosemetrics.com/jsfiles/js-correlation/mm-rules.min.js$domain=subaru.com
 @@||monnsutogatya.com^$elemhide
@@ -13489,6 +13493,7 @@
 @@||perfops.net^
 @@||performgroup.com/js/tsEplayerHtml5/js/Eplayer/js/services/$script
 @@||periodicpocket.com^$script,xmlhttprequest
+@@||permission-proxy-gmxnet.uimserv.net^$app=de.gmx.mobile.android.mail
 @@||perpetualpail.com^$script,xmlhttprequest
 @@||persianhive.com/wp-content/plugins/wp-adblock-dedect/js/dedect.js
 @@||personaclick.com^$domain=skechers.com.tr
