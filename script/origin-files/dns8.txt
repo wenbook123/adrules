@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: P+8UwE7Sfw2QYwBRF5i0EQ
+! Checksum: NMmMGX7YBxNQYAjeB/1bLw
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202210080733
-! Last modified: 2022-10-08 07:33 UTC
+! Version: 202210081533
+! Last modified: 2022-10-08 15:33 UTC
 ! Expires: 3 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8076,6 +8076,7 @@ _800x80_
 ###div-insticator-ad-5
 ###div-insticator-ad-6
 ###div-insticator-ad-9
+###div-leader-ad
 ###div-social-ads
 ###divAd
 ###divAdDetail
@@ -11555,6 +11556,8 @@ _800x80_
 ##.ad-mobile-mpu-plus-outstream-inc
 ##.ad-mobile-nav-ad-plus
 ##.ad-mod
+##.ad-mod-section
+##.ad-mod-section-728-90
 ##.ad-module
 ##.ad-mount
 ##.ad-mpl
@@ -17062,6 +17065,7 @@ _800x80_
 ##.ex_pu_iframe
 ##.external-ad
 ##.external-add
+##.ezAdsWidget
 ##.ezmob-footer
 ##.ezmob-footer-desktop
 ##.ezo_ad
@@ -48787,7 +48791,7 @@ tf2r.com#@#.adverts
 ! bit.ly
 /^https?:\/\/.*bit(ly)?\.(com|ly)\//$domain=1337x.to|cryptobriefing.com|eztv.io|eztv.tf|eztv.yt|fmovies.taxi|fmovies.world|limetorrents.info|megaup.net|mrunlock.kim|newser.com|sendit.cloud|torlock.com|uiz.io|userscloud.com|vev.red|vidbull.tv|vidop.icu|vidup.io|yourbittorrent2.com
 ! Torrent/Pirate sites /sw.js
-/^https?:\/\/.*\/.*(sw[0-9a-z._-]{1,6}|\.notify\.).*/$script,domain=123films.cc|123proxy.biz|1337x.to|animekisa.tv|anonfiles.com|aparat.cam|bdupload.asia|bitfly.io|cashurl.in|clicknupload.to|clk.ink|cloudvideo.tv|cocomanhua.com|downloadpirate.com|filmix.co|filmlinks4u.is|flashx.pw|fmovies.taxi|fmovies.world|getlink.pro|hurawatch.at|igg-games.com|indishare.org|katflys.com|linksly.co|megaup.net|mixdrop.ch|mixdrop.co|mp3-convert.org|nutritioninsight.com|ouo.press|pcgamestorrents.com|pouvideo.cc|powvideo.net|powvldeo.cc|primewire.sc|proxyer.org|sendit.cloud|sendspace.com|shrinke.me|shrinkhere.xyz|solarmovie.to|theproxy.ws|uiz.io|up-load.io|upload.ac|uploadever.com|uploadproper.net|uploadrive.com|uplovd.com|upstream.to|userscloud.com|v96-surf.com|vev.red|vidbull.tv|videobin.co|vidlox.me|vidop.icu|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|vumoo.life|watchtvseries.video|xtgem.com|xtits.com|yourbittorrent2.com|ziperto.com|zippyshare.com
+/^https?:\/\/.*\/.*(sw[0-9a-z._-]{1,6}|\.notify\.).*/$script,domain=123films.cc|123proxy.biz|1337x.to|animekisa.tv|anonfiles.com|aparat.cam|bdupload.asia|bitfly.io|cashurl.in|clicknupload.to|clk.ink|cloudvideo.tv|cocomanhua.com|downloadpirate.com|filmix.co|filmlinks4u.is|flashx.pw|fmovies.taxi|fmovies.world|getlink.pro|hurawatch.at|igg-games.com|indishare.org|katflys.com|linksly.co|megaup.net|mixdrop.ch|mixdrop.co|mp3-convert.org|nutritioninsight.com|ouo.press|pcgamestorrents.com|pcgamestorrents.org|pouvideo.cc|powvideo.net|powvldeo.cc|primewire.sc|proxyer.org|sendit.cloud|sendspace.com|shrinke.me|shrinkhere.xyz|solarmovie.to|theproxy.ws|uiz.io|up-load.io|upload.ac|uploadever.com|uploadproper.net|uploadrive.com|uplovd.com|upstream.to|userscloud.com|v96-surf.com|vev.red|vidbull.tv|videobin.co|vidlox.me|vidop.icu|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|vumoo.life|watchtvseries.video|xtgem.com|xtits.com|yourbittorrent2.com|ziperto.com|zippyshare.com
 /^https?:\/\/.*\/sw.js?.[a-zA-Z0-9%]{50,}/$script,~third-party
 ! https://ww1.123watchmovies.co/episode/euphoria-season-2-episode-6/
 ! vidoza.net
@@ -51473,7 +51477,7 @@ plos.org##.head-top
 worldpress.org##.header-b
 adswikia.com,freemalaysiatoday.com,landandfarm.com,pointblanknews.com,runt-of-the-web.com,warisboring.com##.header-banner
 mercurynews.com,nssmag.com##.header-banners
-apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.header-billboard
+apptrigger.com,fansided.com,hiddenremote.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.header-billboard
 lyricsmode.com##.header-block
 worldpress.org##.header-bnr
 autental.com##.header-grid-items
@@ -55031,6 +55035,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||insurglobal.xyz^$generichide
 @@||manhwaid.org^$generichide
 @@||maxstream.video^$generichide
+@@||megaup.net/*.gif$image,~third-party
+@@||megaup.net^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cpu-world.com|megaleech.us
 @@||premiumleecher.com^$generichide
 @@||receive-a-sms.com^$generichide
@@ -141632,6 +141638,7 @@ exzerry.com##body > #links > div[align="center"]
 !
 !---------- Spanish Site Specific Hiding Rules ----------
 !
+dontorrent.uno###DonTelegram
 soychile.cl###facebook
 mediterraneodigital.com###jj_sl_navigation
 notiactual.com###redes
@@ -145360,6 +145367,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||mozilla.org/media/img/newsletter/$image,~third-party
 @@||my.leadpages.net/template/$script,domain=weddingjams.com
 @@||my.leadpages.net^*/public/
+@@||neftyblocks.com/_nuxt/BackToTop.$script,~third-party
 @@||nerdwallet.com/cdn/apps/prod/article-client/$~third-party
 @@||netdna-ssl.com^*/scrolltoplugin.min.js$script,domain=cybersecurityventures.com
 @@||newsgator.com/ngbuzz/load.ashx/$script,domain=cbsnews.com
@@ -145976,7 +145984,6 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||mediaexpert.pl/common2/images/$image
 @@||mediafirerepack.net^*/facebook-page-promoter-lightbox/$script
 @@||meetmecdna.com/images/Connect/btn_facebook_custom_text.png$domain=meetme.com
-@@||megaup.net^$generichide
 @@||meltyblood.typelumina.com/resources/img/common/$image,~third-party
 @@||mera.eu/wp-content/themes/mera/app/common/lib/$xmlhttprequest
 @@||metservice.com/_/files/social/content-stream.html
