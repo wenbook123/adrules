@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: uWi4XfbXjUCMKopid2UX0A
+! Checksum: mbT+cKNYpLMUomU1fuZTPw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-10-08 00:35:16（北京时间） 
-! Total count: 99239
+! Version: 2022-10-08 09:20:24（北京时间） 
+! Total count: 99266
 ###AD_G
 ###AD_L
 ###AD_Top
@@ -1274,6 +1274,8 @@
 ###incontentAd3
 ###index-ad
 ###index_ad
+###index_aside_ad
+###index_content_ad
 ###inline-ad
 ###inline_ad
 ###inlineads
@@ -2514,6 +2516,7 @@
 ##.ad.leaderboard
 ##.ad.mi_btcon
 ##.ad.module
+##.ad.post-area
 ##.ad.rectangle
 ##.ad.section
 ##.ad.widget
@@ -4826,7 +4829,6 @@
 ##.jw-ad
 ##.jw-ad-media-container
 ##.jw-ad-visible
-##.jw-state-setup
 ##.jwPlayer--floatingContainer
 ##.kakao_ad_area
 ##.kill-adblock-container
@@ -6660,6 +6662,7 @@
 ##A[href*=".com/?Agent="]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
+##A[href="/ky.html"]:last-child
 ##A[href="http://goo.gl/jQ9bcz"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
@@ -7766,7 +7769,6 @@
 ##script + #rbbox
 ##script + #strl
 ##script + a[href="/hth.html"]
-##script + a[href="/ky.html"]
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
@@ -7859,6 +7861,7 @@ $removeparam=/^\$/,domain=boohoo.com|forever21.com
 $removeparam=/^\~/,domain=boohoo.com|forever21.com
 $removeparam=/^__xts__/
 $removeparam=/^_s=afl_impact$/
+$removeparam=/^_sgm_/i
 $removeparam=/^action_(object|type|ref)_map=/
 $removeparam=/^adgroup=/i
 $removeparam=/^adjust_/
@@ -8078,6 +8081,7 @@ $removeparam=_t,domain=shein.com
 $removeparam=_trkparms
 $removeparam=_trksid
 $removeparam=_vsrefdom
+$removeparam=_zucks_suid
 $removeparam=a_aid
 $removeparam=a_fid
 $removeparam=ab,domain=fanatics.com|nhl.com
@@ -8108,6 +8112,7 @@ $removeparam=ad_type
 $removeparam=adblock,domain=reddit.app.link
 $removeparam=adcampaigngroup
 $removeparam=adcid
+$removeparam=adfrom
 $removeparam=adg_id
 $removeparam=adgroup_id
 $removeparam=adgroupid
@@ -8192,6 +8197,7 @@ $removeparam=aftr
 $removeparam=aftr_source
 $removeparam=agency,domain=loistoristeilyt.fi
 $removeparam=agentcodeweblink
+$removeparam=aiad_clid
 $removeparam=aid,domain=brownells.*|viator.com|adguard.com|adguard-vpn.com|adguard-dns.com|get.protonvpn.com|get.protonmail.com|wevpn.com|cafago.com|tomtop.com
 $removeparam=akmClientCountry
 $removeparam=algo
@@ -8579,6 +8585,7 @@ $removeparam=loid_created,domain=reddit.app.link
 $removeparam=lst,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
 $removeparam=m_entstream_source
 $removeparam=m_sc,domain=bloomingdales.com
+$removeparam=maf
 $removeparam=maid
 $removeparam=marketing_id
 $removeparam=matches,domain=media-cdn.costco.ca|media-cdn.costco.com
@@ -8592,6 +8599,7 @@ $removeparam=mediapartner,domain=evesleep.co.uk
 $removeparam=medium,domain=deepdiscount.com|eonline.com|outnorth.fi|bybit.com|t.me|twitter.com|docs.google.com|instagram.com|forms.gle|goodcrypto.app|discord.*|eventbrite.*|youtube.com|coinpanel.com|docsend.com|kasta.io|runnode.com|gleam.io|1sol.io
 $removeparam=mid,domain=agentprovocateur.com|columbia.com|dxl.com|hanes.com|josbank.com|onehanesplace.com|saksfifthavenue.com|saksoff5th.com|sorel.com|verabradley.com|change.org|productshopper.*
 $removeparam=mindbox-click-id
+$removeparam=mindbox-message-key
 $removeparam=mkref
 $removeparam=mkt_tok
 $removeparam=mktc
@@ -8656,6 +8664,7 @@ $removeparam=ns_linkname
 $removeparam=ns_mchannel
 $removeparam=ns_source
 $removeparam=nvid,domain=nvidia.com
+$removeparam=nx_source
 $removeparam=o_lid
 $removeparam=o_sch
 $removeparam=o_xid
@@ -8676,6 +8685,7 @@ $removeparam=oly_anon_id
 $removeparam=oly_enc_id
 $removeparam=om_mmc
 $removeparam=onetime_FromEmail
+$removeparam=oprtrack
 $removeparam=oref
 $removeparam=organic_search_click
 $removeparam=orig_referrer
@@ -9053,6 +9063,7 @@ $removeparam=xs,domain=go.skimresources.com|go.skimlinks.com|go.redirectingat.co
 $removeparam=xtor
 $removeparam=yclid
 $removeparam=yptr,domain=marketwatch.com|barrons.com|investors.com
+$removeparam=ysclid
 $removeparam=zanpid
 $removeparam=zsource,domain=slashgear.com
 $script,redirect-rule=noop.js,domain=sammobile.com
@@ -9136,6 +9147,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 &t=pageview&
 &tag=IMPRESSION&
 &trackingserver=
+&uclick=*&uclickhash=$removeparam
 &uid=ssp-$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 &visitorUuid=
 &xhtml?$script,third-party
@@ -10086,11 +10098,14 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /?log=experiment&
 /?log=performance-
 /?mob.ct=
+/?r=dir&zoneid=$removeparam
+/?rb=*&zoneid=$removeparam
 /?record&key=
 /?sentry_key=
 /?sentry_version=
 /?swift-performance-tracking
 /?tm=1&subid4=*&kw=$all
+/?uclick=*;uclickhash=$removeparam
 /@adshield/*
 /A-LogAnalyzer/*
 /A-Tian/Tian-*-good.js
@@ -14878,6 +14893,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /nx_stat.
 /o.gif?
 /o.jpg?*&ref=
+/o.js$domain=tptoon.com
 /o_code.js
 /o_tealium.
 /oa-tracking?
@@ -17904,7 +17920,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 123-movies.buzz##.ann-home
 123-movies.city,actvid.com,cineb.net,hdtoday.tv,moviesjoy.to,solarmovie.pe,vidbem.com,upload4earn.org,uploadbyte.com,watchseries.ma,yts.mx,zoechip.com#$#abort-on-property-read localStorage
 123-movies.ninja,123movies.net,2umovies.me,4anime.biz,4anime.gg,9anime.tube,actvid.com,animebee.to,animefreak.site,animefreak.ws,animefrenzy.net,animeheaven.pro,animekisa.in,animekisa.tv,animepahe.cc,apkmody.io,batotoo.com,bravoporn.com,coloredmanga.com,dembed1.com,dramacool.pk,dulu.to,filmlinks4u.cam,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,gogoanime.run,gogoplay1.com,goload.pro,hds-streaming-hd.com,herogayab.net,hhdmovies.cam,hindilinks4u.cam,hothit.me,hurawatch.cc,iflixmovies.com,jujutsukaisen-manga.online,jujutsukaisenonline.net,linksly.co,mangadna.com,mangahere.today,manganatos.com,mangas-raw.com,mangceh.cc,membed.net,messitv.net,miraculous.to,movierulz.cam,movies-watch.com.pk,mp3fromyou.tube,ngomik.net,nkiri.com,playlist-youtu.be,pomvideo.cc,prmovies.bz,prmovies.cam,prmovies.fyi,prmovies.li,prmovies.org,prmovies.re,putlocker.vc,putlockers.fm,putlockers.li,rawkuma.com,sockshare.ac,ssoap2day.to,tamilyogi.best,vanime.co,waploaded.com,wat32.tv,watchofree.com,watchomovies.cam,watchomovies.net,watchseries.cyou,watchseries.ninja,wcostream.cc,webtoonshare.com,y-2mate.com,yomovies.bz,yomovies.pl,yomovies.pm,yomovies.ws,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
-123-movies.sr,123movies-official.net,animefrenzy.net,apkmody.io,atomohd.app,atomtt.com,d123movies.to,f2movies.to,filmlinks4u.online,gogoanime.day,gogoanime.re,gogoanime.run,goyabu.com,hentai20.com,kimcartoon.li,kisstvshow.to,lalamanga.com,mangadna.com,mangahere.onl,manganato.com,manhwax.com,movies123.sbs,movies123.studio,prmovies.re,projectfreetv.space,readmanganato.com,soap2day.cloud,tinyzonetv.to,wiflix.bet,yomovies1.online#$#abort-on-property-read localStorage;
+123-movies.sr,123movies-official.net,animefrenzy.net,apkmody.io,atomohd.app,atomtt.com,d123movies.to,f2movies.to,filmlinks4u.online,gogoanime.day,gogoanime.re,gogoanime.run,goyabu.com,hentai20.com,kimcartoon.li,kisstvshow.to,lalamanga.com,mangadna.com,mangahere.onl,manganato.com,manhwax.com,movies123.sbs,movies123.studio,prmovies.re,projectfreetv.space,readmanganato.com,soap2day.cloud,tinyzonetv.to,udvl.com,wiflix.bet,yomovies1.online#$#abort-on-property-read localStorage;
 123.chinaso.com##.right-list6
 123.com.cn##.bottom-ylink
 123.com.cn##.fixed-top
@@ -19489,6 +19505,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@/admanager/*$domain=woego.cn
 @@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
 @@/adriver.js$script,domain=habrahabr.ru|megamozg.ru|geektimes.ru
+@@/ads-api.$domain=moneysave.info
 @@/ads-api.$domain=zxmee.com
 @@/ads.*.js$domain=notebookcheck-hu.com|notebookcheck.com|notebookcheck.net|notebookcheck.org|notebookcheck.biz|notebookcheck.it|notebookcheck.nl|notebookcheck.info|notebookcheck-tr.com|notebookcheck.se|notebookcheck-ru.com
 @@/ads.js$domain=iyf.tv
@@ -23630,6 +23647,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||money.pl^$generichide
 @@||money18.on.cc/js/ad/liveinfo_page/
 @@||money18.on.cc/js/adbanner.js
+@@||moneysave.info^$generichide
 @@||monnsutogatya.com^$elemhide
 @@||monova.*/fonts/
 @@||monova.*/img/
@@ -41103,6 +41121,7 @@ porndroids.com##.video-container > div.wrapper > div.js-player ~ meta[itemprop] 
 porndroids.com##body > aside > div.wrapper > section.wrapper__related-sites ~ aside[class]
 porner.tv,pornmonde.com##.sources
 pornez.net##.video-sidebar
+pornfidelity.com##.promoBar
 pornflix.to,xbjav.com,heavyfetish.com,tabootube.xxx,amateur8.com,maturetubehere.com,crazyporn.xxx,pornissimo.org,lesbian8.com,enf-cmnf.com,filtercams.com,thesquarshers.com,bigassporn.tv,camhoes.tv,porn00.org,keekass.com,fuckit.cc,camwhoresbay.com,vqtube.com,camwhoreshd.com,fapster.xxx##.block-video > div.table
 pornflixhd.com##+js(set-constant, dtGonza.playeradstime, -1)
 porngals4.com##.affl
@@ -45636,7 +45655,6 @@ videezy.com##.ez-download-ad__ad-wrap
 videezy.com##.partner-sponsored-results
 video-to-mp3-converter.com##+js(window.open-defuser, !/^\//)
 video-to-mp3-converter.com,2conv.com,flvto.biz,flv2mp3.by##.horizontal-area
-video.bestjavporn.com#@#.ad-placement
 video.laxd.com###owDmcIsUc
 video.laxd.com##.side_banner
 video.onnetwork.tv##+js(abort-current-script, isAdBlockActive, /warning.php)
@@ -46018,7 +46036,6 @@ wasu.cn##.info_ads
 wasu.cn##.qp
 wasu.cn##div[class^="play_ads"]
 watch-jav-english.live##+js(window.open-defuser)
-watch-jav-english.live#@#.jw-state-setup
 watch-series.cc,33sk.tv##+js(abort-current-script, decodeURIComponent, zfgloaded)
 watcharab.com#@##adblock
 watchasian.ac#?#.block > div.tab-content:has(> div[class^="ads_place_"])
@@ -51596,6 +51613,7 @@ zznews.cn##.ad:not([style])
 ||abackchain.com^
 ||abacksoda.com^
 ||abandonedaction.com^
+||abange.com^
 ||abattoirpleatsprinkle.com^
 ||abazelfan.com^
 ||abb.csyys0731.com^
@@ -58927,6 +58945,7 @@ zznews.cn##.ad:not([style])
 ||celebrus.com^$third-party
 ||celeritascdn.com^
 ||celestebeverly.com^
+||celign.com^
 ||cell.com^$removeparam=_returnURL
 ||cellstats.mako.co.il^
 ||cellularcountry.com^$removeparam=zenid
@@ -63521,6 +63540,7 @@ zznews.cn##.ad:not([style])
 ||dtc-v6t.com^$third-party
 ||dti-ranker.com^$third-party
 ||dtiserv2.com^$third-party
+||dtmm9h2satghl.cloudfront.net^
 ||dtmpub.com^
 ||dtmssl.bobcat.com^
 ||dtnpyvmqqvvgq.com^
@@ -68913,6 +68933,7 @@ zznews.cn##.ad:not([style])
 ||hentaiworld.tv/footer-banners.html
 ||hentaiz.net/images/sponsor/
 ||hepburn.net.cn^
+||heqishengcai1006.xyz^
 ||heraldandtimeslabs.com/sugar.js
 ||heratheacle.com^
 ||herepackagine.info^
@@ -70966,6 +70987,7 @@ zznews.cn##.ad:not([style])
 ||instreamvideo.ru^$third-party
 ||instreet.cn^$third-party
 ||instructables.com/counter
+||instructorstudied.com^
 ||instrumentinsect.com^
 ||instrumentsponge.com^
 ||instylekuman.com^
@@ -71409,6 +71431,7 @@ zznews.cn##.ad:not([style])
 ||itskiddoan.club^
 ||itsmore.cn^$third-party
 ||itsup.com^$third-party
+||itthatsheis.one^
 ||ituba.cc/uploads/allimg/201610/603/
 ||ituoniao.co^
 ||itv.hexun.com
@@ -75375,6 +75398,7 @@ zznews.cn##.ad:not([style])
 ||manga18fx.com/nevmmm
 ||mangadex.org/api/event
 ||mangadex.org/p.js
+||mangafuna.xyz/static/ads/
 ||mangahax.com/images/ima_
 ||mangahub.io/iframe/
 ||mangauptocats.online/wp-content/uploads/*.gif
@@ -77635,6 +77659,7 @@ zznews.cn##.ad:not([style])
 ||multiview.com^$third-party
 ||multporn.net/fern*_pen.js
 ||mumnxwvn.ink^
+||mumuendakuthyfo.xyz^
 ||munchenviableski.com^
 ||munchkin.marketo.net^
 ||mundanenail.com^
@@ -90361,6 +90386,7 @@ zznews.cn##.ad:not([style])
 ||tauvoojo.net^
 ||tawdryson.com^$third-party
 ||tawk.to^$third-party
+||taxedborley.com^
 ||taxel.jp^$third-party
 ||taxscouts.$removeparam=referralSource
 ||taxzcqghel.com^
@@ -97267,6 +97293,7 @@ zznews.cn##.ad:not([style])
 ||xueaaaw.cn^
 ||xuebim.top^
 ||xuefo365.cn/dd/*.php|
+||xuegggj.cn^
 ||xuehelei.com^
 ||xuehi.cn/reward/reward
 ||xuekalun.com^
