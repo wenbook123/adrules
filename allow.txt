@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: xyck50gVteAYG/Dp0VRgbQ
+! Checksum: O1TcThNVKwG2SgYe6rvqeQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-10-10 16:37:02（北京时间） 
-! Total count: 19558
+! Version: 2022-10-11 00:33:54（北京时间） 
+! Total count: 19562
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -58,6 +58,7 @@
 @@.b-cdn.net/*.m3u8?$xmlhttprequest,stealth
 @@.bid$image,domain=manhwa-manga53.bid|manhwa-manga54.bid|manhwa-manga55.bid|manhwa-manga56.bid|manhwa-manga57.bid|manhwa-manga58.bid|manhwa-manga59.bid|manhwa-manga60.bid|manhwa-manga61.bid|manhwa-manga62.bid|manhwa-manga63.bid|manhwa-manga64.bid|manhwa-manga65.bid|manhwa-manga66.bid|manhwa-manga67.bid|manhwa-manga68.bid|manhwa-manga69.bid|manhwa-manga70.bid|manhwa-manga71.bid|manhwa-manga72.bid|manhwa-manga73.bid|manhwa-manga74.bid|manhwa-manga75.bid|manhwa-manga76.bid|manhwa-manga77.bid|manhwa-manga78.bid
 @@.co.uk/wp-banners.js$domain=advertiserandtimes.co.uk|northern-scot.co.uk|suffolknews.co.uk|kentonline.co.uk|cambridgeindependent.co.uk
+@@.co.uk/wp-banners.js$domain=advertiserandtimes.co.uk|northern-scot.co.uk|suffolknews.co.uk|kentonline.co.uk|cambridgeindependent.co.uk|fenlandcitizen.co.uk
 @@.com/ad.aspx|$domain=xdingdiann.com
 @@.com/ads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodale.tv|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@.com/adv/$domain=my.ctrip.com
@@ -2428,6 +2429,7 @@
 @@||api.mapbox.com^$stealth,domain=padmapper.com
 @@||api.mapbox.com^$stealth,domain=planet.com
 @@||api.mentalmarket.io/api/*/adverts/$domain=mentalmarket.io
+@@||api.mghubcdn.com/graphql$stealth
 @@||api.minecraftservices.com^$stealth
 @@||api.mixpanel.com/engage/?data=$xmlhttprequest,domain=deezer.com
 @@||api.mixpanel.com/track/*$domain=etcher.io
@@ -4079,6 +4081,7 @@
 @@||cdn.opencmp.net^$domain=ingame.de
 @@||cdn.opencmp.net^$domain=stimme.de
 @@||cdn.opencmp.net^$domain=tz.de
+@@||cdn.optimizely.com/datafiles/*.json$domain=hm.com
 @@||cdn.optimizely.com/datafiles/*.json$domain=talktalk.co.uk
 @@||cdn.optimizely.com/datafiles/*.json/tag.js$domain=nike.com
 @@||cdn.optimizely.com/js/$domain=account.microsoft.com
@@ -15083,6 +15086,7 @@
 @@||sc2casts.com^$script,domain=sc2casts.com
 @@||scaleya.com^$ghide
 @@||scambiofile.info/js/ads.$script
+@@||scamwatcher.com/js/pubPolicy/ads-prebid.js$domain=scamwatcher.com
 @@||scan-manga.eu/*pageID=$~third-party
 @@||scan-trad.fr/js/prebid-ads.js
 @@||scan-trad.fr^$stealth,image,domain=scantrad.net
