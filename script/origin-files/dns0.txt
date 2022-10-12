@@ -1,8 +1,8 @@
-! Checksum: y/r8xd29KJ6fyjVF7g6WzQ
+! Checksum: KISij+8FJARVo9PbYDmWIw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.69.67
-! TimeUpdated: 2022-10-12T06:31:10+00:00
+! Version: 2.0.69.70
+! TimeUpdated: 2022-10-12T15:31:04+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2506,6 +2506,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 !--------------- EasyList China rules --------------------------------------!
 !---------------------------------------------------------------------------!
 -*-*-*-*.panda^$script,third-party
+.cilipa*/js/os.js
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -3358,7 +3359,6 @@ ubmcmm.baidustatic.com
 ###floatAd
 ###floatad-winpop
 ###fnbt
-##A[href="/k023.html"]
 ###footer_fix_ggw
 ###frameS8CyqB
 ###fuo_top_float
@@ -3411,6 +3411,7 @@ ubmcmm.baidustatic.com
 ###lovexin12
 ###lovexin121
 ###lovexin13
+##a[href^="/k"] > img[src*="lbsugc.cdn.bcebos.com"]
 ###lovexin14
 ###lovexin2
 ###lt-ad-radio
@@ -3686,7 +3687,7 @@ ubmcmm.baidustatic.com
 ##.ggad
 ~95504.net##.ggbox
 ##.gggpost-above
-##.gglist
+~rock-chips.com##.gglist
 ##.ggpost-below
 ##.ggtop
 ##.ggw
@@ -3894,6 +3895,8 @@ ubmcmm.baidustatic.com
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:window.GoTp();"]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
+##a[href*="?register="] > img[src*=".douyinpic.com"]
+##.ad_sd #ad1
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http://ad.moemoe."]
@@ -3930,7 +3933,6 @@ ubmcmm.baidustatic.com
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
-##div > a[href="/ky.html"]
 ##div#ad_id
 ##div#xinxi
 ~ix8.la##div[class^="ADTOPLB_"]
@@ -6269,6 +6271,9 @@ ubmcmm.baidustatic.com
 ##a[href*="/ctyitopo17.com"]
 ||tt4266acb88a1.ltd^
 ||oladyip.cn^
+||shenglixueshan.com^
+||n3567.com^
+||chkaja.com^$third-party
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -17518,6 +17523,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||huya.com*/cache1min.
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
