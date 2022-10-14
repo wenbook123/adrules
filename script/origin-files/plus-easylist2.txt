@@ -2417,8 +2417,8 @@ platinmods.*##+js(nano-sib)
 ||whentai.com/*.gif$image
 
 ! Common rules for TXXX network
-/\/[a-z]{4,}\/(?!holly7)[0-9a-z]{3,}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,1p,domain=555.porn|hclips.com|hdzog.com|hotmovs.*|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
-/(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,1p,domain=555.porn|blackporn.tube|bdsmx.tube|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|mrgay.tube|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|pornzog.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com|xmilf.com
+/\/[a-z]{4,}\/(?!holly7)[0-9a-z]{3,}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,1p,domain=555.porn|bigdick.tube|hclips.com|hdzog.com|hotmovs.*|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
+/(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,1p,domain=555.porn|blackporn.tube|bdsmx.tube|bigdick.tube|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|mrgay.tube|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|pornzog.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com|xmilf.com
 /afon7.$script,1p
 /barbar7.$script,1p
 ! https://github.com/uBlockOrigin/uAssets/issues/10064
@@ -19082,15 +19082,14 @@ pdfkitapp.com##.clearfix.container.header-main
 *$frame,redirect-rule=noopframe,domain=promo-visits.site|satoshi-win.xyz|shorterall.com
 promo-visits.site,satoshi-win.xyz,shorterall.com##+js(set, blurred, false)
 promo-visits.site,satoshi-win.xyz,shorterall.com##+js(set, google_ads, true)
-promo-visits.site,satoshi-win.xyz,shorterall.com##+js(set, window.adsEnd, true)
 promo-visits.site,satoshi-win.xyz,shorterall.com###qc-cmp2-container + p
 shorterall.com##+js(aopr, disableButtonTimer)
 shorterall.com##+js(nosiif, visibility, 1000)
 satoshi-win.xyz,shorterall.com##+js(aopw, _pop)
-shorterall.com##+js(aopr, app_vars.force_disable_adblock)
 shorterall.com##+js(aopr, open)
 shorterall.com##+js(nostif, alert)
 shorterall.com##+js(acis, decodeURI, decodeURIComponent)
+shorterall.com##+js(aopw, atOptions)
 shorterall.com##.banner
 shorterall.com##div[style="width:300px;height:250px;display: inline-block;margin: 0 auto"]
 shorterall.com##[href^="//chrif8kdstie.com"]
@@ -19105,8 +19104,11 @@ promo-visits.site##.banner
 ||ultimateaderaser.com^$all
 /click?pid=*&offer_id=
 /ads.css$badfilter
+/adsEnd.$badfilter
 satoshi-win.xyz##+js(nostif, nextFunction)
 satoshi-win.xyz##+js(ra, onclick, .btn-success.get-link, stay)
+satoshi-win.xyz##+js(set, fouty, true)
+satoshi-win.xyz##.banner-inner
 promo-visits.site,satoshi-win.xyz,shorterall.com##.btn-primary:style(visibility: visible !important;)
 promo-visits.site,satoshi-win.xyz,shorterall.com##+js(ra, disabled, .btn-primary)
 promo-visits.site###newlayercontent
