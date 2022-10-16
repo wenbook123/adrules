@@ -12724,6 +12724,8 @@ tonpornodujour.com###disclaimerId
 ! https://github.com/uBlockOrigin/uAssets/issues/5510
 cyfostreams.com##+js(nowebrtc)
 cyfostreams.com###blockblockA
+! https://github.com/AdguardTeam/AdguardFilters/issues/132251
+cyfostreams.com#@#.banner_ad
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5511
 444.coffee##+js(noeval)
@@ -13915,6 +13917,8 @@ egy.best,egybest.*##+js(acis, Math, XMLHttpRequest)
 egy.best,egybest.*,vidstream.*,~vidstream.pro##+js(nowoif, !api?call=, 10, obj)
 ! Workaround for https://github.com/uBlockOrigin/uAssets/issues/8319
 egy.best,egybest.*##+js(nostif, WinMsgHtml)
+egybest.*##+js(nostif, /new|Bait|check/)
+egybest.*##+js(nosiif, /^/)
 ||psaiceex.net^
 
 ! https://github.com/NanoMeow/QuickReports/issues/1538
