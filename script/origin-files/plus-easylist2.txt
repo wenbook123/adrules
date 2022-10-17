@@ -19116,8 +19116,8 @@ satoshi-win.xyz##+js(nostif, nextFunction)
 satoshi-win.xyz##+js(ra, onclick, .btn-success.get-link, stay)
 satoshi-win.xyz##+js(set, fouty, true)
 satoshi-win.xyz##.banner-inner
-promo-visits.site,satoshi-win.xyz,shorterall.com##.btn-primary:style(visibility: visible !important;)
-promo-visits.site,satoshi-win.xyz,shorterall.com##+js(ra, disabled, .btn-primary)
+promo-visits.site,shorterall.com##.btn-primary:style(visibility: visible !important;)
+promo-visits.site,shorterall.com##+js(ra, disabled, .btn-primary)
 promo-visits.site###newlayercontent
 ||mndsrv.com^
 /php_code.php?sid=$domain=promo-visits.site|satoshi-win.xyz|shorterall.com,important
@@ -19240,9 +19240,11 @@ boardgamesonline.net##.adsbygoogle
 newsobserver.com##+js(set, Adv_ab, false)
 
 ! https://github.com/NanoAdblocker/NanoFilters/issues/488
+! https://www.reddit.com/r/uBlockOrigin/comments/y5nbir
 findandfound.ga,png.is##+js(aopr, adb_checker)
-png.is,nohat.cc##+js(aopr, console.log)
+nohat.cc,png.is##+js(aopr, ignore_adblock)
 png.is,nohat.cc##+js(aopr, $.prototype.offset)
+png.is,nohat.cc##+js(no-fetch-if, adsbygoogle)
 findandfound.ga##+js(aopr, $.prototype.html)
 findandfound.ga##+js(aopr, onload)
 findandfound.ga##+js(ra, oncontextmenu, body)
