@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 5LPiiJNYg7He1X6avMH+Sg
+! Checksum: A4D5LPf9rfwZsuqncNZiDQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-10-17 00:33:10（北京时间） 
-! Total count: 98890
+! Version: 2022-10-17 09:35:05（北京时间） 
+! Total count: 98909
 ###AD_G
 ###AD_L
 ###AD_Top
@@ -2151,6 +2151,7 @@
 ##.ad-flag
 ##.ad-flex
 ##.ad-float
+##.ad-floating
 ##.ad-footer
 ##.ad-frame
 ##.ad-frame-container
@@ -2438,6 +2439,7 @@
 ##.ad-wp-720
 ##.ad-wrap
 ##.ad-wrap--leaderboard
+##.ad-wrapp
 ##.ad-wrapper
 ##.ad-wrapper--flexibleportrait
 ##.ad-wrapper--lg
@@ -2801,6 +2803,7 @@
 ##.ad_right_2
 ##.ad_row
 ##.ad_scroll
+##.ad_sd #a_d1
 ##.ad_sd #ad1
 ##.ad_side
 ##.ad_sidebar
@@ -4014,6 +4017,7 @@
 ##.cc5278_banner_ad
 ##.center-ad
 ##.center-ad-banner
+##.center-tag-rightadbottom
 ##.centerAd
 ##.centerAds
 ##.center_ad
@@ -4088,6 +4092,7 @@
 ##.connatix-wrapper
 ##.container > .index-ad
 ##.container > .slide-baidu
+##.container > a > img[src*=".qhimg.com"]
 ##.container > a.mid-wrapper
 ##.container > a[href^="http"] > .ads
 ##.container--ad
@@ -4566,6 +4571,7 @@
 ##.hlol_ad
 ##.hm-vertical-ad
 ##.home-ad
+##.home-ad-bigbox
 ##.home-ad-region-1
 ##.home-ads
 ##.home-module_ad
@@ -5116,6 +5122,7 @@
 ##.outbrain_ad_li
 ##.outbrain_dual_ad_whats_class
 ##.outbrain_ul_ad_top
+##.outbrainad
 ##.outer-ad-container
 ##.outer-ad-unit-wrapper
 ##.outeradcontainer
@@ -5647,6 +5654,7 @@
 ##.social-ad
 ##.sovrn-connect-ad
 ##.sp-ad
+##.sp-adblock-2
 ##.spLinks
 ##.sp_ad
 ##.speakol-widget
@@ -7518,16 +7526,7 @@
 ##div[align="center"] > a[href^="/url/"] > img[src*=".qpic.cn"]
 ##div[aria-label="Ads"]
 ##div[class][id][style] > .pic_container
-##div[class^="AdCard_"]
 ##div[class^="Display_displayAd"]
-##div[class^="StickyHeroAdWrapper-"]
-##div[class^="adUnit_"]
-##div[class^="ad_border_"]
-##div[class^="ad_position_"]
-##div[class^="adbanner_"]
-##div[class^="ads-partner-"]
-##div[class^="adsbutt_wrapper_"]
-##div[class^="adunit_"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
 ##div[class^="kiwi-ad-wrapper"]
 ##div[class^="native-ad-"]
@@ -7554,13 +7553,11 @@
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id^="M"][id*="Composite"]
-##div[id^="_vdo_ads_player_ai_"]
 ##div[id^="a"] > a[target="_blank"][style="margin-top:3px;"]
 ##div[id^="a-loading-"] > span
 ##div[id^="ad-div-"]
 ##div[id^="ad-gpt-"]
 ##div[id^="ad-position-"]
-##div[id^="ad_bigbox_"]
 ##div[id^="ad_position_"]
 ##div[id^="ad_script_"]
 ##div[id^="ad_thread"]
@@ -7574,7 +7571,6 @@
 ##div[id^="adv-"].adv
 ##div[id^="advads-"]
 ##div[id^="advads_"]
-##div[id^="banner-ad-"]
 ##div[id^="crt-"][style]
 ##div[id^="dfp-ad-"]
 ##div[id^="dfp-slot-"]
@@ -7589,7 +7585,6 @@
 ##div[id^="js-dfp-"]
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[id^="rc-widget-"]
-##div[id^="sticky_ad_"]
 ##div[id^="taboola-stream-"]
 ##div[id^="vuukle-ad-"]
 ##div[id^="yandex_ad"]
@@ -9924,6 +9919,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /*_theme/build/js/script.min.php$domain=clik.pw
 /*gek|$image,domain=animenova.org|animeplus.tv|gogoanimes.co|kiss-anime.ws|readcomiconline.to|mangareader.net|animewow.org|animeland.us
 /.*(\/proxy|\.wasm|\.wsm|\.wa)$/$websocket,xmlhttprequest,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
+/..nt.nt\.st.+p.ay\..+/$domain=stemplay.*|steamplay.*|steanplay.*|streamp1ay.*|streanplay.*|streampiay.*
 //*.emgrt.com^$third-party
 //m.manhua123.net/js/com2.js
 //s.php?id=$script,third-party
@@ -14064,7 +14060,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /js/m/i-def.js
 /js/mangoIndexBanner.js
 /js/mob/cpc_bottom.js
-/js/oas.
 /js/ouo/entry.js$script,third-party
 /js/ouo/entry_v1.js$script,third-party
 /js/pcbook.js?
@@ -17552,6 +17547,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /zcool-analytics.js
 /zcredirect?
 /zcvisitor/*
+/zcvisitor/*$popup
 /zdcc.min.js
 /zddmp.min.js
 /zdgurgler.min.js
@@ -17562,6 +17558,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /zig_c.min.js
 /zonapixel.
 /zone-log.
+/zp-redirect?$popup
 /zpp/zpp4.js
 /ztagtrackedevent/*
 /ztracker.js
@@ -18938,6 +18935,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 7808.cn###float-chat
 7808.cn###force-popup
 789ys.com##ul[style]
+789ys.com,fffdm.com##ul[style]
 78dm.net###qpgg
 78dm.net##.ad_logor
 78dm.net##.add-980
@@ -26897,7 +26895,7 @@ adultgamesportal.com#?#.widget:has(> div.textwidget > a[href][target="_blank"][r
 adultgamesportal.com#?#.widget:has(> div.textwidget > iframe[name^="spot_id_"])
 adultgamesportal.com#?#.widget:has(> div.textwidget > script[src*="juicyads.com/"])
 adultgamesportal.com#?#.widget:has(> div.textwidget iframe[src*="cfgr2.com/"])
-adultgifworld.com,babeshows.co.uk,boobieblog.com,fapnado.com,foxhq.com,iseekgirls.com,small-breasted-teens.com,the-new-lagoon.com##a[href^="http://refer.ccbill.com/cgi-bin/clicks.cgi?"]
+adultgifworld.com,babeshows.co.uk,boobieblog.com,fapnado.com,iseekgirls.com,small-breasted-teens.com,the-new-lagoon.com##a[href^="http://refer.ccbill.com/cgi-bin/clicks.cgi?"]
 adulthub.ru#?##main > div.container > div.row > div[class] > div.widget > div.title:has(> h3:contains(/Partners$|Live Girls/))
 adultlingeriepics.com,adultlingeriepics.com,adultspankingtgp.com,allfeetporn.com,allfemdompics.com,allgfpics.com,allhairysex.com,allhotgayporn.com,allrealvoyeur.com,allrealvoyeur.com,allsexylegs.com,allshemalemodels.com,allshemalemodels.com,allswinger.com,allswinger.com,alltrannypics.com,alltrannypics.com,alltrannystars.com,alltrannystars.com,allvoyeurxxx.com,allvoyeurxxx.com,amateurbbwpussy.com,amateursexypics.com,asianfuckthumbs.com,asianhotxxx.com,asianhotxxx.com,asianladyboypictures.com,asianladyboyspics.com,asianladyboyssex.com,asianladyboyssex.com,asianpicturesporn.com,asianpicturesporn.com,asianshemalesex.com,asianshotporn.com,asianshotporn.com,asshotfuck.com,asshotfuck.com,barefeetsex.com,bbwhardporn.com,bbwhotxxx.com,bdsmfemdomtraining.com,bdsmfemdomtraining.com,bdsmsextgp.com,bdsmsextgp.com,bestasianpics.com,bestasianpics.com,bestassparade.com,bestbbwsex.com,bestfemdomporn.com,bestfemdomporn.com,bestfemdomtgp.com,bestlegsporn.com,bestlingerieporn.com,bestlingerieporn.com,bestnylonpics.com,bestnylonpics.com,bestpainporn.com,bestpainporn.com,bestpornblack.com,bestpublicporn.com,bestspankingpics.com,bestupskirtporn.com,bestvoyeurpictures.com,bestvoyeurporn.com,bigboobsgrab.com,bigboobsgrab.com,blackxxxgalleries.com,buttstgp.com,classicpornpost.com,classicpornpost.com,classicretrosex.com,clubfemdomfetish.com,dailyfemdomporn.com,dailyfootporn.com,dailyhairyporn.com,dailylatexporn.com,dailynylongalleries.com,dailyvintageporn.com,doubleanalfucking.com,eroticchubby.com,eroticchubby.com,eroticfootgallery.com,eroticfootgallery.com,eroticlatexporn.com,eroticlingeriephotos.com,eroticnylonpics.com,eroticspankinginternet.com,eroticspankinginternet.com,eroticvoyeurporn.com,eroticvoyeurporn.com,extremebondagepictures.com,extremelatexsex.com,extremestraponsex.com,faterotic.com,fatpussysluts.com,femalepublicflashers.com,femdombest.com,femdomhard.com,femdomhard.com,femdomlove.com,femdompicstgp.com,femdompicstgp.com,fetishfootporn.com,fetishlatexporn.com,fetishstraponsex.com,flashersporn.com,flashersporn.com,footfetishcollection.com,footfreeporn.com,forcedfemdomtgp.com,forcedfemdomtgp.com,freeasiantgp.com,freebdsmarchive.com,freebondagehardcore.com,freebondagehardcore.com,freebondagetorture.com,freefemdomart.com,freefemdomart.com,freegallerybdsm.com,freegallerybdsm.com,freegftgp.com,freelesbiantgp.com,freelesbiantgp.com,freelingeriegalleries.com,freelingerietgp.com,freenylonfetish.com,freenylonfetish.com,freenylontgp.com,freenylontgp.com,freepantyhosefetish.com,freepantyhosefetish.com,freepicsamateur.com,freeretropics.com,freeswingersthumbs.com,freetitsporn.com,freeupskirttgp.com,freeupskirttgp.com,freevintagegallery.com,freevoyeurnude.com,freshshemalepics.com,galleriesswingers.com,girlfriendstgp.com,girlspublic.com,hairyfuckingcunt.com,hardanalpics.com,hardasian.com,hardasian.com,hardbdsmpics.com,hardbdsmpics.com,hardbdsmsex.com,hardbondageart.com,hardbondageart.com,hardcoreblackfuck.com,hardspankingsex.com,hardspankingsex.com,hardupskirt.com,hiddenvoyeurporn.com,hotasiangallery.com,hotasiantgp.com,hotassgallery.com,hotbbwgalleries.com,hotbbwgalleries.com,hotbbwgallery.com,hotbbwgallery.com,hotbdsmtgp.com,hotbdsmthumbs.com,hotbdsmthumbs.com,hotchubbyporn.com,hotfemdomgallery.com,hotfemdomgallery.com,hotlatexporn.com,hotlegsporn.com,hotlesbianlicking.com,hotlesbianlicking.com,hotlesbiansorgy.com,hotlesbiansorgy.com,hotmaturegalleries.com,hotmaturetgp.com,hotnylontgp.com,hotpainsex.com,hotpornebony.com,hotpornretro.com,hotpublicporn.com,hotpublicporn.com,hotpublicsex.com,hotsluttybutts.com,hotstraponporn.com,hotswingerspictures.com,hotswingerspictures.com,hotswingersporn.com,hotswingersporn.com,hotupskirtshots.com,hotupskirtshots.com,hotvintagepictures.com,hotvintagepictures.com,hotvoyeurporn.com,hotvoyeurporn.com,hotvoyeursex.com,hotxxxass.com,hqcfnm.com,hqladyboys.com,inpublicflashing.com,inpublicflashing.com,juicyassporn.com,justshemalepics.com,justshemaletube.com,ladyboypornpictures.com,latexbest.com,latexerotic.com,latexerotic.com,latexfetishpics.com,latexleatherporn.com,latexporngirls.com,legsthumbs.com,legsthumbs.com,lingeriepornfree.com,lingeriepornfree.com,lingeriepornguide.com,lingeriepornguide.com,lingeriethumbs.com,lingeriethumbs.com,matureswingercouples.com,mybdsmlibrary.com,mybdsmlibrary.com,myladyboys.com,nastyebonyporn.com,nastymilfsex.com,nudelingeriepics.com,nudelingeriepics.com,nudenylon.com,nudepublicporn.com,nudevoyeurgalleries.com,nylonstockingsex.org,nylonstockingsex.org,oldandyoungxxx.com,onlyshemalepics.com,onpublicporn.com,ourladyboy.com,paintgp.com,perfectassporn.com,perfectassporn.com,perfectbuttfuck.com,perfectbuttfuck.com,perfectfemdom.com,perfectfemdom.com,perfecttitsfuck.com,pornbbwpics.com,pornbondagegalleries.com,pornnylons.com,pornnylons.com,privatevoyeurweb.net,privatevoyeurweb.net,publicerotic.com,publicerotic.com,publicflashinggalleries.com,publicfuckspy.com,publicporntgp.com,publicporntgp.com,realfemdomsex.com,realfemdomsex.com,realstraponporn.com,realvoyeurpost.com,retropornarchives.com,retropornarchives.com,retroporngallery.com,retrothumbs.com,retrothumbs.com,ropebondageporn.com,sexcfnm.com,sexyboobsporn.com,sexyboobsporn.com,sexychubbyporn.com,sexychubbyporn.com,sexylatexfetish.com,sexylatexpics.com,sexylesbiangalleries.com,sexylesbiangalleries.com,sexylingerietgp.com,sexynylongalleries.com,sexyupskirtporn.com,shemalecollection.com,shemaledatabase.com,shemaledb.net,shemaledb.net,shemalefreepictures.com,shemalemodeldb.com,shemalemodellist.com,shemalepornstartube.com,shemalexxxpictures.com,shemalexxxstars.com,shemalexxxstars.com,spankinghotporn.com,spicyasianporn.com,spicyass.com,spicyass.com,spyvoyeurs.com,straponhot.com,straponhot.com,straponit.com,straponlive.com,straponsextgp.com,superbdsm.com,swingerfreeporn.com,swingerlust.com,swingersbest.com,swingerspornparties.com,swingerspornparties.com,swingersxxxpics.com,swingersxxxpics.com,swingerthumbnails.com,teenladyboy.net,thailadyboyporn.com,thailadyboysex.com,thailadyboysex.com,thailandshemale.com,thaishemalesex.com,thefemdomporn.com,thefemdomsex.com,titssuper.com,titssuper.com,titsthumbnails.com,titsthumbnails.com,topladyboy.com,trannyfreefuck.com,trannysuperstar.com,transsexpics.com,transsexpics.com,truevoyeurphotos.com,upskirtpussyspy.com,upskirtviewers.com,upskirtviewers.com,vintagehotporn.com,vintagehotporn.com,vintagehunterporn.com,vintagethumbnails.com,xladyboys.com,xxxbdsmtgp.com,xxxbondagegalleries.com,xxxlatexladies.com,xxxnylonpics.com##.content
 adultlingeriepics.com,adultlingeriepics.com,adultspankingtgp.com,allfeetporn.com,allfemdompics.com,allgfpics.com,allhairysex.com,allhotgayporn.com,allrealvoyeur.com,allrealvoyeur.com,allsexylegs.com,allshemalemodels.com,allshemalemodels.com,allswinger.com,allswinger.com,alltrannypics.com,alltrannypics.com,alltrannystars.com,alltrannystars.com,allvoyeurxxx.com,allvoyeurxxx.com,amateurbbwpussy.com,amateursexypics.com,asianfuckthumbs.com,asianhotxxx.com,asianhotxxx.com,asianladyboypictures.com,asianladyboyspics.com,asianladyboyssex.com,asianladyboyssex.com,asianpicturesporn.com,asianpicturesporn.com,asianshemalesex.com,asianshotporn.com,asianshotporn.com,asshotfuck.com,asshotfuck.com,barefeetsex.com,bbwhardporn.com,bbwhotxxx.com,bdsmfemdomtraining.com,bdsmfemdomtraining.com,bdsmsextgp.com,bdsmsextgp.com,bestasianpics.com,bestasianpics.com,bestassparade.com,bestbbwsex.com,bestfemdomporn.com,bestfemdomporn.com,bestfemdomtgp.com,bestlegsporn.com,bestlingerieporn.com,bestlingerieporn.com,bestnylonpics.com,bestnylonpics.com,bestpainporn.com,bestpainporn.com,bestpornblack.com,bestpublicporn.com,bestspankingpics.com,bestupskirtporn.com,bestvoyeurpictures.com,bestvoyeurporn.com,bigboobsgrab.com,bigboobsgrab.com,blackxxxgalleries.com,buttstgp.com,classicpornpost.com,classicpornpost.com,classicretrosex.com,clubfemdomfetish.com,dailyfemdomporn.com,dailyfootporn.com,dailyhairyporn.com,dailylatexporn.com,dailynylongalleries.com,dailyvintageporn.com,doubleanalfucking.com,eroticchubby.com,eroticchubby.com,eroticfootgallery.com,eroticfootgallery.com,eroticlatexporn.com,eroticlingeriephotos.com,eroticnylonpics.com,eroticspankinginternet.com,eroticspankinginternet.com,eroticvoyeurporn.com,eroticvoyeurporn.com,extremebondagepictures.com,extremelatexsex.com,extremestraponsex.com,faterotic.com,fatpussysluts.com,femalepublicflashers.com,femdombest.com,femdomhard.com,femdomhard.com,femdomlove.com,femdompicstgp.com,femdompicstgp.com,fetishfootporn.com,fetishlatexporn.com,fetishstraponsex.com,flashersporn.com,flashersporn.com,footfetishcollection.com,footfreeporn.com,forcedfemdomtgp.com,forcedfemdomtgp.com,freeasiantgp.com,freebdsmarchive.com,freebondagehardcore.com,freebondagehardcore.com,freebondagetorture.com,freefemdomart.com,freefemdomart.com,freegallerybdsm.com,freegallerybdsm.com,freegftgp.com,freelesbiantgp.com,freelesbiantgp.com,freelingeriegalleries.com,freelingerietgp.com,freenylonfetish.com,freenylonfetish.com,freenylontgp.com,freenylontgp.com,freepantyhosefetish.com,freepantyhosefetish.com,freepicsamateur.com,freeretropics.com,freeswingersthumbs.com,freetitsporn.com,freeupskirttgp.com,freeupskirttgp.com,freevintagegallery.com,freevoyeurnude.com,freshshemalepics.com,galleriesswingers.com,girlfriendstgp.com,girlspublic.com,hairyfuckingcunt.com,hardanalpics.com,hardasian.com,hardasian.com,hardbdsmpics.com,hardbdsmpics.com,hardbdsmsex.com,hardbondageart.com,hardbondageart.com,hardcoreblackfuck.com,hardspankingsex.com,hardspankingsex.com,hardupskirt.com,hiddenvoyeurporn.com,hotasiangallery.com,hotasiantgp.com,hotassgallery.com,hotbbwgalleries.com,hotbbwgalleries.com,hotbbwgallery.com,hotbbwgallery.com,hotbdsmtgp.com,hotbdsmthumbs.com,hotbdsmthumbs.com,hotchubbyporn.com,hotfemdomgallery.com,hotfemdomgallery.com,hotlatexporn.com,hotlegsporn.com,hotlesbianlicking.com,hotlesbianlicking.com,hotlesbiansorgy.com,hotlesbiansorgy.com,hotmaturegalleries.com,hotmaturetgp.com,hotnylontgp.com,hotpainsex.com,hotpornebony.com,hotpornretro.com,hotpublicporn.com,hotpublicporn.com,hotpublicsex.com,hotsluttybutts.com,hotstraponporn.com,hotswingerspictures.com,hotswingerspictures.com,hotswingersporn.com,hotswingersporn.com,hotupskirtshots.com,hotupskirtshots.com,hotvintagepictures.com,hotvintagepictures.com,hotvoyeurporn.com,hotvoyeurporn.com,hotvoyeursex.com,hotxxxass.com,hqcfnm.com,hqladyboys.com,inpublicflashing.com,inpublicflashing.com,juicyassporn.com,justshemalepics.com,justshemaletube.com,ladyboypornpictures.com,latexbest.com,latexerotic.com,latexerotic.com,latexfetishpics.com,latexleatherporn.com,latexporngirls.com,legsthumbs.com,legsthumbs.com,lingeriepornfree.com,lingeriepornfree.com,lingeriepornguide.com,lingeriepornguide.com,lingeriethumbs.com,lingeriethumbs.com,matureswingercouples.com,mybdsmlibrary.com,mybdsmlibrary.com,myladyboys.com,nastyebonyporn.com,nastymilfsex.com,nudelingeriepics.com,nudelingeriepics.com,nudenylon.com,nudepublicporn.com,nudevoyeurgalleries.com,nylonstockingsex.org,nylonstockingsex.org,oldandyoungxxx.com,onlyshemalepics.com,onpublicporn.com,ourladyboy.com,paintgp.com,perfectassporn.com,perfectassporn.com,perfectbuttfuck.com,perfectbuttfuck.com,perfectfemdom.com,perfectfemdom.com,perfecttitsfuck.com,pornbbwpics.com,pornbondagegalleries.com,pornnylons.com,pornnylons.com,privatevoyeurweb.net,privatevoyeurweb.net,publicerotic.com,publicerotic.com,publicflashinggalleries.com,publicfuckspy.com,publicporntgp.com,publicporntgp.com,realfemdomsex.com,realfemdomsex.com,realstraponporn.com,realvoyeurpost.com,retropornarchives.com,retropornarchives.com,retroporngallery.com,retrothumbs.com,retrothumbs.com,ropebondageporn.com,sexcfnm.com,sexyboobsporn.com,sexyboobsporn.com,sexychubbyporn.com,sexychubbyporn.com,sexylatexfetish.com,sexylatexpics.com,sexylesbiangalleries.com,sexylesbiangalleries.com,sexylingerietgp.com,sexynylongalleries.com,sexyupskirtporn.com,shemalecollection.com,shemaledatabase.com,shemaledb.net,shemaledb.net,shemalefreepictures.com,shemalemodeldb.com,shemalemodellist.com,shemalepornstartube.com,shemalexxxpictures.com,shemalexxxstars.com,shemalexxxstars.com,spankinghotporn.com,spicyasianporn.com,spicyass.com,spicyass.com,spyvoyeurs.com,straponhot.com,straponhot.com,straponit.com,straponlive.com,straponsextgp.com,superbdsm.com,swingerfreeporn.com,swingerlust.com,swingersbest.com,swingerspornparties.com,swingerspornparties.com,swingersxxxpics.com,swingersxxxpics.com,swingerthumbnails.com,teenladyboy.net,thailadyboyporn.com,thailadyboysex.com,thailadyboysex.com,thailandshemale.com,thaishemalesex.com,thefemdomporn.com,thefemdomsex.com,titssuper.com,titssuper.com,titsthumbnails.com,titsthumbnails.com,topladyboy.com,trannyfreefuck.com,trannysuperstar.com,transsexpics.com,transsexpics.com,truevoyeurphotos.com,upskirtpussyspy.com,upskirtviewers.com,upskirtviewers.com,vintagehotporn.com,vintagehotporn.com,vintagehunterporn.com,vintagethumbnails.com,xladyboys.com,xxxbdsmtgp.com,xxxbondagegalleries.com,xxxlatexladies.com,xxxnylonpics.com##.contentrow
@@ -27505,11 +27503,9 @@ anysex.com###main_video_fluid_html_on_pause
 anysex.com##+js(abort-current-script, document.write, /undefined[\s\S]*?'<scr'\+'ipt/)
 anysex.com##+js(abort-on-property-read, z7OO)
 anysex.com##.content > div.center
-anysex.com##.desc
 anysex.com##.main > div.content_right
 anysex.com##.native_middle
 anysex.com##.no_pop > iframe
-anysex.com##.no_pops
 anywlan.com##.bscekvofc_o
 aoe.vn#$#abort-on-property-read parseInt
 aoji.cn##.xiaoxi_phone
@@ -27928,7 +27924,6 @@ avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotak
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,sportskeeda.com##.connatix-container
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,qz.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##div[class^="bxm4mm-"]
 avforums.com##.m2n-ads-slot
-avgle.com###aoverlay
 avgle.com###avyc
 avgle.com###nft
 avgle.com###ps32-container
@@ -29105,6 +29100,9 @@ bulbapedia.bulbagarden.net###primiscont
 bulbapedia.bulbagarden.net##.adrow-bottom
 bundesliga.com###footer-partnerlogo
 bundesliga.com##.bl-broadcaster
+buondua.com##.b1a05af5ade94f4004a7f9ca27d9eeffb
+buondua.com##.b2b4677020d78f744449757a8d9e94f28
+buondua.com##.b489c672a2974fbd73005051bdd17551f
 buondua.com##.pagination + br + div[class]
 buondua.com#?#.main-body > div > div[class]:not([class^="item"]):not([class^="article"]):contains(/^Sponsored ads$/)
 buondua.com#?#.main-body div[class] > .adsbyexoclick:upward(1)
@@ -32314,7 +32312,6 @@ ff14angler.com#$#ins.adsbygoogle { opacity: 0 !important; pointer-events: none !
 ff14angler.com#@#.adsbygoogle
 fffcvn.net#?#.row > div.bs-vc-wrapper:has(> div.wpb_column > div.bs-vc-wrapper div.textwidget > p > br + a[href])
 fffdm.com##[style^="width"][style*="height"]
-fffdm.com##ul[style]
 ffmovies.co##+js(abort-current-script, onclick, fbox_ads)
 ffmovies.ru##+js(window.open-defuser, 1, ffmovies.ru/stream/)
 ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
@@ -32818,7 +32815,6 @@ foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxnebraska.com,foxreno.com,
 foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxnebraska.com,foxreno.com,foxrochester.com,foxsanantonio.com,nbcmontana.com,okcfox.com,siouxlandnews.com,wach.com,wchstv.com,wcyb.com,wfxl.com,wgxa.tv,wlos.com,wsbt.com,cbs2iowa.com,fox4beaumont.com,mycbs4.com,mynews4.com,news4sanantonio.com,abc6onyourside.com,wtov9.com,turnto10.com,fox11online.com,mynbc15.com,nbc16.com,dayton247now.com,fox23maine.com,nbc24.com,fox28media.com,myfox28columbus.com,fox42kptm.com,fox45now.com,fox56.com##div[id^="interstory_second_ddb_"]
 foxbusiness.com##.pre-content
 foxgreat.com#@#.google-ad
-foxhq.com,xxxcomics.org##video
 foxnews.com##.vendor-unit
 foxnews.com#?#.article-footer > .vendor-unit:has(> .OUTBRAIN)
 foxsports.com.au##a[href^="https://kayosports.com.au/?marketing="]
@@ -33377,7 +33373,7 @@ gasaq.com###guanggao_left
 gasaq.com###guanggao_right
 gasaq.com##.guanggao_ime_big
 gate.baidu.com,m.baidu.com###container
-gay0day.com##div[style="height:250px; width:300px; margin: auto;"]
+gay0day.com##div[style^="height:250px;"]
 gay4porn.com##.exbanner
 gayck.com##.simple-adv-spot
 gayforit.eu###navigation > div > a[target="_blank"]
@@ -35550,7 +35546,7 @@ instacart.com#$#hide-if-matches-xpath './/img[contains(@src,"promoted_aisle")]/a
 instacart.com#$#hide-if-matches-xpath './/img[starts-with(@alt,"Sponsored")]/ancestor::a[1]'
 instacart.com#$#race start; hide-if-matches-xpath './/div[@role="group"]//div[concat(.//div[1]/text()[1],.//div[2]/text()[1])="Spon sored"]/ancestor::div[@data-testid]'; hide-if-matches-xpath './/div[@role="group"]//div[concat(.//div[1]/text()[1],.//div[2]/text()[1])="Spon sored"]/li[@data-testid]'; race stop;
 instagram.com#$?#main > div > section div[style*="flex-direction: column;"] > article > div:has(span:contains(/Спонсор публикации:|Sponsored/)) { visibility: hidden !important; }
-instagram.com#?#article[role="presentation"]:-abp-has(span:-abp-contains(/Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
+instagram.com#?#article[role="presentation"] > div[style]:-abp-has(span:-abp-contains(/Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership with ))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:-abp-has(span:-abp-contains(Paid partnership with ))
@@ -39040,6 +39036,7 @@ muzijie.com##div[style="height: 280px;"]
 muztext.com##+js(no-setTimeout-if, reachGoal)
 mvcat.com###ad-jd
 mvcat.com##.jsalert
+mvidoo.com##+js(abort-on-property-read, popunder)
 mwrf.net##.uc1_focus_pics
 mx-fm.com,ts.21cn.com#@#.ad_img
 my-personaltrainer.it##.sal-adv-slot
@@ -39507,6 +39504,7 @@ newxue.com##.bd500
 newxue.com##.dashuggtop
 newxue.com##.dashuggtop1
 newxue.com##.left336280
+newyorker.com##div[class^="StickyHeroAdWrapper-"]
 newyorker.com#@#.ad-container
 newyorkyimby.com##img[height="280"]
 newyx.net,yxbao.com##.gs
@@ -40935,7 +40933,6 @@ porn5f.com##.position_fix_bottom
 porn5f.com##.preroll-adv-popup-iframe
 porn5f.com##.video-promote-adv
 porn5f.com#?#.row:-abp-has(> div.col-lg-3 > div[style] > div.carousel-inner > p.ad-title)
-porn77.info##div[id^="adArea"]
 porn87.com##.pc_instant
 pornbest.org,ptt.sex##.btn-group + .row
 pornbimbo.com##+js(set-constant, flashvars.protect_block, '')
@@ -40956,6 +40953,7 @@ porndoe.com##.videos-tsq
 porndoe.com##.vpb-holder
 porndoe.com##[ng-if*="service.banners"]
 porndoe.com##ul[class="-h-nav"] > li > a[target="_blank"][href^="/track/"]
+porndoe.com,pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##video[autoplay]
 porndr.com###PD-Under-player
 porndr.com##+js(abort-current-script, getCookie, popup_url)
 porndr.com##.above-player-spot
@@ -41025,10 +41023,11 @@ pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.ne
 pornhub.com,pornhubthbh7ap3u.onion##.sniperModeEngaged
 pornhub.com,pornhubthbh7ap3u.onion##.video-wrapper > #player + [class]
 pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
-pornhub.com,pornhubthbh7ap3u.onion##iframe[width][height*="px"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr#@#[src^="bLob:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="data:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##img[src*="blob:" i]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youporn.com##[src^="blob:" i]
 pornhub.com,pornhubthbh7ap3u.onion,spankbang.com##a[href^="http://ads.trafficjunky.net/"]
 pornhub.com,tube8.fr,tube8.es,tube8.com###abAlert
 pornhub.com,tube8.fr,tube8.es,tube8.com###adBlockAlertWrap
@@ -42389,6 +42388,7 @@ sexhd.pics##a[href^="/direct/"]
 sexhoundlinks.com##.link-list > li:not([id]):not([class])
 sexlist.tv,mangovideo.club,cwtvembeds.com##+js(set-constant, flashvars.video_click_url, '')
 sexlivesex.net,xxxtop.org##+js(abort-current-script, onload, window.open)
+sexmummy.com##img[width="468"]
 sexphimhd.net,gvnvh18.com,g18vn.com#$#abort-current-inline-script Math
 sextb.net##.sextb_300
 sextb.net##.sextb_728
@@ -43406,6 +43406,7 @@ station-drivers.com#?#.body-innerwrapper > #tm-top-b:has(> .uk-container > secti
 station-drivers.com#?#.container-sidebar-left > div.card > div.card-body > div.bannergroup:upward(2)
 station-drivers.com#@#iframe[width="600"][height="90"]
 station-drivers.com,appvn.com##.bannergroup
+statsroyale.com##div[class^="adUnit_"]
 statsy.net
 stc.gov.cn###mov
 steachs.com##.sidebar:first-child
@@ -43424,7 +43425,6 @@ steelcn.cn##.new_fixed
 steelersdepot.com##.theiaStickySidebar
 steelersdepot.com##.theiaStickySidebar div[id^="custom_html-"]
 steemit.com##.ad-carousel
-stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*##+js(window.open-defuser)
 stfly.io##+js(abort-on-property-read, tabUnder)
 stfly.me##+js(abort-on-property-write, onClickTrigger)
 stfly.me##+js(window.open-defuser)
@@ -43504,6 +43504,9 @@ streamm4u.club##+js(window.open-defuser)
 streamon.to##+js(no-setTimeout-if, nextStep())
 streamon.to##+js(set-constant, batota, 0)
 streamon.to##+js(window.open-defuser)
+streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*###uverlay
+streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*##+js(window.open-defuser)
+streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*##.ad
 streamsb.net##+js(abort-on-property-read, mm)
 streamsb.net##+js(set-constant, isadb, false)
 streamsb.net##+js(window.open-defuser)
@@ -44651,6 +44654,7 @@ torrnado.win##body > div > .a-overlay
 totalbike.hu,divany.hu,totalcar.hu##+js(abort-current-script, document.querySelector, document.body.style.overflow)
 totalcalc.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 totaljerkface.com#?##container div[id="mainContainer"]:has(> div[id="adContainer"])
+totsantcugat.info##[href^="https://totsantcugat.info/wp-content/"]
 totv.org###ad
 totv.org##+js(set-constant, blocked, false)
 totv.org##+js(set-constant, google_tag_data, emptyObj)
@@ -46761,6 +46765,7 @@ xxx-videosex.porn##+js(window.open-defuser)
 xxxadd.com/eureka
 xxxbule.com,mybestxtube.com,nakedteens.fun##+js(abort-current-script, onbeforeunload, popit)
 xxxbunker.com##+js(abort-on-property-read, window.open)
+xxxcomics.org##video
 xxxdan.com###bottom-line
 xxxdan.com###content > div.movie + div[class]
 xxxdan.com##+js(abort-current-script, document.cookie, nasl)
@@ -49909,6 +49914,7 @@ zznews.cn##.ad:not([style])
 ||8bc4888880.com^
 ||8bo.com/template/default/8bo/j/app.js
 ||8bobf.*/da.aspx
+||8chj9.com^
 ||8cnd.com^
 ||8d26e3a7f3.com^
 ||8d8d.me/images/dealer.gif
@@ -60942,6 +60948,7 @@ zznews.cn##.ad:not([style])
 ||cul.rrgapzw.cn^
 ||cul.xunjiu.online^
 ||culainstrades.com^
+||culainstrades.com^$popup
 ||culiglsm.space^
 ||cullflitted.com^
 ||cultergoy.com^
@@ -63397,6 +63404,7 @@ zznews.cn##.ad:not([style])
 ||dustymural.com^
 ||dustyrabbits.com^
 ||dustywave.com^
+||dutuo4.top^
 ||duu8lzqdm8tsz.cloudfront.net^
 ||duusuu.com^
 ||duxmhcj.cn^
@@ -64512,6 +64520,8 @@ zznews.cn##.ad:not([style])
 ||endurablecrayon.com^$third-party
 ||endurableshop.com^
 ||enecto.com^$third-party
+||enemieshemisphere.com^
+||enemieshemisphere.com^$popup
 ||enennsa.gushiwen.cn^
 ||energeticexample.com^
 ||energeticholder.com^
@@ -64851,6 +64861,7 @@ zznews.cn##.ad:not([style])
 ||etx.indiatimes.com^
 ||etxggi.cn^
 ||etxjbxs.top^$third-party
+||etxrowowxcdchv.com^
 ||etyper.com^$third-party
 ||eu-survey.com^$third-party
 ||eu.groupondata.com^
@@ -65537,6 +65548,7 @@ zznews.cn##.ad:not([style])
 ||febao.xyz^
 ||febcyv.joshi-spa.jp^
 ||febnylhx.com^
+||februarynip.com^
 ||fedrocou.net^
 ||feebleshock.com^
 ||feed-xml.com^
@@ -67125,6 +67137,7 @@ zznews.cn##.ad:not([style])
 ||girklr.cn^
 ||girlbuffalo.com^
 ||girliewinding.com^
+||girlsofdesire.org/blr2.php
 ||giroud.top^
 ||gisp6piot.cyou^
 ||github.com/_private/browser/stats
@@ -80934,6 +80947,7 @@ zznews.cn##.ad:not([style])
 ||ponderouscentigradecredit.com^
 ||poneer.hnlczgjx.com^
 ||pongsone.uno^
+||ponti-pzk.com^$popup
 ||pony.bylt.co^
 ||pony.ftm.cat^
 ||pony.musicmixpro.co.uk^
@@ -81658,6 +81672,7 @@ zznews.cn##.ad:not([style])
 ||pv8n.cn^
 ||pv966.us/js/tw.js
 ||pvclouds.com^
+||pvclouds.com^$popup
 ||pvd.to^$third-party
 ||pvgzoqc.cn^
 ||pvhgws7.com^
@@ -82043,6 +82058,7 @@ zznews.cn##.ad:not([style])
 ||qkixi.com^
 ||qkkgish.cn^
 ||qkkjd.com^$third-party
+||qkobbgs.cyou^
 ||qkptx.com^
 ||qksapp.net/gif/
 ||qksrv.net^
@@ -88002,6 +88018,7 @@ zznews.cn##.ad:not([style])
 ||stammerail.com^
 ||stampsmindlessscrap.com^
 ||stan.xing.com^
+||standardscaldexcessive.com^
 ||standingnest.com^
 ||standingsack.com^
 ||standtrouble.com^
@@ -88040,6 +88057,7 @@ zznews.cn##.ad:not([style])
 ||startrekk.flaconi.de^
 ||startrekk.flaconi.fr^
 ||startrekk.flaconi.pl^
+||startribune.com^$removeparam=refresh
 ||stas.outbrain.com^
 ||stascorp.com/stat/
 ||stastips.net^
@@ -89345,6 +89363,7 @@ zznews.cn##.ad:not([style])
 ||swiatkoni.pl/file/Banner_
 ||swift.jos.ht^
 ||swiftmining.win^$third-party
+||swiftpedigreebike.com^
 ||swiftypecdn.com/cc.js$third-party
 ||swiftypecdn.com/te.js$third-party
 ||swimg2.tsderen.cn^
