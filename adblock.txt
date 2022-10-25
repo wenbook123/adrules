@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: UjLetE/JQi6b4z5EIcpR0A
+! Checksum: a7z5/9ZlTMof0/cVsWQhxA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-10-25 09:27:33（北京时间） 
-! Total count: 99263
+! Version: 2022-10-25 16:31:43（北京时间） 
+! Total count: 99258
 ###AD_G
 ###AD_L
 ###AD_Top
@@ -880,12 +880,6 @@
 ###bing-text-ad-3
 ###bl_mobile_float
 ###bl_mobile_float[style='height: 152px;']
-###block-articlebelowtextad
-###block-articlefrontpagead
-###block-articletopadvert
-###block-frontpageabovepartnersad
-###block-frontpagead
-###block-frontpagesideadvert1
 ###block-ltadvertising-ltadvertising
 ###block-views-ads-sidebar-block-block
 ###blogads
@@ -1920,10 +1914,7 @@
 ##.ac_adbox_inner
 ##.acm-ad-tag-unit
 ##.acm_ad_zones
-##.ad--article
 ##.ad--banner
-##.ad--banniere_basse
-##.ad--banniere_haute
 ##.ad--billboard
 ##.ad--bottom
 ##.ad--bottom-label
@@ -1932,9 +1923,6 @@
 ##.ad--container
 ##.ad--content
 ##.ad--desktop
-##.ad--droite_basse
-##.ad--droite_haute
-##.ad--droite_middle
 ##.ad--footer
 ##.ad--google
 ##.ad--halfpage
@@ -1955,7 +1943,6 @@
 ##.ad--mobile
 ##.ad--mpu
 ##.ad--native
-##.ad--outstream
 ##.ad--p1
 ##.ad--p2
 ##.ad--p4
@@ -30319,6 +30306,10 @@ cricbuzz.com##.cb-ad-unit
 crichd.*##div[id^="floatingLayer"]
 crichd.tv###notice
 cricketgames.club,dubznetwork.com#@#.banner_ad
+crictracker.com###stickyunit
+crictracker.com##div[class^="d-none"][style^="min-height"][style*="90px"]
+crictracker.com##div[class^="style_popupAd_"]
+crictracker.com##div[id^="div-ad-gpt-"]
 criticecho.com#?##right-sidebar > div.inside-right-sidebar > aside.widget:has(> div.textwidget > div[id^="amzn-assoc-ad-"])
 crockotube.com##div[class*="vision"]
 croclix.me##ins[style$="width:300px;height:250px;"]
@@ -32681,6 +32672,7 @@ fmoviesto.cc##+js(json-prune, *, bannerId)
 fmoviesto.cc##+js(json-prune, ads)
 focus.cn##.index-app-download
 focus.cn##.qhb-fixed
+focus.pl##.cbad
 fodors.com##div[class^="ad-placeholder"]
 foerderland.de#@#.pub_300x250
 foerderland.de#@#.pub_300x250m
@@ -35664,7 +35656,6 @@ investopedia.com##.partnerlinks
 investorshub.advfn.com##.page-container > div.container-fluid > div#posts.row
 investorshub.advfn.com#?#header > div.full > div.container-fluid:has(> div.top-banner)
 inwestycje.pl###show-message
-inzynieria.com##.w2g-rodzic
 ionomusic.com#@#object[width="300"][height="300"]
 ioscreator.com##.adsbygoogle
 ioshacker.com#?##canvas-content > div.cnvs-block-section:has(div.cnvs-block-section-content-inner > center > ins.adsbygoogle)
@@ -41940,6 +41931,7 @@ rentanadviser.com#?##ctl00_ContentPlaceHolder1_lblvideos > .videocontainer:has(>
 rephrase.info##.d-ad1-none
 rephrase.info##.d-ad2-none
 rephrase.info##.text-center > span.text-center[style^="color:"]
+rephrase.info#$#body #detect[class] { display: block !important; }
 rephrase.info#$?#div[id^="adngin-incontent_"] { remove: true; }
 rephrase.info,paraphraser.io##.d-none > div[style="position:sticky;top:10px;"]
 repo.hackyouriphone.org##.labeladv
@@ -42076,8 +42068,6 @@ rollercoin.com##.banners-container
 rollercoin.com#@#.adBlock
 romadd.com##+js(no-setTimeout-if, getComputedStyle(ad,null))
 romadd.com#@#.adsbygoogle
-romania-insider.com###block-nodepagebelowlatespress
-romania-insider.com###block-nodepagebelowtrendingcontent
 romsgames.net##[onclick^="javascript:window.open"][style^="background: #e7fbf6;"]
 romsgames.net,msn.com##.adlabel
 romspedia.com,gdforum.freeforums.net###ad1
@@ -44360,7 +44350,6 @@ thienhatruyen.com#$#abort-current-inline-script $ pc-popup-2
 thinbug.com###inktokad
 thingiverse.com##+js(no-fetch-if, www3.doubleclick.net)
 thingiverse.com##div[class^="AdCard"]
-thinkcomputers.org##.apPluginContainer
 thinkphp.cn##.a6
 thisav.com###vjs-banner-container
 thisav.com#@#.adsBox
@@ -71438,6 +71427,7 @@ zznews.cn##.ad:not([style])
 ||ixjrwczv.com^
 ||ixmlusc.cn^
 ||ixnrmco.com^
+||ixqkgc.cn^
 ||ixspublic.com^$third-party
 ||iy.com.cn^$third-party
 ||iy20.com^
@@ -72993,6 +72983,7 @@ zznews.cn##.ad:not([style])
 ||klsynmld.fun^
 ||kltnnxb.cn^
 ||kltxw.xyz^
+||klyhw.xyz^
 ||km-sea.net^$third-party
 ||km.senxiaopang.top^
 ||km1.muhoujiemi.com^
@@ -77449,6 +77440,7 @@ zznews.cn##.ad:not([style])
 ||mroft.gubgonx.cn^
 ||mrpdata.net^
 ||mrqls.to/info/
+||mrrw.xyz^
 ||mrshw.mobi^
 ||mrwebmaster.it/work/stats.php?
 ||mrwen.xyz^
@@ -78957,6 +78949,7 @@ zznews.cn##.ad:not([style])
 ||oal2.destinia.co.uk^
 ||oamoatch.com^
 ||oanimsen.net^
+||oanlisgk.fun^
 ||oaphoace.net^
 ||oataltaul.com^
 ||ob3o3r7.cn^
@@ -93375,6 +93368,7 @@ zznews.cn##.ad:not([style])
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 ||uejwqbgtjxdw.com^
 ||uekjbr.cn^
+||uekqdec.cn^
 ||uektb.com^
 ||uengbalc.fun^
 ||uestat.video.qiyi.com^
@@ -98328,6 +98322,7 @@ zznews.cn##.ad:not([style])
 ||yyupphb.cn^
 ||yyv.co/Webservices/jsParseLinks.aspx$script,third-party
 ||yyv.co/visitScript/$script,third-party
+||yywccbdy.cyou^
 ||yywridi.cn^
 ||yywvruv.cn^
 ||yywz123.com/file/A*.js
