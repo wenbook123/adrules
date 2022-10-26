@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-10-26T06:01:16.145Z
+! Last modified: 2022-10-26T16:07:25.960Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,10 @@
 !
 !
 !
+||sonic-ui.highereducation.com^
+||appalspowters.com^
+||htthereflewove.xyz^
+||viaqoo.tech^
 ||hisurnhuh.com^
 ||scentedindication.com^
 ||eiyoatxbrbyu.com^
@@ -1511,21 +1515,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8077
 !+ NOT_PLATFORM(windows, mac, android)
 ||delivery.senvangvn.com^
-! NOTE: Fixing other filters end ⬆️
-! !SECTION: Fixing other filters
-
-!
-! Source name: AdGuard Base filter cryptominers
-! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/cryptominers.txt
-!
-!
-! Another miners
-! sample url for one of the miners: silimbompom.com/142711235a1c137.2.n.2.1.js
-!                                   http://nddmcconmqsy.ru/7492512165a41313.3.n.2.1.l60.js
-!                                   http://jwduahujge.ru/0741703015aacf2.3.1.1.1.l80.js
-.n.2.1.js^
-.n.2.1.l60.js^
-.1.1.1.l80.js^
 .3.n.2.1.l50.js
 .3.n.2.2.l30.js
 !
@@ -1655,11 +1644,9 @@ vkcdnservice.appspot.com^
 ||xy.nullrefexcep.com^
 ! don't add `^` to these rules
 ||jshosting.bid
-||freecontent.date
 ||hostingcloud.download
 ||freecontent.bid
 ||freecontent.racing
-||freecontent.stream
 ||s*.skencituer.com^
 ||mine.torrent.pw^
 !
@@ -24015,6 +24002,10 @@ vkcdnservice.appspot.com^
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||tracking3.vnncdn.net^
+||analytics.dap-networks.de^
+||analytics.algolia.com^
+||t.360.audion.fm^
 ||withcabin.com^
 ||pixel.ipinfo.io^
 ||f4cebacks.com^
@@ -24023,7 +24014,6 @@ vkcdnservice.appspot.com^
 ||insights-collector.newrelic.com^
 ||analytics.126.net^
 ||metrics.userguiding.com^
--spiky.clevertap-prod.com^
 ||ptztvpremium.com^
 ||analyticssystems.net^
 ||events.il.fi^
@@ -28488,6 +28478,11 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||lists.ccmbg.com^
+||track-srv.vietnamnet.vn^
+||stats.zone-telechargement.
+||stats.tirexo.blue^
+||cnt.streamz.ws^
 ||intake-analytics.wikimedia.org^
 ||tracking.univtec.com^
 ||counter.sberbank.ru^
@@ -29507,7 +29502,6 @@ vkcdnservice.appspot.com^
 ||logcol.kyobobook.co.kr^
 ||logcollect.totalcms.ncloud.or.kr^
 ||logconfig.polarisoffice.com^
-||logger-*.dailymotion.com^
 ||logger.applovefrom.com^
 ||logger.bzu.kr^
 ||logger.cbs.co.kr^
@@ -29561,7 +29555,6 @@ vkcdnservice.appspot.com^
 ||metric.inetcore.com^
 ||metric.nimo.tv^
 ||metric.timewarnercable.com^
-||metric*.rediff.com^
 ||metrics-api.librato.com^
 ||metrics-broker.prod.p.tf1.fr^
 ||metrics.apartments.com^
@@ -29617,7 +29610,6 @@ vkcdnservice.appspot.com^
 ||mms.syracuse.com^
 ||mms.theroot.com^
 ||mobile.slgnt.eu^
-||mobileanalytics.*.amazonaws.com^
 ||momowa.momoshop.com.tw^
 ||monitor-targeting-failures.sqrt-5041.de^
 ||monitoring.youronlinechoices.com^
@@ -30073,8 +30065,6 @@ vkcdnservice.appspot.com^
 ||stats.wwd.com^
 ||stats.ynet.co.il^
 ||stats.zmags.com^
-||stats.zone-telechargement.click^
-||stats.zone-telechargement.work^
 ||stats01.20min.ch^
 ||stats1.wpmudev.com^
 ||stats2.arstechnica.com^
@@ -30104,7 +30094,6 @@ vkcdnservice.appspot.com^
 ||t.clic2buy.com^
 ||t.custora.com^
 ||t.dailymail.co.uk^
-||t.delfi.
 ||t.dtscdn.com^
 ||t.eharmony.com^
 ||t.frtyi.com^
@@ -30262,7 +30251,6 @@ vkcdnservice.appspot.com^
 ||track.wattpad.com^
 ||track.wildblue.com^
 ||track.workablemetro.com^
-||track.zalando.
 ||track.zappos.com^
 ||track.zomato.com^
 ||trackcommon.hujiang.com^
@@ -30346,7 +30334,6 @@ vkcdnservice.appspot.com^
 ||tracking.nw.de^
 ||tracking.oe24.at^
 ||tracking.olx-st.com^
-||tracking.olx.
 ||tracking.oui.sncf^
 ||tracking.performgroup.com^
 ||tracking.pixelfederation.com^
@@ -30376,7 +30363,6 @@ vkcdnservice.appspot.com^
 ||tracking.ustream.tv^
 ||tracking.vitringez.com^
 ||tracking.yourfilehost.com^
-||tracking*.euroads.fi^
 ||tracking2.channeladvisor.com^
 ||trackingapi.cloudapp.net^
 ||trackingapi.kaufda.de^
@@ -30553,8 +30539,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Apps of Naver Corp https://github.com/AdguardTeam/AdguardFilters/pull/100824
 ||ntracker-collector.naver.com^
 ||ace.naver.com^
-! xiaomi mi band app
-||datacollector-*.dt.hicloud.com^
 ||app-analytics-ru.huami.com^
 ! spb tv android app
 ||metrics.spbtv.com^
@@ -31044,7 +31028,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||metrics.sdkbox.com^
 ||mlb.did.ijinshan.com^
 ||mobile-collector.newrelic.com^
-||mobileanalytics.*.amazonaws.com^
 ||mobilelog.upqzfile.com^
 ||ms.cmcm.com^
 ||mtlog.droid4x.cn^
@@ -32916,6 +32899,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lore.circulate.com^
 ||lucid.mjhassoc.com^
 ||lunametrics.wpengine.netdna-cdn.com^
+||m.stripe.com^
 ||ma.logsss.com^
 ||martech.condenastdigital.com^
 ||mas.nth.ch^
@@ -33002,6 +32986,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||px.spiceworks.com^
 ||pylon.micstatic.com^
 ||qubitanalytics.appspot.com^
+||r.stripe.com^
 ||reach-id.orbit.tm-awx.com^
 ||realm.hearst3pcc.com^
 ||refer.ccbill.com^
@@ -33848,6 +33833,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zs.dhl.de^
 ||affiliation.planethoster.info^
 ||analytics.valiuz.com^
+||at.360.audion.fm^
 ||btstats.devtribu.fr^
 ||calotag.com^
 ||collect-v6.51.la^
@@ -34124,6 +34110,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! https://forum.adguard.com/index.php?threads/ivoox-com-podcasts-issues.29530/
 ! ||addevweb.com^$third-party
 !
+||publi.atresmediapublicidad.com^
 ||landings.zcoptry.com^
 ||banners.inforchannel.com.br^
 ||popunder.online^
@@ -34342,7 +34329,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||byevkj.com^
 ||y8lsyibocd.ru^
 ||major-t-code.com^
-||viaqoo.tech^
 ||chicgar.info^
 ||iwe.ktvgv.com^
 ||mowunai.ru^
@@ -38427,7 +38413,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||partner.become.co.jp^
 ||ladsp.jp^
 ||a-affiliate.net^
-||solty.biz^
 ||ala.durasite.net^
 ||scottdwebgraphics.com^
 ||p.permalink-system.com^
@@ -40032,8 +40017,8 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 26 Oct 2022 11:15 UTC+7
-! Version: 2210261115
+! Last modified: 26 Oct 2022 15:18 UTC+7
+! Version: 2210261518
 ! Blocked: 1.545 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -40255,7 +40240,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.tv.zing.vn^
 ||tracking.vnncdn.net^
 ||tracking2.vnncdn.net^
-||tracking3.vnncdn.net^
 ||trk-pcweb.api.zaloapp.com^
 ||urekamedia.com^
 ||v20.cnnd.vn^
@@ -41446,7 +41430,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||toppage.vn^
 ||tr.topdevvn.com^
 ||tracer.concung.com^
-||track-srv.vietnamnet.vn^
 ||track.adshay.vn^
 ||track.icheck.com.vn^
 ||track.kyna.vn^
@@ -43672,6 +43655,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||qsnignsy.xyz^
 ||kl87n.xyz^
 ||682891.com^
+||wk4y.cn^
+||srbzw.cn^
+||6v6.work^
+||u0082.com^
+||bj-gov-cn.website^
 ||000123456789.online^
 ||000123456789.site^
 ||000123456789.space^
@@ -44077,7 +44065,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||8zhou.wang^
 ||90158js.com^
 ||910weixin.com^
-||9136.com^
 ||9191919199.com^
 ||91cy.top^
 ||91eto.xyz^
