@@ -8313,6 +8313,7 @@ leechpremium.link##.adsbygoogle
 leechpremium.link##.fade.modal-backdrop
 leechpremium.link##[id*="ScriptRoot"]
 leechpremium.link##body:style(overflow: auto !important;)
+leechpremium.link##.row > .col-md-2:first-child > .pricingTable
 ! https://github.com/uBlockOrigin/uAssets/issues/3777#issuecomment-586671449
 @@/peel.js$script,domain=leechpremium.link
 leechpremium.link##+js(aopr, app_vars.force_disable_adblock)
@@ -11416,6 +11417,10 @@ laradiobbs.net##+js(set, adblock, false)
 ||fwmrm.net/ad/*$script,redirect=noopjs,domain=nationalgeographic.com
 @@||fwmrm.net/*/fox_live/AdManager.js$script,domain=nationalgeographic.com
 !#endif
+! https://www.reddit.com/r/uBlockOrigin/comments/ygkeqa/
+nationalgeographic.fr##+js(no-xhr-if, /\/VisitorAPI\.js|\/AppMeasurement\.js/)
+nationalgeographic.*##.ng-ad-banner
+nationalgeographic.*##.ngart__footer-ad
 
 ! https://forums.lanik.us/viewtopic.php?p=146528#p146528
 mystream.to,mstream.*##+js(aopr, open)
@@ -16924,6 +16929,8 @@ streamz.*,streamzz.*#?#button:has(span:has-text(Skip))
 *##[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 #@#div[id^="div-gpt-"]
 *##div[id^="div-gpt-"]:not([id^="div-gpt-ad"]):style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
+! https://github.com/AdguardTeam/AdguardFilters/issues/133464
+itabashi-times.com##.widget_pcadwidget:has(> div[id^="div-gpt-"])
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6860
 javpornstreaming.com##+js(aopr, adBlockDetected)
