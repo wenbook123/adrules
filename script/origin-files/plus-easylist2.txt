@@ -1789,7 +1789,7 @@ apkmirror.com##.advertisement-text
 apkmirror.com##.ains:style(height: 0px !important; min-height: 0px !important; padding: 0px !important;)
 apkmirror.com##.downloadCountdown
 apkmirror.com##.OUTBRAIN
-apkmirror.com##+js(aost, document.querySelectorAll, /^(?=.*(inlineScript|#safeDownload))(?=.*onload).*/)
+apkmirror.com##+js(aost, document.querySelectorAll, /onload inlineScript|onload https/)
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=38653
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se##+js(nostif, .call(null), 10)
@@ -4728,6 +4728,10 @@ hentai2w.com##.aside-itempage-col
 ||hentai2w.com/templates/default/js/checkAb.js
 ||hentaicdn.com^*/NATORI.$script,3p
 ||beach-trk.com^$3p
+/\/hentai2w\.com\/([0-9]{8})\/([a-z0-9]+)\.(js|php)$/$script
+||hentai2w.com/templates/default/js/arf-*.js$script
+hentai2w.com##+js(acis, Math.random, ExoLoader)
+hentai2w.com##.arf-sec
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1938
 peliculas1mega.com##+js(aopw, adsurgeNode)
