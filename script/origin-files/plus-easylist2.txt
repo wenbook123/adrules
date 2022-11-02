@@ -1884,8 +1884,14 @@ play.history.com##+js(json-prune, data.reg)
 ||mssl.fwmrm.net/*/AdManager.js$script,redirect=noopjs,domain=history.com
 @@||mavencoalition.io^$xhr,domain=history.com
 @@||aetnd.com^$ghide
-@@||play.aetv.com^$script,1p
-@@||aetv.hb.omtrdc.net^$xhr,domain=play.aetv.com
+||play.aetv.com/vendor/ResonateAnalytics.min.js$script
+||play.aetv.com/vendor/conviva-thePlatform-plugin.js$script
+||play.aetv.com/vendor/conviva-core-sdk.js$script
+||play.aetv.com/vendor/branch.js$script
+||play.aetv.com/vendor/Samba.min.js$script
+||play.aetv.com/vendor/amplitude.js$script
+||play.aetv.com/vendor/at.js$script
+||play.aetv.com/vendor/MediaSDK.min.js$script
 history.com#@#.m-header-ad
 history.com#@#.m-in-content-ad-row
 history.com##aside:has([class*="-ad-"])
@@ -2018,6 +2024,8 @@ porntrex.com##.fake-player
 *$script,3p,denyallow=blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,domain=porntrex.com
 ! https://github.com/uBlockOrigin/uAssets/commit/775ab4c3221128355764b828902e5d70468d6f4d#commitcomment-61301673
 porntrex.com##+js(disable-newtab-links)
+! https://github.com/uBlockOrigin/uAssets/issues/15503
+||porndoe.com/movie/preroll/*$media,redirect=noopmp4-1s,domain=porntrex.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/870
 ! https://www.reddit.com/r/uBlockOrigin/comments/hbxqip/sxyprnnet_video_ads/
