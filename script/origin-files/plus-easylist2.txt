@@ -2036,6 +2036,7 @@ sxyprn.*##+js(aopr, popns)
 sxyprn.*##.post_el_wrap > .tdn
 sxyprn.*###vid_container_id > .tdn
 *$frame,script,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,domain=sxyprn.*
+||ocwagmlizb.com^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1197
 lacuevadeguns.com##+js(aost, onload, inlineScript)
@@ -9698,7 +9699,6 @@ hulu.com##+js(set, Object.prototype.createAdBlocker, noopFunc)
 hulu.com##+js(set, Object.prototype.isAdPeriod, falseFunc)
 ||assetshuluimcom-a.akamaihd.net/*.mp3$media,redirect=noopmp3-0.1s,domain=hulu.com
 ||ads-v-darwin.hulustream.com^$media,redirect=noopmp4-1s
-!||akamaihd.net/prerolls$media,redirect=noopmp4-1s,domain=hulu.com
 @@||hulu.com^$ghide
 hulu.com###banner-ad-container
 hulu.com##.ad-choices
@@ -11455,8 +11455,11 @@ series9.*##div[style="padding:15px 0;text-align:right;"]
 ! https://github.com/NanoMeow/QuickReports/issues/871
 linkberuang.*##+js(set, safelink.adblock, false)
 
-! diariodenavarra.es anti adb
+! https://github.com/uBlockOrigin/uAssets/issues/15548
 diariodenavarra.es##+js(nostif, AdBanner, 2000)
+@@||diariodenavarra.es^$ghide
+diariodenavarra.es###AdSlot_megabanner
+diariodenavarra.es##.sticky_roba
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/b2jaz9/why_can_you_bypass_blockadblock_with/ejahevw/
 giochiabandonware.com##+js(nobab)
@@ -13853,9 +13856,6 @@ games4king.com##+js(ra, target)
 4share.vn##+js(nano-stb)
 4share.vn##+js(nowoif)
 
-! https://github.com/uBlockOrigin/uAssets/issues/6048
-@@||xooimg.com^$ghide
-
 ! fix openplayer .net anti adb
 openplayer.net##+js(acis, document.addEventListener)
 
@@ -15103,6 +15103,7 @@ daftsex.com##+js(aopr, AaDetector)
 daftsex.com##+js(set, extEnabled, 0)
 daxab.com##+js(nowebrtc)
 ||daftsex.com/sw$script,1p
+?zoneid=*&ab=1|$script,3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6387
 shrinkme.io##+js(aopr, app_vars.force_disable_adblock)
