@@ -1,8 +1,8 @@
-! Checksum: WLJso8QiIx/pN+OGXScXIw
+! Checksum: UQjRvVPnhLlbioD1sWO5vg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.71.57
-! TimeUpdated: 2022-11-06T00:31:04+00:00
+! Version: 2.0.71.60
+! TimeUpdated: 2022-11-06T06:31:03+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2544,6 +2544,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 !---------------------------------------------------------------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/r/*?_r=$object,third-party
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -6604,6 +6605,11 @@ ubmcmm.baidustatic.com
 ||u756fvjp.cn^
 ||bdjg.xyz^
 ||zsnignsq.xyz^
+||eqpzy.cyou^
+||1porp.top^
+||nmhte.xyz^
+||f3go4jpwa.shop^
+||xp2tb80s.xyz^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -14836,7 +14842,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ghjie.com/JS/youcegg.js
 ||ghoffice.com/bbs/js/float.js
 ||ghost580.com/js/nei4.js
-||gimy.*/images/eee.png
+||gimy.*/images/eee*.png
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gjwind.com/xxmh.gif
 ||gk99.com/static/js/a-d-sys.js
@@ -17315,6 +17321,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+gimy.app##.box-video-text-list + a
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -20815,7 +20822,6 @@ kaifu.com##.play_fmt
 ttsp.tv##.play_list_adbox
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.play_list_panel
 ifeng.com##.playad
-gimy.tv##.playadbox
 senfun.net##.player-recommend
 qq.com##.player-side-ads
 league-funny.com##.player_bb
@@ -24255,7 +24261,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||fpb1.apple886.com^
 ||fpb1.chinacar.
 ||fpb1.jsq886.com^
-||fpb1.qicaixianhua.com^
+||fpb1.kedabai.com^
 ||fpb1.tabuzhe.com^
 ||fwccw.com^
 ||fxjs.2541.com^
