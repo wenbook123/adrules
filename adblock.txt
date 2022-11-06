@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 0tT6Ez7Junh3vLNz36N+GQ
+! Checksum: O7N4F76+GfqFdLFONEmKAQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-11-06 00:19:55（北京时间） 
-! Total count: 101869
+! Version: 2022-11-06 09:09:01（北京时间） 
+! Total count: 101874
 ###AD_G
 ###AD_L
 ###ADbox
@@ -3787,7 +3787,6 @@
 ##img[width="600"][height="90"]
 ##img[width="720"][height="90"]
 ##img[width="728"][height="90"]
-##ins[data-revive-zoneid]
 ##object[width="240"][height="400"]
 ##object[width="500"][height="100"]
 ##oxk
@@ -16747,10 +16746,13 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com
 @@||doubleclick.net/ddm/trackclk/$popup,domain=hongkongcard.com
 @@||doubleclick.net/gampad/*adPositionName%3Dsuperbanner_$xmlhttprequest,domain=spiegel.de
+@@||doubleclick.net/gampad/ads?$xmlhttprequest,domain=soranews24.com
 @@||doubleclick.net/gpt/pubads_impl$domain=www.gamer.com.tw
 @@||doubleclick.net/gpt/pubads_impl_$domain=mytvsuper.com|tvb.com|tvbs.com.tw
+@@||doubleclick.net/gpt/pubads_impl_$script,domain=soranews24.com
 @@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|downdetector.com|epaper.timesgroup.com|formularywatch.com|gamespot.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nbcsports.com|nycgo.com|physicianspractice.com|scotsman.com|webmd.com
 @@||doubleclick.net/instream/ad_status.js$domain=investing.com
+@@||doubleclick.net/tag/js/gpt.js$domain=soranews24.com
 @@||doubleclickbygoogle.com^$object-subrequest,domain=vercanalestv.com
 @@||doubtfulrainstorm.com^$script,xmlhttprequest
 @@||douyucdn.cn^*-share-master/
@@ -35993,7 +35995,7 @@ sony.com#@#.ad-index
 sonyalpharumors.com###custom_html-39
 soonnight.com##.display_natural
 soopat.com###SoopatAside
-soranews24.com##.adb-caption
+soranews24.com#@#.ad
 sorozatbarat.club###banner
 sortporn.com,freeporn8.com,amateur8.com,maturetubehere.com##.invideo.pignr
 sortporn.com,freeporn8.com,amateur8.com,maturetubehere.com##.is-av
@@ -81090,6 +81092,7 @@ zztt24.com##.no-mask
 ||microsser.cn^
 ||midas-i.com^$third-party
 ||midas-network.com^$third-party
+||midas.chase.com^
 ||midenterprise.com^
 ||midgetincidentally.com^$popup
 ||midifan.com/aaa/
@@ -84163,6 +84166,7 @@ zztt24.com##.no-mask
 ||pcgames.com.cn*/index.js
 ||pcgames.com.cn/g/
 ||pcgamesn.com/cdn-cgi/trace
+||pcgamesn.com^$removeparam=driver
 ||pchome.com.tw/iframe/$domain=mail.pchome.com.tw
 ||pchome.com.tw/js/fancybox/
 ||pchome.com.tw/js/overlay_ad.js
@@ -94570,6 +94574,7 @@ zztt24.com##.no-mask
 ||tp88trk.com^$third-party
 ||tp992.top^
 ||tpc.googlesyndication.com^
+||tpc.googlesyndication.com^$image,redirect-rule=1x1.gif,domain=soranews24.com
 ||tpcserve.com^
 ||tpd4.cn^
 ||tpdads.com^

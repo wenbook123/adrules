@@ -1,15 +1,15 @@
 [Adblock Plus 3.0]
-! Checksum: 8nPQGiHPXbxFT/91Kv4amg
+! Checksum: NbbsdNiwRu4+p6L1xHuj4w
 ! Title: My AdFilters（for PC）
 ! Expires: 2 hours
-! Version: 202211052331
-! Last Modified: 2022年11月05日 23:31
+! Version: 202211060732
+! Last Modified: 2022年11月06日 07:32
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
-! Total count: 81132
+! Total count: 81135
 ###AD_G
 ###AD_L
 ###ADbox
@@ -2819,7 +2819,6 @@
 ##img[width="600"][height="90"]
 ##img[width="720"][height="90"]
 ##img[width="728"][height="90"]
-##ins[data-revive-zoneid]
 ##object[width="240"][height="400"]
 ##object[width="500"][height="100"]
 ##script + #coupletBox
@@ -12831,10 +12830,13 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||doubleclick.infineoncorp.com^$domain=eventhubs.com
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com
 @@||doubleclick.net/gampad/*adPositionName%3Dsuperbanner_$xmlhttprequest,domain=spiegel.de
+@@||doubleclick.net/gampad/ads?$xmlhttprequest,domain=soranews24.com
 @@||doubleclick.net/gpt/pubads_impl$domain=www.gamer.com.tw
 @@||doubleclick.net/gpt/pubads_impl_$domain=mytvsuper.com|tvb.com|tvbs.com.tw
+@@||doubleclick.net/gpt/pubads_impl_$script,domain=soranews24.com
 @@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|downdetector.com|epaper.timesgroup.com|formularywatch.com|gamespot.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nbcsports.com|nycgo.com|physicianspractice.com|scotsman.com|webmd.com
 @@||doubleclick.net/instream/ad_status.js$domain=investing.com
+@@||doubleclick.net/tag/js/gpt.js$domain=soranews24.com
 @@||doubleclickbygoogle.com^$object-subrequest,domain=vercanalestv.com
 @@||doubtfulrainstorm.com^$script,xmlhttprequest
 @@||douyucdn.cn^*-share-master/
@@ -27963,7 +27965,7 @@ sony.com#@#.ad-index
 sonyalpharumors.com###custom_html-39
 soonnight.com##.display_natural
 soopat.com###SoopatAside
-soranews24.com##.adb-caption
+soranews24.com#@#.ad
 sorozatbarat.club###banner
 sortporn.com,freeporn8.com,amateur8.com,maturetubehere.com##.invideo.pignr
 sortporn.com,freeporn8.com,amateur8.com,maturetubehere.com##.is-av
@@ -75996,6 +75998,7 @@ zztt24.com##.no-mask
 ||tp.your-look-for-less.se^
 ||tp88trk.com^$third-party
 ||tpc.googlesyndication.com^
+||tpc.googlesyndication.com^$image,redirect-rule=1x1.gif,domain=soranews24.com
 ||tpcserve.com^
 ||tpdads.com^
 ||tpe163.com^
