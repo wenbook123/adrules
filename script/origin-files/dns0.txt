@@ -1,8 +1,8 @@
-! Checksum: nRByO6+EnSv8KsxsncDpDQ
+! Checksum: HTS63DtzUMZgxJ9sAz1kaA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.71.84
-! TimeUpdated: 2022-11-09T00:31:04+00:00
+! Version: 2.0.71.86
+! TimeUpdated: 2022-11-09T07:31:05+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -822,6 +822,7 @@ nfmovies.com#$?#body > .hidden-xs > div[id]:-abp-has(> img[src^="/static/"][oncl
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
 !
 !
+cupfox.app#?##outer-container > .model:-abp-has(> .model-content > a[href*=".jd.com"])
 mobile01.com#?#.l-articlePage:-abp-has(> .l-articlePage__author .c-authorInfo__id > a[href^="/marketstore.php?"])
 news.mydrivers.com#?#.news_info > p:-abp-has(> a[href^="https://dt.mydrivers.com/"])
 news.mydrivers.com#?#.news_info > p:-abp-has(> strong:contains(双11红包活动推荐))
@@ -909,6 +910,8 @@ csdn.net#?##feedlist_id > li:-abp-has(> div[id^="kp_box_"])
 !--------------------------------------!
 ! SECTION: Chinese - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/134441
+jianshu.com#%#//scriptlet("set-constant", "NEWS_FEED", "noopFunc")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132438
 nunuyy3.org#%#//scriptlet("abort-current-inline-script", "$", "infoid")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131449
@@ -1172,6 +1175,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+jianshu.com##section[class][aria-label="ad360-ad"]
 ||mobile01.com/groupbuying.php
 mydrivers.com##div[class^="jdong11"]
 news.mydrivers.com##.baidu_left
@@ -2379,6 +2383,7 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/134441
 ! https://github.com/AdguardTeam/AdguardFilters/issues/133780
 genshin.honeyhunterworld.com#@#.a_p
 ! https://github.com/AdguardTeam/AdguardFilters/issues/130277
@@ -4231,6 +4236,8 @@ ubmcmm.baidustatic.com
 ||dsfhr.xyz^
 ||u09.xyz^
 ||516624.com^
+||i46.xyz^
+||renxingganwu.com^
 .8ox.cn
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
