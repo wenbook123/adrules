@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Pf0ZEkwjjl0lgHIi8FcGcA
+! Checksum: julNVmS5Oe5W6++YpIQlkg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-11-18 16:20:31（北京时间） 
-! Total count: 19749
+! Version: 2022-11-19 00:22:25（北京时间） 
+! Total count: 19754
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -388,6 +388,7 @@
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
 @@/img/tab_$stealth,image,domain=mangakakalot.com
 @@/img_ad/*$domain=tkec.com.tw
+@@/inc/embed/ads.js$domain=wco.tv|watchanimesub.net
 @@/index.m3u8?wmsAuthSign=$stealth
 @@/integrator.js$script,domain=makeuseof.com
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
@@ -672,6 +673,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgeenhealth.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -11294,6 +11296,8 @@
 @@||mafia.ua/js/jquery.smartbanner.js$script,~third-party
 @@||mage.si/advertisement.js
 @@||mage.si^$ghide
+@@||magesy.blog/wp-content/plugins/akismet/_inc/akismet-frontend.js?$script,1p
+@@||magesy.blog/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.min.js?$script,1p
 @@||magesy.blog^$generichide
 @@||magesy.eu^$generichide
 @@||magesy.pw^$generichide
@@ -13291,7 +13295,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=leechpremium.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=felanovia.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=androidcentral.com|crackberry.com|imore.com|windowscentral.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=magesy.*|majesy.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=alfred.camera
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=androidacy.com|udocz.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=apkandroidhub.in
@@ -14268,6 +14271,7 @@
 @@||promo.zendesk.com^$xmlhttprequest,domain=promo.com
 @@||promods.net/*.js$~third-party
 @@||promods.net/ads.js
+@@||promods.net/kampyle.js$script,1p
 @@||promods.net^$ghide
 @@||promopassage.com^$script,xmlhttprequest
 @@||promote.pair.com^$image,domain=pipocas.tv
@@ -14627,6 +14631,7 @@
 @@||raiplaysound.it/common/assets/js/cookieBanner.js$script
 @@||raiplaysound.it/dl/components/js/cookie.pack.js$script
 @@||raiplaysound.it/dl/components/js/cookiebanner/$script,xmlhttprequest
+@@||rakuten-bank.co.jp/rb/ams/img/ad/$~tewolf.com,xbabe.com,xcum.com##.bnnrs-player
 @@||rakuten-bank.co.jp/rb/ams/img/ad/$~third-party
 @@||rakuten.tv^$ghide
 @@||ram.com.br/etc/clientlibs/wisdom/base/analytics.min.js$domain=ram.com.br
