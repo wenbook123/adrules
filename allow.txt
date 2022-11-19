@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: K9j0oHwLKl9SIoFN8Nzs/w
+! Checksum: toMgW/7uChBHQhY4sjnF7g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-11-19 09:07:23（北京时间） 
-! Total count: 19751
+! Version: 2022-11-19 16:21:27（北京时间） 
+! Total count: 19753
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -673,6 +673,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgd-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2506,6 +2507,7 @@
 @@||api.taboola.com^$domain=samsung.com|thestartmagazine.com|taboolanews.com
 @@||api.taiga.io^$removeparam
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
+@@||api.transcend.io/privacy/graphql$xmlhttprequest,domain=privacy.patreon.com
 @@||api.tv.sohu.com/mobile_user/device^$app=com.sohu.sohuvideo
 @@||api.tv.sohu.com^
 @@||api.useinsider.com/sw.js$domain=gratis.com
@@ -6324,6 +6326,7 @@
 @@||eestatic.com/assets_js/dyn/adsbygoogle.js$domain=elespanol.com
 @@||eff.org/sites/$image
 @@||efficaciouscactus.com^$script,xmlhttprequest
+@@||efworks.proquest.com/public/js/tracking.js$~third-party
 @@||egb.com/ajax.php^$document
 @@||egencia.com/pubspec/scripts/include/siteanalytics_include.js
 @@||eggblog.tistory.com^$generichide
@@ -8856,7 +8859,6 @@
 @@||gvt2.com^
 @@||gw.m.163.com^
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
-@@||h,nbcsandiego.com,nbcwashington.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
 @@||h-adashx.ut.dingtalk.com^
 @@||h-sdk.online-metrix.net^$app=com.ebay.mobile
 @@||h-sdk.online-metrix.net^|
