@@ -1,8 +1,8 @@
-! Checksum: cNUYehIG0cRkSOq0g8PFvA
+! Checksum: eahIVFJ+thq8VUONvyu37A
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.72.99
-! TimeUpdated: 2022-11-20T23:31:01+00:00
+! Version: 2.0.73.2
+! TimeUpdated: 2022-11-21T07:31:05+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -85,8 +85,6 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
-||qlogo.cn^
-||baiducdnimages.com^
 ||528791725.com^
 ||8499223.com^
 ||sx.fakjkwp.cn^
@@ -1193,6 +1191,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+||qlogo.cn^$domain=chichiav1.xyz
+||baiducdnimages.com^$domain=chichiav1.xyz
 sex-gen.com##.navi
 ||axutongxue.net/js/roll.js
 ||axutongxue.net/js/popup.js
@@ -2578,6 +2578,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 !--------------- EasyList China rules --------------------------------------!
 !---------------------------------------------------------------------------!
 -*-*-*-*.panda^$script,third-party
+/download-link-js/?v=$script,~third-party
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -4195,6 +4196,13 @@ ubmcmm.baidustatic.com
 ||zw2b9.cn^
 ||wzdy.xyz^
 ||cvemhco.cn^
+||kjndc.xyz^
+||iddhui.com^
+||xf2pf.top^
+||tptp001.buzz^
+||zhhgmh.mobi^
+||mbtpzcb.cn^
+||rzngisyz.xyz^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -15355,7 +15363,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mfacelive.com/Scripts/social/openchannel_min.js
 ||mfav88.com/yinzi/
 ||mg21.com/wp-content/uploads/ad/
-||mgjiasu.com/download-link-js/
 ||mh1234.com/gd/g_js/
 ||mh1234.com^*/wap*.js
 ||mh3666.com^*.jsonp
