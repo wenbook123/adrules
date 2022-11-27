@@ -1,8 +1,8 @@
-! Checksum: axMsBIqaAGFxSSi1WUJabw
+! Checksum: l3mSK7qmobv41twa4BSNMQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.73.58
-! TimeUpdated: 2022-11-27T01:02:49+00:00
+! Version: 2.0.73.62
+! TimeUpdated: 2022-11-27T14:31:07+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1199,6 +1199,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+||thisav.com/player/video-js-banner/
 wuyong.fun##.content-area .adsbygoogle
 hamivideo.hinet.net###overlays-ad
 pythonthree.com##.sidebar-main
@@ -4010,6 +4011,7 @@ ubmcmm.baidustatic.com
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.mobadsq
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -4323,6 +4325,13 @@ ubmcmm.baidustatic.com
 ||xafc.xyz^
 ||aiupiyd.cn^
 ||mhhsa.xyz^
+||utlove02.com^$third-party
+||zgfdczj.mobi^
+||eidphap.cn^
+||simi2345.com^
+||sjcm.fun^
+||yihehe.xyz^
+||pnesemr.cn^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -16983,6 +16992,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+mm-cg.com##.ut1_img_content_js
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
