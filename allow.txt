@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: wuIEUkJ0azsYBCbP0moQrw
+! Checksum: ijr7pMSwl8O+nsdI6vjxMQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-12-03 16:21:27（北京时间） 
-! Total count: 19857
+! Version: 2022-12-04 00:18:18（北京时间） 
+! Total count: 19867
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -686,6 +686,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orguse.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2335,6 +2336,7 @@
 @@||apc-pli.com/api/tracking/$~third-party,xmlhttprequest
 @@||apfeltalk.de/community/$xmlhttprequest
 @@||aphim.co^$generichide
+@@||api*-access-sg.pangle.io^$app=com.square_enix.android_googleplay.dqwalkj
 @@||api-*.cludo.com/api/$stealth
 @@||api-*.netflix.com/win/uwa/$stealth
 @@||api-*.spot.im/v*/broadcasts/broadcasts/sp_$xmlhttprequest,domain=bizpacreview.com
@@ -4400,6 +4402,8 @@
 @@||cdn.vuplay.co.uk/*/comscore.$script,domain=vrt.be
 @@||cdn.watch.aetnd.com/*/swf/FreeWheelAdManagerLoader.swf$domain=mylifetime.com
 @@||cdn.watch.aetnd.com^$domain=fyi.tv|cdn.watch.aetnd.com
+@@||cdn.wazimo.com/engine/common/js/$domain=showsnob.com
+@@||cdn.wazimo.com/media/images/$domain=showsnob.com
 @@||cdn.wisepops.com/shared/wisepops/$script,domain=bluecinema.ch
 @@||cdn.witchhut.com/network-js/witch-afg/ima3.js$domain=friv-2017.com
 @@||cdn.witchhut.com/network-js/witch-afg/ima3.js$domain=playpod.com
@@ -5186,6 +5190,9 @@
 @@||content.unicredit.it/etc/designs/ucpublic/it/*/informativa_cookie.js$script,stylesheet,~third-party
 @@||content.unicredit.it/etc/designs/ucpublic/it/css/cookie/main.css
 @@||content.uplynk.com/preplay/*.json$stealth
+@@||content.wazimo.com/engine/common/*/css/?static=$domain=showsnob.com
+@@||content.wazimo.com/engine/common/*/js/min/?static=$domain=showsnob.com
+@@||content.wazimo.com/engine/common/css/$domain=showsnob.com
 @@||contentlockingnetworks.com/gLoader.php?GID=$script,third-party
 @@||contentlockingnetworks.com/gTemplate.php?GID=$subdocument,third-party
 @@||contents*.00110.citi.com^|
@@ -17064,6 +17071,7 @@
 @@||superligatv.com/js/advertisement.js
 @@||supermicro.com^$elemhide
 @@||supermicro.com^*/static/share/$script,stylesheet
+@@||supersonicads.com^$app=com.square_enix.android_googleplay.dqwalkj
 @@||supertaxi.com/webclient/scripts/tracking/tracking.js$script,~third-party
 @@||superuser.cz^$ghide
 @@||supervisegoldfish.com^$script,xmlhttprequest
@@ -18999,6 +19007,8 @@
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
 @@||waves4you.com/files/advert.js
 @@||wayback.archive.org/web/jsp/Interstitial.jsp?
+@@||wazimo.com/engine/common/widgets/content/$domain=showsnob.com
+@@||wazimo.com/engine/common/widgets/content/main.js$domain=showsnob.com
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
 @@||wcfcourier.com^$ghide
 @@||wco.tv/inc/embed/ads.js
