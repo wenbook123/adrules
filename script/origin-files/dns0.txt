@@ -1,8 +1,8 @@
-! Checksum: qtV7IgqX7iV00wmxF6Vsfw
+! Checksum: z+EJ1yk02yz6FX5UgaxrxA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.75.22
-! TimeUpdated: 2022-12-15T00:31:12+00:00
+! Version: 2.0.75.24
+! TimeUpdated: 2022-12-15T07:31:16+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4016,6 +4016,7 @@ ubmcmm.baidustatic.com
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
+##.guanggaoBox
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
@@ -4618,6 +4619,7 @@ ubmcmm.baidustatic.com
 ||kyrj.xyz^
 ||wyqwrfghj.live^
 ||hcdjy.xyz^
+||tsmirk.xyz^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -16643,7 +16645,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||xiazaicdnapk.com^*.mp4
+||killcovid2021.com/thumb/*.mp4
 szxx.com.cn###A0
+91porn.com##.preroll-blocker
+zk001.cc##SECTION[class^="ch"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
