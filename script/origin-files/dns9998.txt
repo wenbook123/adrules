@@ -2,7 +2,7 @@
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules. 
 ! Homepage: https://kbsml.com
-! Last modified: 12/19/2022, 4:00:08 PM
+! Last modified: 12/20/2022, 8:00:11 AM
 !
 ||e1.o.lencr.org^
 ||log-api.pangolin-sdk-toutiao-b.com^
@@ -29449,6 +29449,7 @@ m.youku.com$$div[class="clipboard h5-detail-vip-guide"]
 m.youku.com$$div[class="x-ad-pause"]
 m.youku.com$$div[class="x-advert"]
 m.youku.com$$div[class="x-hint-app"]
+m.youku.com,v.youku.com##+js(set-constant, Object.prototype._adData, emptyObj)
 mail.126.com##.main-inner-wrap
 -main/ad.
 makaidong.com##.topimg
@@ -30983,7 +30984,7 @@ yibian.hopto.org###no-adblock-box
 bigpixel.cn#$?##PAGE_AD_1 { remove: true; }
 bigpixel.cn##+js(set-constant, killads, true)
 moeci.com##+js(no-setTimeout-if, _0x)
-koyi.pub##+js(set-constant, fuzqingAdPlus, emptyObj)
+koyi.pub##+js(set-constant, fuzqingAdPlus, {})
 pincong.rocks##+js(no-setInterval-if, Ad Block)
 1090ys8.com##+js(abort-on-property-read, adBlockDetected)
 cocomanga.com##+js(no-setTimeout-if, loadErrorTip)
@@ -31226,9 +31227,9 @@ o8tv.com##+js(abort-current-script, document.write, tips)
 xvideo.cc##+js(set-constant, poped, true)
 msn.cn##+js(json-prune, *, list.*.link.ad list.*.link.kicker)
 goodav17.com##+js(abort-on-property-read, popunder)
-v-wb.youku.com##+js(set-constant, Object.prototype.adData, emptyObj)
+v-wb.youku.com##+js(set-constant, Object.prototype.adData, {})
 youku.com##+js(nano-setTimeout-booster, r--, , 0.02)
-m.youku.com,v.youku.com##+js(set-constant, Object.prototype._adData, emptyObj)
+m.youku.com,v.youku.com##+js(set-constant, Object.prototype._adData, {})
 iyf.tv##+js(set-constant, Object.prototype.ShouldPlayAds, 0)
 qciss.net##+js(window.open-defuser, 0, qciss.net)
 88files.net##+js(window.open-defuser)
@@ -32978,6 +32979,7 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 /resource/common/tongzhuo/game_info.json
 /runtime/ad/*
 /runtime/hu/*.js
+/Runtime/Js/300_300.js
 /Runtime/Js/90_m.js
 /Runtime/Js/960_90.js
 /Runtime/js/banner_
@@ -33990,6 +33992,7 @@ _yad_jsonp_
 ||6u4j.icu^
 ||79zxcv.com^
 ||7x1u.icu^
+||81cdn.cn^
 ||828239sam.com^
 ||82ip.top^
 ||86o0h.top^
@@ -34017,6 +34020,7 @@ _yad_jsonp_
 ||b53.xyz^
 ||b6c4.top^
 ||baiduhaoba.com^
+||batiao20221209.xyz^
 ||bdhcpll.cn^
 ||bendan.shop^
 ||benditao.biz^
@@ -34064,6 +34068,7 @@ _yad_jsonp_
 ||dbmcmhh.cn^
 ||dbwmpqd.cn^
 ||dfkd.xyz^
+||dfncojkle.xyz^
 ||dharkyu.cn^
 ||diejs.com^
 ||dinyqgv.cn^
@@ -34097,6 +34102,7 @@ _yad_jsonp_
 ||fkjdz.cyou^
 ||fknrtpp.cn^
 ||folgsl.xyz^
+||fqsokh.xyz^
 ||fsdnp.cyou^
 ||ftdmfxq.cn^
 ||fvtrx.cyou^
@@ -34144,6 +34150,7 @@ _yad_jsonp_
 ||huilianji.com^
 ||huineihan.com^
 ||hxapafn.cn^
+||hztv.xyz^
 ||i46.xyz^
 ||i7x3.fun^
 ||iatf16949.pw^
@@ -34197,6 +34204,7 @@ _yad_jsonp_
 ||koojsc.cn^
 ||kptygka.cn^
 ||kq7k.icu^
+||krp3g.top^
 ||kuanzhan.biz^
 ||kufmbwm.cn^
 ||kvkggg.top^
@@ -34205,6 +34213,7 @@ _yad_jsonp_
 ||kydb.xyz^
 ||kyrj.xyz^
 ||kyzx.xyz^
+||kzehh.com^
 ||kzezz.com^
 ||kzngisyd.xyz^
 ||lambda.center^
@@ -34226,6 +34235,7 @@ _yad_jsonp_
 ||lqnggnsl.fun^
 ||lrkporm.cn^
 ||lsbebm.xyz^
+||lubao-food.mobi^
 ||luotuoma.xin^
 ||lwcsytn.cn^
 ||lwhqa.xyz^
@@ -34241,12 +34251,14 @@ _yad_jsonp_
 ||mrhboe.xyz^
 ||mrzhao.life^
 ||myproteincn.com^
+||mziwkyr.cn^
 ||n0633.com^
 ||necmdow.cn^
 ||nhtieoo.cn^
 ||nijnqwem.xyz^
 ||ningsiy.xin^
 ||nisihu.com.cn^
+||nkelyhz.cn^
 ||nmidhnz.cn^
 ||npmeingm7.shop^
 ||nqnggnsc.fun^
@@ -34376,6 +34388,7 @@ _yad_jsonp_
 ||skfjd1.com^
 ||skfjd1.xyz^
 ||sm3nq.cn^
+||smtlm967.com^
 ||somaliainc.com^
 ||sqnggnsb.fun^
 ||summer5188.com^
@@ -34496,6 +34509,7 @@ _yad_jsonp_
 ||zahrvfbd.xyz^
 ||zbpx.xyz^
 ||zdy1.xyz^
+||zenknho.cn^
 ||zgfckf.mobi^
 ||zgfdczj.mobi^
 ||zgzlw.biz^
@@ -34511,12 +34525,9 @@ _yad_jsonp_
 ||zvxwvny.cn^
 ||zw2b9.cn^
 ||zzngisyq.xyz^
-||mziwkyr.cn^
-||zenknho.cn^
-||fqsokh.xyz^
-||hztv.xyz^
-||lubao-food.mobi^
 ||zzwzsic.cn^
+||jugboja.cn^
+||huxnbnk.cn^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -39966,6 +39977,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ghjie.com/JS/youcegg.js
 ||ghoffice.com/bbs/js/float.js
 ||ghost580.com/js/nei4.js
+||giaoji.com/Runtime/Js/
 ||gimy.*/images/eee*.png
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gjwind.com/xxmh.gif
@@ -45716,6 +45728,7 @@ mamecn.com##.njjGsxzLeft > dl > .cont1
 mamecn.com##.njjGsxzRight
 dyhjw.com##.nn_link
 zztt24.com##.no-mask
+prts.wiki##.nomobile[style*="810px;height:240"]
 zhicheng.com##.normal-banner
 admin5.com##.notice
 jbaaza.com##.notice-img
