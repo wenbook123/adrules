@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: HeuL08Dwp7gQ2ZH5udTA8g
+! Checksum: KMCXc1HPcEvXW5ZH29yE7A
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-12-21 16:19:22（北京时间） 
-! Total count: 19926
+! Version: 2022-12-22 00:21:01（北京时间） 
+! Total count: 19942
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -670,6 +670,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orghird-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1198,6 +1199,7 @@
 @@||ad.amgdgt.com/ads/js/*$domain=ad.amgdgt.com
 @@||ad.amgdgt.com/ads/js/optout.js
 @@||ad.atdmt.com/m/*account_id=*&source=cm&step=1^$domain=facebook.com|facebookcorewwwi.onion
+@@||ad.atdmt.com/m/*account_id=*&source=cm&step=1^$domain=facebook.com|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 @@||ad.atown.jp/adserver/$domain=ad.atown.jp
 @@||ad.azure.com^
 @@||ad.crwdcntrl.net/*/callback=$domain=cityam.com
@@ -2384,6 +2386,7 @@
 @@||api.branch.io/v1/open
 @@||api.branch.io^$app=com.reddit.frontpage
 @@||api.branch.io^$app=com.thechive
+@@||api.browser.yandex.
 @@||api.browser.yandex.*^
 @@||api.bufferapp.com/*/profiles.json
 @@||api.bufferapp.com/*/service/
@@ -2403,6 +2406,7 @@
 @@||api.cxense.com/persisted/execute$script,domain=nippon.com
 @@||api.cxense.com/public/widget/$domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
 @@||api.cxense.com/public/widget/$domain=nippon.com
+@@||api.cxense.com/public/widget/$domain=president.jp
 @@||api.cxense.com/public/widget/$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data$domain=dhnet.be
 @@||api.cxense.com/public/widget/data$domain=friday.gold
@@ -3965,6 +3969,7 @@
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=wallapop.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=zoom.us
 @@||cdn.cookielaw.org/scripttemplates^$domain=abus.com
+@@||cdn.cookielaw.org/scripttemplates^$domain=mojkatalog.rs
 @@||cdn.cookielaw.org/scripttemplates^$domain=trustpilot.com
 @@||cdn.cookielaw.org/skins^
 @@||cdn.cookielaw.org/vendorlist^
@@ -4007,6 +4012,7 @@
 @@||cdn.cxense.com/cx.cce.js$domain=dhnet.be
 @@||cdn.cxense.com/cx.cce.js$domain=journaldemontreal.com
 @@||cdn.cxense.com/cx.cce.js$domain=milenio.com
+@@||cdn.cxense.com/cx.cce.js$domain=president.jp
 @@||cdn.cxense.com/cx.cce.js$domain=tarzanweb.jp
 @@||cdn.cxense.com/cx.cce.js$domain=wsj.com
 @@||cdn.cxense.com/cx.js$domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
@@ -4016,6 +4022,7 @@
 @@||cdn.cxense.com/cx.js$domain=journaldemontreal.com
 @@||cdn.cxense.com/cx.js$domain=lavoz.com.ar
 @@||cdn.cxense.com/cx.js$domain=milenio.com
+@@||cdn.cxense.com/cx.js$domain=president.jp
 @@||cdn.cxense.com/cx.js$domain=stomp.com.sg
 @@||cdn.cxense.com/cx.js$domain=tarzanweb.jp|tv-tokyo.co.jp|wpb.shueisha.co.jp
 @@||cdn.cxense.com/cx.js$domain=tn.com.ar
@@ -4566,6 +4573,7 @@
 @@||cetesdirecto.com^$stealth
 @@||cf.http.anno.channel4.com^$domain=channel4.com
 @@||cfnode*.xyz/*.php?url=$stealth,domain=libvio.me
+@@||cgchannel.com/wp-content/uploads/*_Advertorial_*.jpg
 @@||cgi.connect.qq.com^
 @@||cgmodel.com/plugin/share/
 @@||cgtn.com/static/public/web_share/css/shareStyle.css
@@ -5402,6 +5410,7 @@
 @@||cse.google.com^
 @@||csi.gstatic.com^
 @@||csid.com/wp-content/plugins/bwp-minify/min/?*/google-analyticator/$script
+@@||csm.cxpublic.com/President.js$domain=president.jp
 @@||csm.cxpublic.com/Shueisha.js$domain=wpb.shueisha.co.jp
 @@||csm.cxpublic.com^$script,domain=mainichi.jp
 @@||csm.cxpublic.com^$script,domain=mainichi.jp|tarzanweb.jp
@@ -8460,6 +8469,7 @@
 @@||googletagmanager.com/gtm.js$domain=blue-tomato.com
 @@||googletagmanager.com/gtm.js$domain=braun.com
 @@||googletagmanager.com/gtm.js$domain=brita.de
+@@||googletagmanager.com/gtm.js$domain=buhitter.com
 @@||googletagmanager.com/gtm.js$domain=bunte.de|stiefelparadies.de
 @@||googletagmanager.com/gtm.js$domain=cabinet.planetakino.ua
 @@||googletagmanager.com/gtm.js$domain=capital.fr
@@ -12044,7 +12054,10 @@
 @@||molyusercontentstage.me/*/*.mp4$stealth,domain=vidmoly.me
 @@||molyusercontentstage.me/hls/$stealth
 @@||momovod.com/js/momo/adsbygoogle.js
+@@||monetate.net/img/$domain=consumerreports.org
+@@||monetate.net/js/$domain=consumerreports.org
 @@||monetate.net/js/$domain=nike.com
+@@||monetate.net/trk/$domain=consumerreports.org
 @@||money.cnn.com/*/ad_policy.xml
 @@||money.it^$generichide
 @@||money.it^$ghide
@@ -13038,6 +13051,8 @@
 @@||outlookindia.com/*anti_ab.js$script
 @@||outstandingincome.com^$script,xmlhttprequest
 @@||outstandingsnails.com^$script,xmlhttprequest
+@@||ov-chipkaart.nl^$extension
+@@||ov-chipkaart.nl^$stealth
 @@||ovagames.com^$ghide
 @@||ovalweek.com^$script,xmlhttprequest
 @@||over-blog-kiwi.com/combo.php?/$script
@@ -15442,6 +15457,7 @@
 @@||scontent-lhr3-1.xx.fbcdn.net^
 @@||scontent.fgdl5-1.fna.fbcdn.net^
 @@||scontent.xx.fbcdn.net/hads-ak-prn2/*.png$domain=facebook.com|facebookcorewwwi.onion
+@@||scontent.xx.fbcdn.net/hads-ak-prn2/*.png$domain=facebook.com|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 @@||scontent.xx.fbcdn.net^
 @@||scooter-chinois-4t.com^$ghide
 @@||scorecardresearch.com$domain=bt.com
