@@ -1,8 +1,8 @@
-! Checksum: Z62l0jFzBnSvQpn5F5MiKg
+! Checksum: k3N7VKEo+C6kZ0bOHvLCHA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.75.81
-! TimeUpdated: 2022-12-22T00:31:13+00:00
+! Version: 2.0.75.84
+! TimeUpdated: 2022-12-22T06:31:19+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4730,6 +4730,10 @@ ubmcmm.baidustatic.com
 ||pm8lw.xyz^
 ||tx9ff.top^
 ||pivlzt.xyz^
+||jkasn.com^
+||mumessn.cn^
+||phcoal.com^
+||omtend.com^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -16761,6 +16765,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+xcyy.tv##body > a
+xcyy.tv##body > style + [id]
+xcyy.tv##body > style + [id] + img
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -24582,7 +24589,7 @@ qq.com#@#.side_ad
 ##.wrap + #btmBox
 ##.wrap + #midBox
 ##body[ontouchstart] > #topBox
-##script[src="/static/base.js"] + #couplet
+##script[src$="/base.js"] + #couplet
 !#T66y.com
 redircdn.com##.al
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+40)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+45)
