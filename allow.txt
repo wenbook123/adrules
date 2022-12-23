@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: P56EKwRXmuY8WL4R7fTaHA
+! Checksum: WpRaWSEEjqEbEyDxB9kTnQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-12-23 16:18:53（北京时间） 
-! Total count: 19207
+! Version: 2022-12-24 00:18:12（北京时间） 
+! Total count: 19215
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -626,7 +626,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org-Analytics.
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1398,7 +1397,6 @@
 @@||ads.adthrive.com/builds/$script,domain=www.mediaite.com
 @@||ads.adthrive.com/core/*/js/adthrive.min.js$domain=mediaite.com
 @@||ads.adthrive.com/core/gdpr/vendor/prebid/prebid.min.js$domain=mediaite.com
-@@||ads.adthrive.com/sites/$scret###media_image-86
 @@||ads.adthrive.com/sites/$script,domain=www.mediaite.com
 @@||ads.adxpansion.com/public/js/showads.php$script,domain=jav777.cc
 @@||ads.agiliro.gq/script.js$domain=ads.agiliro.gq
@@ -2468,6 +2466,7 @@
 @@||appapi.inspsearchapi.com^$domain=search.pch.com
 @@||apparatuslip.com^$script,xmlhttprequest
 @@||appboot.netflix.com^
+@@||appboycdn.com/web-sdk/$script,domain=magicseaweed.com
 @@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
 @@||appdn.net/wp-content/plugins/chilly-pot/assets/js/advertisement.min.js
 @@||appdn.net^$generichide
@@ -2793,6 +2792,7 @@
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 @@||azureedge.net/scripts/*.m3u8$stealth
 @@||azureedge.net^
+@@||azureedge.net^*/analytics/eventtracking.js$script,domain=crimemapping.com
 @@||azurewebsites.net/Plugins/ExternalAuth.Facebook/Content/images/facebook-signing.png
 @@||azvideo.net^$generichide
 @@||b-cloud.templatebank.com/js/gtag.js$~third-party
@@ -4800,6 +4800,7 @@
 @@||commons.wikimedia.org/w/api.php?$~third-party,xmlhttprequest
 @@||commonswing.com^$script,xmlhttprequest
 @@||community.brave.com/t/$xmlhttprequest
+@@||community.mozilla.org/wp-content/uploads/$image
 @@||communityenergysolutions.com/ui/assets/gtm/gtm.js$script,~third-party
 @@||comnuan.com/ads.js
 @@||compass.pressekompass.net/compasses^$domain=spiegel.de
@@ -7894,6 +7895,7 @@
 @@||google.es/translate_$media,third-party,xmlhttprequest
 @@||google.fr/translate_$media,third-party,xmlhttprequest
 @@||google.it/translate_$media,third-party,xmlhttprequest
+@@||google.ml|mobili.ml|melody.ml|dcod.ml|info-matin.ml|amap.ml|mastodon.ml|worproject.ml|nothingprivate.ml|lingva.ml|lemmy.ml|bittor.ml|noic.ml|beatbump.ml|gymlibrary.ml|animevsub.ml|prompt.ml|biblioreads.ml^
 @@||google.pl/translate_$media,third-party,xmlhttprequest
 @@||google.pn/translate_$media,third-party,xmlhttprequest
 @@||google.ps/translate_$media,third-party,xmlhttprequest
@@ -7925,6 +7927,7 @@
 @@||googleads.g.doubleclick.net/pagead/html/*$frame,domain=dl.ccbluex.net
 @@||googleads.g.doubleclick.net/pagead/html/*/zrt_lookup.html$domain=forum.release-apk.com
 @@||googleads.g.doubleclick.net/pagead/id$domain=guides.magicgameworld.com
+@@||googleads.g.doubleclick.net/pagead/id$xmlhttprequest,domain=atikrost.com
 @@||googleads.g.doubleclick.net/pagead/id$xmlhttprequest,domain=sanoybonito.club
 @@||googleads.g.doubleclick.net/pagead/images/abg$domain=lolalytics.com
 @@||googleads.g.doubleclick.net/pagead/images/gmob/close-circle-30x30.png$domain=safeframe.googlesyndication.com
@@ -7936,6 +7939,7 @@
 @@||googleads.g.doubleclick.net^|$app=com.ftt.boxingstar.gl.aos
 @@||googleads.github.io/videojs-ima/$domain=mobile.mako.co.il
 @@||googleads.github.io/videojs-ima/dist/videojs.ima.js$domain=rmfmaxxx.pl
+@@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video$domain=ulifestyle.co
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video$domain=ulifestyle.com.hk
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$domain=blu-ray.com
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$domain=rmfmaxxx.pl
@@ -11204,6 +11208,7 @@
 @@||media.oadts.com/www/delivery/video.php$domain=serienjunkies.de
 @@||media.org.hk^*/ads_
 @@||media.polsatnews.pl^$generichide
+@@||media.richrelevance.com/rrserver/$domain=askul.co.jp
 @@||media.richrelevance.com^$script,domain=samsung.com
 @@||media.sbs.com.au^
 @@||media.simplemachinesweb.com/site/images/icons/ads.png$domain=simplemachines.org
@@ -12650,6 +12655,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=apkmirror.com,stealth
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=arkadium.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=as-selection.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=atikrost.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=atrix.ovh
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=autofaucet.dutchycorp.space
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=avoiderrors.com
@@ -12802,6 +12808,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=supreme-gamers.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sydroid.co
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=syriancivilwarmap.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=t2bot.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tapetus.pl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=taufiqhdyt.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=techkeshri.com
@@ -12920,7 +12927,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=freeserial-keys.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=soranews24.com
-@@||pagead2.googlesyndication.com/pagead/js/google_top_expipt,domain=www.mediaite.com
 @@||pagead2.googlesyndication.com/pagead/js/lidar.js$domain=freewarefiles.com
 @@||pagead2.googlesyndication.com/pagead/js/lidar.js$domain=jerusalemonline.com
 @@||pagead2.googlesyndication.com/pagead/js/lidar.js$domain=soranews24.com
@@ -13442,6 +13448,7 @@
 @@||player.adcdn.tv^$stealth
 @@||player.akubebas.com/?$stealth
 @@||player.aniview.com/script/$script,domain=odysee.com
+@@||player.aniview.com/sement
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com
 @@||player.aplhb.adipolo.com/prebidlink/$script,domain=dropgalaxy.com
 @@||player.arsenal.com/adverts/video
@@ -14313,6 +14320,7 @@
 @@||reconditerespect.com^$script,xmlhttprequest
 @@||record.xl.pt/pub/mrec_dynamic.aspx?pubvar=FOTOS
 @@||recordbutter.com^$script,xmlhttprequest
+@@||recs.richrelevance.com/rrserver/$domain=askul.co.jp
 @@||recs.richrelevance.com/rrserver/p13n_generated.js$domain=bergfreunde.de
 @@||recs.richrelevance.com/rrserver/p13n_generated.js$domain=drogaraia.com.br
 @@||redactor.creatium.io^$document
