@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202212232326
+! Version: 202212240749
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Dec 2022 23:26 UTC
+! Last modified: 24 Dec 2022 07:49 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -39957,7 +39957,7 @@ _vpcookieconsent/
 ||zoomanalytics.co^$third-party
 ||zotabox.com^*/widgets.js$third-party
 ! Google signin popup
-||accounts.google.com/gsi/client$script,third-party
+||accounts.google.com/gsi/iframe/select$subdocument,third-party
 ! 3rd-party sounds
 ||acquire.io/assets/sound/
 ||app.chaport.com/sounds/
@@ -44860,8 +44860,6 @@ theguardian.com##gu-island[name="StickyBottomBanner"]
 phemex.com##p > [href^="https://phemex.com"]
 ! Youtube TV promos
 youtube.com##.ytd-primetime-promo-renderer
-! google signin
-jiji.co.ke,jiji.ng,jiji.ug,reddit.com,twitter.com###credential_picker_container
 ! instgram.com hovercards
 instagram.com##.HoverCard
 ! komonews.com / ktul.com / etc
@@ -45384,6 +45382,8 @@ barandbench.com##div[class^="header-two-m__download-links_"]
 mobile.twitter.com##header[role="banner"] > ._3oxnid3o._3f2NsD-H
 voicy.jp##v-sp-download
 reddit.com##xpromo-top-button
+! uBO-specific fixes
+! #include fanboy_notifications_specific_uBO.txt
 ! *** easylist:fanboy-addon/fanboy_newsletter_specific_hide.txt ***
 ! fanboy_newsletter_specific_hide.txt
 e-day.ro,mtlblog.com###CoverPop-cover
@@ -46732,6 +46732,7 @@ laptopmag.com##.nlSubscribe
 itechpost.com##.nw_cont
 news.artnet.com##.theme-newsletter-signup
 ! uBO-specific fixes
+! #include fanboy_newsletter_specific_uBO.txt
 ! *** easylist:fanboy-addon/fanboy_newsletter_specific_ABP.txt ***
 ! fanboy_newsletter_specific_ABP.txt
 ! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
@@ -56825,7 +56826,6 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@/nk-sub.min.js$script,~third-party
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@/threejs/Particles.js$script,~third-party
-@@||accounts.google.com/gsi/client$script,domain=jiji.co.ke|jiji.ng|jiji.ug|reddit.com|twitter.com
 @@||adfoc.us/*/interstitial.js$~third-party
 @@||amazonaws.com^*/feedback-v2.js?$domain=avgthreatlabs.com
 @@||api.sail-personalize.com/v1/personalize/simple$xmlhttprequest,domain=usnews.com
