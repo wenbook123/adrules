@@ -1,15 +1,14 @@
 ! Title: AdRules Allowlist
-! Checksum: wGR0Kme44myXsrTu7bFsfA
+! Checksum: N4TPkUysiX5Qtrnp3vkvsw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-12-27 08:55:17（北京时间） 
-! Total count: 19217
+! Version: 2022-12-27 16:18:49（北京时间） 
+! Total count: 19216
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
 @@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
-@@$webrtc,domain=walla.co.il
 @@&*=$script,domain=stern.de
 @@&*=$script,domain=www.golem.de
 @@&ad_type=$domain=ultimate-guitar.com
@@ -624,7 +623,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcows.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -17223,7 +17222,6 @@
 @@||torcidatricolor.tv^$ghide
 @@||torimochi.line-apps.com^|
 @@||torontosun.com/assets/js/paywall.min.js
-@@||torontosun.com^$ghide
 @@||torpidtongue.com^$script,xmlhttprequest
 @@||torpidtoothpaste.com^$script,xmlhttprequest
 @@||torrage.info/torrent.php$popup,domain=1337x.to
@@ -17255,6 +17253,7 @@
 @@||townmoneysaver.com^$ghide
 @@||townnews.com^*/ad$script
 @@||townnews.com^*advertisements.js$script
+@@||townwork.net/js/AppMeasurement.js$~third-party
 @@||toyoheadquarters.com^$ghide
 @@||toyota-club.eu^$ghide
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
