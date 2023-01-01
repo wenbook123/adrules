@@ -3031,10 +3031,14 @@ sexu.com##.player-block__square
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3616
 pussyspace.*##+js(aopr, open)
-pussyspace.*##+js(aopr, ad_frequency_count)
-pussyspace.*##:xpath(//span[contains(text(),"PARTNER")]/..)
-/^https:\/\/www\.pussyspace\.(?:com|net)\/style\/\w{200,}$/$image,1p,domain=pussyspace.*
-pussyspace.*##div[id] > div[class] > *:not(div) > img:only-child
+pussyspace.com,pussyspace.net##+js(aopw, ldasdsaj)
+pussyspace.com,pussyspace.net##+js(aost, document.createElement, ExoSupport)
+pussyspace.com,pussyspace.net##+js(aost, Node.prototype.appendChild, www.pussyspace.net/js/all.js)
+pussyspace.com,pussyspace.net##:matches-path(/vid-) [class] img:xpath(ancestor::*[string-length(@class) > 20])
+pussyspace.com,pussyspace.net##style ~ [id] [class]:only-child div:only-child > img
+pussyspace.com,pussyspace.net###alphabet, #channels, #divx-container, #hmenu, #inform, #nowlooking, #playerCamBox, #playerMenu, #qcat, #showPlayer, #tabel_tagslist, #video_content, #web_cam, .buttons, .carouselTopScroll, .carusel-keys-box-ps, .footerdesc, .load_more_rel, .mainBoxTitle, .pagIno, .playerContent100pr, .relatedVideo, .right-160px, .videos-related, footer, header, [href^="/webcams.php"]:others()
+/^https:\/\/www\.pussyspace\.(?:com|net)\/(?!style\/).*/$image,1p,domain=pussyspace.*
+/\/all\.js\?v=\S{10,}/$script,1p,domain=pussyspace.com|pussyspace.net
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1172
 java-forum.org##+js(nostif, nextFunction, 2000)
@@ -13727,7 +13731,7 @@ crunchyroll.com##+js(nosiif, onAdVideoStart)
 crunchyroll.com###template_skin_leaderboard
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6029
-*$popunder,3p,domain=spankbang.com
+!*$popunder,3p,domain=spankbang.com
 spankbang.com##+js(nowoif)
 spankbang.com##+js(set, chrome, undefined)
 spankbang.com##.ttaa2v3
@@ -19309,6 +19313,7 @@ techdracula.com##.adsbygoogle
 !#include filters-2020.txt
 !#include filters-2021.txt
 !#include filters-2022.txt
+!#include filters-2023.txt
 
 
 
