@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: l7pN/6jy1ps2ltx32d1yMA
+! Checksum: 6FSlWIuZLCWYTQLNTHr8FQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-02 16:20:19（北京时间） 
-! Total count: 19206
+! Version: 2023-01-03 00:19:27（北京时间） 
+! Total count: 19212
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -623,7 +623,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcrayon.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3468,6 +3468,7 @@
 @@||cachead.com/*.css
 @@||caf.fr/*/smarttag.js
 @@||caf.fr^*/smarttag.js$script,~third-party
+@@||cafe.naver.com/ArticleRead.nhn$stealth
 @@||cafedelapaix.fr/assets/plugins/bwp-minify/min/$script,~third-party
 @@||calciomercato.com/prebid.js
 @@||calciomercato.com/promodisplay
@@ -4044,6 +4045,7 @@
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=sky.it
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=stol.it
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=tv8.it
+@@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=tvmovie.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=tvspielfilm.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=tvtoday.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=utopia.de
@@ -8214,6 +8216,7 @@
 @@||googletagmanager.com/gtm.js$domain=pccomponentes.com
 @@||googletagmanager.com/gtm.js$domain=pcjisaku.com
 @@||googletagmanager.com/gtm.js$domain=pcmag.com
+@@||googletagmanager.com/gtm.js$domain=petlebi.com
 @@||googletagmanager.com/gtm.js$domain=portsmouth.co.uk
 @@||googletagmanager.com/gtm.js$domain=prego.ua
 @@||googletagmanager.com/gtm.js$domain=programme-tv.net
@@ -11816,6 +11819,7 @@
 @@||mymuesli.com/assets/js/cookiespopup.js$script
 @@||myneobuxportal.com/wp-content/plugins/*/adblock-detector/advertisement.js
 @@||mynewsmedia.co^$generichide
+@@||mynexity.fr/App_Themes/V3/js/Didomi.js
 @@||myqqjd.com^
 @@||myqqjd.com^$generichide
 @@||myreadingmanga.disqus.com^$script
@@ -18408,6 +18412,7 @@
 @@||weather.rambler.ru/static/*/dist/adfox/adfox-loader.min.js^$domain=weather.rambler.ru
 @@||weather.us^$ghide
 @@||weatherx.co.in^$generichide
+@@||web-ads.pulse.weatherbug.net/api/ads/targeting/$domain=weatherbug.net
 @@||web-ads.pulse.weatherbug.net/api/ads/targeting/v*/parameters?$domain=weatherbug.com
 @@||web-capture.net/ads.js
 @@||web.any.do^$document
@@ -19210,4 +19215,5 @@
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 @@||zyz.sdljwomen.com/*/?url=$stealth
+@@|||streamhide.*/js/dnsads.js?$script,domain=streamhide.to
 @||crunchyroll.com/*/ads_enabled_flag*.js$script
