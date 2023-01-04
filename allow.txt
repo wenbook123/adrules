@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 9ZV/a9PjaXoxNW/Hi3THGQ
+! Checksum: oqL+kU7aNmv8w2ZZlfzRww
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-04 08:57:20（北京时间） 
-! Total count: 19196
+! Version: 2023-01-04 16:19:21（北京时间） 
+! Total count: 19197
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -624,6 +624,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -890,7 +891,6 @@
 @@||8maple.ru/*/ad.php
 @@||8maple.ru/comic.jpg$domain=video.bilibili.to
 @@||8muses.com^$generichide
-@@||8ox.cn/pge/?s=$script,domain=dlkoo.cc
 @@||8ox.cn/pge/?s=$script,domain=dlkoo.com
 @@||8s8.eu/fa.js$domain=g9g.eu
 @@||8tm.net/stylesheets/ads.css
@@ -7961,6 +7961,7 @@
 @@||googleapis.com/identitytoolkit^$stealth
 @@||googleapis.com/js/sdkloader/ima3.js$domain=famobi.com
 @@||googleapis.com/js/sdkloader/ima3.js$domain=udn.com
+@@||googleapis.com/js/sdkloader/imerts
 @@||googleapis.com/tile/v*/*?session=$stealth,domain=waze.com
 @@||googleapis.com/tile/v*/createSession?key=$stealth,domain=waze.com
 @@||googleapis.com/youtube/$stealth,domain=angrybirdsnest.com
