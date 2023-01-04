@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: oqL+kU7aNmv8w2ZZlfzRww
+! Checksum: qvs+6KHwCLLir691o5FF2Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-04 16:19:21（北京时间） 
-! Total count: 19197
+! Version: 2023-01-05 00:24:17（北京时间） 
+! Total count: 19198
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -624,7 +624,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -4160,6 +4159,7 @@
 @@||cdn.trackjs.com/agent/v*/latest/t.js$script,domain=adshrink.it
 @@||cdn.trackjs.com/releases/current/tracker.js$domain=express.com
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
+@@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
 @@||cdn.trustcommander.net/privacy$script,domain=tf1.fr
 @@||cdn.trustcommander.net/privacy/$domain=cdn.trustcommander.net
 @@||cdn.trustcommander.net/privacy/*/privacy_v*.js$domain=edeka.de
@@ -7961,7 +7961,6 @@
 @@||googleapis.com/identitytoolkit^$stealth
 @@||googleapis.com/js/sdkloader/ima3.js$domain=famobi.com
 @@||googleapis.com/js/sdkloader/ima3.js$domain=udn.com
-@@||googleapis.com/js/sdkloader/imerts
 @@||googleapis.com/tile/v*/*?session=$stealth,domain=waze.com
 @@||googleapis.com/tile/v*/createSession?key=$stealth,domain=waze.com
 @@||googleapis.com/youtube/$stealth,domain=angrybirdsnest.com
@@ -14351,6 +14350,7 @@
 @@||reformgovernmentsurveillance.com/images/resized-icons/
 @@||refworks.proquest.com/public/js/tracking.js$~third-party
 @@||regapi.37.com/api/p_register.php?login_account=
+@@||regapi.37.com/api/p_regoogle.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[jstcache] > a[href^="/aclk?"]
 @@||registrierung.gmx.net^$stealth
 @@||registrierung.web.de^$stealth
 @@||regularplants.com^$script,xmlhttprequest
@@ -15838,6 +15838,7 @@
 @@||speedtest.net/api/js/user-settings|$xmlhttprequest
 @@||speedtest.net/javascript/ads.js
 @@||speedtest.net^
+@@||speedtestcustom.com^$subdocument,stealth
 @@||speedvid.net/cdn-cgi/l/chk_jschl?jschl_vc=$popup
 @@||spellsalsa.com^$script,xmlhttprequest
 @@||spendpest.com^$script,xmlhttprequest
