@@ -1,8 +1,8 @@
-! Checksum: 8c2/kXt50OOgaiP8KMhwWQ
+! Checksum: tXnepmc/NNK9z2AN7gSzgQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.77.4
-! TimeUpdated: 2023-01-05T06:31:26+00:00
+! Version: 2.0.77.9
+! TimeUpdated: 2023-01-05T15:31:13+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -819,7 +819,7 @@ nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { pos
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136875
-v.qq.com#$?#.video-card-module > div[dt-params^="ad_creative_id="] { remove: true; }
+v.qq.com#$?#.video-card-module > div[dt-params*="ad_creative_id="] { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134240
 bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.eva-extension-feed-body > div:not([class], [id]):-abp-has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
@@ -1241,7 +1241,7 @@ fsylr.com##.plus_r
 9uu.com##.gao-wrapper
 ||n.sinaimg.cn/sinakd10117/*/bd54-kentcvx6065228.png
 theav.xyz##div[v-if="is_show()"]
-v.qq.com##.video-card-module > div[dt-params^="ad_creative_id="]
+v.qq.com##.video-card-module > div[dt-params*="ad_creative_id="]
 1010dy3.com##div[id^="slide"]
 1010dy3.com###arBRyGHxuDYU
 91rb99.com##.top
@@ -4116,6 +4116,15 @@ ubmcmm.baidustatic.com
 /\.zdx[0-9]{1,2}\.site:/$script,third-party
 ||23.234.217.11^
 ||23.234.217.12^
+||401aww.com^
+||aliyun6969.cn^
+||huiyelu.com^
+||huiyidui.com^
+||huiyanzhi.com^
+||huitoukao.com^
+||pddbtn.xyz^
+||huiyueting.com^
+||u1011.com^
 ||100ytrf.com^
 ||5r562.cn^
 ||81xs.xyz^
@@ -4141,6 +4150,7 @@ ubmcmm.baidustatic.com
 ||wpiwoo.xyz^
 ||rglctlo.cn^
 ||slowbeat.fun^
+||sange20221226.xyz^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
