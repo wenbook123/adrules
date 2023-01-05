@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: j3jDYGlbI6Ai1YZ4K0WlCg
+! Checksum: 6xR9EEbcs8saz2dF2YzoXw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-05 08:58:35（北京时间） 
+! Version: 2023-01-05 16:21:22（北京时间） 
 ! Total count: 19201
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -624,7 +624,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnd.net^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3393,6 +3392,7 @@
 @@||button.like.co/in/*referrer=$removeparam
 @@||buttons-config.sharethis.com/js^$domain=haberkibris.com
 @@||buttons.reddit.com^$domain=redditstatic.com
+@@||buy-*.piano.io^$script,stylesheet,stealth,domain=piano.io
 @@||buy.ele.me^
 @@||buy.tinypass.com/checkout/template/cacheableShow$subdocument,domain=technologyreview.com|thenation.com
 @@||buy.tinypass.com^$script,subdocument,domain=independent.co.uk
@@ -13273,6 +13273,8 @@
 @@||physicalbikes.com^$script,xmlhttprequest
 @@||physicsgalaxy.com/images/SignInWithfacebook.png
 @@||pia.jp/feature/rss/ad.xml|$~third-party,xmlhttprequest
+@@||piano.io/checkout/offer/$stealth,domain=lvz.de
+@@||piano.io/xbuilder/experience/$stealth,domain=lvz.de
 @@||piaotian.com/scripts/readindex/tongji.js
 @@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
 @@||pic*.cdncl.net^$stealth,domain=cowlevel.net
@@ -18039,7 +18041,6 @@
 @@||vidmoly.me/jws.php
 @@||vidmoly.net/jws.php
 @@||vidmoly.to/embed-$stealth
-@@||vidmoly.to/embed-*.html$stealth,domain=hdfilmcehennemi.me
 @@||vidmoly.to/jws.php
 @@||vidop.*^$ghide
 @@||vidorg.net^$ghide
@@ -18783,7 +18784,6 @@
 @@||www.google.*/tv/images/youtube.jpg
 @@||www.google.com/ads/preferences/$image,script,subdocument
 @@||www.google.com/adsense/search/ads.js$domain=1and1.com|1und1.de|gmx.ca|gmx.ch|gmx.co|gmx.es|gmx.fr|gmx.it|gmx.net|gmx.nl|gmx.se|web.de
-@@||www.google.com/adsense/search/ads.js$domain=1te.com^
 @@||www.google.com/adsense/search/async-ads.js$domain=webcrawler.com
 @@||www.google.com/adwords/$generichide
 @@||www.google.com/afs/ads?*^channel=csa_$subdocument
