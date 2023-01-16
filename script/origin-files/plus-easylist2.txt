@@ -10114,6 +10114,7 @@ short-fly.com##+js(set, blurred, false)
 ! https://github.com/uBlockOrigin/uAssets/issues/4552
 @@||audiotag.info^$script,1p
 audiotag.info##+js(set, Global.adv, undefined)
+audiotag.info##+js(nostif, xclaim)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4557
 legionpeliculas.org##+js(aopw, smrtSB)
@@ -16606,9 +16607,9 @@ updown.link##+js(nano-stb, startDownload, 8000)
 work.ink##.desc:upward([class*="adb"])
 *$frame,redirect-rule=noopframe,domain=work.ink
 ! https://zodhacks.com/pet-simulator-x-saza-hub-easter/ timer
-work.ink##+js(set, linkOpenTime, 10000)
 *$script,domain=work.ink,redirect-rule=noopjs
 @@||work.ink^$xhr,1p
+work.ink###overlay
 ! https://www.reddit.com/r/uBlockOrigin/comments/zu2myx/
 workink.click##+js(no-fetch-if, cloudfront)
 
@@ -18550,6 +18551,7 @@ pdfkitapp.com##.clearfix.container.header-main
 @@||allgroups.online$script,css,domain=promo-visits.site|satoshi-win.xyz|shorterall.com
 @@*$script,1p,domain=promo-visits.site|satoshi-win.xyz|shorterall.com
 *$frame,redirect-rule=noopframe,domain=promo-visits.site|satoshi-win.xyz|shorterall.com
+*$xhr,3p,domain=promo-visits.site,redirect-rule=nooptext
 promo-visits.site,satoshi-win.xyz,shorterall.com##+js(set, blurred, false)
 promo-visits.site,satoshi-win.xyz,shorterall.com##+js(set, google_ads, true)
 promo-visits.site,satoshi-win.xyz,shorterall.com###qc-cmp2-container + p
@@ -18583,6 +18585,10 @@ promo-visits.site,shorterall.com##.btn-primary:style(visibility: visible !import
 promo-visits.site,shorterall.com##+js(ra, disabled, .btn-primary)
 promo-visits.site###newlayercontent
 /php_code.php?sid=$domain=promo-visits.site|satoshi-win.xyz|shorterall.com,important
+homeairquality.org##+js(aeld, blur, focusOut)
+homeairquality.org##+js(no-fetch-if, googletagmanager)
+homeairquality.org##+js(set, detectAdblock, noopFunc)
+mynewsmedia.co##+js(no-fetch-if, googlesyndication)
 
 ! dlapk4all .com popups
 dlapk4all.com##+js(aopr, glxopen)
