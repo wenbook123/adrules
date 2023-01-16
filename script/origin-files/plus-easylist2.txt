@@ -1776,7 +1776,7 @@ apkmirror.com##.advertisement-text
 apkmirror.com##.ains:style(height: 0px !important; min-height: 0px !important; padding: 0px !important;)
 apkmirror.com##.downloadCountdown
 apkmirror.com##.OUTBRAIN
-apkmirror.com##+js(aost, document.querySelectorAll, /onload inlineScript|onload https/)
+apkmirror.com##+js(aost, document.querySelectorAll, /^(?=.*(?:\/< inlineScript|\/< https))(?!.*APKM).*/)
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=38653
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se##+js(nostif, .call(null), 10)
@@ -3018,7 +3018,6 @@ sexu.com##.player-block__square
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3616
 pussyspace.*##+js(aopr, open)
-pussyspace.com,pussyspace.net##+js(aopw, ldasdsaj)
 pussyspace.com,pussyspace.net##+js(aost, document.createElement, ExoSupport)
 pussyspace.com,pussyspace.net##+js(aost, Node.prototype.appendChild, www.pussyspace.net/js/all.js)
 pussyspace.com,pussyspace.net##:matches-path(/vid-) [class] img:xpath(ancestor::*[string-length(@class) > 20])
@@ -9126,7 +9125,7 @@ anitube.*##+js(set, adBlockDetected, noopFunc)
 anitube.*##+js(acis, document.createElement, 'script')
 anitube.*###iframeCore____
 ||anitube.*/sw.js$script,1p
-*$script,3p,denyallow=anicdn.net|arc.io|bootstrapcdn.com|cloudflare.com|cloudflare.net|disqus.com|fastly.net|fastlylb.net|fontawesome.com|freeprivacypolicy.com|google.com|googleapis.com|gstatic.com|hscoscdn30.net|hwcdn.net|jquery.com|jsdelivr.net|jwpcdn.com|jwplayer.com|recaptcha.net,domain=anitube.*
+*$script,3p,denyallow=anicdn.net|arc.io|bootstrapcdn.com|cloudflare.com|cloudflare.net|disqus.com|fastly.net|fastlylb.net|fontawesome.com|freeprivacypolicy.com|google.com|googleapis.com|gstatic.com|hscoscdn30.net|hwcdn.net|jquery.com|jsdelivr.net|jwpcdn.com|jwplayer.com|plyr.io|recaptcha.net,domain=anitube.*
 anitube.*##div[style^="pointer-events: none; position: absolute; "]
 
 ! https://github.com/NanoMeow/QuickReports/issues/367
@@ -19280,7 +19279,6 @@ techdracula.com##.adsbygoogle
 ! thememazing .com broken page + other anti adb
 ! fix mdpDeBlocker + some other anti-adb
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,redirect=googlesyndication_adsbygoogle.js:5,domain=~zipextractor.app
-||googleads.g.doubleclick.net/$xhr,redirect-rule=nooptext
 
 ! regex
 /[0-9a-f]{32}\/invoke\.js/$script,3p
