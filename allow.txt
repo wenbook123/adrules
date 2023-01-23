@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: b5K4QYkOjpZu3hZZnCXWXw
+! Checksum: Y4OSpMpNbv4g/GNCEykV9g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-23 08:55:32（北京时间） 
-! Total count: 19261
+! Version: 2023-01-23 16:19:50（北京时间） 
+! Total count: 19258
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -625,7 +625,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgesschairs.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgmera.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2284,7 +2284,6 @@
 @@||api.cxense.com/public/widget/data$domain=obozrevatel.com
 @@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=businessinsider.de|computerbild.de|handelsblatt.com
 @@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|shueisha.co.jp
-@@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
 @@||api.cxense.com/public/widget/data?$domain=mainichi.jp
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
@@ -2295,7 +2294,6 @@
 @@||api.cxense.com/public/widget/data?json=$domain=milenio.com
 @@||api.cxense.com/public/widget/data?json=$domain=pcgames.de
 @@||api.cxense.com/public/widget/data?json=$domain=shueisha.co.jp
-@@||api.cxense.com/public/widget/data?json=$domain=wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?json=$domain=wsj.com
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
 @@||api.dmcdn.net/pxl/advertisers/$domain=dailymotion.com
@@ -3828,7 +3826,6 @@
 @@||cdn.cxense.com/cx.js$domain=milenio.com
 @@||cdn.cxense.com/cx.js$domain=president.jp
 @@||cdn.cxense.com/cx.js$domain=tn.com.ar
-@@||cdn.cxense.com/cx.js$domain=wpb.shueisha.co.jp
 @@||cdn.cxense.com/cx.js$domain=wsj.com
 @@||cdn.cxense.com/t_init.min.js$domain=dhnet.be
 @@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
@@ -5256,7 +5253,6 @@
 @@||cxense.com/cx.cce.js$script,domain=handelsblatt.com
 @@||cxense.com/cx.js$domain=businessinsider.de|computerbild.de|handelsblatt.com
 @@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|shueisha.co.jp|tarzanweb.jp|tv-tokyo.co.jp
-@@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|tarzanweb.jp|tv-tokyo.co.jp|wpb.shueisha.co.jp
 @@||cxense.com/cx.js$domain=mainichi.jp
 @@||cxense.com/cx.js$domain=nlab.itmedia.co.jp
 @@||cxense.com/cx.js$domain=shueisha.co.jp
@@ -8739,7 +8735,6 @@
 @@||hdslb.com/bfs/archive/*@$domain=bilibili.com,image
 @@||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js
 @@||hdslb.com/bfs/seed/log/report/log-reporter.js
-@@||hdslb.com/bfs/seed/log/report/log-reporter.js$domain=message.bilibili.com
 @@||hdslb.com/u_user/$~object,domain=bilibili.com
 @@||hdslb.com^$stealth,domain=bilibili.com
 @@||hdvid.tv/js/jquery.cookie.js
@@ -10607,6 +10602,7 @@
 @@||letsdownloads.com^$generichide
 @@||letsdownloads.com^$ghide
 @@||letsencrypt.org/images/*-logo.png
+@@||letskorail.com^$stealth
 @@||lettucecopper.com^$script,xmlhttprequest
 @@||lettucelimit.com^$script,xmlhttprequest
 @@||letyshops.com/build/core/images/$image,~third-party
@@ -16585,6 +16581,7 @@
 @@||svonm.com/hd-main.js$script,domain=kicker.de|kino.de|videos.giga.de|video.spieletipps.de
 @@||svonm.com/hd-main.js$script,domain=kicker.de|kino.de|videos.giga.de|video.spieletipps.de,badfilter
 @@||svtrd.com^$domain=moneyou.de|ns.nl
+@@||sw-i.de/typo3conf/ext/epl_site/Resources/Public/js/lib/cookieconsent.js
 @@||swa.mail.ru/cgi-bin/counters?$script
 @@||swagbucks.com^$generichide
 @@||swappa.com/static/icons/social/login_$image
