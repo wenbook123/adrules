@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: 9sAG++5unp9a2cSyniOCqQ
+! Checksum: Tj8BabK/D5rIAwOb9yccBw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-24 16:18:41（北京时间） 
+! Version: 2023-01-25 00:20:09（北京时间） 
 ! Total count: 19269
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -627,7 +627,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgmera.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -830,6 +829,7 @@
 @@||50.7.*.*:8081/*?wmsAuthSign=$stealth
 @@||50.7.161.20:8081/*.m3u8?$stealth
 @@||51.15.*/videoplayback?vid=$stealth
+@@||519.best^$generichide
 @@||51hanhua.com/2013/brtxt.js
 @@||51img1.com/??*/adsys.
 @@||51jobcdn.com/im/images/ads/$domain=51job.com
@@ -2305,6 +2305,7 @@
 @@||api.docodoco.jp^|
 @@||api.ebay-kleinanzeigen.de/api/ads.json?$app=com.ebay.kleinanzeigen
 @@||api.ebay-kleinanzeigen.de/api/ads/*.json$app=com.ebay.kleinanzeigen
+@@||api.enthusiastgaming.net^$xmlhttprequest,domain=diep.io
 @@||api.facebook.com/method/links.getStats$domain=grammarly.com
 @@||api.friends.ponta.jp/api/$~third-party
 @@||api.fw.tv/embed/$domain=filmibeat.com
@@ -6847,7 +6848,6 @@
 @@||fm.solewe.com^$ghide
 @@||fmhikayeleri.com^$ghide
 @@||fmhua.com^$stealth
-@@||fmoviez.org^$generichide
 @@||fmz.com/pkg/fingerprint2.min.js$~third-party,xmlhttprequest
 @@||fncstatic.com^*/omtr_code.js$domain=foxbusiness.com|foxnews.com
 @@||foamyfood.com^$script,xmlhttprequest
@@ -12975,7 +12975,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=truffeonline.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=tudaydeals.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest,domain=testadmit.com
-@@||pagead2.googlesyndication.com/pagead/js/google_top_exp.jcom##div[data-url*="same.eastmoney.com"]
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=freeserial-keys.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=soranews24.com
@@ -16607,6 +16606,7 @@
 @@||swedroid.se/js/ads.js^
 @@||sweepsdb.com/js/ads.js
 @@||sweepsheep.com^$script,xmlhttprequest
+@@||sweetmarias.com/static/$script,~third-party
 @@||sweetslope.com^$script,xmlhttprequest
 @@||sweext.com^$generichide
 @@||swellstocking.com^$script,xmlhttprequest
