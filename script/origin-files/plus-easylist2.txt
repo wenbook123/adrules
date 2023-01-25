@@ -4391,9 +4391,8 @@ pouvideo.*,povvideo.*,povw1deo.*,povwideo.*,powv1deo.*,powvibeo.*,powvideo.*,pow
 pouvideo.*,povvideo.*,povw1deo.*,povwideo.*,powv1deo.*,powvibeo.*,powvideo.*,powvldeo.*##iframe:not([src*="recaptcha"])
 /jquery.notify.js$script,1p,domain=pouvideo.*|povvideo.*|povw1deo.*|povwideo.*|powv1deo.*|powvibeo.*|powvideo.*|powvldeo.*
 ext=$script,1p,domain=pouvideo.*|povvideo.*|povw1deo.*|povwideo.*|powv1deo.*|powvibeo.*|powvideo.*|powvldeo.*
-*$frame,denyallow=google.com,domain=pouvideo.*|povvideo.*|povw1deo.*|powvibeo.*|povwideo.*|powv1deo.*|powvideo.*|powvldeo.*|povvldeo.*
+*$frame,3p,denyallow=google.com,domain=pouvideo.*|povvideo.*|povw1deo.*|powvibeo.*|povwideo.*|powv1deo.*|powvideo.*|powvldeo.*|povvldeo.*
 *$script,3p,denyallow=googleapis.com|google.com|gstatic.com,domain=povvldeo.*|povvldeo.lol
-*$frame,3p,denyallow=google.com,domain=povvldeo.*
 @@player*.html$frame,1p,domain=pouvideo.*|povvideo.*|povw1deo.*|powvibeo.*|povwideo.*|powv1deo.*|powvideo.*|powvldeo.*
 ||wontent.powvideo.net^
 ||zontent.powvideo.net^
@@ -8195,7 +8194,6 @@ djxmaza.in,proviralhost.com##+js(ra, disabled, #wait1button[disabled], stay)
 djxmaza.in,proviralhost.com##+js(ra, disabled, #wait2button[disabled], stay)
 djxmaza.in,proviralhost.com###wait1button.disabled, #wait2button.disabled:remove-class(disabled)
 djxmaza.in,proviralhost.com###wait1
-djxmaza.in,proviralhost.com###wait1button, #wait2button:style(display: block !important;)
 proviralhost.com###wait2button:upward(center):style(display: block !important;)
 djxmaza.in###wait1button:upward(center) ~ *:not(center)
 proviralhost.com###wait1button ~ *:not(#wait2button, center:has(#wait2button))
@@ -12042,13 +12040,15 @@ enrt.eu##[href*="builderall.net/"]
 ##[href*="https://ads.enrt.eu/"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5390
-oko.sh##+js(aopr, app_vars.force_disable_adblock)
+! https://github.com/uBlockOrigin/uAssets/issues/16490
 oko.sh##+js(aopr, AaDetector)
 oko.sh##+js(aopr, open)
 oko.sh##+js(aopw, Fingerprint2)
 oko.sh##+js(nowebrtc)
 oko.sh##+js(set, blurred, false)
+@@||oko.sh^$ghide
 oko.sh##a[href^="https://href.li/"]
+oko.sh##a[href^="https://taghaugh.com/"]
 oko.sh##[href="https://tipsalert.xyz"]
 oko.sh##[src^="https://i.imgur.com/"]
 
