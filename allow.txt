@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: sp7Q/FL8lXz+LigzVI/e5g
+! Checksum: SP6CYyu/pV7scEf4juoHLA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-26 16:18:28（北京时间） 
-! Total count: 19265
+! Version: 2023-01-27 00:20:38（北京时间） 
+! Total count: 19275
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -627,6 +627,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org$script,domain=fcbarcelona.jp|radiko.jp|sony.jp|support.nec-lavie.jp
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2906,6 +2907,7 @@
 @@||battle.net/login$removeparam
 @@||battle.net^
 @@||battlebalance.com^$script,xmlhttprequest
+@@||battlecats-db.com^$generichide
 @@||battlecats-db.imgs-server.com^$stealth
 @@||battlecats.spica-net.com^$generichide
 @@||battleforthenet.com/images/logos/$domain=battleforthenet.com
@@ -3196,6 +3198,7 @@
 @@||bluejeans.com^*/images/auth/$image
 @@||bluekai.com/online-choices^$domain=youronlinechoices.com
 @@||bluemediafiles.*^$ghide
+@@||bluesky-soft.com/common/script/ga.js$script,~third-party
 @@||bluesoleil.com^
 @@||bluesystem.me/GoWeb/advert.js
 @@||blushingbeast.com^$script,xmlhttprequest
@@ -4078,6 +4081,7 @@
 @@||cdn.privacy-mgmt.com^$domain=voici.fr
 @@||cdn.privacy-mgmt.com^$domain=welt.de|cdn.privacy-mgmt.com
 @@||cdn.privacy-mgmt.com^$domain=ze.tt
+@@||cdn.privacy-mgmt.com^$script,xhr,domain=anisearch.com
 @@||cdn.privatehost.com/videos*/$removeparam
 @@||cdn.ptztv.live/flyads/streaming.js
 @@||cdn.pubguru.com/pg.js$domain=ebonus.gg
@@ -6566,6 +6570,7 @@
 @@||fakeporn.tv^$generichide
 @@||fakt.pl/*&srcc=ucs$removeparam
 @@||fakt.pl/*?utm_source=$stealth
+@@||fakt.pl/*srcc=$stealth
 @@||fakyu.net^$generichide
 @@||fallaciousfifth.com^$script,xmlhttprequest
 @@||falsefeet.com^$script,xmlhttprequest
@@ -12314,6 +12319,7 @@
 @@||oemdtc.com^$generichide
 @@||oemdtc.com^$ghide
 @@||ofeminin.pl/*&srcc=ucs$removeparam=utm_source
+@@||ofeminin.pl/*srcc=$stealth
 @@||offgamers.com/checkout/buyNow/$document,xmlhttprequest
 @@||office.com^
 @@||office.net^
@@ -12814,6 +12820,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=myuploadedpremium.de
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=navbharattimes.indiatimes.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=nihongo-pro.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=okmalayalam.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onperiscope.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=paraphraser.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=paraphrasetool.com
@@ -13087,6 +13094,7 @@
 @@||pagead2.googlesyndication.com/pcs/activeview$domain=allmovie.com|allmusic.com
 @@||pagead2.googlesyndication.com/pub-config/$script,domain=sc2casts.com
 @@||pagead2.googlesyndication.com/pub-config/ca-pub-$script,domain=onlinemschool.com
+@@||pagead2.googlesyndication.com^$domain=battlecats-db.com
 @@||pagead2.googlesyndication.com^$domain=myqqjd.com
 @@||pagead2.googlesyndication.com^$script,domain=hackintosh.computer
 @@||pagead2.googlesyndication.com^$xhr,domain=op.gg
@@ -15573,6 +15581,7 @@
 @@||sintelevisor.com^$ghide
 @@||siouxcityjournal.com^$ghide
 @@||siriusfiles.com^$ghide
+@@||sisal.it/etc.clientlibs/sisal-fullresponsive/clientlibs/tealium.js$script,~third-party
 @@||site-banner.hange.jp/adshow?$domain=animallabo.hange.jp
 @@||siteanalytics.compete.com^$~third-party
 @@||siteapi.idkfa.online/v2/units/socket/websocket?$websocket
@@ -19019,6 +19028,7 @@
 @@||y2mate.com/themes/images/tip-download-youtube.jpg$image
 @@||yabs.yandex.ru$domain=yandex.by|yandex.com.tr|yandex.kz|yandex.ru
 @@||yadayadayada.nl/banner/banner.php$image,domain=murf.nl|workhardclimbharder.nl
+@@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp|yaho_ad_microbuttons
 @@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp|yahoo.co.jp
 @@||yafud.pl^$generichide
 @@||yahoo.com^$image,domain=finalservers.net|rule34hentai.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|cloudwebcopy.com|wowebook.org|animes-mangas-ddl.net|pipocas.tv
