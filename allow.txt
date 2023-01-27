@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: EiLtRmz3HVmcdgFjpbL5vA
+! Checksum: cc4vvmE0WTXfIP3UQ93Ymg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-27 08:59:31（北京时间） 
+! Version: 2023-01-27 16:19:17（北京时间） 
 ! Total count: 19274
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -627,7 +627,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgeldbot.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgf-stat?
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2325,7 +2325,6 @@
 @@||api.iplay.163.com^
 @@||api.ipstack.com/check$domain=blockfi.com|get-in.com|withpersona.com
 @@||api.ipstack.com^$domain=meteo365.es|ride.guru
-@@||api.ipstack.com^$domain=ride.guru
 @@||api.its-mo.com^$stealth
 @@||api.joara.com/v1/banner/main_popup.joa$app=com.joara.mobile
 @@||api.jr.mi.com^
@@ -6082,6 +6081,8 @@
 @@||ebay-kleinanzeigen.de/*/js/belen/tracking/adblock-detection/prebid*.js
 @@||ebay-kleinanzeigen.de/kmobile-static/static/js/belen/adblocker
 @@||ebay-kleinanzeigen.de/static/js/belen/tracking/advertising
+@@||ebay.com/bfl/placebid/$xmlhttprequest,elemhide,jsinject,extension
+@@||ebay.de/bfl/placebid/$xmlhttprequest,elemhide,jsinject,extension
 @@||ebaykorea.com/ADS/$image,domain=gmarket.co.kr
 @@||ebayrtm.com/rtm?$script,domain=annonces.ebay.fr|ebay.it
 @@||ebaystatic.com^*_Omniture_$script
@@ -14819,7 +14820,6 @@
 @@||satisfyingspark.com^$script,xmlhttprequest
 @@||satoshiquiz.com/ad.js$script
 @@||satoshiquiz.com/ads.js$script
-@@||savefrom.net/savefrom.php$stealth
 @@||savelinks.*^$ghide
 @@||savetolink.com^$ghide
 @@||savjee.be/uploads/2020-10-27-effect-adblockers-on-google-analytics-vs-plausible/$~third-party
