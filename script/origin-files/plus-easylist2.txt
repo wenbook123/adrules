@@ -1906,6 +1906,8 @@ cooking.nytimes.com##body:style(height: auto !important; overflow: auto !importa
 cooking.nytimes.com##html:style(height: auto !important; overflow: auto !important)
 ! https://github.com/easylist/easylist/commit/1509d85840e1245394ed7fb6cbbbedc9c0cda103
 @@||nytimes.com^*/adslot-$script,xhr,badfilter
+! https://github.com/uBlockOrigin/uAssets/issues/16519
+nytimes.com##[id^="story-ad"][id$="wrapper"]
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=32450
 ! https://github.com/uBlockOrigin/uAssets/issues/2973
@@ -3113,6 +3115,7 @@ freewebscript.com##+js(nostif, documentElement.classList.add, 400)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1189
 1fichier.com##+js(nowebrtc)
+1fichier.com##+js(nano-stb, dlw, 40000)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1191
 vivud.com##+js(aopr, ALoader)
@@ -4021,8 +4024,7 @@ freeopenvpn.org#@##advert_top
 @@||laverdad.es^$ghide
 @@||leonoticias.com^$ghide
 ||static.vocento.com/dab/*.js
-elnortedecastilla.es##.voc-advertising
-diariovasco.com##.voc-advertising
+diariovasco.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,leonoticias.com##.voc-advertising
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=40101&p=133246#p133238
 ksbw.com##+js(nostif, [native code], 500)
@@ -16045,9 +16047,6 @@ blackavelic.com##+js(aeld, load, 2000)
 series-d.com##+js(nano-sib, curAd)
 series-d.com##+js(nowoif)
 
-! https://github.com/NanoAdblocker/NanoFilters/issues/428
-@@||ffcv.es^$ghide
-
 ! https://github.com/NanoMeow/QuickReports/issues/2349
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs:10,domain=felanovia.com
 
@@ -17009,9 +17008,6 @@ heavy-r.com##.nopop.hd-bar
 
 ! https://www.her.ie/celeb/what-ever-happened-to-enrique-iglesias-mole-269224 (scroll issue)
 her.ie##html:style(overflow: auto !important)
-
-! https://github.com/NanoMeow/QuickReports/issues/2886
-@@||fifetoday.co.uk^$ghide
 
 ! https://github.com/NanoMeow/QuickReports/issues/2889
 warps.club##+js(aopr, adblockDetect)
