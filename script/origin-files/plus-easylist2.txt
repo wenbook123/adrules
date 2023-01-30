@@ -1374,6 +1374,7 @@ informer.com##+js(aopr, adblock_added)
 informer.com##.screen_ad
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1286
+torlock.*,torlock2.*##+js(acs, setTimeout, admc)
 torlock.*##+js(aopw, _pop)
 ||torlock.*/sww.js$script,1p
 torlock.*##:xpath(//strong[contains(text(),"VPN")]/../../..)
@@ -11118,8 +11119,11 @@ ksta.de##.dm_ad
 ksta.de##.dm_ad-container
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6773
-@@||frag-mutti.de^$ghide
-frag-mutti.de##.superbanner
+! https://github.com/uBlockOrigin/uAssets/issues/5052#issuecomment-1407771485
+frag-mutti.de##.intext-ad
+frag-mutti.de##.ad-loading:remove()
+frag-mutti.de###campaign-popup
+frag-mutti.de###fm-shadow
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/ax3wtv/ads_in_videos_porn_site/
 porn-tube-club.com##+js(nowoif)
@@ -15132,7 +15136,8 @@ hl-live.de##+js(aeld, load, onload)
 hl-live.de##+js(nostif, getComputedStyle, 250)
 
 ! flsaudio.com anti adb
-@@||flsaudio.com^$ghide
+flsaudio.com##.adsbygoogle:upward(.widget)
+flsaudio.com##.altumcode-coupon-content
 ||flsaudio.com^$image,redirect-rule=1x1.gif,1p
 
 ! https://github.com/NanoMeow/QuickReports/issues/1997
