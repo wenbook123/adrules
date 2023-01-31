@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: pw6DOSkjyaigULnOEGiWjA
+! Checksum: b8Q1kcyLHKl/uasmiltSIg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-31 09:02:33（北京时间） 
-! Total count: 19256
+! Version: 2023-01-31 16:21:37（北京时间） 
+! Total count: 19243
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -189,7 +189,6 @@
 @@/admanager.$domain=player.theplatform.com
 @@/admanager/*$domain=woego.cn
 @@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
-@@/adpop.js$domain=doyki.com
 @@/adriver.js$script,domain=habrahabr.ru|megamozg.ru|geektimes.ru
 @@/adrum.js$domain=usbank.com
 @@/ads-api.$domain=moneysave.info|zxmee.com
@@ -627,6 +626,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnhealthcare.org^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2111,14 +2111,6 @@
 @@||animeland.us/bg.jpg
 @@||animeland.us/pa.js
 @@||animenew.be^$css,1p
-@@||animeplus.org/chat2.php|
-@@||animeplus.org/favicon.ico|
-@@||animeplus.org/inc/favoritos.inc.php|
-@@||animeplus.org/inc/historicos.inc.php|
-@@||animeplus.org/inc/video.inc.php?
-@@||animeplus.org/js/v*_configBase*.js|
-@@||animeplus.org/player/
-@@||animeplus.org/search.php|
 @@||animes-mangas-ddl.net^$generichide
 @@||animesa.ga/practice/adsframe.js
 @@||animeshouse.net/mp4doo/$stealth
@@ -5366,7 +5358,6 @@
 @@||dailydot.com^*/ads.$script
 @@||dailyfinance.com/traffic/?
 @@||dailygeekshow.com/wp-content/themes/soofresh2/js/advertisement.js^
-@@||dailylol.com/wp-content/uploads/$image,~third-party
 @@||dailymail.co.uk/adstest2/$script
 @@||dailymail.co.uk/brightcove/tracking/ted3.js
 @@||dailymotion.com/advertise/$xmlhttprequest
@@ -8078,7 +8069,6 @@
 @@||googletagmanager.com/gtag/js$domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js$domain=zf1.tohoku-epco.co.jp
 @@||googletagmanager.com/gtag/js$script,domain=academy.com|acornonline.com|aliexpress.com|carhartt-wip.com|cbslocal.com|devclass.com|ejgiftcards.com|herculesstands.com|honeystinger.com|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com|virginplus.ca|winefolly.com
-@@||googletagmanager.com/gtag/js$script,domain=academy.com|acornonline.com|aliexpress.com|carhartt-wip.com|cbslocal.com|devclass.com|herculesstands.com|honeystinger.com|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com|virginplus.ca|winefolly.com
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp|nihontsushin.com|zf1.tohoku-epco.co.jp
 @@||googletagmanager.com/gtag/js$script,domain=factory.pixiv.net
 @@||googletagmanager.com/gtag/js$script,domain=hostingvergelijker.nl
@@ -16305,7 +16295,6 @@
 @@||staticfiles.rtl.nl/lib/rtl.jsapi/pubads_impl_70r.js$script,domain=rtlxl.nl
 @@||staticflickr.com^*/analytics-min.js$domain=flickr.com
 @@||statics.cfmcdn.net/*/scripts/webtrends-$script,domain=cheapflights.com
-@@||statictapcdn-a.akamaihd.net^$domain=tapiture.com
 @@||staticwars.com/combo/_/wp-content/themes/$script
 @@||staticxx.facebook.com/connect/xd_arbiter/*.js?version=$domain=animeflv.net
 @@||staticxx.facebook.com/connect/xd_arbiter/*.js?version=$domain=jkanime.net
@@ -16476,7 +16465,6 @@
 @@||studybreakmedia.com/doubleclick/$script
 @@||studycrux.com^$ghide
 @@||studydhaba.com^$generichide
-@@||stuff.co.nz/video/*.mp4$media
 @@||stupendousselection.com^$script,xmlhttprequest
 @@||stupendoussleet.com^$script,xmlhttprequest
 @@||stupendoussnow.com^$script,xmlhttprequest
@@ -17446,7 +17434,6 @@
 @@||trustcommander.net/privacy/$script,domain=edeka.de
 @@||trustcommander.net/privacy/*/privacy$script,domain=tf1info.fr
 @@||truste-svc.net/cookie_js/$subdocument
-@@||trustedreviews.com/js/packed/$script,~third-party
 @@||trustprofile.com/banners/$image
 @@||truyenaudiocv.*^$ghide
 @@||truyenaudiocv.net/ads-prebid.js
