@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 9zV8shE3EtJtAgfDSw7/Sg
+! Checksum: qFf0zJEUNIx1jyoORqf6Yg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-01 16:20:53（北京时间） 
-! Total count: 19237
+! Version: 2023-02-02 00:18:25（北京时间） 
+! Total count: 19244
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -626,6 +626,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtrols.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3042,6 +3043,7 @@
 @@||bid.g.doubleclick.net/$object-subrequest,domain=play.tv|playtv.fr
 @@||bidder.criteo.com/cdb?$xhr,domain=aternos.org
 @@||bidder.criteo.com/cdb?$xmlhttprequest,domain=aternos.org
+@@||bidons.site/iframe.php$stealth
 @@||bigad.me^$domain=bigad.me
 @@||bigbrothercanada.ca^$ghide
 @@||bigbtc.win/js/ads-prebid.js
@@ -5686,6 +5688,7 @@
 @@||diymediahome.org/*/adframe.min.js$script,~third-party
 @@||dizhi99.com^$generichide
 @@||dizigold.org^$stealth
+@@||django-cookie-consent.readthedocs.io^$~third-party
 @@||djtflbt20bdde.cloudfront.net^$domain=feedly.com
 @@||dk4ywix.com^$script,xmlhttprequest
 @@||dkb.de^$cookie=dtCookie
@@ -12592,6 +12595,7 @@
 @@||p.jwpcdn.com/player/v/*/jw-icons.woff$domain=9anime.to
 @@||p.jwpcdn.com^$script
 @@||p.qlogo.cn^
+@@||p.typekit.net/p.css$stylesheet,domain=browserstack.com|bungie.net|business.untappd.com|robertsspaceindustries.com
 @@||p.typekit.net/p.css$stylesheet,domain=browserstack.com|bungie.net|robertsspaceindustries.com
 @@||p11.techlab-cdn.com^$domain=wizzair.com
 @@||p2.2elotoaraba.com/Advert/*$domain=2elotoaraba.com
@@ -12604,6 +12608,7 @@
 @@||padsdel.com^$image,subdocument,domain=bitzfree.com
 @@||padstm.com^$image,subdocument,domain=bitzfree.com
 @@||pagead.l.doubleclick.net^|
+@@||pagead2.googlesynbp-has(a.ad-remove)
 @@||pagead2.googlesyndication.com/*show_ads$script,domain=napisy24.pl
 @@||pagead2.googlesyndication.com/favicon.ico$domain=maxedtech.com|primetechieforum.com
 @@||pagead2.googlesyndication.com/getconfig/sodar$domain=forum.release-apk.com
@@ -18085,7 +18090,9 @@
 @@||vidstream.to^$stealth,domain=egybest.*
 @@||vidtech.cbsinteractive.com^
 @@||vidtech.cbsinteractive.com^*/AkamaiAnalytics.swf$domain=kuathletics.com|mutigers.com|okstate.com
+@@||vidtodo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com
 @@||vidtodo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com|vidtodoo.com
+@@||vidtodoo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com
 @@||vidtodoo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com|vidtodoo.com
 @@||vidup.*/adsense.js$script
 @@||vidup.*^$ghide
