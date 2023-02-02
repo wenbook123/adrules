@@ -1,8 +1,8 @@
-! Checksum: 4cXH+iO4Bfd21LVHsyysjw
+! Checksum: c9DqpJRw1obiw3J7NPLPHw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.79.40
-! TimeUpdated: 2023-02-02T07:31:15+00:00
+! Version: 2.0.79.44
+! TimeUpdated: 2023-02-02T13:03:22+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -423,6 +423,9 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/141742
+520cc.cc#%#//scriptlet('set-constant', 'all520dddaaa2022ccc', 'true')
+520cc.cc#%#//scriptlet('set-constant', 'ad_id_for_555', 'true')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138700
 manwa.me#@#.ad-area
 manwa.me#$#.ad-area { position: absolute !important; left: -3000px !important; }
@@ -961,6 +964,8 @@ csdn.net#?##feedlist_id > li:-abp-has(> div[id^="kp_box_"])
 !--------------------------------------!
 ! SECTION: Chinese - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/141713
+movieffm.net#%#//scriptlet('abort-on-property-write', '__aaZoneid')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141657
 axutongxue.net#%#//scriptlet('abort-on-property-write', 'roll')
 axutongxue.net#%#//scriptlet('prevent-setTimeout', 'getCookie("ad")')
@@ -1236,6 +1241,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+tt776.com##iframe[src="/app/ad.html"]
 9s102.xyz###main > .container-fluid.mb-3 > .row > .col-sm .alert
 9s102.xyz##.jsv > .container-fluid.mb-0 > .row > .col-sm > a[target="_blank"]
 ||asserts.avple.tv/file/avple-asserts/ad.js
@@ -4544,6 +4550,9 @@ ubmcmm.baidustatic.com
 ||qbd2.site^
 ||wuepo.cn^
 ||mprjoat.cn^
+||waterfairy.xyz^
+||thraerqol.com^
+||zdreo.cyou^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -21891,7 +21900,7 @@ typecho.wiki##span[style="height: 17px;margin-left: 10px;background: #000;border
 xinmin.cn##span[style^="position:fixed;right"]
 xinmin.cn##span[style^="position:fixed;right"] + a
 159i.com##style + div[align="center"]
-axutongxue.com##style + div[id]
+axutongxue.com,axutongxue.net##style + div[id]
 power.baidu.com,www.baidu.com,zhidao.baidu.com##style[id*="s-m"] + div[id^="m"]
 my0511.com##table[bordercolor="#C0C0C0"][border="1"]
 bbs.fobshanghai.com##table[cellpadding="4"][style="background: #D6E0EF"]

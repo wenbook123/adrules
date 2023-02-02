@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 3DA38hqO+Ka7bk8t6YmsDw
+! Checksum: SrZ0p+e/pRauZh+0N5H3jQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-02 16:20:56（北京时间） 
-! Total count: 19229
+! Version: 2023-02-03 00:19:25（北京时间） 
+! Total count: 19233
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -220,6 +220,7 @@
 @@/advert.js$script,domain=~adultmult.tv
 @@/advert.js|$domain=yenigolcuk.com|hedefgazetesi.com.tr|eldedemokrasi.com|afyonhaberturk.com|nehaberankara.com|mansetburdur.com|bolgesellig.com|telgrafgazetesi.com|burokratika.com|balikesirartihaber.com|ajansbalikligol.com|karar67.com|gazetemalatya.com|vansesigazetesi.com|kocaelisabah.com|antalyadanhaberler.com|aydinyeniufuk.com.tr|yerelvanhaber.com|a2teker.com|kibrishakikat.com|izmirtime35.com|sancakplus.com|marasfisilti.com|burdurgazetesi.com|zeytinburnuhaber.org|denizli20haber.com|akdenizdeyeniyuzyil.net|ulakci.com|egegundem.com.tr|isdunyasindakadin.com|haberimizvar.net
 @@/advert/*$domain=csxbank.com|fjgcjxgl.com|locuspublishing.com|moretv.com.cn
+@@/advert3.js|$~third-party,domain=waaw.tv|czxxx.org|videoxseries.xyz|piratulhd.com|scenelife.org|hqq.tv
 @@/advert3.js|$~third-party,domain=waaw.tv|czxxx.org|videoxseries.xyz|piratulhd.com|scenelife.org|hqq.tv|oload.fun|oload.club
 @@/advert_$domain=pisen.com.cn|wb.qq.com
 @@/advertise.js$script
@@ -464,6 +465,7 @@
 @@/show_ads.js$script,domain=imgclick.net
 @@/show_ads_$domain=ygo-sem.cn
 @@/showads.$~third-party,domain=rte.ie
+@@/signup.php?mode=async&action=show_security_code$image,~third-party
 @@/site/ad/*$domain=islide.cc
 @@/site=*/size=*/viewid=$domain=morningstar.in
 @@/sites/default/files/*$image,domain=mangamint.com|mangabird.me
@@ -984,7 +986,6 @@
 @@||abandonedaction.com^$script,xmlhttprequest
 @@||abc.com/b/ss/$image
 @@||abc.es^$generichide
-@@||abc.net.au^*/components/newsletter/
 @@||abc.net.au^*/components/share/
 @@||abchina.com^*ad
 @@||abcmalayalam.com^$generichide
@@ -2910,6 +2911,7 @@
 @@||bawdypets.com^$script,xmlhttprequest
 @@||baynews9.com/etc/designs/news/clientlibs/js/ads.min.*.js
 @@||bazon.site/embed/$stealth
+@@||bazon.site^$stealth
 @@||bazonline.ch/scripts/advertisement.js
 @@||bb.com.br^$stealth
 @@||bbc.co.uk/frameworks/nedstat/$script,~third-party
@@ -3171,7 +3173,6 @@
 @@||blogs.earningradar.com/wp-content/plugins/wp-safelink/assets/fuckadblock.js
 @@||blogs.sapib.ca^$generichide
 @@||blogshinobijawi.blogspot.com^$ghide
-@@||blogsmithmedia.com^*/sailthru-newsletter.js?
 @@||blogspot.com*/ad$image,domain=wdbloog.com
 @@||blogspot.com^$image,domain=albtvhd.com
 @@||blogspot.com^$image,domain=bludv.com
@@ -4436,7 +4437,6 @@
 @@||chiptec.net/skin/*/GoogleAnalyticsPlus/$script
 @@||chipverify.com/*/js/prebid-ads.js
 @@||chipverify.com^$ghide
-@@||chobani.com/js/views/newsletter-signup.js
 @@||choice.microsoft.com/*/opt-out$urlblock
 @@||choices.consentframework.com/js/*/cmp$domain=numerama.com
 @@||choices.consentframework.com/js/*/cmp$domain=systemed.fr
@@ -5751,6 +5751,7 @@
 @@||docs.expo.io/*/static/*/pages/versions/latest/sdk/*.js$domain=docs.expo.io
 @@||docs.google.com/*/viewdata$~third-party
 @@||docs.google.com^$generichide
+@@||docs.telemetry.mozilla.org^$domain=docs.telemetry.mozilla.org
 @@||docs.w3cub.com^$generichide
 @@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
 @@||doctorzerenia.com/home/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
@@ -6029,7 +6030,7 @@
 @@||e.mail.ru^$generichide
 @@||e.mail.ru^$stealth
 @@||e.shifen.com^
-@@||e24.no/cnp-assets/src-sites-e24-components-newsletterwidget.$~third-party
+@@||e24.no/cnp-assets/components-NewsletterWidget.$~third-party
 @@||e7065.e2.akamaiedge.net^
 @@||e9china.net^$generichide
 @@||eafyfsuh.net/intermission/loadTargetUrl$xmlhttprequest
@@ -6200,6 +6201,7 @@
 @@||eldiario.es/static/BBTCore/images/pixel.gif?
 @@||eldiario.es/static/BBTCore/images/pixel.gif?hash=$image,domain=eldiario.es
 @@||eldiariomontanes.es^$ghide
+@@||elearning.ual.pt^$stealth
 @@||elections.ap.org/widgets/$stealth
 @@||elephantqueue.com^$script,xmlhttprequest
 @@||eleximg.com/*/tmp/hot/Facebook.gif
@@ -7975,6 +7977,7 @@
 @@||googleadservices.com^$domain=google.ae|google.at|google.be|google.by|google.ca|google.ch|google.cl|google.cn|google.co.id|google.co.in|google.co.jp|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.bd|google.com.br|google.com.co|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.ng|google.com.pe|google.com.ph|google.com.pk|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.vn|google.de|google.dk|google.ee|google.es|google.fr|google.gr|google.hu|google.ie|google.it|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk|google.tn
 @@||googleadservices.com^|$app=com.google.android.youtube
 @@||googleapis.com/customsearch/$domain=m.hdzog.com
+@@||googleapis.com/customsearch/v*/siterestrict?$domain=rakuten.com.tw,stealth
 @@||googleapis.com/gweb-uniblog-publish-prod/static/blog/images/google-$domain=blog.google
 @@||googleapis.com/hiveweb/img/icon_facebook.svg$domain=hive.im
 @@||googleapis.com/hiveweb/img/icon_google.svg$domain=hive.im
@@ -10625,7 +10628,6 @@
 @@||ligainsider.de/public/desktop/js/dfp.js
 @@||ligainsider.de^$ghide
 @@||liggoo.com/min/?$script
-@@||lightboxcdn.com/vendor/$script,domain=adweek.com
 @@||lightcushion.com^$script,xmlhttprequest
 @@||lightningmaps.org/min/index.php?f=css/$domain=lightningmaps.org
 @@||lightningmaps.org/min/index.php?f=js/
@@ -11841,6 +11843,7 @@
 @@||myshorturls.blogspot.com^$generichide
 @@||myshorturls.blogspot.com^$ghide
 @@||mysmth.net/nForum/*/ADAgent_$~third-party
+@@||mysocceraustralia.com^$generichide
 @@||myspass.de/myspass/includes/apps/player/standard/avt_config.php?$object-subrequest
 @@||myspass.de/myspass/includes/apps/video/getvideometadataxml.php?$object-subrequest
 @@||myssl.com/scripts/analyze.js
@@ -12945,6 +12948,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=truffeonline.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=tudaydeals.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest,domain=testadmit.com
+@@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domae.pt,google.ro,google.rs,google.ru,google.se,google.sk##button[jsaction="pane.adBanner.whyThisAdClick"]
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=freeserial-keys.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=soranews24.com
@@ -16829,7 +16833,6 @@
 @@||techniknews.net/data/ads/doubleserve.js
 @@||technoslek.com^$generichide
 @@||techonthenet.com/javascript/advert-min.js
-@@||techopedia.com/support/newsletterpopup.html$~third-party
 @@||techperiod.com/wp-content/cache/min/*/wp-content/themes/TechPeriod/js/ads-*.js
 @@||techperiod.com^$ghide
 @@||techposts.org^$generichide
@@ -18620,6 +18623,7 @@
 @@||winvistaclub.com/wp-content/uploads/$domain=thewindowsclub.com
 @@||winwk.com^$generichide
 @@||wipe.de/wa.js$domain=dasoertliche.de
+@@||wipe.de/wa.js$domain=dastelefonbuch.de
 @@||wips.com/*/Banners/
 @@||wips.com/www/images/Admin/Create/$image
 @@||wirecomic.com^$script,xmlhttprequest
