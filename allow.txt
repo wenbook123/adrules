@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: ws4HKtkDQF9Uqt1yC9v9eQ
+! Checksum: 3DA38hqO+Ka7bk8t6YmsDw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-02 08:58:07（北京时间） 
-! Total count: 19245
+! Version: 2023-02-02 16:20:56（北京时间） 
+! Total count: 19229
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -3587,7 +3587,6 @@
 @@||cbsinteractive.com^*/lib/tracking/comscore/$script
 @@||cbsistatic.com/*/bundles/$script,domain=cbssports.com
 @@||cbsistatic.com/*/js/compiled/siteAdsBidBarrel.js$domain=gamespot.com
-@@||cbsistatic.com/cnwk.1d/html/*/Social/$script,domain=cbsnews.com|cnet.com
 @@||cbsistatic.com/fly/bundles/flyjs/js/libs/omniture.s-code*.js$domain=cbsnews.com
 @@||cbsistatic.com/fly/bundles/flyjs/js/managers/clicktale-1.0.js$domain=cbsnews.com
 @@||cbsistatic.com/fly/bundles/flyjs/js/managers/omniture-tracking*.js$domain=cbsnews.com
@@ -3595,7 +3594,6 @@
 @@||cbsistatic.com/fly/js/libs/ads/bidbarrel-*.js$domain=cnet.com
 @@||cbsistatic.com/scripts/NativeAdManager.js^$domain=cbsnews.com
 @@||cbsistatic.com^*/advertisement*.js
-@@||cbsistatic.com^*/js-build/fly/components/social-links-$domain=cbsnews.com|cnet.com
 @@||cbssports.com^$ghide
 @@||ccb.com^*^ad
 @@||ccbluex.net^$ghide
@@ -4664,8 +4662,10 @@
 @@||cmp.faktor.mgr.consensu.org/dist/*/portal.html?vendorListLocation=$domain=weeronline.nl
 @@||cmp.faktor.mgr.consensu.org^$domain=consent.talpanetwork.com
 @@||cmp.pubtech.ai/124/pubtech-cmp-v2.js$script,domain=quotidiano.net
+@@||cmp.quantcast.com/*.js$domain=fly4free.pl
 @@||cmp.quantcast.com/*.js$domain=travlerz.com
 @@||cmp.quantcast.com/*.js$domain=wpolityce.pl
+@@||cmp.quantcast.com/*.json$domain=fly4free.pl
 @@||cmp.quantcast.com/*.json$domain=travlerz.com
 @@||cmp.quantcast.com/*.json$domain=wpolityce.pl
 @@||cmp.quantcast.com/choice/*/choice.js$domain=express.co.uk
@@ -5400,15 +5400,11 @@
 @@||dash.cloudflare.com^$domain=dash.cloudflare.com,important
 @@||dash.xns.one^
 @@||dashboard.adskeeper.co.uk^$domain=dashboard.adskeeper.co.uk
-@@||dashboard.idealmedia.com^$~third-party
 @@||dashboard.jwplayer.com^$document
-@@||dashboard.lentainform.com^$~third-party
-@@||dashboard.marketgid.com^$~third-party
 @@||dashboard.mgid.com^$popup
 @@||dashboard.mgid.com^$~third-party
 @@||dashboard.plex.tv^
 @@||dashboard.streetlib.com/_next/static/chunks/pages/$~third-party
-@@||dashboard.tovarro.com^$~third-party
 @@||dashboard.unity.com/dist/udash/app/assets/services/analytics/$domain=dashboard.unity.com|dashboard.unity3d.com
 @@||dashingdirt.com^$script,xmlhttprequest
 @@||dashingdrop.com^$script,xmlhttprequest
@@ -5739,7 +5735,6 @@
 @@||dniadops-a.akamaihd.net/ads/scripts/fwconfig/2/configs/italy-dplay2live.js
 @@||dns.msftncsi.com^
 @@||dnsgom.net/public/$domain=jingwubook.com|xwdsc.com
-@@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||dnsleaktest.com^$content,elemhide,jsinject
 @@||dnspod.cn/static/common/js/analytics.js
 @@||dnvodcdn.me/*/mp4$stealth,domain=iyf.tv
@@ -6445,7 +6440,6 @@
 @@||experience.tinypass.com^$xmlhttprequest,script,domain=independent.co.uk
 @@||experienceeggs.com^$script,xmlhttprequest
 @@||experienceleague.adobe.com^$~third-party
-@@||experienceleague.corp.adobe.com^$~third-party
 @@||expertblogz.com/*/ads.js
 @@||expertvn.com^$ghide
 @@||explainxkcd.com/wiki/images/$image,~third-party
@@ -7868,7 +7862,6 @@
 @@||google.*/_/chrome/newtab$document
 @@||google.*/aclk$~third-party
 @@||google.*/ads/$generichide,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
-@@||google.*/ads/$generichide,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|googlereamer.xyz##section.korea-widget
 @@||google.*/adsense_$~third-party,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||google.*/adwords/$~third-party,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||google.*/edu/cs/$genericblock
@@ -11951,7 +11944,6 @@
 @@||nensaysubs.net^$ghide
 @@||neobux.com/css/ads.css
 @@||neobux.com^$script,css,1p
-@@||neowin.net/images/uploaded/$image
 @@||nerdmaldito.com^$ghide
 @@||nerdwallet.com/cdn/apps/prod/article-client/$~third-party
 @@||nervoussummer.com^$script,xmlhttprequest
@@ -12006,7 +11998,6 @@
 @@||newsday.com/js/s_nd_code.js
 @@||newser.com/javascript/*/adblock.js
 @@||newser.com^*/adblock.js
-@@||newsgator.com/ngbuzz/load.ashx/$script,domain=cbsnews.com
 @@||newsinc.com^*/getPlacements.js?pid=$domain=washingtonexaminer.com
 @@||newsjizz.in^$ghide
 @@||newsletter.co.uk^$generichide
@@ -12553,7 +12544,7 @@
 @@||ouestfrance-immo.com/min/*/js/common/*/cmp_didomi.js
 @@||ourweigh.in/public/assets/img/icons/social/$image
 @@||outbrain.com/nanoWidget/3rd/comScore/comScore.htm$domain=telegraph.co.uk|theinsider.com
-@@||outbrain.com/outbrain.js$domain=cnn.com|damnyouautocorrect.com|doctoroz.com|ninemsn.com.au|slate.com
+@@||outbrain.com/outbrain.js$domain=cnn.com|damnyouautocorrect.com|doctoroz.com|ninemsn.com.au
 @@||outdoorpartner.net/js/adview.js
 @@||outlook.live.com/owa/projection.aspx$document
 @@||outlook.live.com^
@@ -12597,7 +12588,6 @@
 @@||p.jwpcdn.com^$script
 @@||p.qlogo.cn^
 @@||p.typekit.net/p.css$stylesheet,domain=browserstack.com|bungie.net|business.untappd.com|robertsspaceindustries.com
-@@||p.typekit.net/p.css$stylesheet,domain=browserstack.com|bungie.net|robertsspaceindustries.com
 @@||p11.techlab-cdn.com^$domain=wizzair.com
 @@||p2.2elotoaraba.com/Advert/*$domain=2elotoaraba.com
 @@||p2xfxd.com^$ghide
@@ -13425,7 +13415,7 @@
 @@||platform.twitter.com/oct.js$domain=cravetv.ca
 @@||platform.twitter.com/oct.js$domain=nuheara.com
 @@||platform.twitter.com/oct.js$domain=vulcun.com
-@@||platform.twitter.com/widgets.js$domain=agame.com|cbsnews.com|complex.com|egotastic.com|guildwars2.com|livestream.com|mandatory.com|pawnation.com|pennsundayschool.com|reviews.cnet.com|simcity.com|soychile.cl|spielen.com|wwe.com
+@@||platform.twitter.com/widgets.js$domain=agame.com|complex.com|egotastic.com|guildwars2.com|livestream.com|mandatory.com|pawnation.com|pennsundayschool.com|reviews.cnet.com|simcity.com|soychile.cl|spielen.com|wwe.com
 @@||platform.twitter.com/widgets.js$domain=gamerant.com
 @@||platform.twitter.com/widgets/$domain=theguardian.com
 @@||platform.twitter.com/widgets/$domain=vectorhq.com
@@ -14114,7 +14104,6 @@
 @@||quantcast.mgr.consensu.org/tcfv2^
 @@||quantcast.mgr.consensu.org^$domain=cinemablend.com
 @@||quantcast.mgr.consensu.org^$domain=express.co.uk
-@@||quantcast.mgr.consensu.org^$domain=fly4free.pl
 @@||quantcast.mgr.consensu.org^$domain=gamesradar.com
 @@||quantcast.mgr.consensu.org^$domain=jn.pt
 @@||quantcast.mgr.consensu.org^$domain=livescience.com
@@ -15388,7 +15377,7 @@
 @@||sharejunction.com^$ghide
 @@||sharepirate.com^$generichide
 @@||sharethis.com/button/$script,domain=dl.go4up.com
-@@||sharethis.com/button/buttons.js$domain=corporatehousingbyowner.com|gamesradar.com|halfmoonrun.com|itworld.com|mangafox.me|mangahere.com|movies.com|pandora.net|techbargains.com|walmart.com
+@@||sharethis.com/button/buttons.js$domain=corporatehousingbyowner.com|gamesradar.com|halfmoonrun.com|itworld.com|mangafox.me|mangahere.com|movies.com|pandora.net|techbargains.com
 @@||sharethis.com/button/sharethis.js$domain=statefarm.com|vogue.com
 @@||sharethis.com^$domain=colbertnation.com|fandango.com|fox23.com|imgur.com|thedailybeast.com
 @@||sharethis.com^$third-party,domain=gamesradar.com
@@ -16899,7 +16888,6 @@
 @@||teleportal.ua/vplayer/?hash=$stealth
 @@||telerium.*^$ghide
 @@||teleriumads-x64zcsqq.netdna-ssl.com/ads.js
-@@||television-envivo.com^$generichide
 @@||telize.com/geoip$document
 @@||tellonym.de/assets/js/ads.js
 @@||telolet.in^$generichide
@@ -18091,9 +18079,7 @@
 @@||vidtech.cbsinteractive.com^
 @@||vidtech.cbsinteractive.com^*/AkamaiAnalytics.swf$domain=kuathletics.com|mutigers.com|okstate.com
 @@||vidtodo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com
-@@||vidtodo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com|vidtodoo.com
 @@||vidtodoo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com
-@@||vidtodoo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com|vidtodoo.com
 @@||vidup.*/adsense.js$script
 @@||vidup.*^$ghide
 @@||vidyomani.com^*/showads.js
@@ -18202,7 +18188,6 @@
 @@||vntsm.com^$xhr,domain=op.gg
 @@||vo.msecnd.net^$domain=gsmarena.com
 @@||vod*.myqcloud.com^$stealth,domain=cloud.tencent.com
-@@||vod.midas-i.com^$media,domain=pandora.tv
 @@||vod.olympics2010.msn.com/beacon?
 @@||vod.universalsports.com/beacon?
 @@||vodafone.co.uk/cs/groups/system/documents/webasset/common_omniture.js$script
@@ -18755,7 +18740,6 @@
 @@||ws.skoda-auto.com/sap/*_piwik/Piwik.js
 @@||ws.webcaster.pro^$websocket
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
-@@||wsj.net^*/social_icons.png$domain=marketwatch.com
 @@||wsr.pearsonvue.com^$extension
 @@||wss.analyticacdn.com^$websocket
 @@||wstream.*^$ghide
