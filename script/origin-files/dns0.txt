@@ -1,8 +1,8 @@
-! Checksum: 0Ld4y412dha+OPggLI1vLQ
+! Checksum: th+jZxOevS3FgSIK+qgoEw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.79.49
-! TimeUpdated: 2023-02-03T06:31:17+00:00
+! Version: 2.0.79.53
+! TimeUpdated: 2023-02-03T14:31:50+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1241,6 +1241,9 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+zhongce.sina.com.cn##div[class^="side-btns-jifen"]
+sojson.com##._left_ad
+sojson.com##._right_ad
 tt776.com##iframe[src="/app/ad.html"]
 9s102.xyz###main > .container-fluid.mb-3 > .row > .col-sm .alert
 9s102.xyz##.jsv > .container-fluid.mb-0 > .row > .col-sm > a[target="_blank"]
@@ -2494,6 +2497,8 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/141652
+blog.zhheo.com#@##footer-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138932
 event.biotherm.com.tw#@##ad1
 event.biotherm.com.tw#@##ad2
@@ -2666,6 +2671,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 !---------------------------------------------------------------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/res/kj/hf*.js?v=
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -4069,6 +4075,8 @@ ubmcmm.baidustatic.com
 ##a[id][href*="/?register="]
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick^="_czc."] > .add
+##.ka-flo
+##.kjk-flo
 ##a[onclick^="_czc."] > .ads
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
@@ -4567,6 +4575,10 @@ ubmcmm.baidustatic.com
 ||jike001.top^
 ||thlnbzi.cn^
 ||tanghao.club^
+||fqla.top^
+##a[href*="/296256.com:"]
+##a[href*="/265201.com:"]
+||ealooov.cn^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
