@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: hYBkA33WmmMnzZm0S3drDg
+! Checksum: bWCGOjT9SADF5Odugv7Bmw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-06 16:20:27（北京时间） 
-! Total count: 19223
+! Version: 2023-02-07 08:58:02（北京时间） 
+! Total count: 19229
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -453,6 +453,7 @@
 @@/securepubads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@/sensorsdata-$domain=zkh.com
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|zzjiasuqi.com
+@@/sensorsdata.$domain=fenbi.com|36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|zzjiasuqi.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share-sprite-$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 @@/share/js/*$domain=yunpanjingling.com
@@ -625,6 +626,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgrstbank.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -8246,6 +8248,7 @@
 @@||googletagmanager.com/gtm.js$domain=raaga.com
 @@||googletagmanager.com/gtm.js$domain=radio.at|radio.net|radio.de
 @@||googletagmanager.com/gtm.js$domain=radiorur.de
+@@||googletagmanager.com/gtm.js$domain=radiox.co.uk
 @@||googletagmanager.com/gtm.js$domain=rbbtoday.com
 @@||googletagmanager.com/gtm.js$domain=realestate.co.nz
 @@||googletagmanager.com/gtm.js$domain=redbull.com
@@ -12055,6 +12058,7 @@
 @@||ninja.onap.io/ninja-cee.js$domain=olx.pl
 @@||ninja.onap.io/ninja-cee.js$script,domain=olx.ua
 @@||nintendo.co.jp/ring/*/adv$~third-party
+@@||nintendo.co.kr^$stealth
 @@||nintendo.com/apps/noa/scripts/analytics.js$~third-party
 @@||nintendo.com/js/library/modernizr.js$script
 @@||nintendo.com/js/omniture-prod.js
@@ -13909,6 +13913,7 @@
 @@||ptztv.com/easyads/streaming.js
 @@||pub.alimama.com/common/adzone/
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
+@@||pub.pixels.ai/wrap-independent-no-prebid-lib.js$script,domain=independent.co.uk
 @@||pub.pixels.ai/wrap-independent-prebid-lib.js$domain=independent.co.uk
 @@||pub.tunnl.com/AdTag?id=$domain=video-static.tunnl.com
 @@||pubads.g.doubleclick.net/activity;$domain=15min.lt
@@ -18530,6 +18535,7 @@
 @@||whathifi.com^$ghide
 @@||whatismyip.com/wp-content/plugins/social-network-tabs/$stylesheet
 @@||whatsapp.com^$generichide
+@@||whatsapp.com^$generichide,badfilter
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
 @@||whhd.gov.cn^
 @@||whineattempt.com^$script,xmlhttprequest
