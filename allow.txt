@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: IW2oiL0Jnrz5vRv981NFmA
+! Checksum: rS6W6Sh48PLQUL3oEpT9ew
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-09 08:57:09（北京时间） 
-! Total count: 19226
+! Version: 2023-02-09 16:18:56（北京时间） 
+! Total count: 19223
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -83,7 +83,6 @@
 @@.jpg#*/ad$image
 @@.jpg$stealth,domain=manga1001.com
 @@.jpg?$image,domain=el7l.tv
-@@.m3u8$stealth,domain=telerium.tv
 @@.myvi.ru^$stealth
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@.pexcard.com^$jsinject,elemhide,extension
@@ -624,6 +623,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org|smetrics.e-abbott.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -4214,7 +4214,6 @@
 @@||cdn3.iplex.pl/iplex3/static/js/ads.js$script
 @@||cdn3.optimizely.com^
 @@||cdn4.tennistemple.com/js/advert.js|$script,~third-party
-@@||cdn4.us^$stealth
 @@||cdn61.zvooq.com/track/stream^$stealth
 @@||cdn77.monster/js/devtools-detector.js$domain=dizipal438.com
 @@||cdnads.com^$image,subdocument,domain=bitzfree.com
@@ -4670,6 +4669,7 @@
 @@||cmp.quantcast.com/choice/*/choice.js$domain=express.co.uk
 @@||cmp.quantcast.com/tcfv2/cmp2.js$domain=ecartelera.com
 @@||cmp.quantcast.com^$domain=comingsoon.it
+@@||cmp.quantcast.com^$domain=glasgowlive.co.uk
 @@||cmp.quantcast.com^$domain=space.com
 @@||cmp.quantcast.com^*/cmp2.js$domain=express.co.uk
 @@||cmp.sky.it/wrapperMessagingWithoutDetection.js$domain=tv8.it
@@ -6744,7 +6744,6 @@
 @@||finalizeforce.com^$script,xmlhttprequest
 @@||finalservers.net^$generichide
 @@||financialexpress.com/wp-content/themes/vip/financialexpress/js/ads_js.js
-@@||financialpost.com^$ghide
 @@||find-my-search.com/includes/js/adblockDetect/_advertisement.js$script
 @@||findernet.com^$content
 @@||findflac.com^$script,1p
@@ -7160,7 +7159,6 @@
 @@||gala100.net^$ghide
 @@||galaxy.gala100.net^$generichide
 @@||galleries.bz/intermission/loadTargetUrl$xmlhttprequest
-@@||galt.hit.gemius.pl/gplayer.js$domain=lrt.lt
 @@||galt.hit.gemius.pl/gplayer.js$script,domain=lrt.lt
 @@||gamaniak.com/js/check_adsense.js$script
 @@||gamasutra.com/checkauth.php?
@@ -13265,7 +13263,6 @@
 @@||pg3dhacks.com^$generichide
 @@||pg3dhacks.com^$ghide
 @@||pga.com^$ghide
-@@||pgcm58.com/files/h5/app.js
 @@||pgl.yoyo.org^
 @@||pgol.it/scripts/layerPos.js$script
 @@||pgpartner.com^
@@ -14596,6 +14593,7 @@
 @@||rytmynatury.pl/wp-content/plugins/easy-facebook-likebox/
 @@||ryuukoi.web.id^$ghide
 @@||rzd.ru^$stealth
+@@||s*-prod.glasgowlive.co.uk/*/prebid.js$domain=glasgowlive.co.uk
 @@||s*.5playdisk.ru/*/files/*.apk$stealth
 @@||s*.bpwco.com^$xmlhttprequest,stealth
 @@||s*.rea.reastatic.net/rs/rui_advertorial.js
@@ -18010,7 +18008,6 @@
 @@||video-stats.l.google.com^
 @@||video.520call.me/ad.php
 @@||video.520cc.cc/ad.php|
-@@||video.520cc.cc/ad/$script
 @@||video.520cc.cc^$generichide
 @@||video.bestjavporn.com^$ghide
 @@||video.externulls.com/key=$stealth
