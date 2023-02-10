@@ -2913,10 +2913,6 @@ realgfporn.com##.banner-video-right
 ||realgfporn.com/sw.js$script,1p
 *$popunder,domain=realgfporn.com
 
-! https://github.com/uBlockOrigin/uAssets/issues/1121
-zmovs.com##+js(nowoif)
-zmovs.com##+js(aopr, ALoader)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/1122
 picturelol.com###rang2
 picturelol.com##+js(aopr, ExoLoader)
@@ -6549,9 +6545,14 @@ alein.org##+js(acis, document.getElementById, tester)
 titsbox.com##+js(aeld, click, exopop)
 titsbox.com##+js(nowoif)
 *$script,3p,domain=titsbox.com
-||titsbox.com/eb/api.php$script,1p
-||titsbox.com/sw.js$script,1p
 titsbox.com##[class*="banners"]
+||titsbox.com/iframe/*_NTV_
+||titsbox.com/js/pns.min.js
+! https://github.com/uBlockOrigin/uAssets/issues/1121
+zmovs.com##+js(nowoif)
+zmovs.com##+js(aopr, ALoader)
+||zmovs.com/js/pns.min.js
+||zmovs.com/nb/
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2813
 spycock.com##+js(aopr, document.dispatchEvent)
@@ -9242,7 +9243,7 @@ mixdrop.*,mixdrp.*##+js(nano-stb, disabled)
 ||mixdrop.*/sw.js$script,1p
 mixdrop.*##div[onclick^="$(this).remove"]
 mixdrp.*,mixdrop.*##body > div[style^="position: absolute;"][style*="z-index"]
-*$script,3p,denyallow=gstatic.com|hwcdn.net|jquery.com,domain=mixdrop.sx
+*$script,3p,denyallow=google.com|gstatic.com|hwcdn.net|jquery.com,domain=mixdrop.*|mixdrp.*
 ||brightadnetwork.com^
 
 ! https://github.com/NanoMeow/QuickReports/issues/389
@@ -14126,7 +14127,6 @@ fullhdxxx.com##+js(set, adv, true)
 fullhdxxx.com##+js(aopr, btoa)
 fullhdxxx.com,viptube.com##+js(nowoif)
 fullhdxxx.com###video-slider
-/api/spots/*&ev$script
 ! https://github.com/uBlockOrigin/uAssets/issues/6106#issuecomment-528640975
 m.viptube.com##+js(aopw, mobilePop)
 
@@ -17618,7 +17618,6 @@ mobiletvshows.net##+js(aopr, open)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16602
 katmoviehd.*##+js(acis, Math.imul)
-||aj2550.bid^
 katmoviehd.*###sidebar > #custom_html-6
 
 ! https://github.com/NanoMeow/QuickReports/issues/3100
@@ -18288,7 +18287,7 @@ erofus.com##.row-content > .col-lg-2[style^="height"]
 ##.bloc-pub
 ##.bloc-pub2
 ###invideo_data
-*/api/spots/$frame
+*/api/spots/$frame,script
 ###invideo_2
 ##[href*="librateam.net"]
 ##[src*="librateam.net"]
