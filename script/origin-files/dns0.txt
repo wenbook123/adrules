@@ -1,8 +1,8 @@
-! Checksum: IIb73jWs9Le3fobo2d3tXQ
+! Checksum: hk5fvCG2hehRdWR8zM4VEQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.80.20
-! TimeUpdated: 2023-02-11T05:31:02+00:00
+! Version: 2.0.80.23
+! TimeUpdated: 2023-02-11T15:30:59+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4058,6 +4058,7 @@ ubmcmm.baidustatic.com
 ##a[href="javascript:window.GoTp();"]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
 ##a[href^="/hy-"][ontouchstart]
+###ad > #h2_player_prevideo
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http://ad.moemoe."]
 ##a[href^="javascript:GoDb"]
@@ -4678,6 +4679,9 @@ ubmcmm.baidustatic.com
 ||yurti.cyou^
 ||bitu.fun^
 ||zktqzyz.cn^
+##A[href*="/x9658.cc"]
+||z4a.net^
+##a[href*="/sm003r.tv"]
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -24060,6 +24064,7 @@ wnacg.com,wnacg.org##script + div > a > img
 ||hdapp1008-a.akamaihd.net^
 ||hdsrc-a.akamaihd.net^
 eastday.com#@##leftShare
+zhihu.com#@#.FollowButton
 189.cn#@##linkShare
 gfan.com,gfan.net.cn#@##shareBox
 189.cn,zdzdm.com#@##share_list
