@@ -1533,7 +1533,7 @@ hydracdn.*,hydrax.net,playhydrax.com##+js(aopr, AaDetector)
 hydracdn.*,hydrax.net,playhydrax.com##+js(nostif, debugger)
 playhydrax.com##+js(nosiif, _0x)
 hydracdn.*,hydrax.net,playhydrax.com##+js(nowoif, /^/, 2)
-freeplayervideo.com,nazarickol.com,player-cdn.com,watchfilmyonline.com##+js(set, detectAdBlockAll, noopFunc)
+abysscdn.com,freeplayervideo.com,nazarickol.com,player-cdn.com,watchfilmyonline.com##+js(set, detectAdBlockAll, noopFunc)
 *$image,redirect-rule=32x32.png,domain=freeplayervideo.com|nazarickol.com|player-cdn.com
 freeplayervideo.com,geoip.redirect-ads.com,nazarickol.com,player-cdn.com##+js(set, console.clear, undefined)
 freeplayervideo.com,nazarickol.com,player-cdn.com##+js(ra, style, #over)
@@ -1546,6 +1546,7 @@ playhydrax.com,hydracdn.*,hydrax.net##div#over:remove()
 jav.guru##.aligncenter
 jav.guru##.alignnone
 ||player-cdn.com/cdn-cgi/trace$xhr,1p
+||abysscdn.com/cdn-cgi/trace$xhr,1p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12058
 9anime.*##+js(acis, setTimeout, String.fromCharCode)
@@ -4947,12 +4948,9 @@ pornoreino.com##+js(aopr, open)
 pornoreino.com##.banner
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4931
-atresplayer.com##+js(nostif, _creatBait)
-atresplayer.com##+js(no-fetch-if, /conversion_async.js)
 @@||adpass.atresmedia.com/*/adjs.js$xhr,domain=atresplayer.com
 @@||atresplayer.com^$ghide
 @@||assets.adobedtm.com^$xhr,domain=atresplayer.com
-atresplayer.com##[href^="https://www3.smartadserver.com/click"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2097
 @@||dogefaucet.com^$ghide
@@ -6274,10 +6272,6 @@ galaxy.gala100.net##.metaRedirectWrapperTopAds
 extremotvplay.com,pirlotvonline.org,rojadirectaenvivo.*##+js(aopw, _pop)
 *$popup,domain=extremotvplay.com,3p
 /skipad.png$image
-
-! https://github.com/uBlockOrigin/uAssets/issues/2690
-@@||maritimeherald.com^$ghide
-maritimeherald.com##[href*="/lnk.asp"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2691
 @@||deadtoonsindia.*^$ghide
@@ -9233,7 +9227,7 @@ mywatchseries.*##+js(acis, document.querySelectorAll, popMagic)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4219
 yomovies.*##+js(aopr, decodeURI)
-mixdrp.to##+js(aeld, load, download-wrapper)
+mixdrp.*##+js(aeld, load, download-wrapper)
 mixdrop.*##+js(aopw, _pop)
 mixdrop.*##+js(set, MDCore.adblock, 0)
 mixdrop.*,mixdrp.*##+js(nowoif)
@@ -9878,7 +9872,8 @@ aniwatcher.com##.cjrm
 ##[src="/img/bat-banner.png"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/15444
-emurom.net##+js(set, dvsize , 1)
+! https://github.com/uBlockOrigin/uAssets/issues/16693
+emurom.net##+js(set, dvsize, 21)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4399
 ! https://www.reddit.com/r/uBlockOrigin/comments/u72fym/dailymotion_adblock_detected/
@@ -10597,7 +10592,7 @@ latinomegahd.net##+js(aopw, _pop)
 *$popunder,domain=drivelinks.me|hackshort.me|pelislinks.me
 drivelinks.me,hackshort.me,pelislinks.me##+js(acis, document.oncontextmenu)
 drivelinks.me,hackshort.me,pelislinks.me##+js(acis, document.onmousedown)
-@@*$ghide,domain=freeserverhostingweb.club|me-encantas.com|mexicogob.com|noticiascripto.site|tanfacil.net|tecnoaldia.net|todoandroid.live
+@@*$ghide,domain=freeserverhostingweb.club|me-encantas.com|noticiascripto.site|tanfacil.net|tecnoaldia.net|todoandroid.live
 freeserverhostingweb.club,me-encantas.com,mexicogob.com,noticiascripto.site,tanfacil.net,tecnoaldia.net,todoandroid.live##+js(acis, document.oncontextmenu)
 freeserverhostingweb.club,me-encantas.com,mexicogob.com,noticiascripto.site,tanfacil.net,tecnoaldia.net,todoandroid.live##+js(acis, document.onkeydown)
 freeserverhostingweb.club,me-encantas.com,mexicogob.com,noticiascripto.site,tanfacil.net,tecnoaldia.net,todoandroid.live##+js(acis, document.onmousedown)
@@ -19296,7 +19291,7 @@ techdracula.com##.adsbygoogle
 
 ! regex
 /[0-9a-f]{32}\/invoke\.js/$script,3p
-/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
+/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
 ! https://github.com/easylist/easylist/issues/6476
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$frame,script,xhr,popup,3p,match-case
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.website\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$frame,script,xhr,popup,3p,match-case
