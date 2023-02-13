@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 105jm7zhglATqGsxy/ow9A
+! Checksum: XFjkd95u9LpcEmMnnvYeDA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-13 16:20:43（北京时间） 
-! Total count: 19215
+! Version: 2023-02-14 00:19:37（北京时间） 
+! Total count: 19218
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -451,7 +451,6 @@
 @@/securepubads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@/sensorsdata-$domain=zkh.com
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|zzjiasuqi.com
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|oo-adv-content
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share-sprite-$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 @@/share/js/*$domain=yunpanjingling.com
@@ -624,7 +623,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgsmetrics.babycentre.co.uk^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1497,6 +1495,8 @@
 @@||ads.tiktok.com^$generichide
 @@||ads.tiktok.com^$popup
 @@||ads.tiktok.com^$~third-party
+@@||ads.twitcasting.tv/js/env_test/ads.js
+@@||ads.twitcasting.tv/js/env_test/ads.js$script,1p
 @@||ads.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||ads.twitter.com^$image,domain=rule34hentai.net|finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|android-zone.ws|animes-mangas-ddl.net|wowebook.org|cloudwebcopy.com|pipocas.tv
 @@||ads.twitter.com^$popup,~third-party
@@ -5518,6 +5518,7 @@
 @@||delivery.vidible.tv/jsonp/$script,domain=delivery.vidible.tv
 @@||delivery.vidible.tv/jsonp/$script,domain=engadget.com
 @@||delivery.vidible.tv^
+@@||dell.com/support/components/$xmlhttprequest,jsinject,elemhide,extension
 @@||dell.com^$cookie=/^AMCVS?_.*AdobeOrg/
 @@||delta.com/dlhome/ruxitagentjs$~third-party
 @@||deltaleech.com^$ghide
@@ -12561,6 +12562,7 @@
 @@||owlsr.us^$script,xmlhttprequest
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||oyungezer.com.tr/templates/oyungezer/js/adv.js
+@@||ozabc.com^$generichide
 @@||ozone.10jqka.com.cn^
 @@||ozone.ru/assets/analytics.$script,~third-party
 @@||ozracing.com/templates/oz/js/vendor/cookies-enabler.min.js
@@ -19215,6 +19217,7 @@
 @@||ztgame.com^
 @@||zx-pk.ru/abp/adblock_detector.js
 @@||zxmee.com^$generichide
+@@||zxzja.com:*/Cloud/Down/$subdocument,stealth
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 @@||zyz.sdljwomen.com/*/?url=$stealth
