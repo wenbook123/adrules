@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: aevHBVIom7N76hf5vDef0g
+! Checksum: MPmMEJh71VCzavhOQX5Xdw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-14 08:59:49（北京时间） 
-! Total count: 19221
+! Version: 2023-02-14 16:20:12（北京时间） 
+! Total count: 19222
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -623,6 +623,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgparty
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -5667,6 +5668,7 @@
 @@||disqus.com/api/3.0/embed/threadDetails.json
 @@||disqus.com/api/3.0/posts/$document
 @@||disqus.com/embed/comments/
+@@||disqus.com/embed/comments/$subdocument
 @@||disqus.com/embed/comments/?$subdocument
 @@||disqus.com^*/social-icons.png
 @@||disquscdn.com^*/assets/img/$image
@@ -11655,7 +11657,6 @@
 @@||mpsnare.iesnare.com/script/logo.js$domain=lenovo.com
 @@||mpsnare.iesnare.com/snare.js$domain=lenovo.com
 @@||mpsnare.iesnare.com/snare.js$domain=rossmann.de
-@@||mpsnare.iesnare.com/snare.js$script,domain=power.fi
 @@||mpsnare.iesnare.com/snare.js$script,domain=power.fi|verkkokauppa.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|princessauto.com|usbank.com|vitacost.com|westernunion.com
 @@||mpt.gov.by^$stealth
@@ -16800,7 +16801,6 @@
 @@||teachertube.com^$generichide
 @@||teachoo.com/static/html/js/ad_footer.js$domain=teachoo.com
 @@||teachoo.com/static/html/js/prebid.js$domain=teachoo.com
-@@||tealium.cbsnews.com/site/prod/utag.js$domain=cbsnews.com
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||teambition.com^$jsinject,elemhide,extension
 @@||teamquest.pl/img/static/$image
@@ -18616,6 +18616,7 @@
 @@||winsetupfromusb.com/wp-content/plugins/uk-cookie-consent/js/uk-cookie-consent-js.js
 @@||winvistaclub.com/wp-content/uploads/$domain=thewindowsclub.com
 @@||winwk.com^$generichide
+@@||winwk.com^-overlay_ad
 @@||wipe.de/wa.js$domain=dasoertliche.de
 @@||wipe.de/wa.js$domain=dastelefonbuch.de
 @@||wips.com/*/Banners/
