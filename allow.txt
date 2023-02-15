@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: ZqaonPr/PHGi8Dp1ts3KaA
+! Checksum: dRMokGUQR8jfFnR/wVo3EQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-15 00:21:18（北京时间） 
-! Total count: 19227
+! Version: 2023-02-15 08:59:35（北京时间） 
+! Total count: 19228
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -2453,6 +2453,8 @@
 @@||app.usercentrics.eu/browser-ui^$domain=app.usercentrics.eu
 @@||app.usercentrics.eu/latest/bundle.js$domain=wetter.com|joyn.de|stromseite.de
 @@||app.usercentrics.eu/latest/main.js$domain=wetter.com|joyn.de|stromseite.de
+@@||app.veggly.net/plugins/cordova-plugin-admobpro/www/AdMob.js$script,~third-party
+@@||app.veggly.net/plugins/cordova-plugin-x-socialsharing/$script,~third-party
 @@||app.zyncfreesurveys.com/js/global/adverts.js
 @@||appapi.inspsearchapi.com^$domain=search.pch.com
 @@||apparatuslip.com^$script,xmlhttprequest
@@ -2549,7 +2551,6 @@
 @@||artstation.com/*/assets/images/images/*-adv.jpg
 @@||arubedo.*^$ghide
 @@||arukikata.com/images_ad/$image,~third-party
-@@||arukikata.com/images_am.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id*="_ad-placements-"]
 @@||arvest.com/common/urchin/urchin.js
 @@||as.com^$ghide
 @@||as.mgtv.com^
@@ -5939,6 +5940,7 @@
 @@||dropboxstatic.com/static/js/modules/*/eu_cookie_bar.min-*.js$domain=dropbox.com
 @@||dropboxstatic.com/static/js/modules/clean/$script,domain=dropbox.com
 @@||dropboxstatic.com/static/js/modules/clean/ux_analytics/$script,domain=dropbox.com
+@@||dropboxstatic.com/static/metaserver/static/js/ux_analytics/$script,domain=dropbox.com
 @@||dropboxstatic.com^$stylesheet,domain=dropbox.com
 @@||dropboxstatic.com^*/share_button.$domain=dropbox.com
 @@||dropboxstatic.com^*/share_link_$script,domain=dropbox.com
@@ -15301,7 +15303,6 @@
 @@||serve.popads.net/checkInventory.php$script,domain=imgnova.xyz
 @@||serve.popads.net/checkInventory.php$script,domain=jav4.me
 @@||servebom.com/tmn*.js$script,domain=tomsguide.com|tomshardware.co.uk|tomshardware.com|wonderhowto.com
-@@||servebom.com/tmn*.js$script,domain=tomsguide.com|tomshardwd/$image,~third-party
 @@||served-by.pixfuture.com/www/delivery/gcws.php$xmlhttprequest,domain=premiumtimesng.com
 @@||servedby.flashtalking.com/*iabeu$domain=cdn.flashtalking.com
 @@||server*cdn*.tk/hls/$stealth
@@ -15725,6 +15726,7 @@
 @@||soccer.ru/sites/all/themes/mytheme/advert.js
 @@||soccer24hd.com/adblock/advertisement.js
 @@||soccer24hd.com^$ghide
+@@||social-api.bookbub.com^$~third-party
 @@||social.krunker.io^$~third-party
 @@||socialblade.com/images/$image
 @@||socialblade.com^$ghide
@@ -19230,5 +19232,4 @@
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 @@||zyz.sdljwomen.com/*/?url=$stealth
 @@|||streamhide.*/js/dnsads.js?$script,domain=streamhide.to
-@readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com,realradioxs.co.uk,redhillandreigatelife.co.uk,rochdaleonline.co.uk,rte.ie,sloughobserver.co.uk,smartertravel.com,southwestfarmer.co.uk,spin1038.com,spinsouthwest.com,sportsjoe.ie,sportsmole.co.uk,strathallantimes.co.uk,sundaypost.com,tcmuk.tv,thejournal.co.uk,thevillager.co.uk,thisisfutbol.com,toffeeweb.com,uktv.co.uk,videocelts.com,warringtonguardian.co.uk,wiltshirebusinessonline.co.uk,windsorobserver.co.uk##.mpu
 @||crunchyroll.com/*/ads_enabled_flag*.js$script
