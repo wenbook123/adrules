@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: MqVC2gdiXFAZKmjMv1hHBQ
+! Checksum: 3eMABjoxTdMyCNW0z9pDmw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-15 16:21:30（北京时间） 
-! Total count: 19225
+! Version: 2023-02-16 00:21:29（北京时间） 
+! Total count: 19234
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -622,6 +622,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtia.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2269,6 +2270,7 @@
 @@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=businessinsider.de|computerbild.de|handelsblatt.com
 @@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|shueisha.co.jp
 @@||api.cxense.com/public/widget/data$xhr,domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|echo-online.de|lampertheimer-zeitung.de|lauterbacher-anzeiger.de|main-spitze.de|oberhessische-zeitung.de|wiesbadener-kurier.de|wormser-zeitung.de
+@@||api.cxense.com/public/widget/data?$domain=bizjournals.com|cxpublic.com|marketwatch.com|wsj.com
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
 @@||api.cxense.com/public/widget/data?$domain=mainichi.jp
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
@@ -2323,6 +2325,7 @@
 @@||api.mapbox.com^$stealth,domain=maps.me
 @@||api.mapbox.com^$stealth,domain=padmapper.com
 @@||api.mapbox.com^$stealth,domain=planet.com
+@@||api.mapbox.com^$stealth,domain=tunein.com
 @@||api.mapy.cz/*/maptiles/$stealth
 @@||api.mapy.cz^$stealth
 @@||api.mghubcdn.com/graphql$stealth
@@ -2419,6 +2422,7 @@
 @@||apotheken-umschau.de$content
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
+@@||app-cdn.minepi.com^|
 @@||app-sjf.marketo.com^$domain=live.altium.com
 @@||app.aboutyou.com/sign_in_with_apple$stealth
 @@||app.adjust.world^$app=com.spotify.music
@@ -3314,6 +3318,7 @@
 @@||browser.mi-img.com^
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|menshealth.com|roomster.com|timesprime.com|womenshealthmag.com
 @@||browser.sentry-cdn.com^$domain=marshmallow-qa.com
+@@||browser.sentry-cdn.com^$domain=marshmallow-qa.com|spacemarket.com
 @@||browser.sentry-cdn.com^$script,domain=podcasty.seznam.cz
 @@||browser.sentry-cdn.com^$script,domain=vivareal.com.br
 @@||browser.yandex.*/sync/
@@ -4687,6 +4692,7 @@
 @@||cnnic.net.cn^
 @@||cnnic.net^
 @@||cnnturk.com/action/media^
+@@||cnpack.org^$stealth
 @@||cnprint.org^$generichide
 @@||cnr.cn/gg/
 @@||cnsexy.top/wp-content/plugins/dh-anti-adblocker/assets/js/showads.js
@@ -5178,6 +5184,7 @@
 @@||csid.com/wp-content/plugins/bwp-minify/min/?*/google-analyticator/$script
 @@||csm.cxpublic.com/President.js$domain=president.jp
 @@||csm.cxpublic.com/Shueisha.js$domain=wpb.shueisha.co.jp
+@@||csm.cxpublic.com/nikkansports.js$domain=nikkansports.com,script
 @@||csm.cxpublic.com^$script,domain=mainichi.jp
 @@||csm.cxpublic.com^$script,domain=mainichi.jp|tarzanweb.jp
 @@||csm.cxpublic.com^$script,domain=tarzanweb.jp
@@ -14830,6 +14837,7 @@
 @@||scatteredstream.com^$script,xmlhttprequest
 @@||scdn.cxense.com/cx.cce.js$domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
 @@||scdn.cxense.com/cx.cce.js$domain=cdn.cxpublic.com
+@@||scdn.cxense.com/cx.cce.js$domain=cxpublic.com
 @@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp
 @@||scdn.cxense.com/cx.cce.js$domain=pcgames.de
 @@||scdn.cxense.com/cx.cce.js$domain=tn.com.ar
@@ -18011,6 +18019,7 @@
 @@||video-stats.l.google.com^
 @@||video.520call.me/ad.php
 @@||video.520cc.cc/ad.php|
+@@||video.520cc.cc^$alreview.com##.moduletable > .becker_doubleclick
 @@||video.520cc.cc^$generichide
 @@||video.bestjavporn.com^$ghide
 @@||video.externulls.com/key=$stealth
