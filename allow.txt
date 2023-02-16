@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: smUOOBxoTCV1Ak8F3VdLDg
+! Checksum: iqJPkurFz9jmRcE6AWys/Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-16 16:19:16（北京时间） 
-! Total count: 19232
+! Version: 2023-02-17 00:21:36（北京时间） 
+! Total count: 19241
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -23,7 +23,7 @@
 @@*$ghide,domain=deinesexfilme.com|einfachtitten.com|halloporno.com|herzporno.com|hd-pornos.net|lesbenhd.com|milffabrik.com|porn-monkey.com|porndrake.com|pornhubdeutsch.net|pornoaffe.com|pornodavid.com|pornoente.tv|pornofisch.com|pornofelix.com|pornohammer.com|pornohelm.com|pornoklinge.com|pornotom.com|pornotommy.com|pornovideos-hd.com|pornozebra.com|xhamsterdeutsch.xyz|xnxx-sexfilme.com
 @@*$ghide,domain=drivelinks.me|hackshort.me|pelislinks.me
 @@*$ghide,domain=f1stream.*|fbstream.*|mlbstream.*|motogpstream.*|nbastream.*|nflstream.*|nhlstream.*|plylive.*|plyvdo.*|rugbystreams.*|socceronline.*|tennisstreams.*|tvply.*|ufcstream.*|vipleague.*
-@@*$ghide,domain=freeserverhostingweb.club|me-encantas.com|tanfacil.net|tecnoaldia.net|todoandroid.live
+@@*$ghide,domain=freeserverhostingweb.club|me-encantas.com|tanfacil.net|tecnoaldia.net
 @@*$ghide,domain=games.startribune.com|games.charlotteobserver.com|puzzles.bestforpuzzles.com|puzzles.independent.co.uk|puzzles.standard.co.uk
 @@*$ghide,domain=pomponik.pl|iplsc.com
 @@*$ghide,domain=themattwalshblog.com
@@ -622,6 +622,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgalk.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1643,7 +1644,6 @@
 @@||aetv.com^$generichide
 @@||aetv.global.ssl.fastly.net^$xmlhttprequest,domain=play.aetv.com
 @@||afairweb.com/api/$xmlhttprequest,domain=hulkusc.com
-@@||afdah.*/show-ad*.js$script,1p
 @@||afdah.to/show-ad
 @@||aff.bstatic.com/static/affiliate_base/js/booking_sp_widget.js$domain=arukikata.co.jp
 @@||aff.bstatic.com^$image,domain=tonkosti.ru
@@ -7344,6 +7344,7 @@
 @@||geo-prod.do.dsp.mp.microsoft.com^
 @@||geo-targetly.com/geolocation?id$script,third-party
 @@||geo.dailymotion.com/player/*.html$stealth,domain=ohmymag.com
+@@||geo.dailymotion.com/player/*.html$stealth=referrer,domain=filmstarts.de
 @@||geo.de^$generichide
 @@||geo.gorillanation.com/geo.php$script,domain=sherdog.com
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
@@ -9959,6 +9960,7 @@
 @@||itechpost.com/common/js/common/ads.js
 @@||item-voyage.fr/ads.css
 @@||iteye.com^
+@@||itmedia.co.jp^$cookie=cX_G
 @@||itnews.com.au/scripts/js_*.js
 @@||itopmusic.com/wp-content/plugins/ad-ace//includes/adblock-detector/advertisement.js
 @@||itopmusic.com^$generichide
@@ -10309,6 +10311,7 @@
 @@||kickassanime.*^$ghide
 @@||kickedface.com^$generichide
 @@||kickedface.com^$ghide
+@@||kifir2.kir.hu^$stealth
 @@||kikiers.com^$ghide
 @@||kikiers.com^$script,1p
 @@||kimcartoon.io/js/ads.js
@@ -11666,6 +11669,7 @@
 @@||mpsnare.iesnare.com/script/logo.js$domain=lenovo.com
 @@||mpsnare.iesnare.com/snare.js$domain=lenovo.com
 @@||mpsnare.iesnare.com/snare.js$domain=rossmann.de
+@@||mpsnare.iesnare.com/snare.js$domain=welcome.cryptothrills.io
 @@||mpsnare.iesnare.com/snare.js$script,domain=power.fi|verkkokauppa.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|princessauto.com|usbank.com|vitacost.com|westernunion.com
 @@||mpt.gov.by^$stealth
@@ -12324,6 +12328,7 @@
 @@||oklivetv.com/wp-content/plugins/facebook-page-promoter-lightbox/$script
 @@||oko-planet.su/templates/*/images/ratingplus.png$image,~third-party
 @@||oko.sh^$ghide
+@@||oktatas.hu^$stealth
 @@||okteve.com/*&*=*&*&_=$xmlhttprequest,~third-party
 @@||olacast.live^$stealth
 @@||olarila.com/*.png#
@@ -14433,6 +14438,7 @@
 @@||resources.sbs.com.au^
 @@||respectrain.com^$script,xmlhttprequest
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
+@@||restrainstorm.com^$script,xmlhttprequest
 @@||restream.io/img/$image
 @@||restream.io^$generichide
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
@@ -16451,6 +16457,7 @@
 @@||streamzz.*^$ghide
 @@||streanplay.cc^$stealth
 @@||stretchsister.com^$script,xmlhttprequest
+@@||stretchsquirrel.com^$script,xmlhttprequest
 @@||stringsmile.com^$script,xmlhttprequest
 @@||stripe.com/*?*referrer=$removeparam
 @@||stripedburst.com^$script,xmlhttprequest
@@ -17661,6 +17668,7 @@
 @@||unarmedindustry.com^$script,xmlhttprequest
 @@||unbecomingbikes.com^$script,xmlhttprequest
 @@||unbecominghall.com^$script,xmlhttprequest
+@@||unbecominglamp.com^$script,xmlhttprequest
 @@||unbiasedsenseevent.com/embed/$stealth
 @@||uncoveredcircle.com^$script,xmlhttprequest
 @@||uncoveredexpert.com^$script,xmlhttprequest
@@ -18765,6 +18773,7 @@
 @@||wup-7b4df495.santander.cl^|
 @@||wup.imtt.qq.com^
 @@||wupfile.com^$ghide
+@@||wurfl.io/wurfl.js$domain=adshnk.com
 @@||wurfl.io/wurfl.js$domain=smooth.com.au|craftsman.com|spray.se
 @@||wuv.de/var/wuv/storage/images/media/bilder/$image,domain=wuv.de
 @@||wuxiaworld.com/images/pw/pw_header
