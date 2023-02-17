@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: r4at7dEVrf2AQNeomoqo3Q
+! Checksum: b33LbD+/DiTpCzjF2zNNTQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-17 16:20:43（北京时间） 
+! Version: 2023-02-18 00:19:42（北京时间） 
 ! Total count: 19235
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -621,7 +621,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgsh.co^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgmidatlantic.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3091,6 +3091,7 @@
 @@||bing.com/search?$generichide
 @@||bing.com/secure/Passport.aspx$stealth,important
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
+@@||bing.com/translator/api/Translate/Translaten/
 @@||bing.com/translator/dynamic/*/js/$elemhide,jsinject
 @@||bing.com/travel/scripts/sCode.js$~third-party
 @@||bing.com^$generichide
@@ -3320,6 +3321,8 @@
 @@||browser.sentry-cdn.com^$script,domain=podcasty.seznam.cz
 @@||browser.sentry-cdn.com^$script,domain=vivareal.com.br
 @@||browser.yandex.*/sync/
+@@||browserleaks.com/img/9.gif$domain=browserleaks.com
+@@||browserleaks.com^$generichide
 @@||browserscope.org/user/beacon/*?callback=$script,domain=jsperf.com
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||bruisebaseball.com^$script,xmlhttprequest
@@ -5349,7 +5352,6 @@
 @@||da.mmarket.com^
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||daciaclub.cz^$ghide
-@@||dadaviz.com/static/bower_components/core-icons/social-icons.html
 @@||daddydesign.com/*/wp-social-toolbar/
 @@||dadispapi.gmarket.co.kr/target/gmkt/getAd?$domain=escrow.gmarket.co.kr
 @@||daemon-hentai.com/banner.gif?|
@@ -6139,7 +6141,6 @@
 @@||edmontonsun.com/*/flyertown_module.js$domain=edmontonsun.com
 @@||eds.xboxlive.com^
 @@||edu.cn^*/ad.css?$stylesheet
-@@||edu.rosminzdrav.ru/bower_components/iron-icons/social-icons.html$xmlhttprequest
 @@||educatedeggnog.com^$script,xmlhttprequest
 @@||educationcanada.com/js/advertisement.js
 @@||educationcanada.com/js/blockadblock.js
@@ -7113,6 +7114,7 @@
 @@||fyre.co/*/facebook_share_post.png
 @@||g-status.com^$ghide
 @@||g.adspeed.net/ad.php?do=detectadblocker$domain=allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net
+@@||g.adspeed.net/ad.php?do=detectadblocker$domain=allcryptoz.net|crewbase.net|crewus.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net
 @@||g.alicdn.com/??*/criteo
 @@||g.alicdn.com^*/banner_ad_
 @@||g.csdnimg.cn/lib/fuckadblock/3.2.1/fuckadblock.min.js
@@ -8617,7 +8619,6 @@
 @@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
 @@||h5.4j.com/js/ima3.js
 @@||h78xb.pw^$script,xmlhttprequest
-@@||ha-lab.com^$ghide
 @@||haaretz.co.il/htz/js/advertisement.js
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
 @@||haaretz.co.il/logger/p.gif?*=COMMENTS$xmlhttprequest
@@ -13241,7 +13242,6 @@
 @@||pegasusplate.com^$script,xmlhttprequest
 @@||peimg.fr/js/ads.js$script,domain=pubeco.fr
 @@||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$~third-party
-@@||pelismart.com^$ghide
 @@||pencurimovie.*^$ghide
 @@||penducado.com/styles/ads.css
 @@||penpaland.com^$ghide
@@ -13578,6 +13578,7 @@
 @@||pntrac.com/b/$image,domain=extrarebates.com
 @@||pntrs.com/b/$image,domain=extrarebates.com
 @@||pobeda.aero/*/check-in/$document
+@@||pocketfaucet.com^$script,xmlhttprequest
 @@||pocketnet.app/components/share/$~third-party,xmlhttprequest
 @@||pocketsonic.com^$script,xmlhttprequest
 @@||podaj.to/images/$image,~third-party
@@ -17271,7 +17272,6 @@
 @@||tous-sports.fr/js/advertisement-AdBlock.js
 @@||tous-sports.tv/js/advertisement-AdBlock.js
 @@||tout-bon.com^$generichide
-@@||tout-debrid.com^$ghide
 @@||toweringrun.com^$script,xmlhttprequest
 @@||towideo.pl/assets/ads_configs/sasPluginData.js
 @@||towideo.pl/assets/ads_configs/sas_ad_config_vod.js
