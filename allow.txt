@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: OZIPaSuD41TbeiTjfxfn2Q
+! Checksum: uR/ZDCT7eS185BWRiM4RUA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-20 16:21:56（北京时间） 
-! Total count: 19219
+! Version: 2023-02-21 00:19:58（北京时间） 
+! Total count: 19228
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -621,6 +621,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgconsciousdirt.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1914,6 +1915,7 @@
 @@||amazonaws.com/common/legacy/scripts/pixels/google_analytics.js$script,domain=evenue.net
 @@||amazonaws.com/cwl-leveling-json^$stealth
 @@||amazonaws.com/ghuser/data/$xmlhttprequest,domain=ghuser.io
+@@||amazonaws.com/graphql$stealth
 @@||amazonaws.com/images.filepuma.com^$stealth,domain=filepuma.com
 @@||amazonaws.com/images/$image,domain=wordsquared.com
 @@||amazonaws.com/img/facebook_small.$image,domain=ticketabc.com
@@ -2324,6 +2326,7 @@
 @@||api.mapbox.com^$stealth,domain=tunein.com
 @@||api.mapy.cz/*/maptiles/$stealth
 @@||api.mapy.cz^$stealth
+@@||api.mercari.jp^$stealth
 @@||api.mghubcdn.com/graphql$stealth
 @@||api.minecraftservices.com^$stealth
 @@||api.mixpanel.com/engage/?data=$xmlhttprequest,domain=deezer.com
@@ -4925,6 +4928,7 @@
 @@||consent.trustarc.com/asset/$domain=tripit.com
 @@||consent.trustarc.com/asset/notice.js$domain=concursolutions.com
 @@||consent.trustarc.com/asset/notice.js$domain=formula1.com
+@@||consent.trustarc.com/asset/notice.js$domain=hsl.fi
 @@||consent.trustarc.com/notice$domain=concursolutions.com
 @@||consent.trustarc.com/notice$domain=forbes.com
 @@||consent.trustarc.com/notice$domain=formula1.com
@@ -4932,6 +4936,7 @@
 @@||consent.trustarc.com/notice$script,domain=concursolutions.com|forbes.com|formula1.com|fortune.com|tripit.com
 @@||consent.truste.com/notice$domain=tmz.com
 @@||consent.truste.com/notice?domain=$domain=fortune.com
+@@||consent.truste.com/notice?domain=$domain=hsl.fi
 @@||consent.truste.com/notice?domain=$domain=proximus.be
 @@||consent.truste.com^$domain=forbes.com
 @@||consentcdn.cookiebot.com^$domain=popsci.com
@@ -12909,6 +12914,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=yellowbridge.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=yiv.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=leechpremium.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,domain=topsporter.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=duden.de
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=alfred.camera
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=apkandroidhub.in
@@ -14411,6 +14417,7 @@
 @@||representativeray.com^$script,xmlhttprequest
 @@||repstatic.it/cless/premium/2017-v1/img/repubblica/btn_fb.png
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
+@@||request-global.czilladx.com/serve/popunder.php$domain=faucetcrypto.net
 @@||res-x.com^*/Resonance.aspx?
 @@||res.cloudinary.com^
 @@||res.yyets.com/ads/mediav-250.js
@@ -17444,6 +17451,7 @@
 @@||tt1069.com^$script,1p
 @@||ttef.in/gads.js
 @@||ttkdex.com^$generichide
+@@||ttkdex.com^*ad$~third-parboard-ad
 @@||ttkdex.com^*ad$~third-party
 @@||ttorial.com^$generichide
 @@||ttranslit.com^*.m3u8?$stealth
@@ -18791,6 +18799,7 @@
 @@||www.google-analytics.com^$app=jp.naver.line.android
 @@||www.google-analytics.com^$app=pl.promate.bilkom
 @@||www.google-analytics.com^$domain=myqqjd.com
+@@||www.google.*/aclk?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|gob.com^
 @@||www.google.*/aclk?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk|googleadservices.com
 @@||www.google.*/adometry.$~third-party,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||www.google.*/adometry/$~third-party,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
