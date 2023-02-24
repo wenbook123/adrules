@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: L4PrQ6x8pVvkHslod14kFw
+! Checksum: PUbtgA6t393SGTaTnrJ/JA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-24 00:20:42（北京时间） 
-! Total count: 19232
+! Version: 2023-02-24 08:59:33（北京时间） 
+! Total count: 19234
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -239,7 +239,7 @@
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
-@@/aff_c?$removeparam=/^aff_id[0-9]?=/i
+@@/aff_c?$removeparam=/^aff_id\d?=/i
 @@/analytics.php?$domain=xcar.com.cn
 @@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se|repco.co.nz|repco.com.au
 @@/angular-facebook.js
@@ -619,7 +619,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgm^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -872,6 +872,7 @@
 @@||777bitco.in/static/js/Controller/Advertise.js$script
 @@||79423.analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 @@||79423.analytics.edgekey.net^|
+@@||7cbf2.v.fwmrm.net^$xhr,domain=6play.fr
 @@||7m.cn/v2/js/analyse.js
 @@||7moor.com^
 @@||7plus.com.au^$ghide
@@ -5850,6 +5851,7 @@
 @@||doubleclick.net^$app=com.google.android.music
 @@||doubleclick.net^$image,domain=nbc.com
 @@||doubleclick.net^$script,xhr,domain=viz.com
+@@||doubleclick.net^$script,xhr,domain=work.ink
 @@||doubleclick.net^$xhr,domain=op.gg
 @@||doubleclickbygoogle.com^$image,domain=rule34hentai.net|yalujailbreak.net|sznpaste.net|animes-mangas-ddl.net|wowebook.org|android-zone.ws|linkdrop.net|linkneverdie.com|cloudwebcopy.com|freeomovie.com|pipocas.tv
 @@||doubleclickbygoogle.com^$object-subrequest,domain=vercanalestv.com
@@ -7890,7 +7892,7 @@
 @@||google.*/search?sclient=*&q=$~third-party,xmlhttprequest,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||google.*/services/$generichide,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||google.*/webpagethumbnail?*&query=$script,~third-party,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
-@@||google.cm^
+@@||google.*/webpagethumbnail?*&query=$script,~third-party,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|gop-wide-ad-container
 @@||google.com/*/ads.html$domain=fantacalcio.it
 @@||google.com/*/search/*$script,domain=thewindowsclub.com
 @@||google.com/adsense/$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|animes-mangas-ddl.net|wowebook.org|rule34hentai.net|android-zone.ws|cloudwebcopy.com|pipocas.tv
@@ -10107,6 +10109,7 @@
 @@||jobhunterplg.xyz^$generichide
 @@||joblessdrum.com^$script,xmlhttprequest
 @@||jobportal.uni-koeln.de^$stealth
+@@||jobs.bg/front_job_search.php$~third-party
 @@||jobs.kroger.com/platform/images/shared/social/$~third-party
 @@||joinsnapcard.com/thema/img/reddit.png
 @@||jokerly.com/Okidak/adSelectorDirect.htm?id=$document,subdocument
@@ -12727,7 +12730,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=educationat.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=egzamin-e14.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=eirudo.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ekamus.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=elfqrin.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=elsfile.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=emucr.com
@@ -16755,7 +16757,6 @@
 @@||tamilyogi.nu/wp-content/*.png#
 @@||tampabay.com/resources/scripts/dfp/adbridg.js
 @@||tampermonkey.net/adsbygoogle.js
-@@||tangdou.com/sample/share/advert?$domain=tangdoucdn.co
 @@||tangdou.com/sample/share/advert?$domain=tangdoucdn.com
 @@||tangibleteam.com^$script,xmlhttprequest
 @@||tansuo.cntv.cn^*/tansuo_Advertise.js
@@ -18722,6 +18723,7 @@
 @@||wp.pl^$generichide
 @@||wp.pl^$script,image
 @@||wp.pl^*/dot.gif?$xmlhttprequest,domain=open.fm|wp.tv
+@@||wpadmngr.com/static/adManager.js$xmlhttprequest,domain=luscious.net
 @@||wpengine.netdna-cdn.com/wp-content/uploads/$image,domain=freedomoutpost.com
 @@||wphub.com/wp-content/uploads/2010/05/design-freebies-vector-social-icon-set1-138x98.png
 @@||wpimg.pl^*/dynamic_content/$image,domain=pilot.wp.pl

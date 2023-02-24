@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: cEVkKlKxYS0tLBjOVS2tGQ
-! Version: 202302231550
+! Checksum: 0p2tfIF/Co4eSNlXd1Y/1g
+! Version: 202302240031
 ! Title: EasyPrivacy
-! Last modified: 23 Feb 2023 15:50 UTC
+! Last modified: 24 Feb 2023 00:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5761,6 +5761,8 @@ cgi-bin/counter
 /wf/open?upn=$image
 /wizrocketmail.net/r?$image
 ://email.*/e/o/
+://parcel-api.delivery-status.*/open/$image
+://t.order.*/r/?id=$image
 _ad_impression.
 _track_pixel.gif?
 ! hellofresh / greenchef / everyplate
@@ -31536,7 +31538,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 !
 !---------- Anti-Adblock ----------
 !
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgm^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom^$third-party
+||coordinatedcub.com^$third-party
+||copperchickens.com^
 ||copycarpenter.com^$third-party
 ||copyrightaccesscontrols.com^
 ||copytitle.com^
