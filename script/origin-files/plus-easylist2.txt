@@ -9160,7 +9160,7 @@ mixdrop.*,mixdrp.*##+js(nano-stb, disabled)
 ||mixdrop.*/sw.js$script,1p
 mixdrop.*##div[onclick^="$(this).remove"]
 mixdrp.*,mixdrop.*##body > div[style^="position: absolute;"][style*="z-index"]
-*$script,3p,denyallow=google.com|gstatic.com|hwcdn.net|jquery.com,domain=mixdrop.*|mixdrp.*
+*$script,3p,denyallow=dotblocking.dummy|google.com|gstatic.com|hwcdn.net|jquery.com,domain=mixdrop.*|mixdrp.*
 ||brightadnetwork.com^
 
 ! https://github.com/NanoMeow/QuickReports/issues/389
@@ -12124,10 +12124,12 @@ iphonetweak.fr##.bigPub
 
 ! https://github.com/uBlockOrigin/uAssets/issues/15586
 ! https://github.com/uBlockOrigin/uAssets/issues/16307
-duden.de#@#.ad-box
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=duden.de
 duden.de##[id*="billboard"]
 duden.de##.tabloid__side-column
+!#if !env_mobile
+~mentor.duden.de,duden.de##+js(aeld, DOMContentLoaded, isMobile)
+!#endif
+||duden.de/aab/assets/js/
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/bhr1sj/adblocker_detected/
 faresgame.com##+js(aopr, adBlockDetected)
