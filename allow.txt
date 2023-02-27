@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: hjGuS40lPF1PSqRJZArFTw
+! Checksum: lhFZsXc8VD0vhpXtShIc6Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-27 16:21:50（北京时间） 
-! Total count: 19240
+! Version: 2023-02-28 00:20:57（北京时间） 
+! Total count: 19247
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -837,6 +837,7 @@
 @@||520cc.cc^*/ad.php
 @@||520click.com/ad.php
 @@||520click.com/ad.php$stealth
+@@||520click.com/ad.php$stealth=referrer
 @@||5278.cool^$generichide
 @@||52av.tv/source/plugin/unadblock/$script
 @@||52av.tv/source/plugin/unadblock/*ads*.js
@@ -1085,6 +1086,7 @@
 @@||ad-emea.doubleclick.net/ad/*$domain=channel4.com
 @@||ad-emea.doubleclick.net/clk
 @@||ad-gone.com^
+@@||ad-img.gmarket.com/ads/$image,domain=gmarket.co.kr
 @@||ad-maven.com^$generichide
 @@||ad-text.ru^$domain=ad-text.ru
 @@||ad.*.ch^$xmlhttprequest,other,script,domain=tio.ch
@@ -1506,6 +1508,7 @@
 @@||ads.vk.com^$popup
 @@||ads.wordego.com/a.js$script,domain=link.tl
 @@||ads1.atpclick.com/atpClick.aspx?$image,script,domain=jobnet.co.il|jobs-israel.com
+@@||ads2.banaraswap.in^$xmlhttprequest,domain=banaraswap.in
 @@||ads2.contentabc.com/ads?spot_id=$domain=8muses.com,xmlhttprequest
 @@||ads3.xumo.com^$domain=2vnews.com|redbox.com
 @@||adsafeprotected.com/iasPET.$script,domain=reuters.com
@@ -4898,6 +4901,7 @@
 @@||consent.cookiebot.com/uc.js$domain=deadwalk.io
 @@||consent.cookiebot.com/uc.js$domain=lootboy.de
 @@||consent.cookiebot.com/uc.js$domain=netkom.de
+@@||consent.cookiebot.com/uc.js$domain=plaion.com
 @@||consent.cookiebot.com/uc.js$domain=puls4.com
 @@||consent.cookiebot.com/uc.js$domain=radiodresden.de
 @@||consent.cookiebot.com/uc.js$domain=steuertipps.de
@@ -8254,6 +8258,7 @@
 @@||googletagmanager.com/gtm.js$domain=pcjisaku.com
 @@||googletagmanager.com/gtm.js$domain=pcmag.com
 @@||googletagmanager.com/gtm.js$domain=petlebi.com
+@@||googletagmanager.com/gtm.js$domain=plaion.com
 @@||googletagmanager.com/gtm.js$domain=pointmall.rakuten.co.jp
 @@||googletagmanager.com/gtm.js$domain=portsmouth.co.uk
 @@||googletagmanager.com/gtm.js$domain=prego.ua
@@ -15547,7 +15552,6 @@
 @@||simyo.de/b/ss/$image
 @@||simyo.de^*/simyo_s_code.js
 @@||sina.com.cn/litong/*/close
-@@||sina.com.cn/litowrap
 @@||sina.com.hk^*_ads.cgi
 @@||sinaimg.cn/ad/adimage/50x50_
 @@||sinaimg.cn/cj/deco/$script,domain=finance.sina.com.cn
@@ -17338,6 +17342,7 @@
 @@||tracker.mattel.com^$domain=barbie.com
 @@||tracker.namitiyu.com^
 @@||tracking.epicgames.com^
+@@||tracking.lolacicek.com/aff_c?offer_id=*&aff_id=
 @@||tracking.narvar.com/tracking/$~third-party
 @@||tracking.narvar.com/trackinginfo/$~third-party
 @@||trackjs.com^$~third-party
@@ -17348,6 +17353,7 @@
 @@||tracktrace.delivery/ads.txt
 @@||tractorshed.com/photoads/upload/$~third-party
 @@||trade.aliexpress.com$stealth
+@@||tradedoubler.com^$removeparam=tduid
 @@||tradera.com/fusion/check?$xmlhttprequest
 @@||traderonline.com/javascript/master_s_code.js
 @@||tradingview.com/adx/$subdocument,domain=adx.ae
@@ -18123,6 +18129,7 @@
 @@||vipi.tv/ads.js
 @@||vipstatic.com/img/share/blank.png
 @@||viptools.es/assets/ads.js
+@@||viralize.tv^$domain=automoto.it
 @@||virginmedia.com/etc/designs/lgi-uk-mobile/*/cookie-disclaimer.min.$domain=virginmedia.com
 @@||virginmediatelevision.ie/includes/js/cookienotice.js.pagespeed.$script,1p
 @@||virginmediatelevision.ie/player/$xhr,1p
