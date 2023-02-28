@@ -1,8 +1,8 @@
-! Checksum: toV3mco82m+H34rPACZliQ
+! Checksum: 8Y0TtT/kxb0a2S2A8P4Ccw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.81.50
-! TimeUpdated: 2023-02-28T07:31:16+00:00
+! Version: 2.0.81.53
+! TimeUpdated: 2023-02-28T15:31:31+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -841,10 +841,8 @@ o8tv.com#?#.container > .row > .myui-panel-bg:-abp-has(> .myui-panel-box > .myui
 cartoon18.com#?#.container-fluid > .row > .item:-abp-has(> .card > .card-body > .lines > span.badge:contains(/^ad$/))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90640
 segmentfault.com#?##question-wrap > .row > .col-xl-auto:-abp-has(> #first-ad:first-child + #gridAd + #second-ad:last-child)
-! https://github.com/AdguardTeam/AdguardFilters/issues/123472
-bbs.pcbeta.com#?##toptb ~ #wp > div[class]:matches-css(height : /170px/)
-! https://github.com/AdguardTeam/AdguardFilters/issues/88392
-bbs.pcbeta.com#?##toptb ~ #wp > div[class] > ul ~ div[class]:-abp-has(> div[class] > div > .adsbygoogle)
+! https://github.com/AdguardTeam/AdguardFilters/issues/144191
+bbs.pcbeta.com#?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:-abp-has(div[style="display:none"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/130375
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76863
 v2ex.com#?##Rightbar > .box:-abp-has(> .inner > div > span:contains(Sponsored by))
@@ -4057,6 +4055,7 @@ newduba.cn###jq_youxi
 ##a[href*=":7888/?register="]
 ##a[href*=":8701/?register="]
 ##a[href*="?channelCode="] > img[src*=".com"]
+##a[href*="?channelCode="] > img[src*=".xyz"]
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
@@ -4227,7 +4226,6 @@ newduba.cn###jq_youxi
 ||2hfby.top^
 ||2pwja.cn^
 ||2r6.cn^
-||328888.xyz^
 ||3633a.com^
 ||375772rug.com^
 ||37tek.fun^
@@ -4952,6 +4950,10 @@ newduba.cn###jq_youxi
 ||szsxy.vip^
 ||okod.top^
 ||a-ads.com^
+||qianbaobbs.net^
+||f9s6.top^
+||tgktw.xyz^
+##a[href*="/sm010k.xyz"]
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
