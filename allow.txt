@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: ZwjKZaiSgJ+ec1WvhrdJxQ
+! Checksum: HMlZqn78PuAeVQ669Rh4Yg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-03-01 16:21:24（北京时间） 
-! Total count: 19242
+! Version: 2023-03-02 00:23:28（北京时间） 
+! Total count: 19246
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -291,6 +291,7 @@
 @@/content/tour/banner/*$domain=digitalplayground.com
 @@/cookie*/jquery.cookie.js$script,~third-party,domain=~albeco.com.pl
 @@/cookie-banner.js$domain=fruugo.ae|fruugo.at|fruugo.be|fruugo.ca|fruugo.ch|fruugo.co.il|fruugo.co.nz|fruugo.co.uk|fruugo.co.za|fruugo.com.tr|fruugo.cz|fruugo.de|fruugo.eg|fruugo.dk|fruugo.es|fruugo.fi|fruugo.fr|fruugo.gr|fruugo.hu|fruugo.it|fruugo.ie|fruugo.jp|fruugo.kr|fruugo.lu|fruugo.my|fruugo.nl|fruugo.no|fruugo.ph|fruugo.pl|fruugo.pt|fruugo.qa|fruugo.ro|fruugo.ru|fruugo.se|fruugo.sg|fruugo.sk|fruugo.us|fruugoaustralia.com|fruugobahrain.com|fruugochina.com|fruugoindia.com|fruugosaudiarabia.com
+@@/cookie-consent.$domain=cunardcruceros.com
 @@/cookie-info.$domain=alibaba.com|aliexpress.com
 @@/cookie-law-$stylesheet,~third-party,domain=itkaufmann.at
 @@/cookie-popup.$domain=4588888.ru
@@ -362,6 +363,7 @@
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
 @@/img/tab_$stealth,image,domain=mangakakalot.com
 @@/img_ad/*$domain=tkec.com.tw
+@@/inc/embed/ads.js$domain=watchanimesub.net|wco.tv|wcostream.net|wcostream.com
 @@/inc/embed/ads.js$domain=wco.tv|watchanimesub.net
 @@/index.m3u8?wmsAuthSign=$stealth
 @@/integrator.js$script,domain=makeuseof.com
@@ -620,7 +622,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1392,9 +1393,12 @@
 @@||ads.adfox.ru/*/getCodeTest?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru
 @@||ads.adfox.ru/*/prepareCode?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru
 @@||ads.adfox.ru/crossdomain.xml$object-subrequest,domain=carambatv.ru
+@@||ads.adthrive.com/api/$domain=packhacker.com
 @@||ads.adthrive.com/builds/$script,domain=www.mediaite.com
+@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=packhacker.com
 @@||ads.adthrive.com/core/*/js/adthrive.min.js$domain=mediaite.com
 @@||ads.adthrive.com/core/gdpr/vendor/prebid/prebid.min.js$domain=mediaite.com
+@@||ads.adthrive.com/sites/$domain=packhacker.com
 @@||ads.adthrive.com/sites/$script,domain=www.mediaite.com
 @@||ads.adxpansion.com/public/js/showads.php$script,domain=jav777.cc
 @@||ads.agiliro.gq/script.js$domain=ads.agiliro.gq
