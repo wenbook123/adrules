@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-03-01T00:03:08.415Z
+! Last modified: 2023-03-01T07:33:40.360Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.15
 !
@@ -32339,6 +32339,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sbgsodufuosmmvsdf.info^
 ||seadform.net^
 ||securedvisit.com^
+||sgstats.com^
 ||site24x7rum.eu^
 ||sitecounter.site^
 ||sitedataprocessing.com^
@@ -34006,6 +34007,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mediametrics.mpsa.com^
 ||metering.pagesuite.com^
 ||metrics.ctvdigital.net^
+||metrics.gs-chat.com^
 ||metrics.kmsmep.com^
 ||metrics.mdstrm.com^
 ||metrics.onshape.com^
@@ -39623,6 +39625,23 @@ charlestownwyllie.oaklawnnonantum.com^
 ||maillovelove.net^
 
 !
+! Source name: AdGuard Japanese filter ad servers first-party
+! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers_firstparty.txt
+!
+!
+! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
+! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
+!
+! Good: ||ad.doubleclick.net^
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
+!
+||sgad.surfsnow.jp^
+||mbadv.nan.co.jp^
+||creative.live.tktube.com^
+||ads.world-fusigi.net^
+
+!
 ! Source name: AdGuard German filter ad servers
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/adservers.txt
 !
@@ -41179,8 +41198,8 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 28 Feb 2023 13:57 UTC+7
-! Version: 2302281357
+! Last modified: 01 Mar 2023 09:55 UTC+7
+! Version: 2303010955
 ! Blocked: 830 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -42696,6 +42715,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zxtkfvm.cn^
 ||xnrcnz.xyz^
 ||ezwxia.xyz^
+||siejp.cyou^
+||okoc.top^
+||guoandong.ltd^
 ||001adafg.xyz^
 ||0024aaaa.com^
 ||004fsdljasd.xyz^

@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Jk1NUJVEszccibo7BLaWWw
+! Checksum: ZwjKZaiSgJ+ec1WvhrdJxQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-03-01 09:06:37（北京时间） 
-! Total count: 19249
+! Version: 2023-03-01 16:21:24（北京时间） 
+! Total count: 19242
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -52,7 +52,6 @@
 @@.aliimg.com$domain=aliexpress.com
 @@.atlassian.net$document
 @@.b-cdn.net/*.m3u8?$xmlhttprequest,stealth
-@@.co.uk/wp-banners.js$domain=advertiserandtimes.co.uk|northern-scot.co.uk|suffolknews.co.uk|kentonline.co.uk|cambridgeindependent.co.uk|fenlandcitizen.co.uk|granthamjournal.co.uk
 @@.co.uk/wp-banners.js$domain=advertiserandtimes.co.uk|northern-scot.co.uk|suffolknews.co.uk|kentonline.co.uk|cambridgeindependent.co.uk|fenlandcitizen.co.uk|granthamjournal.co.uk|stratford-herald.com|spaldingtoday.co.uk
 @@.com/ad.aspx|$domain=xdingdian.cc
 @@.com/ads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
@@ -235,6 +234,7 @@
 @@/advertising.js$script,domain=itespresso.fr
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
+@@/adview_*_ads_300x250.js$domain=yaociyuan.bid
 @@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zgpingshu.com
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
@@ -620,7 +620,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgvents-amd.js
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1625,8 +1625,6 @@
 @@||adwords.google.com^$domain=accounts.google.com
 @@||adworkmedia.com/gLoader.php?GID=$script,third-party
 @@||adworkmedia.com/gTemplate.php?GID=$subdocument,third-party
-@@||adx.4strokemedia.com/www/delivery/asyncjs.php$domain=ilmeteo.it
-@@||adx.4strokemedia.com/www/delivery/asyncspc.php$domain=ilmeteo.it
 @@||adx.adform.net/adx$domain=vvvvid.it
 @@||adx.adform.net/adx/$xmlhttprequest,other,domain=tvp.pl
 @@||adx.adform.net/adx/openrtb$xhr,domain=aternos.org
@@ -3847,7 +3845,6 @@
 @@||cdn.egy.best/static/global/js/adblock.js
 @@||cdn.ekcdn.me/video.mp4$media,domain=doo4k.com
 @@||cdn.embedly.com^
-@@||cdn.engine.4dsply.com/Scripts/infinity.js.aspx$domain=mirrorcreator.com
 @@||cdn.engine.addroplet.com/Scripts/infinity.js.aspx^$domain=mirrored.to
 @@||cdn.engine.spotscenered.info/Scripts/infinity.js.aspx?guid=$domain=rlslog.net
 @@||cdn.everyeye.it/adv/ads.js
@@ -6392,7 +6389,6 @@
 @@||esselungajob.it/platform/images/shared/social/$image
 @@||estafeta.com/shared/js/tracking.js
 @@||estore.sonymobile.com/*-epp/?refid=$third-party,stealth
-@@||estream.to/embed^$popup
 @@||estrenos10.com/assets/ads.js
 @@||et.novelgames.com/ads.js?adTagUrl=
 @@||et.twyn.com/yocoptstate$domain=youronlinechoices.com
@@ -8118,7 +8114,6 @@
 @@||googletagmanager.com/gtm.js$domain=20min.ch
 @@||googletagmanager.com/gtm.js$domain=accupass.com
 @@||googletagmanager.com/gtm.js$domain=acehardware.com|acornonline.com|ads.spotify.com|aeromexico.com|aliexpress.com|atptour.com|axeptio.eu|backcountry.com|bsa-whitelabel.com|bybit.com|bybitglobal.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|dmv.ca.gov|doodle.com|dropps.com|easternbank.com|edwardjones.com|elnuevodia.com|ergotron.com|expressvpn.com|festoolusa.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|herculesstands.com|independent.co.uk|jn.pt|kedronparkhotel.com.au|konami.com|lecker.de|level.travel|mcgeeandco.com|mercell.com|mysmartprice.com|nflgamepass.com|nielsendodgechryslerjeepram.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pgatoursuperstore.com|pioneer.eu|plaion.com|plantsome.ca|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|royalbank.com|runescape.com|scotsman.com|soranews24.com|soundguys.com|stressless.com|support.creative.com|swarajyamag.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to|zennioptical.com|zinio.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|acornonline.com|ads.spotify.com|aeromexico.com|aliexpress.com|atptour.com|axeptio.eu|backcountry.com|bsa-whitelabel.com|bybit.com|bybitglobal.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|dmv.ca.gov|doodle.com|dropps.com|easternbank.com|edwardjones.com|elnuevodia.com|ergotron.com|expressvpn.com|festoolusa.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|herculesstands.com|independent.co.uk|jn.pt|kedronparkhotel.com.au|konami.com|lecker.de|level.travel|mcgeeandco.com|mercell.com|nflgamepass.com|nielsendodgechryslerjeepram.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pgatoursuperstore.com|pioneer.eu|plaion.com|plantsome.ca|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|royalbank.com|runescape.com|scotsman.com|soranews24.com|soundguys.com|stressless.com|support.creative.com|swarajyamag.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to|zennioptical.com|zinio.com
 @@||googletagmanager.com/gtm.js$domain=ads.allegro.pl
 @@||googletagmanager.com/gtm.js$domain=aeromexico.com
 @@||googletagmanager.com/gtm.js$domain=amd.com
@@ -9432,7 +9427,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=timesnownews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tokfm.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tubitv.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tv.pudelek.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvid.in
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvn24.pl|tvn.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvp.pl
@@ -9759,6 +9753,7 @@
 @@||in.api.glance.inmobi.com^$app=com.samsung.android.keyguardmgsupdator
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||in.treasuredata.com/js/v*/event/fluentd_website/anchor_clicks_$domain=docs.fluentd.org
+@@||in91vip.win/default_ad_js/ad_code.js
 @@||inapps.appsflyer.com^$app=se.prisjakt.pricespy
 @@||inazuma.co/campaign/js/heatmap.js$domain=monopoly.mcdonalds.co.uk
 @@||inbenta.io/prod/km/v1/tracking/events$domain=axa.fr
@@ -10146,7 +10141,6 @@
 @@||js-agent.newrelic.com/nr-*.min.js$domain=copy.com
 @@||js-agent.newrelic.com^$app=com.jnj.acuvue.consumer
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
-@@||js-agent.newrelic.com^$domain=alliantcreditunion.com|kapwing.com
 @@||js-sec.indexww.com/$script,domain=maxisciences.com|gentside.*|ohmymag.*
 @@||js-sec.indexww.com/asl/asl_*.js$domain=envedette.ca
 @@||js-sec.indexww.com/ht/htw-baltimore-sun.js$domain=baltimoresun.com
@@ -11505,7 +11499,6 @@
 @@||mirror*.mangafunc.fun/comic/
 @@||mirror.co.uk^*/prebid-test.js$script,~third-party
 @@||mirrorace.*^$ghide
-@@||mirrorcreator.com/mstats.php
 @@||mirrorlessrumors.com/wp-content/plugins/ginger/front/js/cookies-enabler.min.js
 @@||misa-anime.com^$ghide
 @@||miscreantmine.com^$script,xmlhttprequest

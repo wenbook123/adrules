@@ -1,8 +1,8 @@
-! Checksum: B5Yq5VOC/l6nHSpzcSE2hA
+! Checksum: kC1GwNmHGz2Bhv1fKkWNww
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.81.55
-! TimeUpdated: 2023-02-28T23:31:04+00:00
+! Version: 2.0.81.58
+! TimeUpdated: 2023-03-01T07:31:08+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -424,6 +424,9 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/144287
+@@/adview_*_ads_300x250.js$domain=yaociyuan.bid
+yaociyuan.bid#%#//scriptlet('set-constant', 'killads', 'true')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141600
 520cc.cc#%#//scriptlet('prevent-setTimeout', 'myModal')
 520cc.cc#%#//scriptlet('set-constant', 'all520dddaaa2022ccc', 'true')
@@ -1229,6 +1232,10 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+yaociyuan.bid##.w-ad
+yaociyuan.bid##.board a[target="_blank"] > img
+yaociyuan.bid##.content a[target="_blank"] > img
+||996000996.xyz/ga/$image,domain=yaociyuan.bid
 ||520xingyun.com/images/*.gif$domain=mcpcourse.com
 netfly.tv##.tg-container
 zhongce.sina.com.cn##div[class^="side-btns-jifen"]
@@ -4956,6 +4963,9 @@ newduba.cn###jq_youxi
 ||zxtkfvm.cn^
 ||xnrcnz.xyz^
 ||ezwxia.xyz^
+||siejp.cyou^
+||okoc.top^
+||guoandong.ltd^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -16481,6 +16491,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||mestrip.com/widgets/
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2

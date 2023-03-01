@@ -2,7 +2,7 @@
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules. 
 ! Homepage: https://kbsml.com
-! Last modified: 3/1/2023, 8:00:04 AM
+! Last modified: 3/1/2023, 4:00:05 PM
 !
 ||youtube.com/pagead/paralleladview^
 ||youtube.com/s/player/*/ad.js^
@@ -31351,6 +31351,7 @@ zznews.cn##.ad:not([style])
 ||zjgfq.com^$third-party
 ||one.fsylr.com^
 ||two.fsylr.com^
+yaociyuan.bid##+js(set-constant, killads, true)
 520cc.cc##+js(no-setTimeout-if, myModal)
 520cc.cc##+js(set-constant, all520dddaaa2022ccc, true)
 manwa.me#$#.ad-area { position: absolute !important; left: -3000px !important; }
@@ -31721,6 +31722,10 @@ ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###resul
 ||alicdn.com^$image,domain=m.k1k.cc|thcdy.co|27k.cc|1024pa.com|hg6384.com-www.6u7u.com|4080kan.com|dy686.net
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .result ~ div:not([class]):not([style])
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top
+yaociyuan.bid##.w-ad
+yaociyuan.bid##.board a[target="_blank"] > img
+yaociyuan.bid##.content a[target="_blank"] > img
+||996000996.xyz/ga/$image,domain=yaociyuan.bid
 ||520xingyun.com/images/*.gif$domain=mcpcourse.com
 netfly.tv##.tg-container
 zhongce.sina.com.cn##div[class^="side-btns-jifen"]
@@ -35164,6 +35169,9 @@ newduba.cn###jq_youxi
 ||zxtkfvm.cn^
 ||xnrcnz.xyz^
 ||ezwxia.xyz^
+||siejp.cyou^
+||okoc.top^
+||guoandong.ltd^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -43499,6 +43507,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||mestrip.com/widgets/
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
