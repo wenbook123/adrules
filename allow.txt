@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 6r4lMngss5MJwn8hD9zTpg
+! Checksum: tlXq6x5KD4m071ofqVz1OA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-03-04 00:20:15（北京时间） 
-! Total count: 19255
+! Version: 2023-03-04 08:57:30（北京时间） 
+! Total count: 19256
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -621,7 +621,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org|scs.lifenet-seimei.co.jp^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -901,7 +901,6 @@
 @@||91p49.com/*/*.mp4
 @@||91wii.com/source/plugin/unadblock/adjs_pic_cpc_cpm_cpa_guanggao_gg_ads_250x250.js
 @@||930mh.com/js/config.js
-@@||930mh.com/js/conm,pcpop.com,phpernote.com##div[id^="ad_"]
 @@||939394.xyz^$generichide
 @@||95306.cn/public/images/ad/
 @@||95504.net/Advertisement_
@@ -12231,6 +12230,7 @@
 @@||nuttyorganization.com^$script,xmlhttprequest
 @@||nuxt.com/_nuxt/SocialLinks.$script,~third-party
 @@||nvidia.cn^*-300x250-
+@@||nvidia.custhelp.com^$stealth=referrer
 @@||nwch.az-cdn.ch^$script,domain=oltnertagblatt.ch
 @@||nwolb.com^
 @@||nxmac.com^$ghide
@@ -12409,6 +12409,7 @@
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.co.uk|ancestry.com|ancestry.com.au|ancestry.it|blogtalkradio.com|swisscom.ch
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.com|ancestry.com.au|blogtalkradio.com
 @@||omtrdc.net^*/mbox/standard?$script,domain=kenkoukazoku.co.jp
+@@||on.pl,amazon.sa,amazon.se,amazon.sg##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 @@||onbatch.my.id^$ghide
 @@||ondemand.sas.com^$subdocument
 @@||ondemandkorea.com^$ghide
