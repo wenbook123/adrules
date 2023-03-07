@@ -1,8 +1,8 @@
-! Checksum: wdzrW8FTPRVDQOuzOpl07g
+! Checksum: 3kMN3A/G3hvBAmwle5njkA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.82.6
-! TimeUpdated: 2023-03-07T05:02:53+00:00
+! Version: 2.0.82.11
+! TimeUpdated: 2023-03-07T15:31:12+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1232,6 +1232,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+c.biancheng.net##.ggxc-box > a[target="_blank"] > img
 5278.cc###leftside_banner_top
 5278.cc###rightside_banner_top
 5278.cc###list_top_ad
@@ -2502,6 +2503,8 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/144884
+||ldmnq.com^$third-party,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141652
 blog.zhheo.com#@##footer-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138932
@@ -4160,6 +4163,7 @@ newduba.cn###jq_youxi
 ##p[style^="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background:"]
 ##script + #coupletBox
 ##script + #rbbox
+##a[href="/jump.php"] > img[src*=".bcebos.com"]
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -5056,6 +5060,10 @@ newduba.cn###jq_youxi
 ||fernandou.online^
 ||okdi.top^
 ||rkv9.top^
+||printsmull.com^
+||yflog.me^
+||wumao20230301.live^
+||slfindmarket.live^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -23612,7 +23620,7 @@ t66y.com##.tips
 ###video_playr_side.video_playr_sider.videoplayerside
 theporn.cc##.gg-config
 theporn.cc##.toolbar-gg
-69xx.one,8mav.cc,theav.xyz,thep178.com,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
+69xx.one,69xx487.xyz,8mav.cc,theav.xyz,thep178.com,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
 ##a[href$="/hjdt9.com"]
 ##a[href$="/xha77.com"]
 ||jsdelivr.net/gh/dashange123/
