@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: tJoyB64Wbra/DwadHENQqg
+! Checksum: cJqOIbBIG4rSqCBVjf0lHA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-03-14 16:20:21（北京时间） 
-! Total count: 19171
+! Version: 2023-03-15 00:22:45（北京时间） 
+! Total count: 19174
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -4352,6 +4352,7 @@
 @@||chaintv.xyz/homestatic/js/adjs.js
 @@||chairscrack.com^$script,xmlhttprequest
 @@||challenges.cloudflare.com/turnstile/
+@@||challenges.cloudflare.com^$stealth
 @@||chamsko.pl/js/advertisement.js
 @@||chan.sankakucomplex.com/id/post/index.content?next=$xmlhttprequest,jsinject,elemhide,extension
 @@||chan.sankakucomplex.com/post/index.content?next=*&page=$jsinject,elemhide
@@ -4377,6 +4378,7 @@
 @@||chat.conveyhs.com/chatadapter/clickstream/clickstream.js$script
 @@||chat.d-id.com/assets/mixpanel.$~third-party
 @@||chat.kuki.ai/*/cm-cookie-banner-
+@@||chat.openai.com^$stealth
 @@||chatropolis.com:1588/*/amazing?sid=$document
 @@||chaturbate.com/*embed$frame,domain=absoluporn.com
 @@||chaturbate.com/*embed^$domain=chatterbate.org|uuu.cam
@@ -13838,6 +13840,7 @@
 @@||proudprose.com^$script,xmlhttprequest
 @@||proxoexploits.com^$ghide
 @@||proxy.ads.canalplus-bo.net^$xhr,domain=mycanal.fr
+@@||proxy.openathens.net^*/html/static/analytics.js$domain=openathens.net|openu.ac.il
 @@||proxy.plex.bz^
 @@||proxy.plex.tv^
 @@||proxy02.pop.ord.plex.bz^
