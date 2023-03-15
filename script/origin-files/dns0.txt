@@ -1,8 +1,8 @@
-! Checksum: X78IDGTwHl1BfPIddNARag
+! Checksum: iw4SRkK4Z/t5PXnLN8WkKA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.82.75
-! TimeUpdated: 2023-03-15T07:31:09+00:00
+! Version: 2.0.82.76
+! TimeUpdated: 2023-03-15T11:31:14+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -956,8 +956,7 @@ csdn.net#?##feedlist_id > li:-abp-has(> div[id^="kp_box_"])
 ! SECTION: Chinese - JS
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141657
-axutongxue.net#%#//scriptlet('abort-on-property-write', 'roll')
-axutongxue.net#%#//scriptlet('prevent-setTimeout', 'getCookie("ad")')
+axutongxue.net#%#//scriptlet('prevent-setTimeout', 'getCookie("')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135612
 hamivideo.hinet.net#%#//scriptlet("set-constant", "myPlayer.adDisplay", "undefined")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134441
@@ -1298,8 +1297,8 @@ pythonthree.com##.astra-advanced-hook-7063
 ||qlogo.cn^$domain=chichiav1.xyz
 ||baiducdnimages.com^$domain=chichiav1.xyz
 sex-gen.com##.navi
-||axutongxue.net/js/*roll.js
-||axutongxue.net/js/*popup.js
+axutongxue.net##body > article[style]
+||axutongxue.net/js/ik474n.js
 52av.one##div[style^="text-align:center;"] > a[target="_blank"] > img
 ||91rb.com/*x90.gif
 ||ganjing.com/vast.vpaid.min.js
@@ -15949,6 +15948,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||5axxw.com/extends/ad/
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
