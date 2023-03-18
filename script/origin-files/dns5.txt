@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: axhWYU1km0aYt3wSgPS+TQ
-! Version: 202303180031
+! Checksum: 30A3Xc9imoqAZaVpuGEKZw
+! Version: 202303180750
 ! Title: EasyList China+EasyList
-! Last modified: 18 Mar 2023 00:31 UTC
+! Last modified: 18 Mar 2023 07:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1435,7 +1435,7 @@ newduba.cn###jq_youxi
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
-##a[href="/bbs/"] > img[src*=".bcebos.com"]
+##a[href="/forum/"] > img[src*=".bcebos.com"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
@@ -2565,6 +2565,11 @@ newduba.cn###jq_youxi
 ||huluxia.com^$third-party
 ||tfallview.live^
 ||effetspositifs.com^
+||xwewwgk.cn^
+||jusheng.asia^
+||jusheng.icu^
+||yalayi.net^
+||klsnckalualkcn.com^
 !
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -13350,6 +13355,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tlxxw.cc/public/*/plugins/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+whnyd.com##div[style*="height: 115px"]
+whnyd.com##body > a
+55188.com##.wz_text
+55188.com##DIV[class^="gg"]
+55188.com##.couplet
+toolfk.com##.ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16023,9 +16034,6 @@ xiaopi.com##.gg_box
 zt5.com##.gg_bt
 sinolub.com##.gg_cen
 eastday.com##.gg_channel_r_b
-55188.com,g138.com##.gg_head_l
-55188.com,g138.com##.gg_head_m
-55188.com,g138.com##.gg_head_r
 acglala.net##.gg_img
 itdog.cn##.gg_link
 yicai.com##.gg_loadpage
@@ -21406,7 +21414,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js
-@@||hdslb.com/bfs/seed/log/report/log-reporter.js
+@@/log/report/*$script,domain=bilibili.com
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
 @@||hk01.com^*/ga_trace.js
 @@||hk01.com^*/scripts/ga.js
@@ -23786,6 +23794,7 @@ fqsousou.com,kengso.com#@#.user-share
 /customerad_
 /cutead.
 /cvs/ads/*
+/cxf-ad-banner
 /daily/ads/*
 /dart_ads.
 /dart_ads/*
@@ -26976,6 +26985,8 @@ _800x80_
 ###ad-performanceFullbanner1
 ###ad-performanceRectangle1
 ###ad-placeholder
+###ad-placeholder-horizontal
+###ad-placeholder-vertical
 ###ad-placement
 ###ad-plate
 ###ad-player
@@ -78238,7 +78249,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||rule34hentai.net^$generichide
 @@||urlgalleries.net^$generichide
 @@||xfreehd.com^$generichide
-! *** easylist:easylist_adult/adult_allowlist_popup.txt ***hina.com/zh_cn/ads/
+! *** easylist:easylist_adult/adult_allowlist_popup.txt ***s/js_vag/
+||china.com/media/images/58/
+||china.com/media/mm/
+||china.com/v_test
+||china.com/zh_cn/ads/
 ||china.com/zh_cn/etc/gghead
 ||chinaacc.com^$domain=100ksw.com
 ||chinabidding.cn/gys.ad/
@@ -81314,6 +81329,12 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ||tlxxw.cc/public/*/plugins/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+whnyd.com##div[style*="height: 115px"]
+whnyd.com##body > a
+55188.com##.wz_text
+55188.com##DIV[class^="gg"]
+55188.com##.couplet
+toolfk.com##.ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -83987,9 +84008,6 @@ xiaopi.com##.gg_box
 zt5.com##.gg_bt
 sinolub.com##.gg_cen
 eastday.com##.gg_channel_r_b
-55188.com,g138.com##.gg_head_l
-55188.com,g138.com##.gg_head_m
-55188.com,g138.com##.gg_head_r
 acglala.net##.gg_img
 itdog.cn##.gg_link
 yicai.com##.gg_loadpage
@@ -89370,7 +89388,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js
-@@||hdslb.com/bfs/seed/log/report/log-reporter.js
+@@/log/report/*$script,domain=bilibili.com
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
 @@||hk01.com^*/ga_trace.js
 @@||hk01.com^*/scripts/ga.js
@@ -91750,6 +91768,7 @@ fqsousou.com,kengso.com#@#.user-share
 /customerad_
 /cutead.
 /cvs/ads/*
+/cxf-ad-banner
 /daily/ads/*
 /dart_ads.
 /dart_ads/*
@@ -94940,6 +94959,8 @@ _800x80_
 ###ad-performanceFullbanner1
 ###ad-performanceRectangle1
 ###ad-placeholder
+###ad-placeholder-horizontal
+###ad-placeholder-vertical
 ###ad-placement
 ###ad-plate
 ###ad-player
