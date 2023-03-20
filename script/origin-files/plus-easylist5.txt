@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202303190257
+! Version: 202303200210
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 54527
+! Lenth = 54534
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -934,6 +934,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|onlinevideoconverter.com|povw1deo.c
 /.*(\/proxy|\.wasm|\.wsm|\.wa)$/$websocket,xmlhttprequest,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
 /.bootscripts/analytics.min.js
 /.well-known/private-click-measurement
+/.well-known/shopify/monorail
 //t100.ru^$third-party
 /0.gif?
 /0c.gif?
@@ -2575,6 +2576,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|onlinevideoconverter.com|povw1deo.c
 /collector/event
 /collector/hit?
 /collector/pageview
+/collector/v1/event
 /collector?report=
 /collectsysteminfo?
 /com.snowplowanalytics.$domain=~snowplowanalytics.com
@@ -3647,6 +3649,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|onlinevideoconverter.com|povw1deo.c
 /impression/stream/*
 /impression/track?
 /impression/widget?
+/impression?ad=
 /impression?bid
 /impression?mkevt=
 /impression?rkey=
@@ -20146,6 +20149,7 @@ znak.com##.relap
 ||convergetrack.com^$third-party
 ||conversation-app.alcatel-lucent.com^
 ||conversation-images.al-enterprise.com^
+||conversion.mooncard.co^
 ||conversion.pl^$third-party
 ||conversionfly.com^$third-party
 ||conversionlabs.net.pl^$third-party
@@ -40381,9 +40385,11 @@ znak.com##.relap
 ||sealingdev.actonservice.com^
 ||sealserver.trustwave.com^$third-party
 ||search-api.joongna.com/v*/ga/log|
+||search.anonymous.ads.brave.com^
 ||search.aol.com/beacon/
 ||search.bilibili.com^$removeparam=from_source
 ||search.brave.com/api/feedback$~third-party
+||search.brave.com/serp/v1/static/serp-js/telemetry/
 ||search.ch/audit/
 ||search.naver.com/p/crd/rd$removeparam=i
 ||search.naver.com/p/crd/rd$removeparam=p,document,image
@@ -51338,6 +51344,7 @@ znak.com##.relap
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||ubak.zhugeapi.net^
 ||ubdjfy.maje.com^
+||ubeat.tv/api/v1/sda/
 ||uber.com/_events
 ||uber.com/_track
 ||uber.com/careers/apply/_log
