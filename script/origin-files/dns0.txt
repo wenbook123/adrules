@@ -1,8 +1,8 @@
-! Checksum: KX9aM9dltyBCMYHPdP2c+w
+! Checksum: 1zEukMyWzJgbE8lje/y9RQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.83.29
-! TimeUpdated: 2023-03-22T04:31:08+00:00
+! Version: 2.0.83.35
+! TimeUpdated: 2023-03-22T15:31:12+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -868,6 +868,7 @@ nfmovies.com#$?#body > .hidden-xs > div[id]:-abp-has(> img[src^="/static/"][oncl
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
 !
 !
+jiuse710.com#?##main div.row > div.colVideoList:-abp-has(> div.video-elem > a[href][target="_blank"])
 jandan.net#?##sidebar > ul:-abp-has(> h3:contains(广告))
 jandan.net#?#.commentlist > li.row:-abp-has(> div > font:contains(广告))
 czzy01.com#?#.swiper-wrapper > div.swiper-slide:-abp-has(> a[href^="https://"])
@@ -1239,6 +1240,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+||lib.djn882.com/static/lazyload.js
+jiuse710.com###main > div[class]:not([class*="block"]):not([class*="container"])
 jandan.net###sidebar > div#box
 24h.pchome.com.tw##div[id^="Block"][class="grab_box"]
 news.pchome.com.tw##div[class^="adnewlist"]
@@ -2695,6 +2698,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 !--------------- EasyList China rules --------------------------------------!
 !---------------------------------------------------------------------------!
 -*-*-*-*.panda^$script,third-party
+/bg5t4h.oss-
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -5289,6 +5293,16 @@ newduba.cn###jq_youxi
 ||uiiwzyv.cn^
 ||shangjinxin.ltd^
 ||chkaja.com^$third-party
+||umami.is^
+||rbvi.top^
+||renameking.com^
+||strced.xyz^
+||mengzhan24.com^$third-party
+||baidufkjnvbdsn.com^
+||j8jp.com^
+||dcnjc4.com^
+||lmx7.com^
+||yye2.top^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
