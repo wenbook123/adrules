@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202303230202
+! Version: 202303240238
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 25783
+! Lenth = 25799
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -233,6 +233,7 @@
 ###lovexin2
 ###lt-ad-radio
 ###magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
+###main.site-main > div > div > a[href] > img[src*=".bcebos.com"]
 ###mainbody:nth-child(5) > .mylist
 ###menu + #topBox
 ###menu + script + #topBox
@@ -578,7 +579,7 @@
 ##.box-ad
 ##.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
 ##.broadcastMe[style="width: 1200px;"]
-##.btn-outline-primary[href*=".com:"]
+##.btn-outline-primary[href*=".cc"]
 ##.btn.btn-success.text-white[href*=".com:"]
 ##.btn[href*="/viphktv.com/"]
 ##.bus_adsbox
@@ -843,6 +844,8 @@
 ##.sponsor_image
 ##.spot_nav_under_ad
 ##.static-a2d
+##.stui-vodlist__thumb.lazyload[href^="http"][target="_blank"]
+##.stui-vodlist__thumb.lazyload[href^="http"][target="_blank"] + .stui-vodlist__detail
 ##.subject_link[href$="/thread-index-fid-1-tid-12848.htm"]
 ##.svg-icon + #player_pause
 ##.sxAdBox
@@ -1298,11 +1301,11 @@
 ##a[href*="nnqp.vip"]
 ##a[href="/ad2.html"]
 ##a[href="/bbs/"] > img[src*=".bcebos.com"]
+##a[href="/dngiauwbeib/"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/forum/"] > img[src*=".bcebos.com"]
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
-##a[href="/sdjgnijebw/"]
 ##a[href="/static/xzgg/index.html"]
 ##a[href="http://hqbet2191.com"]
 ##a[href="http://www.tw787.com/"]
@@ -1423,10 +1426,7 @@
 ##div[style^="width: 100%;"][style$="visibility: visible;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##dl#listwoBox
-##header + #main:nth-child(n+3) > .container-fluid.mb-0.p-0
-##header + #main:nth-child(n+3) > .container-fluid.mb-0.p-0 + .jsv-g1
-##header + #main:nth-child(n+3) > .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
-##header + #main:nth-child(n+3) > .jsv.jsv-g1.mb-0 > .container-fluid.mb-3.p-0
+##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 ##iframe[src*=".xxmh"][src*="?u="]
 ##img#adv1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -2650,6 +2650,7 @@ $websocket,domain=5nj.com|cechi8.com
 /y.js?pid=$domain=zd518.cn
 /yesky/js/counter/*
 /yksmartbanner.
+/ylnew/*.js$image
 /ylqq/*.add
 /yryy/css/javamy.js
 /yryy/css/javatop.js
@@ -5893,7 +5894,7 @@ caikuu.com##.clearfix + .recommend
 caikuu.com##.photo_abv
 caixin.com##.course_box
 caixin.com##.incubator
-calmlab.com##[style="position:relative;z-index:2147483647"]
+calmlab.com##div[style*="important"]
 cam4.tw###newTippingViewer + div[data-ab]
 cam4.tw##.hbanner
 cam4.tw##.subfoot-section
@@ -7017,6 +7018,7 @@ expreview.com##.colbaba
 expreview.com##.crossAd
 expreview.com##.crossBa
 expreview.com##.mamaBox
+extfans.com##.b-ad-1
 extmovie.com##.cd_listtop_pc
 eyny.com##span[id^="ads_ads_"]
 eyuyan.com##div[id^="ads_r_"]
@@ -7057,6 +7059,8 @@ fashion.qq.com##.rv-js-root
 fashionwaltz.com###single_reading
 fashionwaltz.com##.entry-content > div.copyright ~ div[style*="text-align:center;"]
 fastadmin.net###detail-recommend
+fastadmin.net##.article-section + div .img-responsive
+fastadmin.net##.hot-article + .panel-default
 fastadmin.net##.panel-body > a[href$="="]
 fastadmin.net##.text-center > .carousel
 fastadmin.net##a[href$="=="]
@@ -8474,6 +8478,7 @@ jable.tv##div[class^="root-"]
 jable.tv#?#div.col-6.col-sm-4.col-lg-12:-abp-has(> div.video-img-box > div.img-box > a[href*="?banner="])
 jandan.net###random-ads
 jandan.net###sidebar > div#box
+jandan.net###sidebar > ul[style="height:480px"]
 jandan.net##.goods2-list
 jandan.net##a[href*="/money.php?"]
 jandan.net#?##sidebar > ul:-abp-has(> h3:contains(广告))
@@ -12459,6 +12464,7 @@ zzzyk.com###Tinfo
 ||26gg.bnq86.com^$third-party
 ||272xb.com^
 ||27ang.buzz/us/
+||27gh.cc^$popup,third-party
 ||28.com/count.js
 ||28.com/countnew.js
 ||28.com/public/js/w3c_float.js
@@ -15944,6 +15950,7 @@ zzzyk.com###Tinfo
 ||deeplearning.red^
 ||defenga.top^
 ||dehua.ixinfan.com^
+||delamer.ltd^
 ||deliver.ifeng.com^
 ||delivery-pc.wasu.cn/d/frontJs/3.0$redirect=noopjs,domain=wasu.cn
 ||delivery-pc.wasu.cn/d/frontJs/3.0$rewrite=abp-resource:blank-js,domain=wasu.cn
@@ -16513,6 +16520,7 @@ zzzyk.com###Tinfo
 ||eic.org.cn^*/analytics
 ||eidccepu.cyou^
 ||eidphap.cn^
+||eignky.xyz^
 ||eiinaq.xyz^
 ||eijriol.cn^
 ||eisafniw.space^
@@ -19384,6 +19392,7 @@ zzzyk.com###Tinfo
 ||kingsnug.cn/Uploads/vod/2019-05-25/5ce964f0c66e0.jpg
 ||kingsun.online^
 ||kisafnid.space^
+||kiuee8.com^
 ||kivo.fun^
 ||kiwi8.top/media/plugins/jquery_confirm/
 ||kiwihk.net^$third-party
@@ -20667,6 +20676,7 @@ zzzyk.com###Tinfo
 ||mztzba.cn^
 ||mzwfrp.cn^
 ||mzwzo.cn^
+||mzybirdnest.com^
 ||mzyfz.*/modules/46/
 ||mzyz.com/image*/tj/
 ||mzzfree.com/file/upload/202109/14/180421861.gif
@@ -21103,6 +21113,7 @@ zzzyk.com###Tinfo
 ||oqnggnsk.fun^
 ||oqshoyd.cn^
 ||oqxep.cn^
+||orgaorg.com^
 ||orientalocean.mobi^
 ||oronwg.xyz^
 ||oroqikj.cn^
@@ -24375,6 +24386,7 @@ zzzyk.com###Tinfo
 ||wujiupic.com^
 ||wujrx.xyz^
 ||wukelansm.top^
+||wukq.cn^
 ||wula.store^
 ||wuliao.chzsport.cn^
 ||wuliao.epro.sogou.com^
@@ -24817,6 +24829,7 @@ zzzyk.com###Tinfo
 ||xvideo.cc/im4.js
 ||xvideo.cc/wefong2.js
 ||xvqdfwy.cn^
+||xwbspx.xyz^
 ||xwdsp.com^
 ||xwewwgk.cn^
 ||xwhhuav.cn^
@@ -24929,6 +24942,7 @@ zzzyk.com###Tinfo
 ||yccz.net/xml/
 ||ycgy8888.com^
 ||ychml.com^
+||ychuanyi.ltd^
 ||yckpdr.com^
 ||yclxrj.top^$third-party
 ||yctrs.top^
@@ -25391,6 +25405,7 @@ zzzyk.com###Tinfo
 ||zcrui.com^
 ||zczcvx.com^
 ||zd518.cn/bfq2.html
+||zdabnt.live^
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
 ||zdhfff.xyz^
@@ -25672,6 +25687,7 @@ zzzyk.com###Tinfo
 ||zuahaqz.cn^
 ||zuiacg.com/images/client/
 ||zujilife.online^
+||zukddms.cn^
 ||zuliglsa.space^
 ||zumnxwva.ink^
 ||zunchengmaoyi.cn^

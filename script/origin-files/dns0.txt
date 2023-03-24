@@ -1,8 +1,8 @@
-! Checksum: IqAB84eX3UzOMlDqS0uxTg
+! Checksum: HFSJCYjw/QLtaZiN2HJpNw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.83.46
-! TimeUpdated: 2023-03-24T00:31:08+00:00
+! Version: 2.0.83.48
+! TimeUpdated: 2023-03-24T07:31:07+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -962,6 +962,8 @@ csdn.net#?##feedlist_id > li:-abp-has(> div[id^="kp_box_"])
 !--------------------------------------!
 ! SECTION: Chinese - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/146359
+nivod4.tv#%#//scriptlet('set-constant', 'detailParams.is_ad_play', 'false')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141657
 axutongxue.net#%#//scriptlet('prevent-setTimeout', 'getCookie("')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135612
@@ -4121,7 +4123,7 @@ newduba.cn###jq_youxi
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
 ##a[href="/bbs/"] > img[src*=".bcebos.com"]
-##a[href="/dngiauwbeib/"]
+##.adlistcss
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/forum/"] > img[src*=".bcebos.com"]
 ##a[href="/gghtml/tyc.html"]
@@ -5322,6 +5324,8 @@ newduba.cn###jq_youxi
 ||xwbspx.xyz^
 ||eignky.xyz^
 ||kiuee8.com^
+||3tf.co^
+||jpzsmbp.cn^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
