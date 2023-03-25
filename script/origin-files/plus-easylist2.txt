@@ -2005,11 +2005,14 @@ yts.*##+js(aopr, runAdblock)
 yts.*##+js(aopw, _pop)
 yts.*##+js(nowoif)
 yts.*##+js(nostif, "admc")
+yts.*##+js(acs, setTimeout, admc)
+*/script/clock.js$script,1p
 yts.*##[id*="container"][id^="id"]
 yts.*##html:style(overflow: auto !important;)
 yts.*##.vpn-link:upward(1)
 yts.*##.cborz-bordered
 yts.*##.madikf
+||empied.com^
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/7fr9jc/help_with_disabling_the_antiadbock_message_on/
 sarugbymag.co.za##+js(aopr, showAds)
@@ -4788,8 +4791,6 @@ audioz.cc,audioz.es##+js(set, detectAdBlock, noopFunc)
 twitch.tv##+js(nowoif, amazon-adsystem)
 ||amazon-adsystem.com/aax2/apstag.js$script,domain=twitch.tv,important
 ||ddacn6pr5v0tl.cloudfront.net^
-! https://github.com/uBlockOrigin/uAssets/issues/5184
-! twitch.tv##+js(twitch-videoad)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1977
 imx.to##+js(aopr, ExoLoader.serve)
@@ -13081,8 +13082,13 @@ bing.com#?#.b_algo:has(.b_caption>*:matches-css-before(display:inline-block))
 bing.com##.b_algo:has(.b_textAdTitleLink)
 bing.com##.ins_exp.tds
 bing.com#@#li.b_adBottom
+bing.com#@#.b_ad
 bing.com#@#.b_adLastChild
+bing.com#@#.pa_sb
 bing.com##.b_adLastChild:style(position: absolute !important; top: -9999px !important;)
+bing.com##.b_ad:style(position: absolute !important; top: -9999px !important;)
+bing.com##.pa_sb:style(position: absolute !important; top: -9999px !important;)
+bing.com##.b_restorableLink:remove()
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136118
 bing.com##.tob_calcontainer > .slide:has(.rtb_ad_caritem_mvtr)
 ! https://github.com/uBlockOrigin/uAssets/issues/16791

@@ -1,8 +1,8 @@
-! Checksum: fJGDqnQaJ8Zd29wp+/8yTg
+! Checksum: O76EnQnwSgouPqAHRuUEDQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.83.57
-! TimeUpdated: 2023-03-25T04:31:08+00:00
+! Version: 2.0.83.60
+! TimeUpdated: 2023-03-25T14:31:08+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2778,6 +2778,8 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 .com/uploads/*-860x250.gif
 .com/vh1/$script,third-party
 .com/vj1/$script,third-party
+.net/vh1/$script,third-party
+.net/vj1/$script,third-party
 .com/vodad.js
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
@@ -3594,7 +3596,7 @@ newduba.cn###jq_youxi
 ###lovexin2
 ###lt-ad-radio
 ###magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
-###main.site-main > div > div > a[href] > img[src*=".bcebos.com"]
+###main.site-main > div > div > a[href] > img
 ###mainbody:nth-child(5) > .mylist
 ###menu + #topBox
 ###menu + script + #topBox
@@ -4114,6 +4116,7 @@ newduba.cn###jq_youxi
 ##a[href*="/PageRegister?Agent="][target="_blank"]
 ##a[href*="/Register?a="]
 ##a[href*="/ads/adscenter."]
+##.wpcom_ad_wrap
 ##a[href*="/auth/register?code="] > img
 ##a[href*="/register/?i_code="] > img
 ##a[href*="://2"] > img[src*=".qlogo.cn"]
@@ -5340,6 +5343,9 @@ newduba.cn###jq_youxi
 ||xsplus.info^
 ||zmadsvd.cn^
 ||gaowei.fit^
+||6179a.com^
+||pojihfnkbllg.net^
+||poqjnkdsou.net^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -23926,7 +23932,7 @@ theporn.cc##.toolbar-gg
 ||jsdelivr.net/gh/dashange123/
 !#torrentkitty
 ##.nordvpn-popup + .sidebar-vpn
-$script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
+$script,third-party,domain=torrkitty.com|torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 .tor*/js/jquery.bpopup.
 /nordvpn/autoptimize_
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
