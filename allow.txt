@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: AG9+ZJcTXenTuQqMTShTtg
+! Checksum: gUVD+IFJXhSP0vMiVzjzFg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-03-28 00:20:28（北京时间） 
-! Total count: 19243
+! Version: 2023-03-28 08:57:32（北京时间） 
+! Total count: 19247
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -5029,6 +5029,7 @@
 @@||cookieinfoscript.com/js/cookieinfo.min.js$domain=cookieinfoscript.com
 @@||cookielaw.org/langswitch/$script,domain=lippu.fi
 @@||cookielaw.org^$third-party,domain=popsugar.co.uk
+@@||cookielaw.org^*/OtAutoBlock.js$domain=darkreading.com
 @@||cookielawinfo.com^$~third-party
 @@||cookiepro.com/scripttemplates/$script,domain=wowbiz.ro
 @@||cookiepro.com^$xmlhttprequest,domain=wowbiz.ro
@@ -8290,6 +8291,7 @@
 @@||googletagmanager.com/gtm.js$domain=tele2.ru
 @@||googletagmanager.com/gtm.js$domain=tgifridays.ru
 @@||googletagmanager.com/gtm.js$domain=thecompanion.app
+@@||googletagmanager.com/gtm.js$domain=thegazette.com
 @@||googletagmanager.com/gtm.js$domain=thehouseofportable.com
 @@||googletagmanager.com/gtm.js$domain=thestar.co.uk
 @@||googletagmanager.com/gtm.js$domain=thethaiger.com
@@ -14285,6 +14287,8 @@
 @@||realcam.me/js/cnads.js
 @@||realclearpolitics.com/asset/section/ad-blocker.js
 @@||realclearpolitics.com/asset/section/doubleclick.js
+@@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
+@@||realclearpolitics.com/esm/assets/js/analytics/$~third-party,xmlhttprequest
 @@||realfavicongenerator.net/files/*/facebook.png$image,~third-party
 @@||realgm.com^$generichide
 @@||realitycheats.com^$generichide
