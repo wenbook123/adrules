@@ -2,7 +2,7 @@
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules. 
 ! Homepage: https://kbsml.com
-! Last modified: 3/28/2023, 4:00:07 PM
+! Last modified: 3/29/2023, 12:00:08 AM
 !
 ||youtube.com/pagead/paralleladview^
 ||youtube.com/s/player/*/ad.js^
@@ -31584,6 +31584,7 @@ ants.tw#?##sidebar > section.widget_text > div.textwidget > script[src^="//pagea
 microsoftnews.msn.cn#?#.riverSections-DS-EntryPoint1-1 > div[style^="display: grid;"] > div[style^="grid-area:"]:last-child > .card-DS-card1-1 > div[class^="nativeAd-DS-card"]:upward(2)
 nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick*="open"]) { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
+olevod.com#$?#.swiper-wrapper > li.swiper-slide:has(> a[target="_blank"]:not([href^="/"])) { remove: true; }
 jiuse710.com#?##main div.row > div.colVideoList:has(> div.video-elem > a[href][target="_blank"])
 jandan.net#?##sidebar > ul:has(> h3:contains(广告))
 jandan.net#?#.commentlist > li.row:has(> div > font:contains(广告))
@@ -31775,11 +31776,14 @@ ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###resul
 ||alicdn.com^$image,domain=m.k1k.cc|thcdy.co|27k.cc|1024pa.com|hg6384.com-www.6u7u.com|4080kan.com|dy686.net
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .result ~ div:not([class]):not([style])
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top
+cupfox.app##.t-img-box > a[target="_blank"] > img
+olevod.com##div[class^="ad"][style="margin-top: 0.05rem;"]
+olevod.com##div[style*="%;float: left;"] > a[target="_blank"]
 zhuanlan.zhihu.com##.RichText-MCNLinkCardContainer > a.GoodsRecommendCard
 ||lib.djn882.com/static/lazyload.js
 jiuse710.com###main > div[class]:not([class*="block"]):not([class*="container"])
 jandan.net###sidebar > div#box
-24h.pchome.com.tw##div[id^="Block"][class="grab_box"]
+24h.pchome.com.tw##.site_evt
 news.pchome.com.tw##div[class^="adnewlist"]
 boylove.cc###floating_page
 boylove.cc###fake_avivid_waterfall_webpush
@@ -35626,6 +35630,9 @@ newduba.cn###jq_youxi
 ||dioak.cyou^
 ||sanwen.icu^
 ||gkustph.cn^
+||kunzhang.name^
+||vulrxr.xyz^
+||zlzizsq.cn^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -49907,7 +49914,7 @@ t66y.com##.tips
 ###video_playr_side.video_playr_sider.videoplayerside
 theporn.cc##.gg-config
 theporn.cc##.toolbar-gg
-69xx.one,69xx487.xyz,8mav.cc,theav.xyz,thep178.com,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
+69xx.one,69xx487.xyz,8mav.cc,theav.xyz,thep178.com,theporn.cc#?#[class]:-abp-has(>a>.q-responsive)
 ##a[href$="/hjdt9.com"]
 ##a[href$="/xha77.com"]
 ||jsdelivr.net/gh/dashange123/
