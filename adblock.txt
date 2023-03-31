@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: cpSXPWQbOw28d7kb93+eCg
+! Checksum: IQKan483VaJa46Y9T7cn8Q
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-03-31 09:01:55（北京时间） 
-! Total count: 61651
+! Version: 2023-03-31 16:19:13（北京时间） 
+! Total count: 61673
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -282,6 +282,7 @@
 ###player-bottom-ads
 ###playerAd
 ###playerAdvLayer
+###playerJsvLayer.jsv-layer
 ###player_ad
 ###player_banner[style*="fixed;"]
 ###player_pause > .tip + a[target="_blank"]
@@ -666,6 +667,7 @@
 ##.fed-part-case > .ads-img
 ##.feed-item[data-ad]
 ##.ff-ads
+##.fixed-bottom.jsv.jsv-g1
 ##.flash_ad
 ##.flex-row > #propagandaLeft
 ##.flex-row > #propagandaRight
@@ -1480,6 +1482,7 @@
 ##a[href*="/mdapp2.cc/"]
 ##a[href*="/mobads.php?"]
 ##a[href*="/mt86k.xyz"]
+##a[href*="/mx456.cc"]
 ##a[href*="/nf.brushshopy.com"]
 ##a[href*="/odnb.vip"]
 ##a[href*="/ppffj.me/"]
@@ -1709,6 +1712,11 @@
 ##div[style^="width: 100%;"][style$="visibility: visible;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##dl#listwoBox
+##header + #main:nth-child(n+4) > .container-fluid.mb-0.p-0
+##header + #main:nth-child(n+4) > .container-fluid.mb-0.p-0 + .jsv-g1
+##header + #main:nth-child(n+4) > .container-fluid.mb-3.p-0
+##header + #main:nth-child(n+4) > .container-fluid.mb-3.p-0 + .jsv-g1
+##header + #main:nth-child(n+4) > .jsv.jsv-g1.mb-0 > .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 ##iframe.ad-frame
 ##iframe[src*=".xxmh"][src*="?u="]
@@ -18338,6 +18346,7 @@ m.zhanqi.tv##.footer
 m.zhanqi.tv##.h5-foot-area
 m.zhanqi.tv##.topbarOpenApp.btn-1
 m.zzzfun.com##DIV#show-2415689770463175004-8179
+m1.nivod.tv,m.nivod4.tv#%#(function(){window.eval=new Proxy(eval,{apply:(a,b,c)=>{if(c[0]&&c[0].includes("commercial")&&c[0].startsWith("(")&&c[0].endsWith(")")){let a=c[0].slice(1).slice(0,-1),b=JSON.parse(a);b.entity?.commercial&&(b.entity.commercial=void 0),c[0]=`(${JSON.stringify(b)})`}return Reflect.apply(a,b,c)}})})();
 m4ff.com##.content2
 m4ff.com##.index_gg_wz
 m4fz.com##a[data-etime]
@@ -24409,6 +24418,7 @@ zzzyk.com###Tinfo
 ||a44831.actonservice.com^
 ||a44833.actonservice.com^
 ||a44853.actonservice.com^
+||a44u.icu^
 ||a45044.actonservice.com^
 ||a45165.actonservice.com^
 ||a45226.actonservice.com^
@@ -27291,6 +27301,7 @@ zzzyk.com###Tinfo
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anijjm.winkelstraat.nl^
 ||anioz3b.cc^
+||aniqfwz.cc^
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
 ||anjuke.com^*/ajax/business_area_search/
 ||ankangwang.com/js/info.js
@@ -27740,6 +27751,7 @@ zzzyk.com###Tinfo
 ||as1.m.hao123.com^
 ||as1.wenku.baidu.com^
 ||as89de.top^
+||asa2.cn^
 ||asacdn.com/prod/redirect.html
 ||asadcdn.com^$third-party
 ||asahi.com^$removeparam=iref
@@ -28391,6 +28403,7 @@ zzzyk.com###Tinfo
 ||baidujavascript.com^
 ||baidujs.cnys.com^
 ||baidujsvbj.com^
+||baidunnd.top^
 ||baidutm999.xyz^
 ||baiduwudi929.xyz^
 ||baiduyoukualiyun.com^
@@ -28690,6 +28703,7 @@ zzzyk.com###Tinfo
 ||bdm.911cha.com^
 ||bdm.ye-su.cn^
 ||bdmjs.xywy.com^
+||bdnvklavbklabl.com^
 ||bdoaustralia.bdo.com.au^
 ||bdp.cn^$third-party
 ||bds.snssdk.com^
@@ -35992,6 +36006,7 @@ zzzyk.com###Tinfo
 ||ftfnewu.cn^
 ||ftimg.net/js/log.js?
 ||ftimg.net/s?z=
+||ftnthzv.cn^
 ||ftrack.ru^$third-party
 ||ftrtnr.xyz^
 ||fttxt.com/static/mh
@@ -36324,6 +36339,7 @@ zzzyk.com###Tinfo
 ||gc.newsweek.com/front/js/counter.js
 ||gc.zgo.at^$third-party
 ||gccode.gongchang.com^
+||gcejdac.cn^
 ||gcihkyd.cn^
 ||gcion.com/gcion.ashx?
 ||gcoiys.cutsclothing.com^
@@ -42226,6 +42242,7 @@ zzzyk.com###Tinfo
 ||looyu.com^$third-party
 ||lop.lamimi.cn^
 ||lopley.com^$third-party
+||lopqrx.xyz^
 ||lore.circulate.com^
 ||lorenzourban.com^$third-party
 ||lorlsblh.cyou^
@@ -47775,6 +47792,7 @@ zzzyk.com###Tinfo
 ||qiangquanvip.com^
 ||qianhua.*/data/attachment/portal/
 ||qianmeiby.com^
+||qianqian.red^
 ||qianrenge.cc/qian/
 ||qiantubao.asia^
 ||qianyan.love^
@@ -49614,6 +49632,7 @@ zzzyk.com###Tinfo
 ||satroki.tech/api/JdUnion
 ||sats.mailbrew.com^
 ||sats.manager-magazin.de^
+||saulmy.xyz^
 ||savecart.pl/d/
 ||saviourketonic.com^
 ||savoryorange.com^$third-party
@@ -59940,6 +59959,7 @@ zzzyk.com###Tinfo
 ||xiaoyange.cn^
 ||xiaoyida.com^$third-party
 ||xiaoz.top/assets/imgurl.js
+||xiaozengyyds.com^
 ||xiarikui08.com^
 ||xiatian.buzz^
 ||xiazaicdnapk.com^*.mp4
@@ -60027,6 +60047,7 @@ zzzyk.com###Tinfo
 ||xiu8.com/baidu-tieba/*&forum_name=
 ||xiulishanzhuang.com^
 ||xiurenji.cc/heji/
+||xiuwaiyyds.com^
 ||xixhx.com^
 ||xixianad.com^$third-party
 ||xiyouence.com^$popup,third-party
@@ -60359,6 +60380,7 @@ zzzyk.com###Tinfo
 ||yangll.xin^
 ||yangpinwang.com/wp-content/uploads/*E5%B9%BF%E5%91%8A.
 ||yangshengzu.cn^
+||yangsir.xyz^
 ||yangtianc.xyz^
 ||yangxu.store^
 ||yangyiluo.xin^
