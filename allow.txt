@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Ii4X/jHHiNyMIbsJAaZRHA
+! Checksum: CpG54QjJCedEpQIMhT7gbQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-04 16:20:23（北京时间） 
-! Total count: 16700
+! Version: 2023-04-05 00:18:11（北京时间） 
+! Total count: 16717
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -568,7 +568,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org|gammamaximum.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgics.php?
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1304,6 +1304,7 @@
 @@||ads.google.com/jsapi$script,domain=www.google.com
 @@||ads.google.com^$domain=accounts.google.com
 @@||ads.google.com^$domain=ads.google.com
+@@||ads.google.com^$domain=ads.google.com|analytics.google.com
 @@||ads.google.com^$domain=analytics.google.com
 @@||ads.google.com^$popup,domain=smallbusiness.withgoogle.com
 @@||ads.hausbau-forum.de/adb.js$script,1p
@@ -3603,6 +3604,7 @@
 @@||cdn.privacy-mgmt.com^$domain=berliner-zeitung.de
 @@||cdn.privacy-mgmt.com^$domain=bold.dk
 @@||cdn.privacy-mgmt.com^$domain=capital.fr
+@@||cdn.privacy-mgmt.com^$domain=cinemablend.com
 @@||cdn.privacy-mgmt.com^$domain=demorgen.be|volkskrant.nl|trouw.nl|parool.nl
 @@||cdn.privacy-mgmt.com^$domain=ekstrabladet.dk
 @@||cdn.privacy-mgmt.com^$domain=gala.fr
@@ -3983,6 +3985,7 @@
 @@||chuangkit.com^$generichide
 @@||chuiyao.com/static/js*/pinglun.js?v=
 @@||chuppito.fr^$ghide
+@@||chycor.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
 @@||ci.phncdn.com/www-static/js/vmobile/flipbook.js
 @@||ciaopeople.it^*/remote-gdpr.$script,domain=cookist.com|cookist.it|fanpage.it|ohga.it
 @@||ciaopeople.it^*/sdk-gdpr.$script,domain=cookist.com|cookist.it|fanpage.it|ohga.it
@@ -4495,7 +4498,7 @@
 @@||cookie-consent.ingatlancdn.com/icom-cookie-consent-manager-*.min.js$domain=ingatlan.com
 @@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
 @@||cookiebot.com/uc.js$domain=adac-shop.de
-@@||cookiebot.com^$domain=apetro.pt|asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|caisse-epargne.fr|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|elmzell.se|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|nngroup.com|nordiskfilm.com|plaion.com|refinery29.com|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|toyota-forklifts.se|warscrap.io|werder.de|werkenbijlidl.nl|wwf.fi|xn--myeblttle-z2a.de
+@@||cookiebot.com^$domain=apetro.pt|asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|caisse-epargne.fr|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|elmzell.se|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|nngroup.com|nordiskfilm.com|plaion.com|quandoo.it|refinery29.com|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|toyota-forklifts.se|warscrap.io|werder.de|werkenbijlidl.nl|wwf.fi|xn--myeblttle-z2a.de
 @@||cookiebot.com^$domain=cliente.nos.pt|login.nos.pt
 @@||cookiebot.com^$domain=compress-or-die.com
 @@||cookiebot.com^$domain=danbolig.dk
@@ -4966,6 +4969,7 @@
 @@||developers.google.com/ad-manager/$~third-party
 @@||developers.google.com/ads/images/$domain=google.com
 @@||developers.google.com/google-ads/$domain=google.com
+@@||developers.google.com^$domain=developers.google.com
 @@||developpez.com/show_i.php?$~image
 @@||devexchanges.info^$ghide
 @@||device-api.urbanairship.com^$app=com.caribou.caribouapp
@@ -9485,6 +9489,7 @@
 @@||linkvertise.com/assets/ads.js
 @@||linkvertise.com^$generichide
 @@||linkvertise.com^$ghide
+@@||linkvertise.download^$generichide
 @@||linkvietvip.com^$stealth
 @@||linux.org^$ghide
 @@||linuxize.com/detroitchicago/dayton.js
@@ -9887,6 +9892,7 @@
 @@||mb.yidianzixun.com^
 @@||mbank.cz/Adv/Scripts/$~third-party
 @@||mbank.sk/Adv/Scripts/$~third-party
+@@||mbcdn.xyz^$image,stealth,domain=mangabuddy.com
 @@||mbd.baidu.com^
 @@||mbe-cdn.fyber.com$app=net.wooga.tropicats_tropical_cats_puzzle_paradise
 @@||mbe.modelica.university/_next/static/*/pages/pageview.js$~third-party
@@ -10735,6 +10741,7 @@
 @@||nonsensediamond.*^$ghide
 @@||noodid.ee/chordQuiz/$~third-party
 @@||noonoo39.tv^$stealth
+@@||noonoo40.tv^$stealth
 @@||nordcoast-coffee.de/js/cookieconsent.min.js
 @@||nordichardware.se^$generichide
 @@||nordpresse.be^$ghide
@@ -11208,6 +11215,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=3dnews.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=4movierulz.red
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=4spaces.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=4spaces.org|aboluowang.com|chaojizhibo.net|chtoen.com|daxiaamu.com|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=abczdrowie.pl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=abdoutech.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=aboluowang.com|chaojizhibo.net|chtoen.com|daxiaamu.com|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
@@ -11777,6 +11785,7 @@
 @@||player*.cinestream.bid^$stealth
 @@||player*.kotakhitam.casa/?$stealth
 @@||player*.nvod.org/video/$domain=noonoo39.tv,stealth
+@@||player*.nvod.org/video/$domain=noonoo40.tv,stealth
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
 @@||player-oni.ml^$ghide
 @@||player-smotri.mail.ru^$stealth
@@ -12606,6 +12615,7 @@
 @@||research.de.com^$script,domain=spiegel.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.js||d1lm7kd3bd3yo9.cloudfront.net^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13009,6 +13019,7 @@
 @@||script.ioam.de/iam.js$domain=hoerzu.de|snacktv.de
 @@||script.ioam.de/iam.js$script,domain=joyn.de
 @@||script.ownpage.fr/v1/ownpage.js?$script,domain=lci.fr
+@@||scriptcdn.net/code/$xhr,domain=filecr.com
 @@||scriptcdn.net/code/$xmlhttprequest,domain=filecr.com
 @@||scripts.cleverwebserver.com^$script,domain=fc.madshiba.fun
 @@||scripts.demandmedia.com/wm.js$domain=ehow.com
@@ -13104,6 +13115,7 @@
 @@||sdk.privacy-center.org^$domain=rtl.be
 @@||sdk.privacy-center.org^$domain=seguro.elespanol.com
 @@||sdk.privacy-center.org^$domain=sudinfo.be
+@@||sdk.privacy-center.org^$domain=vanitatis.elconfidencial.com
 @@||sdk.privacy-center.org^$script,domain=20minutos.es|abc.es|allocine.fr|as.com|autopista.es|beinsports.com|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|elcomercio.es|filmweb.pl|fip.fr|franceculture.fr|franceinter.fr|francetvinfo.fr|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|goplay.be|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|motociclismo.es|mountainbike.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nieuwsblad.be|onmeda.de|podcasts.leparisien.fr|publicsenat.fr|recup.paylib.fr|revistaoxigeno.es|rtl.be|rtl.fr|seguro.elespanol.com|sensacine.com|sncf-connect.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|xataka.com
 @@||sdk.privacy-center.org^$script,domain=francetvinfo.fr
 @@||sdk.privacy-center.org^$script,domain=vecernji.hr
@@ -14326,6 +14338,7 @@
 @@||support.brother.com^*/js/analytics.js$script,~third-party
 @@||support.google.com/adsense/$~third-party
 @@||support.google.com/google-ads/$domain=ads.google.com
+@@||support.google.com^$domain=support.google.com
 @@||support.steampowered.com^$removeparam
 @@||support.thesslstore.com/visitor/index.php
 @@||supportxmr.com^
@@ -16435,6 +16448,9 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideMastheadWrapper
+@@||xfreehd.com^$generichidete###vi-sticky-ad
+@@||xfreehd.com^$generichide|setupstronghighlyinfo-file.info^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
@@ -16570,6 +16586,7 @@
 @@||youjizz.com/js/default.js
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
+@@||youmadcdn.xyz^$image,stealth,domain=mangabuddy.com
 @@||youmaker.com/js/prebid.js
 @@||youmaker.com/js/prebid.js$domain=epochtimes.com
 @@||youmath.it/$script,1p
@@ -16640,7 +16657,7 @@
 @@||zcache.co.uk^$image,domain=zazzle.co.uk
 @@||zcache.com^$image,domain=zazzle.com
 @@||zconfig.alibabausercontent.com^
-@@||zdassets.com/ekr/snippet.js$domain=bitsacard.com|meundies.com|myurbanjungle.com|nvidia.eu|pionex.com|portal.afterpay.com|superbet.pl
+@@||zdassets.com/ekr/snippet.js$domain=bitsacard.com|meundies.com|moneydashboard.com|myurbanjungle.com|nvidia.eu|pionex.com|portal.afterpay.com|superbet.pl
 @@||zdbb.net/edaa^$domain=youronlinechoices.com
 @@||zdbb.net/r/?*&mailing
 @@||zdf.de/zdf/flash/eplayer/player.swf?*/cgi-bin/ivw/

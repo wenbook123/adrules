@@ -162,7 +162,6 @@
 @@||accounts.ea.com^$stealth
 @@||accounts.ea.com^$stealth
 @@||accounts.google.com^$generichide
-@@||accounts.google.com^$generichide
 @@||accounts.google.com^$jsinject,generichide
 @@||accounts.google.com^$jsinject,generichide
 @@||accounts.google.com^$popup
@@ -363,7 +362,8 @@
 @@||ads.google.com^$domain=accounts.google.com
 @@||ads.google.com^$domain=ads.google.com
 @@||ads.google.com^$domain=ads.google.com
-@@||ads.google.com^$domain=analytics.google.com
+@@||ads.google.com^$domain=ads.google.com|analytics.google.com
+@@||ads.google.com^$domain=ads.google.com|analytics.google.com
 @@||ads.google.com^$domain=analytics.google.com
 @@||ads.google.com^$popup,domain=smallbusiness.withgoogle.com
 @@||ads.google.com^$popup,domain=smallbusiness.withgoogle.com
@@ -1422,7 +1422,7 @@
 @@||cookie-cdn.cookiepro.com^$domain=gry.pl
 @@||cookie-cdn.cookiepro.com^$domain=observatornews.ro
 @@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
-@@||cookiebot.com^$domain=apetro.pt|asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|caisse-epargne.fr|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|elmzell.se|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|nngroup.com|nordiskfilm.com|plaion.com|refinery29.com|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|toyota-forklifts.se|warscrap.io|werder.de|werkenbijlidl.nl|wwf.fi|xn--myeblttle-z2a.de
+@@||cookiebot.com^$domain=apetro.pt|asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|caisse-epargne.fr|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|elmzell.se|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|nngroup.com|nordiskfilm.com|plaion.com|quandoo.it|refinery29.com|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|toyota-forklifts.se|warscrap.io|werder.de|werkenbijlidl.nl|wwf.fi|xn--myeblttle-z2a.de
 @@||cookiebot.com^$domain=cliente.nos.pt|login.nos.pt
 @@||cookiebot.com^$domain=compress-or-die.com
 @@||cookiebot.com^$domain=danbolig.dk
@@ -1596,6 +1596,8 @@
 @@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
 @@||developer.softonic.com^$document
 @@||developer.softonic.com^$document
+@@||developers.google.com^$domain=developers.google.com
+@@||developers.google.com^$domain=developers.google.com
 @@||dfcfw.com^
 @@||dfscdn.dfcfw.com^
 @@||dftoutiao.com^
@@ -2237,7 +2239,6 @@
 @@||gstatic.com^$domain=mixdrop.co
 @@||gstatic.com^$domain=mixdrop.co
 @@||gstatic.com^*/adwords/$domain=support.google.com
-@@||gstatic.com^*/adwords/$domain=support.google.com
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||gstatic.com^*/images/google-$domain=google.com
 @@||gstatic.com^*/social/$image,domain=google.com
@@ -2779,6 +2780,7 @@
 @@||linksynergy.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||linkvertise.com^$generichide
 @@||linkvertise.com^$generichide
+@@||linkvertise.download^$generichide
 @@||linkvietvip.com^$stealth
 @@||linkvietvip.com^$stealth
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
@@ -2939,6 +2941,7 @@
 @@||maxstream.video^$generichide
 @@||mazu.3g.qq.com^
 @@||mb.yidianzixun.com^
+@@||mbcdn.xyz^$image,stealth,domain=mangabuddy.com
 @@||mbd.baidu.com^
 @@||mc.*.exacttarget.com^|
 @@||mcbar.cn^$generichide
@@ -3206,7 +3209,7 @@
 @@||nodkey.xyz^$generichide
 @@||nodkey.xyz^$generichide
 @@||noonoo39.tv^$stealth
-@@||noonoo39.tv^$stealth
+@@||noonoo40.tv^$stealth
 @@||nordichardware.se^$generichide
 @@||nostv.pt^*/angulartics-google-analytics.js?
 @@||notafree.host^$generichide
@@ -4215,6 +4218,8 @@
 @@||support-beacon.nakanohito.jp^|
 @@||support-widget.nakanohito.jp^|
 @@||support.brother.com^*/js/analytics.js$script,~third-party
+@@||support.google.com^$domain=support.google.com
+@@||support.google.com^$domain=support.google.com
 @@||support.steampowered.com^$removeparam
 @@||supportxmr.com^
 @@||surfguru.com^$generichide
@@ -4688,8 +4693,6 @@
 @@||voeunblock3.com^$subdocument
 @@||voeunblock3.com^$subdocument
 @@||volterra.io^*/advertise_policy$~third-party
-@@||volterra.io^*/advertise_policy$~third-party
-@@||volterra.us^*/advertise_policy$~third-party
 @@||volterra.us^*/advertise_policy$~third-party
 @@||voluumtrk.com^$image,domain=ally.sh|al.ly
 @@||vortez.net^$generichide
@@ -4917,6 +4920,7 @@
 @@||xfinity.com^$stealth
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide|setupstronghighlyinfo-file.info^
 @@||xidian.edu.cn^$generichide
 @@||xidian.edu.cn^$generichide
 @@||xifuquan.com^
@@ -4952,6 +4956,7 @@
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
 @@||yottaa.net^*/analytics/gtm-analytics-events.min.js$domain=hannaandersson.com
 @@||yottaa.net^*/scripts/eventtracking/$script,domain=containerstore.com
+@@||youmadcdn.xyz^$image,stealth,domain=mangabuddy.com
 @@||yourbittorrent2.com^$csp=script-src 'self' 'unsafe-inline'
 @@||yourbittorrent2.com^$csp=script-src 'self' 'unsafe-inline'
 @@||yourcinema.tv^$stealth
