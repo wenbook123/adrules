@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202304030108
+! Version: 202304040254
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 54918
+! Lenth = 54934
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -189,6 +189,12 @@ $cookie=actppresence
 $cookie=ad-id
 $cookie=adEdition
 $cookie=adcloud
+$cookie=advcake_click_id
+$cookie=advcake_session_id
+$cookie=advcake_track_url
+$cookie=advcake_trackid
+$cookie=advcake_utm_partner
+$cookie=advcake_utm_webmaster
 $cookie=ajs_anonymous_id
 $cookie=anj
 $cookie=anonDeviceId
@@ -658,6 +664,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .com.br/cliente/trackRemote^|
 .com.br/tracking.set^|
 .com/?rb=$xmlhttprequest
+.com/_.gif?
 .com/a.gif?
 .com/analytics?
 .com/b.gif?
@@ -691,6 +698,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .com/tracking?
 .com/v.gif?
 .com/vanity/?
+.com/vtrack|
 .content_tracking.
 .ct.sendgrid.net/$image
 .d-engine.js
@@ -1307,6 +1315,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /access.html$domain=2jigiri.net|pig109.net
 /access.php?referrer=
 /accessanalyzer/tracker?
+/accesstracking/*
 /accip_script.js
 /acclog.cgi?
 /acclog.js
@@ -1577,6 +1586,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /analytics/dfa.
 /analytics/dist/*
 /analytics/embed/*
+/analytics/engine/*
 /analytics/event
 /analytics/final.
 /analytics/frame.
@@ -5413,6 +5423,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /tagx.js
 /tailtarget.js
 /talpa-analytics/*
+/targetemsecure.
 /targeting/render.
 /taxtag.js
 /tblz_sailthru/*
@@ -7539,6 +7550,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 @@||google-analytics.com/analytics.js$domain=community.spiceworks.com
 @@||google-analytics.com/analytics.js$domain=csub.edu
 @@||google-analytics.com/analytics.js$domain=cuk.pl
+@@||google-analytics.com/analytics.js$domain=daily.co.jp
 @@||google-analytics.com/analytics.js$domain=dashboard.kitcast.tv
 @@||google-analytics.com/analytics.js$domain=defesanet.com.br
 @@||google-analytics.com/analytics.js$domain=dev.silverfish.com
@@ -7828,6 +7840,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 @@||googletagmanager.com/gtm.js$domain=coolermaster.com
 @@||googletagmanager.com/gtm.js$domain=cotizadorsalud.mapfre.com.mx
 @@||googletagmanager.com/gtm.js$domain=cuk.pl
+@@||googletagmanager.com/gtm.js$domain=daily.co.jp
 @@||googletagmanager.com/gtm.js$domain=dailyherald.com
 @@||googletagmanager.com/gtm.js$domain=dengekionline.com
 @@||googletagmanager.com/gtm.js$domain=dholic.co.jp
@@ -8554,8 +8567,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 @@||nyandcompany.com^*/resxclsa.js$domain=nyandcompany.com
 @@||nymag.com/decor/javascript/magnify_stats.js
 @@||nymag.com/vltr/scripts/analytics.js$domain=vulture.com
-@@||nyt.com/analytics/json-$script,domain=nytimes.com
-@@||nyt.com/bi/js/tagx/tagx.js$domain=nytimes.com
 @@||nytimes.com/games-assets/*/analytics.js$~third-party
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||o-uccino.jp/api/v2/collector?$xmlhttprequest,domain=o-uccino.com
@@ -9533,6 +9544,7 @@ augsburger-allgemeine.de,nikkansports.com##div[id^="cx_"]
 auto.ru#%#//scriptlet('set-local-storage-item', '__rtbhouse.lid', '0')
 auto.ru#%#//scriptlet('set-local-storage-item', 'ludca', '0')
 automesseweb.jp#?##_popIn_ranking:upward(.code_php_in_widget)
+avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#%#//scriptlet('set-constant', 'ga', 'noopFunc')
 b.kyodo.co.jp##.banner-area-entry + h3.category-title
 bcnretail.com###_popIn_recommend
 beauty.ua##.footer-counters
@@ -14941,6 +14953,7 @@ znak.com##.relap
 ||analytics.google.com^$third-party
 ||analytics.gooogol.com^
 ||analytics.gorillanation.com^
+||analytics.grape.media^
 ||analytics.greenmountain.com^
 ||analytics.greenmountainenergy.com^
 ||analytics.greensender.pl^$third-party
@@ -18092,6 +18105,8 @@ znak.com##.relap
 ||cam4.com^$removeparam=suid
 ||camagess.carte-gr.total.fr^
 ||camarketing.allegion.com^
+||cambash.com/api/events
+||cambash.com/api/metrics
 ||camchealth.hrm.healthgrades.com^
 ||camel.headfarming.com^
 ||camel.nonpopularopinion.com^
@@ -28592,6 +28607,7 @@ znak.com##.relap
 ||hotel-marketing.hrs.com^
 ||hotel.idealo.de/report
 ||hotels.com/api/uisprime/track
+||hotels.com/cl/*.gif?
 ||hotels.com/kt2lli/
 ||hotels.com/taps/v*/Impr?
 ||hotels.com/taps/v*/PageView?
@@ -28944,7 +28960,6 @@ znak.com##.relap
 ||igaming.biz^$third-party
 ||igc0.destinia.at^
 ||igg.biz^$third-party
-||ign.com/metrics/
 ||ignchq.kentaku.co.jp^
 ||igorsgtest.branch.rocks^
 ||igrid.org^
@@ -30569,6 +30584,7 @@ znak.com##.relap
 ||kaiseki-website.com^
 ||kaiser.tt.omtrdc.net^
 ||kaizenplatform.net^$third-party
+||kakaku.com^$removeparam=lid
 ||kaladyaudiology.ericksonbuilt.com^
 ||kallerupstone.viessmann.dk^
 ||kalstats.kaltura.com^
@@ -34772,6 +34788,7 @@ znak.com##.relap
 ||mp3king.club^$third-party
 ||mp3vizor.com^$third-party
 ||mparticle.com^$third-party
+||mparticle.weather.com/identity/
 ||mparticle.weather.com/webevents/
 ||mpc-co.actonservice.com^
 ||mpc.nicequest.com^
@@ -52573,7 +52590,7 @@ znak.com##.relap
 ||volkswagen-italia.it^*/tracking/
 ||volkswagenag.tt.omtrdc.net^
 ||vologda-info.ru^$third-party
-||volts.shopping.naver.com/pv
+||volts.shopping.naver.com^
 ||volument.com^$third-party
 ||voluumtlkrnarketing.com^$third-party
 ||volvelle.tech^$third-party
@@ -54872,7 +54889,6 @@ znak.com##.relap
 ||zsassociatesindiapvt.tt.omtrdc.net^
 ||zsasvs.hey.car^
 ||zsi7.destinia.do^
-||ztat.net/*/adrum.js^
 ||ztat.net/*/webtrekk.min.js^
 ||ztcadx.com^$third-party
 ||ztest1track.com^$third-party
