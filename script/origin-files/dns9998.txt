@@ -2,7 +2,7 @@
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules. 
 ! Homepage: https://kbsml.com
-! Last modified: 4/6/2023, 4:00:05 PM
+! Last modified: 4/7/2023, 8:00:05 AM
 !
 ||youtube.com/pagead/paralleladview^
 ||youtube.com/s/player/*/ad.js^
@@ -61,7 +61,6 @@ tieba.baidu.com###fixed_bar
 ||event.toggle.qq.com.host^
 bilibili.com###bannerAd
 bilibili.com$$div(id="bannerAd")
-hdmoli.com###index_banner
 ||tv688.cc^
 ||vip2.loli.io^
 ||live-log.immomo.com^
@@ -31615,6 +31614,7 @@ nfmovies.com#$##adleft { position: absolute!important; left: -3000px!important; 
 nfmovies.com#$#img[src^="/pic/tu/"] { visibility: hidden!important; }
 nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 ||nfmovies.com/static/*.jpg$image,redirect=1x1.gif
+hdmoli.com#?#.row > div.myui-panel:has(div[style^="text-align:"] > a[href][target="_blank"] > img#index_banner)
 v.qq.com#$?#.video-card-module > div[dt-params*="ad_creative_id="] { remove: true; }
 bilibili.com#?#.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]):upward(2)
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
@@ -34251,6 +34251,7 @@ newduba.cn###jq_youxi
 ##.indexad4
 ##.indexnews-ad
 ##.inner-advertise
+##.inset-sty > .banner.el-carousel
 ##.itopbar + .container
 ##.jav-nav + .bcpic
 ##.jingqun_tu
@@ -34351,6 +34352,7 @@ newduba.cn###jq_youxi
 ##.rtcenter_game
 ##.scupioadslot
 ##.self-gg
+##.space-y-6 > .advertising
 ##.spon-img[src*=".alicdn."]
 ##.spot_nav_under_ad
 ##.static-a2d
@@ -34548,8 +34550,6 @@ newduba.cn###jq_youxi
 ##p[style^="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background:"]
 ##script + #coupletBox
 ##script + #rbbox
-##.inset-sty > .banner.el-carousel
-##.space-y-6 > .advertising
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -34578,6 +34578,7 @@ newduba.cn###jq_youxi
 ||aaaaa599.com^
 ||aaaaa663.com^
 ||aaaaa855.com^
+||alejd.xyz^
 ||aniem44.cc^
 ||balspaulite.com^
 ||bekco.xyz^
@@ -34586,6 +34587,7 @@ newduba.cn###jq_youxi
 ||ccohayo.xyz^
 ||cdcc3.com^
 ||fijipic.xyz^
+||flyinsky2009.ltd^
 ||fnnzr.cn^
 ||gpqicw.xyz^
 ||gwvzgjb.cn^
@@ -34595,6 +34597,7 @@ newduba.cn###jq_youxi
 ||hefei64.com^
 ||hgpdoa.cn^
 ||huaweinnd.top^
+||hxpmbb.xyz^
 ||hxtiojs.cn^
 ||iepda.xyz^
 ||jerrytom.xyz^
@@ -34604,27 +34607,29 @@ newduba.cn###jq_youxi
 ||kkylx.xyz^
 ||kucoa.xyz^
 ||lxbbs.fun^
+||ojuhwc.xyz^
 ||p4pd.cn^
+||prlioxb.cn^
 ||qiwjiy.xyz^
 ||readme.red^
 ||rtjmln.xyz^
 ||sh6ss7.top^
+||smailes.pro^
 ||tmochyf.cn^
+||vorluic.cn^
 ||wangjiayi.fun^
 ||xcaukve.cn^
 ||xingyang.in^
 ||xunjie.fun^
 ||yfohgo.xyz^
 ||yulingaa.xyz^
+||zbvchabjbcj.com^
 ||zdlnhv.xyz^
-||znnodl.xyz^
 ||zjqs.shop^
-||ojuhwc.xyz^
-||hxpmbb.xyz^
-||alejd.xyz^
-||vorluic.cn^
-||smailes.pro^
-||flyinsky2009.ltd^
+||znnodl.xyz^
+||rcxysoj.cn^
+||hhrnxr.xyz^
+||otwiss.xyz^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -38228,7 +38233,6 @@ newduba.cn###jq_youxi
 ||sopulit.top^
 ||soqikbe.cn^
 ||soshow.hk^
-||souche.com^$third-party
 ||soulsoul.xyz^
 ||souyou.org^
 ||sozdzl.cn^
@@ -42582,6 +42586,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||nlark.com^$domain=qfg34.com
 ||no1.168abc.net/upload/
 ||nongjitong.com/adm/
+||novipnoad.com/bd/
 ||novipnoad.com/theme/js/helper.
 ||nownews.com/assets/js/setAds.js
 ||nqbcf.cn/html/top
@@ -43140,6 +43145,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||sooopu.com/asphtml/plnew.
 ||sooopu.com/js/*950.js
 ||sooopu.com/js/contentad330.js
+||souche.com^*.gif
 ||soufunimg.com/imgd/viewimage/*/640x210
 ||souid.com/images/css/123.js
 ||souid.com/templets/js/sougg.js
@@ -44533,6 +44539,7 @@ image.baidu.com###imgid > .fcimgpage
 52bug.cn###index-code
 jiangjunzy.com###index-lb
 ydss.cn###indexBlad
+hdmoli.com###index_banner
 baidu.com###index_banner_top
 2dfan.com,3dmgame.com,galge.fun###index_bg_box
 qiyeku.com###index_gg
@@ -49392,6 +49399,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||fpb1.kedabai.com^
 ||fpbone.ihowguide.com^
 ||gcw*.2liang.cn^
+||gg.taoseyy.cn^
 ||gocye.com^$third-party
 ||gsjdzx.com^$third-party
 ||gumgo.cn^$third-party
