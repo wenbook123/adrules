@@ -1,8 +1,8 @@
-! Checksum: sTPWGPi2rOZIPj35rsls+Q
+! Checksum: 9jfQz9hIvZvYOuolOtCHow
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.84.63
-! TimeUpdated: 2023-04-07T04:31:14+00:00
+! Version: 2.0.84.67
+! TimeUpdated: 2023-04-07T15:31:11+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -823,7 +823,7 @@ hdmoli.com#?#.row > div.myui-panel:-abp-has(div[style^="text-align:"] > a[href][
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136875
 v.qq.com#$?#.video-card-module > div[dt-params*="ad_creative_id="] { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134240
-bilibili.com#?#.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]):upward(2)
+bilibili.com#?#.feed-card:-abp-has(> div.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]))
 bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.eva-extension-feed-body > div:not([class], [id]):-abp-has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--creative-img)
@@ -2716,6 +2716,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -90mh-gg.
+-1316632262.cos.
 .bid/ads/
 .blog/ads/
 .bt*.com/imgs.js?t=
@@ -4321,6 +4322,7 @@ newduba.cn###jq_youxi
 ||tianma704.ltd^
 ||campu.ltd^
 ||vujhaib.cn^
+||bcivqxd.cn^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -23191,6 +23193,8 @@ $image,third-party,domain=258zw.com
 /ceshi127722.
 /dayu2.html?channelCode=$csp=script-src
 /hmzn_*_*_*.js?$script,third-party
+/frambox.php?166$script,~third-party
+/swiper.php?166$script,~third-party
 /jquery-ui.js?166$script,~third-party
 /js/easyAD.js
 /js/easyAD2.js
