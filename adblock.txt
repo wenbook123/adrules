@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: YeD2DchCE6mr3h5mtMSsjw
+! Checksum: SMkuW/FiEPqS05r1y0E1OA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-04-09 00:16:46（北京时间） 
-! Total count: 61150
+! Version: 2023-04-09 08:53:53（北京时间） 
+! Total count: 61158
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2792,7 +2792,6 @@ $removeparam=referralInfo,domain=wix.com
 $removeparam=referral_code,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
 $removeparam=referral_story_type,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
 $removeparam=referrer,domain=media-cdn.costco.ca|media-cdn.costco.com
-$removeparam=referrer,domain=~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*
 $removeparam=referrer_code,domain=hodlhodl.com
 $removeparam=referrer_domain,domain=reddit.app.link
 $removeparam=referrer_id,domain=autoblog.com
@@ -3087,6 +3086,7 @@ $~css,~script,removeparam=campaignid
 $~image,removeparam=itok
 $~ping,removeparam=lcid,domain=~rekono.si
 $~subdocument,removeparam=aff,domain=~discoverbank.com|~discover.com
+$~subdocument,removeparam=referrer,domain=~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*
 $~xmlhttprequest,removeparam=/^refsrc=/i
 $~xmlhttprequest,removeparam=LID
 $~xmlhttprequest,removeparam=mbid
@@ -28715,6 +28715,7 @@ zzzyk.com###Tinfo
 ||beacon.watch.impress.co.jp^
 ||beacon.wikia-services.com^
 ||beacon2.indieclick.com^
+||beaconcdn.qq.com^
 ||beacons.mediamelon.com^
 ||beaconstreetservices.com^$third-party
 ||beadbears.com^
@@ -29012,11 +29013,14 @@ zzzyk.com###Tinfo
 ||bing.com/fd/ls/GLinkPing.aspx?
 ||bing.com/fd/ls/l?IG=
 ||bing.com/fd/ls/lsp.aspx
+||bing.com/geolocation/write?
 ||bing.com/mouselog
+||bing.com/notifications/render?
+||bing.com/rewardsapp/reportActivity?
 ||bing.com/search?$removeparam=/^form=/i
 ||bing.com/search?$removeparam=cvid
 ||bing.com/search^$removeparam=pc
-||bing.com^$removeparam=/^sh[a-np-z0-9]/
+||bing.com^$removeparam=/^sh[b-np-z0-9]/
 ||bing.com^$removeparam=PC
 ||bing.com^$removeparam=aqs
 ||bing.com^$removeparam=crslsl
@@ -36562,6 +36566,7 @@ zzzyk.com###Tinfo
 ||gmbbku.com/img/top.js
 ||gmbbku.com/jj/
 ||gmbuluo.net/js/
+||gmdigital.it/vtrack-staging.js
 ||gmkmkn.xyz^
 ||gml-grp.com^*&affid=$subdocument,third-party
 ||gmodmp.jp^$third-party
@@ -51893,6 +51898,7 @@ zzzyk.com###Tinfo
 ||sol-data.com^$third-party
 ||solar.sharpmarketing.eu^
 ||solidscape.actonservice.com^
+||solidtorrents.to/ping
 ||solliciteren.bpost.be^
 ||solomon89.xyz^
 ||solosegment.com^$third-party
@@ -58304,6 +58310,8 @@ zzzyk.com###Tinfo
 ||whooshkaa.com/listen/track
 ||whosclickingwho.com^$third-party
 ||whoseesyou.com^$third-party
+||whoson.com/poll.gif
+||whoson.com/w.js
 ||whosread.com/counter/
 ||whqxj.xyz^
 ||whrc.xyz^
