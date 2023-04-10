@@ -2,7 +2,7 @@
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules. 
 ! Homepage: https://kbsml.com
-! Last modified: 4/9/2023, 4:00:05 PM
+! Last modified: 4/10/2023, 8:00:04 AM
 !
 ||youtube.com/pagead/paralleladview^
 ||youtube.com/s/player/*/ad.js^
@@ -31616,6 +31616,7 @@ nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { pos
 ||nfmovies.com/static/*.jpg$image,redirect=1x1.gif
 hdmoli.com#?#.row > div.myui-panel:has(div[style^="text-align:"] > a[href][target="_blank"] > img#index_banner)
 v.qq.com#$?#.video-card-module > div[dt-params*="ad_creative_id="] { remove: true; }
+bilibili.com#?#.bili-video-card.is-rcmd > div > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info:upward(2)
 bilibili.com#?#.feed-card:has(> div.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]))
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.eva-extension-feed-body > div:not([class], [id]):has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
@@ -34597,11 +34598,15 @@ newduba.cn###jq_youxi
 ||cdcc3.com^
 ||codeice.xyz^
 ||dcdf4.com^
+||ej65.xyz^
+||enahmy.xyz^
+||feild.xyz^
 ||fijipic.xyz^
 ||flyinsky2009.ltd^
 ||fnnzr.cn^
 ||gpqicw.xyz^
 ||gwvzgjb.cn^
+||gzexsc.top^
 ||gzsjym.xyz^
 ||gzsscr.cn^
 ||h731.icu^
@@ -34613,8 +34618,11 @@ newduba.cn###jq_youxi
 ||hxtiojs.cn^
 ||iepda.xyz^
 ||ijnuhb.top^
+||itoken.pro^
 ||jerrytom.xyz^
+||jfanhao.com^
 ||jiuba20230320.live^
+||jvkckeg.cn^
 ||jwronx.xyz^
 ||kayzqar.cn^
 ||kingsunsky.ltd^
@@ -34640,14 +34648,17 @@ newduba.cn###jq_youxi
 ||tianma704.ltd^
 ||tmochyf.cn^
 ||uqymady.cn^
+||vnlqcod.cn^
 ||vorluic.cn^
 ||vujhaib.cn^
 ||wangjiayi.fun^
 ||wdygoi.xyz^
 ||whbn.xyz^
+||xbvmrx.xyz^
 ||xcaukve.cn^
 ||xingyang.in^
 ||xunjie.fun^
+||yankuoyyds.com^
 ||yfohgo.xyz^
 ||yulingaa.xyz^
 ||zbvchabjbcj.com^
@@ -34655,15 +34666,9 @@ newduba.cn###jq_youxi
 ||zdlnhv.xyz^
 ||zjqs.shop^
 ||znnodl.xyz^
-||vnlqcod.cn^
-||yankuoyyds.com^
-||xbvmrx.xyz^
-||feild.xyz^
-||ej65.xyz^
-||gzexsc.top^
-||enahmy.xyz^
-||itoken.pro^
-||jvkckeg.cn^
+||xlxknf.xyz^
+||cnmmcjn.cn^
+||yingnanyyds.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -39986,6 +39991,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||51ztzj.com/res/web/img/pic/inshow.jpg
 ||520call.me/ad/ad_
 ||520cc.tw/AD/
+||520xingyun.com/images/188*.gif
 ||520xs.la/js/dianrui-
 ||520z-2.com/uploadfile/sucai/
 ||521000.com/co/
@@ -48839,6 +48845,7 @@ cbber.com##div[style$=":0px;top:200px;z-index:9999;"]
 anhuinews.com##div[style$="height:40px;overflow:hidden"]
 tuwan.com##div[style$="height:90px;"]
 m.mydrivers.com##div[style$="px 0px 0px 0px;text-align:center;"]
+lukedreyer.com##div[style$="width: 125px;z-index:2000;"]
 mydrivers.com##div[style*="/ad/"]
 cq.qq.com##div[style*="1000"][style*="60"]
 ilxdh.com##div[style*="1000px"]
@@ -49784,10 +49791,8 @@ $image,third-party,domain=258zw.com
 /c.js#pid=$script,third-party
 /ce_l.aspx?showid=$third-party
 /ceshi127722.
-/swiperyeehgy.php?166
-/frammjqkai.php?166
 /dayu2.html?channelCode=$csp=script-src
-/frambox.php?166$script,~third-party
+/fram*.php?166$script,~third-party
 /hmzn_*_*_*.js?$script,third-party
 /jquery-ui.js?166$script,~third-party
 /js/easyAD.js
@@ -49802,7 +49807,7 @@ $image,third-party,domain=258zw.com
 /proxy_top_banner_js.php
 /socket?platform=*&href=$third-party,websocket
 /svr/*.aspx?placeid=$third-party
-/swiper.php?166$script,~third-party
+/swiper*.php?166$script,~third-party
 /vbvb_*_pmpm.js
 /windowwap_*_*_*.js?$script,third-party
 /xxgg/0dd*.js
