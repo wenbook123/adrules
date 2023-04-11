@@ -2,7 +2,7 @@
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules. 
 ! Homepage: https://kbsml.com
-! Last modified: 4/10/2023, 4:00:04 PM
+! Last modified: 4/11/2023, 8:00:04 AM
 !
 ||youtube.com/pagead/paralleladview^
 ||youtube.com/s/player/*/ad.js^
@@ -31619,7 +31619,7 @@ nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { pos
 hdmoli.com#?#.row > div.myui-panel:has(div[style^="text-align:"] > a[href][target="_blank"] > img#index_banner)
 v.qq.com#$?#.video-card-module > div[dt-params*="ad_creative_id="] { remove: true; }
 bilibili.com#?#.bili-video-card.is-rcmd > div > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info:upward(2)
-bilibili.com#?#.feed-card:has(> div.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]))
+bilibili.com#?#.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]):upward(2)
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.eva-extension-feed-body > div:not([class], [id]):has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--creative-img)
@@ -31839,6 +31839,7 @@ ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###resul
 ||alicdn.com^$image,domain=m.k1k.cc|thcdy.co|27k.cc|1024pa.com|hg6384.com-www.6u7u.com|4080kan.com|dy686.net
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .result ~ div:not([class]):not([style])
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top
+||ll.ibiqiuge.com/m.js
 axutongxue.net###uuuui
 sstv.pw##.container > a > img[style="width: 100%;"]
 cupfox.app##.t-img-box > a[target="_blank"] > img
@@ -33033,7 +33034,6 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=gamer.com.tw,important
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
-/Runtime/Js/haojio_
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -33575,6 +33575,7 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 /Runtime/Js/footer-m.js
 /Runtime/js/fumeiti.
 /Runtime/Js/guding_top.js
+/Runtime/Js/haojio_
 /runtime/js/index960.js
 /Runtime/Js/lianmeng.js
 /Runtime/Js/m_tuijian_
@@ -34583,9 +34584,12 @@ newduba.cn###jq_youxi
 ##a[href*=".mmrjmh.com/"]
 ||1136999.com^
 ||230579.top^
+||39nw.com^
+||52qd.club^
 ||9itan.cc^
 ||aaaaa599.com^
 ||aaaaa663.com^
+||aaaaa699.com^
 ||aaaaa855.com^
 ||aamv.vip^
 ||akdhiahcjojdkck.com^
@@ -34599,10 +34603,12 @@ newduba.cn###jq_youxi
 ||campu.ltd^
 ||ccohayo.xyz^
 ||cdcc3.com^
+||cnmmcjn.cn^
 ||codeice.xyz^
 ||dcdf4.com^
 ||ej65.xyz^
 ||enahmy.xyz^
+||excfig.xyz^
 ||feild.xyz^
 ||fijipic.xyz^
 ||flyinsky2009.ltd^
@@ -34622,6 +34628,7 @@ newduba.cn###jq_youxi
 ||iepda.xyz^
 ||ijnuhb.top^
 ||itoken.pro^
+||jeedi.xyz^
 ||jerrytom.xyz^
 ||jfanhao.com^
 ||jiuba20230320.live^
@@ -34634,6 +34641,7 @@ newduba.cn###jq_youxi
 ||kzjqraj.cn^
 ||lianxi.link^
 ||lxbbs.fun^
+||nqyz.tw^
 ||nurahf.xyz^
 ||ojuhwc.xyz^
 ||otwiss.xyz^
@@ -34648,9 +34656,11 @@ newduba.cn###jq_youxi
 ||rtjmln.xyz^
 ||sh6ss7.top^
 ||smailes.pro^
+||tc911.vip^
 ||tianma704.ltd^
 ||tmochyf.cn^
 ||uqymady.cn^
+||vel7.xyz^
 ||vnlqcod.cn^
 ||vorluic.cn^
 ||vujhaib.cn^
@@ -34660,25 +34670,22 @@ newduba.cn###jq_youxi
 ||xbvmrx.xyz^
 ||xcaukve.cn^
 ||xingyang.in^
+||xlxknf.xyz^
 ||xunjie.fun^
 ||yankuoyyds.com^
 ||yfohgo.xyz^
+||yingce.asia^
+||yingnanyyds.com^
 ||yulingaa.xyz^
 ||zbvchabjbcj.com^
 ||zdkdwk.buzz^
 ||zdlnhv.xyz^
 ||zjqs.shop^
 ||znnodl.xyz^
-||xlxknf.xyz^
-||cnmmcjn.cn^
-||yingnanyyds.com^
-||excfig.xyz^
-||jeedi.xyz^
-||yingce.asia^
-||52qd.club^
-||39nw.com^
-||vel7.xyz^
-||nqyz.tw^
+||yisangyyds.com^
+||jbzjegn.cn^
+||lendc.xyz^
+||fvzljv.xyz^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -42823,6 +42830,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||py.cn/src/img/pyy/
 ||py.cn/static/images/advert/
 ||qayqa.com:6868/jquery/
+||qbox.me/FnjnjJhJZlKZEGJ7qV1AocqusFbf
 ||qdaily.com/mount_details/pc/
 ||qdjimo.com/html/js/
 ||qdross.com/vip/
@@ -43285,6 +43293,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||taiwannutrition.com/blog/wp-content/plugins/arscode-ninja-popups/
 ||taizexy.com^*.gif
 ||talkfx.*/showTKImg?
+||tangrenjie.tv/gg/
 ||tanseb.com/vads/
 ||taobaocdn.com^$image,domain=cnblogs.com
 ||taoguba.com.cn/res/js/tgbgg/
