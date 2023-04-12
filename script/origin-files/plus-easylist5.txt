@@ -1,5 +1,5 @@
 [uniartisan's Privacy List]
-! Version: 202304110150
+! Version: 202304120150
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
@@ -3691,6 +3691,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /link.e-mail.*/mo/*$image
 /link.morningbrew.com/img/*.gif
 /link.news.*/mo/*$image
+/link.oneplus.com/mo$image
 /link.pbtech.co.nz/mo/*$image
 /link.theatlantic.com/img/*
 /link_track.
@@ -7132,14 +7133,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 @@||collect.igodigital.com^$domain=m.harborfreight.com
 @@||collectandgo.be^*/utag.sync.js
 @@||collector-*.px-client.net/res/uc$domain=walmart.com
-@@||collector.appconsent.io/hello$domain=commentcamarche.net
-@@||collector.appconsent.io/hello$domain=lachainemeteo.com
-@@||collector.appconsent.io/hello$domain=lefigaro.fr
-@@||collector.appconsent.io/hello$domain=linternaute.com
-@@||collector.appconsent.io/save$domain=commentcamarche.net
-@@||collector.appconsent.io/save$domain=lachainemeteo.com
-@@||collector.appconsent.io/save$domain=lefigaro.fr
-@@||collector.appconsent.io/save$domain=linternaute.com
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
 @@||collector.wawlabs.com/mediamarkt.js$domain=mediamarkt.com.tr
 @@||collector.wawlabs.com/mmsearch.js$domain=mediamarkt.com.tr
@@ -8929,6 +8922,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 @@||showheroes.com/spot/iframe?$script,domain=rollingstone.de
 @@||showheroes.com/spot/iframe?pageurl=$script,subdocument,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||signalshares.com/webtrends.min.js$script,~third-party
+@@||simcotools.app/assets/adsense-*.js$~third-party
 @@||simyo.de/b/ss/$image
 @@||sisal.it/etc.clientlibs/sisal-fullresponsive/clientlibs/tealium.js$script,~third-party
 @@||siteanalytics.compete.com^$~third-party
@@ -9545,6 +9539,7 @@ business.nikkei.com##.cbCxense
 business.nikkei.com#?#.l-content_footer.recommendesInfomation:contains(あなたにオススメ)
 businessinsider.co.uk,businessinsider.com##.rail-recommended
 businessinsider.com##.bottom-recommended
+capital.fr,voici.fr,gala.fr#%#//scriptlet('set-constant', 'DD_RUM.addTiming', 'noopFunc')
 careermap.co.uk#%#//scriptlet("set-constant", "trackEvent", "noopFunc")
 cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward(1)
 cbssports.com#%#(()=>{window.admiral=function(d,a,b){if("function"==typeof b)try{b({})}catch(a){}}})();
@@ -9581,6 +9576,7 @@ digi.no##img[src^="https://ish.tumedia.no/ish_tracker.gif"]
 directtrack.*.js
 dizibey.com##.sidebar > #text-19
 dlsdk.appsflyer.com^
+dlsdk.appsflyersdk.com^
 dokonline.com###Counters
 dokonline.com###Counters + div[class="block"]
 doorblog.jp,pachinkopachisro.com,blog.livedoor.jp,blog.jp,vipstyle.tokyo#?#.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
@@ -9688,6 +9684,7 @@ launchbit.com/taz-pixel$image
 lcwaikiki.com#%#//scriptlet("set-constant", "dataLayer", "emptyArr")
 levashove.ru##.footer-four > section#custom_html-5
 life.ru##.read-next
+lightrun.com#%#//scriptlet('set-constant', 'gtag', 'noopFunc')
 link.gmapp*.net$image
 list-manage.com/track$image
 livedoor.biz,ldblog.jp#?#.plugin-memo > div.side > a[href$="ziyu.net/"]:upward(2)
@@ -9861,7 +9858,6 @@ via.intercom.io/o$image
 vidaextra.com##div[style="width:100%; height:160px"]
 vidak.icu,pb.wtf,piratbit.*##a[href="//www.liveinternet.ru/click"]
 viva.ua##.footer-counters
-voici.fr,gala.fr#%#//scriptlet('set-constant', 'DD_RUM.addTiming', 'noopFunc')
 vse42.ru##.ya-metrika
 vulture.com##div[data-uri="www.vulture.com/_components/clay-space/instances/taboola@published"]
 w-kino.ru,kinotochka.club,legend.az##.counts
@@ -17509,6 +17505,7 @@ znak.com##.relap
 ||biznews.oregon.gov^
 ||bizo.com^$third-party
 ||bizrate.com^
+||bizseasky.com^$third-party
 ||bizspring.net^$third-party
 ||bja2.destinia.cz^
 ||bjc.hrm.healthgrades.com^
@@ -18602,7 +18599,6 @@ znak.com##.relap
 ||cdn.lmiutil.com/lpassets/track-
 ||cdn.lr-in.com/LogRocket.min.js
 ||cdn.lr-in.com/logger-1.min.js
-||cdn.lr-ingest.io/logger-1.min.js
 ||cdn.mavi.digital^
 ||cdn.mediatradecraft.com^$third-party
 ||cdn.megadata.co.kr/dist/prod/enp_tracker_
@@ -19708,7 +19704,6 @@ znak.com##.relap
 ||collector-videoplayer.5centscdn.net^
 ||collector.apester.com^
 ||collector.api.video^
-||collector.appconsent.io^
 ||collector.automote.co.nz^
 ||collector.brandify.com^
 ||collector.bunchbox.co^
@@ -26089,6 +26084,7 @@ znak.com##.relap
 ||fast.wistia.net/assets/external/googleAds.js
 ||fastanalytic.com^$third-party
 ||fastcdn.co/js/sptw.
+||fastcmp.com/1px.png?origin=
 ||fastcounter.de^$third-party
 ||fastemu.co^
 ||fastenermkt.averydennison.com^
@@ -30325,6 +30321,7 @@ znak.com##.relap
 ||jiayuan.com^*/pv.js
 ||jijcyb.competitivecyclist.com^
 ||jiji.co.ke/tag_event
+||jiji.com/jc/article$removeparam=g
 ||jiji.com^$removeparam=m
 ||jiktq0fr9hv6.meleton.ru^
 ||jill.fc.yahoo.com^
@@ -38038,6 +38035,7 @@ znak.com##.relap
 ||publicidad.daviviendaintl.com^
 ||publicidees.com^$third-party
 ||publish-int.se^$third-party
+||publish.vuukle.com/bq-publish
 ||publisher-assets.spot.im/ad/event-tracking/$xmlhttprequest,redirect=noopjs
 ||publisher-event.ads.prd.ie.internal.unity3d.com^
 ||publisher-event.unityads.unity3d.com^
@@ -51578,6 +51576,7 @@ znak.com##.relap
 ||upz1.destinia.lt^
 ||uqd.io^
 ||uqd.io^$third-party
+||uraaka.com/analytics/
 ||uralweb.ru^$third-party
 ||urbanairship.com^
 ||urbanairship.com^$third-party
@@ -52658,6 +52657,7 @@ znak.com##.relap
 ||weblog.flyasiana.com^
 ||weblog.hankookilbo.com^
 ||weblog.strawberrynet.com^
+||weblog.woowa.in^
 ||weblog.zdnet.co.kr^
 ||weblog2.eseoul.go.kr^
 ||weblytics.io^$third-party

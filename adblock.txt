@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: iSCsGqAzSp76yBLLI5IZQg
+! Checksum: w555cnIMhTzYjsL4dt1CdA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-04-12 08:51:52（北京时间） 
-! Total count: 61255
+! Version: 2023-04-12 16:17:29（北京时间） 
+! Total count: 61261
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3606,9 +3606,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 .test15./
 .theatlantic.com/email.gif?
 .titus.de/oo/$image
-.top/*/*-*-*-*.*?_=*
 .top/*q=*form=*&*url=http*$third-party
-.top/Report/*-*-*-*-*
 .top/ad-
 .top/ads/
 .top/upload/ad.js
@@ -8050,7 +8048,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /r/*?_r=$object,subdocument,third-party
 /r/collect?
 /r/t1/*$subdocument,third-party
-/r/t1/16/
 /r/ucb.js$script,~third-party
 /r/video/*$domain=youxi.baidu.com
 /ra_track.
@@ -8908,8 +8905,10 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /tigtag_custom/include/couplet.
 /tigtag_custom/include/popup.
 /tilda-stat-
+/timer.aspx?481$script,~third-party
 /timer.aspx?568$script,~third-party
 /timer.aspx?649$script,~third-party
+/timer.aspx?719$script,~third-party
 /timeslog.
 /timestrend_
 /timingcg.
@@ -13951,7 +13950,6 @@ aoji.cn##.xiaoxi_phone
 aoshitang.com###msg_win
 aoshu.com,zhongkao.com,zuowen.com##.bottomImg
 aotu43.com##center > a[rel="nofollow"] > .king
-api.*.*/*/*?_=450*$third-party
 api.so.lianmeng.360.cn,pos.baidu.com##body
 apiref.com###navbarRightAd
 apiref.com,iodraw.com,matools.com###popAd
@@ -18283,6 +18281,7 @@ m.mi.com##.download-app-go
 m.mydrivers.com###content > .ab
 m.mydrivers.com###content > .bb
 m.mydrivers.com##div[style$="px 0px 0px 0px;text-align:center;"]
+m.nivod5.tv,m1.nivod.tv,m.nivod4.tv#%#(function(){window.eval=new Proxy(eval,{apply:(a,b,c)=>{if(c[0]&&c[0].includes("commercial")&&c[0].startsWith("(")&&c[0].endsWith(")")){let a=c[0].slice(1).slice(0,-1),b=JSON.parse(a);b.entity?.commercial&&(b.entity.commercial=void 0),c[0]=`(${JSON.stringify(b)})`}return Reflect.apply(a,b,c)}})})();
 m.nownews.com##.ui-footer-fixed
 m.nownews.com##a[href^="http://ad1.nownews.com"]
 m.nxnba.com##DIV.bootom-fixed
@@ -18379,7 +18378,6 @@ m.zhanqi.tv##.footer
 m.zhanqi.tv##.h5-foot-area
 m.zhanqi.tv##.topbarOpenApp.btn-1
 m.zzzfun.com##DIV#show-2415689770463175004-8179
-m1.nivod.tv,m.nivod4.tv#%#(function(){window.eval=new Proxy(eval,{apply:(a,b,c)=>{if(c[0]&&c[0].includes("commercial")&&c[0].startsWith("(")&&c[0].endsWith(")")){let a=c[0].slice(1).slice(0,-1),b=JSON.parse(a);b.entity?.commercial&&(b.entity.commercial=void 0),c[0]=`(${JSON.stringify(b)})`}return Reflect.apply(a,b,c)}})})();
 m4ff.com##.content2
 m4ff.com##.index_gg_wz
 m4fz.com##a[data-etime]
@@ -18943,8 +18941,8 @@ niutuku.com###downAD1
 niutuku.com##.listAD
 niutuku.com##.sideAD
 niutuku.com,sina.cn##.bannerAD
-nivod4.tv##.nav-ads
-nivod4.tv#%#//scriptlet('set-constant', 'detailParams.is_ad_play', 'false')
+nivod5.tv,nivod4.tv##.nav-ads
+nivod5.tv,nivod4.tv#%#//scriptlet('set-constant', 'detailParams.is_ad_play', 'false')
 nlc.gov.cn###lovexin12xx
 nmgk2.com,zzkdhb.com##li[style*="important"]
 nmgnews.com.cn###div_ad4
@@ -20672,7 +20670,6 @@ v.qq.com##.video-card-module > div[dt-params*="ad_creative_id="]
 v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
-v.qq.com#$?#.video-card-module > div[dt-params*="ad_creative_id="] { remove: true; }
 v.shensgo.com##body > div[id][class*="animated"][style*="position"][style*="z-index"]
 v.shensgo.com##brde[id][style*="height"]
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
@@ -21984,7 +21981,7 @@ zzzyk.com###Tinfo
 ||120askimages.com/ask/js/q
 ||120askimages.com/ask/zhenshi/templates/pub/js/loadPart.js
 ||120askimages.com^
-||121.204.246.13^
+||121.204.246.*.gif
 ||121.40.25.88^
 ||121.43.114.38:8087/advs.js
 ||121zou.com^$subdocument
@@ -23178,7 +23175,6 @@ zzzyk.com###Tinfo
 ||72asa.com^
 ||733.so/template/wap1/js/all_css.js
 ||73652253191.com^$third-party
-||745c.cn$third-party
 ||745c.cn^
 ||75.125.41.29:8080/
 ||75625358935.com^
@@ -30566,6 +30562,7 @@ zzzyk.com###Tinfo
 ||cjyun.org/assets/js/analytics.js
 ||ck.connatix.com^
 ||ck180.net/mitao
+||ck33.top^
 ||ckaiv.com^
 ||ckerw.xyz^
 ||ckg.vipyl.com^
@@ -32248,6 +32245,7 @@ zzzyk.com###Tinfo
 ||d810.mysanantonio.com^
 ||d81mfvml8p5ml.cloudfront.net^
 ||d86.xyz^
+||d86n.top^
 ||d8962a.xyz^
 ||d8r7.xyz^
 ||d94gz.cn^
@@ -34126,6 +34124,7 @@ zzzyk.com###Tinfo
 ||ec-track.com^$third-party
 ||ec.infosys.com^
 ||ec.walkme.com^
+||ecav5.com^
 ||eccbb.com^
 ||eccn.com/js/gg.js
 ||eccn.com/js/popupad_
@@ -34947,7 +34946,6 @@ zzzyk.com###Tinfo
 ||events.sk.ht^
 ||events.splash-screen.net^
 ||events.split.io^
-||events.statsigapi.net^
 ||events.tubecup.org^
 ||events.turbosquid.com^
 ||events.ubembed.com^
@@ -35409,6 +35407,7 @@ zzzyk.com###Tinfo
 ||ff.qichetansuo.com^
 ||ff.xue163.net^
 ||ffbbbdc6d3c353211fe2ba39c9f744cd.com^
+||ffbjhl.xyz^
 ||ffdcpvv.cn^
 ||ffe390afd658c19dcbf707e0597b846d.de^
 ||ffflxue.cn^
@@ -40580,7 +40579,6 @@ zzzyk.com###Tinfo
 ||kgnlaigd.fun^
 ||kgnpwdf.cn^$third-party
 ||kgsrr.top^
-||kgsz.cn$third-party
 ||kguke.com^
 ||kgymhc.com^
 ||khaelzols.com^
@@ -44205,6 +44203,7 @@ zzzyk.com###Tinfo
 ||mr.homedepot.ca^
 ||mrewq.xyz^
 ||mrf.io/statics/marfeel/chunks/metrics-
+||mrgecm.xyz^
 ||mrhboe.xyz^
 ||mrjfsc.cn^
 ||mrpdata.net^
@@ -44746,6 +44745,7 @@ zzzyk.com###Tinfo
 ||netuplayer.top/cdn-cgi/trace
 ||netvigie.com^$third-party
 ||network.armycadets.com^
+||networkname.xyz^
 ||netzaehler.de^$third-party
 ||netzstat.ch^$third-party
 ||netzwelt.de/log?
@@ -45205,6 +45205,7 @@ zzzyk.com###Tinfo
 ||nuyqiolnc.cyou^
 ||nuyujp.barstoolsports.com^
 ||nv43.com^
+||nvchmkw.cn^
 ||nveuiqh.cn^
 ||nvidia.com^$removeparam=jso
 ||nvidia.partners/telemetry/
@@ -45767,6 +45768,7 @@ zzzyk.com###Tinfo
 ||orgaorg.com^
 ||oribi.io^$third-party
 ||orientalocean.mobi^
+||originate.ltd^
 ||oroinc.actonservice.com^
 ||oronwg.xyz^
 ||oroqikj.cn^
@@ -48230,6 +48232,7 @@ zzzyk.com###Tinfo
 ||referrer.disqus.com^
 ||referrer.disqus.com^$domain=autobild.de
 ||refersion.com^$third-party
+||reffnik.cn^
 ||refinedads.com^$third-party
 ||reflectivereward.com^
 ||reflow.tv/pixels/
@@ -50551,6 +50554,7 @@ zzzyk.com###Tinfo
 ||sixscissors.com^
 ||siz3wxt8p.shop^
 ||sizesidewalk.com^
+||sjalipa.cn^
 ||sjardw.footlocker.fr^
 ||sjarvis.taobao.com^
 ||sjbaiduadv1.redou.com^
@@ -53290,6 +53294,7 @@ zzzyk.com###Tinfo
 ||statse-omtrdc.deka.de^
 ||statsforever.com^$third-party
 ||statsig.com^$third-party
+||statsigapi.net^$third-party
 ||statsinsight.com^$third-party
 ||statsit.com^$third-party
 ||statsmachine.com^$third-party
@@ -57882,6 +57887,7 @@ zzzyk.com###Tinfo
 ||wangdaizao.com^
 ||wangduoduo.pw^
 ||wanghu2020.ltd^
+||wangjc.ltd^
 ||wangjianxd.site^
 ||wangjiayi.fun^
 ||wangjing.cn*/upload/com/

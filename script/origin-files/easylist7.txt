@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202304110150
+! Version: 202304120150
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 25317
+! Lenth = 25330
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2566,8 +2566,10 @@ $websocket,domain=5nj.com|cechi8.com
 /tigtag_custom/*_banner
 /tigtag_custom/include/couplet.
 /tigtag_custom/include/popup.
+/timer.aspx?481$script,~third-party
 /timer.aspx?568$script,~third-party
 /timer.aspx?649$script,~third-party
+/timer.aspx?719$script,~third-party
 /tisai/img/nav_980_90.gif
 /tm00738.bj.
 /to8to_pc/chunks/slide_and_popup_
@@ -9117,6 +9119,7 @@ m.lelekan.com#$#body { padding-top: 0!important; }
 m.mydrivers.com###content > .ab
 m.mydrivers.com###content > .bb
 m.mydrivers.com##div[style$="px 0px 0px 0px;text-align:center;"]
+m.nivod5.tv,m1.nivod.tv,m.nivod4.tv#%#(function(){window.eval=new Proxy(eval,{apply:(a,b,c)=>{if(c[0]&&c[0].includes("commercial")&&c[0].startsWith("(")&&c[0].endsWith(")")){let a=c[0].slice(1).slice(0,-1),b=JSON.parse(a);b.entity?.commercial&&(b.entity.commercial=void 0),c[0]=`(${JSON.stringify(b)})`}return Reflect.apply(a,b,c)}})})();
 m.nownews.com##.ui-footer-fixed
 m.nownews.com##a[href^="http://ad1.nownews.com"]
 m.qu.la#?#:-abp-has(> a[href*=".bcebos."])
@@ -9139,7 +9142,6 @@ m.youku.com##.recommend
 m.youku.com##body > [style="width: 100px; height: 100px; position: fixed; top: auto; right: 0px; bottom: 0px; left: auto; z-index: 188;"]:not([class]):not([id])
 m.youku.com,v.youku.com#%#//scriptlet('set-constant', 'Object.prototype._adData', 'emptyObj')
 m.zhanqi.tv##.footer
-m1.nivod.tv,m.nivod4.tv#%#(function(){window.eval=new Proxy(eval,{apply:(a,b,c)=>{if(c[0]&&c[0].includes("commercial")&&c[0].startsWith("(")&&c[0].endsWith(")")){let a=c[0].slice(1).slice(0,-1),b=JSON.parse(a);b.entity?.commercial&&(b.entity.commercial=void 0),c[0]=`(${JSON.stringify(b)})`}return Reflect.apply(a,b,c)}})})();
 m4ff.com##.content2
 m4ff.com##.index_gg_wz
 m4fz.com##a[data-etime]
@@ -9656,8 +9658,8 @@ niutuku.com###downAD1
 niutuku.com##.listAD
 niutuku.com##.sideAD
 niutuku.com,sina.cn##.bannerAD
-nivod4.tv##.nav-ads
-nivod4.tv#%#//scriptlet('set-constant', 'detailParams.is_ad_play', 'false')
+nivod5.tv,nivod4.tv##.nav-ads
+nivod5.tv,nivod4.tv#%#//scriptlet('set-constant', 'detailParams.is_ad_play', 'false')
 nlc.gov.cn###lovexin12xx
 nmgk2.com,zzkdhb.com##li[style*="important"]
 nmgnews.com.cn###div_ad4
@@ -11201,7 +11203,6 @@ v.qq.com##.video-card-module > div[dt-params*="ad_creative_id="]
 v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
-v.qq.com#$?#.video-card-module > div[dt-params*="ad_creative_id="] { remove: true; }
 v.shensgo.com##body > div[id][class*="animated"][style*="position"][style*="z-index"]
 v.shensgo.com##brde[id][style*="height"]
 v.youku.com##.laifeng
@@ -12147,7 +12148,7 @@ zzzyk.com###Tinfo
 ||120askimages.com/ask/js/askfrom.js
 ||120askimages.com/ask/js/q
 ||120askimages.com/ask/zhenshi/templates/pub/js/loadPart.js
-||121.204.246.13^
+||121.204.246.*.gif
 ||121.40.25.88^
 ||121.43.114.38:8087/advs.js
 ||121zou.com^$subdocument
@@ -15358,6 +15359,7 @@ zzzyk.com###Tinfo
 ||cjx111.com/ads/
 ||cjyun.org/assets/js/analytics.js
 ||ck180.net/mitao
+||ck33.top^
 ||ckaiv.com^
 ||ckerw.xyz^
 ||ckg.vipyl.com^
@@ -15718,6 +15720,7 @@ zzzyk.com###Tinfo
 ||d7i.cn^
 ||d7y5grtl.site^
 ||d86.xyz^
+||d86n.top^
 ||d8r7.xyz^
 ||d94gz.cn^
 ||da-fan-shu.cn/images/kuaijie.jpg
@@ -16351,6 +16354,7 @@ zzzyk.com###Tinfo
 ||ebrun.com/jfile/position/js/*.js
 ||ebten.xyz^
 ||ebzqyow.cn^
+||ecav5.com^
 ||eccn.com/js/gg.js
 ||eccn.com/js/popupad_
 ||ecimg.tw/img/xdsys/*/layout/*/sign/channel*/ad_*.jpg
@@ -16602,6 +16606,7 @@ zzzyk.com###Tinfo
 ||fadama.com^$third-party
 ||fafa.tuku.com^$domain=shouchaobao.com
 ||fafa1688.xyz^
+||falal.cn^
 ||falcon-asset.pixfs.net/js/adsbyfalcon.min.js
 ||faloo.com/ou/site/
 ||familydoctor.com.cn/c/a/000/ggw_
@@ -16696,6 +16701,7 @@ zzzyk.com###Tinfo
 ||ff.psd8.com^
 ||ff.qichetansuo.com^
 ||ff.xue163.net^
+||ffbjhl.xyz^
 ||ffdcpvv.cn^
 ||ffflxue.cn^
 ||ffhre.com^
@@ -20262,6 +20268,7 @@ zzzyk.com###Tinfo
 ||mqnggnsx.fun^
 ||mqquas.xyz^
 ||mrewq.xyz^
+||mrgecm.xyz^
 ||mrhboe.xyz^
 ||mrjfsc.cn^
 ||mrrw.xyz^
@@ -20473,6 +20480,7 @@ zzzyk.com###Tinfo
 ||netease.com/house-public/articleyunyans.js
 ||netease.com^*bobologo
 ||netrf.wang^
+||networkname.xyz^
 ||neuralstemcell.com.cn/img/js.js
 ||new-icon.ol-img.com/jslib/ad
 ||new.htcui.com^
@@ -20635,6 +20643,7 @@ zzzyk.com###Tinfo
 ||nuubi.cyou^
 ||nuyqiolnc.cyou^
 ||nv43.com^
+||nvchmkw.cn^
 ||nveuiqh.cn^
 ||nvqhbij.cn^
 ||nvsheng.com/js/gg.js
@@ -20823,6 +20832,7 @@ zzzyk.com###Tinfo
 ||oqxep.cn^
 ||orgaorg.com^
 ||orientalocean.mobi^
+||originate.ltd^
 ||oronwg.xyz^
 ||oroqikj.cn^
 ||ortwywr.cn^
@@ -21731,6 +21741,7 @@ zzzyk.com###Tinfo
 ||redshu.com/js/pcAdv.js
 ||redshu.com/js/www/jquerygg.js
 ||reebbwi.cyou^
+||reffnik.cn^
 ||regrfg33.com^
 ||relliun.cn^
 ||remehealth.net^$third-party
@@ -22311,6 +22322,7 @@ zzzyk.com###Tinfo
 ||siuscs.xyz^
 ||siwei.pub^
 ||sixarwr.cn^
+||sjalipa.cn^
 ||sjbaiduadv1.redou.com^
 ||sjcm.fun^
 ||sjeklqx.cn^
@@ -23678,6 +23690,7 @@ zzzyk.com###Tinfo
 ||wangdaizao.com^
 ||wangduoduo.pw^
 ||wanghu2020.ltd^
+||wangjc.ltd^
 ||wangjianxd.site^
 ||wangjiayi.fun^
 ||wangjing.cn*/upload/com/
