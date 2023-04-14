@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Tw+Mz+JYB+V7qQTsNLu3Jw
+! Checksum: /c/pa72UZPF9ksfTt3WEVQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-04-14 00:17:11（北京时间） 
-! Total count: 61304
+! Version: 2023-04-14 08:55:29（北京时间） 
+! Total count: 61327
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2975,7 +2975,7 @@ $removeparam=tid1
 $removeparam=tid2
 $removeparam=tid3
 $removeparam=tid4
-$removeparam=tj
+$removeparam=tj,domain=baidu.com|sina.com.cn
 $removeparam=tmLog
 $removeparam=tmad
 $removeparam=tmcampid
@@ -3597,6 +3597,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 .sitetracking.
 .skimlinks.js
 .smartrmail.co/o/$image
+.smtp.net/o/$image
 .snowplowanalytics.$domain=~snowplowanalytics.com
 .southwest.com/r/$image
 .spacepools.*:
@@ -11962,7 +11963,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||cdn.staticfile.org^$script,domain=dybee.tv
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
-@@||cdn.trustcommander.net/privacy$script,domain=tf1.fr
 @@||cdn.viglink.com/api/vglnk.js$domain=9to5mac.com|electrek.co
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=papalah.com
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
@@ -13449,7 +13449,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||trip.cmbchina.com^$generichide
 @@||trueaccordengage.com/tae/api/v1/collectors/$~third-party
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
-@@||trustcommander.net/privacy/*/privacy$script,domain=tf1info.fr
 @@||tsyndicate.com/sdk/v1/n.js$domain=hpjav.tv
 @@||tt1069.com/adbrite.js
 @@||tt1069.com/ads.js
@@ -28335,18 +28334,39 @@ zzzyk.com###Tinfo
 ||baidu.com/xpage/interface/inforservice?
 ||baidu.com/xpage/interface/sourcecontent?
 ||baidu.com/xpage/interface/structrec?
+||baidu.com^$document,removeparam=/^from/
+||baidu.com^$document,removeparam=/^rsv_/
+||baidu.com^$document,removeparam=category
+||baidu.com^$document,removeparam=cf
+||baidu.com^$document,removeparam=fid
+||baidu.com^$document,removeparam=iid
+||baidu.com^$document,removeparam=jid
+||baidu.com^$document,removeparam=lattr
+||baidu.com^$document,removeparam=miniId
+||baidu.com^$document,removeparam=nc
+||baidu.com^$document,removeparam=pi
+||baidu.com^$document,removeparam=pn
+||baidu.com^$document,removeparam=prod_type
+||baidu.com^$document,removeparam=ps
+||baidu.com^$document,removeparam=query
+||baidu.com^$document,removeparam=rn
+||baidu.com^$document,removeparam=tpl_from
+||baidu.com^$document,removeparam=xzhid
 ||baidu.com^$domain=pos.baidu.com
 ||baidu.com^$removeparam=/^rsv/
 ||baidu.com^$removeparam=asctag
+||baidu.com^$removeparam=bsst
 ||baidu.com^$removeparam=cl
 ||baidu.com^$removeparam=dyTabStr
 ||baidu.com^$removeparam=euri
+||baidu.com^$removeparam=fenlei
 ||baidu.com^$removeparam=for
 ||baidu.com^$removeparam=frs
 ||baidu.com^$removeparam=gsid
 ||baidu.com^$removeparam=hisfilter
 ||baidu.com^$removeparam=hl_tag
 ||baidu.com^$removeparam=idctag
+||baidu.com^$removeparam=ie
 ||baidu.com^$removeparam=inputT
 ||baidu.com^$removeparam=issp
 ||baidu.com^$removeparam=ivk_sa
@@ -28356,6 +28376,7 @@ zzzyk.com###Tinfo
 ||baidu.com^$removeparam=od
 ||baidu.com^$removeparam=oq
 ||baidu.com^$removeparam=p_from
+||baidu.com^$removeparam=p_tk
 ||baidu.com^$removeparam=pageFrom
 ||baidu.com^$removeparam=params_ssrt
 ||baidu.com^$removeparam=platform
@@ -38429,6 +38450,7 @@ zzzyk.com###Tinfo
 ||ibwqfpo.xyz^
 ||ic-live.com^$third-party
 ||icaile.com/z.php?id=
+||icanhazip.com^
 ||icao4.com/uploads/pic/2.jpg
 ||icas.ikea.com^
 ||icas.ikea.net^
@@ -42339,7 +42361,7 @@ zzzyk.com###Tinfo
 ||m.s.tpcdn.top^
 ||m.shushu8.com/js/tongji.js?
 ||m.slshiye.cn^
-||m.stripe.com^
+||m.stripe.com^$third-party,domain=~stripe.network
 ||m.szyuke.cn^$third-party
 ||m.tiebaimg.com/timg?wapp^*imgtype=0$image
 ||m.trb.com^
@@ -46610,6 +46632,7 @@ zzzyk.com###Tinfo
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
 ||pixel.nine.com.au^
+||pixel.poptok.com^
 ||pixel.redgifs.com^
 ||pixel.roymorgan.com^
 ||pixel.s3xified.com^
@@ -54751,6 +54774,7 @@ zzzyk.com###Tinfo
 ||tiexue.net/domain-policy/
 ||tiexue.net/pic/tx_1220.jpg
 ||tiexue.net/zgg/
+||tightpowder.com^
 ||tiglck.technopolis.bg^
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
@@ -56454,7 +56478,6 @@ zzzyk.com###Tinfo
 ||trustarc.com/log?
 ||trustarc.mgr.consensu.org/get?
 ||trustcommander.net/iab-tcfapi/
-||trustcommander.net/privacy/$third-party
 ||trusted-web-seal.cybertrust.ne.jp^
 ||trustedcpmrevenue.com^
 ||trustedform.com/trustedform.js?provide_referrer
