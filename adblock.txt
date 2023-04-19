@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: +P4ZRXOWWgzTJAn/50K2/A
+! Checksum: Ql/sPbGS4Ia2SURrHuFlgw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-04-19 08:54:50（北京时间） 
-! Total count: 61595
+! Version: 2023-04-19 16:18:26（北京时间） 
+! Total count: 61625
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -99,8 +99,6 @@
 ###asdw
 ###asdw2
 ###asdw2 + img
-###asdw3
-###asdw3 + img + :not(div)
 ###aside_cat_ad_bottom
 ###asx_text
 ###bannerAd
@@ -1618,6 +1616,7 @@
 ##body.active > div.myui-panel > DIV#home_slide
 ##body.bg_xin > A[href*='com:'][target='_blank']
 ##body.chapter > div.container div.slide-baidu *
+##body.conch-hasone section > span > video
 ##body.no_overflow strong
 ##body.page > .popup
 ##body.page.player > DIV.shortcuts-mobile-overlay
@@ -3379,7 +3378,9 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 .com/tracking?
 .com/uploads/*-860x250.gif
 .com/vh1/$script,third-party
+.com/vh2/$script,third-party
 .com/vj1/$script,third-party
+.com/vj2/$script,third-party
 .com/vodad.js
 .com/vtrack|
 .com/zz/*2.txt$xmlhttprequest
@@ -9507,7 +9508,8 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /v1/stats/track
 /v1/tracker.js
 /v2/ads/*
-/v2/stats/99*
+/v2/stats/1*/1*$third-party
+/v2/stats/9*$third-party
 /v2/tracking/*
 /v4/analytics.
 /v4/analytics/*$~xmlhttprequest
@@ -9533,6 +9535,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /vestigo/v1/measure
 /vglnk.js
 /vgwort/*
+/vh2/$third-party
 /video-ga.js
 /video.counters.
 /video/tracking.js
@@ -9602,7 +9605,8 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /visualsciences.
 /visualsciences_
 /visualstat/stat.php
-/vj1/
+/vj1/$third-party
+/vj2/$third-party
 /vjslog?
 /vmind.qqvideo.tc.qq.com^
 /vmtracking.
@@ -18976,6 +18980,8 @@ nongjitong.com##.ad_sms
 note.youdao.com##.top-btns
 novipnoad.com##.ad_single_title
 novipnoad.com##.bg-ad
+novipnoad.com##img[src*="/bd/"] + span
+novipnoad.com#?#.video-item:-abp-has(img[src*="/bd/"])
 nowcoder.com###jsSideTopicList
 nowcoder.com##.mini-banner
 nownews.com###ads-footer-bar
@@ -22053,6 +22059,7 @@ zzzyk.com###Tinfo
 ||136.0.56.196^
 ||1368999.com^
 ||137.175.69.92^
+||138txt.net/js/ssgdd.
 ||138vps.com/fa/
 ||139file.com/jsa/
 ||13hangpifa.com^
@@ -26309,6 +26316,7 @@ zzzyk.com###Tinfo
 ||ajiez.com^
 ||ajkcdpm.cn^
 ||ajljei.ace.jp^
+||ajucem.xyz^
 ||ajvzis.triumph.com^
 ||ajxukah.cn^
 ||ajzsa.xyz^
@@ -27304,6 +27312,7 @@ zzzyk.com###Tinfo
 ||analytics00.meride.tv^
 ||analytics2-3-meride-tv.akamaized.net^
 ||analytics2-meride-tv.akamaized.net^
+||analytics2.dashboard.fingerprint.com^
 ||analyticschecker.com^$third-party
 ||analyticsehnwe.servicebus.windows.net^
 ||analyticsengine.s3.amazonaws.com^$third-party
@@ -29865,6 +29874,7 @@ zzzyk.com###Tinfo
 ||c.caijing123.com^
 ||c.corriere.it^
 ||c.cqpsf.cn^$third-party
+||c.fingerprint.com^
 ||c.gazetevatan.com^
 ||c.hit.ua^$third-party
 ||c.holmesmind.com^
@@ -30134,6 +30144,7 @@ zzzyk.com###Tinfo
 ||cbfw.cn/gonggong/chibi/cf_
 ||cbgyhe.cn^
 ||cbh365.club^
+||cbhwekr.cn^
 ||cbjg.cqnews.net^
 ||cbjs.baidu.com^
 ||cbjs.ciwei.in^
@@ -30219,6 +30230,7 @@ zzzyk.com###Tinfo
 ||cdcd.ink^
 ||cdeatz.spartoo.it^
 ||cdeledu.com/ADVC/$domain=~chinaacc.com|~ruidaedu.com
+||cdfda.xyz^
 ||cdgfa.ifeng.com^
 ||cdgtw3.guapaijia.com^
 ||cdhhbyy.cn^
@@ -30570,6 +30582,7 @@ zzzyk.com###Tinfo
 ||chmproxy.bid^
 ||chnci.com^$third-party
 ||chnmoney.com/dfile/
+||chnuuee.xyz^
 ||chocolate521.online^
 ||choicestream.com^*/pixel/
 ||chok8.com/statics/ad/
@@ -34071,6 +34084,7 @@ zzzyk.com###Tinfo
 ||eage.it/count2.php?
 ||eagle-insight.com^
 ||eagle.kudzu.com^
+||ealdi.xyz^
 ||ealooov.cn^
 ||eanalyzer.de^$third-party
 ||eap.big5.enorth.com.cn^
@@ -35627,6 +35641,7 @@ zzzyk.com###Tinfo
 ||findmatches.com/bts.js
 ||findmatches.com/t/tr/lp/intg.js?
 ||findmatches.com/tri?tid=
+||findnam.xyz^
 ||fingerprint.com/events/
 ||fingerprinter-production.herokuapp.com^
 ||fingerprintjs.com/visitors/
@@ -35903,6 +35918,7 @@ zzzyk.com###Tinfo
 ||fpa-cdn.arstechnica.com^
 ||fpa-cdn.decrypt.co^
 ||fpa-events.decrypt.co^
+||fpa.fingerprint.com^
 ||fpapi.io^
 ||fpaux.net^
 ||fpavx.net^
@@ -36168,6 +36184,7 @@ zzzyk.com###Tinfo
 ||fw-ad.jp^$third-party
 ||fw.tv/embed/impressions
 ||fwccw.com^
+||fweia.xyz^
 ||fwesx.com^
 ||fwix.com/ref.js
 ||fwix.com^*/trackclicks_
@@ -37888,6 +37905,7 @@ zzzyk.com###Tinfo
 ||hikin.online^
 ||hilariouszinc.com^$third-party
 ||hilton.com/zJbufaUX/
+||himeneko.ink^
 ||hindustantimes.com/res/images/one-pixel.png
 ||hines.actonservice.com^
 ||hinet.net/product/promotion/$popup
@@ -39974,7 +39992,6 @@ zzzyk.com###Tinfo
 ||jeepyy.com^$third-party
 ||jeffersonhealth.hrm.healthgrades.com^
 ||jelr1.dili.fr^
-||jen.jiji.com/cookie.html
 ||jenniferlaurax.com^
 ||jennyrace.com^
 ||jeremiahlee.com/fanboynz.js
@@ -40243,6 +40260,7 @@ zzzyk.com###Tinfo
 ||johtzj.com^
 ||joiakit.com^
 ||jointreport-switch.com^$third-party
+||joiwnq2.cn^
 ||jojog.com^
 ||joka.it/inquiero/isapi/csf.dll?
 ||jokerlu.com/upload/addon/
@@ -41164,6 +41182,7 @@ zzzyk.com###Tinfo
 ||kyxw9itv.club^
 ||kyzx.xyZ^
 ||kyzx.xyz^
+||kzchyhr.cn^
 ||kzeaa.com^
 ||kzecc.com^
 ||kzehh.com^
@@ -43306,6 +43325,8 @@ zzzyk.com###Tinfo
 ||med.linzesshcp.com^
 ||med.saphris.com^
 ||med66.com/lamu/
+||medaipvx.com^
+||medaipxv.com^
 ||medals.bizrate.com^$third-party
 ||meddleplant.com^
 ||media-imdb.com/twilight/?
@@ -44208,6 +44229,7 @@ zzzyk.com###Tinfo
 ||mnbvbrow.xyz^
 ||mnbyto.goo-net.com^
 ||mncr.xyz^
+||mng.jiji.com/cookie.html
 ||mngjrn.cn^
 ||mnks.cn/jk/appAD_
 ||mnlgsjh.cn^
@@ -46661,6 +46683,7 @@ zzzyk.com###Tinfo
 ||piano.io/tracker/
 ||pianyuan.la/slade.js
 ||pianyuan.org/zfb.
+||piaochong.co^
 ||piaodown.com/xtm/
 ||piaohua.com/js/yzz/$script
 ||piaoliang.com/js/all.js
@@ -46882,6 +46905,8 @@ zzzyk.com###Tinfo
 ||pkc5.hardrockhoteltenerife.com^
 ||pkdimy.shoptime.com.br^
 ||pkeog.cn^
+||pki.net.cn/public/*/plugins/
+||pki.net.cn/public/1/assets/js/custom/tt.
 ||pkimbc.bestsecret.com^
 ||pkjl00l.cn^
 ||pkk1.zuimeiniwo.com^
@@ -47118,6 +47143,7 @@ zzzyk.com###Tinfo
 ||pointmediatracker.com^$third-party
 ||pointomatic.com^$third-party
 ||poiqknfl.com^
+||poiqwnekb.com^
 ||poisedpig.com^
 ||pojihfnkbllg.net^
 ||pojjtt.xyz^
@@ -47159,6 +47185,7 @@ zzzyk.com###Tinfo
 ||popupmaker.com^$third-party
 ||poqjnkdsou.net^
 ||poqoiwn.com^
+||poqwnllkm.com^
 ||poqwua.cn^
 ||porjjhu.cn^
 ||porlsbll.cyou^
@@ -47354,6 +47381,7 @@ zzzyk.com###Tinfo
 ||property.hk/js/adside.js
 ||propertypotato.com^
 ||prophet.heise.de^
+||propps.com/v1/referrer/
 ||props.id^$third-party
 ||propsad.com^
 ||prospecteye.com^$third-party
@@ -55206,8 +55234,6 @@ zzzyk.com###Tinfo
 ||tlsynmli.fun^
 ||tlula507.com/Public/js/dui
 ||tlula507.com/Public/js/float
-||tlxxw.cc/public/*/plugins/
-||tlxxw.cc/public/1/assets/js/custom/tt.
 ||tm-awx.com/pageview
 ||tm.jsuol.com.br^
 ||tm.swp.de^
@@ -56931,6 +56957,7 @@ zzzyk.com###Tinfo
 ||txlidi.ink^
 ||txnnhz.cn^
 ||txnwq.xyz^
+||txphjl.xyz^
 ||txrx.bol.com^
 ||txscn.cn^
 ||txt.eu^$third-party
@@ -59789,6 +59816,7 @@ zzzyk.com###Tinfo
 ||xcisleoa.cn^
 ||xcjcy.pro^
 ||xcjwq.world^
+||xckyqq.com^
 ||xclaimwords.net^$third-party
 ||xcmno.xyz^
 ||xcmz999.com^
@@ -59882,6 +59910,7 @@ zzzyk.com###Tinfo
 ||xiaobaipan.com/tb.html
 ||xiaobao8888.com^
 ||xiaobi*.com/layer/layer.js
+||xiaochen1.cn^
 ||xiaodongrui.com^
 ||xiaodutv.com/xda?
 ||xiaohongshu.com/api/collect
@@ -60079,6 +60108,7 @@ zzzyk.com###Tinfo
 ||xne1ocient87zxz.360doc.cn^
 ||xnewsletter.de/count/counter.php?
 ||xng02.com/api.php?mod=ad&
+||xni.ink^
 ||xniexnz.cn^
 ||xnimg.cn^*/liveinc/rightlive.js
 ||xnklgas.cn/common/getBannerList
