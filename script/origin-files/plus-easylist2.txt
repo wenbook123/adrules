@@ -490,6 +490,11 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##htm
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has(a[aria-label="広告"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] h4 > span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-describedby]:not([aria-posinset]) h4 > span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-describedby])
+m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > .bg-s3:has(+ .bg-s3 + .bg-s3:has(> .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style^="margin-top:1px;"][style$="margin-left:1px;"]))
+m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > .bg-s3:has(+ .bg-s3:has(> .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style^="margin-top:1px;"][style$="margin-left:1px;"]))
+m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > .bg-s3 > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style^="margin-top:1px;"][style$="margin-left:1px;"]:upward(4)
+m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > .bg-s3 > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style^="margin-top:1px;"][style$="margin-left:1px;"]:upward(4) + .m
+m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > .bg-s3 > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style^="margin-top:1px;"][style$="margin-left:1px;"]:upward(4) + .m + .m
 
 ! mail.yahoo.com stuff
 mail.yahoo.com##[data-test-id="right-rail-ad"]
@@ -1640,6 +1645,7 @@ f1stream.*,fbstream.*,mlbstream.*,motogpstream.*,nbastream.*,nflstream.*,nhlstre
 @@*$ghide,domain=f1stream.*|fbstream.*|mlbstream.*|motogpstream.*|nbastream.*|nflstream.*|nhlstream.*|plylive.*|plyvdo.*|rugbystreams.*|socceronline.*|tennisstreams.*|tvply.*|ufcstream.*|vipleague.*
 plylive.*,plyvdo.*##+js(nowoif)
 tennisstreams.*,tutele.nl,vipleague.*##+js(acis, setTimeout, admc)
+tennisstreams.*##+js(acs, navigator, FingerprintJS)
 vipleague.*##+js(acs, JSON, break;case)
 *$script,3p,denyallow=chatango.com|facebook.net|fbcdn.net|google.com|googleapis.com|nolive.me|plyjam.me,domain=vipleague.*
 ||gretaith.com^$3p

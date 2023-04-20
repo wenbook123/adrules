@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: TlKcKjuziAdDhcCh4hYmMg
+! Checksum: jyKq7Y8Jr2AlSMioqVsfDg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-20 16:17:47（北京时间） 
-! Total count: 16034
+! Version: 2023-04-21 00:19:42（北京时间） 
+! Total count: 16037
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -419,6 +419,7 @@
 @@/smarttag.js$~third-party,domain=rte.ie
 @@/social-share.$domain=patentguru.com
 @@/speedtest/upload.php$domain=speedtest.net
+@@/static/ad/main.$domain=bhuai.top|bhuan.top
 @@/store_ad/*$domain=pcstore.com.tw
 @@/streamlive/*.m3u8?token=$stealth,domain=stream.televall.website|stream.televall.site
 @@/templates/dfp/dfp-component-template.html$xhr,1p
@@ -557,6 +558,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgmetrics.alpo.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -6303,6 +6305,7 @@
 @@||gigya.com/*/socialize.js
 @@||gigya.com/comments.getComments$domain=muscleandfitness.com
 @@||gioialive.it/TemplateLive/app/assets/js/prebid-ads.js
+@@||giolandscaping.com/ads/$subdocument,domain=hentaihd.xyz
 @@||giphy.com^
 @@||girafa.com.br^$stealth
 @@||girlsgogames.com^$ghide
@@ -6429,6 +6432,7 @@
 @@||google-analytics.com/analytics.js$domain=askona.ru
 @@||google-analytics.com/analytics.js$domain=avselectro.ru
 @@||google-analytics.com/analytics.js$domain=beinsports.com
+@@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|enmotive.com|healthrangerstore.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|stressless.com|tracking.narvar.com|truwin.com|westernunion.com|worldsbiggestpacman.com
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|healthrangerstore.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|stressless.com|tracking.narvar.com|truwin.com|westernunion.com|worldsbiggestpacman.com
 @@||google-analytics.com/analytics.js$domain=biomedglobal.net
 @@||google-analytics.com/analytics.js$domain=blt.se
@@ -6849,6 +6853,7 @@
 @@||googletagmanager.com/gtag/js$domain=telerium.tv
 @@||googletagmanager.com/gtag/js$domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js$domain=zf1.tohoku-epco.co.jp
+@@||googletagmanager.com/gtag/js$script,domain=academy.com|acornonline.com|aliexpress.com|carhartt-wip.com|cbslocal.com|devclass.com|ejgiftcards.com|enmotive.com|herculesstands.com|honeystinger.com|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|montcopa.org|schwab.com|toptal.com|virginplus.ca|winefolly.com
 @@||googletagmanager.com/gtag/js$script,domain=academy.com|acornonline.com|aliexpress.com|carhartt-wip.com|cbslocal.com|devclass.com|ejgiftcards.com|herculesstands.com|honeystinger.com|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|montcopa.org|schwab.com|toptal.com|virginplus.ca|winefolly.com
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp|game.anymanager.io|nihontsushin.com|zf1.tohoku-epco.co.jp
 @@||googletagmanager.com/gtag/js$script,domain=factory.pixiv.net
@@ -14118,6 +14123,7 @@
 @@||tf1.fr^$ghide
 @@||tfc.tv/Scripts/*ads.js
 @@||tff.tf/popunder.js$domain=im9.eu
+@@||tgc1.ru^$stealth=dpi
 @@||tgcom24.mediaset.it/assets/js/amd/socialcount.js
 @@||tgfcer.com/advert.js
 @@||tgstat.ru/js/share2/share.js$script,~third-party
@@ -14520,7 +14526,6 @@
 @@||truffeonline.com/js/pubPolicy/ads-prebid.js
 @@||trustarc.mgr.consensu.org/asset/cmpcookie.*.html$domain=forbes.com
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
-@@||trustcommander.net/privacy/$script,domain=edeka.de
 @@||truste-svc.net/cookie_js/$subdocument
 @@||trustprofile.com/banners/$image
 @@||truyenaudiocv.*^$ghide
@@ -15779,8 +15784,6 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide*.html$subdocument
-@@||xfreehd.com^$generichidedo.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
