@@ -1,8 +1,8 @@
-! Checksum: sUvMOWs8qX5TGKIi2cjK7w
+! Checksum: CfheTw506mpi3jH85OXHXg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.85.80
-! TimeUpdated: 2023-04-21T00:31:10+00:00
+! Version: 2.0.85.82
+! TimeUpdated: 2023-04-21T07:31:14+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -427,6 +427,9 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/148933
+xbeibeix.com#@#.google-ad
+xbeibeix.com#%#//scriptlet('prevent-setTimeout', '/\.height\(\) == 0|adsbygoogle/')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145101
 yunduanxin.xyz###adb-mask
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144287
@@ -4528,6 +4531,9 @@ newduba.cn###jq_youxi
 ||ncyx.ltd^
 ||heild.xyz^
 ||pedjqkl.xyz^
+||anifk71.cc^
+||aprlitj.cn^
+||zhemu.xyz^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
