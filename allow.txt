@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: PQMj/TqE7HaM1M2Khzd6Dg
+! Checksum: k3lIVdP4g6pV+TPk1vO58g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-22 16:17:21（北京时间） 
-! Total count: 16039
+! Version: 2023-04-23 00:16:49（北京时间） 
+! Total count: 16040
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -2644,9 +2644,9 @@
 @@||binbucks.com/fuckadblock.js
 @@||binbucks.com^$generichide
 @@||bing.*/WS/redirect/$removeparam
+@@||bing.*/account/action$removeparam=cc
 @@||bing.*/ws/redirect/$removeparam
 @@||bing.com/Passport.aspx$document
-@@||bing.com/account/action$removeparam=cc
 @@||bing.com/api/v*/Places/AutoSuggest?$stealth,domain=obi.de
 @@||bing.com/news/search?*InfiniteScroll=$document
 @@||bing.com/search?$generichide
@@ -3603,6 +3603,7 @@
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
 @@||cdn.trustcommander.net/privacy/$domain=cdn.trustcommander.net
+@@||cdn.trustcommander.net/privacy/$script,domain=edeka.de|tf1.fr|tf1info.fr
 @@||cdn.trustcommander.net/privacy/*/privacy_v*.js$domain=edeka.de
 @@||cdn.trustcommander.net/privacy/*/privacy_v*.js$domain=lci.fr
 @@||cdn.trustcommander.net/privacy/*/privacy_v*.js$domain=tf1.fr
@@ -5366,6 +5367,7 @@
 @@||engine.widespace.com/map/provisioning?appId=com.sofoot$app=com.sofoot
 @@||england101.com/assets/js/prebid-add.js
 @@||ens.nzz.ch^$~third-party
+@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|bestbuy.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
 @@||ensighten.com^*/code/$script
@@ -6686,6 +6688,7 @@
 @@||google.*/images/icons/product/adsense-
 @@||google.*/imgres?
 @@||google.*/mapmaker/gen_204?$subdocument,xmlhttprequest
+@@||google.*/url?$removeparam=ved
 @@||google.cf^
 @@||google.com/*/ads.html$domain=fantacalcio.it
 @@||google.com/*/search/*$script,domain=thewindowsclub.com
@@ -6712,7 +6715,6 @@
 @@||google.com/translate_$media,third-party,xmlhttprequest
 @@||google.com/uds/api/search/$domain=m.hdzog.com
 @@||google.com/uds/api/search/$domain=thewindowsclub.com
-@@||google.com/url?$removeparam=ved
 @@||google.com/usability/$domain=google.com,document
 @@||google.de/translate_$media,third-party,xmlhttprequest
 @@||google.es/translate_$media,third-party,xmlhttprequest
@@ -15784,7 +15786,6 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidedisplay.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
