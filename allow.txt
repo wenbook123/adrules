@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: CwhL7631Dk81vdIhwtRxlQ
+! Checksum: N9TnKcq4yRTTNWA7SvKb1A
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-24 08:55:09（北京时间） 
-! Total count: 16038
+! Version: 2023-04-24 16:18:17（北京时间） 
+! Total count: 16035
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -559,6 +559,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -7644,7 +7645,6 @@
 @@||html5.5games.cc^$stealth,third-party
 @@||html5.gamedistribution.com/*/$stealth
 @@||html5.nicogame.jp/misc/ad*.js
-@@||htmlweb.ru^$ghide
 @@||htnovo.net^$ghide
 @@||huaweiblog.de/wp-content/plugins/cookie-law-info/
 @@||hubpd.com^
@@ -8240,7 +8240,6 @@
 @@||imasdk.googleapis.com^$domain=cnet.com
 @@||imasdk.googleapis.com^$script,domain=pch.com
 @@||imasdk.googleapis.com^$script,domain=uptostream.com
-@@||imasdk.googleapis.com^$script,domain=veedi.com|4j.com
 @@||imasdk.googleapis.com^$stealth,domain=news.tvb.com
 @@||imasdk.googleapis.com^|$app=com.nextmediatw
 @@||imasdk.googleapis.com^|$app=com.nhl.gc1112.free|com.nhl.hattrickchallenge
@@ -8540,7 +8539,7 @@
 @@||iubenda.com^$domain=mediaset.it
 @@||iubenda.com^$domain=multiplayer.it
 @@||iubenda.com^$domain=notizie.it
-@@||iubenda.com^$script,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|all3dp.com|ansa.it|artribune.com|automoto.it|brutkasten.com|capital.it|cioccolatonippon.it|darkhorizons.com|huffingtonpost.it|ilmessaggero.it|ilsecoloxix.it|lastampa.it|leggo.it|m2o.it|mediaset.it|mee6.xyz|meteo.it|moto.it|multiplayer.it|quotidiano.net|r101.it|radiomontecarlo.net|rockol.it|today.it|tomshw.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.repubblica.it|virginradio.it
+@@||iubenda.com^$script,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|all3dp.com|ansa.it|artribune.com|automoto.it|brutkasten.com|capital.it|cioccolatonippon.it|darkhorizons.com|huffingtonpost.it|ilmessaggero.it|ilsecoloxix.it|lastampa.it|leggo.it|m2o.it|mediaset.it|mee6.xyz|meteo.it|moto.it|multiplayer.it|quotidiano.net|r101.it|radiomontecarlo.net|rockol.it|saratoga.it|today.it|tomshw.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.repubblica.it|virginradio.it
 @@||iubenda.com^$script,xmlhttprequest,domain=automoto.it
 @@||iubenda.com^$script,xmlhttprequest,domain=m2o.it
 @@||iubenda.com^$script,xmlhttprequest,domain=moto.it
@@ -9191,7 +9190,6 @@
 @@||livesports.pw/*adblock.js
 @@||livestream.com/accounts/*/events/*/player?$domain=strikeout.nu
 @@||livew.l.qq.com/crossdomain.xml
-@@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.,rarbgunblocked.org##tr > td + td[style*="height:"]
 @@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.v.qq.com
 @@||livew.l.qq.com/livemsg?ty=web&ad_type=$domain=v.qq.com
 @@||lk-subscr.tricolor.tv^$document
@@ -10972,7 +10970,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=maxedtech.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=pasty.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=yellowbridge.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=yiv.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=leechpremium.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,domain=topsporter.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=oko.sh

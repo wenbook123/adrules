@@ -2843,7 +2843,7 @@ seirsanduk.*##[href^="//bgtop.net/"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1099
 yiv.com##+js(nostif, Adb)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=yiv.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=yiv.com,redirect-rule=google-ima.js
 yiv.com#@##adsContainer
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1090
@@ -9042,7 +9042,7 @@ donk69.com,gfjizz.com,hotdreamsxxx.com,pornxt.com##+js(aopw, phtData)
 ! https://forums.lanik.us/viewtopic.php?p=143447#p143447
 veedi.com##+js(set, adBlocker, false)
 4j.com##+js(nostif, (), 2000)
-@@||imasdk.googleapis.com^$script,domain=veedi.com|4j.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=4j.com|veedi.com,redirect-rule=google-ima.js
 4j.com###bio_ep, #bio_ep_bg
 4j.com##body:style(overflow: auto !important;)
 
@@ -9081,11 +9081,6 @@ mega-mkv.com##center > p:has(> a[href] > img.alignnone)
 
 ! https://github.com/NanoMeow/QuickReports/issues/382
 medievalists.net##.widget-title:has-text(Adv)
-
-! efilmindir . org popups / ads
-efilmindir.org##+js(nowoif)
-efilmindir.org##[id^="exe_indir"]
-efilmindir.org##a[href="https://www.aslitarcan.com/"]
 
 ! celebritymovieblog . com popups / ads
 celebritymovieblog.com##+js(acis, puShown, /doOpen|popundr/)
@@ -11426,9 +11421,6 @@ adfoc.us##+js(set, count, 0)
 pianetamountainbike.it##+js(set, LoadThisScript, true)
 ||pianetamountainbike.it/*Banner$image
 
-! https://github.com/uBlockOrigin/uAssets/issues/5266
-@@||htmlweb.ru^$ghide
-
 ! https://github.com/NanoMeow/QuickReports/issues/906
 lavoixdux.com##+js(set, is_adblocked, false)
 
@@ -11600,9 +11592,6 @@ lippycorn.com##+js(acis, document.createElement, __esModule)
 ! https://github.com/jspenguin2017/uBlockProtector/issues/1051
 pendekarsubs.us##+js(nostif, nextFunction, 250)
 
-! https://github.com/uBlockOrigin/uAssets/issues/2004#issuecomment-480632532
-allnorilsk.ru##+js(aopr, onload)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/8336
 @@||telepisodes.org^$ghide
 telepisodes.org##+js(nowebrtc)
@@ -11637,9 +11626,6 @@ camfucks.com##[href="//yescams.com"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5328
 eikaiwamastery.*##+js(aeld, load, onload)
-
-! https://github.com/NanoMeow/QuickReports/issues/966
-vsthouse.ru##+js(aopw, blockad)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/n6xsjo/ablock_detected/
 faucethero.com##+js(aopr, adBlockDetected)
@@ -13472,9 +13458,6 @@ readcomicsonline.ru##+js(acis, document.createElement, "script")
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/clzwbg/
 yogitimes.com##+js(aopr, fuckAdBlock)
-
-! https://github.com/NanoMeow/QuickReports/issues/21
-||wgplayer.com^$domain=mirchigames.com
 
 ! games4king https://github.com/NanoMeow/QuickReports/issues/19
 games4king.com###wrapped-content:style(display:inherit!important)
