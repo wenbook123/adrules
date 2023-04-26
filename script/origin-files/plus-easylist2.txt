@@ -1083,6 +1083,8 @@ grubstreet.com,twitchy.com##+js(aopr, stop)
 popculture.com##div.modernInContent
 ! https://github.com/uBlockOrigin/uAssets/issues/2904
 ||static.tvtropes.org/design/js/google-adblock.js$script
+! https://popculture.com/celebrity/news/austin-butler-tears-up-remembering-lisa-marie-presley/ video breakage
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=popculture.com,important
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1503
 shrink-service.it##+js(nano-sib)
@@ -5049,6 +5051,7 @@ adz.bz###frameAd:style(height: 51 px !important; display: block !important; visi
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2154
 *$script,3p,denyallow=cdn77.org|cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|facebook.com|facebook.net|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|google.com|googleapis.com|gstatic.com|hwcdn.net|hcaptcha.com|instagram.com|jquery.com|jsdelivr.net|jwpcdn.com|jwpsrv.com|plyr.io|twimg.com|twitter.com|recaptcha.net|wp.com,domain=japscan.*
+japscan.*##[href^="https://bit.ly/"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2163
 pes-patch.com##+js(nobab)
@@ -5470,6 +5473,7 @@ fembed.com##+js(nosiif, (), 500)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2370
 videos1002.com##+js(acis, $, azar)
+videos1002.com##+js(aopr, jsPopunder)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2377
 ancensored.com,ganool.*##+js(aeld, /^(?:click|mousedown)$/, _0x)
@@ -9773,6 +9777,7 @@ azmath.info,azsoft.*,downfile.site,downphanmem.com,expertvn.com,memangbau.com,sc
 azmath.info,azsoft.*,downfile.site,downphanmem.com,expertvn.com,memangbau.com,scratch247.info,trangchu.news##+js(nowoif)
 azmath.info,aztravels.net,downfile.site,downphanmem.com,memangbau.com,trangchu.news##+js(nano-stb, "#proceed", 9000)
 azmath.info##+js(nostif, location)
+azmath.info##+js(noeval-if, chp_ad)
 
 aztravels.net,memangbau.com,trangchu.news##+js(ra, onclick, input)
 aztravels.net,memangbau.com,trangchu.news##+js(ra, onclick, button, stay)
@@ -18695,6 +18700,8 @@ javtiful.com##.v3sb-box
 fakyutube.com##+js(nowoif)
 fakyutube.com##+js(aopr, __Y)
 supervideo.tv##+js(aopr, AaDetector)
+/tag*.js$script,domain=supervideo.tv
+||namibyyy.com^
 
 ! nsfw thisav .com popups
 thisav.*##+js(aopw, _pop)
