@@ -2058,6 +2058,8 @@ sxyprn.*##+js(acis, decodeURI, decodeURIComponent)
 sxyprn.*##+js(acis, document.querySelectorAll, popMagic)
 sxyprn.*##+js(acis, vast_urls)
 sxyprn.*##+js(aopr, popns)
+sxyprn.*##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/)
+sxyprn.*##+js(aopw, __aaZoneid)
 sxyprn.*##.post_el_wrap > .tdn
 sxyprn.*###vid_container_id > .tdn
 *$frame,script,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,domain=sxyprn.*
@@ -15505,6 +15507,9 @@ upzone.cc##+js(acis, document.getElementById, undefined)
 /ad.xml$xhr,badfilter
 ! https://github.com/uBlockOrigin/uAssets/issues/15609
 player.pl#@#+js(json-prune, movie.advertising.ad_server)
+! https://github.com/uBlockOrigin/uAssets/issues/17801
+$xhr,redirect-rule=noopjs,domain=player.pl
+player.pl##div.adsbygoogle.prebid.adocean.ado.ad.ads.advert.banner.reklama.linkSponsorowany.adsense.advertisments.reklama-top.adv_container:style(display: block !important)
 
 ! https://github.com/NanoMeow/QuickReports/issues/2318
 @@||jbzd.com.pl^$ghide
