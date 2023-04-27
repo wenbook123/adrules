@@ -1,8 +1,8 @@
-! Checksum: KZuoK13pgiaLGOamMMDssQ
+! Checksum: Lo+HLv2H3a3oS++S2L7rFA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.87.30
-! TimeUpdated: 2023-04-26T15:31:14+00:00
+! Version: 2.0.87.34
+! TimeUpdated: 2023-04-26T23:31:09+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2551,6 +2551,9 @@ adguard.com,adguard.app##.hello_from_adguard_chinese
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/149414
+! Reported to Easylist China
+||biggggg.com/videos/*/media_000$redirect=noopmp3-0.1s,domain=nivod4.tv,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144884
 ||ldmnq.com^$third-party,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141652
@@ -2727,7 +2730,6 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 !---------------------------------------------------------------------------!
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
-/bookxiaoshuo.oss-
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -2945,6 +2947,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /bg5t4h.oss-
 /blgg/*
 /blog/showdetail.php?z=$script,third-party
+/bookxiaoshuo.oss-
 /botad.html
 /BrandXuanDong.js
 /bt*.com/imgs.js?t=
@@ -3656,7 +3659,6 @@ newduba.cn###jq_youxi
 ###player > #ADtip
 ###player-bottom-ads
 ###playerAdvLayer
-###playerContainer > .nav-ads
 ###player_banner[style*="fixed;"]
 ###player_pause > .tip + a[target="_blank"]
 ###player_pause[style^="position"] > a[target="_blank"]
@@ -4366,8 +4368,10 @@ newduba.cn###jq_youxi
 ||dqazwsxd.xyz^
 ||dtjhtp.xyz^
 ||dtnhjzl.xyz^
+||dyhnbgtsl.xyz^
 ||ealdi.xyz^
 ||ecav5.com^
+||eitb7.top^
 ||ej65.xyz^
 ||enahmy.xyz^
 ||endio.xyz^
@@ -4389,8 +4393,10 @@ newduba.cn###jq_youxi
 ||fzcsd33.com^
 ||gaokao.asia^
 ||giold.xyz^
+||goiagm.xyz^
 ||gpqicw.xyz^
 ||gwvzgjb.cn^
+||gxemtes.xyz^
 ||gzexsc.top^
 ||gzsjym.xyz^
 ||gzsscr.cn^
@@ -4428,6 +4434,7 @@ newduba.cn###jq_youxi
 ||jfanhao.com^
 ||jiuba20230320.live^
 ||jlzz.name^
+||jndyl.xyz^
 ||jvkckeg.cn^
 ||jwjdpab.cn^
 ||jwronx.xyz^
@@ -4455,6 +4462,7 @@ newduba.cn###jq_youxi
 ||maoqxyl.xyz^
 ||mc3369.xyz^
 ||mdqhyxe.cn^
+||meexx.xyz^
 ||mem3.cn^
 ||mfifsux.xyz^
 ||mhegew.xyz^
@@ -4473,6 +4481,7 @@ newduba.cn###jq_youxi
 ||opida.xyz^
 ||originate.ltd^
 ||otwiss.xyz^
+||oubqzcg.cn^
 ||p4pd.cn^
 ||pansclub.xyz^
 ||pbgtpjz.cn^
@@ -4558,11 +4567,13 @@ newduba.cn###jq_youxi
 ||wdygoi.xyz^
 ||web4023.top^
 ||weeqmcq.cn^
+||wenxiaowu.xyz^
 ||whbn.xyz^
 ||windyang.xyz^
 ||wjaqc.xyz^
 ||wvwl.cn^
 ||wwgqqq.com^
+||wwqfqq.com^
 ||wxxmt.xyz^
 ||wyjbvoz.xyz^
 ||wyynike.cn^
@@ -4580,8 +4591,10 @@ newduba.cn###jq_youxi
 ||xrkyqq.com^
 ||xueyugaoyuan.xyz^
 ||xunjie.fun^
+||xyjcpcb.cn^
 ||yankuoyyds.com^
 ||yb0a.xyz^
+||ychkujj.cn^
 ||yegzkw.xyz^
 ||yfohgo.xyz^
 ||yingce.asia^
@@ -4591,6 +4604,7 @@ newduba.cn###jq_youxi
 ||yulingaa.xyz^
 ||yywh.vip^
 ||zbvchabjbcj.com^
+||zcdfll.xyz^
 ||zdkdwk.buzz^
 ||zdlnhv.xyz^
 ||zdyuoae.xyz^
@@ -4606,18 +4620,12 @@ newduba.cn###jq_youxi
 ||zrbabog.cn^
 ||zsblog.vip^
 ||zscgoqt.cn^
-||ychkujj.cn^
-||wwqfqq.com^
-||jndyl.xyz^
-||gxemtes.xyz^
-||zcdfll.xyz^
-||meexx.xyz^
-||goiagm.xyz^
-||wenxiaowu.xyz^
-||xyjcpcb.cn^
-||oubqzcg.cn^
-||eitb7.top^
-||dyhnbgtsl.xyz^
+||cjbpqq.com^
+||yangyuqing.xyz^
+||nagmopd.cn^
+||jvmxrug.xyz^
+||nedes.xyz^
+||zmfdjb.xyz^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -12575,7 +12583,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||bianzhirensheng.com/img/bianzhiji.jpg
 ||biaoge.tv/fa
 ||bigear.cn/cache/htmlcache/
-||biggggg.com/videos/*/media_000$redirect=noopmp3-0.1s,domain=nivod4.tv
 ||biketo.com/d/file/p/
 ||bilibilijj.com/image/right_bottom.gif
 ||bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
@@ -19162,6 +19169,7 @@ hepuwang.com##.n5_dbhfad > .wapper
 ccoo.cn##.n_adbox
 msn.cn##.nativeadserversidecontentmodule
 dan-teng.top##.nav
+nivod4.tv,nivod5.tv##.nav-ads
 jiemian.com##.nav-next-ad-views
 lenovo.com.cn##.nav_ad1
 lenovo.com.cn##.nav_ad2
