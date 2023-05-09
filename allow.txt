@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: xpe628TCZfM2LpeQlbvi8A
+! Checksum: +tFb2lzgTXwHFhxPesRHYQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-09 16:28:11（北京时间） 
-! Total count: 15186
+! Version: 2023-05-10 00:28:21（北京时间） 
+! Total count: 15182
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -345,6 +345,7 @@
 @@/js/advertisement.js$~third-party,domain=spodio.ru|lingust.ru
 @@/js/adverts.$script
 @@/js/adview_pic_cpc_cpm_cpa_guanggao_gg_ads_300x250.js
+@@/js/fuckadb.js$~third-party,domain=megaurl.in
 @@/js/jquery.smartbanner.js$domain=fiyatseyir.com|greyhound.com|amalgama-lab.com|m.halkbank.com.tr|intime.ua|avic.ua|mirage.ru|speedtest.net|energy.de|hermesworld.com|lekvapteke.ru|mcdonalds.com.tr|yalispor.com.tr|metroturizm.com.tr|anadolu.edu.tr|whatpub.com
 @@/js/jquery/plugins/cookieconsent/jquery.cookieconsent.min.js$domain=internetinthecar.vodafone.com
 @@/js/philips/utilities/showads.js$script,~third-party
@@ -551,7 +552,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|la7.it|leggo.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -7254,10 +7254,8 @@
 @@||hwcdn.net^$domain=canyoublockit.com
 @@||hwcdn.net^$script,domain=mp4upload.com
 @@||hydra.wakasa-imaushi.tk^$stealth
-@@||hydracdn.*^$ghide
 @@||hydrax.net/players/player.min.js$domain=kimcartoon.to
 @@||hydrax.net/players^
-@@||hydrax.net^$ghide
 @@||hydrogenassociation.org^$ghide
 @@||hypem.com/inc/header_menu$document
 @@||hyper.ag/api/sites/*/analytics/$~third-party
@@ -7302,7 +7300,6 @@
 @@||ia.hit.interia.pl/*/date?$domain=interia.pl|pomponik.pl
 @@||ia.hit.interia.pl^$app=pl.interia.news
 @@||ia.hit.interia.pl^|
-@@||iamcdn.net/players/*ads$script,domain=playhydrax.com
 @@||iamcdn.net/players/*ads*.js$domain=hydrax.net|playhydrax.com
 @@||ias.global.rakuten.com/adv/$script,domain=rakuten.co.jp
 @@||iatv.tmgrup.com.tr^$script,stealth
@@ -10780,7 +10777,6 @@
 @@||players.pluto.tv^
 @@||playfinder.xyz^$ghide
 @@||playhydrax.com/?v=$subdocument
-@@||playhydrax.com^$ghide
 @@||playmyopinion.com/assets/developer/js/prebid-ads.js
 @@||playnewserie.xyz^$stealth
 @@||playok.com^$ghide
