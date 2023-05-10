@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: bvYbBLBfGbuS65z5TTGG9Q
+! Checksum: Mtz3TqsBkPJM4uwC3eU8Rw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-10 09:00:40（北京时间） 
-! Total count: 15185
+! Version: 2023-05-10 16:18:05（北京时间） 
+! Total count: 15186
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -401,7 +401,6 @@
 @@/scripts/adv.js$domain=securenetsystems.net
 @@/securepubads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@/sensorsdata-$domain=zkh.com
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.comgid
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|xinrenxinshi.com|zzjiasuqi.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
@@ -553,6 +552,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnsending.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -4494,7 +4494,6 @@
 @@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~third-party
 @@||dcdirtylaundry.com^$ghide
 @@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=fivethirtyeight.com
-@@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=marvel.com
 @@||dcinfos.abtasty.com/geolocAndWeather.php^$domain=tf1.fr
 @@||dcinside.co.kr/viewimage.php?$stealth
 @@||dcinside.co.kr/viewmovie.php$stealth
@@ -5673,6 +5672,7 @@
 @@||fy.v.vrv.co/*.mp4$domain=static.crunchyroll.com,stealth
 @@||g-status.com^$ghide
 @@||g.adspeed.net/ad.php?do=detectadblocker$domain=allcryptoz.net|crewbase.net|crewus.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net
+@@||g.adspeed.net/ad.php?do=detectadblocker$domain=btcbunch.com
 @@||g.alicdn.com/??*/criteo
 @@||g.alicdn.com^*/banner_ad_
 @@||g.csdnimg.cn/lib/fuckadblock/3.2.1/fuckadblock.min.js
@@ -7021,6 +7021,7 @@
 @@||hb.vntsm.com/v2/live/$xhr,domain=aternos.org
 @@||hb.vntsm.com/v2/live/$xmlhttprequest,domain=aternos.org
 @@||hb.vntsm.io/content.html$domain=aternos.org
+@@||hb.vntsm.io/content.html$xhr,domain=aternos.org
 @@||hbimg.huabanimg.com^$stealth,domain=huaban.com
 @@||hboav.com/guga/adss.js
 @@||hboav.com/js/wlfloat.js
@@ -10077,7 +10078,6 @@
 @@||optimize-stats.voxmedia.com/loader.min.js$domain=theverge.com
 @@||optimize.webtrends.com^$domain=peterboroughtoday.co.uk
 @@||optimizely.com/datafiles/$domain=alaskaair.com|guildeducation.com|hm.com|nike.com|printify.me|talktalk.co.uk|tommy.com|wallapop.com
-@@||optimizely.com/datafiles/$domain=guildeducation.com|hm.com|nike.com|printify.me|talktalk.co.uk|tommy.com|wallapop.com
 @@||optimizely.com/js/geo2.js$domain=cbs.com
 @@||optimizely.com/js/geo2.js$xmlhttprequest,script,domain=cbs.com
 @@||optimizely.com^$script,domain=kabeleins.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
@@ -14945,6 +14945,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideuk
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
