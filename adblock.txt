@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: yc1aw1FV9OyUrZrgmR0fdw
+! Checksum: DnFmQaTWPtfJk9m4h4iBOA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-05-12 16:17:36（北京时间） 
-! Total count: 63824
+! Version: 2023-05-13 00:17:16（北京时间） 
+! Total count: 63828
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1851,6 +1851,7 @@ $removeparam=/^amp$/,domain=~eurasiantimes.com
 $removeparam=/^amp;utm_/
 $removeparam=/^amp=1$/,document,domain=newsweek.com
 $removeparam=/^amp=true$/
+$removeparam=/^asc_/,document,domain=amazon.*|aboutamazon.com|amzn.to
 $removeparam=/^bsft_/
 $removeparam=/^cid=DSS-Affiliate/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
 $removeparam=/^cid=DSS-Search-/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
@@ -2066,6 +2067,7 @@ $removeparam=_t,domain=shein.com
 $removeparam=_trkparms
 $removeparam=_trksid
 $removeparam=_vsrefdom
+$removeparam=_x_tr_pto
 $removeparam=_zucks_suid
 $removeparam=a_aid
 $removeparam=a_fid
@@ -3089,7 +3091,6 @@ $removeparam=wx_navbar_hidden
 $removeparam=wx_navbar_transparent
 $removeparam=wx_statusbar_hidden
 $removeparam=x50878,domain=pmctraining.com
-$removeparam=x_tr_pto
 $removeparam=xcust,domain=go.skimresources.com|go.skimlinks.com|go.redirectingat.com
 $removeparam=xid,domain=fortune.com|tcgplayer.com
 $removeparam=xs,domain=go.skimresources.com|go.skimlinks.com|go.redirectingat.com
@@ -12391,7 +12392,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||pptv.com/webdelivery/webafp?cb=loadAdStatus&*sports.pp
 @@||privacy.vakmedianet.nl/*ref=$removeparam
 @@||pro.gooooal.com/ad/ad_2.js
-@@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|nontongp.xyz|sheee.co.il|walla.co.il|weatherscan.tk
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||pstatp.com/obj/ad-tetris-site/file/$image,domain=player.kongbuya.com
 @@||pttplay.com/js/momo/adsbygoogle.js
@@ -24943,7 +24943,7 @@ zzzyk.com###Tinfo
 ||accesswire.com/img.ashx
 ||accident.changehealthcare.com^
 ||accommodatingremindauntie.com^
-||accounts.google.com^$removeparam=dsh
+||accounts.google.com^$removeparam=dsh,document
 ||accuratecraneplan-test.inthere.link^
 ||accuterm.com/data/stat.js
 ||acecounter.com^$third-party
@@ -30818,6 +30818,9 @@ zzzyk.com###Tinfo
 ||challengeh.carte-gr.total.fr^
 ||chanalytics.merchantadvantage.com^
 ||changchunyitian.online^
+||change.org/api-proxy/-/bandit/pull
+||change.org/api-proxy/-/et
+||change.org/api-proxy/-/event_tracker
 ||change.org^$removeparam=psf_variant
 ||change.org^$removeparam=share_intent
 ||change.org^$removeparam=source_location
@@ -31075,6 +31078,7 @@ zzzyk.com###Tinfo
 ||circle.am^$third-party
 ||circlelevel.com^
 ||circonus.com/hit?
+||cis.schibsted.com^
 ||cisco.com/c/dam/cdc/j/at.js
 ||ciszhp.finanzfrage.net^
 ||ciszhp.gutefrage.net^
@@ -40906,7 +40910,6 @@ zzzyk.com###Tinfo
 ||iotewq.xyz^
 ||iovation.com^$third-party
 ||ioxjce.xyz^
-||ip-api.com^$third-party
 ||ip-label.net^$third-party
 ||ip-tracker.org^$third-party
 ||ip.chipestimate.com^
@@ -49460,6 +49463,7 @@ zzzyk.com###Tinfo
 ||pwssuj.com^
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
+||px-cloud.net/api/v2/collector
 ||px-cloud.net/b/s
 ||px.derstandard.at^
 ||px.effirst.com^

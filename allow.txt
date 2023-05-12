@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: fmCep95VIJY5+zIKharOEg
+! Checksum: Sb1Ycep2AeUH8wE/PEYo8w
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-12 16:17:37（北京时间） 
-! Total count: 15186
+! Version: 2023-05-13 00:17:17（北京时间） 
+! Total count: 15192
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -552,6 +552,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgodicpocket.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3196,6 +3197,7 @@
 @@||cdn.krxd.net/controltag/*.js$domain=video.foxnews.com|video.foxbusiness.com
 @@||cdn.lib.getjad.io/library/$domain=purepeople.com
 @@||cdn.lib.getjad.io/prebid/$domain=purepeople.com
+@@||cdn.livechatinc.com/tracking.js$domain=g.network
 @@||cdn.livechatinc.com/tracking.js$domain=upc.pl
 @@||cdn.lsicloud.net/kendall/Images/AD/$domain=shop.kendallelectric.com
 @@||cdn.mangaeden.com/js/ad/advertisement.js
@@ -3961,6 +3963,7 @@
 @@||comeresaprensasl.tt.omtrdc.net/rest/v*/delivery?$domain=hoy.es
 @@||comicincorrect.wpengine.netdna-cdn.com/wp-content/uploads/$image,domain=comicallyincorrect.com
 @@||comment-cdn.9gag.com/*comment-list.json?$removeparam
+@@||commercelayer.io^$stealth
 @@||commons.wikimedia.org/w/api.php?$~third-party,xmlhttprequest
 @@||commonsensemedia.org/ajax/review/$~third-party,xmlhttprequest
 @@||community-wscdn.xmwol.com^$stealth,image,stylesheet
@@ -4035,6 +4038,7 @@
 @@||consent.cookiebot.com/uc.js$domain=plaion.com
 @@||consent.cookiebot.com/uc.js$domain=puls4.com
 @@||consent.cookiebot.com/uc.js$domain=radiodresden.de
+@@||consent.cookiebot.com/uc.js$domain=stadtmobil.de
 @@||consent.cookiebot.com/uc.js$domain=steuertipps.de
 @@||consent.cookiebot.com/uc.js$domain=swspremberg.de
 @@||consent.cookiebot.com/uc.js$domain=traunsteiner-tagblatt.de
@@ -8788,6 +8792,7 @@
 @@||lsi.com^*/google-analytics.js
 @@||lswcdn.net^$stealth
 @@||ltzn.9377.com^
+@@||luckydesigner.space/adview_$xhr,1p
 @@||luminalearning.com/affiliate-content/$image,~third-party
 @@||lumion3d.com^
 @@||lumion3d.net^
@@ -12815,6 +12820,7 @@
 @@||static.doubleclick.net/instream/ad_status.js$domain=pewgame.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=tweakcentral.net
 @@||static.doubleclick.net/instream/ad_status.js$domain=wooseotools.com
+@@||static.doubleclick.net/instream/ad_status.js$domain=youtube.com
 @@||static.doubleclick.net/instream/ad_status.js$xmlhttprequest,domain=woowebtools.com
 @@||static.doubleclick.net^$app=com.google.android.apps.cultural
 @@||static.editor.naver.net/static/$stealth
