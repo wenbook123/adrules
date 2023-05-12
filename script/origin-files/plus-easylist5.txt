@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202305110118
+! Version: 202305120121
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 59147
+! Lenth = 59164
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -289,6 +289,7 @@ $cookie=rxVisitor
 $cookie=s_cc
 $cookie=s_ecid
 $cookie=s_fid
+$cookie=s_invisit
 $cookie=s_lastvisit
 $cookie=s_lastvisit_s
 $cookie=s_nr
@@ -296,6 +297,7 @@ $cookie=s_pltp
 $cookie=s_ppv
 $cookie=s_sq
 $cookie=s_vi
+$cookie=s_vnum
 $cookie=sa31,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl|benchmark.pl
 $cookie=sbjs_current
 $cookie=sbjs_current_add
@@ -392,6 +394,7 @@ $removeparam=admitad_uid
 $removeparam=afid,domain=123chat.jp|kanochat.jp|live.fc2.com
 $removeparam=aiad_clid
 $removeparam=aid,domain=adguard-vpn.com|adguard-dns.com|adguard.com
+$removeparam=asc_source,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asgtbndr
 $removeparam=at_campaign,domain=bbc.com|bbc.co.uk
 $removeparam=at_medium,domain=bbc.com|bbc.co.uk
@@ -7136,6 +7139,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 @@||google-analytics.com/analytics.js$domain=whatcar.com
 @@||google-analytics.com/analytics.js$domain=wikium.ru
 @@||google-analytics.com/analytics.js$domain=zolotoyvek.ua
+@@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=coolermaster.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=expressvpn.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=nordvpn.com,important
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=tv-media.at,important
@@ -9120,8 +9124,10 @@ track.email.stackcommerce.com/q/$image
 track.mixmax.com/api$image
 trackedlink.net$image
 tracking.cirrusinsight.com$image
-ttv.pl,tvn24.pl#%#(function(){window.__pix2={event:function(){},track:function(){}}})();
-ttv.pl,tvn24.pl#%#//scriptlet("set-constant", "gemiusStream", "noopFunc")
+tvnturbo.pl,ttv.pl,tvn24.pl#%#//scriptlet('set-constant', '__pix2', 'emptyObj')
+tvnturbo.pl,ttv.pl,tvn24.pl#%#//scriptlet('set-constant', '__pix2.event', 'noopFunc')
+tvnturbo.pl,ttv.pl,tvn24.pl#%#//scriptlet('set-constant', '__pix2.track', 'noopFunc')
+tvnturbo.pl,ttv.pl,tvn24.pl#%#//scriptlet('set-constant', 'gemiusStream', 'noopFunc')
 tweakers.net#%#//scriptlet('abort-current-inline-script', 'AbStats', 'trackId')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'GlobalSnowplowNamespace')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'snowplow')
@@ -12060,7 +12066,6 @@ znak.com##.relap
 ||acronymfinder.com/~/tr.ashx
 ||acrosspf.com^$third-party
 ||acrotg.regatta.com^
-||acs.m.taobao.com^
 ||acs86.com^$third-party
 ||acsam-relay.agof.de^
 ||acsbap.com^$third-party
@@ -13629,6 +13634,7 @@ znak.com##.relap
 ||amptrack-dailymail-co-uk.cdn.ampproject.org^
 ||ampush.io^$third-party
 ||ams-pageview-public.s3.amazonaws.com^
+||ams.lelong.com.my^
 ||ams.oraclecloud.com^
 ||amsurg.tt.omtrdc.net^
 ||amtrakdigital.tt.omtrdc.net^
@@ -15890,7 +15896,7 @@ znak.com##.relap
 ||assessment.vetassess.com.au^
 ||assets-jpcust.jwpsrv.com/*/ping.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
-||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com
+||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com
 ||assets.adsttc.com/insights/form-funnel.min.js
 ||assets.adsttc.com/insights/tracker.js
 ||assets.alicdn.com/g/alilog/aplus_plugin_xwj/index.js
@@ -17537,6 +17543,7 @@ znak.com##.relap
 ||brothersbucket.com^$third-party
 ||brownsshoes.com/IZ/2tcS0qiG/init.js
 ||browsealoud.com/plus/scripts/$script
+||browser-intake-*-datadoghq.com^
 ||browser-intake-datadoghq.com^
 ||browser-intake-datadoghq.eu^$third-party
 ||browser-statistik.de^$third-party
@@ -18306,6 +18313,7 @@ znak.com##.relap
 ||cdn.one.store/javascript/dist/1.0/jcr-widget.js$domain=hificentre.com
 ||cdn.panelbear.com/analytics.js
 ||cdn.pdst.fm/ping.min.js
+||cdn.permutive.app/*-web.js$script,redirect=noopjs,domain=theglobeandmail.com
 ||cdn.pmweb.com.br/df/tag.js
 ||cdn.pranmcpkx.com^
 ||cdn.preciso.net^$third-party
@@ -27346,6 +27354,7 @@ znak.com##.relap
 ||games.softgames.de/assets/sg-ga-track-sdk.js
 ||gamesgames.com/wdg/performance_tracker-active
 ||gamesgames.com/wdg/tracking-active
+||gamesplanet.com^$removeparam=ref
 ||gamespot.com/js/compiled/trackingWithCT.js
 ||gamestar.de/*/index.cfm?event=tracking:
 ||gamestar.de/_misc/tracking/$domain=gamestar.de
@@ -28369,7 +28378,7 @@ znak.com##.relap
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=webdenal.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=whatcar.com,important
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=wikium.ru,important
-||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=~olx.*|~banki.ru|~bigc.co.th|~coolermaster.com
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=~olx.*|~banki.ru|~bigc.co.th
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=biomedglobal.net
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=boostnote.io
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=citethisforme.com
@@ -31800,6 +31809,7 @@ znak.com##.relap
 ||jsuol.com.br/aud/
 ||jsuol.com.br/aud/$script
 ||jsuol.com/rm/clicklogger_
+||jsv3.recruitics.com^$script
 ||jtp.expressen.se^
 ||jtrackern.joins.com^
 ||jtracking.lulusoft.com^
@@ -33480,6 +33490,7 @@ znak.com##.relap
 ||logicsfort.com^$third-party
 ||login.affiliatesit.cz^
 ||login.afreecatv.com^$removeparam=szFrom
+||login.dognet.sk/scripts/*?visitorId=
 ||login.e-ticket.co.jp^
 ||login.eki-net.com^$badfilter
 ||login.yahoo.com/config/loga?pad=
@@ -37932,6 +37943,7 @@ znak.com##.relap
 ||nickles.de/ivw/
 ||nicovideo.jp/*/user/actions/video/watch-events.json?
 ||nicovideo.jp/*/user/actions/watch-events/nonmember.json?
+||nicovideo.jp/api/ria/log.gif
 ||nicovideo.jp/api/tkas_video_impression
 ||nicovideo.jp^$removeparam=cmnhd_ref
 ||nicovideo.jp^$removeparam=news_ref
@@ -38139,6 +38151,7 @@ znak.com##.relap
 ||ns1p.net^$third-party
 ||ns2.phorm.com^
 ||ns336739.ip-37-187-249.eu^
+||nsandi.com/sites/all/themes/nsandi/js/webtrends_multitrack.js
 ||nsaudience.pl^$third-party
 ||nsc.adambank.com^
 ||nsc.coutts.com^
@@ -43431,6 +43444,7 @@ znak.com##.relap
 ||scientificshirt.com^$third-party
 ||scientificsneeze.com^
 ||scientificsneeze.com^$third-party
+||scinable.net/access?
 ||scinable.net/access?vid=
 ||scintillatingscissors.com^$third-party
 ||scintillatingsilver.com^
@@ -49999,6 +50013,7 @@ znak.com##.relap
 ||stats.sparkloop.app^
 ||stats.splinder.com^
 ||stats.spreadtheworld.net^
+||stats.sprocketrocket.co^
 ||stats.sqlteam.com^
 ||stats.ssl.postescanada-canadapost.ca^
 ||stats.stackingthebricks.com^
@@ -52543,6 +52558,7 @@ znak.com##.relap
 ||tohvww.mathon.fr^
 ||tok.vaicore.xyz^
 ||toku.yahoo.co.jp^$removeparam=fr
+||tokyo-calendar.jp^$removeparam=ref
 ||tokyo-np.co.jp^$removeparam=rct
 ||toldyouso.lol^$all
 ||toldyouso.pics^$all
@@ -58463,6 +58479,7 @@ znak.com##.relap
 ||xnukcp.cpcompany.com^
 ||xovq5nemr.com^
 ||xovq5nemr.com^$third-party
+||xozilla.xxx/static/js/analytics.*.js
 ||xp.allianz.de^
 ||xp.apple.com^$~ping
 ||xpanama.net^$third-party
