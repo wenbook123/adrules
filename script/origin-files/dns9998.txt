@@ -2,7 +2,7 @@
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules. 
 ! Homepage: https://kbsml.com
-! Last modified: 5/12/2023, 4:00:07 PM
+! Last modified: 5/13/2023, 8:00:03 AM
 !
 ||api.miwifi.com^
 ||youtube.com/pagead/paralleladview^
@@ -31820,6 +31820,8 @@ ants.tw#?##sidebar > section.widget_text > div.textwidget > script[src^="//pagea
 microsoftnews.msn.cn#?#.riverSections-DS-EntryPoint1-1 > div[style^="display: grid;"] > div[style^="grid-area:"]:last-child > .card-DS-card1-1 > div[class^="nativeAd-DS-card"]:upward(2)
 nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick*="open"]) { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
+pornbest.org#?#.container-fluid > div.row:has(> div.item > div.card > div.card-body > div > span:contains(/^ad$/))
+jxnlz.xyz#?#ul.clearfix > li:has(> a.video-pic:not([href^="/"], [href*="jxnlz.xyz"]))
 carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div.D_agu[style^="width"]:has(a[aria-label*="Dettol_Carousell_Banner_Campaign"]) { remove: true }
 boylove.cc#?#.stui-pannel__bd > div[class]:has(> div[class] > div[class] > a[href][target="_blank"][rel="nofollow"] > img[src^="/bookimages/img/"][src$=".gif"])
 rouman5.com#?#.col-md-4 > div.row:has(> div.col > h5:contains(支持一下吧))
@@ -31893,6 +31895,7 @@ csdn.net#?#aside > div.slide-outer:has(> div.box > div[adsid])
 csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 ##.Zi_ad_a_H
 ##a[href^="https://adm.beimg.com/"]
+pornbest.org##+js(abort-current-script, jQuery, injectPops)
 htmanga4.top##+js(abort-on-property-read, tips)
 nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.mediaUrl, '')
 nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.jumpUrl, '')
@@ -32027,6 +32030,10 @@ ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###resul
 ||alicdn.com^$image,domain=m.k1k.cc|thcdy.co|27k.cc|1024pa.com|hg6384.com-www.6u7u.com|4080kan.com|dy686.net
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .result ~ div:not([class]):not([style])
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top
+/images/friend/*.webp?$domain=pornbest.org|pornlulu.com
+pornlulu.com,pornbest.org###fullPageModal
+jxnlz.xyz##a[target="_blank"] > img
+jxnlz.xyz##ul.clearfix > li > a.video-pic:not([href^="/"], [href*="jxnlz.xyz"])
 cupfox.app##.banner > div.banner-content.right
 right.com.cn###hd > div.wp > div.hdc > h2
 ||right.com.cn/forum/static/image/common/logo
@@ -33455,6 +33462,7 @@ adguard.com,adguard.app##.hello_from_adguard_chinese
 /bg5t4h.oss-
 /blgg/*
 /blog/showdetail.php?z=$script,third-party
+/bookad.oss-
 /bookxiaoshuo.oss-
 /botad.html
 /BrandXuanDong.js
@@ -34817,6 +34825,7 @@ newduba.cn###jq_youxi
 ||234mx.club^
 ||32fi.com^
 ||331qka.cn^
+||36060.xyz^
 ||36nl.com^
 ||39nw.com^
 ||4388888.xyz^
@@ -34873,6 +34882,7 @@ newduba.cn###jq_youxi
 ||awdc6.com^
 ||baitu1llbkotsfthllcjeg.com^
 ||balspaulite.com^
+||baytfede.xyz^
 ||bcivqxd.cn^
 ||bdrzxp.xyz^
 ||beiod.xyz^
@@ -34901,6 +34911,7 @@ newduba.cn###jq_youxi
 ||cdn-99-pic.cc^
 ||cennv.cn^
 ||ceodk.xyz^
+||cex8jw.cn^
 ||cfxkluv.cn^
 ||cge.cc^
 ||chaozhunbb.xyz^
@@ -34995,6 +35006,7 @@ newduba.cn###jq_youxi
 ||hbbxwan.cn^
 ||hefei64.com^
 ||heild.xyz^
+||heliangjun2.cn^
 ||helid.xyz^
 ||hffxc.com^
 ||hgpdoa.cn^
@@ -35094,9 +35106,12 @@ newduba.cn###jq_youxi
 ||mrbtkyn.xyz^
 ||mrgecm.xyz^
 ||mrruuov.cn^
+||mueid.xyz^
+||mxknqq.com^
 ||nagmopd.cn^
 ||naned.xyz^
 ||ncyx.ltd^
+||ndqzqmb.xyz^
 ||nedes.xyz^
 ||nekomasu.ltd^
 ||networkname.xyz^
@@ -35164,6 +35179,7 @@ newduba.cn###jq_youxi
 ||robberyinscription.com^
 ||rpajqxo.cn^
 ||rqytqq.com^
+||rrzxlt.xyz^
 ||rsbepv.xyz^
 ||rszqtry.cn^
 ||rtdxqq.com^
@@ -35174,6 +35190,7 @@ newduba.cn###jq_youxi
 ||scrvw3.com^
 ||sectn.xyz^
 ||semaobf1.com^
+||seumouxuezha.xyz^
 ||sh6ss7.top^
 ||shangyuan.ltd^
 ||sisjwol.xyz^
@@ -35189,6 +35206,7 @@ newduba.cn###jq_youxi
 ||tc911.vip^
 ||tffulllist.shop^
 ||tfonlyuse.shop^
+||tian0.ltd^
 ||tianma704.ltd^
 ||tlhlpcb.xyz^
 ||tmochyf.cn^
@@ -35206,6 +35224,8 @@ newduba.cn###jq_youxi
 ||u5nvu.xyz^
 ||u833ij.com^
 ||ubifyc.xyz^
+||ucqihfh.cn^
+||ufgg55.xyz^
 ||umcpebi.cn^
 ||uqelxct.cn^
 ||uqymady.cn^
@@ -35240,6 +35260,7 @@ newduba.cn###jq_youxi
 ||weeqmcq.cn^
 ||weixinnft.com^
 ||wenxiaowu.xyz^
+||wgzgzmu.cn^
 ||whbn.xyz^
 ||windyang.xyz^
 ||wjaqc.xyz^
@@ -35315,15 +35336,14 @@ newduba.cn###jq_youxi
 ||zrrnqq.com^
 ||zsblog.vip^
 ||zscgoqt.cn^
-||mxknqq.com^
-||heliangjun2.cn^
-||tian0.ltd^
-||ndqzqmb.xyz^
-||mueid.xyz^
-||rrzxlt.xyz^
 ||zxgko.cn^
-||cex8jw.cn^
-||seumouxuezha.xyz^
+||xuanqi.ltd^
+||qnmtqq.com^
+||knxvwxe.cn^
+||nwecd.xyz^
+||zbbvhj.xyz^
+||xbldocp.xyz^
+||zebjlt.buzz^
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$="/1c626.com"]
@@ -43174,6 +43194,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||py.cn/src/img/pyy/
 ||py.cn/static/images/advert/
 ||qayqa.com:6868/jquery/
+||qbox.me/FlnVIdUeIo_LrXyGiOL0OFw0Gpa7
 ||qbox.me/FnjnjJhJZlKZEGJ7qV1AocqusFbf
 ||qdaily.com/mount_details/pc/
 ||qdjimo.com/html/js/
@@ -49686,12 +49707,12 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||0755rc.com^$third-party
 ||0941.org^
 ||1.95ye.com^
-||3.cjcp.cn^
 ||1.doudouditu.com^
 ||1.gunsuo.com^
 ||100669.com^$third-party
 ||15tianqi.com^$third-party
 ||200218.com^$third-party
+||3.cjcp.cn^
 ||5.ccutu.com^
 ||50m.gkcyc.com^
 ||51yhzp.com^$third-party
