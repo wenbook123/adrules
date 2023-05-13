@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: CoQRYngnU/Q738RBjQNhlg
+! Checksum: mFOaImvcDA/6LqdzMqg71w
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-05-13 08:50:25（北京时间） 
-! Total count: 63830
+! Version: 2023-05-13 16:17:12（北京时间） 
+! Total count: 63851
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -4925,6 +4925,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /bnTracker.js?
 /bnTracker/*
 /bom/analytics/*
+/bookad.oss-
 /bookvisitinfo.html?
 /bookxiaoshuo.oss-
 /boomLogger.
@@ -6138,7 +6139,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /geocc.$domain=~geocc.ru
 /geocoding.ash
 /geocompteur.
-/geocounter.
 /geoip.html
 /geoip/detect?
 /geoip?
@@ -6430,6 +6430,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /images/ads/*
 /images/beacon.*?errorMessage=
 /images/content/1436/*$domain=chineseinla.com
+/images/friend/*.webp?$domain=pornbest.org|pornlulu.com
 /images/masha*.gif
 /images/masha*.png
 /images/mobileads*.jpg
@@ -17005,6 +17006,9 @@ jxcn.cn,redianyule.com##.dsp_yxxf
 jxdbg.com##.indexmv
 jxedt.com###footer
 jxnews.com.cn##.ad120050
+jxnlz.xyz##a[target="_blank"] > img
+jxnlz.xyz##ul.clearfix > li > a.video-pic:not([href^="/"], [href*="jxnlz.xyz"])
+jxnlz.xyz#?#ul.clearfix > li:-abp-has(> a.video-pic:not([href^="/"], [href*="jxnlz.xyz"]))
 jyacht.com###playergg
 jyacht.com###zy_topgg2
 jyacht.com###zyc1r_03
@@ -18552,11 +18556,14 @@ porn5f.com##.preroll-adv-popup-iframe
 porn5f.com##.video-promote-adv
 porn5f.com#?#.row:-abp-has(> div.col-lg-3 > div[style] > div.carousel-inner > p.ad-title)
 porn87.com##.pc_instant
+pornbest.org#%#//scriptlet('abort-current-inline-script', 'jQuery', 'injectPops')
+pornbest.org#?#.container-fluid > div.row:-abp-has(> div.item > div.card > div.card-body > div > span:contains(/^ad$/))
 pornbest.org,ptt.sex##.btn-group + .row
 pornhub.com##DIV.adContainer
 pornhub.com##DIV.topAdContainter
 pornlulu.com##.container-fluid > .links
 pornlulu.com##.row.links
+pornlulu.com,pornbest.org###fullPageModal
 portablesoft.org##.downcenter
 portablesoft.org##.rightside > :nth-child(n+2)
 portablesoft.org##.sidebar-box
@@ -21018,7 +21025,6 @@ zzzyk.com###Tinfo
 ||1.ajiyuming.com^
 ||1.arpun.com^
 ||1.bh5.com.cn^
-||1.cjcp.cn^
 ||1.codesdq.com^
 ||1.codezh.com^
 ||1.doudouditu.com^
@@ -21666,6 +21672,7 @@ zzzyk.com###Tinfo
 ||2zzt.com/images/
 ||3-2g38cfo0l.cn^
 ||3.5646.cn^
+||3.cjcp.cn^
 ||3.cn/cesu/r?
 ||3.guidaye.com^
 ||3.ssqzj.com^
@@ -21752,6 +21759,7 @@ zzzyk.com###Tinfo
 ||360.cn/int/getadurls?
 ||360.cn/mapping_service?
 ||360.cn/popup/popinfo/
+||36060.xyz^
 ||360600.xyz^
 ||360640.com^
 ||360buyimg.com$domain=73thz.com
@@ -28841,6 +28849,7 @@ zzzyk.com###Tinfo
 ||bawdybeast.com^
 ||bawdypets.com^
 ||baynote.net^$third-party
+||baytfede.xyz^
 ||bazaarvoice.com/sid.gif
 ||bazaarvoice.com^*/magpie.js
 ||baztrack.com^$third-party
@@ -30782,6 +30791,7 @@ zzzyk.com###Tinfo
 ||cetlog.jp^$third-party
 ||cetrk.com^$third-party
 ||ceu5.icu^
+||cex8jw.cn^
 ||cf.campagnes-france.com^
 ||cf.overblog.com^
 ||cfa.fidelity.com^
@@ -42429,6 +42439,7 @@ zzzyk.com###Tinfo
 ||knowledgevine.net^$third-party
 ||knowmore.cc/style/head.js
 ||knr1.xyz^
+||knxvwxe.cn^
 ||knyjes.xyz^
 ||knymhv.ariat.com^
 ||knzmrw.infojobs.net^
@@ -47260,6 +47271,7 @@ zzzyk.com###Tinfo
 ||nvzffl.cn^
 ||nwadakesc.cyou^
 ||nwdjlx.xyz^
+||nwecd.xyz^
 ||nweon.com/wp-content/repo/ad/
 ||nwfkjx.gadventures.com^
 ||nwhvceb.cn^
@@ -49467,6 +49479,7 @@ zzzyk.com###Tinfo
 ||px-cdn.net^*/collector
 ||px-cloud.net/api/v2/collector
 ||px-cloud.net/b/s
+||px-intl.ucweb.com^
 ||px.derstandard.at^
 ||px.effirst.com^
 ||px.marchex.io^
@@ -49555,6 +49568,7 @@ zzzyk.com###Tinfo
 ||qbd4.site^
 ||qbjsymmi0w.cn^
 ||qbop.com^$third-party
+||qbox.me/FlnVIdUeIo_LrXyGiOL0OFw0Gpa7
 ||qbox.me/FnjnjJhJZlKZEGJ7qV1AocqusFbf
 ||qbox.me/vds.js
 ||qbtd.xyz^
@@ -49826,6 +49840,7 @@ zzzyk.com###Tinfo
 ||qnipkk.xyz^
 ||qnipkk.xyz^$third-party
 ||qnlbs2m0uoto.www.videoath.com^
+||qnmtqq.com^
 ||qnmvqdl.cn^
 ||qnnyok.123print.com^
 ||qnsb.com/news/index.php?m=poster&
@@ -52021,6 +52036,7 @@ zzzyk.com###Tinfo
 ||setn.com/js/advertisement?
 ||settings.luckyorange.net^$third-party
 ||setup.physiapp.com^
+||seumouxuezha.xyz^
 ||sevenmax.cn^
 ||severn.viessmann.co.uk^
 ||sex141.com/img/banner/
@@ -59310,6 +59326,7 @@ zzzyk.com###Tinfo
 ||ucmetrics.unicreditgroup.eu^
 ||ucounter.ucoz.net^
 ||ucoz.com/stat/
+||ucqihfh.cn^
 ||uctrac.com^$third-party
 ||ucv3kq.com^
 ||ucweb.com/collect/
@@ -60970,6 +60987,7 @@ zzzyk.com###Tinfo
 ||wgpsfdg.cn^
 ||wgsas.com^$third-party
 ||wgttjk.cn^
+||wgzgzmu.cn^
 ||whafwl.com^
 ||whale3.io^
 ||whatif.it.adobe.com^
@@ -61883,6 +61901,7 @@ zzzyk.com###Tinfo
 ||xbiqugela.com/js/basisc.
 ||xbiqugexx.com/js/jamq.
 ||xbiqugexx.com/static/js/wap.js
+||xbldocp.xyz^
 ||xbmady.daimaru-matsuzakaya.jp^
 ||xbox.com^$removeparam=rtc
 ||xbox.com^$removeparam=xr
@@ -62303,6 +62322,7 @@ zzzyk.com###Tinfo
 ||xtxa.net^
 ||xtzx.xyz^
 ||xuaihua.work^
+||xuanqi.ltd^
 ||xuanyaosp.com^
 ||xuc.monteleone.fr^
 ||xuchangmuying.com^
@@ -63223,6 +63243,7 @@ zzzyk.com###Tinfo
 ||zazzle.fr/svc/px
 ||zb.516624.com^
 ||zb7b.top^
+||zbbvhj.xyz^
 ||zbc6hy*.live^
 ||zbc6hye*.xyz^
 ||zbc6hyepls.xyz^

@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202305120121
+! Version: 202305130133
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 25064
+! Lenth = 25087
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2000,6 +2000,7 @@ $websocket,domain=5nj.com|cechi8.com
 /blog/showdetail.php?z=$script,third-party
 /bmqp6001-
 /bmqp6002-
+/bookad.oss-
 /bookxiaoshuo.oss-
 /botad.html
 /bottomad/*
@@ -2199,6 +2200,7 @@ $websocket,domain=5nj.com|cechi8.com
 /images/ad/*
 /images/ads/*
 /images/content/1436/*$domain=chineseinla.com
+/images/friend/*.webp?$domain=pornbest.org|pornlulu.com
 /images/masha*.gif
 /images/masha*.png
 /images/mobileads*.jpg
@@ -8680,6 +8682,9 @@ jxcn.cn,redianyule.com##.dsp_yxxf
 jxdbg.com##.indexmv
 jxedt.com###footer
 jxnews.com.cn##.ad120050
+jxnlz.xyz##a[target="_blank"] > img
+jxnlz.xyz##ul.clearfix > li > a.video-pic:not([href^="/"], [href*="jxnlz.xyz"])
+jxnlz.xyz#?#ul.clearfix > li:-abp-has(> a.video-pic:not([href^="/"], [href*="jxnlz.xyz"]))
 jyacht.com###playergg
 jyacht.com###zy_topgg2
 jyacht.com###zyc1r_03
@@ -9961,9 +9966,12 @@ porn5f.com##.preroll-adv-popup-iframe
 porn5f.com##.video-promote-adv
 porn5f.com#?#.row:-abp-has(> div.col-lg-3 > div[style] > div.carousel-inner > p.ad-title)
 porn87.com##.pc_instant
+pornbest.org#%#//scriptlet('abort-current-inline-script', 'jQuery', 'injectPops')
+pornbest.org#?#.container-fluid > div.row:-abp-has(> div.item > div.card > div.card-body > div > span:contains(/^ad$/))
 pornbest.org,ptt.sex##.btn-group + .row
 pornlulu.com##.container-fluid > .links
 pornlulu.com##.row.links
+pornlulu.com,pornbest.org###fullPageModal
 portablesoft.org##.downcenter
 portablesoft.org##.rightside > :nth-child(n+2)
 portablesoft.org##.sidebar-box
@@ -11979,7 +11987,6 @@ zzzyk.com###Tinfo
 ||1.ajiyuming.com^
 ||1.arpun.com^
 ||1.bh5.com.cn^
-||1.cjcp.cn^
 ||1.codesdq.com^
 ||1.codezh.com^
 ||1.doudouditu.com^
@@ -12470,6 +12477,7 @@ zzzyk.com###Tinfo
 ||2zzt.com/images/
 ||3-2g38cfo0l.cn^
 ||3.5646.cn^
+||3.cjcp.cn^
 ||3.guidaye.com^
 ||3.ssqzj.com^
 ||301848.com^
@@ -12545,6 +12553,7 @@ zzzyk.com###Tinfo
 ||360.cn/index/showjokes?callback=
 ||360.cn/int/getadurls?
 ||360.cn/popup/popinfo/
+||36060.xyz^
 ||360600.xyz^
 ||360640.com^
 ||360buyimg.com$domain=73thz.com
@@ -14409,6 +14418,7 @@ zzzyk.com###Tinfo
 ||batiao20221209.xyz^
 ||bavei.com/img/*.png
 ||bavxxf.xyz^
+||baytfede.xyz^
 ||bb-bbjsyuming.cc^
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/C-79.gif
@@ -15085,6 +15095,7 @@ zzzyk.com###Tinfo
 ||ceqerq.xyz^
 ||cerfbup.xyz^
 ||ceu5.icu^
+||cex8jw.cn^
 ||cfaxidtm.site^
 ||cfff.net^$third-party
 ||cfhijdsb.cn^
@@ -19083,6 +19094,7 @@ zzzyk.com###Tinfo
 ||knmwrkw.xyz^
 ||knowmore.cc/style/head.js
 ||knr1.xyz^
+||knxvwxe.cn^
 ||knyjes.xyz^
 ||koatkm.xyz^
 ||kocpc.com.tw/adsbyso.js
@@ -20458,6 +20470,7 @@ zzzyk.com###Tinfo
 ||nvzffl.cn^
 ||nwadakesc.cyou^
 ||nwdjlx.xyz^
+||nwecd.xyz^
 ||nweon.com/wp-content/repo/ad/
 ||nwhvceb.cn^
 ||nwogldc.top^
@@ -21139,6 +21152,7 @@ zzzyk.com###Tinfo
 ||qbd3.site^
 ||qbd4.site^
 ||qbjsymmi0w.cn^
+||qbox.me/FlnVIdUeIo_LrXyGiOL0OFw0Gpa7
 ||qbox.me/FnjnjJhJZlKZEGJ7qV1AocqusFbf
 ||qbtd.xyz^
 ||qc1.cheshipin.com^
@@ -21338,6 +21352,7 @@ zzzyk.com###Tinfo
 ||qnfvojfkw.xyz^
 ||qnieo.fun^
 ||qnipkk.xyz^$third-party
+||qnmtqq.com^
 ||qnmvqdl.cn^
 ||qnsb.com/news/index.php?m=poster&
 ||qnvod.net/qna/
@@ -21902,6 +21917,7 @@ zzzyk.com###Tinfo
 ||sesefu8.com/statics/js/layer/layer.js
 ||setbbts.cyou^
 ||setn.com/js/advertisement?
+||seumouxuezha.xyz^
 ||sevenmax.cn^
 ||sex141.com/img/banner/
 ||sex8.cc/plugin-e6-rebate.html
@@ -23059,6 +23075,7 @@ zzzyk.com###Tinfo
 ||uc9.suinidai.com.cn^
 ||uchks.com/2018/%
 ||uckmee.xyz^
+||ucqihfh.cn^
 ||uctrac.com^$third-party
 ||ucv3kq.com^
 ||uczfl.com/data/content
@@ -23088,6 +23105,7 @@ zzzyk.com###Tinfo
 ||uekjbr.cn^
 ||uekqdec.cn^
 ||uengbalc.fun^
+||ufgg55.xyz^
 ||ufile.cc/crod.js
 ||ufzwoiu.cn^
 ||ugkmihh.cn^
@@ -23603,6 +23621,7 @@ zzzyk.com###Tinfo
 ||wgnlaige.fun^
 ||wgpsfdg.cn^
 ||wgttjk.cn^
+||wgzgzmu.cn^
 ||whafwl.com^
 ||whbhsoft.cn^
 ||whbn.xyz^
@@ -23851,6 +23870,7 @@ zzzyk.com###Tinfo
 ||xbiqugela.com/js/basisc.
 ||xbiqugexx.com/js/jamq.
 ||xbiqugexx.com/static/js/wap.js
+||xbldocp.xyz^
 ||xbptvaq.cn^
 ||xbtw.com^
 ||xbvmrx.xyz^
@@ -24135,6 +24155,7 @@ zzzyk.com###Tinfo
 ||xtxa.net^
 ||xtzx.xyz^
 ||xuaihua.work^
+||xuanqi.ltd^
 ||xuchangmuying.com^
 ||xue.zbyw.cn^
 ||xueaaai.cn^
@@ -24669,6 +24690,7 @@ zzzyk.com###Tinfo
 ||zawqwpajq.club^
 ||zax01.com^
 ||zb7b.top^
+||zbbvhj.xyz^
 ||zbc6hyepls.xyz^
 ||zbcdn.net/__uvjgyw/slb.default.js
 ||zbjimg.com/static/union/
@@ -24714,6 +24736,7 @@ zzzyk.com###Tinfo
 ||zdy1.xyz^
 ||zdyuoae.xyz^
 ||ze5.com^$third-party
+||zebjlt.buzz^
 ||zefmsbu.cn^
 ||zeipw.xyz^
 ||zengbalg.fun^
