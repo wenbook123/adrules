@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: AhQkIVbAVX+qbqNtEHVOrg
+! Checksum: K8Q2KQRNT3cuzeKB6S9Icg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-05-15 16:17:43（北京时间） 
-! Total count: 63769
+! Version: 2023-05-16 00:22:36（北京时间） 
+! Total count: 63754
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1021,6 +1021,7 @@
 ##DIV#div1.div-relative[style='display:block;']
 ##DIV#links.links.my-1.row[style='font-size:20px']
 ##DIV#mhbottom_ad_box
+##DIV#pos_nei_content
 ##DIV#recommend-float.player-recommend-float > a
 ##DIV#tads
 ##DIV#video-player-ads-wrap
@@ -1082,12 +1083,12 @@
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
 ##INS.adsbygoogle
 ##P[style$='transparent !important; font-size: 0px !important; text-indent: -10000px !important; height: 125px !important;']
-##P[style*='background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important;']
+##P[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important;']
 ##SPAN#VuMk2.IgpuN2
 ##SPAN#qdSZ2
 ##SPAN.closebox1,SPAN.closebox2,SPAN.closebox3,SPAN.closebox4
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
-##SPAN[style="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color: rgb(255, 255, 255); text-align: center; transform: rotate(-90deg);"]
+##SPAN[style^="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color:"]
 ##UL.myui-extra.clearfix
 ##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
@@ -4137,14 +4138,11 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=kleinanzeigen.de
-/^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
-/^https?:\/\/src\.ebay-us\.com\/[_a-zA-Z0-9]{10,}\?/$script,domain=pages.ebay.com
 /^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=tjx.com
 /^https?:\/\/tmx\.(td|tdbank)\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com|tdbank.com
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=kleinanzeigen.de
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
-/^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
 /_/api/v2/analytics/?
 /_/lite/performance/*
 /_/oh-noes$~third-party,xmlhttprequest
@@ -21232,7 +21230,6 @@ zzzyk.com###Tinfo
 ||131458.com/union/
 ||1328f.com/js/jquery.js
 ||13322.com/newIndex/ad/
-||1337x.to/ip3.php
 ||1338999.com^
 ||134.73.54.252^
 ||1342a.com/js/jquery.js
@@ -25180,7 +25177,6 @@ zzzyk.com###Tinfo
 ||adbsmetrics.lotterentacar.net^
 ||adbtwyxl96.fun^
 ||adbxb.com^$third-party
-||adc-js.nine.com.au^
 ||adc-serv.net^$third-party
 ||adc-srv.net/retargeting.php
 ||adc.9news.com.au^
@@ -28616,6 +28612,7 @@ zzzyk.com###Tinfo
 ||baidu.com/smalllog/
 ||baidu.com/source/getinfo?
 ||baidu.com/static/ecom/js/wise/home/nativeAds_
+||baidu.com/static/h.gif
 ||baidu.com/static/html/cbjs.html
 ||baidu.com/staticapi/hotnews_new.
 ||baidu.com/staticapi/misadlist.
@@ -31218,7 +31215,6 @@ zzzyk.com###Tinfo
 ||click.nudevista.com^
 ||click.oneplus.cn^
 ||click.oneplus.cn^$third-party
-||click.oneplus.com^
 ||click.redditmail.com^
 ||click.rollouki.com^
 ||click.signaturemarket.co^
@@ -32077,6 +32073,7 @@ zzzyk.com###Tinfo
 ||content.hurix.com^
 ||content.hydraulicsproducts.com^
 ||content.icanmkrtg.com^
+||content.id.elsevier.com^
 ||content.investresolve.com^
 ||content.juniper.net^
 ||content.linesight.com^
@@ -32817,7 +32814,6 @@ zzzyk.com###Tinfo
 ||d.ab126.com^
 ||d.adlpo.com^
 ||d.bodu365.co^*.js
-||d.cdngeek.com^$domain=edugeek.net
 ||d.delahorro.app^
 ||d.dgzj.com^
 ||d.haberler.com^
@@ -33418,7 +33414,6 @@ zzzyk.com###Tinfo
 ||dell.com^$removeparam=dgc
 ||dell.com^$removeparam=gacd
 ||dell.com^$removeparam=nclid
-||dellcdn.com/csb/scripts/csb-boomr.$domain=dell.com
 ||delphi.lv/t/t.js
 ||delphi.ni.com^
 ||delta.com/datacollect
@@ -35700,7 +35695,6 @@ zzzyk.com###Tinfo
 ||etyper.com^$third-party
 ||eu-mobile.events.data.microsoft.com^
 ||eu-survey.com^$third-party
-||eu.groupondata.com^
 ||eu.sharpmarketing.eu^
 ||euapp.levi.com^
 ||eubynl.baby-sweets.de^
@@ -36029,6 +36023,7 @@ zzzyk.com###Tinfo
 ||f-log-at.grammarly.io^
 ||f-log-test.grammarly.io^
 ||f.a23.in^
+||f.cdngeek.com^$domain=edugeek.net
 ||f.email.bjs.com^*/1x2.gif
 ||f.zgbmw.com.cn^$third-party
 ||f0nn.oney.fr^
@@ -38131,8 +38126,6 @@ zzzyk.com###Tinfo
 ||gorgeousground.com^$third-party
 ||gorgon.youdao.com^
 ||gorpgeu.xyz^
-||goseek.com/session-
-||goseek.com/track-
 ||gostats.cn^$third-party
 ||gostats.com^$third-party
 ||gostats.de^$third-party
@@ -39731,7 +39724,7 @@ zzzyk.com###Tinfo
 ||ibpxl.net^$third-party
 ||ibqkjbw.com^
 ||ibqswjdkpo.com^
-||ibt.com/front/js/counter.js
+||ibtimes.com/front/js/counter.js
 ||ibwqfpo.xyz^
 ||ic-live.com^$third-party
 ||icaile.com/z.php?id=
@@ -40728,6 +40721,7 @@ zzzyk.com###Tinfo
 ||inq.com/tagserver/logging/logline
 ||inq.com^*/onEvent?_
 ||inqjal.dickssportinggoods.com^
+||inquisitiveice.com^
 ||inquisitiveinvention.com^$third-party
 ||inrd.ru^$third-party
 ||inrjrj.cafepress.com^
@@ -43838,7 +43832,6 @@ zzzyk.com###Tinfo
 ||logcounter.com^$third-party
 ||logdy.com^$third-party
 ||logentries.com^$third-party
-||logg.kiwi.com^
 ||logger.bzu.kr^
 ||logger.co.kr^$third-party
 ||logger.kataweb.it^
@@ -43863,6 +43856,7 @@ zzzyk.com###Tinfo
 ||loginlog.sdo.com^
 ||logistics.dbschenker.com^
 ||logistics.osmworldwide.com^
+||loglady.kiwi.com^
 ||loglady.skypicker.com^
 ||logly.co.jp^$third-party
 ||logmatic.io^$third-party
@@ -43877,7 +43871,6 @@ zzzyk.com###Tinfo
 ||logs.amap.com^
 ||logs.animaapp.com^
 ||logs.datadoghq.com^$third-party
-||logs.gaana.com^
 ||logs.ggweb.nl^
 ||logs.hotstar.com^
 ||logs.naukri.com^
@@ -45412,6 +45405,7 @@ zzzyk.com###Tinfo
 ||meizhou.com/images/topbanner
 ||melhorplano.net/scripts/tracker/
 ||melife.love^
+||mellowmd.com^
 ||melodicminute.com^
 ||meltmilk.com^
 ||mem3.cn^
@@ -47080,6 +47074,7 @@ zzzyk.com###Tinfo
 ||no1.168abc.net/upload/
 ||no9pldds1lmn3.soundcloud.com^
 ||noa0.compteczam.fr^
+||noeyeon.click^
 ||noeyeon.com^
 ||noflake-aggregator-http.narvar.com^
 ||nofraud.com/js/device.js
@@ -47108,7 +47103,7 @@ zzzyk.com###Tinfo
 ||nooen.com^$popup
 ||noowho.com^$third-party
 ||nordicresearch.com^$third-party
-||nordstrom.com/log
+||nordstrom.com/api/cupcake/
 ||norlsbly.cyou^
 ||norma-external-collect.meizu.com^
 ||norml.org^$removeparam=can_id
@@ -48117,7 +48112,6 @@ zzzyk.com###Tinfo
 ||pages-stats.rbl.ms^
 ||pages.att.com^
 ||pages.canon.com.au^
-||pages.ebay.com/identity/device/$subdocument
 ||pages.expoeast.com^
 ||pages.jobaline.com^
 ||pages.kwm.com^
@@ -50120,7 +50114,6 @@ zzzyk.com###Tinfo
 ||qyun.vip/pic/*.gif
 ||qyvnic.footshop.cz^
 ||qyzyd.top^
-||qz.com/log
 ||qz15.top^
 ||qz828.com/css/2010/script/*ad
 ||qzbxfs.com^
@@ -52646,7 +52639,6 @@ zzzyk.com###Tinfo
 ||slack.com/beacon/
 ||slack.com/clog/track/
 ||slackb.com^
-||slant.co/js/track.min.js
 ||slashdot.org/country.js
 ||slashdot.org/images/js.gif
 ||slashlook.com/_resource/html/_bloggerAdsBottom.html
@@ -53765,6 +53757,7 @@ zzzyk.com###Tinfo
 ||ssa.tlc.com^
 ||ssaa.cc^$third-party
 ||ssac.suning.com^
+||ssacher.com^
 ||ssb.ah499.com^
 ||ssc.bet.plus^
 ||ssc.blurb.ca^
@@ -54238,6 +54231,7 @@ zzzyk.com###Tinfo
 ||statdb.pressflex.com^
 ||statdynamic.com^
 ||stated.io^$third-party
+||stategg.cdngeek.com^
 ||statementsweater.com^
 ||states.newegg.ca^
 ||states.newegg.com^
@@ -54442,7 +54436,6 @@ zzzyk.com###Tinfo
 ||stats.cassidyjames.com^
 ||stats.castingdepot.com^
 ||stats.catholicluv.com^
-||stats.cdngeek.com^$domain=edugeek.net
 ||stats.centerforvalues.international^
 ||stats.centralswindonnorth-pc.gov.uk^
 ||stats.cfcasts.com^
@@ -54598,7 +54591,6 @@ zzzyk.com###Tinfo
 ||stats.fr^$third-party
 ||stats.frankfurterneuepresse.de^
 ||stats.frenlo.com^
-||stats.fs.com^
 ||stats.fs4c.org^
 ||stats.fullofwishes.co.uk^
 ||stats.fundimmo.com^
@@ -55267,7 +55259,7 @@ zzzyk.com###Tinfo
 ||sttrr.top^
 ||stts.sgab-srfp.ch^
 ||stttest.bupa.com.au^
-||stubhub.com/bfx/api/logging
+||stubhub.com/a/icph
 ||studeersnel.nl/27m703Hm/init.js
 ||studiostack.com^$third-party
 ||studocu.com/27m703Hm/init.js
@@ -57028,8 +57020,8 @@ zzzyk.com###Tinfo
 ||tonghuacun.com/js/uc.js
 ||tonghuaji.com^
 ||tongj.xilu.com^
+||tongji-res.meizu.com^
 ||tongji.mafengwo.cn^
-||tongji.meizu.com^
 ||tongji.xinmin.cn^
 ||tongji2.vip.duba.net/__infoc.gif?
 ||tongsone.uno^
@@ -57046,7 +57038,7 @@ zzzyk.com###Tinfo
 ||top-ro.ro^$third-party
 ||top.baidu.com/js/nsclick.js
 ||top.elec.ru^
-||top.gg/api/auctions/impression
+||top.gg/api/auctions/i
 ||top.lv^$third-party
 ||top.mail.ru/tc?js
 ||top.mail.ru/tpc.js
@@ -57995,7 +57987,6 @@ zzzyk.com###Tinfo
 ||track.laredoute.fr^$image
 ||track.leady.cz^
 ||track.lesmills.com^
-||track.lexico.com^
 ||track.mailerlite.com^
 ||track.mituo.cn^
 ||track.mp4.center^
@@ -58054,7 +58045,6 @@ zzzyk.com###Tinfo
 ||track.tiara.kakao.com^
 ||track.tom.com^
 ||track.tomwx.net^
-||track.totalav.com^$script
 ||track.uc.cn^
 ||track.ultimate-guitar.com^
 ||track.untd.com^
@@ -58921,7 +58911,6 @@ zzzyk.com###Tinfo
 ||tu.zx110.org^
 ||tu2.taohuaimg.com^$third-party
 ||tuape.xyz^
-||tube8live.com/api/metrics
 ||tubemogul.com^$third-party
 ||tubepornstars.com/js/analytics
 ||tubi.io/datascience/logging?
@@ -59320,7 +59309,6 @@ zzzyk.com###Tinfo
 ||uibtxv.cn^
 ||uicjnk.gumtree.co.za^
 ||uid.mediacorp.sg^
-||uie.data.cbc.ca^
 ||uifesg.modulor.de^
 ||uiiwzyv.cn^
 ||uim.tifbs.net^
@@ -60049,7 +60037,6 @@ zzzyk.com###Tinfo
 ||vivaciousveil.com^
 ||vivaldi.com^$removeparam=pk_campaign
 ||vivaldi.com^$removeparam=pk_kwd
-||vivid.money/projectx/$ping
 ||vivistats.com^$third-party
 ||vivocha.com^$third-party
 ||vivociti.com/images/$third-party
@@ -60167,7 +60154,6 @@ zzzyk.com###Tinfo
 ||vroom.be^*/stats.php?
 ||vrrw.net//templets/default/js/ad.js
 ||vrtrdvx.cn^
-||vrv.co/ip
 ||vry9.destinia.com^
 ||vrzmfy.fool.com^
 ||vs.target.com^
@@ -60341,7 +60327,6 @@ zzzyk.com###Tinfo
 ||wake-up-neo.com/bnet/
 ||wakefulcook.com^
 ||waking.pro^
-||wal.co/cdn-perf.min.js
 ||wal.wolfram.com^
 ||walbusch.de^$ping
 ||walibao.com^$third-party
@@ -60455,7 +60440,6 @@ zzzyk.com###Tinfo
 ||wbiao.co/src2/js/expand/fudong/
 ||wbkqzx.decantalo.com^
 ||wbkval.ecco.com^
-||wblt.oui.sncf^
 ||wbnhqq.com^
 ||wbqosw.xyz^
 ||wbtrk.net^$third-party
@@ -60847,7 +60831,6 @@ zzzyk.com###Tinfo
 ||wellsfargo.com/PIDO/
 ||wellsfargo.com/dti_apg/
 ||wellsfargo.com/jenny/
-||wellsfargo.com/tracking/
 ||welt-der-links.de^$third-party
 ||welt.de^$removeparam=wtrid
 ||wemdsm.com^
@@ -60893,6 +60876,7 @@ zzzyk.com###Tinfo
 ||wffengtai.com.cn^
 ||wfhuzaj.cn^
 ||wfiles.hcomic.net/indexSwiper/*_*x*_*_TC_gif.gif
+||wfinterface.com/tracking/$domain=wellsfargo.com
 ||wfndponfd.com^
 ||wganilgle.cyou^
 ||wgdacc.com^
@@ -60982,7 +60966,7 @@ zzzyk.com###Tinfo
 ||wikigifth.com^
 ||wikihow.com/ev/
 ||wikihow.com/x/collect?
-||wikimonde.com/h.php
+||wikimonde.com/matom.js
 ||wikipedia.de/tracking.js
 ||wikipedia.org/beacon/
 ||wildernesscamera.com^
@@ -61270,6 +61254,7 @@ zzzyk.com###Tinfo
 ||wt.netze-bw.de^
 ||wt.oscaro.com^
 ||wt.vhb.de^
+||wt.viagogo.net^
 ||wtaccesscontrol.com^
 ||wtastats.com^$third-party
 ||wtastats.ro^$third-party
