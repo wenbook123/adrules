@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 5vLDwDM3Gukl6z90Hrmf2A
+! Checksum: X11ia+k9FcwC6BcFS0cP8w
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-15 08:56:18（北京时间） 
-! Total count: 12866
+! Version: 2023-05-15 16:17:43（北京时间） 
+! Total count: 12868
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -325,6 +325,7 @@
 @@/owa/service.svc$document
 @@/pagead2.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@/pdc_s_code.js$domain=adobe.com
+@@/pl/js/detect-adblock/*.js$domain=ddwloclawek.pl|ddtorun.pl
 @@/play.php?$stealth,domain=netlivetv.xyz
 @@/playlist.m3u8$stealth
 @@/plugins/ad-blocking-detector/*$script
@@ -483,7 +484,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgm^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -2582,6 +2583,7 @@
 @@||cdn.appconsent.io/*.js$domain=journaldesfemmes.fr|linternaute.com
 @@||cdn.appconsent.io/*.js$domain=lachainemeteo.com
 @@||cdn.appconsent.io/*.js$domain=lefigaro.fr
+@@||cdn.appconsent.io^$script,domain=commentcamarche.net|journaldesfemmes.fr|lachainemeteo.com|lefigaro.fr|linternaute.com
 @@||cdn.apple-mapkit.com/*?apiVersion=$stealth
 @@||cdn.apple-mapkit.com/ma/bootstrap?$stealth,domain=icloud.com
 @@||cdn.ark.qq.com^
@@ -3350,7 +3352,6 @@
 @@||cloudvideo.tv/embed-$domain=139.99.120.222
 @@||cloudvideo.tv/embed-$stealth
 @@||club.tgfcer.com^$generichide
-@@||clubbingtv.com/*/ads/showad.js|
 @@||clubic.com^$generichide
 @@||clubinvest.top^$stealth
 @@||cm-beacon.nakanohito.jp/at/ranking/$script
@@ -3455,6 +3456,7 @@
 @@||collect.igodigital.com^$domain=m.harborfreight.com
 @@||collector-*.px-client.net/res/uc$domain=walmart.com
 @@||collector.appconsent.io/hello$domain=lachainemeteo.com
+@@||collector.appconsent.io/hello$domain=lachainemeteo.com|lefigaro.fr
 @@||collector.appconsent.io/hello$domain=lefigaro.fr
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
 @@||collector.wawlabs.com/mediamarkt.js$domain=mediamarkt.com.tr
