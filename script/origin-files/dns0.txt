@@ -1,8 +1,8 @@
-! Checksum: Gdaqb39ribt3jFAYFxoTNQ
+! Checksum: hSd7U0PZAIf0GUP9hSQhiA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.88.91
-! TimeUpdated: 2023-05-15T23:31:08+00:00
+! Version: 2.0.88.93
+! TimeUpdated: 2023-05-16T07:31:21+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -733,6 +733,8 @@ zhenbuka3.com,zhenbuka2.com,bukaivip.com#%#//scriptlet("prevent-setTimeout", "ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83404
 xiebruce.top#%#//scriptlet("prevent-addEventListener", "", "showRemoveAdBlocker")
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=xiebruce.top
+! https://github.com/AdguardTeam/AdguardFilters/issues/150839
+ddrk.me#%#//scriptlet('set-constant', 'Object.prototype.cnobpreroll_', 'true')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149128
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90881
 ddys.*#%#//scriptlet('set-constant', 'Object.prototype.canobpreroll_', 'true')
@@ -4922,6 +4924,7 @@ newduba.cn###jq_youxi
 ||pacix.xyz^
 ||radish-cake.xyz^
 ||zldzbr.xyz^
+||iwdvvoc.cn^
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$="/1c626.com"]
@@ -15525,6 +15528,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+downza.cn##.down-item-2
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17942,11 +17946,8 @@ xiazaizhijia.com##.down_list
 7x7n.com##.down_load_1
 7x7n.com##.down_load_2
 dayanzai.me##.down_show_intro_first_box
-downza.cn##.down_soft_bottom
-downza.cn##.down_top
 18183.com##.down_url
 greenxiazai.com##.downbtn > a:last-child
-downza.cn##.downbtn-top
 portablesoft.org##.downcenter
 51xiazai.cn##.downgs
 3dmgame.com##.downl_list + script + div
@@ -18152,7 +18153,7 @@ juxia.com##.game_img_list
 yxlady.com##.game_wrap
 sina.com.cn##.gamead1
 qidian.com##.games-op-wrap
-3987.com,downza.cn,drv5.cn,pcsoft.com.cn,win7w.com##.gaosu
+3987.com,drv5.cn,pcsoft.com.cn,win7w.com##.gaosu
 3h3.com##.gaosu_div
 3h3.com,downxia.com##.gaosu_down_div
 so.com##.garllery_ad
