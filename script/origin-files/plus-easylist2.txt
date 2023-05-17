@@ -20,8 +20,10 @@ youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkle
 ! https://github.com/easylist/easylist/issues/5112
 ! @@||youtube.com/get_video_info?*timedtext_editor$xhr,1p
 ! https://redd.it/ggcmkp https://redd.it/gx03e0
-!youtube.com,youtube-nocookie.com##+js(json-prune, *.playerResponse.adPlacements *.playerResponse.playerAds [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+! https://github.com/uBlockOrigin/uAssets/pull/18106/files
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
+!
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 ! https://github.com/uBlockOrigin/uAssets/issues/15632
@@ -1122,16 +1124,13 @@ receive-sms-online.info##+js(aopr, ga.length)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/500
 ! https://github.com/uBlockOrigin/uAssets/issues/828
-hltv.org##+js(nowoif)
 ||gainskins.com^$frame,domain=hltv.org
-hltv.org##body:style(background: transparent !important;)
-||hltv.org/img/*?$image
 ||hltv.org/img/newwidgets/$image
 ||hltv.org/img/static/featured_bet_bg.png$image
-hltv.org##[data-seen-before]
-hltv.org##[style^="--"]
-hltv.org##.leftCol > div[style]
-hltv.org##.newMatches > .gtSmartphone-only
+hltv.org##+js(nowoif)
+hltv.org##body, body::before:style(background-image: unset !important;)
+hltv.org##:is(div, aside) > a[href^="/"][data-link-tracking-page="Widget"]:upward(1)
+hltv.org##.leftCol > div [data-link-tracking-page="Widget"]:upward(.leftCol > div)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4149
 vidlox.*##+js(set, xRds, false)
@@ -2814,13 +2813,16 @@ sexu.com##.player-block__square
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3616
 pussyspace.*##+js(aopr, open)
-pussyspace.com,pussyspace.net##+js(aost, document.createElement, ExoSupport)
-pussyspace.com,pussyspace.net##+js(aost, Node.prototype.appendChild, www.pussyspace.net/js/all.js)
+pussyspace.com,pussyspace.net##+js(aost, document.createElement, addZone)
+pussyspace.com,pussyspace.net##+js(aeld, load, exoJsPop101)
+pussyspace.com,pussyspace.net##+js(aeld, /^get/, loader)
+pussyspace.com,pussyspace.net##+js(norafif, exoframe)
 pussyspace.com,pussyspace.net##:matches-path(/vid-) [class] img:xpath(ancestor::*[string-length(@class) > 20])
 pussyspace.com,pussyspace.net##style ~ [id] [class]:only-child div:only-child > img
 pussyspace.com,pussyspace.net###alphabet, #channels, #divx-container, #hmenu, #inform, #nowlooking, #playerCamBox, #playerMenu, #qcat, #showPlayer, #tabel_tagslist, #video_content, #web_cam, .BaseRoomContents, .buttons, .carouselTopScroll, .carusel-keys-box-ps, .footerdesc, .in_top, .load_more_rel, .mainBoxTitle, .pagIno, .playerContent100pr, .relatedVideo, .right-160px, .videos-related, footer, header, [href^="/webcams.php"]:others()
 /^https:\/\/www\.pussyspace\.(?:com|net)\/(?!style\/).*/$image,1p,domain=pussyspace.*
-/\/all\.js\?v=\S{10,}/$script,1p,domain=pussyspace.com|pussyspace.net
+||pussyspace.*/js/all.js?v=gitcache_gulp_
+||pussyspace.net/lazyload.im
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1172
 java-forum.org##+js(nostif, nextFunction, 2000)
@@ -6443,16 +6445,13 @@ converto.io##+js(acs, atob, decodeURIComponent)
 ! https://github.com/uBlockOrigin/uAssets/issues/3368
 player.xxxbestsites.com##+js(aopr, BetterJsPop)
 
-! https://github.com/NanoMeow/QuickReports/issues/46
-androidcustom.com##+js(set, safelink.adblock, false)
-androidcustom.com##+js(nano-sib)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/3371
-desktopsolution.org,svipvids.com##+js(aopw, KillAdBlock)
+svipvids.com##+js(aopw, KillAdBlock)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3372
 gaypornmasters.com##+js(aopw, _pop)
 gaypornmasters.com##+js(aost, String.prototype.charCodeAt, ai_)
+||hexupload.net/images/Premium_Banners/$3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3385
 short-url.link##+js(aeld, click, read_cookie)
@@ -6476,7 +6475,6 @@ globalnews.ca##.c-ad__label
 king-pes.*##+js(aeld, load, onload)
 
 ! https://github.com/NanoMeow/QuickReports/issues/2911
-||securepubads.g.doubleclick.net/tag/js/gpt.js$xhr,redirect=noop.js,domain=rp-online.de|saarbruecker-zeitung.de|volksfreund.de
 @@||rp-online.de^$ghide
 @@||saarbruecker-zeitung.de^$ghide
 @@||volksfreund.de^$ghide
@@ -6517,9 +6515,6 @@ hungama.com##+js(set, showAds, true)
 ! https://github.com/bogachenko/fuckfuckadblock/issues/223
 chd4.com##+js(aopw, checkAdBlocker)
 ||adblockanalytics.com^$xhr,redirect-rule=noop.txt
-
-! https://github.com/NanoMeow/QuickReports/issues/63
-||adservice.google.com/adsid/integrator.js$script,redirect=noopjs,domain=newstalk1290.com
 
 ! https://github.com/NanoMeow/QuickReports/issues/66
 @@||goalad.com^$ghide
@@ -6599,12 +6594,6 @@ live-tv-channels.org##[class^="_ads-"]
 ! https://github.com/NanoMeow/QuickReports/issues/95
 drinksmixer.com,leitesculinaria.com##+js(set, Date.now, noopFunc)
 
-! https://github.com/uBlockOrigin/uAssets/issues/3500
-@@||mrcong.com^$ghide
-mrcong.com##+js(aeld, /.?/, popMagic)
-mrcong.com##+js(set, importFAB, null)
-mrcong.com###fukie1
-
 ! https://github.com/uBlockOrigin/uAssets/issues/3506
 andiim3.com##+js(acs, jQuery, AdBlock)
 
@@ -6635,16 +6624,6 @@ tribunnews.com##+js(acs, Math, ='\x)
 
 ! https://github.com/NanoMeow/QuickReports/issues/108
 descarga-animex.*##+js(aopw, adBlockDetected)
-
-! https://forums.lanik.us/viewtopic.php?f=90&t=41726
-||googlesyndication.com/pagead/$script,redirect=noopjs,domain=main-echo.de
-
-! https://github.com/uBlockOrigin/uAssets/issues/3520
-uploadfiles.pw##+js(aopr, decodeURIComponent)
-uploadfiles.pw,w4files.ws##+js(ra, onclick)
-uploadfiles.pw##+js(nano-stb)
-! https://github.com/uBlockOrigin/uAssets/issues/5492
-||uploadfiles.pw^$csp=default-src 'self' 'unsafe-inline'
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3536
 bollywoodshaadis.com##+js(aopr, Debugger)
