@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 2dYMHK15EAdywv54yC2xgQ
-! Version: 202305171550
+! Checksum: wF4Bzo19VdH+kmqx8s1e3A
+! Version: 202305180020
 ! Title: EasyPrivacy
-! Last modified: 17 May 2023 15:50 UTC
+! Last modified: 18 May 2023 00:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -96,6 +96,7 @@
 .com/stats.aspx?
 .com/track?$~object
 .com/tracking?
+.com/vtrack|
 .content_tracking.
 .de/h.gif?
 .de/l.gif?
@@ -3124,6 +3125,7 @@
 /pluck-tracking.
 /plugin/trackEvents.
 /plugins/catman/*
+/plugins/duracelltomi-google-tag-manager/*
 /plugins/exactmetrics-
 /plugins/stat-dfp/*
 /plugins/status.gif?
@@ -10772,6 +10774,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||truehits.net^$third-party
 ||truehits3.gits.net.th^$third-party
 ! Turkish
+||brainsland.com^$third-party
 ||onlinewebstat.com^$third-party
 ||realist.gen.tr^$third-party
 ||sayyac.com^$third-party
@@ -12667,6 +12670,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.powerreviews.com^$third-party
 ||t.pswec.com^
 ||t.raptorsmartadvisor.com^
+||t.rentcafe.com^
 ||t.sharethis.com^
 ||t.signalayer.com^
 ||t.skimresources.com^
@@ -12837,6 +12841,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.buygoods.com^
 ||tracking.cerdmann.com^
 ||tracking.chilipiper.com^
+||tracking.dealeranalytics.com^
 ||tracking.drsfostersmith.com^$third-party
 ||tracking.drum.io^
 ||tracking.dsmmadvantage.com^
@@ -14942,6 +14947,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mcloud.to/log/
 ||mcloud.to/ping/
 ||mcs-va.tiktokv.com^
+||mcs.us.tiktokv.com^
 ||mdmpix.com/js/connector.php?
 ||medium.com/_/batch
 ||medium.com/_/clientele/reports/performance/
@@ -33146,6 +33152,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||s5.charliehebdo.fr^
 ||shemsfm.net/ar/setStats/
 ||shemsfm.net/fr/setStats/
+||shopping.rakuten.com/rakuten-static-deliver/mob/*/js/track.js
 ||sncf-connect.com/apm
 ||sncf-connect.com/bff/api/v1/t/events
 ||space-blogs.net/include/counter/
@@ -33932,6 +33939,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||sync.rambler.ru^
 ||tes-game.ru/stat/
 ||tonkosti.ru/go.php?
+||top-staging.mail.ru^
 ||top.mail.ru/tc?js
 ||top.mail.ru/tpc.js
 ||top.mail.ru/tt?js
@@ -34202,7 +34210,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||check.ddos-guard.net/check.js$script
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||cloud.talend.com/api/ipaas/services/analytics/$~third-party,xmlhttprequest
-@@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|winnipegfreepress.com
+@@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|winnipegfreepress.com
 @@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair2.resmed.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
@@ -34981,7 +34989,14 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 !
 !---------- Anti-Adblock ----------
 !
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgasserkraftwerkkessel.viessmann.ch^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtrawberry.basf.com^
+||tm.urssaf.fr^
+||torropinto.viessmann.es^
+||tse.telerama.fr^
+||uusimaa.viessmann.fi^
+||waati.quechoisir.org^
+||wareneingang.edeka.de^
+||wasserkraftwerkkessel.viessmann.ch^
 ||waterlooberlin.viessmann.ca^
 ||wvvw.france24.com^
 ||wvvw.francemediasmonde.com^
@@ -50279,6 +50294,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||s5.charliehebdo.fr^
 ||shemsfm.net/ar/setStats/
 ||shemsfm.net/fr/setStats/
+||shopping.rakuten.com/rakuten-static-deliver/mob/*/js/track.js
 ||sncf-connect.com/apm
 ||sncf-connect.com/bff/api/v1/t/events
 ||space-blogs.net/include/counter/
@@ -51065,6 +51081,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||sync.rambler.ru^
 ||tes-game.ru/stat/
 ||tonkosti.ru/go.php?
+||top-staging.mail.ru^
 ||top.mail.ru/tc?js
 ||top.mail.ru/tpc.js
 ||top.mail.ru/tt?js
@@ -51335,7 +51352,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||check.ddos-guard.net/check.js$script
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||cloud.talend.com/api/ipaas/services/analytics/$~third-party,xmlhttprequest
-@@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|winnipegfreepress.com
+@@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|winnipegfreepress.com
 @@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair2.resmed.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
