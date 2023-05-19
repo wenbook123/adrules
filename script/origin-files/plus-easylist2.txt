@@ -4972,6 +4972,8 @@ camwhores.*,camwhorestv.*###list_videos_friends
 bestialitytaboo.tv,bestialitysextaboo.com,mujeresdesnudas.club##+js(acs, $, azar)
 bestialitysexanimals.com,bestialporn.com,mujeresdesnudas.club,mynakedwife.video##+js(aopr, open)
 zootube1.com##+js(aopr, popunderSetup)
+zootube1.com##+js(cookie-remover, da325)
+zootube1.com##+js(aost, document.cookie, https)
 videoszoofiliahd.com##+js(aopr, open)
 videoszoofiliahd.com##+js(aeld, /^(?:click|mousedown)$/, popunder)
 asiananimaltube.org,zoosex.pink##+js(nowoif)
@@ -7500,6 +7502,7 @@ ani-stream.com##+js(no-fetch-if, damoh.ani-stream.com)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9449
 smallseotools.com##+js(aeld, mouseleave, clientWidth)
+smallseotools.com##roksakotoroklo
 *$image,redirect-rule=1x1.gif,domain=smallseotools.com
 ||smallseotools.com/*.gif$image
 ||smallseotools.com/webimages/a1$image,1p
@@ -7507,18 +7510,17 @@ smallseotools.com##+js(aeld, mouseleave, clientWidth)
 smallseotools.com#@#.b
 smallseotools.com#@#.px304
 smallseotools.com##samp
-smallseotools.com##[data-alter]
 ! https://github.com/uBlockOrigin/uAssets/issues/9701
 ! https://github.com/uBlockOrigin/uAssets/issues/16075
 duplichecker.com##+js(no-fetch-if, /google|\/ad.+\.js/)
 duplichecker.com##+js(no-xhr-if, ads)
-@@||duplichecker.com^$ghide
 ||delivery.adrecover.com^$image,redirect-rule=1x1.gif
 duplichecker.com##.container div > div[style]:has(.ads-pricing)
 duplichecker.com###home_before_buton > .adsbygoogle:upward(.data_inbox > div)
 duplichecker.com##div > span[id^="side_bar"] > .adsbygoogle:upward(div)
 ! https://github.com/uBlockOrigin/uAssets/issues/17711
 ||plagiarismdetector.net/js/*bioep
+@@*$ghide,domain=duplichecker.com|plagiarismchecker.co|plagiarismdetector.net|searchenginereports.net|smallseotools.com
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(no-fetch-if, /googlesyndication|adpushup|adrecover/)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(norafif, _0x)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(nosiif, ads)
@@ -7544,6 +7546,9 @@ smallseotools.com##.show.fade.modal-backdrop
 smallseotools.com##.mxauto.my-2
 smallseotools.com##.sticky_ssb.my-2
 smallseotools.com##body:style(overflow: auto !important;)
+plagiarismchecker.co###top-ad:style(max-height: 1px !important;)
+searchenginereports.net##+js(no-xhr-if, /googlesyndication|adpushup|adrecover/)
+searchenginereports.net##.adsbygoogle:upward(1)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4104
 jagran.com##.ads
