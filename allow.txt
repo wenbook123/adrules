@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: RIMqjpS/791WGbdNStqNiw
+! Checksum: sbMZB2e3gM44ENJqbEhgoA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-19 00:19:35（北京时间） 
-! Total count: 15207
+! Version: 2023-05-19 08:56:04（北京时间） 
+! Total count: 15208
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -553,7 +553,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.fchp.org^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3125,6 +3124,7 @@
 @@||cdn.dimml.io/static/*.js$domain=consumentenbond.nl
 @@||cdn.doublemax.net/js/rwd_cap.js$domain=ibf.tw
 @@||cdn.dqst.pl/assets/ads.js?ad_ids=|$xmlhttprequest
+@@||cdn.duurzaam.greenchoice.nl^|
 @@||cdn.dynamicyield.com^$domain=dafiti.com.co
 @@||cdn.egy.best/static/global/js/adblock.js
 @@||cdn.ekcdn.me/video.mp4$media,domain=doo4k.com
@@ -4035,7 +4035,7 @@
 @@||consensu.org^$domain=ghacks.net|sourceforge.net|globalplayer.com
 @@||consent.cmp.oath.com/cmp3p.js$domain=dailystar.co.uk
 @@||consent.cmp.oath.com^
-@@||consent.cmp.oath.com^$script,domain=cyclingnews.com|express.co.uk
+@@||consent.cmp.oath.com^$script,domain=cyclingnews.com|express.co.uk|techcrunch.com
 @@||consent.cmp.oath.com^$script,domain=express.co.uk
 @@||consent.cookiebot.com/*/cc.js
 @@||consent.cookiebot.com/Framework/IAB/
@@ -5328,6 +5328,7 @@
 @@||fas.li^$generichide
 @@||fashion-headline.com/js/jquery.smartbanner.js
 @@||fast.appcues.com^$script,domain=initial.inc|myap.collegeboard.org|static.abcmouse.com
+@@||fast.appcues.com^$script,domain=initial.inc|myap.collegeboard.org|static.abcmouse.com|westrive.com
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
 @@||fastcdn.stream/*.js$domain=wstream.video
 @@||fastcontentdelivery.com/js/*ad$script
@@ -12299,7 +12300,7 @@
 @@||shieldsgazette.com^$generichide
 @@||shifen.com^
 @@||shijue.me/advertise/getList?
-@@||shikimori.one/comments/*/edit$extension
+@@||shikimori.*/comments/*/edit$extension
 @@||shinden.pl^$generichide
 @@||shine.cn/showadcode2.asp?posid=68&
 @@||shink.in$generichide
