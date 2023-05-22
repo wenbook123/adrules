@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 7t+irpdDasLhxEUmmeG+Eg
+! Checksum: hBHzImWyw0gIeEDWZtw5RA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-22 08:58:00（北京时间） 
-! Total count: 15213
+! Version: 2023-05-22 16:18:03（北京时间） 
+! Total count: 15210
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -140,6 +140,7 @@
 @@/adBlockDetector.js$~third-party,domain=facepunch.io|biters.io|fisp.io
 @@/adLoader.$domain=shejiben.com
 @@/adServe/*$domain=stream.cr|gomovies.technology
+@@/ad_banner.js$~third-party,domain=magesypro.pro|magesypro.com|magesy.blog|majesy.org|magesy.eu|magesy.fr|magesy.pw
 @@/ad_banner/*$domain=donnaart.com.tw
 @@/ad_bomb/*$image
 @@/ad_file/*$domain=7-11.com.tw|pxmart.com.tw
@@ -1845,7 +1846,6 @@
 @@||api.branch.io/v1/open
 @@||api.branch.io^$app=com.reddit.frontpage
 @@||api.branch.io^$app=com.thechive
-@@||api.browser.yandex.
 @@||api.browser.yandex.$stealth
 @@||api.bufferapp.com/*/profiles.json
 @@||api.bufferapp.com/*/service/
@@ -2685,7 +2685,6 @@
 @@||browser.cloud.ucweb.com^
 @@||browser.mi-img.com^
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
-@@||browser.yandex.*/sync/
 @@||browser.yandex.*/sync/$stealth
 @@||browserleaks.com/img/9.gif$domain=browserleaks.com
 @@||browserleaks.com^$generichide
@@ -8577,6 +8576,7 @@
 @@||leptidigital.fr^$ghide
 @@||lequipe.fr/js/thirdparty/prebid.js$script,1p
 @@||lequipe.fr/js/thirdparty/smarttag.js$script,1p
+@@||lequipe.fr/thirdparty/didomi.js$domain=lequipe.fr
 @@||leroymerlin.ro/build/assetic/core/common/js/cookie-policy-acceptance*.js
 @@||lesacasino.com^*/EMERPEventCollector.$script,subdocument
 @@||lesmoutonsrebelles.com^$ghide
@@ -10530,8 +10530,6 @@
 @@||partner1.cashback.zen.com/aff_
 @@||pass.1688.com^
 @@||pass.1688.com^$subdocument
-@@||pass.yandex.kz^
-@@||pass.yandex.ru^
 @@||passiontimes.hk^$generichide
 @@||passiontimes.hk^*-ad.php?
 @@||passport.aliexpress.com^$stealth,domain=aliexpress.ru|aliexpress.com
@@ -11952,6 +11950,7 @@
 @@||sdk.privacy-center.org^$domain=lasprovincias.es
 @@||sdk.privacy-center.org^$domain=lavanguardia.com
 @@||sdk.privacy-center.org^$domain=ledauphine.com
+@@||sdk.privacy-center.org^$domain=lequipe.fr
 @@||sdk.privacy-center.org^$domain=lesechos.fr
 @@||sdk.privacy-center.org^$domain=lesoir.be
 @@||sdk.privacy-center.org^$domain=mein-mmo.de
@@ -13132,7 +13131,6 @@
 @@||swsc.com.cn/download/ad_images/
 @@||sxjbjt.com^*/ad
 @@||symbolab.com^$ghide
-@@||sync.disk.yandex.net^
 @@||sync.disk.yandex.net^$stealth
 @@||sync.everhelper.me^$stealth
 @@||sync.maxthon.com$document
@@ -14990,7 +14988,6 @@
 @@||xmovies8.es/themes/*/ads.js?v=
 @@||xmovies8.ru^*/adsbygoogle.js
 @@||xmovies8.tv^*/adsbygoogle.js
-@@||xmpp.disk.yandex.net^
 @@||xmpp.disk.yandex.net^$stealth
 @@||xmpush.xiaomi.com^
 @@||xmxing.net^
