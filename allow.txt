@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: LjNpL95/s7P5CRmBY13AXw
+! Checksum: 7t+irpdDasLhxEUmmeG+Eg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-22 00:26:41（北京时间） 
-! Total count: 15209
+! Version: 2023-05-22 08:58:00（北京时间） 
+! Total count: 15213
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -556,7 +556,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgdperson.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1847,6 +1846,7 @@
 @@||api.branch.io^$app=com.reddit.frontpage
 @@||api.branch.io^$app=com.thechive
 @@||api.browser.yandex.
+@@||api.browser.yandex.$stealth
 @@||api.bufferapp.com/*/profiles.json
 @@||api.bufferapp.com/*/service/
 @@||api.bufferapp.com/*/user
@@ -2686,6 +2686,7 @@
 @@||browser.mi-img.com^
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 @@||browser.yandex.*/sync/
+@@||browser.yandex.*/sync/$stealth
 @@||browserleaks.com/img/9.gif$domain=browserleaks.com
 @@||browserleaks.com^$generichide
 @@||browserscope.org/user/beacon/*?callback=$script,domain=jsperf.com
@@ -6483,6 +6484,7 @@
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
 @@||googletagmanager.com/gtag/js$domain=bizimtoptan.com.tr
 @@||googletagmanager.com/gtag/js$domain=blog.wiki-topia.com
+@@||googletagmanager.com/gtag/js$domain=cmoa.jp
 @@||googletagmanager.com/gtag/js$domain=coin-free.com|kienthucrangmieng.com|clickscoin.com|madshiba.fun
 @@||googletagmanager.com/gtag/js$domain=dholic.co.jp
 @@||googletagmanager.com/gtag/js$domain=duplichecker.com
@@ -13131,6 +13133,7 @@
 @@||sxjbjt.com^*/ad
 @@||symbolab.com^$ghide
 @@||sync.disk.yandex.net^
+@@||sync.disk.yandex.net^$stealth
 @@||sync.everhelper.me^$stealth
 @@||sync.maxthon.com$document
 @@||sync.opera.com/api/sync/$stealth
@@ -14988,6 +14991,7 @@
 @@||xmovies8.ru^*/adsbygoogle.js
 @@||xmovies8.tv^*/adsbygoogle.js
 @@||xmpp.disk.yandex.net^
+@@||xmpp.disk.yandex.net^$stealth
 @@||xmpush.xiaomi.com^
 @@||xmxing.net^
 @@||xnimg.cn/n/apps/profile/modules/tuiguang/
