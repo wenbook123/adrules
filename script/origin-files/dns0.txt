@@ -1,8 +1,8 @@
-! Checksum: tBkbAssw04lYYlEcWc7MaQ
+! Checksum: GSunodxMTw+tWVqD1DVKzg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.89.43
-! TimeUpdated: 2023-05-22T04:31:08+00:00
+! Version: 2.0.89.48
+! TimeUpdated: 2023-05-22T15:31:10+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -446,6 +446,12 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/151451
+@@/adview_*_ads_300x250.js$domain=itbaoku.cn
+itbaoku.cn#%#//scriptlet('set-constant', 'killads', 'true')
+! https://github.com/AdguardTeam/AdguardFilters/issues/151435
+vpslog.net#%#//scriptlet('prevent-element-src-loading', 'script', 'placementName')
+/?placementName=$script,redirect=noopjs,domain=vpslog.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148933
 xbeibeix.com#@#.google-ad
 xbeibeix.com#%#//scriptlet('prevent-setTimeout', '/\.height\(\) == 0|adsbygoogle/')
@@ -701,8 +707,7 @@ game735.com#$#div[id^="gklobl"] { height: 1px!important; }
 @@||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws='
 ruanyifeng.com#@#a > img[src*="wangbase.com/blogimg/asset/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46061#issuecomment-601842012
-t66y.com#%#//scriptlet('abort-current-inline-script', '$', 'adhtml')
-t66y.com$$script[tag-content="adhtml"][max-length="10000"]
+t66y.com#%#//scriptlet('prevent-setTimeout', 'tpcHtml')
 !+ PLATFORM(windows, mac, android)
 t66y.com#%#AG_onLoad(function(){var a=document.querySelector(".tpc_content img");if(a){a=a.attributes;for(var c=0;c<a.length;c++)if(a[c].name.match("ess-data")){var b=a[c].name;break}}$("img["+b+"]").each(function(){0<$(this).attr(b).indexOf("sinaimg")&&$(this).attr(b,$(this).attr(b).replace(/https:/,"http:"));$(this).attr("src",$(this).attr(b));$(this).css("cursor","pointer");$(this).click(function(){window.open($(this).attr("src"));return!1})})});
 ||alicdn.com^$domain=t66y.com
@@ -5041,6 +5046,10 @@ newduba.cn###jq_youxi
 ||fmild.xyz^
 ||ewandlw.top^
 ||orsrmrx.cn^
+||xyqmy.xyz^
+||nntsdp.xyz^
+||y3cdp.top^
+||quancuncq.xyz^
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$="/1c626.com"]
@@ -23544,7 +23553,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/log/report/*$script,domain=bilibili.com
 @@/sensorsdata-$domain=zkh.com
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|xinrenxinshi.com|zzjiasuqi.com
+@@/sensorsdata.$domain=ttcdw.cn|36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|xinrenxinshi.com|zzjiasuqi.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/urchin.js$domain=on.cc
 @@||10010.com/mall/common/js/fa.js?referer=
