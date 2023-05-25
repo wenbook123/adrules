@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: dN4iVOElf7nTA6vpGIWpoA
+! Checksum: RvITqbsyEi+asLTBZ1x1VA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-25 16:17:51（北京时间） 
-! Total count: 15137
+! Version: 2023-05-26 00:18:24（北京时间） 
+! Total count: 15143
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -418,6 +418,8 @@
 @@/smarttag.js$~third-party,domain=rte.ie
 @@/social-share.$domain=patentguru.com
 @@/speedtest/upload.php$domain=speedtest.net
+@@/static/ad/main.$domain=bbmei.top|bbmen.top
+@@/static/ad/main.$domain=bbmen.top|bbmei.top
 @@/static/ad/main.$domain=bhuai.top|bhuan.top
 @@/store_ad/*$domain=pcstore.com.tw
 @@/streamlive/*.m3u8?token=$stealth,domain=stream.televall.website|stream.televall.site
@@ -1622,6 +1624,8 @@
 @@||an1me.*^$ghide
 @@||analogplanet.com^$elemhide
 @@||analysys.cn^$domain=analysys.cn
+@@||analytics-*.clickdimensions.com/*/pages/*.html$subdocument,domain=nhs.uk
+@@||analytics-*.clickdimensions.com/forms/$subdocument,domain=nhs.uk|clickdimensions.com
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.163.com/ntes.js$domain=3g.163.com
 @@||analytics.amplitude.com^$~third-party
@@ -3243,6 +3247,7 @@
 @@||cdn.optimizely.com/js/3148790251.js$domain=shopsmarter.com
 @@||cdn.optimizely.com/js/8143030612.js$domain=bestbuy.com
 @@||cdn.optimizely.com^
+@@||cdn.orangeclickmedia.com/tech/libs/ocm_iab_compliance.js$domain=protothema.gr
 @@||cdn.osimg.co/ads/pop.js
 @@||cdn.parkiet.com/cmp/cmp.min.js
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
@@ -3859,6 +3864,7 @@
 @@||cmp.pubtech.ai/124/pubtech-cmp-v2.js$script,domain=quotidiano.net
 @@||cmp.quantcast.com/*.js$domain=androidacy.com
 @@||cmp.quantcast.com/*.js$domain=fly4free.pl
+@@||cmp.quantcast.com/*.js$domain=protothema.gr
 @@||cmp.quantcast.com/*.js$domain=travlerz.com
 @@||cmp.quantcast.com/*.js$domain=wpolityce.pl
 @@||cmp.quantcast.com/tcfv2/cmp2.js$domain=ecartelera.com
@@ -12959,6 +12965,7 @@
 @@||streamcherry.com/googlead.js
 @@||streamcherry.com/popunder2.js
 @@||streameast.live/wp-banners.js
+@@||streamhide.*/js/dnsads.js?$script,domain=streamhide.to
 @@||streamingcommunity.*/*$xmlhttprequest,~third-party
 @@||streamingdramakorea.com^$generichide
 @@||streamiptvonline.com/streams^$popup
@@ -14895,7 +14902,6 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideardFilters/issues/9823
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
