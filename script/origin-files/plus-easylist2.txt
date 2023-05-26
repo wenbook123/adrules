@@ -3438,7 +3438,6 @@ aternos.org##.header-ad
 ||tech426.com^$3p
 ||ultra-rv.com^$3p
 ||atom-ds.com^$3p
-aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
 ||fastlane.rubiconproject.com^$removeparam,domain=aternos.org
 ||htlb.casalemedia.com^$removeparam=r,domain=aternos.org
 
@@ -5110,8 +5109,7 @@ igg-games.com##[style^="margin-top"]:has([target="_blank"])
 ||igg-games.com/*.gif$image
 pcgamestorrents.com##[href*="banner"]
 igg-games.g3g.ink##[href$=".php"]
-igg-games.com##[href*="-games.com/netf"][href$=".html"]
-igg-games.g3g.ink##[href="https://igg-games.g3g.ink/netf2.html"]
+igg-games.com##[href*="-games.com/"][href$=".html"]:has([src]):not(*:has(.wk-margin-right))
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2458
 pornrabbit.com##+js(nowoif)
@@ -7403,7 +7401,7 @@ duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(norafif, _0x)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(nosiif, ads)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(nostif, /ads|showPopup/)
-duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##[data-href*="grammarly.com"]
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,smallseotools.com##[data-href*="grammarly.com"]
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##[href*="grammarly.com"]
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##a[href].set-anchor
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##[onclick*="grammarly"]
@@ -7424,7 +7422,7 @@ smallseotools.com##.show.fade.modal-backdrop
 smallseotools.com##.mxauto.my-2
 smallseotools.com##.sticky_ssb.my-2
 smallseotools.com##body:style(overflow: auto !important;)
-plagiarismchecker.co###top-ad:style(max-height: 1px !important;)
+plagiarismchecker.co###top-ad:style(max-height: 2px !important;)
 searchenginereports.net##+js(no-xhr-if, /googlesyndication|adpushup|adrecover/)
 searchenginereports.net##.adsbygoogle:upward(1)
 smallseotools.com##[id$="sst"]
@@ -7435,6 +7433,10 @@ searchenginereports.net##.grammarly-overall
 plagiarismchecker.co##.grmly_body
 plagiarismchecker.co##.text-center.my-1
 plagiarismchecker.co##.text-center.my-3
+searchenginereports.net##[href^="https://goo.gl/"]
+searchenginereports.net##div[id^="ee_"]
+||searchenginereports.net/gram_images/
+plagiarismchecker.co##[href="#"][target="_blank"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4104
 jagran.com##.ads
