@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202305260253
+! Version: 202305270147
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 25300
+! Lenth = 25308
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -901,6 +901,7 @@
 ##.ui-ad
 ##.uk-width-1-1.adbox
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
+##.video-info-aux + div[style^="border-radius: 5px;"]
 ##.video-item-ads
 ##.video_details > .banner
 ##.vodads
@@ -3346,6 +3347,7 @@ $websocket,domain=5nj.com|cechi8.com
 3boys2girls.com###hotbar
 3boys2girls.com###overture_ads_long
 3boys2girls.com##.float320
+3czol.com##div[class^="ban_"]
 3d66.com###botfocus-soft
 3d66.com##.King_Chance_LayerCont
 3d66.com##.advertisement-carousel
@@ -5737,7 +5739,6 @@ blog.sina.cn###pl-blog-tbyy
 blog.sina.cn###pl-float-bar
 blog.sina.com.cn##div[style*="WiDTH: 200px;"][style$="HeiGHT: 300px"]
 blog.zhheo.com#@##footer-banner
-blphoto.net##.float-ck
 bmcx.com##div[id^="ggwz"]
 bmlink.com##.Tg_1190x70
 bmlink.com##.Tg_190x70
@@ -7336,6 +7337,7 @@ gasaq.com###guanggao_left
 gasaq.com###guanggao_right
 gasaq.com##.guanggao_ime_big
 gate.baidu.com,m.baidu.com###container
+gayxx.net,blphoto.net##.float-ck
 gbyhn.com.tw##.footer-widget-column
 gcxa.cn###edu_ad63
 gd163.cn##.bbs_ad
@@ -11232,7 +11234,7 @@ vpsdx.com##.gsfha3-form
 vpsdx.com##.gthfdsa
 vpser.net##.ab_cpb
 vpser.net##.ab_cpr
-vpslog.net#%#//scriptlet('prevent-element-src-loading', 'script', 'placementName')
+vpslog.net#%#(()=>{(function(d){window.addEventListener("error",function(a){if(a.srcElement&&a.srcElement.src){const b=new RegExp(d);if(b.test(a.srcElement.src)){if("function"==typeof a.srcElement.onload)return void(a.srcElement.onerror=a.srcElement.onload);a.srcElement.onerror=function(){}}}},!0)})("placementName")})();
 vpsmm.com###featured1
 vpsmm.com###media
 vpsmm.com###uc
@@ -12698,6 +12700,7 @@ zzzyk.com###Tinfo
 ||4gtv.tv/4gTV_OTT.json
 ||4hw.com.cn/js/common.js
 ||4iksy.cn^
+||4iuyw.xyz^
 ||4jffu.cn^
 ||4jfggh.com^
 ||4k123.com/data/attachment/portal/201712/20/194208ao9pevvvg0xr0n1p.jpg
@@ -13924,22 +13927,16 @@ zzzyk.com###Tinfo
 ||alicdn.com/imgextra/*_!!2207010417239.
 ||alicdn.com/imgextra/*_!!823262290.
 ||alicdn.com/imgextra/i3/1731999033/TB2lAJufnlYBeNjSszcXXbwhFXa_
-||alicdn.com/kf/H0a9988c071874c1188795e8f1d4983b2N.jpg
 ||alicdn.com/kf/H2f43d53d17c74471a2a9e00bc10c5c99j.jpg
 ||alicdn.com/kf/H4fa310799bf04b33803900c0f629094bQ.jpg
 ||alicdn.com/kf/H8105709d8ee745139cfd5affe30a9d719.jpg
 ||alicdn.com/kf/H831ca346aac84070b2461d27b22a382ah.jpg
-||alicdn.com/kf/H8ed454fd014b4c09a5fc5aea24a2fb0fU.jpg
 ||alicdn.com/kf/H9df22b1c3f0041b2874ddfd38836993em.gif
 ||alicdn.com/kf/Ha3566a6209ec45f597d392707b066cb9D.jpg
-||alicdn.com/kf/Hadbfee63e55f4b36bfa4150e2b3e74efT.jpg
 ||alicdn.com/kf/Hbbe53cc824914cf09276b642ea8c57af3.jpg
-||alicdn.com/kf/Hbd9f0808421843a887096eb04c6e51afK.jpg
-||alicdn.com/kf/Hcff8b8495059480e928428982a2f18862.jpg
 ||alicdn.com/kf/Hd502cbfb24a74a469a3f70f010818498m.gif
 ||alicdn.com/kf/Hd5708bb280a64af781d74222ad3d8005w.jpg
 ||alicdn.com/kf/Hd62261f1a7964c50824ac5982b1aa1bfk.gif
-||alicdn.com/kf/Hdc6347c1b68b46e99e6cf23aac32e163T.jpg
 ||alicdn.com/kf/Heace67bf8b204b94ae99be0cd2f9885fo.png
 ||alicdn.com/kf/U0732534bf37c454e84b8378ceaa5d7c2V.
 ||alicdn.com/kf/U17649ef1f91e4b428152e709d33aed775.jpg
@@ -15126,6 +15123,7 @@ zzzyk.com###Tinfo
 ||cee1.iteye.com^
 ||ceisip.com/static/js/plugin.js
 ||celcxjb.cn^
+||celeste.work^
 ||cengbalx.fun^
 ||cennv.cn^
 ||centurys.net/promo_
@@ -17108,6 +17106,7 @@ zzzyk.com###Tinfo
 ||glovemall.cn^
 ||glzy8.com/img/ceo/js.js
 ||glzyw.com^$third-party
+||gmasrjx.cn^
 ||gmbbk.com/bbsgmbbk/
 ||gmbbk.com/fb.js
 ||gmbbku.com/img/top.js
@@ -19292,6 +19291,7 @@ zzzyk.com###Tinfo
 ||kunlunshitou.com^
 ||kunzhang.name^
 ||kuqi.com^$third-party
+||kuuda.xyz^
 ||kuuhv.cn^
 ||kuunmzg.cn^
 ||kuwo.cn/static/swf/xctg.swf
@@ -19773,6 +19773,7 @@ zzzyk.com###Tinfo
 ||lycc72.com/resources/js/content.js
 ||lychangxu.cn^$third-party
 ||lyd.com.cn^*950-90.
+||lydrnj.xyz^
 ||lyewe.xyz^
 ||lyfwpt.com.cn^$third-party
 ||lyggt.top^
@@ -21634,6 +21635,7 @@ zzzyk.com###Tinfo
 ||qvyzdox.cn^
 ||qwadakesy.cyou^
 ||qwahk.com^
+||qwandly.top^
 ||qwblog.cn/localfile/20200612230036.gif
 ||qwcqqw.xyz^
 ||qwe0231141.bj.bcebos.com^
@@ -22434,6 +22436,7 @@ zzzyk.com###Tinfo
 ||sojson.com/ps/list.
 ||solomon89.xyz^
 ||somanhua.com/smh/
+||somddgo.com^
 ||songdongdong.love^
 ||songlongtech.com^
 ||songrfid.com^
@@ -23492,6 +23495,7 @@ zzzyk.com###Tinfo
 ||verycleaner.cn^
 ||veugcz8.com^
 ||vewdk.cyou^
+||vezvpd.xyz^
 ||vfcwij.cn^
 ||vflzdrv.cn^
 ||vfqnhif.cn^
@@ -24181,6 +24185,7 @@ zzzyk.com###Tinfo
 ||xihongshi.love^
 ||xihuangdushu.com^
 ||xihufe.com^
+||xiiljoy.cn^
 ||xiji-express.com^
 ||xijkye.top^
 ||xilele.com^
@@ -24556,6 +24561,7 @@ zzzyk.com###Tinfo
 ||yhdm.io/bar/
 ||yhdm.so/bar/
 ||yhdm44.com/123.html
+||yhgumcr.xyz^
 ||yhilnc.cn^
 ||yhjccj.cn^
 ||yhjh04.com^
@@ -24633,6 +24639,7 @@ zzzyk.com###Tinfo
 ||yizhibo.com/special/h5corner.html
 ||yjcf360.com/ad.
 ||yjegf.com^
+||yjgqpfj.cn^
 ||yjrjmy.com^
 ||yjyc-ask.com/res/ads/
 ||yk9s.top^
@@ -24969,6 +24976,7 @@ zzzyk.com###Tinfo
 ||zgzlw.biz^
 ||zhainanba.org/ac/
 ||zhaishanghui.shop^
+||zhalinylqq.com^
 ||zhalinyyds.com^
 ||zhan.com^*/middle_ad_modal.js
 ||zhangbaochang.top^
