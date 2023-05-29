@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: nlrgwDhYVH2w9q4fsf1xqg
+! Checksum: LQurWBv5SMs8cYtPYa9PIg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-29 16:19:33（北京时间） 
-! Total count: 15125
+! Version: 2023-05-30 00:18:31（北京时间） 
+! Total count: 15128
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -436,6 +436,7 @@
 @@/uploads/ads/*$domain=newauto46.ru
 @@/urchin.js$domain=on.cc
 @@/userad/*$domain=jd.ru
+@@/video/*$media,stealth,domain=douyin.com
 @@/video/*/index.m3u8?*&frame_commit=*&mw_pid=*&signature=$stealth
 @@/videoplayback?vid=*.drive.google.com&*&mime=video/mp4$stealth,domain=kissasian.sh
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
@@ -559,6 +560,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.zalando.com/images/probe.png
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1130,7 +1132,6 @@
 @@||adobe.com/www.adobe.com/uber/js/pdc_s_code.js
 @@||adobe.tt.omtrdc.net/rest/v1/delivery?client=adobe&sessionId=$domain=acrobat.adobe.com
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
-@@||adobedtm.com/*/satelliteLib-$script,domain=ncaa.com
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^
@@ -1877,6 +1878,7 @@
 @@||api.dmcdn.net/pxl/cpe/client.min.js$domain=m.sondakika.com
 @@||api.docodoco.jp^$script,domain=jrtours.co.jp
 @@||api.docodoco.jp^|
+@@||api.dropboxapi.com^$stealth
 @@||api.ebay-kleinanzeigen.de/api/ads.json?$app=com.ebay.kleinanzeigen
 @@||api.ebay-kleinanzeigen.de/api/ads/*.json$app=com.ebay.kleinanzeigen
 @@||api.enthusiastgaming.net^$xmlhttprequest,domain=diep.io
@@ -3044,6 +3046,7 @@
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=buienradar.nl
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=idmobile.co.uk
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=movistar.es|redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|foxchannels.com.tr|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|vod.pl|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.de|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|tvnturbo.pl|superporn.com
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=mtvuutiset.fi
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=sn.at
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=tripadvisor.*
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=tvguide.com
@@ -3423,6 +3426,7 @@
 @@||cdn.taboola.com/libtrc/vhb-handelsblatt/loader.js$domain=handelsblatt.com
 @@||cdn.taboola.com/libtrc^$domain=msn.com
 @@||cdn.taboola.com/magazine/$domain=taboolanews.com
+@@||cdn.taboola.com^$domain=asianetnews.com
 @@||cdn.taboola.com^$domain=samsung.com|thestartmagazine.com|taboolanews.com
 @@||cdn.tagcommander.com/1491/tc_LaboutiqueLaPoste_6.js$domain=laposte.fr
 @@||cdn.tagcommander.com/cmp-api/cmp.js$domain=tf1.fr
@@ -4028,6 +4032,7 @@
 @@||consent.cookiebot.com/*/cc.js
 @@||consent.cookiebot.com/Framework/IAB/
 @@||consent.cookiebot.com/logconsent.ashx
+@@||consent.cookiebot.com/uc.js$domain=adjust.com
 @@||consent.cookiebot.com/uc.js$domain=berchtesgadener-anzeiger.de
 @@||consent.cookiebot.com/uc.js$domain=cineplex.de
 @@||consent.cookiebot.com/uc.js$domain=clo3d.com
@@ -7866,6 +7871,7 @@
 @@||imgbox.com/site_ads.js
 @@||imgdrive.net/anex/alt2.js
 @@||imgfo.com/js/ad-blocker.js
+@@||imgfx02.xyz/chapters/$stealth,image
 @@||imggram.org^$ghide
 @@||imgix.net^
 @@||imgmaze.*^$ghide
@@ -9106,7 +9112,6 @@
 @@||meduza.io/static/ads/$media,~third-party
 @@||meet.jit.si^$stealth
 @@||mega-debrid.eu/JS/advertisement.js
-@@||mega-p2p.net^$ghide
 @@||megafon.ru/static/?files=*/tealeaf.js
 @@||meganetv.id^$generichide
 @@||megatube.xxx/atrm/s/s/js/m/pr-before.js
@@ -9264,7 +9269,6 @@
 @@||mirror*.mangafunc.fun/comic/
 @@||mirrorace.*^$ghide
 @@||mirrorlessrumors.com/wp-content/plugins/ginger/front/js/cookies-enabler.min.js
-@@||misa-anime.com^$ghide
 @@||misssuomi.fi/wp-content/plugins/instagram-feed/
 @@||mistore.jp/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||mitele.es^$generichide
@@ -9778,7 +9782,6 @@
 @@||notice.sp-prod.net^$subdocument,domain=telegraph.co.uk
 @@||notify.xboxlive.com^
 @@||novadex.com/wp-content/plugins/arscode-ninja-popups/js/ninjapopups.js
-@@||novagente.pt^$ghide
 @@||novelgo.id^$ghide
 @@||novelpia.com^$stealth
 @@||now.sh^
@@ -11182,7 +11185,6 @@
 @@||qq.com^*?ADTAG=
 @@||qqdie.com^$generichide
 @@||qspfw.com/r/cms/www/qspfw/common/img/ad_
-@@||quackr.io^$ghide
 @@||qualtrics.com/jfe/form/$subdocument,domain=kor.tellburgerking.com
 @@||qualtrics.com^
 @@||quamiller.com^*/ad_
@@ -11357,6 +11359,7 @@
 @@||readmng.com^$csp=script-src 'self' * 'unsafe-inline'
 @@||readmoo.com/images/social/
 @@||readonepiece.com/wp-content/$script,1p
+@@||readpai.com^$stealth,image,domain=linovelib.com
 @@||real.de/fileadmin/template/javascript/emos2.js
 @@||realcam.me/js/cnads.js
 @@||realclearpolitics.com/asset/section/ad-blocker.js
@@ -13674,6 +13677,7 @@
 @@||travel-assets.com^*/siteanalytics/omniture-$script
 @@||travel.mediaalpha.com/js/serve.js$domain=goseek.com
 @@||trbo.com/plugin/trbo_$script,domain=blau.de
+@@||trc-events.taboola.com^$domain=asianetnews.com
 @@||trc.taboola.com/alluremedia-gizmodoau/trc/*$domain=gizmodo.com.au
 @@||trc.taboola.com/axelspringer-dieweltprojectberlin/trc*json$domain=welt.de
 @@||trc.taboola.com/ilmeteo-*/trc/$domain=ilmeteo.it
@@ -13687,6 +13691,7 @@
 @@||trc.taboola.com/ndtv-ndtvmobile/$script,domain=ampproject.net
 @@||trc.taboola.com/samsung-browser-feed$domain=samsung.com|thestartmagazine.com|taboolanews.com
 @@||trc.taboola.com/samsung-browser-us$domain=samsung.com|thestartmagazine.com|taboolanews.com
+@@||trc.taboola.com^$domain=asianetnews.com
 @@||trc.taboolasyndication.com^$domain=bloomberg.com|breitbart.com|nme.com|slatev.com
 @@||treasuredata.com/sdk/*/td.min.js$domain=shiseido.co.jp
 @@||trecetv.es^$ghide
@@ -14887,7 +14892,6 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidetion[id^="info_pub"]:has(> section > ins.adsbygoogle)
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
@@ -14916,7 +14920,6 @@
 @@||xnxx.com/pornstar/$xmlhttprequest,jsinject,elemhide,extension
 @@||xor.pw^
 @@||xp-cdn.net/video/$stealth,media,domain=xpornium.net
-@@||xpaja.net^$ghide
 @@||xpanama.net^$domain=xda-developers.com
 @@||xpornium.net/imgs/160x600.jpg
 @@||xsc.lise.edu.cn/ad/
