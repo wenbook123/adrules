@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: LQurWBv5SMs8cYtPYa9PIg
+! Checksum: 1cZoS6LEv9q417SAkF4z4A
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-30 00:18:31（北京时间） 
-! Total count: 15128
+! Version: 2023-05-30 08:58:43（北京时间） 
+! Total count: 15131
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -560,7 +560,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.zalando.com/images/probe.png
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgent.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -4025,6 +4025,7 @@
 @@||consensu.org^$app=Solitaire.exe
 @@||consensu.org^$domain=beachcam.meo.pt
 @@||consensu.org^$domain=ghacks.net|sourceforge.net|globalplayer.com
+@@||consent-api.service.consent.usercentrics.eu/consent/uw/1$domain=video.prosieben.de
 @@||consent.cmp.oath.com/cmp3p.js$domain=dailystar.co.uk
 @@||consent.cmp.oath.com^
 @@||consent.cmp.oath.com^$script,domain=cyclingnews.com|express.co.uk|techcrunch.com
@@ -7343,6 +7344,7 @@
 @@||icreativeidea.com/unique/assets/images/ad_photo/$app=com.icreativeidea
 @@||icutlink.com/ad.min.js
 @@||id.atlassian.com^$stealth
+@@||id.flybuys.com.au/*/fingerprint2.min.js
 @@||id.i2i.jp^|
 @@||id.skyeng.ru^$stealth
 @@||id.tmtm.ru/login/
@@ -13837,6 +13839,7 @@
 @@||twitter.com/widgets$domain=simcity.com
 @@||twowheeler.policybazaar.com/js/googleanalytics.js
 @@||tx.acgvideo.com^$stealth
+@@||txc.gtimg.com/static/$stealth,domain=support.qq.com
 @@||txxx.ahcdn.com/key=$stealth
 @@||txxx.com/embed/$stealth
 @@||txxx.com/ext/get_file^$stealth
