@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ghnwr0qvupiIZlBvum7Fww
+! Checksum: 2WasySOxvle4VONZ4kVFiQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-05-30 08:58:42（北京时间） 
-! Total count: 63632
+! Version: 2023-05-30 16:18:13（北京时间） 
+! Total count: 63528
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -520,6 +520,7 @@
 ##.adlistcss
 ##.adpc > .module
 ##.adpc > .promote-link
+##.adpc > .promote-link-
 ##.ads
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
@@ -3316,7 +3317,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 .com/dm/dibu.js
 .com/dongcidaci/
 .com/g.gif?
-.com/geo_ip
 .com/gg.js
 .com/gg/*?x=$script,third-party
 .com/hitlog?
@@ -3335,7 +3335,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 .com/js/bnr_
 .com/js/ddd.js
 .com/js/discor_list.js
-.com/js/ga-*.js
 .com/js/indextop.js
 .com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 .com/js/youlian.js
@@ -3422,7 +3421,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 .flipboard.com/usage?
 .fun/*_*_rony.js
 .fun/ad/
-.ga/*.wasm
 .gatracker.
 .gatracking.js
 .getblueshift.com/q/
@@ -3599,7 +3597,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 .smtp.net/o/$image
 .snowplowanalytics.$domain=~snowplowanalytics.com
 .southwest.com/r/$image
-.spacepools.*:
 .sparkpostmail.com/q/$image
 .sparkpostmail2.com/q/$image
 .spmailtechnol.com/q/$image
@@ -3768,7 +3765,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /AShow.aspx?AID=
 /AccessCounter/*
 /ActionLogger?
-/AdCookies.js
 /AdCount/*
 /AdPreview/*
 /AdmitadTagTag.js
@@ -3794,27 +3790,17 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /ArticleCounterLogger.
 /ArticleLog.aspx?
 /ArticleViewTracking/*
-/AssyncCSStats.aspx
 /AutoTracker.js
 /BKVTrack.js
 /BadwebRemindPage.aspx?param=$popup,third-party
 /BehaviourCaptureHandler.
 /BlueKaiPixel/*
 /BrandXuanDong.js
-/BuiltRegister.aspx?upt=
 /C4ATracker.
-/CBM.Tracking.js?
 /CSAdobeTracking.
 /CaptureStat.
-/CardioLogAgent/*
-/CardioLogAgent_
-/CbAnalyticsAdapter.
-/CelebrusInsert.js
 /Certona/*
-/ChannelTracking.
-/ChannelTrackingConverter.
 /Chartbeatanalytics.
-/Click?MQUrl=
 /ClickTail.
 /ClickTaleFilter.
 /ClickTrack.
@@ -4624,6 +4610,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /api/getPos?jspath=/videos/view//*
 /api/goods/v1/get.script.core?
 /api/ipv4check?
+/api/log-visit
 /api/log?
 /api/lt/ref?
 /api/metrics$other
@@ -4659,16 +4646,13 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /app/tracking_
 /appGoogleTagManager-
 /app_ad/slade.js
-/appendOmnitureTracking.
 /appinsightor.min.js
 /appnei-huodong.oss-
 /apps/misc.php?action=advert&
 /aptrk.js
-/aqtag.
 /ard.png?
 /argtk.min.
 /aria-web-telemetry-
-/arms-datacollectorjs/*
 /arstat?
 /art/stats/*
 /article-analytics.
@@ -4678,10 +4662,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /article_counter.php?
 /article_hit.php?
 /asfile/m/gudings.js
-/asknet_tracking.
-/aslog.php?
 /aspenanalytics.
-/aspstats/index.asp?
 /asset/js/gglms.
 /assets/analytics-
 /assets/banners/600x100/*
@@ -4690,7 +4671,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /assets/sidebar/*$domain=v2ex.com
 /assets/smarttag-$script
 /assets/t_j/tongji.js
-/assignments/impressions
 /astrack.js
 /astracker.
 /astracker/*
@@ -4702,13 +4682,9 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /atapixel.js
 /atatus.js
 /athena/tracking/*
-/atlas_track.
 /atm_code.js
-/atr_events_
 /atrk.gif?
 /atrk.js
-/ats/lib/*
-/atslib.
 /attachment/freeaddon_banner/*
 /attachments/ad/*$domain=~edushida.com
 /audience-extraction.js
@@ -4732,14 +4708,12 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /autotrack.js
 /autotrack.min.js
 /aux/collect?
-/avant_sfpc_
 /avple-images/ad.
 /avple-images/ad_
 /avshow_cn1.gif
 /avtstats.
 /aw-tracker.
 /awAnalytics.
-/awesc.php?
 /awin?awc=$image
 /awp.log
 /awpys.log
@@ -4750,7 +4724,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /azion-pulse.js
 /aztrack.
 /aztracker.
-/azure-perfops.
 /b.banners.impress.
 /b.gif?
 /b/s/beacon
@@ -4762,8 +4735,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /b/ss?AQB=
 /b/stats?
 /bShowTrack.
-/backlink.php?
-/backlink2.
 /baha/*$subdocument,domain=gamer.com.tw
 /baichuan/*$subdocument
 /baidu/189/999.php
@@ -4771,12 +4742,10 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /baiduStatistics.js
 /banner-ad.
 /banner.js$domain=28188.com|28188.net
-/banner.stats?
 /banner/*$domain=leiphone.com
 /banner468.
 /banner468x60_live173.
 /bannerad.
-/banners-stat.
 /bar/yfdi.js
 /bar/yfgg.js
 /base/es5/bundle.js
@@ -4810,14 +4779,10 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /beacon.krxd.net/*
 /beacon.min.js
 /beacon/affiliates
-/beacon/b.ashx?
 /beacon/collector/*
-/beacon/cpcookie.
 /beacon/error?
 /beacon/event/*
 /beacon/event?
-/beacon/get/*
-/beacon/info?
 /beacon/init?
 /beacon/media?
 /beacon/metrics
@@ -4830,17 +4795,12 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /beacon/user-data
 /beacon/v1/batch?
 /beacon?cust=
-/beacon_async.
-/beacon_img?
 /beaconconfigs/*
 /beaconimages.netflix.net/*$image
-/beaconimg.php?
 /beacons-external.
 /beacons?data=
 /behavior/web/pv?
 /benchmarketingsmarttag/*
-/betamax_tracker.gif?
-/betamax_tracker.js
 /better-analytics/*
 /bf.gif?ac=
 /bfs-track.
@@ -4871,11 +4831,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /block/pixel?
 /blockstat?
 /blog/showdetail.php?z=$script,third-party
-/blog/traffic/?
 /blogcounter.js
-/blogcu-analytics.js
-/blogsectiontracking.
-/blogtotal_stats_
 /blueKaiAnalytics.
 /bluekai.
 /bluekai/*
@@ -4889,12 +4845,8 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /bmqp6001-
 /bmqp6002-
 /bms-analytics.
-/bn/tracker/*
-/bnTracker.js?
-/bnTracker/*
 /bom/analytics/*
 /bookad.oss-
-/bookvisitinfo.html?
 /bookxiaoshuo.oss-
 /boomLogger.
 /boomerang-latest.js
@@ -4910,20 +4862,14 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /botad.html
 /botd.gif?
 /bottomad/*
-/bounce_user_tracking-
 /bower_components/fp/fp.js
-/bps_sv.gif?
 /bpsma.js
-/br-trk-
-/br-trk.
-/br_imps/add_item?
 /branchMetrics.
 /brandAnalytics.js
 /brightTag-min.js
 /brightcove/tracking/*
 /brightedge.js
 /brightspot/analytics/*
-/britetrack/*
 /browserinfo?f.sid=
 /browsermine.js
 /bs.measure.
@@ -4931,27 +4877,19 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /bsp-analytics.
 /bstat.js
 /bstats.gif
-/bsuite/worker.php?
 /bt*.com/imgs.js?t=
 /bt.gif?
 /btba/ad/*
 /btn_tracking_pixel.
 /btrack.php?
-/buffer.pgif?r=
 /buffermetrics/*
-/bug/pic.gif?
 /bugcounter.php?
 /build/tracker.js
 /bundle.tracking.
 /bundle/analytics.
 /bundles/cm.js|
 /bundles/metrics.
-/bundles/tracciamento?
 /bunsen/events/*
-/busting/*/gtm-
-/buzz_stats.
-/bypassma.js
-/bypassmajs|
 /bypasspiphp?
 /byside_webcare.
 /bytro/logs/*
@@ -4959,8 +4897,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /c-hive.js
 /c.gif?
 /c.js#pid=$script,third-party
-/c.php?r=
-/c.wasm
 /c.wrating.com/*
 /c/674_rlt.js
 /c/i.php?id=$script,third-party
@@ -4968,7 +4904,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /c?siteID=$image,script
 /cXense-Analytics-
 /c_track.php?
-/cablog?
 /cache/OTca.js
 /cache/ad_js/*
 /cache/analytics.
@@ -4977,29 +4912,16 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /caches/poster_js/*
 /caiguu_gg_
 /caixinlog.js
-/calameo-beacon.
 /call-tracking.js
 /call.tracker.js
 /callbacks/stats?
 /campaign_tracker.
-/campaign_trax.
 /caoaa|
-/caos-analytics/*
 /caos/analytics.
 /capture_client.js
 /cari/banner/*
 /cari/daybanner/*
-/caulytracker2.
-/caulytracker_
 /cbanalytics.
-/cbs1x1.gif?
-/cbstats/*
-/cc?a=$image
-/cclickTracking.
-/cclog?ck=
-/ccm_sj?
-/cct?
-/cdcVanity?
 /cdn-cgi/apps/body/*$script,~third-party
 /cdn-cgi/apps/head/*$script,~third-party
 /cdn-cgi/beacon/*
@@ -5011,10 +4933,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
 /cdn-cgi/zaraz/*
-/cdn-monitoring-pixel.
-/cdn.stats2?
 /cdn/adx/*
-/cdn5.js?
 /cdn_cookie_service.$image
 /cdnperf-rum.
 /cds-webanalytics.
@@ -5028,7 +4947,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /center?advId=
 /certifica-js14.js
 /certifica.js
-/certifica_2010.js
 /certona.
 /certona_$script
 /ceshi127722.
@@ -5053,55 +4971,38 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /cgi-bin/te/in.cgi?
 /cgi-bin/user_online/uos.cgi?
 /cgi-bin/useronline/*
-/cgi-bin/vdz/*
 /cgi-sys/count.cgi?df=
 /cgi/bin/trk.js
 /cgi/count?
 /cgi/stats.pl?
 /cgi/trk.js
-/chan_slidesurvey.js
-/chanalytics.
 /channelintelligence/*
-/chartbeat.jhtml
 /chartbeat.js
 /chartbeat.js$domain=wetter.com
 /chartbeat.min.js
 /chartbeatCode.
 /chartbeatanalytics/*
-/chartbeatftr.
 /chcounter/*
 /check.php?referrer=
-/checkForAdvertorials.
-/checkstat.asp
 /chicken.gif?*=
 /chinaadclient.
-/ci-capture.
-/cim_tns/spring.js
-/ciso_tracking/*
 /citycounter.
-/cjtracker2.
 /ckaudience/*
-/ckimg_1x1.gif?
 /cklink.gif?
 /cklog.js
-/cl.gif?pvID=
-/clacking.js
 /clarity-*.js$domain=~clarity-labs.kaminario.com|~clarity.imply.io|~make.services
 /clarity-api-
 /clear.gif?
-/clicevent.php?
 /click-analytics.
 /click-count.
 /click-logger.$image,script
 /click-stat.js
 /click-tracker
 /click.*/q/*$image
-/click.cgi?callback=
 /click.em.nike.com/*$image
 /click.email.$image
 /click.php?c=
 /click/impression?
-/click?mode=*&action=
 /click?track=
 /clickAnalyse.
 /clickLogger?
@@ -5828,7 +5729,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /ezprice_ad.js
 /ezytrack.
 /f.gif?
-/facash.
 /facebook-retargeting-
 /facebook-tracking/*
 /facebook/pixel.js
@@ -6674,7 +6574,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /jsadv/*
 /jscounter.
 /jscripts/analytics.js
-/jsecoin.*/?
 /jserrLog?
 /jslogger.php?ref=
 /json/stats?
@@ -10889,7 +10788,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 =ws://*?pools=
 =wss://*?pool=
 =wss://*?pools=
-?*.spacepools.
 ?*=*=*=$subdocument,domain=00cha.com|01fy.cn|06ps.com|08160.cn|0s.net.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|16xx8.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|5djiaren.com|5h.com|5nd.com|5seestar.com|64foot.com|66law.cn|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|babihu.com|baicaolu.net|baotang5.com|baoxianzx.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dayfund.cn|dgzj.com|diangon.com|ditiezu.com|diyifanwen.com|diyju.com|dugoogle.com|dxsbb.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|game234.com|gaosan.com|gaotie.cn|gucheng.com|gugu5.com|guidaye.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|ixiunv.com|jeasyui.net|jf258.com|jianbihua.com|jianbihuadq.com|jinbaodm.com|jingdianlaoge.com|jintang114.org|jj20.com|jy135.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|mmyuer.com|nanhuwang.com|oh100.com|pansoso.com|phb123.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|sc115.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|szhk.com|tvmao.com|uzuzuz.com|weather.com.cn|webshu.net|wenkuxiazai.com|wenshenxiu.com|wenzhangba.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yjbys.com|yuwenmi.com|yxlady.com|yyrtv.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net
 ?*__$~xmlhttprequest,removeparam=/^__[bce-z]/,domain=facebook.com|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
 ?[AQB]&ndh=1&t=
@@ -11463,6 +11361,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.optimizely.com/js/$domain=compassion.com|creditsesame.com|fedex.com|freeshipping.com|heroku.com|kabeleins.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tcgplayer.com
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
+@@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
 @@||cdn.petametrics.com^$script,domain=comics.mecha.cc
 @@||cdn.rawgit.com/*/lazyload.js$domain=javmost.com
 @@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
@@ -11695,7 +11594,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||eu4cn.com^$generichide
 @@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
-@@||events-collector.spot.im/api/$xmlhttprequest
 @@||events.raceresult.com^$~third-party,xmlhttprequest
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 @@||exoclick.com/iframe.php?*=2596969&$domain=jav777.cc|jav777.xyz
@@ -11718,7 +11616,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||fharr.com^$generichide
 @@||firebase.google.com/docs/analytics/$~third-party
 @@||firefox.com.cn/media/img/mozcn/spread/468-60-
-@@||flipboard.com/setcookie?$~third-party
 @@||fltaradio.com/js/ads.js
 @@||flyert.com/plug/socialShare/js/social-share.
 @@||fm.ipinyou.$domain=ipinyou.com.cn
@@ -11753,15 +11650,11 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||gemius.pl/gstream.js
 @@||genesyslogic.com^*/ads$~third-party
 @@||genshuixue.com/??/*/counter/action_
-@@||geo-targetly.com/geolocation?id$script,third-party
-@@||geo.gorillanation.com/geo.php$script,domain=sherdog.com
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com|tw.buy.yahoo.com
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip.cookieyes.com/geoip/checker/result.php$domain=marktechpost.com
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
-@@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
-@@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
 @@||get.geojs.io/v1/ip/geo.json$domain=namlih.my.id|shop.critrole.com
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
 @@||getflywheel.com/addons/google-analytics/$~third-party
@@ -11866,7 +11759,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||histock.tw/JScript/AD/
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||hit.interia.pl/iwa_core$script,~third-party
-@@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party
 @@||hitta.se^$removeparam=ad_id
 @@||hk.on.cc/js/v4/oncc-adbanner.js
 @@||hk.on.cc/js/v4/oncc-adbanner.js$domain=hk.on.cc
@@ -11904,7 +11796,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||icbc.com.cn/Portal_Resources/Common/AdRes/
 @@||icbc.com.cn/icbc/include/AD_
 @@||identity.mparticle.com^$xmlhttprequest
-@@||idfcbank.com/static/features/*/scripts/FingerPrint.js$script,~third-party
 @@||ifengimg.com/a/201*Player
 @@||ifengimg.com/fe/shank/content/mobile_view.*_modern.js
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
@@ -12182,7 +12073,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||newsmth.net/nForum/*/ADAgent_
 @@||newver.api.dedecms.com/index.php$subdocument
 @@||nfmovies.com/static/side.jpg$xmlhttprequest,domain=nfmovies.com
-@@||nhl.com/components/shared/omniture-tracking-scripts/newRelic.js$~third-party
 @@||nike.com/assets/measure/data-capture/analytics-client.min.js$script,~third-party
 @@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
 @@||niotv.com^$generichide
@@ -12223,7 +12113,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||online.unionpay.com/ads/$script
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
-@@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||open.spotifycdn.com/cdn/build/embed/overture.$script,domain=open.spotify.com
 @@||optimizely.com/datafiles/$domain=alaskaair.com|guildeducation.com|hm.com|nike.com|printify.me|talktalk.co.uk|tommy.com|wallapop.com
 @@||optimove.net^$domain=app.touchnote.com
@@ -12366,7 +12255,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||rudaw.net/images/pixel.gif$~third-party
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
-@@||rum.perfops.net/rum.min.js$script,domain=cdnperf.com
 @@||runative-syndicate.com/do2/*$domain=onemanhua.com
 @@||ruten.com.tw/ahd/fetch_ad.php
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
@@ -12426,7 +12314,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||shopback.com.tw^$generichide
 @@||shopeemobile.com/shopee/*/modules/ads/
 @@||shopeesz.com/shopee/*/modules/ads/
-@@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||show.g.mediav.com/s?type=$domain=v.360kan.com
 @@||show.g.mediav.com/s?type=$script,domain=miercn.com
@@ -21540,6 +21427,7 @@ zzzyk.com###Tinfo
 ||2l6ddsmnm.de^
 ||2lian.com^$third-party
 ||2m2n.com^
+||2medo.top^
 ||2mfx.cn^
 ||2o7.net^$third-party
 ||2parale.ro^$third-party
@@ -24591,6 +24479,7 @@ zzzyk.com###Tinfo
 ||abc.pema.cl^
 ||abc.rwpt.top^
 ||abc.yebaike.com^
+||abc748596aaa.vip^
 ||abcache.com/tg/
 ||abcache.com/xc/image/
 ||abcache.com/youlaohu/
@@ -25174,6 +25063,7 @@ zzzyk.com###Tinfo
 ||adex.naruko333.jp^
 ||adf.dahe.cn^
 ||adf.ly/js/$third-party,domain=~j.gs|~q.gs
+||adfec3.com^
 ||adfeifan.com^$third-party
 ||adform.net^$third-party
 ||adfox.ru^$third-party
@@ -28678,6 +28568,7 @@ zzzyk.com###Tinfo
 ||baowt.com^
 ||baozp.top^
 ||bapages.carte-gr.total.fr^
+||bapdkgmvn.xyz^
 ||baptisthealth.hrm.healthgrades.com^
 ||baptisttop1000.com^$third-party
 ||baqend.com/v1/rum/$third-party
@@ -29552,6 +29443,7 @@ zzzyk.com###Tinfo
 ||bnsdk.top^
 ||bntech.io^$third-party
 ||bnutnr.landandfarm.com^
+||bny3.cn^
 ||bnz9.cn^
 ||boardx.huanqiu.com^
 ||bob-recs.com^$third-party
@@ -32208,7 +32100,6 @@ zzzyk.com###Tinfo
 ||couplestupidity.com^
 ||courir.$removeparam=/^_mak_partner_/
 ||courrierinternational.com/*&vtag=
-||courrierinternational.com/it.hal
 ||coursehero.com/v1/data-tracking
 ||coursera.org/eventing
 ||coveo.com/coveo.analytics.js/
@@ -32342,6 +32233,7 @@ zzzyk.com###Tinfo
 ||crmmetrixwris.com^$third-party
 ||crobotb.com^
 ||crocetta.viessmann.it^
+||crookedcreature.com^
 ||crossees.com^
 ||crosspixel.net^$third-party
 ||crosswalkmail.com^$third-party
@@ -33353,7 +33245,7 @@ zzzyk.com###Tinfo
 ||devatics.com^$third-party
 ||devatics.io^$third-party
 ||develenv.com^$third-party
-||developpez.com/public/js/track.js
+||developpez.com/public/js/log.js
 ||device.fishmobi.com^
 ||device9.com^$third-party
 ||devlink.sprive.com^
@@ -36483,8 +36375,6 @@ zzzyk.com###Tinfo
 ||footprintlive.com^$third-party
 ||forbes.com^$removeparam=sh
 ||force24.co.uk^$third-party
-||forecast.huffingtonpost.fr^
-||forecast.lemonde.fr^
 ||forecasttiger.com^
 ||foregoingfowl.com^
 ||forensics1000.com^$third-party
@@ -36628,8 +36518,6 @@ zzzyk.com###Tinfo
 ||frailfruit.com^
 ||frailoffer.com^
 ||frame.enet.com.cn/a.php
-||franceculture.fr/static/js/xtcore-
-||franceinter.fr/vendor/track.js
 ||franchiseworld.hk^
 ||franchising.scholarscanada.com^
 ||franticcarpenter.com^
@@ -37834,6 +37722,7 @@ zzzyk.com###Tinfo
 ||godhat.com^$third-party
 ||godie.cyou^
 ||godloveme.cn^
+||godlu.com^
 ||godlygeese.com^
 ||goeyxwhp.site^
 ||gofundme.com/track
@@ -41791,6 +41680,7 @@ zzzyk.com###Tinfo
 ||jsyunmy.com^
 ||jszctech.com^
 ||jsztl.com/img/particular/tbyhq.jpg
+||jt56.co^
 ||jtjh.tw^
 ||jtxh.net^$third-party
 ||jtxrou.saucony.com^
@@ -42239,6 +42129,7 @@ zzzyk.com###Tinfo
 ||kkgytur.cn^
 ||kkhq.actonservice.com^
 ||kkizyys.cn^
+||kkkjpg-522.cc^$third-party
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
 ||kkpgv2.xunlei.com^
@@ -42639,11 +42530,9 @@ zzzyk.com###Tinfo
 ||laboredlocket.com^
 ||labuladong.github.io/algo/pictures/ad/
 ||lacentrale.fr/collect
-||lacentrale.fr/static/fragment-layout/tracking-
 ||lacerate.club^
 ||lacinfo.motorolasolutions.com^
 ||lackadaisicalkite.com^
-||lacoccinelle.net/g.js
 ||ladsp.com^$third-party
 ||lady177.com^$popup
 ||laferia.cr^$third-party
@@ -42718,7 +42607,6 @@ zzzyk.com###Tinfo
 ||lapescheria.openapp.link^
 ||lapsmnl.cyou^
 ||larbcc.xyz^
-||lardennais.fr/sites/all/themes/enabootstrap/js/stat-callback.js
 ||laregione.ch/ext/av.php?
 ||lasagneandands.com^$third-party
 ||laserstat.com^$third-party
@@ -42864,16 +42752,14 @@ zzzyk.com###Tinfo
 ||lecai.com/page/zhuanti/baidu/
 ||lecho.be/fb2?
 ||lecho.be/tag/tag-
-||lecho.be/track/
 ||lecuiwangluo.com^
 ||ledaren.cn^
 ||lederer.nl/incl/stats.js.php?
+||ledevoir.com/js/pianoAnalyticsTags.js
 ||ledger-enquirer.com/lz-isbnoyo/pdp.gif?
 ||ledni.xyz^
 ||leeleo.top^$third-party
 ||lefengtv.com/js/tj.js
-||lefigaro.fr/ext/analytics
-||lefigaro.fr/ext/figanalytics
 ||leftliquid.com^
 ||legacy.com/globalscripts/tracking/
 ||legacy.com^*/unicaclicktracking.js?
@@ -43057,6 +42943,7 @@ zzzyk.com###Tinfo
 ||lift.acquia.com^
 ||lifterpopup.com^$third-party
 ||lifu11.com^
+||lifvfr.xyz^
 ||lightboxcdn.com/static/identity.html
 ||lightcushion.com^
 ||lightinthebox.com^$removeparam=url
@@ -46519,6 +46406,7 @@ zzzyk.com###Tinfo
 ||naj.sk^$third-party
 ||najva.com^$third-party
 ||nakisa.actonservice.com^
+||nakop.xyz^
 ||nalapop.com^
 ||nalook.com^$third-party
 ||namethatporn.com/assets/imgs/1x1.gif
@@ -46880,6 +46768,7 @@ zzzyk.com###Tinfo
 ||nil.naver.com^
 ||nile.works/TargetingWebAPP/
 ||nile.works/api/save-perf?
+||nilzq.xyz^
 ||nimajl.top^
 ||nimaxrv.cn^
 ||nimazhale.top^
@@ -47191,6 +47080,7 @@ zzzyk.com###Tinfo
 ||nwogldc.top^
 ||nwrazu.cn^
 ||nws.naltis.com^
+||nwuidsbjak.com^
 ||nwxs5.com/js/
 ||nxakpj4ac8gkd53.info^
 ||nxflv.com/nxflv.js
@@ -47389,6 +47279,7 @@ zzzyk.com###Tinfo
 ||oicchina.com^$third-party
 ||oicode.com^
 ||oicvvnm.cn^
+||oiewpw.com^
 ||oikckw.scarosso.com^
 ||oiknldwlkop.com^
 ||oikotie.fi^$removeparam=sRef
@@ -47796,9 +47687,6 @@ zzzyk.com###Tinfo
 ||otwiss.xyz^
 ||oubqzcg.cn^
 ||ouc82i67pytg.www.emanualonline.com^
-||ouedkniss.com/spf/page-view
-||ouedkniss.com/static/alexa.js
-||ouedkniss.com/static/pixel.js
 ||ougannike.com^
 ||oujirkb.cn^
 ||ouk7.grantalexander.com^
@@ -59133,6 +59021,7 @@ zzzyk.com###Tinfo
 ||ued8.destinia.sg^
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 ||uehtjp.cn^
+||uejnmjdpd.xyz^
 ||uekjbr.cn^
 ||uekqdec.cn^
 ||uengbalc.fun^
@@ -59396,6 +59285,7 @@ zzzyk.com###Tinfo
 ||usabilitytools.com^$third-party
 ||usabilla.com^$third-party
 ||usage.seibert-media.io^$third-party
+||usatoday.com/tangstatic/js/pbjsandwichnosrv-q1a2z32ec4a9b8.min.js
 ||usbkngf.cn^
 ||usbvhzg.cn^
 ||uscdn.top^
@@ -59487,6 +59377,7 @@ zzzyk.com###Tinfo
 ||uvymccn.cn^
 ||uvzrtq.livingspaces.com^
 ||uwadakest.cyou^
+||uwandlt.top^
 ||uwants.com/dfp_forum.php?au=Uwants_Web_
 ||uwants.com^*_prod.html
 ||uwdspsh.cn^
@@ -59611,6 +59502,7 @@ zzzyk.com###Tinfo
 ||vcsoat.cn^
 ||vcwcrd.cn^
 ||vde1.voyage-prive.de^
+||vdebtqm.xyz^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdkjfd.hottopic.com^
@@ -60723,6 +60615,7 @@ zzzyk.com###Tinfo
 ||west.cn/vcp/getJScode/
 ||westca.com/server/
 ||weste.net/js/showpagead.js
+||westover.cn^
 ||wetpaint.com^*/track?
 ||wetr.sportscheck.at^
 ||wetr.sportscheck.ch^
@@ -62957,6 +62850,7 @@ zzzyk.com###Tinfo
 ||z680.beaumontenterprise.com^
 ||z6ro5.xyz^
 ||z737.thestar.com^
+||z74lb.com^
 ||z82v0.icu^
 ||za.zdn.vn^
 ||zabdybod*.club^
@@ -62973,6 +62867,7 @@ zzzyk.com###Tinfo
 ||zaiaplb.cn^
 ||zaihu99.ltd^
 ||zailet.com^
+||zaiyuanyqq.com^
 ||zalo.me/v3/w/_zaf.gif
 ||zampda.net^$third-party
 ||zanghaihua.org/js/
@@ -63626,6 +63521,7 @@ zzzyk.com###Tinfo
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"] + .bg + img
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ~rock-chips.com##.gglist
+~shenguangai.com##a[href*=".shenguangai.com/"]
 ~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
