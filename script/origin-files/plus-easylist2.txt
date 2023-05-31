@@ -5831,11 +5831,12 @@ gioialive.it##+js(nostif, rbm_block_active, 1000)
 ! https://github.com/uBlockOrigin/uAssets/issues/11009
 investing.com##+js(no-fetch-if, ads)
 investing.com##+js(set, google_ad_status, 1)
-investing.com##.outbrain_outbrain-wrapper__3mDpk
+investing.com##[class^="outbrain_outbrain-wrapper"]
 ! https://github.com/uBlockOrigin/uAssets/issues/12831
 investing.com##[class*="adBlock"]
 investing.com##[class*="overlay_overlay"]
 investing.com##body:style(overflow: auto !important)
+investing.com##+js(set, Object.prototype.adBlockDetected, false)
 ! https://github.com/uBlockOrigin/uAssets/issues/18310
 investing.com###__next > .fixed
 
@@ -10082,15 +10083,15 @@ oko.sh##+js(aopw, Fingerprint2)
 oko.sh##+js(nowebrtc)
 oko.sh##+js(set, blurred, false)
 oko.sh##+js(nostif, Adblock)
+oko.sh##+js(no-fetch-if, googlesyndication)
+oko.sh##+js(acs, XMLHttpRequest, adb)
+oko.sh##^script:has-text(adb_detected)
+*$image,redirect-rule=1x1.gif,domain=oko.sh
 @@||oko.sh^$ghide
 oko.sh##a[href^="https://href.li/"]
 oko.sh##a[href^="https://taghaugh.com/"]
 oko.sh##[href="https://tipsalert.xyz"]
 oko.sh##[src^="https://i.imgur.com/"]
-!#if env_firefox
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=oko.sh
-!#endif
-oko.sh##^script:has-text(adb_detected)
 
 ! https://github.com/NanoMeow/QuickReports/issues/1050
 @@||anhdep24.net^$ghide
