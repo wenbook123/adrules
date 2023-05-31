@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: z+L3FrxVl3HbdBH6mXM2sg
+! Checksum: O6DSJq19f5TqDpiHYiqLpw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-05-31 00:17:10（北京时间） 
-! Total count: 63529
+! Version: 2023-05-31 09:01:27（北京时间） 
+! Total count: 63532
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2589,7 +2589,7 @@ $removeparam=li,domain=msn.com
 $removeparam=li_medium
 $removeparam=li_source
 $removeparam=lid,domain=baidu.com|clickserve.dartsearch.net|flipkart.com
-$removeparam=linkId,domain=amazon.*|cbsnews.*|disneyplus.com
+$removeparam=linkId,domain=amazon.*|cbsnews.*|disneyplus.com|sporza.be
 $removeparam=link_source_user_id,domain=nextdoor.com
 $removeparam=litb_from
 $removeparam=loc,document,domain=bestbuy.*|shopping.google.com
@@ -12672,7 +12672,7 @@ Mplay/kk1.js
 ^t=0^$removeparam=t,domain=bilibili.com
 ^via=futurepedia^$removeparam=via
 ^via=toolbar^$removeparam=via,domain=user.qzone.qq.com
-^z=*&var=$removeparam=var
+^z=*&var=$removeparam=var,document
 _/bigREDcat.css?
 _/bigREDdog.css?
 _/bigREDdog.js
@@ -29104,6 +29104,7 @@ zzzyk.com###Tinfo
 ||bihaipack.com^
 ||bikannovel.com^
 ||biketo.com/d/file/p/
+||bild.de^$document,removeparam=t_ref
 ||bildirt.com^$third-party
 ||bili96.co^
 ||bilibili.com/audio/au*?$removeparam=type
@@ -30006,7 +30007,7 @@ zzzyk.com###Tinfo
 ||c-date.it^*/tracking2/tr.js
 ||c-gtc.getui.net^
 ||c-o-u-n-t.com^$third-party
-||c-rings.net^$third-party
+||c-rings.net^$script,third-party
 ||c.28rv.com^
 ||c.91wan.com^$third-party
 ||c.admaster.com.cn^$popup
@@ -35415,6 +35416,8 @@ zzzyk.com###Tinfo
 ||etsy.com/bcn/beacon
 ||etsy.com^$removeparam=click_key
 ||etsy.com^$removeparam=click_sum
+||etsy.com^$removeparam=gao
+||etsy.com^$removeparam=gpla
 ||etsy.com^$removeparam=organic_search_click
 ||ettoday.net/ad/*_action.js
 ||ettoday.net/banners/
