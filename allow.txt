@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: LX3xmKbfb290sdGpW5+rXA
+! Checksum: wOtbSAr0HGdHcLFmKB7uYQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-02 16:17:18（北京时间） 
-! Total count: 15021
+! Version: 2023-06-03 00:21:14（北京时间） 
+! Total count: 15019
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -561,6 +561,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orge-analytics.com/analytics.js$domain=prosieben.at|prosieben.ch|prosieben.de
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -6892,7 +6893,6 @@
 @@||gstatic.com/brandstudio/kato/cookie_choice_component/$script,domain=blog.google
 @@||gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v2.js$domain=deepmind.com
 @@||gstatic.com/cast/sdk/libs/sender/*/cast_framework.js$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
-@@||gstatic.com/chrome/webstore/images/share_$domain=google.com
 @@||gstatic.com/cv/js/sender/*/cast_sender.js$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$domain=kora-online.tv
 @@||gstatic.com/images/branding/product/*/adsense_$image,domain=support.google.com
@@ -10037,8 +10037,6 @@
 @@||oriflame.ru^$cookie=SC_ANALYTICS_GLOBAL_COOKIE
 @@||origin-ads.exosrv.com/ad99uip8i.php
 @@||orion-http.gw.postman.co/v*/request$jsinject,elemhide,extension
-@@||orix.co.jp/grp/company/brand/cm/images/share_img01.jpg
-@@||orix.co.jp/grp/company/brand/cm/images/share_img02.jpg
 @@||orlandoweekly.com/wp-content/plugins/wpsocialite/Socialite/socialite.min.js
 @@||orlygift.com^$ghide
 @@||orospucocugi.xyz/mp4/$stealth,media
@@ -11769,6 +11767,7 @@
 @@||sdk.privacy-center.org/*.js$domain=elmundo.es
 @@||sdk.privacy-center.org/*.js$domain=gamestar.de
 @@||sdk.privacy-center.org/*.js$domain=telegraaf.nl
+@@||sdk.privacy-center.org/*.js|$domain=filmstarts.de
 @@||sdk.privacy-center.org/*/loader.js$domain=beinsports.com
 @@||sdk.privacy-center.org/*/loader.js$domain=filmstarts.de
 @@||sdk.privacy-center.org/*/loader.js$domain=filmweb.pl
@@ -12322,7 +12321,6 @@
 @@||sledujserialy.*^$script,1p
 @@||sledujserialy.io/theme/js/popunder.js
 @@||sledujserialy.to/theme/js/popunder.js
-@@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net
 @@||slike.indiatimes.com/feed/$domain=idiva.com
 @@||slike.indiatimes.com/feed/playerconfig/*.json$domain=timesnownews.com
 @@||slike.indiatimes.com/feed/playerconfig/*.json$domain=zoomtventertainment.com
