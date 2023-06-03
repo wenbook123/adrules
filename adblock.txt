@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ymD3jWx9wNxJkfJnh4XGKg
+! Checksum: ANK0VLfOVADVldjOI8bHiw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-06-03 16:17:16（北京时间） 
-! Total count: 63312
+! Version: 2023-06-04 00:17:14（北京时间） 
+! Total count: 63322
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2599,7 +2599,7 @@ $removeparam=li,domain=msn.com
 $removeparam=li_medium
 $removeparam=li_source
 $removeparam=lid,domain=baidu.com|clickserve.dartsearch.net|flipkart.com
-$removeparam=linkId,domain=amazon.*|cbsnews.*|disneyplus.com|sporza.be
+$removeparam=linkId,domain=amazon.*|cbsnews.*|disneyplus.com||espn.*|sporza.be
 $removeparam=link_source_user_id,domain=nextdoor.com
 $removeparam=litb_from
 $removeparam=loc,document,domain=bestbuy.*|shopping.google.com
@@ -19818,6 +19818,7 @@ www.haijiao.com##DIV.addbox,DIV.bannerliststyle,DIV.van-swipe-item,DIV.crossbutt
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
+www.huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 www.hzw.com.cn##DIV.xfb_close_icon,DIV#xfb_lbox,DIV.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
@@ -35101,6 +35102,7 @@ zzzyk.com###Tinfo
 ||esnignsw.xyz^
 ||esnoownmw.fun^
 ||esomniture.com^$third-party
+||espn.$document,removeparam=platform
 ||espn.com^$removeparam=ex_cid
 ||esputnik.com^$third-party
 ||esqc.xyz^
@@ -38515,6 +38517,7 @@ zzzyk.com###Tinfo
 ||histock.tw/ad/
 ||historicalbeam.com^
 ||historicalrequest.com^
+||hit-360.com^$third-party
 ||hit-counter.info^$third-party
 ||hit-counters.net^$third-party
 ||hit-parade.com^$third-party
@@ -38761,8 +38764,8 @@ zzzyk.com###Tinfo
 ||hoteles.com^$removeparam=PSRC
 ||hoteles.com^$removeparam=tmid
 ||hoteles.com^$removeparam=wapa6
-||hotels.com/kt2lli/
-||hotels.com/trvl-px/
+||hotels.com/api/bucketing/v1/evaluateExperimentsAndLog
+||hotels.com/cl/data/omgpixel.json?
 ||hothydrant.com^
 ||hotjar.com^$domain=quoka.de
 ||hotjar.com^$third-party
@@ -39137,6 +39140,7 @@ zzzyk.com###Tinfo
 ||i-mobile.co.jp^$third-party
 ||i-part.com.tw/js2/newShineStar
 ||i-services.net^*/compteur.php?
+||i-tm.com.tw/api/itm-tracker.js$domain=pixnet.net
 ||i.agentimg.xyz/4156af89sa5f16a53451a6df.gif
 ||i.airtel.in^
 ||i.alipayobjects.com/i/ecmng/$image,domain=my.alipay.com
@@ -40493,6 +40497,7 @@ zzzyk.com###Tinfo
 ||iplocationtools.com^$third-party
 ||iplogger.org^$third-party,domain=~iplogger.com
 ||iplsc.com/inpl.log/
+||iplt20.com^$document,removeparam=tagNames
 ||ipm.atm.youku.com^
 ||ipmeta.io^$third-party
 ||ipn-app.hotdoc.com.au^
@@ -48499,6 +48504,7 @@ zzzyk.com###Tinfo
 ||pmvlwjy.cn^
 ||pmweb.com.br^$third-party
 ||pn.vg^$third-party
+||pnas.org^$document,removeparam=af
 ||pndagz.com^
 ||pnekru6pxrum-a.akamaihd.net^
 ||pnesemr.cn^
@@ -49337,6 +49343,7 @@ zzzyk.com###Tinfo
 ||qiyipic.com/zongyi/fix/mxdj
 ||qiyipic.com/zongyi/fix/runningman20141008_bg02.jpg
 ||qiyipic.com/zongyi/fix/runningman20141008_bg03.jpg
+||qiyukf.com/webda/da.gif$domain=youdao.com
 ||qiyukf.com^$third-party
 ||qiyun.org/images/js/*.htm
 ||qizhihaotian.com^*.js
@@ -58385,6 +58392,7 @@ zzzyk.com###Tinfo
 ||tsk5.com^$third-party
 ||tslianm.com^
 ||tsmirk.xyz^
+||tsn.ca^$document,removeparam=tsn-amp
 ||tsnignsi.xyz^
 ||tsnoownmi.fun^
 ||tsp.onjoyri.de^
@@ -59530,6 +59538,7 @@ zzzyk.com###Tinfo
 ||visitor-microservice.ext.p-a.im^
 ||visitor-stats.de^$third-party
 ||visitor-track.com^$third-party
+||visitorapi.pixplug.in^$domain=pixnet.net
 ||visitorglobe.com^$third-party
 ||visitorjs.com^$third-party
 ||visitorpath.com^$third-party
@@ -61816,6 +61825,7 @@ zzzyk.com###Tinfo
 ||xxczdfb.cn^
 ||xxdm.in/js/union/
 ||xxdongfa.com^
+||xxf.mobi/hit
 ||xxffo.com^*_slett.php
 ||xxgslt.com^
 ||xxgxqscl.com^
