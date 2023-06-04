@@ -2544,6 +2544,7 @@ ouo.*##[href^="https://dynamicadx.com/"]
 ouo.*##iframe:not([src])
 ouo.*##[id*="ScriptRoot"]
 ouo.*##.dlbtns
+ouo.press##.skip-container > .text-center > span[style="display: block;color: #aaa;font-size: 13px;padding-bottom: 2px;"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1057
 chooyomi.com##+js(nowoif)
@@ -10993,6 +10994,8 @@ dreamdth.com##+js(set, adBlockDetected, false)
 dreamdth.com##+js(acs, $, show)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5799
+! https://github.com/uBlockOrigin/uAssets/issues/18375
+pornhub.*##+js(nostif, adsbytrafficjunkycontext)
 pornhub.*##+js(acs, Object.defineProperty, trafficjunky)
 pornhub.*##+js(set, HTMLElement.prototype.attachShadow, null)
 pornhub.*##+js(nowoif)
