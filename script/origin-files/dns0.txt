@@ -1,8 +1,8 @@
-! Checksum: CBLz09Pir8t3jD7uFgVOww
+! Checksum: cE+w6OS6rJbwJErvNC3HWw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.90.67
-! TimeUpdated: 2023-06-06T06:31:15+00:00
+! Version: 2.0.90.71
+! TimeUpdated: 2023-06-06T15:32:21+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -899,6 +899,7 @@ nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick*=
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
 !
 !
+myfreax.com#?#main > div.w-full:has(> ins.adsbygoogle)
 v2rayssr.com#?#.sidebar-innter > .widget:has(.adsbygoogle)
 v2rayssr.com#?#.single-top-html:has(> div:only-child > a[target="_blank"] > img)
 v2rayssr.com#?#.content-area > .single-bottom-html:has(> div[align="center"] > .adsbygoogle)
@@ -1313,6 +1314,11 @@ $script,third-party,denyallow=bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cl
 !
 !
 !
+||m.daomutxt.cc/dist/common.js
+||m.daomutxt.cc/js/
+douyu.com##div[class^="ChargeTask"]
+||g89zum.zaiceyjjqq.com^$domain=5yydstxt178.com
+qiuziti.com##a[href^="https://www.hellofont.cn/"] > img
 udn.com##.bg-banner--link
 ||udn.com/upf/2014_sales/testpage/Bannerimage/*x*_*.jpg
 ezneering.com###media_image-2
@@ -2641,6 +2647,8 @@ adguard.com,adguard.app##.hello_from_adguard_chinese
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/152685
+qiuziti.com#@#.banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152815
 ! Last rule is required in case of DNS filtering, doubleclick.net is blocked on DNS level
 ! so another blocked request is used for redirection
@@ -5279,6 +5287,9 @@ newduba.cn###jq_youxi
 ||pohpll.xyz^
 ||rcsden.top^
 ||bxoiksm.xyz^
+||heretrail.com^
+||isancio.top^
+||dsbt7.com^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
