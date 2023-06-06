@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: hpvDvw3PwBiUF5x48xi/8g
+! Checksum: 4yLk41qEk+sMGPbl0Ldflg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-06-06 00:19:16（北京时间） 
-! Total count: 63197
+! Version: 2023-06-06 09:01:52（北京时间） 
+! Total count: 63196
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1819,6 +1819,7 @@
 #@#.has-ad
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepiratebay.org|vidoza.net
+$document,removeparam=/^clickid=/i,domain=~discover.*
 $document,removeparam=_clde
 $document,removeparam=_cldee
 $document,removeparam=l,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
@@ -1877,7 +1878,6 @@ $removeparam=/^cid=DSS-Search-/,domain=disneyplus.com|espn.com|hotstar.com|starp
 $removeparam=/^cid=DTCI-Synergy/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
 $removeparam=/^cid=DTCI_STAR-Synergy/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
 $removeparam=/^cid_/
-$removeparam=/^clickid=/i
 $removeparam=/^clickref\d?=/
 $removeparam=/^cm_mmc/
 $removeparam=/^cmpid%3D=/i,domain=bloomberg.com
@@ -2352,7 +2352,6 @@ $removeparam=ct,domain=apple.com|bumble.com|newsroom.co.nz
 $removeparam=ct,domain=nextdoor.com
 $removeparam=ctc,domain=avantlink.com
 $removeparam=cuid
-$removeparam=curator_clanid,domain=~store.steampowered.*
 $removeparam=custlixnkid
 $removeparam=cvid,domain=chinadaily.com.cn|eastday.com|msn.cn|msn.com|tianqi.com|yiyouliao.com
 $removeparam=cvosrc
