@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: J+jQu58lIkQvzOwOrHLC/w
+! Checksum: oWIRuFgolDKDTOKPdf0g6A
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-09 00:17:20（北京时间） 
-! Total count: 15021
+! Version: 2023-06-09 09:04:32（北京时间） 
+! Total count: 15022
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -563,6 +563,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orginancialengines.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -628,7 +629,6 @@
 @@||126.net/163/frontend/share/js/
 @@||126.net/images/blank.gif
 @@||127.0.0.1/admin/admin_ad.php?$domain=127.0.0.1
-@@||12__container
 @@||1337x.st/css/webfonts/oswald-*.$font
 @@||1337x.st^$csp=script-src 'self' 'unsafe-inline'
 @@||159i.com/a_d/$media
@@ -2422,6 +2422,7 @@
 @@||bea4.v.fwmrm.net^$domain=mylifetime.com
 @@||beacon-v2.helpscout.net^$domain=help.getpocket.com
 @@||beacon.guim.co.uk/accept-beacon?
+@@||beacon.unext.jp/beacon/stop/$domain=video.unext.jp
 @@||beaconx.com/index.html$elemhide,jsinject,content,extension
 @@||beanfun.com/ADClient/
 @@||beatricedailysun.com^$ghide
@@ -10301,7 +10302,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=maxedtech.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=pasty.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=yellowbridge.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=leechpremium.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,domain=topsporter.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=alfred.camera
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=apkandroidhub.in
@@ -10366,6 +10366,7 @@
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=hexviewer.iblogbox.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=kingofdown.com|kingofshrink.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=kingofshrink.com
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|kbox
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=panoramaviewer.1bestlink.net
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=thebrickfan.com
@@ -12640,7 +12641,7 @@
 @@||static*.avast.com/*/gdpr.js$domain=avast.com
 @@||static*.lacoste.com/static/on/demandware.static/Sites-*-Site/-/*/framework/components/cookie-consent.js
 @@||static-cdn.spot.im/production/*/*.js$domain=bizpacreview.com
-@@||static-cdn.spot.im/production/launcher/$domain=nypost.com
+@@||static-cdn.spot.im/production/launcher/$domain=nypost.com|foxnews.com
 @@||static-cf.cleverbridge.com/mycontent^$domain=secure.ccleaner.com,stealth
 @@||static-file.com^$stealth,domain=eyny.com
 @@||static-fra.de^*/targeting.js$third-party,domain=rtl-now.rtl.de
