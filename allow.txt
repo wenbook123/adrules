@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: uweHDg4bwAsWekbhjlLSOQ
+! Checksum: e4An86uU+pAuk+a4MlMBJw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-09 16:17:06（北京时间） 
-! Total count: 15016
+! Version: 2023-06-10 00:16:54（北京时间） 
+! Total count: 15021
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -3732,6 +3732,7 @@
 @@||client-event-reporter.twitch.tv^$xmlhttprequest,domain=twitch.tv
 @@||client.axept.io/*.json$domain=welcometothejungle.com
 @@||client.axept.io^$domain=welcometothejungle.com
+@@||client.falixnodes.net^$generichide
 @@||client.falixnodes.net^$xmlhttprequest
 @@||clientconfig.passport.net^
 @@||clientlogin.cdn.skype.com^$document
@@ -4786,6 +4787,7 @@
 @@||downloads.castlabs.com^$stealth
 @@||downloads.descendant.me^$generichide
 @@||downloads.freevintageposters.com/advertising-posters.jpg
+@@||downloads.mailchimp.com/js/signup-forms/$domain=wcoconcerts.org
 @@||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$domain=thisisbarry.com
 @@||downsub.com/js/showAds.js
 @@||downsub.com^$xhr,1p
@@ -8961,6 +8963,7 @@
 @@||maxstream.video^$generichide
 @@||mazu.3g.qq.com^
 @@||mb.yidianzixun.com^
+@@||mbank.pl^$stealth=dpi
 @@||mbcdn.xyz^$image,stealth,domain=mangabuddy.com
 @@||mbd.baidu.com^
 @@||mbe-cdn.fyber.com$app=net.wooga.tropicats_tropical_cats_puzzle_paradise
@@ -9966,7 +9969,6 @@
 @@||online.americanexpress.com/myca/statementimage/$document
 @@||online.bcs.ru^*/piwik.bcs.js$script
 @@||online.cosmosbank.in^$document
-@@||online.mbank.pl^$stealth=dpi
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||online.tivo.com^$elemhide,jsinject
 @@||online.unionpay.com/ads/$script
@@ -11582,6 +11584,7 @@
 @@||s0.2mdn.net/ads/studio/Enabler.js$domain=yuukinohana.co.jp
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=cbs.com|paramountplus.com
 @@||s0.2mdn.net^
+@@||s0.2mdn.net^$image,domain=client.falixnodes.net
 @@||s0.wp.com/wp-content/js^$domain=gaypornwave.com
 @@||s0ft4pc.com^$generichide
 @@||s0ft4pc.com^$ghide
@@ -12373,6 +12376,7 @@
 @@||snap.com^
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||snapchat.com/static/js/autotrack.js
+@@||snigelweb.com/*.js$script,domain=client.falixnodes.net
 @@||snipboard.io^$ghide
 @@||snippets.studybreakmedia.com/doubleclick/ads.js
 @@||snobdomobeyeo.com^$script,domain=blog.cryptowidgets.net|blog.insurancegold.in
@@ -13513,6 +13517,7 @@
 @@||tpc.googlesyndication.com/simgad/$domain=financemonk.net
 @@||tpc.googlesyndication.com/simgad/$domain=geektime.co.il
 @@||tpc.googlesyndication.com/simgad/$image,domain=a2zupload.com|educatiocenter.online|unlockapk.com
+@@||tpc.googlesyndication.com/simgad/$image,domain=client.falixnodes.net
 @@||tpc.googlesyndication.com/simgad/$image,domain=soranews24.com
 @@||tpc.googlesyndication.com/simgad/$image,xmlhttprequest,domain=soranews24.com
 @@||tpc.googlesyndication.com/simgad/*$domain=simple.ripley.cl
