@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202306090240
+! Version: 202306100251
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 61744
+! Lenth = 61756
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -380,6 +380,7 @@ $removeparam=/^at_custom/,domain=bbc.com|bbc.co.uk
 $removeparam=/utm_partner_id|frommail/,domain=mail.ru|sportmail.ru
 $removeparam=ActionID,domain=otto.de|ottoversand.at
 $removeparam=AffiliateID,domain=otto.de|ottoversand.at
+$removeparam=OutLink,domain=sedaily.com
 $removeparam=__hsfp
 $removeparam=__hssc
 $removeparam=__hstc
@@ -425,6 +426,7 @@ $removeparam=bsft_mid
 $removeparam=bsft_uid
 $removeparam=campid,domain=otto.de|ottoversand.at
 $removeparam=cmpid
+$removeparam=cooper,domain=sbs.co.kr
 $removeparam=cuid
 $removeparam=cx_click
 $removeparam=cx_recsOrder
@@ -497,27 +499,33 @@ $removeparam=mtm_keyword
 $removeparam=mtm_medium
 $removeparam=mtm_placement
 $removeparam=mtm_source
+$removeparam=naver,domain=dt.co.kr
+$removeparam=newsstand,domain=sportalkorea.com
 $removeparam=ns_campaign,domain=bbc.com|bbc.co.uk
 $removeparam=ns_fee,domain=bbc.com|bbc.co.uk
 $removeparam=ns_linkname,domain=bbc.com|bbc.co.uk
 $removeparam=ns_mchannel,domain=bbc.com|bbc.co.uk
 $removeparam=ns_source,domain=bbc.com|bbc.co.uk
+$removeparam=nv,domain=khan.co.kr
 $removeparam=nx_source
 $removeparam=ocid,domain=bbc.com|bbc.co.uk
 $removeparam=oly_anon_id
 $removeparam=oly_enc_id
 $removeparam=oprtrack
 $removeparam=oref,domain=defenseone.com|govexec.com|nextgov.com|route-fifty.com
+$removeparam=pg,domain=fnnews.com
 $removeparam=phone_code,domain=shein.co.uk|shein.com
 $removeparam=pk_campaign
 $removeparam=pk_medium
 $removeparam=pk_source
 $removeparam=pk_vid
+$removeparam=plink,domain=sbs.co.kr
 $removeparam=rb_clickid
 $removeparam=ref,domain=jin115.com|bipblog.com|animember.net|sbbit.jp|blog.livedoor.jp|blog.jp|2chblog.jp
 $removeparam=ref,domain=shein.co.uk|shein.com
 $removeparam=ref_type,domain=backit.me|epn.bz
 $removeparam=s_cid
+$removeparam=sc,domain=dailian.co.kr
 $removeparam=scid,domain=rakuten.co.jp|rakuten-wallet.co.jp
 $removeparam=spm,domain=aliyun.com|sohu.com
 $removeparam=src_module,domain=shein.co.uk|shein.com
@@ -532,6 +540,7 @@ $removeparam=utm_ad
 $removeparam=utm_affiliate
 $removeparam=utm_brand
 $removeparam=utm_campaign
+$removeparam=utm_campaign,domain=joongang.co.kr|donga.com|hankyung.com|khan.co.kr|asiae.co.kr|fnnews.com|chosun.com
 $removeparam=utm_campaignid
 $removeparam=utm_channel
 $removeparam=utm_cid
@@ -2681,6 +2690,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /googleTracking.js
 /google_analitycs.
 /google_analytics3_
+/google_analytics4.js
 /google_page_track
 /google_tag.
 /google_tag/*
@@ -5602,9 +5612,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 @@||analytics.global.sky.com/sky-tags
 @@||analytics.itunes.apple.com^$~third-party
 @@||analytics.ladmedia.fr/parismatch/xtcore_mod2.js$domain=parismatch.com
-@@||analytics.twitter.com/*/api$domain=analytics.twitter.com
-@@||analytics.twitter.com/user/*.json?$domain=analytics.twitter.com
-@@||analytics.twitter.com/user/*/tweets/bundle?$domain=analytics.twitter.com
 @@||analytics.twitter.com^$domain=analytics.twitter.com
 @@||annuaire.118000.fr/js/xtcore.js
 @@||answers.ros.org/m/default/media/images/$image,~third-party
@@ -7609,7 +7616,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 @@||statcounter.com/js/fusioncharts.js
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
 @@||states.newegg.com/b/ss/neweggprod/
-@@||static-cdn.spot.im/production/launcher/$domain=nypost.com|foxnews.com
 @@||static.amazon.jobs/assets/analytics-$script,domain=amazon.jobs
 @@||static.atgsvcs.com/js/atgsvcs.js$domain=officedepot.com|shop.lego.com
 @@||static.chartbeat.com/crossdomain.xml
@@ -8252,7 +8258,6 @@ news.mynavi.jp##.articleList-attention
 news.webike.net###custom_html-5
 newsdig.tbs.co.jp#?#.l-contents-wrap > div[v-scope^="Recommend"]:upward(1)
 newslab.ru##.r-recommend
-newslab.ru##.sharing
 newsweekjapan.jp##.taboola-below-article-thumbnails-desktop-2-wrap
 nine.com.au#%#(()=>{window.tracking={setConfig(){},trackPage(){},trackVideoAutoFail(){}}})();
 nine.com.au#%#//scriptlet('prevent-element-src-loading', 'script', 'share.9cdn.net/share/long_cache/js/tracking/tracking')
@@ -8387,7 +8392,6 @@ viva.ua##.footer-counters
 vse42.ru##.ya-metrika
 vulture.com##div[data-uri="www.vulture.com/_components/clay-space/instances/taboola@published"]
 w-kino.ru,kinotochka.club,legend.az##.counts
-washingtonpost.com##.social-tools-wrapper-bottom
 web.frontapp.com/api$image
 weekly-economist.mainichi.jp##iframe[id^="cxWidget_"]
 welovepg.polymail.io$image
@@ -13444,6 +13448,7 @@ znak.com##.relap
 ||analytics-egain.com^
 ||analytics-engine.net^$third-party
 ||analytics-events.inshorts.com^
+||analytics-gateway.delta.dp.lightricks.com^
 ||analytics-gw.games.wanmei.com^
 ||analytics-helper.com^$third-party
 ||analytics-http.mintegral.net^
@@ -19014,6 +19019,7 @@ znak.com##.relap
 ||cloudfront.net/autotracker
 ||cloudfront.net/beaver.js
 ||cloudfront.net/bti/
+||cloudfront.net/clipkit_assets/beacon-
 ||cloudfront.net/code/keen-2.1.0-min.js
 ||cloudfront.net/customers/24868.min.js
 ||cloudfront.net/dough/*/recipe.js
@@ -19175,6 +19181,8 @@ znak.com##.relap
 ||cnameebis.eizoshigoto.com^
 ||cnameebis.usagi-online.com^
 ||cnameforitp.dermed.jp^
+||cnbc.com^$removeparam=__source
+||cnbc.com^$removeparam=par
 ||cnd.landsend.com^
 ||cne.mobile.tt.omtrdc.net^
 ||cnebis.chocola.com^
@@ -26149,6 +26157,7 @@ znak.com##.relap
 ||events.audiate.me^
 ||events.audioplace.me^$third-party
 ||events.avaya.com^
+||events.betterhelp.com^
 ||events.bgrs.com^
 ||events.blackboard.com^
 ||events.brightline.tv^
@@ -26205,6 +26214,7 @@ znak.com##.relap
 ||events.onet.pl^
 ||events.popinfo.jp^
 ||events.practo.com^
+||events.prd.api.discomax.com^
 ||events.prd.api.max.com^
 ||events.privy.com^
 ||events.realgravity.com^
@@ -33971,6 +33981,7 @@ znak.com##.relap
 ||log.bandi.so^
 ||log.baomoi.com^
 ||log.bitauto.com^
+||log.bloodsugars.live^
 ||log.ca.gov.vn^
 ||log.china.cn^
 ||log.cinematoday.jp^
@@ -51053,7 +51064,6 @@ znak.com##.relap
 ||stathound.com^$third-party
 ||static-*.plista.com/async.js$third-party
 ||static-ads.zaloapp.com^
-||static-cdn.spot.im/production/launcher/tags/*/launcher/metrics-reporter-bundle.js
 ||static-cdn.spot.im/production/topic-tracker/tags/*/topic-tracker.js
 ||static-cdn.tinkoffjournal.ru/js/analytics.*.js
 ||static-cf.afreecatv.com/asset/service/common/common_analysis.js
@@ -53958,6 +53968,7 @@ znak.com##.relap
 ||technical.magnalytix.com^
 ||technology.informaengage.com^
 ||technologyadvice.actonservice.com^
+||technologynetworks.com/ApprovedGuid/
 ||technologyservices.equifax.com^
 ||technologyservices.inform.equifax.com^
 ||technolutions.net/ping?
@@ -54188,6 +54199,7 @@ znak.com##.relap
 ||theagency.com^$third-party
 ||theamericannationalr.tt.omtrdc.net^
 ||theardent.group^$third-party
+||theathletic.com^$removeparam=source
 ||theatlantic.com/assets/static/theatlantic/img/sherlock.gif?
 ||theatlantic.com^$cookie=/atl_uuid|datadome|kppid/
 ||theav.xyz/anyalytics
