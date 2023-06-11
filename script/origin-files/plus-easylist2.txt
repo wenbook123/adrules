@@ -5067,6 +5067,7 @@ igg-games.com##+js(aopw, btoa)
 igg-games.com##+js(ra, srcdoc, iframe)
 ||igg-games.com/sw.js$script,1p,important
 @@||igg-games.com^$script,1p
+igg-games.com##[href^="https://igg-games.com/fli"]
 igg-games.com##[href^="https://tm-offers"]
 @@||igg-games.com^$ghide
 igg-games.com#@#.uk-panel.widget-text
@@ -6861,12 +6862,6 @@ nhentai.net##+js(set, _n_app.popunder, null)
 ! https://adblockplus.org/forum/viewtopic.php?f=10&t=60372&start=0
 *.mp4$media,redirect=noopmp4-1s,domain=abc.go.com
 
-! https://github.com/uBlockOrigin/uAssets/issues/1553
-! https://github.com/uBlockOrigin/uAssets/issues/3731
-! https://github.com/uBlockOrigin/uAssets/issues/3745
-! https://github.com/uBlockOrigin/uAssets/issues/5119
-@@||imasdk.googleapis.com/js/sdkloader/$script,domain=4029tv.com|kcci.com|kcra.com|ketv.com|kmbc.com|koat.com|koco.com|ksbw.com|player.listenlive.co|mynbc5.com|wapt.com|wbaltv.com|wcvb.com|wdsu.com|wesh.com|wgal.com|wisn.com|wjcl.com|wlky.com|wlwt.com|wmtw.com|wmur.com|wpbf.com|wtae.com|wvtm13.com|wxii12.com|wyff4.com
-
 ! https://github.com/uBlockOrigin/uAssets/issues/3737
 canadianunderwriter.ca##+js(aopw, mockingbird)
 
@@ -7386,6 +7381,7 @@ searchenginereports.net##div[id^="mnm_s_"]
 plagiarismdetector.net##[style]:has([onclick*="open"])
 ||plagiarismdetector.net/pd-imgs/Grammarly_Square$image,1p
 ||plagiarismdetector.net/pd-imgs/Top_Grammarly_banner$image,1p
+||plagiarismdetector.net/pd-imgs/gram.png$image,1p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4104
 jagran.com##.ads
@@ -7989,6 +7985,11 @@ hulu.com##+js(json-prune, breaks pause_ads)
 @@||hulu.com^$ghide
 hulu.com###banner-ad-container
 hulu.com##.ad-choices
+! https://github.com/uBlockOrigin/uAssets/issues/17382
+!#if ext_devbuild
+hulu.com##+js(json-prune, video_metadata.end_credits_time)
+hulu.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"][starts-with(@id\, "Ad")] | //*[name()="Period"]/@start), , .mpd)
+!#endif
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4356
 @@||adserver.iprom.net/adserver7$xhr,domain=rtl.hr

@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: nMB5Thjg0z0incRFdRcwxQ
+! Checksum: ecr2zpnP55plyTd5tW65Pg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-11 16:16:43（北京时间） 
-! Total count: 14913
+! Version: 2023-06-12 00:15:53（北京时间） 
+! Total count: 14912
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -503,6 +503,7 @@
 @@^mkt_unsubscribe=$removeparam=mkt_tok
 @@^mod=djemalertNEWS^$removeparam=mod
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
+@@_300_250.$domain=nanrem^$popup
 @@_300_250.$domain=nanrenwo.net
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_468x60_$domain=top100arena.com
@@ -563,7 +564,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgrectcounter.de^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -7365,7 +7365,6 @@
 @@||imasdk.googleapis.com/js/core/bridge*.html$domain=twitch.tv
 @@||imasdk.googleapis.com/js/core/bridge*.html$domain=~spotify.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/$script,domain=4029tv.com|kcci.com|kcra.com|ketv.com|kmbc.com|koat.com|koco.com|ksbw.com|player.listenlive.co|mynbc5.com|wapt.com|wbaltv.com|wcvb.com|wdsu.com|wesh.com|wgal.com|wisn.com|wjcl.com|wlky.com|wlwt.com|wmtw.com|wmur.com|wpbf.com|wtae.com|wvtm13.com|wxii12.com|wyff4.com
 @@||imasdk.googleapis.com/js/sdkloader/$script,domain=cbssports.com
 @@||imasdk.googleapis.com/js/sdkloader/*$script,domain=video.gjirafa.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3$domain=rotana.net
@@ -14860,7 +14859,7 @@
 @@||zazhipu.com^
 @@||zbj.com^
 @@||zconfig.alibabausercontent.com^
-@@||zdassets.com/ekr/snippet.js$domain=bitsacard.com|consumercellular.com|meundies.com|moneydashboard.com|myurbanjungle.com|nvidia.eu|pionex.com|portal.afterpay.com|superbet.pl|support.zonealarm.com
+@@||zdassets.com/ekr/snippet.js$domain=bitsacard.com|consumercellular.com|meundies.com|moneydashboard.com|myurbanjungle.com|nvidia.eu|pionex.com|portal.afterpay.com|streamelements.com|superbet.pl|support.zonealarm.com
 @@||zdbb.net/edaa^$domain=youronlinechoices.com
 @@||zdbb.net/r/?*&mailing
 @@||zdf.de/zdf/flash/eplayer/player.swf?*/cgi-bin/ivw/
