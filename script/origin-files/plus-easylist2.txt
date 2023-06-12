@@ -3214,11 +3214,13 @@ dz4up.com##.container + div[style] > [title="Download Now"] > img
 *$frame,denyallow=google.com,domain=dz4link.com
 *$script,3p,denyallow=facebook.net|google.com|gstatic.com|recaptcha.net,domain=dz4link.com
 
-! https://forums.lanik.us/viewtopic.php?f=62&t=32110
+! https://github.com/uBlockOrigin/uAssets/issues/18480
 ! pixhost. to
 pixhost.*##+js(acs, document.querySelectorAll, popMagic)
 pixhost.*###js
 pixhost.*###web:style(display: block !important;)
+pixhost.*##^script:has-text(exdynsrv)
+pixhost.*##+js(rmnt, script, exdynsrv)
 
 ! https://adblockplus.org/forum/viewtopic.php?f=1&t=54957
 readmng.com##.desk
@@ -7325,7 +7327,7 @@ smallseotools.com##roksakotoroklo
 @@||smallseotools.com/webimages/process.gif
 smallseotools.com#@#.b
 smallseotools.com#@#.px304
-smallseotools.com,plagiarismdetector.net##[data-link*="grammarly.com"]
+plagiarismdetector.net##[data-link*="grammarly.com"]
 ! https://github.com/uBlockOrigin/uAssets/issues/9701
 ! https://github.com/uBlockOrigin/uAssets/issues/16075
 duplichecker.com##+js(no-fetch-if, /google|\/ad.+\.js/)
@@ -7369,6 +7371,8 @@ smallseotools.com##[id$="sst"]
 smallseotools.com##.mb-2.justify-content-center
 smallseotools.com##[class*="garammarly_"]
 smallseotools.com##.mxautoo.px267
+smallseotools.com##[onclick*="open"]
+smallseotools.com##.d-block.my-2.text-center
 searchenginereports.net##.grammarly-overall
 plagiarismchecker.co##form + section#after-ad + div[class][style]
 plagiarismchecker.co##.small_heading + section#top-ad + div[class][style]
@@ -7382,6 +7386,7 @@ plagiarismdetector.net##[style]:has([onclick*="open"])
 ||plagiarismdetector.net/pd-imgs/Grammarly_Square$image,1p
 ||plagiarismdetector.net/pd-imgs/Top_Grammarly_banner$image,1p
 ||plagiarismdetector.net/pd-imgs/gram.png$image,1p
+||plagiarismdetector.net/pd-imgs/tgram.png$image,1p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4104
 jagran.com##.ads
