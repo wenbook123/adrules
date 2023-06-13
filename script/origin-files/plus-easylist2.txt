@@ -7279,7 +7279,7 @@ myegy.*##+js(aopw, decodeURI)
 ! https://github.com/uBlockOrigin/uAssets/issues/4068
 gamezhero.com##+js(set, ads, true)
 ||gamezhero.com/promo$frame,1p
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gamezhero.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=gamezhero.com
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/9utd8b/wikifeet_adverts/
 wikifeet.com##+js(aopr, NativeAd)
@@ -7329,7 +7329,7 @@ smallseotools.com##roksakotoroklo
 @@||smallseotools.com/webimages/process.gif
 smallseotools.com#@#.b
 smallseotools.com#@#.px304
-plagiarismdetector.net##[data-link*="grammarly.com"]
+plagiarismdetector.net##[data-hlink*="grammarly.com"]
 ! https://github.com/uBlockOrigin/uAssets/issues/9701
 ! https://github.com/uBlockOrigin/uAssets/issues/16075
 duplichecker.com##+js(no-fetch-if, /google|\/ad.+\.js/)
@@ -10002,7 +10002,7 @@ oko.sh##+js(aopw, Fingerprint2)
 oko.sh##+js(nowebrtc)
 oko.sh##+js(set, blurred, false)
 oko.sh##+js(nostif, Adblock)
-oko.sh##+js(no-fetch-if, googlesyndication)
+oko.sh##+js(no-fetch-if, /googlesyndication|inklinkor/)
 oko.sh##+js(acs, XMLHttpRequest, adb)
 oko.sh##^script:has-text(adb_detected)
 *$image,redirect-rule=1x1.gif,domain=oko.sh
