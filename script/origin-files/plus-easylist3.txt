@@ -92,8 +92,8 @@
 teamskeet.com##+js(set, $.tstracker, noopFunc)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4138
-rediff.com##+js(ra, onclick, [onclick^="track"])
-rediff.com##+js(ra, onmousedown, [onmousedown^="return enc(this,'https://track.rediff.com"])
+rediff.com##a[onclick^="trackURL"]:remove-attr(onclick)
+rediff.com##a[onmousedown^="return enc(this,'https://track.rediff.com"]:remove-attr(onmousedown)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/b9qsix/new_reddit_tracks_a_ton_more_data_someone_said/
 ||reddit.com/api/jail/$xhr,1p
@@ -582,10 +582,6 @@ androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.
 ! https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_V
 pcgamingwiki.com##+js(href-sanitizer, a[href^="https://www.dpbolvw.net/click-"][href*="?url="], ?url)
 pcgamingwiki.com##+js(href-sanitizer, a[href^="https://greenmangaming.sjv.io/c/"][href*="?u="], ?u)
-! https://github.com/AdguardTeam/AdguardFilters/issues/153222
-||epicgames.com^$doc,removeparam=epic_affiliate
-||gamersgate.com^$doc,removeparam=caff
-||humblebundle.com^$doc,removeparam=partner
 
 ! Merge in resource-abuse.txt
 !#include resource-abuse.txt
