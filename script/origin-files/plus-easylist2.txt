@@ -7677,7 +7677,8 @@ u.gg###af-header-link
 u.gg###af-all:style(margin-top: 4em;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4241
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=actiongame.com|brain-games.co.uk|classicgame.com|games-site.co.uk|hiddenobjectgames.com|mahjong.co.uk|mahjong.com|match3.co.uk|match3games.com|mindgames.com|neongames.co.uk|neongames.com|solitaireonline.com|timemanagementgame.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=actiongame.com|brain-games.co.uk|classicgame.com|games-site.co.uk|hiddenobjectgames.com|mahjong.co.uk|mahjong.com|match3.co.uk|match3games.com|mindgames.com|neongames.co.uk|solitaireonline.com|timemanagementgame.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=neongames.com
 
 ! anti adb puzzlefry . com
 puzzlefry.com##+js(aopw, killAdBlock)
@@ -7979,18 +7980,14 @@ wemakesites.net##+js(acs, $, adBlockChecker)
 hulu.com##+js(set, Object.prototype._parseVAST, noopFunc)
 hulu.com##+js(set, Object.prototype.createAdBlocker, noopFunc)
 hulu.com##+js(set, Object.prototype.isAdPeriod, falseFunc)
-hulu.com##+js(json-prune, breaks pause_ads)
 ||assetshuluimcom-a.akamaihd.net/*.mp3$media,redirect=noopmp3-0.1s,domain=hulu.com
 ||ads-v-darwin.hulustream.com^$media,redirect=noopmp4-1s
 @@||hulu.com^$ghide
 hulu.com###banner-ad-container
 hulu.com##.ad-choices
 ! https://github.com/uBlockOrigin/uAssets/issues/17382
-!#if ext_devbuild
-hulu.com#@#+js(json-prune, breaks pause_ads)
 hulu.com##+js(json-prune, breaks pause_ads video_metadata.end_credits_time)
 hulu.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"][starts-with(@id\, "Ad")] | //*[name()="Period"]/@start), , .mpd)
-!#endif
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4356
 @@||adserver.iprom.net/adserver7$xhr,domain=rtl.hr
@@ -11455,10 +11452,8 @@ puzzles.msn.com##[class*="displayAd"], .ark-ad-message
 ! https://github.com/uBlockOrigin/uAssets/issues/5988
 ||videorolls.row.aiv-cdn.net/*.mp4$media,redirect=noopmp3-0.1s,domain=amazon.com
 ! https://github.com/uBlockOrigin/uAssets/issues/14512
-!#if ext_devbuild
 amazon.com##+js(json-prune, cuepointPlaylist)
 amazon.com##+js(xml-prune, xpath(//*[name()="Period"][.//*[name()="SupplementalProperty"][@value="Ad"]]), , .mpd)
-!#endif
 
 ! https://github.com/NanoMeow/QuickReports/issues/1570
 @@||novelgo.id^$ghide
