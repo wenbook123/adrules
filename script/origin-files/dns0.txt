@@ -1,8 +1,8 @@
-! Checksum: wcEu79tYSfqd/XOFyS7GMQ
+! Checksum: kaMiuXRIC9W8v7aHtNgaZw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.91.33
-! TimeUpdated: 2023-06-14T23:31:11+00:00
+! Version: 2.0.91.37
+! TimeUpdated: 2023-06-15T07:31:11+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -757,11 +757,12 @@ zhenbuka3.com,zhenbuka2.com,bukaivip.com#%#//scriptlet("prevent-setTimeout", "ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83404
 xiebruce.top#%#//scriptlet("prevent-addEventListener", "", "showRemoveAdBlocker")
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=xiebruce.top
+! https://github.com/AdguardTeam/AdguardFilters/issues/153712
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150839
-ddrk.me#%#//scriptlet('set-constant', 'Object.prototype.cnobpreroll_', 'true')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149128
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90881
-ddys.*#%#//scriptlet('set-constant', 'Object.prototype.canobpreroll_', 'true')
+ddys.*,ddrk.me#%#//scriptlet('set-constant', 'Object.prototype.cnobpreroll_', 'true')
+ddys.*,ddrk.me#%#//scriptlet('set-constant', 'Object.prototype.canobpreroll_', 'true')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73877
 league-funny.com#%#//scriptlet("prevent-setTimeout", "ad_num_show")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73958
@@ -1317,6 +1318,9 @@ $script,third-party,denyallow=bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cl
 !
 !
 !
+iplaysoft.com###_cblzx
+iplaysoft.com###section_postbanner
+iplaysoft.com##div[style="background:#fcf0ef;width:680px;height:130px;border-radius:8px;margin-top:28px;position:relative"]
 ent.163.com##.hotset
 chinaz.com##.media-banner__auto
 chinaz.com##.media-banner_auto
@@ -5420,6 +5424,8 @@ newduba.cn###jq_youxi
 ||ohoyao.com^
 ||dnzmhr.xyz^
 ||hbrmickt.com^
+||thdidx.xyz^
+||osancik.top^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
