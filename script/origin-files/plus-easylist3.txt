@@ -575,8 +575,9 @@ androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.
 ||lightboxcdn.com/*/digibox.gif?
 ||lightboxcdn.com/*/jsonp/z?
 
-! firebase
-||gstatic.com/firebase$domain=gamezhero.com|zefoy.com
+! firebase analytics
+/firebase-analytics.js$script,domain=zefoy.com
+zefoy.com##+js(set, firebase.analytics, noopFunc)
 
 ! https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_V
 pcgamingwiki.com##+js(href-sanitizer, a[href^="https://www.dpbolvw.net/click-"][href*="?url="], ?url)
@@ -588,6 +589,10 @@ pcgamingwiki.com##+js(href-sanitizer, a[href^="https://greenmangaming.sjv.io/c/"
 ! McClatchy-sites tracking
 /ng.gif?s*&e=$image,strict3p
 ||logging.pw.adn.cloud^
+
+! https://github.com/easylist/easylist/pull/16317#issuecomment-1593693211
+||analytics-sdk.yle.fi^$script,1p,important
+yle.fi##+js(set, window.yleAnalytics, noopFunc)
 
 ! Merge in resource-abuse.txt
 !#include resource-abuse.txt
