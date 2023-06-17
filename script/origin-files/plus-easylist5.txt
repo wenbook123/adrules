@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202306160241
+! Version: 202306170258
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 62745
+! Lenth = 62755
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -375,7 +375,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepiratebay.org|vidoza.net
 $domain=atlanticcouncil.org|digikey.com,removeparam=/^mkt_tok/
 $ping,third-party
-$removeparam=/^__s=[A-Za-z0-9]{6,}/,domain=~univis.uni-erlangen.de|~univis.uni-bamberg.de|~univis.uni-luebeck.de|~univis.uni-kiel.de|~univis.th-koeln.de
+$removeparam=/^__s=[A-Za-z0-9]{6\,}/,domain=~univis.uni-erlangen.de|~univis.uni-bamberg.de|~univis.uni-luebeck.de|~univis.uni-kiel.de|~univis.th-koeln.de
 $removeparam=/^at_custom/,domain=bbc.com|bbc.co.uk
 $removeparam=/utm_partner_id|frommail/,domain=mail.ru|sportmail.ru
 $removeparam=ActionID,domain=otto.de|ottoversand.at
@@ -5451,6 +5451,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 @@||analysys.cn^$domain=analysys.cn
 @@||analytics-*.clickdimensions.com/*/pages/*.html$subdocument,domain=nhs.uk
 @@||analytics-*.clickdimensions.com/forms/$subdocument,domain=nhs.uk|clickdimensions.com
+@@||analytics-sdk.yle.fi/yle-analytics.min.js$~third-party
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com
@@ -5998,6 +5999,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 @@||dict.rambler.ru/fcgi-bin/$xmlhttprequest,domain=rambler.ru
 @@||diginetica.net^$domain=reg.megabitcomp.ru
 @@||digitale-sammlungen.gwlb.de^*/pageview.js$script,domain=digitale-sammlungen.gwlb.de
+@@||digitalo.de/min/?b=*/WebTracking.js$script,~third-party
 @@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs.ga.js?$script,domain=vrsicilia.it
 @@||directline.com/touchclarity/$script
 @@||disaportal.gsi.go.jp/maps/js/counter.js
@@ -8264,6 +8266,9 @@ viva.ua##.footer-counters
 vse42.ru##.ya-metrika
 vulture.com##div[data-uri="www.vulture.com/_components/clay-space/instances/taboola@published"]
 w-kino.ru,kinotochka.club,legend.az##.counts
+weather.com#%#//scriptlet('set-constant', 'DprSdk', 'emptyObj')
+weather.com#%#//scriptlet('set-constant', 'DprSdk.init', 'noopFunc')
+weather.com#%#//scriptlet('set-constant', 'DprSdk.setHooks', 'noopFunc')
 web.frontapp.com/api$image
 weekly-economist.mainichi.jp##iframe[id^="cxWidget_"]
 welovepg.polymail.io$image
@@ -14727,7 +14732,6 @@ znak.com##.relap
 ||app.carsguide.com.au^
 ||app.catchconnect.com.au^
 ||app.cb.pnc.com^
-||app.cdn-cs.com/__t.png?
 ||app.centreinthesquare.com^
 ||app.chartwayarena.com^
 ||app.chat.xiaomi.net^$third-party
@@ -16896,7 +16900,9 @@ znak.com##.relap
 ||biznesinfo.az/Scripts/fingerprint.min.js
 ||bizo.com^$third-party
 ||bizrate.com^
-||bizseasky.com^$third-party
+||bizseasky.com/dc/
+||bizseasky.com/mon
+||bizseasky.com/tracker/
 ||bizspring.net^$third-party
 ||bja2.destinia.cz^
 ||bjc.hrm.healthgrades.com^
@@ -18201,6 +18207,7 @@ znak.com##.relap
 ||cdn.adrise.tv/*/sentry/
 ||cdn.adsquirrel.ai^$third-party
 ||cdn.adt567.net^
+||cdn.almamedia.tech/esm/geo-client/
 ||cdn.ampproject.org/*/amp-analytics-
 ||cdn.api.twitter.com/*/urls/count.json$third-party
 ||cdn.appdynamics.com/adrum
@@ -18298,6 +18305,7 @@ znak.com##.relap
 ||cdn.taboola.com/libtrc/animeyttv/loader.js
 ||cdn.tebilisim.com/analytics.js
 ||cdn.teleportapi.com^$third-party
+||cdn.tercept.com^$third-party
 ||cdn.theoplayer.com/t?
 ||cdn.threadloom.com/ga/
 ||cdn.thunderhead.com/one/rt/js/one-tag.js
@@ -19157,7 +19165,6 @@ znak.com##.relap
 ||cm-jp.americanexpress.com^
 ||cm-mms.coachmag.co.uk^
 ||cm-sg.americanexpress.com^
-||cm.bilibili.com/cm/api/$xmlhttprequest
 ||cm.bilibili.com^
 ||cm.cdn.md/js5/Mackolik/Analytics.js
 ||cm.g.doubleclick.net^
@@ -19997,7 +20004,6 @@ znak.com##.relap
 ||content.hurix.com^
 ||content.hydraulicsproducts.com^
 ||content.icanmkrtg.com^
-||content.id.elsevier.com^
 ||content.investresolve.com^
 ||content.juniper.net^
 ||content.linesight.com^
@@ -20693,7 +20699,6 @@ znak.com##.relap
 ||cts.m.tt.omtrdc.net^
 ||cts.vresp.com^$third-party
 ||ctshirts.tt.omtrdc.net^
-||cttracking02.com^$third-party
 ||ctusolution.com^$third-party
 ||ctv.by/sites/default/files/googleanalytics/analytics.js
 ||ctwofo.tt.omtrdc.net^
@@ -25085,6 +25090,7 @@ znak.com##.relap
 ||ec-concier.com^$third-party
 ||ec-optimizer.com^$third-party
 ||ec-track.com^$third-party
+||ec.adadapted.com^
 ||ec.infosys.com^
 ||ec.thredup.com^
 ||ec.walkme.com^
@@ -28841,7 +28847,6 @@ znak.com##.relap
 ||go2.kofax.com^
 ||go2.mathworks.com^
 ||go2.ringcentral.com^
-||go2link.net^$third-party
 ||go5.global.toshiba^
 ||go5.link/js/pageviews.js
 ||goa.dngn.kr^
@@ -34208,6 +34213,7 @@ znak.com##.relap
 ||lknqfn.furla.com^
 ||lkvkgk.levis.com.tr^
 ||llama.eniston.io^
+||llama.fi/script.js
 ||llama.growthinkers.nl^
 ||llama.mallardbay.com^
 ||llama.vivriticapital.com^
@@ -34254,6 +34260,7 @@ znak.com##.relap
 ||local.qinlili.bid^
 ||local.sisteminha.com^
 ||localho.st^
+||localhost.direct^
 ||localtest.me^
 ||localytics.com^
 ||localytics.com^$third-party
@@ -36392,7 +36399,6 @@ znak.com##.relap
 ||maxtracker.net^$third-party
 ||maxtraffic.com^$third-party
 ||maxtrafixx.tech^
-||maxusglobal.it/init.js
 ||maxymiser.com^$third-party
 ||maxymiser.net^$third-party
 ||maz.zba.jp^
@@ -36821,7 +36827,6 @@ znak.com##.relap
 ||merchant-mail.neosurf.com^
 ||mercolaconsultingser.tt.omtrdc.net^
 ||mercury.coupang.com^
-||mercy.ga^$third-party
 ||mercyhealth.tt.omtrdc.net^
 ||meremark.com^
 ||meremark.com^$third-party
@@ -39314,6 +39319,7 @@ znak.com##.relap
 ||netease.com/track/
 ||netease.com/web/performance?
 ||neteventsmedia.be/hit.cfm?
+||netfinity.hostedrmm.com^
 ||netflame.cc^$third-party
 ||netflix.com/*/log|
 ||netflix.com/api/ftl/probe?monotonic=
@@ -41484,6 +41490,7 @@ znak.com##.relap
 ||pautina.net/images/$third-party
 ||pay.yandex.ru/web/clck/click$xmlhttprequest,ping
 ||paydashboard.actonservice.com^
+||payload.adadapted.com^
 ||payments-amazon.com^*/analytics.js
 ||payments.amazon.com/cs/uedata
 ||payments.americanexpress.com^
@@ -43807,6 +43814,7 @@ znak.com##.relap
 ||redtube.com^$removeparam=from
 ||redvector.actonservice.com^
 ||redwingforbusiness.redwingsafety.com^
+||reebok.eu/*/trackings|
 ||reece.tt.omtrdc.net^
 ||reedbusiness.net^$third-party
 ||reedbusinessinternat.tt.omtrdc.net^
@@ -54365,7 +54373,6 @@ znak.com##.relap
 ||tags.chip.de^
 ||tags.clickagy.com^
 ||tags.cmp.tail.digital^
-||tags.creativille.co.uk^
 ||tags.creditkarma.com^
 ||tags.esri.com^
 ||tags.experian.co.uk^
@@ -54429,6 +54436,8 @@ znak.com##.relap
 ||talltouch.com^$third-party
 ||tally.bizanalyst.in^
 ||talpa-analytics.$third-party
+||talpa-analytics.com^$third-party
+||talpa-analytics.work^$third-party
 ||talyst.actonservice.com^
 ||tam.volkswagen.com^
 ||tamakumi2015.blog.tt.omtrdc.net^
@@ -55039,6 +55048,8 @@ znak.com##.relap
 ||theagency.com^$third-party
 ||theamericannationalr.tt.omtrdc.net^
 ||theardent.group^$third-party
+||theathletic.com^$removeparam=login_source
+||theathletic.com^$removeparam=ref_page
 ||theathletic.com^$removeparam=source
 ||theatlantic.com/assets/static/theatlantic/img/sherlock.gif?
 ||theatlantic.com^$cookie=/atl_uuid|datadome|kppid/
@@ -56746,7 +56757,6 @@ znak.com##.relap
 ||traceparts.com/logs
 ||traceprof.com^$third-party
 ||tracer.autoscout24.ch^
-||tracer.jp^$third-party
 ||tracer.perezhilton.com^
 ||traces.sr.roku.com^
 ||traceworks.com^$third-party
@@ -58232,6 +58242,7 @@ znak.com##.relap
 ||tracking.vertivco.com^
 ||tracking.viaggiamo.it^$script
 ||tracking.vid4u.org^
+||tracking.viewlift.com^
 ||tracking.viewster.com^
 ||tracking.virginmediao2business.co.uk^
 ||tracking.virtus.com^
@@ -60553,7 +60564,7 @@ znak.com##.relap
 ||weather.ca/counter.gif?
 ||weather.com$removeparam=par
 ||weather.com.cn/a1.js
-||weather.com/api/v*/script/dprSdkScript.js
+||weather.com/api/v*/script/dprSdkScript.js$script,redirect=noopjs
 ||weather.com/weather/assets/omniture-app-measurement.*.js
 ||weather.com/weather/assets/omniture-visitorapi.*.js
 ||weather.go.kr/w/resources/js/logger
@@ -60707,6 +60718,7 @@ znak.com##.relap
 ||web7401.tt.omtrdc.net^
 ||webads.eu^$third-party
 ||webanalysis.dev^$third-party
+||webanalytic.info^$third-party
 ||webanalytics.acs.org^
 ||webanalytics.astrogaming.com^
 ||webanalytics.eniro.se^
@@ -61393,8 +61405,6 @@ znak.com##.relap
 ||wt.viagogo.net^
 ||wtaccesscontrol.com^
 ||wtag.estlier.net^$third-party
-||wtastats.com^$third-party
-||wtastats.ro^$third-party
 ||wtbevents.pricespider.com^
 ||wtdpkq.tausendkind.de^
 ||wtgnmr.golfdigest.co.jp^

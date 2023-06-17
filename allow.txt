@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: hxwrZXSaUhrEd+kafrgyJA
+! Checksum: 3CXoW8rXHnH0x/dhyRG5/g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-17 08:57:17（北京时间） 
-! Total count: 14937
+! Version: 2023-06-17 16:16:48（北京时间） 
+! Total count: 14936
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -213,6 +213,7 @@
 @@/adview_*_ads_300x250.js$domain=itbaoku.cn
 @@/adview_*_ads_300x250.js$domain=yaociyuan.bid
 @@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|itbaoku.cn|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zgpingshu.com
+@@/adview_pic_$domain=1090ywideAdTable
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
@@ -342,7 +343,6 @@
 @@/jannah/*js/advertisement.js|$~third-party
 @@/javascript/adsense-$script
 @@/jquery/*$domain=sobooks.cc
-@@/js/*.js?ads=1&AdType=1&$~third-party,script,domain=streamhide.to|ahvsh.com
 @@/js/*.js?ads=1&AdType=1&$~third-party,script,domain=streamhide.to|ahvsh.com|streamwish.to
 @@/js/adblock.js$script
 @@/js/ads.js|$script,~third-party,domain=~internethaber.com|~knaqu.tv
@@ -564,7 +564,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgpendent.co.uk^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -4739,6 +4738,7 @@
 @@||doubleclick.net/gpt/pubads_impl_$script,domain=whosampled.com
 @@||doubleclick.net/instream/ad_status.js$domain=investing.com
 @@||doubleclick.net/pagead/*$frame,domain=extremereportbot.com
+@@||doubleclick.net/ssai/*/streams$xmlhttprequest,domain=snippet.univtec.com
 @@||doubleclick.net/tag/js/gpt.js$domain=soranews24.com
 @@||doubleclick.net/|$xmlhttprequest,domain=comidoc.net
 @@||doubleclick.net^$app=com.google.android.music
@@ -10495,7 +10495,6 @@
 @@||pinsystem.co.uk^$ghide
 @@||pioneercu.org/includes/lib/js/coremetrics/eluminate.js
 @@||pip-player.zum.com/embed?$stealth
-@@||pip-player.zum.com/embed?$stealth=referrer
 @@||pipocas.tv^$generichide
 @@||pirate.ws/advert.js
 @@||pisupisu.pl/*/adsbygoogle.js
@@ -10958,6 +10957,7 @@
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams/*.m3u8$domain=10play.com.au
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams|$xmlhttprequest,domain=10play.com.au
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/vid/*/streams$domain=sbs.com.au
+@@||pubads.g.doubleclick.net/ssai/
 @@||pubads.g.doubleclick.net/ssai/$domain=cbssports.com|newson.us|worldsurfleague.com
 @@||pubads.g.doubleclick.net/ssai/$xhr,domain=13.cl
 @@||pubads.g.doubleclick.net/ssai/event/$xhr,domain=telecinco.es|cuatro.com
@@ -12036,7 +12036,6 @@
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
 @@||service.collarity.com/cust/nbcu/ucs.js$xmlhttprequest
 @@||service.force.com/embeddedservice/*/esw.min.js$domain=microchip.com|visible.com|playstation.com|cyberpowersystems.com|lego.com
-@@||service.force.com/embeddedservice/*/esw.min.js$domain=visible.com|playstation.com|cyberpowersystems.com|lego.com
 @@||service.hotstar.com/vs/getad.php?*adspot=
 @@||service.maxymiser.net/api/eu/mediamarkt.tr/*/mmapi.js$domain=mediamarkt.com.tr
 @@||service.maxymiser.net/cdn/nbty/puritan/js/mmcore.js$domain=puritan.com
