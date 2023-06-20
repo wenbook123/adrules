@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 931DupuYA+ArH2l3oSwCfA
+! Checksum: qhUfWJOIDSJKTH0qbYc9AQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-20 00:18:29（北京时间） 
-! Total count: 14883
+! Version: 2023-06-20 08:58:38（北京时间） 
+! Total count: 14886
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -294,6 +294,7 @@
 @@/embed/comments^$removeparam,~third-party,domain=avclub.com|clickhole.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com|sportskeeda.com
 @@/engine/classes/min/?charset=*/social-likes.min.js$~third-party
 @@/engine/classes/min/index.php?*/social-likes.min.js$~third-party
+@@/eu_cookie_compliance.$domain=maanmittauslaitos.fi
 @@/favicon.ico$image,domain=itavisen.no,third-party
 @@/favicon.ico$image,third-party,domain=clubedohardware.com.br
 @@/favicon.ico^$domain=hackintosh.zone
@@ -562,7 +563,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3331,6 +3331,7 @@
 @@||cdn.raino.xyz/hls/*.m3u8$stealth
 @@||cdn.rawgit.com/*/lazyload.js$domain=javmost.com
 @@||cdn.rawgit.com/sitexw/FuckAdBlock/*/fuckadblock.js$domain=eskago.pl
+@@||cdn.reactandshare.com/plugin/rns.js$stealth,domain=maanmittauslaitos.fi
 @@||cdn.reamaze.com/assets/$domain=strongboxsafe.com
 @@||cdn.refersion.com^
 @@||cdn.reignn.com/Products/Reignn/DataPixels/AdBlockerCheck/ads.js
@@ -4432,6 +4433,7 @@
 @@||data.bilibili.com^
 @@||data.flurry.com^$app=ru.afisha.android
 @@||data.mistat.xiaomi.com^$app=com.tencent.mm
+@@||data.reactandshare.com/api/plugin/$stealth,domain=maanmittauslaitos.fi
 @@||data.simpleupload.net/download/$stealth
 @@||data.video.iqiyi.com^
 @@||datacloudmail.ru^$domain=cloud.mail.ru
@@ -14888,3 +14890,4 @@
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 @@||zyz.sdljwomen.com/*/?url=$stealth
+@xt"]>span:-abp-contains(助))
