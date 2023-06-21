@@ -2,7 +2,7 @@
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules. 
 ! Homepage: https://kbsml.com
-! Last modified: 6/20/2023, 4:00:05 PM
+! Last modified: 6/21/2023, 8:00:04 AM
 !
 ||api.miwifi.com^
 ||youtube.com/pagead/paralleladview^
@@ -22753,6 +22753,7 @@ _zedo.
 ||model.cjmx.com^
 ||modules.ooyala.com^*/analytics-
 ||moe.fm/public/images/fm/promotion_
+||moe123.net/static/img/1200x200_
 ||moe-acg.cc/ads.js
 ||moe-acg.cc/images/*/1225
 ||moe-acg.cc/images/*/2000x710
@@ -31737,6 +31738,8 @@ zznews.cn##.ad:not([style])
 ||kdpic.pchome.com.tw^
 ||one.fsylr.com^
 ||two.fsylr.com^
+huanqiu.com##+js(set-constant, AD_SURVEY_Add_AdPos, noopFunc)
+huanqiu.com##+js(set-constant, AD_SURVEY_Add_AdPos_Simple, noopFunc)
 itbaoku.cn##+js(set-constant, killads, true)
 /?placementName=$script,redirect=noop.js,domain=vpslog.net
 xbeibeix.com##+js(no-setTimeout-if, /\.height\(\) == 0|adsbygoogle/)
@@ -31892,6 +31895,7 @@ nfmovies.com#$##adleft { position: absolute!important; left: -3000px!important; 
 nfmovies.com#$#img[src^="/pic/tu/"] { visibility: hidden!important; }
 nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 ||nfmovies.com/static/*.jpg$image,redirect=1x1.gif
+9xav.cc#?#div[class]:not([class*=" "]):has(> span[class*=" "] > a[href^="https://"][target="_blank"])
 nivod5.tv,nivod4.tv#?#.img-list > .img-item:has(> a[href*=".ad_click"])
 nivod5.tv,nivod4.tv#$?#.img-list > .img-item:has(> a[href*=".ad_click"]) { remove: true; }
 nivod5.tv,nivod4.tv#$?#a.focus_title_inner[href*=".ad_click"] { remove: true; }
@@ -32006,6 +32010,7 @@ csdn.net#?#aside > div.slide-outer:has(> div.box > div[adsid])
 csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 ##.Zi_ad_a_H
 ##a[href^="https://adm.beimg.com/"]
+9xav.cc##+js(remove-class, q-body--prevent-scroll, body)
 m.91zww.com##+js(abort-on-property-write, delCookie)
 pornbest.org##+js(abort-current-script, jQuery, injectPops)
 htmanga4.top##+js(abort-on-property-read, tips)
@@ -32062,6 +32067,7 @@ bde4.com##+js(nano-setInterval-booster, timerAdCountdown, , 0.02)
 5278.cc##+js(window.open-defuser, 88p2p.com)
 nfmovies.com##+js(nano-setInterval-booster, timerAdCountdownCount, , 0.02)
 nfmovies.com##+js(no-setTimeout-if, /document\.getElementById[\s\S]*?\.style\.display\.indexOf/)
+9xav.cc#$##alert_windows { display: none !important; }
 udn.com#$#.main-content { background-image: none !important; }
 ezneering.com#$#.pum-overlay { display: none !important; }
 ezneering.com#$#html { overflow: auto !important; }
@@ -32144,8 +32150,23 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > di
 ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 ||alicdn.com^$image,domain=m.k1k.cc|thcdy.co|27k.cc|1024pa.com|hg6384.com-www.6u7u.com|4080kan.com|dy686.net
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .result ~ div:not([class]):not([style])
-/^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,_____,domain=yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top
+/^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top
 $script,third-party,denyallow=bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com,domain=wap.ishuquge.la|m.91zww.com|592mh.top
+cloud.tencent.com##.mod-commercial
+pc.yiyouliao.com##.yyl-weiruan-ads-swiper
+||z4a.net^$domain=9xav.cc
+||yuanpinghengkangfuyouxiangongsi.top^$domain=9xav.cc
+||hpt73.cn^$domain=9xav.cc
+||aa993366aa.com^$domain=9xav.cc
+||6oja.cc^$domain=9xav.cc
+||9129666tp.com^$domain=9xav.cc
+||5598tp.com^$domain=9xav.cc
+||lexs9.com^$domain=9xav.cc
+||lxbd2.com^$domain=9xav.cc
+||aliyuncs.com^$domain=9xav.cc
+||xyplxx.2gks.com^$domain=9xav.cc
+||8388tp.com^$domain=9xav.cc
+||kttoo1.com^$domain=9xav.cc
 sina.com.cn##.article-botton-slide
 military.china.com##.item_list > .medialist
 military.china.com##.slide_doubleimg > .baiBox
@@ -36024,6 +36045,7 @@ newduba.cn###jq_youxi
 ||yzcpgadw.icu^
 ||vyye.cn^
 ||afdunaui.com^
+||vizacasa.xyz^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -42891,7 +42913,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mnrrk.com/yuhe/ote/js/pcgg.js
 ||mobile.sina.cn/public/files/image/600x150_
 ||mobile.sina.cn/public/files/image/620x300_
-||moe123.net/static/img/1200x200_
+||moe123.net/static/img/1200x
 ||moedao.com/js/top.js
 ||moegirl.org.cn/insight/MoegirlInsight.
 ||moerats.com/usr/affpc/
@@ -44211,6 +44233,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+eastmoney.com##div[id^="flow-ad-"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
