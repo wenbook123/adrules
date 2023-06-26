@@ -1,10 +1,11 @@
 ! Title: AdRules Allowlist
-! Checksum: w/3X3oF/gbw8pVLvcIQ6AA
+! Checksum: yKsee6rSvxYa5SUJARjbug
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-26 16:35:47（北京时间） 
-! Total count: 14882
+! Version: 2023-06-27 00:21:29（北京时间） 
+! Total count: 14892
+@*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -27,12 +28,14 @@
 @@*$ghide,domain=f1stream.*|fbstream.*|mlbstream.*|motogpstream.*|nbastream.*|nflstream.*|nhlstream.*|plylive.*|plyvdo.*|rugbystreams.*|socceronline.*|tennisstreams.*|tvply.*|ufcstream.*|vipleague.*
 @@*$ghide,domain=freeserverhostingweb.club|me-encantas.com|tanfacil.net|tecnoaldia.net
 @@*$ghide,domain=games.startribune.com|games.charlotteobserver.com|puzzles.bestforpuzzles.com|puzzles.independent.co.uk|puzzles.standard.co.uk
+@@*$ghide,domain=mage.si|magesypro.*|magesy.blog
 @@*$ghide,domain=pomponik.pl|iplsc.com
 @@*$ghide,domain=themattwalshblog.com
 @@*$ghide,domain=web.de|gmx.*
 @@*$image,domain=a2zupload.com
 @@*$image,domain=wstream.video
 @@*$media,domain=camvideos.org
+@@*$script,1p,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@*$script,1p,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@*$script,1p,domain=promo-visits.site|satoshi-win.xyz
 @@*$script,1p,domain=solvetube.*
@@ -562,7 +565,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgrevenue.com^$domain=autobild.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|spiegel.de
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1966,6 +1968,7 @@
 @@||api.usercentrics.eu/tcf2/*.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||api.usercentrics.eu/tcf2/*.json$domain=wetter.com|kabeleinsdoku.de|kabeleinsdoku.at
 @@||api.usercentrics.eu/translations/translations-*.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
+@@||api.viddler.com/api/v*/viddler.videos.getPlaybackDetails.json$stealth
 @@||api.vidnode.net/stream.php?$subdocument,domain=vidcloud.icu
 @@||api.yjllq.com^
 @@||api.youla.io^$stealth
@@ -4032,8 +4035,10 @@
 @@||consent.cookiefirst.com/banner.js$domain=juffing.at
 @@||consent.cookiefirst.com/banner.js$stealth
 @@||consent.cookiefirst.com/banner/
+@@||consent.cookiefirst.com/banner/$domain=juffing.at
 @@||consent.cookiefirst.com/sites$stealth
 @@||consent.cookiefirst.com/sites/
+@@||consent.cookiefirst.com/sites/$domain=juffing.at
 @@||consent.cookiefirst.com^$domain=blutspendedienst.com
 @@||consent.cookiefirst.com^$domain=lsm.lv
 @@||consent.cookiefirst.com^$domain=proaurum.de
@@ -4366,6 +4371,7 @@
 @@||d31j93rd8oukbv.cloudfront.net/metrika/watch_*.js$domain=gazeta.ru
 @@||d31j93rd8oukbv.cloudfront.net/metrika/watch_ua.js$domain=novayagazeta.ru
 @@||d31qbv1cthcecs.cloudfront.net^
+@@||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk
 @@||d35eux0j7ldw19.cloudfront.net/ads/ads.js
 @@||d35u1vg1q28b3w.cloudfront.net^
 @@||d396ihyrqc81w.cloudfront.net^$domain=currys.co.uk
@@ -5562,6 +5568,8 @@
 @@||frkn64modding.com^$ghide
 @@||frogwares.com/wp-content/plugins/bwp-minify/min/*/css/*/cookie-law-*.min.css
 @@||front-go.lemall.com^
+@@||frontroute.org/*.txt$stealth=referrer
+@@||frontroute.org^$media,stealth=referrer
 @@||frosmo.com/recoApi/$domain=eeva.fi|terve.fi|lily.fi|meillakotona.fi|apu.fi
 @@||frosmo.com^$image,xmlhttprequest,domain=karkkainen.com
 @@||fruitadblock.net/googlead.js
@@ -8307,6 +8315,7 @@
 @@||kjellmann.no^*/cookielaw/css/cookielaw.css$stylesheet
 @@||kk665403.pixnet.net^$generichide
 @@||klaviyo.com/ajax/subscriptions/subscribe$domain=productionmusiclive.com
+@@||klimv*.xyz/images$stealth
 @@||klimv*.xyz/images$stealth,domain=klmag.net
 @@||kmsv.jp/images/ad/$image,~third-party
 @@||knet.cn^
@@ -8583,6 +8592,7 @@
 @@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.v.qq.com
 @@||livew.l.qq.com/livemsg?ty=web&ad_type=$domain=v.qq.com
 @@||lk-subscr.tricolor.tv^$document
+@@||lk.gpnbonus.ru^$stealth=dpi
 @@||lk.rt.ru/ruxitagentjs_*.js$domain=lk.rt.ru
 @@||ll-media.tmz.com/*-300x250.
 @@||lloydstsb.com/it/xslt/touchclarity/omtr_tc.js
@@ -8738,11 +8748,9 @@
 @@||mafia.ua/js/jquery.smartbanner.js
 @@||mafia.ua/js/jquery.smartbanner.js$script,~third-party
 @@||mage.si/advertisement.js
-@@||mage.si^$ghide
 @@||magesy.blog^$generichide
 @@||magesy.eu^$generichide
 @@||magesy.pw^$generichide
-@@||magesypro.*^$ghide
 @@||magesypro.com/*/banner.gif
 @@||magesypro.pro/*/banner.gif
 @@||magesypro.us/Lifeless-Pigs-from-GitHub/banner.gif
@@ -11294,6 +11302,7 @@
 @@||research.de.com^$script,domain=spiegel.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jspresse.chemie.tt.omtrdc.net^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -12532,6 +12541,7 @@
 @@||static.1tv.ru/player/config/banner.gif
 @@||static.3001.net^$stealth,domain=freebuf.com
 @@||static.adbull.me^$script,domain=adbull.org
+@@||static.addtoany.com/menu/page.js$domain=suttonquebec.com
 @@||static.addtoany.com/menu/page.js$domain=tiny.cc
 @@||static.addtoany.com/menu/page.js$script,domain=suttonquebec.com
 @@||static.adman.gr^$domain=naftemporiki.gr

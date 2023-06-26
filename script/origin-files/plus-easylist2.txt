@@ -1895,14 +1895,24 @@ sxyprn.*###vid_container_id > .tdn
 ! https://github.com/uBlockOrigin/uAssets/issues/1197
 lacuevadeguns.com##+js(aost, onload, inlineScript)
 *$image,redirect-rule=1x1.gif,domain=magesy.*|majesy.*|mage.si|magesypro.*
+@@*$ghide,domain=mage.si|magesypro.*|magesy.blog
 magesy.*##ins.adsbygoogle
 mage.si##+js(aeld, load, nextFunction)
-@@||mage.si^$ghide
 mage.si##+js(nano-sib)
-@@||magesypro.*^$ghide
 magesypro.*##ins.adsbygoogle
-magesy.*##div[style="background-color: rgba(255, 0, 0, 0.75);"]
-magesy.*##div[class$="-wrapper"]:has(> div[style="background-color: rgb(255, 255, 255);"])
+magesypro.pro,magesy.*##+js(nostif, AdBlocker)
+magesy.*,audioztools.com##+js(no-fetch-if, adsbygoogle)
+audiotools.pro,magesy.blog,magesypro.pro,audioztools.com##+js(noeval-if, blocker)
+audiotools.pro,magesy.blog,magesypro.pro,audioztools.com##+js(nostif, Blocked)
+magesy.download,audioztools.com##+js(acs, addEventListener, google_ad_client)
+audiotools.pro,magesypro.pro,magesy.*##+js(acs, document.createElement, admiral)
+magesy.*,magesypro.pro##+js(aost, document.getElementById, adsBlocked)
+audioztools.com##+js(nostif, nextFunction)
+@*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
+(*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
+@@*$script,1p,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
+||cdn.jsdelivr.net/npm/@rimiti/abm@latest/dist/$script,css,3p
+magesy.blog###abm
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6223
 hqq.*##+js(aopr, adBlockDetected)
@@ -7310,7 +7320,6 @@ ani-stream.com##+js(no-fetch-if, damoh.ani-stream.com)
 ||fairytail-tube.org/templates/caprica/amz$image,1p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9449
-!plagiarismchecker.co##+js(rpnt, script, show(), empty(), condition, adsbygoogle)
 plagiarismchecker.co##+js(rpnt, script, ('display'\,'block'), ('display'\,'none'))
 smallseotools.com##+js(aeld, mouseleave, clientWidth)
 smallseotools.com##roksakotoroklo
@@ -7338,7 +7347,7 @@ duplichecker.com##div > span[id^="side_bar"] > .adsbygoogle:upward(div)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(no-fetch-if, /googlesyndication|adpushup|adrecover/)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(norafif, _0x)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(nosiif, ads)
-duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(nostif, /ads|showPopup/)
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(nostif, showPopup)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,smallseotools.com##[data-href*="grammarly.com"]
 duplichecker.com,plagiarismdetector.net,smallseotools.com##[href*="grammarly.com"]
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##a[href].set-anchor
