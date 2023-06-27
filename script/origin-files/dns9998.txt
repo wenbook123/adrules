@@ -2,7 +2,7 @@
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules. 
 ! Homepage: https://kbsml.com
-! Last modified: 6/26/2023, 4:00:05 PM
+! Last modified: 6/27/2023, 8:00:04 AM
 !
 ||api.miwifi.com^
 ||youtube.com/pagead/paralleladview^
@@ -31791,7 +31791,7 @@ yodu.org#$#body[style] { overflow: auto !important; }
 linovelib.com#$##byspider { display: none !important; }
 linovelib.com#$#body[style] { overflow: auto !important; }
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=linovelib.com,important
-linovelib.com##+js(abort-current-script, document.createElement, b.onerror)
+linovelib.com##+js(set-constant, adblock, 0)
 tingfm.com##+js(no-setTimeout-if, adblock)
 movieclassic.net###billboard-modal
 movieclassic.net##.modal-backdrop
@@ -31898,6 +31898,11 @@ nfmovies.com#$##adleft { position: absolute!important; left: -3000px!important; 
 nfmovies.com#$#img[src^="/pic/tu/"] { visibility: hidden!important; }
 nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 ||nfmovies.com/static/*.jpg$image,redirect=1x1.gif
+wealth.com.tw#?##root > div[class] > div[class]:matches-css(z-index: 4):has(> div[class]:matches-css(height: 250px))
+wealth.com.tw#?##root > div[class] > div[class]:matches-css(z-index: 4):has(> button path[d^="M16 4c6.627 0 12 5.373"])
+wealth.com.tw#?##root div[class]:matches-css(row-gap: 13px) > div[class]:matches-css(row-gap: 6px):has(> div[class]:matches-css(width: 300px))
+wealth.com.tw#?##root div[class]:matches-css(position: relative) > div[class]:matches-css(justify-content: center):has(> div[class]:matches-css(width: 300px))
+wealth.com.tw#?##root div[class]:matches-css(padding-left: 70px) > div[class]:matches-css(column-gap: 30px):has(> div[class]:matches-css(align-items: center))
 9xav.cc#?#div[class]:not([class*=" "]):has(> span[class*=" "] > a[href^="https://"][target="_blank"])
 nivod5.tv,nivod4.tv#?#.img-list > .img-item:has(> a[href*=".ad_click"])
 nivod5.tv,nivod4.tv#$?#.img-list > .img-item:has(> a[href*=".ad_click"]) { remove: true; }
@@ -31931,6 +31936,7 @@ ants.tw#?##sidebar > section.widget_text > div.textwidget > script[src^="//pagea
 microsoftnews.msn.cn#?#.riverSections-DS-EntryPoint1-1 > div[style^="display: grid;"] > div[style^="grid-area:"]:last-child > .card-DS-card1-1 > div[class^="nativeAd-DS-card"]:upward(2)
 nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick*="open"]) { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
+sohu.com#?#.news-wrapper > div.news-box.clear:has(> [data-ad-format])
 military.china.com#$?#.slide_doubleimg > .baiBox { remove: true; }
 zh.moegirl.org.cn#?#.swiper-slide:has(> a[href^="https://m.tb.cn/"])
 myfreax.com#?#main > div.w-full:has(> ins.adsbygoogle)
@@ -34995,6 +35001,7 @@ newduba.cn###jq_youxi
 ##a[href*="/nb66nb.cc"]
 ##a[href*="/st66st.cc"]
 ##div[onclick*="ky01003.com"]
+||01v62.xyz^
 ||0776.red^
 ||08u6q.com^
 ||0hlc8.top^
@@ -35112,12 +35119,14 @@ newduba.cn###jq_youxi
 ||aqpvglv.cn^
 ||aquvg.com^
 ||asvysvxr.com^
+||atbdkmt.xyz^
 ||aup34.xyz^
 ||awdc6.com^
 ||ayynsdp.xyz^
 ||azdxypf.cn^
 ||bacder.fun^
 ||baiduajbcjkabcav.com^
+||baidubdvjssv.com^
 ||baidubvjsbvv.com^
 ||baidudbvjksbvs.com^
 ||baidudsvbshj.com^
@@ -35139,6 +35148,7 @@ newduba.cn###jq_youxi
 ||bestialvehemence.com^
 ||betgdr.xyz^
 ||bg04y.xyz^
+||bhcnmrn.icu^
 ||bhfdgdounv.xyz^
 ||bicid.xyz^
 ||bili96.co^
@@ -35294,6 +35304,7 @@ newduba.cn###jq_youxi
 ||ebuqxsjq.com^
 ||ecav5.com^
 ||eciea.xyz^
+||eduizioq.com^
 ||efilgvz.cn^
 ||efvsyhbf.xyz^
 ||eiadf.xyz^
@@ -35352,6 +35363,7 @@ newduba.cn###jq_youxi
 ||ftptjj.xyz^
 ||fvzljv.xyz^
 ||fweia.xyz^
+||fy14.cn^
 ||fzcsd33.com^
 ||g0cu3.top^
 ||g77ds2.xyz^
@@ -35373,6 +35385,7 @@ newduba.cn###jq_youxi
 ||golden88.co^
 ||gongyuxinxi.xyz^
 ||gorpgeu.xyz^
+||goxob6wo.icu^
 ||gpqicw.xyz^
 ||gpqid.xyz^
 ||gr0z6.xyz^
@@ -35429,6 +35442,7 @@ newduba.cn###jq_youxi
 ||hrngmf.com^
 ||hsili.ltd^
 ||hsrgnac.cn^
+||htvixv.xyz^
 ||huangji1.cn^
 ||huaweinnd.top^
 ||hudqrn.xyz^
@@ -35533,6 +35547,7 @@ newduba.cn###jq_youxi
 ||kfocoq.xyz^
 ||kgcyvd.com^
 ||kgelugaz.com^
+||kgeshe.site^
 ||kianakaslana.club^
 ||kingsunsky.ltd^
 ||kjugr.xyz^
@@ -35624,6 +35639,7 @@ newduba.cn###jq_youxi
 ||mhegew.xyz^
 ||mhysbwo.xyz^
 ||mk795.cn^
+||moead.xyz^
 ||moend.xyz^
 ||momoguoji.xyz^
 ||mr956.xyz^
@@ -35978,6 +35994,7 @@ newduba.cn###jq_youxi
 ||wodw0.xyz^
 ||worjeklmq.com^
 ||wosidnlkxq.com^
+||wqdro6us.icu^
 ||wqweiog.xyz^
 ||wsoxwa.xyz^
 ||wvwl.cn^
@@ -36018,6 +36035,7 @@ newduba.cn###jq_youxi
 ||xni.ink^
 ||xnjvn1.com^
 ||xnmqqq.com^
+||xnzetb.xyz^
 ||xokcaxw.cn^
 ||xpynqq.com^
 ||xrkyqq.com^
@@ -36062,6 +36080,7 @@ newduba.cn###jq_youxi
 ||yttc.ren^
 ||yuebog.xyz^
 ||yulingaa.xyz^
+||yupov6ks.icu^
 ||yuwenbin.host^
 ||ywsiqlg.cn^
 ||yytxzct.xyz^
@@ -36113,6 +36132,7 @@ newduba.cn###jq_youxi
 ||zppfjh.xyz^
 ||zrakpxsf.com^
 ||zrbabog.cn^
+||zrgbh6bm.icu^
 ||zrrnqq.com^
 ||zsblog.vip^
 ||zscgoqt.cn^
@@ -36124,15 +36144,17 @@ newduba.cn###jq_youxi
 ||zyauopr.icu^
 ||zzqrr.com^
 ||zzrjdp.xyz^
-||fy14.cn^
-||kgeshe.site^
-||eduizioq.com^
-||wqdro6us.icu^
-||bhcnmrn.icu^
-||htvixv.xyz^
-||xnzetb.xyz^
-||moead.xyz^
-||zrgbh6bm.icu^
+||hacde5.icu^
+||klbvqqqj.com^
+||t28goe.cn^
+||50aqzb.com^
+||neiod.xyz^
+||hdxjtl.xyz^
+||ltkbyfd.icu^
+||fxbcpr.xyz^
+||hlbbn6ii.icu^
+||cdcqee.com^
+||k7f67a6s7.xyz^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
