@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: h7x5Tnj4cCUkT3Y4xPS+Mg
+! Checksum: dUGLUhaLAVN/8j8Z41LNoA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-28 16:19:35（北京时间） 
-! Total count: 14890
+! Version: 2023-06-29 00:19:05（北京时间） 
+! Total count: 14900
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -565,6 +565,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgciansfriend.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1194,7 +1195,6 @@
 @@||ads.allegro.pl^$domain=ads.allegro.pl
 @@||ads.amazon^$popup
 @@||ads.api.24ur.si/adserver/banner/vast.php$domain=24ur.com
-@@||ads.api.24ur.si^$xhr,domain=24ur.com
 @@||ads.askgamblers.com^$popup
 @@||ads.ayads.co/ajs.php?zid=$domain=411mania.com
 @@||ads.bdcraft.net/js/interstitial.js$domain=ads.bdcraft.net
@@ -3045,6 +3045,7 @@
 @@||cdn.cookielaw.org^$domain=comicbook.com|metabomb.net|eurogamer.net|eurogamer.it|eurogamer.pl|eurogamer.pt|rtlnieuws.nl
 @@||cdn.cookielaw.org^$domain=computerbase.de
 @@||cdn.cookielaw.org^$domain=crfashionbook.com
+@@||cdn.cookielaw.org^$domain=deporvillage.net
 @@||cdn.cookielaw.org^$domain=digitalfoundry.net
 @@||cdn.cookielaw.org^$domain=gamespot.com
 @@||cdn.cookielaw.org^$domain=gmx.com
@@ -4434,6 +4435,7 @@
 @@||dashboard.plex.tv^
 @@||dashboard.tinypass.com/xbuilder/experience/$domain=cnbc.com
 @@||data-*.herz-fuer-tiere.de/*/bootstrap/loader.js$domain=herz-fuer-tiere.de
+@@||data-*.herz-fuer-tiere.de^|
 @@||data-*.rtl.de/iomm/latest/bootstrap/stub.js$domain=rtl.de
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
 @@||data.alicloudccp.com^$stealth,domain=aliyundrive.com
@@ -4550,6 +4552,7 @@
 @@||developers.google.com^$domain=developers.google.com
 @@||developpez.com/show_i.php?$~image
 @@||devfaq.ru/*/search?*&method=HEAD$xmlhttprequest,document
+@@||deviantart.com^$stealth=ip
 @@||device-api.urbanairship.com^$app=com.caribou.caribouapp
 @@||device-messaging-na.amazon.com^
 @@||device-metrics-us-2.amazon.com^
@@ -6589,6 +6592,7 @@
 @@||googletagmanager.com/gtm.js$domain=nihontsushin.com
 @@||googletagmanager.com/gtm.js$domain=nordvpn.com
 @@||googletagmanager.com/gtm.js$domain=northantstelegraph.co.uk
+@@||googletagmanager.com/gtm.js$domain=northwell.edu
 @@||googletagmanager.com/gtm.js$domain=nrj-play.fr
 @@||googletagmanager.com/gtm.js$domain=nunnbush.com
 @@||googletagmanager.com/gtm.js$domain=nykaa.com
@@ -7105,6 +7109,7 @@
 @@||hollywoodlife.com^$generichide
 @@||holywarsoo.net^$stealth
 @@||home.focusatwill.com^|
+@@||home.google.com^$stealth=webrtc
 @@||homeagents.online^$stealth
 @@||homeairquality.org^$ghide
 @@||homebanking.bancoctt.pt^$stealth
@@ -8120,6 +8125,7 @@
 @@||jpost.com^$csp=script-src 'self' 'unsafe-inline' http: https: blob:
 @@||jpush.cn^$domain=jiguang.cn
 @@||jquery.com^
+@@||js-agent.newrelic.com/async-api$domain=northwell.edu
 @@||js-agent.newrelic.com/nr-*.min.js$domain=copy.com
 @@||js-agent.newrelic.com^$app=com.jnj.acuvue.consumer
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
@@ -12956,6 +12962,7 @@
 @@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
 @@||taboola.com/magazine/$domain=taboolanews.com
 @@||tabooporns.com^$ghide
+@@||tacool.com^$stealth=dpi
 @@||tag.aticdn.net/*/smarttag.js$domain=compteczam.fr
 @@||tag.aticdn.net/*/smarttag.js$domain=ebp.com
 @@||tag.aticdn.net/*/smarttag.js$domain=kicker.de
@@ -13120,9 +13127,11 @@
 @@||templateshub.net^$ghide
 @@||tennisactu.net/adserver.js
 @@||tennispro.eu/min/?$script,~third-party
+@@||tennispro.fr/*/gdpr/cookiealert.css
 @@||tenor.googleapis.com^$stealth
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
 @@||tenpay.com^*?ADTAG=
+@@||terabox.fun^$generichide
 @@||terlizzilive.it/TemplateLive/app/assets/js/prebid-ads.js
 @@||termin.telekom.de/js/cookieController.js
 @@||termsfeed.com/public/cookie-consent/*/cookie-consent.js$domain=rentastar.pt
@@ -13278,6 +13287,7 @@
 @@||timesofindia.indiatimes.com/ads_$subdocument
 @@||timesofindia.indiatimes.com/ads_native_js^
 @@||timesofindia.indiatimes.com^$xmlhttprequest
+@@||timeweb.com/*/other-user-articles/google-ads
 @@||timvision.it/libs/fingerprint/fingerprint.js
 @@||tinder.com/static/build/chunks/CookiePolicyBanner-$script
 @@||tinkoffcreditsystems.d3.sc.omtrdc.net/b/ss/$domain=tinkoff.ru
