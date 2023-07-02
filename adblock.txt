@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: nz0YOZs00GrztU5j8lir9g
+! Checksum: 0nILwgTqRyMcE/6GtlP6zQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-07-02 16:22:41（北京时间） 
-! Total count: 62328
+! Version: 2023-07-03 00:17:49（北京时间） 
+! Total count: 62324
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3559,6 +3559,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .php?stats=
 .php?tracking=
 .php?zoneid=
+.pixel.archive.*/x.gif
 .ppys.com/detail
 .pstmrk.it/open/
 .publish0x.com/t/
@@ -4448,7 +4449,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /analytics/trackers?
 /analytics/trackevent
 /analytics/visit/*
-/analytics/web/*
 /analytics/wss?
 /analytics?body=
 /analytics?http_referer
@@ -7096,6 +7096,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /plugins/duracelltomi-google-tag-manager/*
 /plugins/exactmetrics-
 /plugins/nimiq/*$script
+/plugins/pageviews-counter/*
 /plugins/stat-dfp/*
 /plugins/status.gif?
 /plugins/userinfo.gif?
@@ -8386,7 +8387,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /web-vitals.
 /web-vitals/*
 /web/ad/*$domain=gamer.com.tw
-/web/analytics.$script
 /web/push?
 /web8/ad/*
 /webAnalytics/*
@@ -10851,7 +10851,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||google.*&tbm=isch&*#imgrc=$removeparam=fir
 @@||google.*&tbm=isch&*#imgrc=$removeparam=usg
 @@||google.*/url?$removeparam=ved
-@@||google.com/analytics/$domain=analytics.google.com
 @@||google.com/translate_$media,third-party,xmlhttprequest
 @@||google.de/translate_$media,third-party,xmlhttprequest
 @@||google.es/translate_$media,third-party,xmlhttprequest
@@ -11516,7 +11515,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
-@@||ssl.gstatic.com/analytics/$script,domain=analytics.google.com
 @@||ssl.o.auspost.com.au
 @@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||sso.serverplan.com/manage2fa/check?ref=$removeparam
@@ -25446,7 +25444,6 @@ zzzyk.com###Tinfo
 ||analytics.givealittle.co^
 ||analytics.global.sky.com^
 ||analytics.google.com^
-||analytics.google.com^$third-party
 ||analytics.gooogol.com^
 ||analytics.greenmountain.com^
 ||analytics.greenmountainenergy.com^
@@ -50585,7 +50582,6 @@ zzzyk.com###Tinfo
 ||seehits.com^$third-party
 ||seeingcare.com^
 ||seeip.org^$third-party
-||seek.intel.com^
 ||seek.uwa.edu.au^
 ||seek68.cn/img/*.gif
 ||seekingalpha.com/mone_event
