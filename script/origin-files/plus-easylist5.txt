@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202307040231
+! Version: 202307050251
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 77766
+! Lenth = 77756
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -535,6 +535,7 @@ $removeparam=scid,domain=rakuten.co.jp|rakuten-wallet.co.jp
 $removeparam=spm,domain=aliyun.com|sohu.com
 $removeparam=src_module,domain=shein.co.uk|shein.com
 $removeparam=src_tab_page_id,domain=shein.co.uk|shein.com
+$removeparam=sscid
 $removeparam=tduid
 $removeparam=twclid
 $removeparam=unicorn_click_id
@@ -1118,7 +1119,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /TrackingHandler.
 /TrackingPixel/*
 /TrafficCookie.
-/UnicaTag.
 /UniqueUserVisit?
 /Universal-Federated-Analytics.
 /UserTraceCookie?
@@ -1412,6 +1412,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/gallup/*
 /analytics/geoip/*
 /analytics/google/*
+/analytics/inboundAnalytics.
 /analytics/initSession
 /analytics/klaviyo_
 /analytics/layer
@@ -2842,6 +2843,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /inject.js?key=$script
 /inline-pixel.js
 /inpl.measure.
+/insales_counter.js?
 /insights-collector.
 /insights-emitter.
 /insights-emitter/*
@@ -3235,8 +3237,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /minder-tracker.
 /mine/bitcoincore/*
 /miner-ui.js
-/miner.*/crypto-
-/miner.*/loader.
 /miner.full.js
 /miner.js
 /miner.min.js
@@ -4123,7 +4123,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sikcomscore_
 /silveregg_cookie?
 /silveregg_tracking.
-/simple-miner-tweaks/*
 /simple-monero-$script
 /simpleEulerian.
 /simple_reach.js
@@ -4201,7 +4200,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sp_tracker.
 /space.gif?host=
 /spacer.gif?
-/sparechange.js
 /splunk-logging-
 /springmetrics.
 /sptracking.
@@ -4365,8 +4363,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /stp.gif?
 /stracking.js
 /stream/log.html?
-/streambeam-jw.js
-/streambeam-video.js
 /streamsense.min.js
 /strpixel.png?
 /stt/track.
@@ -4748,9 +4744,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /unagi.amazon.
 /unbxdAnalytics.
 /unbxdAnalyticsConfig.
-/unica.gif?
-/unica.js
-/unica_$domain=~unica.fi
 /universal-trackers/*
 /universal-tracking-
 /universalPixelStatic.
@@ -4927,7 +4920,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /web_analytics/*
 /web_answertip.
 /web_logger/*
-/web_miner/*
 /web_tracking_
 /web_traffic_capture.js
 /webc-tracking-
@@ -5060,11 +5052,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /xgemius.js
 /xgenius.
 /xiti.js
-/xminer.js
-/xminer.min.js
-/xmr-monero.js
-/xmr.js
-/xmr.min.js
 /xn_track.
 /xstat.aspx?
 /xstat/*
@@ -5157,10 +5144,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://wa.*/s?$image
 ://yandex.$removeparam=clid
 ://yandex.$removeparam=source
-=ws://*?pool=
-=ws://*?pools=
-=wss://*?pool=
-=wss://*?pools=
 ?[AQB]&ndh=1&t=
 ?act=counter&
 ?action=event&
@@ -5183,10 +5166,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ?logType=trackEvent&
 ?log_performance_metrics
 ?pageviews=$third-party
-?proxy=*?pool=
-?proxy=*?pools=
-?proxy=ws://$script,websocket
-?proxy=wss://$script,websocket
 ?sponsor_pixel=
 ?statify_referrer=
 ?type=page&event=
@@ -7147,6 +7126,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
+@@||sascdn.com/tag/$script,domain=filmweb.pl
 @@||sb.scorecardresearch.com/beacon.js$domain=animalplanet.com
 @@||sb.scorecardresearch.com/beacon.js$domain=discovery.com
 @@||sb.scorecardresearch.com/beacon.js$domain=investigationdiscovery.com
@@ -7254,6 +7234,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||snapchat.com/static/js/autotrack.js
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||snyk.io^$cookie=ajs_anonymous_id
+@@||software.seek.intel.com^$document
 @@||sohotheatre.com^*/PageView.js$~third-party
 @@||solr.sas.com/query/$xmlhttprequest,domain=jmp.com
 @@||som.aeroplan.com/b/ss/
@@ -16475,7 +16456,6 @@ znak.com##.relap
 ||api.calculator.tt.omtrdc.net^
 ||api.call.tt.omtrdc.net^
 ||api.calq.io^
-||api.carrottrack.io^$third-party
 ||api.cazamba.com^$third-party
 ||api.cc3.infra4.tt.omtrdc.net^
 ||api.centify.co/adb
@@ -16631,7 +16611,6 @@ znak.com##.relap
 ||api.ria.tt.omtrdc.net^
 ||api.rm1003.stage.tt.omtrdc.net^
 ||api.rse.global.tt.omtrdc.net^
-||api.rubic.com.tr^$third-party
 ||api.ryanyao.design^
 ||api.safedk.com^
 ||api.safegraph.com^
@@ -21712,6 +21691,7 @@ znak.com##.relap
 ||c.sav2.tt.omtrdc.net^
 ||c.sayhi.360.cn^
 ||c.scale.tt.omtrdc.net^
+||c.security.org^
 ||c.sibnet.ru^
 ||c.t-online.de^
 ||c.tbex.ru^
@@ -22261,6 +22241,7 @@ znak.com##.relap
 ||carmat1.radmasz.tt.omtrdc.net^
 ||carmax-maniarest.tt.omtrdc.net^
 ||carmax.tt.omtrdc.net^
+||carmazoon24-pu01.ihre-webseite.it/js/logger
 ||carmenpths4.tt.omtrdc.net^
 ||carmond.tt.omtrdc.net^
 ||carnivalbrands.tt.omtrdc.net^
@@ -22617,6 +22598,7 @@ znak.com##.relap
 ||cdn-settings.appsflyersdk.com^
 ||cdn-sitegainer.com^$third-party
 ||cdn-tst-dev-us.tt.omtrdc.net^
+||cdn-widgetsrepository.yotpo.com/widget-assets/yotpo-pixel/
 ||cdn-za.op.tt.omtrdc.net^
 ||cdn.2.flyaa.tt.omtrdc.net^
 ||cdn.24h.com.vn/js/24hgatracking/
@@ -23571,7 +23553,6 @@ znak.com##.relap
 ||click.vgnett.no^
 ||click.vocus.com^
 ||click.web-api.tt.omtrdc.net^
-||click.webeyemob.com/*/ad/click?subsite_id=
 ||click.xda-developers.com/api/pixel.gif
 ||click.zoominformation.com^
 ||click1.e.radio.com^
@@ -23802,7 +23783,6 @@ znak.com##.relap
 ||clk2.box.tt.omtrdc.net^
 ||clks.trackthisclicks.com^
 ||clkstat.china.cn^
-||clktrk.display.io^
 ||cllctr.any.run^
 ||clmpgdpnpr-adc-extcb.tt.omtrdc.net^
 ||clnbze.dziennikbaltycki.pl^
@@ -25534,7 +25514,6 @@ znak.com##.relap
 ||counter.jdi5.com^$third-party
 ||counter.joins.com^
 ||counter.kikibobo.top^$third-party
-||counter.kingsoft.com^
 ||counter.live4members.com^
 ||counter.log24.ru^$third-party
 ||counter.maases.com^
@@ -30395,7 +30374,7 @@ znak.com##.relap
 ||dl.popclub.co.in^
 ||dl.purplle.com^
 ||dl.reg.163.com^
-||dl.reg.163.com^$subdocument,redirect-rule=noopframe,domain=mail.163.com
+||dl.reg.163.com^$subdocument,redirect-rule=noopframe
 ||dl.right2vote.in^
 ||dl.rivafashion.com^
 ||dl.shopwell.com^
@@ -32728,7 +32707,6 @@ znak.com##.relap
 ||ep.americanexpress.com^
 ||ep.nfip.tt.omtrdc.net^
 ||ep.regis.edu^
-||ep.xone.com^
 ||ep4p.com^$third-party
 ||epamailr612.tt.omtrdc.net^
 ||epamailrt11b.tt.omtrdc.net^
@@ -41897,7 +41875,7 @@ znak.com##.relap
 ||link.metronaut.app^
 ||link.meumulti.com.br^
 ||link.mindsetapp.com^
-||link.mix.com^link.sandboxx.us^
+||link.mix.com^
 ||link.mktg.almosafer.com^
 ||link.mktg.tajawal.com^
 ||link.mobstar.com^
@@ -41917,6 +41895,7 @@ znak.com##.relap
 ||link.realself.com^$image
 ||link.resy.com^
 ||link.ridewithvia.com^
+||link.sandboxx.us^
 ||link.savvy360.com^
 ||link.sayferapp.com^
 ||link.seaflux.tech^
@@ -45778,7 +45757,6 @@ znak.com##.relap
 ||metrics.barclaycardus.com^
 ||metrics.bcbsnc.com^
 ||metrics.becomeanex.org^
-||metrics.bestbuy.com^
 ||metrics.bestoforlando.com^
 ||metrics.bestrecipes.com.au^
 ||metrics.beveragedaily.com^
@@ -46108,7 +46086,7 @@ znak.com##.relap
 ||metrics.lww.com^
 ||metrics.machinedesign.com^
 ||metrics.macquarie.com.au^
-||metrics.macys.net^
+||metrics.macys.com^
 ||metrics.madeformums.com^
 ||metrics.madewell.com^
 ||metrics.makemytrip.com^
@@ -47139,6 +47117,7 @@ znak.com##.relap
 ||monterey.regency.tt.omtrdc.net^
 ||montgomery5.noro.tt.omtrdc.net^
 ||montgomery6.tt.omtrdc.net^
+||montgomerycountymd.gov/Common/Scripts/GoogleAnalytics.js
 ||montok.indonesiya.com^
 ||montpalatin.handicap.fr^
 ||montreal-angeles-state.tt.omtrdc.net^
@@ -54357,6 +54336,11 @@ znak.com##.relap
 ||robindao83.tt.omtrdc.net^
 ||roblox.com/report
 ||roblox.com^*/_/1px.gif
+||roboform.com^$removeparam=a
+||roboform.com^$removeparam=affid
+||roboform.com^$removeparam=c
+||roboform.com^$removeparam=frm
+||roboform.com^$removeparam=s1
 ||robotflowermobile.com^
 ||robustbelieve.com^
 ||robustbelieve.com^$third-party
@@ -56402,6 +56386,7 @@ znak.com##.relap
 ||seatrackt1.okla.sing.tt.omtrdc.net^
 ||seatsa.tt.omtrdc.net^
 ||seatsmoke.com^
+||seattlepi.com/413gkwMT/init.js
 ||seb.sharpmarketing.eu^
 ||sebcar-son.tt.omtrdc.net^
 ||sebcar28.tt.omtrdc.net^
@@ -57225,6 +57210,7 @@ znak.com##.relap
 ||serp-seave-qa.erc.erc.tt.omtrdc.net^
 ||serp-seave2.erc.erc.tt.omtrdc.net^
 ||serpentshampoo.com^
+||serpentshampoo.com^$third-party
 ||serv-ac.com^$third-party
 ||serv.tooplay.com/analyse
 ||serv1swork.com^
@@ -57707,6 +57693,9 @@ znak.com##.relap
 ||share2.360vuz.com^
 ||shareaholic.com/analytics_
 ||shareaholic.com/partners.js
+||shareasale-analytics.com^$removeparam=lplid
+||shareasale-analytics.com^$removeparam=shrsl_analytics_sscid
+||shareasale-analytics.com^$removeparam=shrsl_analytics_sstid
 ||shareasale.com^$third-party
 ||sharebuilder.tt.omtrdc.net^
 ||sharecare.tt.omtrdc.net^
@@ -61857,7 +61846,6 @@ znak.com##.relap
 ||spanishdict.com/page-view-metadata
 ||spap-prod-prod.ros.tt.omtrdc.net^
 ||sparbusinessservices.tt.omtrdc.net^
-||sparechange.io^$third-party
 ||spares-t1.cilhq.tt.omtrdc.net^
 ||spark-api.np.tt.omtrdc.net^
 ||spark.thelyst.com^
@@ -70499,6 +70487,7 @@ znak.com##.relap
 ||tracking.carsales.com.au^
 ||tracking.cat898.com^
 ||tracking.cengage.com^
+||tracking.centerfield.com^
 ||tracking.cerdmann.com^
 ||tracking.chacha.com^
 ||tracking.changehealthcare.com^
@@ -77528,6 +77517,7 @@ znak.com##.relap
 ||zendesk.com/embeddable_blip?type=analytics&data=
 ||zenedge.actonservice.com^
 ||zengenti.com/tags/
+||zenimpact.io/dist/zen_init.min.js
 ||zenith121.ddns.tt.omtrdc.net^
 ||zenki657.tt.omtrdc.net^
 ||zenmatefeedback.typeform.com/forms/*/insights/events/

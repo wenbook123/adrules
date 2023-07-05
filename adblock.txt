@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 4/b2pLwYY1PohkRBgS5rFg
+! Checksum: P4jg/jiWFeNHSuO2ADSdoA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-07-05 09:08:06（北京时间） 
-! Total count: 64289
+! Version: 2023-07-05 16:20:29（北京时间） 
+! Total count: 64298
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -992,6 +992,7 @@
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
+##A[href*="kdocs.cn"] > IMG[src*=".ax1x.com/"]
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
@@ -3984,7 +3985,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /TrackingHandler.
 /TrackingPixel/*
 /TrafficCookie.
-/UnicaTag.
 /UniqueUserVisit?
 /Universal-Federated-Analytics.
 /UserTraceCookie?
@@ -8136,9 +8136,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /unagi.amazon.
 /unbxdAnalytics.
 /unbxdAnalyticsConfig.
-/unica.gif?
-/unica.js
-/unica_$domain=~unica.fi
 /uniontgm.cmb.
 /universal-trackers/*
 /universal-tracking-
@@ -14886,16 +14883,6 @@ hqew.com##.pop-banner
 hqew.com##div[class^="g-ad-"]
 hsex.men###container > div:not([class])
 hsex.men##div[style="margin:0 auto 10px;width:900px;height:250px"]
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@##adsbox
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.Flagrow-Ads-under-header
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.RMss1
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.Text-Advertising
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.a_ssk_cn
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.a_xsfl
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ctm_ad
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ff-ads
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.google-ads
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.hlol_ad
 htcui.com##.carousel
 htcui.com##.qqanimate
 htcui.com##.yanshibtn
@@ -16140,6 +16127,7 @@ lifenewsjr.com##.fabox
 lightnovel.us##.author + .poster
 lihkg.com##iframe[src^="https://pb.lihkg.com/"][style^="height:"]
 lihkg.com##iframe[src^="https://pb.lihkg.com/primis?"]
+lihkg.com#?##rightPanel > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[data-post-id] + div:not([data-post-id])
 lihkg.com#?##rightPanel div[id^="page-"] ~ div[class] > div > div[style^="display:"] ins.adsbygoogle:upward(div[style^="display:"])
 liisex.com###apDiv22
 likr.tw###avivid_waterfall_wp_product_area
@@ -17831,6 +17819,7 @@ sdzbcg.com##td[width="580"][height="279"] > table:nth-child(2n-1)
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 se8u.cc##.footAdv
 sea-group.org###text-7
+search.bilibili.com#?#.video-list > div.col_3:has(> div.bili-video-card a[href*="//cm.bilibili.com/"])
 search.smzdm.com###elevator > LI:first-child
 secretmine.net###main-content > br
 secretmine.net###main-content > center
@@ -19129,9 +19118,19 @@ wmzhe.com##.aibyte_ad
 wmzhe.com##.downloader
 wn789.com##.sidebar > .widget:not(:first-child):not(.widget_ui_posts)
 wn789.com##a[href^="http"]:not([href*="://www.wn789."]) > img
-wnacg.com,wnacg.org##a[href^="http"]:not([href*="wnacg."]) img
-wnacg.com,wnacg.org##img[width="399"][height*="6"]
-wnacg.com,wnacg.org##script + div > a > img
+wnacg.com##a[href^="http"]:not([href*="wnacg."]) img
+wnacg.com##img[width="399"][height*="6"]
+wnacg.com##script + div > a > img
+wnacg.com#@##adsbox
+wnacg.com#@#.Flagrow-Ads-under-header
+wnacg.com#@#.RMss1
+wnacg.com#@#.Text-Advertising
+wnacg.com#@#.a_ssk_cn
+wnacg.com#@#.a_xsfl
+wnacg.com#@#.ctm_ad
+wnacg.com#@#.ff-ads
+wnacg.com#@#.google-ads
+wnacg.com#@#.hlol_ad
 wnacg.org##a[href^="https://l.tyrantdb.com/"][target="_blank"] > img
 wnflb2023.com##.GzList
 woego.cn#@##topAds
@@ -20620,6 +20619,7 @@ zzzyk.com###Tinfo
 ||33shu.net/js/game
 ||33yq.org/static/1.
 ||34.215.155.61^
+||3400.org^
 ||34iq.com/index
 ||34jthg.info/api/oort2bunny?
 ||35.194.26.233^
@@ -23811,6 +23811,7 @@ zzzyk.com###Tinfo
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 ||abovede6.com^
 ||abram.xin^
+||abrnfctkn.xyz^
 ||abruptroad.com^
 ||abs.proxistore.com^
 ||absentstream.com^
@@ -31042,6 +31043,7 @@ zzzyk.com###Tinfo
 ||d2cpw6kwpff7n5.cloudfront.net^
 ||d2ef20sk9hi1u3.cloudfront.net^
 ||d2ezz24t9nm0vu.cloudfront.net^
+||d2fj3s7h83rb61.cloudfront.net
 ||d2fuc4clr7gvcn.cloudfront.net/track.js
 ||d2gbtcuv3w9qyv.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
@@ -36682,6 +36684,7 @@ zzzyk.com###Tinfo
 ||hanlinzhijia.net^
 ||hannover-stadtplan.com/t.gif
 ||hansaisai.top^
+||hanwdsii.com^
 ||hanzify.*/Main/Template/Images/chinabank.gif
 ||hao.315hyw.com^
 ||hao.360hyzj.com^
@@ -36976,6 +36979,7 @@ zzzyk.com###Tinfo
 ||hfk7j.top^
 ||hflssy.com^
 ||hflwgg.xyz^
+||hfqdipw.cn^
 ||hgcdn.net/?$third-party
 ||hgf4.zanzicar.fr^
 ||hgiafe.site^
@@ -37359,6 +37363,7 @@ zzzyk.com###Tinfo
 ||hs.fi/stats
 ||hs.fi^$removeparam=share
 ||hs640.com/js/jquery.js
+||hsadeg.site^
 ||hsadspixel.net^
 ||hsbianma.com/Ad/
 ||hsbianma.com/content/images/*-ad-
@@ -38895,6 +38900,7 @@ zzzyk.com###Tinfo
 ||ip-label.net^$third-party
 ||ip-tracker.org^$third-party
 ||ip.cliphunter.com^
+||ip.lovely-app.com^
 ||ip.pichunter.com^
 ||ip.tianqiapi.com^
 ||ip.up66.ru^
@@ -47693,6 +47699,7 @@ zzzyk.com###Tinfo
 ||potatoinvention.com^
 ||potsdamer-stadtplan.com/t.gif
 ||powderprofit.com^
+||powedw.com^
 ||power.adhacker.online^$third-party
 ||power.viggo.com^
 ||powercount.com^$third-party
@@ -53921,6 +53928,7 @@ zzzyk.com###Tinfo
 ||spikyslave.com^
 ||spinnaker-js.com^
 ||spinnakermgmt.actonservice.com^
+||spiral.world/events/
 ||spirebaboon.com^
 ||spirit.com/kp4CLSb5/init.js
 ||spitefulstop.com^
@@ -53982,6 +53990,7 @@ zzzyk.com###Tinfo
 ||spysubstance.com^
 ||spytsg.horti.jp^
 ||spywords.com^$third-party
+||sq59.cn^
 ||sqate.io^$third-party
 ||sqdgwx.jobrapido.com^
 ||sqdljj.kijiji.ca^
@@ -57388,6 +57397,7 @@ zzzyk.com###Tinfo
 ||torwq.xyz^
 ||tos5dqejpd.www.freecodecamp.org^
 ||toskmisway.com^
+||totalcsgo.com/ctrack/
 ||totallylayouts.com/tumblr/visitor-counter/counter.js
 ||totheglory.im/pic/business/
 ||totheglory.im/pic/fangtuo.jpg
@@ -57461,6 +57471,7 @@ zzzyk.com###Tinfo
 ||tpx.tesseradigital.com^
 ||tq.cn/floatcard?
 ||tq121.com.cn/j/ad/
+||tqdctl.xyz^
 ||tqdpqq.com^
 ||tqhosting.actonservice.com^
 ||tqmcj.cn^
@@ -61723,9 +61734,6 @@ zzzyk.com###Tinfo
 ||wnacg.*/w8z/
 ||wnacg.*/zec/
 ||wnacg.com/1sdfdc1/500_60-1.gif
-||wnacg.org/img/500_60
-||wnacg.org/img/wap
-||wnacgcdn.top/data/game/
 ||wnd2.destinia.cat^
 ||wneia.iaskhot.com^
 ||wnform.www.trecenti.com^
@@ -62752,6 +62760,7 @@ zzzyk.com###Tinfo
 ||xiaoshuoyun.cn^
 ||xiaosss.ren^
 ||xiaosunxin.cn^
+||xiaoxiuapp.com^
 ||xiaoyange.cn^
 ||xiaoyida.com^$third-party
 ||xiaoyunong13.top^
