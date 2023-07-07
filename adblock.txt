@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 8bJQugANfHeK1j1GZKPGfA
+! Checksum: fBngNvQVCqBRv1DKh8GRUA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-07-07 16:20:09（北京时间） 
-! Total count: 64328
+! Version: 2023-07-08 00:19:01（北京时间） 
+! Total count: 64336
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1799,6 +1799,7 @@ $doc,removeparam=trackID
 $doc,removeparam=trackid,domain=~nzpost.co.nz
 $doc,removeparam=waporef
 $doc,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.com
+$document,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldscientific.com
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $domain=googleads.g.doubleclick.net
 $image,third-party,domain=258zw.com
@@ -2211,6 +2212,9 @@ $removeparam=avad
 $removeparam=awc
 $removeparam=awid
 $removeparam=awinaffid
+$removeparam=b_campaign
+$removeparam=b_medium
+$removeparam=b_source
 $removeparam=bbaid
 $removeparam=bclid
 $removeparam=bcpid
@@ -2845,7 +2849,7 @@ $removeparam=rp,domain=hclips.com
 $removeparam=rpcid
 $removeparam=rpp_cid
 $removeparam=rs,domain=gamereactor.*
-$removeparam=rss,domain=sn.dk|ted.com
+$removeparam=rss,domain=marketwatch.com|sn.dk|ted.com
 $removeparam=rt,domain=lendgo.com|bilibili.com
 $removeparam=rx_c,domain=cvshealth.*
 $removeparam=rx_group,domain=cvshealth.*
@@ -3204,7 +3208,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .bluekai.com/*?e_id_
 .bmetrack.com/c/$image
 .bt*.com/imgs.js?t=
-.buzz$domain=btsj6.com
+.buzz$domain=btsj6.com|yinghuavideo.com|dm99.me
 .buzz/*0*0*0*==$third-party
 .buzz/*=$object,third-party
 .cam/ads/
@@ -3217,7 +3221,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .cilipa*/js/os.js
 .click/track?
 .cloud/ads/
-.club$domain=yinghuacd.com
 .club/ads/
 .club/adv/
 .cmail19.com/t/$image
@@ -3565,7 +3568,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .skimlinks.js
 .smartrmail.co/o/$image
 .smtp.net/o/$image
-.snowplowanalytics.
+.snowplowanalytics.$domain=~snowplowanalytics.com
 .southwest.com/r/$image
 .sparkpostmail.com/q/$image
 .sparkpostmail2.com/q/$image
@@ -3615,8 +3618,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .wix.com/_api/ping/
 .work/ads/
 .xn--fiqs8s:7385/
-.xyz$domain=btsj6.com
-.xyz$domain=yinghuacd.com
+.xyz$domain=btsj6.com|yinghuavideo.com|dm99.me
 .xyz/*.sdk?$script,third-party
 .xyz/*0*0*==$third-party
 .xyz/*?16$third-party
@@ -7828,6 +7830,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /thixel.js
 /tianya_recommend?
 /tiara/tracker/*
+/ticimax/analytics.js
 /tide_stat.js
 /tigtag_custom/*_banner
 /tigtag_custom/include/couplet.
@@ -25538,6 +25541,7 @@ zzzyk.com###Tinfo
 ||analytics.shareaholic.com^
 ||analytics.shop.hisense.com^
 ||analytics.shopncaasports.com^
+||analytics.silktide.com^
 ||analytics.sitewit.com^
 ||analytics.sixfigureswine.com^
 ||analytics.skinit.com^
@@ -46350,6 +46354,7 @@ zzzyk.com###Tinfo
 ||optimizely.com/public/
 ||optimizely.com^$domain=focus.de
 ||optimizely.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||optimizely.techtarget.com^
 ||optimost.com^$third-party
 ||optimove.net^$third-party
 ||optinproject.com/rt/visit/
@@ -49239,6 +49244,7 @@ zzzyk.com###Tinfo
 ||research-int.se^$third-party
 ||research-tool.com^$third-party
 ||research.de.com^$third-party
+||researchgate.net/track/
 ||researchintel.com^$third-party
 ||researchnow.co.uk^$third-party,domain=~dynata.com
 ||researchnow.com^$third-party
@@ -51647,6 +51653,7 @@ zzzyk.com###Tinfo
 ||skillfulsock.com^
 ||skillshouse.actonservice.com^
 ||skincheckwa-app.hotdoc.com.au^
+||skinnytaste.com^$removeparam=adt_ei
 ||skluff.com^
 ||skogsborg.net^
 ||skoom.de/gratis-counter/
@@ -63915,6 +63922,7 @@ zzzyk.com###Tinfo
 ||zfnclk.buzz^
 ||zfood029.com^
 ||zfotrq.xyz^
+||zfteiv.xyz^
 ||zg.mmyuer.com^
 ||zgctig.cn^
 ||zgdshoes.com^
