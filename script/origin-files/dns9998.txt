@@ -2,7 +2,7 @@
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules. 
 ! Homepage: https://kbsml.com
-! Last modified: 7/7/2023, 4:00:06 PM
+! Last modified: 7/8/2023, 8:00:04 AM
 !
 ||api.miwifi.com^
 ||youtube.com/pagead/paralleladview^
@@ -31836,6 +31836,8 @@ dyxs23.com,dyxs20.com,dyxs15.com,dyxs14.com,dyxs13.com,dyxs12.com,dyxs11.com##.p
 docsmall.com##+js(set-constant, _AdBlockInit, noopFunc)
 rjno1.com#$#body #aswift_1:not(#style_important) { display: block !important; }
 rjno1.com##+js(addEventListener-defuser, error, event.target.tagName)
+||cpro.baidu.com/cpro/ui/rt.js$script,redirect=noop.js,domain=rjno1.com
+||googleads.g.doubleclick.net/pagead/ads$subdocument,redirect=noop.html,domain=rjno1.com,important
 ||126.net^$script,redirect=noop.js,domain=rjno1.com
 yibian.hopto.org###no-adblock-box
 bigpixel.cn#$?##PAGE_AD_1 { remove: true; }
@@ -32006,6 +32008,10 @@ ants.tw#?##sidebar > section.widget_text > div.textwidget > script[src^="//pagea
 microsoftnews.msn.cn#?#.riverSections-DS-EntryPoint1-1 > div[style^="display: grid;"] > div[style^="grid-area:"]:last-child > .card-DS-card1-1 > div[class^="nativeAd-DS-card"]:upward(2)
 nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick*="open"]) { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
+csgoob.com#?#div[class^="dark:shadow-none"]:has(> div.ant-carousel)
+csgoob.com#?#div[class^="dark:shadow-none"]:has(> div.ant-ribbon-wrapper)
+csgoob.com#?#div[class^="dark:shadow"]:has(> a[href^="https://www.k7csgo.com/"][target="_blank"])
+itblogcn.com#?#.sidebar > div.widget:has(> div.item > aside > div.textwidget > a[href="https://www.itblogcn.com/vultr/t"])
 sto520.com#?#.content > div.book > div[style^="text-align"]:has(> ins.adsbygoogle)
 lihkg.com#?##rightPanel > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[data-post-id] + div:not([data-post-id])
 search.bilibili.com#?#.video-list > div.col_3:has(> div.bili-video-card a[href*="//cm.bilibili.com/"])
@@ -32149,6 +32155,7 @@ bde4.com##+js(nano-setInterval-booster, timerAdCountdown, , 0.02)
 5278.cc##+js(window.open-defuser, 88p2p.com)
 nfmovies.com##+js(nano-setInterval-booster, timerAdCountdownCount, , 0.02)
 nfmovies.com##+js(no-setTimeout-if, /document\.getElementById[\s\S]*?\.style\.display\.indexOf/)
+csgoob.com#$##ADback { background: none !important; }
 gameapps.hk#$#body { background-image: none !important; }
 9xav.cc#$##alert_windows { display: none !important; }
 udn.com#$#.main-content { background-image: none !important; }
@@ -35073,33 +35080,40 @@ newduba.cn###jq_youxi
 ||23.234.217.12^
 ||abrnfctkn.xyz^
 ||baiduisjkbvsjkl.com^
+||berylnbb.com^
+||bkhblj.xyz^
 ||ciadre.fun^
 ||cix0wk.com^
 ||cuioxbqi.com^
 ||dd778899dd.com^
 ||dhkipdsc.xyz^
 ||donchen501.cn^
+||dstbunkfw.xyz^
 ||evidhjksdtgyxrh.xyz^
 ||fjsytjs.cn^
 ||hanwdsii.com^
+||hdpdrandpd.xyz^
 ||hfqdipw.cn^
 ||hsadeg.site^
+||huoju.asia^
 ||kahgjjd.com^
 ||kgeesh.site^
+||lanver.fun^
 ||plbs9k.icu^
 ||powedw.com^
+||qhx1h2g.com^
 ||sq59.cn^
 ||tgbevv.xyz^
 ||tqdctl.xyz^
-||qhx1h2g.com^
-||dstbunkfw.xyz^
-||zerolcp.cn^
-||huoju.asia^
-||lanver.fun^
 ||uejdsw.com^
+||ulojlvmejkaem.xyz^
 ||wuye3d.com^
+||euitx.cn^
+||jh16csf.com^
+||caider.fun^
 ||xiaoxiuapp.com^
 ||yh18h8s.com^
+||zerolcp.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -39726,6 +39740,7 @@ $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downh
 $image,third-party,domain=lady1.top
 $script,third-party,domain=52movieba.com|66s.cc|audio699.com|btsow.cfd|kan-tv.com|m.supfree.net|xiaoheimi.net
 $script,third-party,websocket,domain=52codes.net
+$third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com
 $websocket,domain=5nj.com|cechi8.com
 .194007.com/4058.gif
 .gif|$domain=7mshipin.org|viidii.info
@@ -43718,6 +43733,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xbiqugexx.com/static/js/wap.js
 ||xcar.com.cn/dsp/ad
 ||xchina.co/upload/ad/
+||xchina.life/ad/
 ||xchina.pro/upload/ad/
 ||xdcad.net/source/plugin/disad/disad.js
 ||xdf.cn/v4/js/leyus/
@@ -43974,9 +43990,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||xchina.life/ad/
 szxx.com.cn###A0
-zhihu.com##.RichText-Ecommerce
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -45471,6 +45485,7 @@ solarbe.com##.RT_banner
 3dmgame.com##.R_qingtianzhu
 3jy.com##.Rad
 zhihu.com##.RelatedReadings-adItem
+zhihu.com##.RichText-Ecommerce
 douyu.com##.ScreenBannerAd
 avmimi.com##.TW_UTtoy
 bmlink.com##.Tg_1190x70
