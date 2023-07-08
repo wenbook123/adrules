@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202307070234
+! Version: 202307080224
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24066
+! Lenth = 24086
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1436,6 +1436,7 @@ $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanhua.com
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
 $script,third-party,websocket,domain=52codes.net
+$third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com
 $websocket,domain=5nj.com|cechi8.com
 &ad_type=
 &adsrc=
@@ -6331,6 +6332,10 @@ csdn.net##li[data-type="ad"]
 csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 csdn.net#?#aside > div.slide-outer:has(> div.box > div[adsid])
 csdn.net,itboth.com,iteye.com,itkeyword.com###ad_pop
+csgoob.com#$##ADback { background: none !important; }
+csgoob.com#?#div[class^="dark:shadow"]:has(> a[href^="https://www.k7csgo.com/"][target="_blank"])
+csgoob.com#?#div[class^="dark:shadow-none"]:has(> div.ant-carousel)
+csgoob.com#?#div[class^="dark:shadow-none"]:has(> div.ant-ribbon-wrapper)
 cskaoyan.com###scanWxQrCode
 csshello.com###topgg
 cssmoban.com##.btn-host
@@ -8341,6 +8346,7 @@ itavcn.com##.topadvzone
 itavcn.com##img[width="722"]
 itbaoku.cn##.col-lg-12[style="padding-left: 0px;padding-top: 15px;padding-bottom: 15px;"]
 itbaoku.cn#%#//scriptlet('set-constant', 'killads', 'true')
+itblogcn.com#?#.sidebar > div.widget:has(> div.item > aside > div.textwidget > a[href="https://www.itblogcn.com/vultr/t"])
 itboth.com,itkeyword.com##.ad_pop_left
 itboth.com,itkeyword.com##.ad_pop_left_txy
 itboth.com,itkeyword.com##a[href*=".aliyun."]
@@ -10282,8 +10288,9 @@ rjno1.com#$#body #aswift_1:not(#style_important) { display: block !important; }
 rjno1.com#%#(function(){const b=function(d){const a=Math.pow(10,d-1),b=Math.pow(10,d);return Math.floor(Math.random()*(b-a)+a)}(12);window.addEventListener("load",function(){window.google_image_requests=[],window.google_global_correlator=b,window._hmt=window._hmt||[],_hmt.id=b})})();
 rjno1.com#%#//scriptlet("prevent-addEventListener", "error", "event.target.tagName")
 rjno1.com#%#AG_onLoad(function(){var a=document.body,b=document.createElement("div");a&&(a.appendChild(b),b.setAttribute("id","aswift_1"))});
-rjno1.com#%#function preventError(d){window.addEventListener("error",function(a){if(a.srcElement&&a.srcElement.src){const b=new RegExp(d);b.test(a.srcElement.src)&&(a.srcElement.onerror=function(){})}},!0)}preventError("^.");
+rjno1.com#%#function preventError(d){window.addEventListener("error",function(a){if(a.srcElement&&a.srcElement.src){const b=new RegExp(d);b.test(a.srcElement.src)&&(a.srcElement.onerror=function(){})}},!0)}preventError(/^(?!.*(rt-error.js)).*$/);
 rjno1.com#@#[id^="aswift_"]
+rjno1.com#@#main > div[class^="qnb"]
 rkanr.com##.bill
 romzhijia.net##.ggposition
 romzj.com##.sectionThree
@@ -14211,6 +14218,7 @@ zzzyk.com###Tinfo
 ||baidu.com/article/ajax/getmarticlestepdata?
 ||baidu.com/baidu.php?url=$popup
 ||baidu.com/brands/yxtg/source/yxCoupletsAd.js
+||baidu.com/buy/ad/home
 ||baidu.com/cms/lemmaconfig/baikeDynamic.
 ||baidu.com/cms/lemmaconfig/navbarAd.
 ||baidu.com/cms/rc/adSideConfig.json?
@@ -14531,6 +14539,7 @@ zzzyk.com###Tinfo
 ||bephb.in^
 ||beqokg.xyz^
 ||beryl3.cc^
+||berylnbb.com^
 ||besc.baidustatic.com^
 ||bestialvehemence.com^
 ||bestpush.pconline.com.cn^
@@ -14623,6 +14632,7 @@ zzzyk.com###Tinfo
 ||bjytdqwx.com^
 ||bjzb.xyz^
 ||bkae.top^
+||bkhblj.xyz^
 ||bkill.com/css/js/*top
 ||bkill.com/css/js/abcbl.js
 ||bkill.com/css/js/xinbkill.js
@@ -14863,6 +14873,7 @@ zzzyk.com###Tinfo
 ||cai110.com/js/2
 ||caibaojian.com/d/uploads/*/atop-
 ||caibaojian.com/d/uploads/*0-
+||caider.fun^
 ||caigoubao.cc^*/960
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
@@ -15348,6 +15359,7 @@ zzzyk.com###Tinfo
 ||cpnn.com.cn/cpnn_images/diangong.gif
 ||cpplay.com/inc/
 ||cppwd2ahf.xyz^
+||cpro.baidu.com/cpro/ui/rt.js$script,redirect=noopjs,domain=rjno1.com
 ||cpro.baidu.com^
 ||cpro.baidustatic.com^
 ||cpro.bdrmb.cn^
@@ -16258,6 +16270,7 @@ zzzyk.com###Tinfo
 ||ettoday.net/style/video-ad/
 ||ettoday.net^*/ad/
 ||etxjbxs.top^$third-party
+||euitx.cn^
 ||euliglsp.space^
 ||eumnxwvp.ink^
 ||eurostatsafetyshoes.tw^
@@ -16856,6 +16869,7 @@ zzzyk.com###Tinfo
 ||goodgupiao.com/skins/default/js/backTop.js
 ||goods.tudou.com/api?
 ||google-analytics.com/analytics.js$script,redirect=noopjs,important,domain=ebb.io
+||googleads.g.doubleclick.net/pagead/ads$subdocument,redirect=noopframe,domain=rjno1.com,important
 ||googlesyndication.com/safeframe/$third-party
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=ani.gamer.com.tw
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=gamer.com.tw,important
@@ -17159,6 +17173,7 @@ zzzyk.com###Tinfo
 ||hdherpc.cn^
 ||hdminfeng.com^
 ||hdmoli.com/static/js/pop_promotion.js
+||hdpdrandpd.xyz^
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
 ||hdslb.com/js/bfd.js
@@ -18081,6 +18096,7 @@ zzzyk.com###Tinfo
 ||jgqub.cn^
 ||jgstny.com^$third-party
 ||jh001.cc^
+||jh16csf.com^
 ||jhgtf.com^
 ||jhlxfw.cn^
 ||jhxcld.xyz^
@@ -18373,6 +18389,7 @@ zzzyk.com###Tinfo
 ||jufengputao.com^
 ||juhn.cn^
 ||juhuitongcheng.life^
+||jujcjz.xyz^
 ||juji.tv/Runtime/js/
 ||jun01.oss-cn-beijing.aliyuncs.com^
 ||junkucm.com^
@@ -18805,6 +18822,7 @@ zzzyk.com###Tinfo
 ||lanrenzhijia.com/Public/images/head_right_top.gif
 ||lanrenzhijia.com/Public/images/sucaihuo_
 ||lanrenzhijia.com/Public/images/xiaozhua.jpg
+||lanver.fun^
 ||lanyes.org/content/templates/lanye2015/images/hb_banner.png
 ||laod.cn/wp-content/uploads/*/ad-
 ||laogu.com/cms/images/ad
@@ -22333,6 +22351,7 @@ zzzyk.com###Tinfo
 ||ueadlian.com^$third-party
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 ||uehtjp.cn^
+||uejdsw.com^
 ||uejnmjdpd.xyz^
 ||uekqdec.cn^
 ||uengbalc.fun^
@@ -22354,6 +22373,7 @@ zzzyk.com###Tinfo
 ||ukutuy.xyz^
 ||ulfex.cn^$third-party
 ||ulink.cc^$third-party
+||ulojlvmejkaem.xyz^
 ||ulsynmlt.fun^
 ||ultraimg.com^$domain=18board.com|18p2p.com
 ||ulukaris.com^$third-party
