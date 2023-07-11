@@ -1578,11 +1578,6 @@ xmoviesforyou.*##+js(aopw, _pop)
 
 ! https://github.com/jspenguin2017/uBlockProtector/issues/624
 kisshentai.net##+js(aopr, adblock)
-ninjastream.to##+js(nosiif, document['write'])
-ninjastream.to##+js(aopr, SmartPopunder)
-ninjastream.to##+js(aeld, , 0x)
-ninjastream.to##+js(aopr, NinjaJsPop)
-ninjastream.to##.video-fake
 
 ! https://github.com/uBlockOrigin/uAssets/issues/739
 ||zergnet.com/zerg-inf-multi$3p,script
@@ -11517,6 +11512,14 @@ shrink.*##.banner
 @@||shrink.*^$ghide
 bigbtc.win##div[style^="width:300px;height:250px"]
 @@||onceagain.mooo.com/prebid.js$script,domain=bigbtc.win
+bigbtc.win##^script:has-text(block-adb)
+!#if !cap_html_filtering
+bigbtc.win##+js(rmnt, script, block-adb)
+!#endif
+@@||bigbtc.win^$ghide
+bigbtc.win###block-adb-enabled
+bigbtc.win###main, #ielement:style(display: block !important;)
+bigbtc.win##div[style] > div[id] > script[src^="//ads.themoneytizer.com"]:upward(3)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6021
 ! https://github.com/uBlockOrigin/uAssets/issues/17901
