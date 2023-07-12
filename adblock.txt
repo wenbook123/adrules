@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: yOh7dn1FhCV61SS2jcmahA
+! Checksum: BoaGgL1hbPMyUE1PLDIlFA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-07-12 09:06:29（北京时间） 
-! Total count: 64394
+! Version: 2023-07-12 16:19:27（北京时间） 
+! Total count: 64402
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -8426,7 +8426,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /wp-content/plugins/upprev/*
 /wp-content/themes/iMovies/js/tc_
 /wp-content/tracker.
-/wp-content/uploads/2016/10/2016103005450610.jpg
 /wp-counter.php
 /wp-js/analytics.
 /wp-pixels/*
@@ -11790,6 +11789,7 @@ _newrelic_min.
 _nielsen.js
 _ntpagetag.
 _popAds.
+_rony.js$script,third-party
 _rpc/log?
 _social_tracking.js
 _stat.php?referer=
@@ -13136,6 +13136,7 @@ cnjxol.com##.linked
 cnki.com.cn##.ad-right-default
 cnki.com.cn##.adList
 cnki.com.cn##.mainboxconbanner
+cnki.net##.translateOutAdLink
 cnki.net#@#.ad_right
 cnlinfo.net##.guanggao-left
 cnlinfo.net##.guanggao-right
@@ -13672,6 +13673,7 @@ drv5.cn###xzq
 drvsky.com###bz_position
 drvsky.com##.zhongdian
 dshangyan.com##.advHeader
+duangks.com###a_d_sidebar
 duanwenxue.com##.qgzdwx
 duanwenxue.com##.shuang11_gg
 duanwenxue.com##.shuang11_mb
@@ -14227,11 +14229,6 @@ ft.com,ftchinese.com##.bn-ph
 ftvnews.com.tw##div[id^="div_gpt_"]
 fububu.com###wendibu
 fujieace.com##.single-goods
-fuli.us###callboard
-fuli.us###toubuads
-fuli.us##.banner-post
-fuli.us##.slick
-fuli.us,tianshif.com###comment-ad
 fuliba2021.net,ypojie.com##.orbui-post-footer
 fuliba2022.net###focusslide
 fuliba2022.net##li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img
@@ -14828,6 +14825,7 @@ hk.xfastest.com##.adv-side-wrap
 hk.xfastest.com##.adv_v2
 hk.yahoo.com##div[id^="my-ads"]
 hk01.com##.md\:min-h-\[90px\]
+hk01.com##.min-h-\[250px\].mb-3
 hk01.com##div[class^="lg\:min-h-[250px] hidden lg:flex lg:items-center"]
 hk01.com##div[data-id="lazyload-placeholder"]
 hkcards.com###ad-slot-01
@@ -17580,7 +17578,7 @@ qq.com###qqadv
 qq.com###qqmail_AD_container
 qq.com###r_ad
 qq.com##+js(json-prune, ad)
-qq.com##+js(json-prune,ads adList.item)
+qq.com##+js(json-prune,ads ad.pause adList.item)
 qq.com##+js(no-fetch-if,/trace\.|beacon\./)
 qq.com##+js(no-xhr-if,/trace\.|\/collect/)
 qq.com##+js(set,RTCPeerConnection,null)
@@ -18176,6 +18174,8 @@ soft4fun.net###xad_mu
 soft5566.com###sharebtn
 softblog.tw#@#.dshare
 sogi.com.tw##div[class="row my-2 ad-slot-970"]
+sogi.com.tw#?##main > div.container:has(> div#ad)
+sogi.com.tw#?#.editable  > div.text-center:has(> div.d-inline-block > div[id^="div-gpt-ad"])
 sogou.com###PZL
 sogou.com###PZR
 sogou.com###appNewsBtn
@@ -18867,10 +18867,6 @@ vdianying.cc##div[style^="display:block !important;"]
 verystream.com#@#.adsbox
 vgtime.com##.vgart_top
 vgtime.com##.vgart_top > img
-video.qq.com#@#+js(json-prune,ads adList.item)
-video.qq.com#@#+js(no-fetch-if,/trace\.|beacon\./)
-video.qq.com#@#+js(no-xhr-if,/trace\.|\/collect/)
-video.qq.com#@#+js(set,RTCPeerConnection,null)
 view.inews.qq.com##div[class^="new-hot-comment_subText"]
 view.inews.qq.com##div[class^="normal_buttonWrap"]
 view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
@@ -20352,6 +20348,7 @@ zzzyk.com###Tinfo
 ||1qm5.top^
 ||1s8pj.cn^$third-party
 ||1to1.bbva.com^
+||1u5gy.xyz^
 ||1v7.cn^$third-party
 ||1w73a5d.cn^
 ||1wkg.cn^
@@ -31189,6 +31186,7 @@ zzzyk.com###Tinfo
 ||dadatuwz.com^$third-party
 ||dadawm.cc^
 ||dadcc.cn^
+||dadde.cn^
 ||daddq.cn^
 ||dadi.technology^$third-party
 ||dadwu.cn^
@@ -33735,6 +33733,7 @@ zzzyk.com###Tinfo
 ||esanciw.top^
 ||escalated.io^$third-party
 ||esearchvision.com^$third-party
+||esgher.site^
 ||esiws.com^
 ||esjzj.cyou^
 ||eskay.cn^
@@ -34585,6 +34584,7 @@ zzzyk.com###Tinfo
 ||fjsen.com:81/mysql/count/
 ||fjshxjs.cn^
 ||fjsytjs.cn^
+||fjtroip.cn^
 ||fjttbkoxer.xyz^
 ||fjzimaoqu.cn^$third-party
 ||fka06.site^
@@ -35033,7 +35033,6 @@ zzzyk.com###Tinfo
 ||fujiladder.com^
 ||fujincenter.com^
 ||fujoe.cyou^
-||fuli.us/ad.js
 ||fulibac.com/images/upload/ad/
 ||fulibl.com/wp-content/uploads/2016/06/320-230.jpg
 ||fulitech.com.cn^*/float.js
@@ -36557,6 +36556,7 @@ zzzyk.com###Tinfo
 ||gvisit.com^$third-party
 ||gvmomuqjv1.swyftx.com^
 ||gvqrclx.cn^
+||gw1jvhs.com^
 ||gwaaz.cn^
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||gweini.com^$third-party
@@ -36594,6 +36594,7 @@ zzzyk.com###Tinfo
 ||gyjinchuang.vip^
 ||gykyec.xyz^
 ||gypowdr.com^
+||gyq3bew.icu^
 ||gyradiko.openapp.link^
 ||gyro-n.com^$third-party
 ||gysn001.com^
@@ -40698,6 +40699,7 @@ zzzyk.com###Tinfo
 ||lagou.com/js/cooperation/
 ||lahoo.ca/api.php?mod=ad&
 ||lahoo.ca/slider
+||laink.xyz^
 ||laipeitu.com^
 ||laixi.com/tp/20
 ||lakjdskls.zhdchb.com^
@@ -46051,6 +46053,7 @@ zzzyk.com###Tinfo
 ||oicchina.com^$third-party
 ||oicvvnm.cn^
 ||oiewpw.com^
+||oifyeldk.top^
 ||oikckw.scarosso.com^
 ||oiknldwlkop.com^
 ||oikotie.fi^$removeparam=sRef
@@ -47801,6 +47804,7 @@ zzzyk.com###Tinfo
 ||pr-sunshine.de^$third-party
 ||pr.blogflux.com^
 ||pr0gram.org^$third-party
+||pr88vhg.com^
 ||prairiedog.hashnode.com^
 ||pramuka.indonesiya.com^
 ||prassas.openapp.link^
@@ -49002,6 +49006,7 @@ zzzyk.com###Tinfo
 ||rdsmod.cc^
 ||rdtcnt.laredoute.fr^
 ||rdtjkwy.cn^
+||rdufuxr.icu^
 ||re.taotaosou.com^
 ||reach-id.orbit.tm-awx.com^
 ||reachforce.com^$third-party
@@ -62639,6 +62644,7 @@ zzzyk.com###Tinfo
 ||wykw.fun^
 ||wymiana.org/stat/
 ||wyplmjufd.live^
+||wyq3rum.icu^
 ||wyqaafplm.live^
 ||wyqwrfghj.live^
 ||wysistat.com^$third-party
@@ -62738,6 +62744,7 @@ zzzyk.com###Tinfo
 ||xcvsw.xyz^
 ||xcvtg.xyz^
 ||xcvur.xyz^
+||xcvwrj.xyz^
 ||xcwzq.xyz^
 ||xcysqq.com^
 ||xd4a.top^
@@ -64109,6 +64116,7 @@ zzzyk.com###Tinfo
 ||zippyfrog.co^
 ||zippywind.com^
 ||zipstat.dk^$third-party
+||ziravd.xyz^
 ||zirve100.com^$third-party
 ||zisafniq.space^
 ||zisu.cn.com^
