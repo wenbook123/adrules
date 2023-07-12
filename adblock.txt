@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: BoaGgL1hbPMyUE1PLDIlFA
+! Checksum: butqpAaM9aG0j+d2PKn2Dw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-07-12 16:19:27（北京时间） 
-! Total count: 64402
+! Version: 2023-07-13 00:19:12（北京时间） 
+! Total count: 64414
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1789,6 +1789,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 $doc,removeparam=/^clickid=/i,domain=~discover.*
 $doc,removeparam=_clde
 $doc,removeparam=_cldee
+$doc,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldscientific.com
 $doc,removeparam=channel,domain=1sol.io|amazon.*|bybit.com|coinpanel.com|docs.google.com|docsend.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|ngx.me|privateinternetaccess.com|reddit.app.link|rei.com|runnode.com|squarespace.com|t.me|twitter.com|xd.wayin.com|youtube.com
 $doc,removeparam=l,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
 $doc,removeparam=o,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
@@ -1798,7 +1799,6 @@ $doc,removeparam=trackID
 $doc,removeparam=trackid,domain=~nzpost.co.nz
 $doc,removeparam=waporef
 $doc,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.com
-$document,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldscientific.com
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $domain=googleads.g.doubleclick.net
 $image,third-party,domain=258zw.com
@@ -1911,6 +1911,7 @@ $removeparam=/^ref=prisjakt/i
 $removeparam=/^ref=rss$/
 $removeparam=/^ref=spreadprivacy.com$/
 $removeparam=/^ref=troyhunt\.com/
+$removeparam=/^ref=workingsoftware\.dev$/,doc
 $removeparam=/^refID=/i,domain=allmodern.com|calphalon.com|priceline.com|questrade.com|wayfair.*|yankeecandle.com
 $removeparam=/^referer=prisjakt/i
 $removeparam=/^refsource=webgains$/
@@ -4001,6 +4002,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /UserTraceCookie?
 /V.aspx?Bln=$script,third-party
 /VideoTracking.
+/View/PvCountUp.
 /View/img/b72890.jpg
 /ViewCounter/*
 /VisitCounter.
@@ -10233,6 +10235,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^$script,domain=sonystyle.com.cn
+@@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
 @@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|pnc.com|ralphlauren.com|samsung.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
@@ -11563,6 +11566,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||trbo.com/plugin/trbo_$script,domain=blau.de
 @@||trc.taboola.com/inncoil/log/3/available$subdocument,domain=inn.co.il
+@@||treasuredata.com^$script,domain=skincare-univ.com
 @@||trip-jam.com/resources/js/adsense.js
 @@||trip.cmbchina.com^$generichide
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
@@ -18816,7 +18820,6 @@ v.baidu.com,v.duba.com##div[id*="categoryPageColumn"]
 v.ifeng.com##.keyword
 v.pptv.com###video-download-game
 v.qq.com###pc_client > .quick_link
-v.qq.com###player .txp_zt_content
 v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
 v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
@@ -25102,6 +25105,8 @@ zzzyk.com###Tinfo
 ||amazon.*/dp/$removeparam=rps,doc
 ||amazon.*/dp/$removeparam=s,doc
 ||amazon.*/dp/$removeparam=tag
+||amazon.*/primeday/$removeparam=mfadid
+||amazon.*/primeday/$removeparam=tag
 ||amazon.*/s?$removeparam=/^[^a-z%0-9]adId=/
 ||amazon.*/s?$removeparam=/^[a-z%0-9]*ie=/
 ||amazon.*/s?$removeparam=/^__mk_[a-z]{1,3}_[a-z]{1,3}=/
@@ -32280,6 +32285,9 @@ zzzyk.com###Tinfo
 ||docomo.ne.jp/scripts/retargeting/retargeting.js
 ||docs.github.com/events
 ||doczj.com/js/common.js
+||doda.jp/DodaCommon/Html/js/RtoasterTrack.js
+||doda.jp/DodaFront/Html/js/dodaPrime_pc_aaTag.js
+||doda.jp/resources/dcfront/js/usrclkTracking.js
 ||dodhvug.cn^
 ||dodo8.com/template/*/images/g_js/
 ||dodsdexonline.dexknows.com^
@@ -36796,6 +36804,7 @@ zzzyk.com###Tinfo
 ||hashvault.pro^$third-party
 ||hashzone.io^$third-party
 ||hasslefree.redwingshoes.com^
+||hatarako.net/api/recommend/analyze_logger
 ||hatefulrequest.com^
 ||hatmiso.net^$third-party
 ||hauntlist.com^
@@ -45473,6 +45482,7 @@ zzzyk.com###Tinfo
 ||nex.163.com/q?
 ||nex.163.com^
 ||nexstardigital.net/segment.js
+||next.rikunabi.com/api/logRecommendRealtimeI2AV2
 ||nextdoor.com/events/
 ||nextstat.com^$third-party
 ||nexx.cloud/play/beacon.
@@ -58933,6 +58943,7 @@ zzzyk.com###Tinfo
 ||tracking.gartner.com^
 ||tracking.gelia.com^
 ||tracking.getapp.com^
+||tracking.gnavi.co.jp^
 ||tracking.go.provident.bank^
 ||tracking.go.toyobo.co.jp^
 ||tracking.godatafeed.com^
@@ -63821,6 +63832,7 @@ zzzyk.com###Tinfo
 ||zarget.com^$third-party
 ||zasjf.xyz^
 ||zasjfget.xyz^
+||zatsubitown.com/mailfriend/kaiseki
 ||zaupjw.xyz^
 ||zaventemdijleland.viessmann.be^
 ||zavporn.net/images/9.gif
