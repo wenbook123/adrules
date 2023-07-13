@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: butqpAaM9aG0j+d2PKn2Dw
+! Checksum: +Pg4mGC/JWg98mtzgNL4nA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-07-13 00:19:12（北京时间） 
-! Total count: 64414
+! Version: 2023-07-13 09:07:42（北京时间） 
+! Total count: 64419
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -988,6 +988,7 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##.zozoads
+##A > IMG[alt][src*='resources/images/']
 ##A#floating-banner
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
@@ -1019,6 +1020,7 @@
 ##A[href^='https://www.nonstopclub.xyz']
 ##A[href^='https://yongle008.com']
 ##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
+##A[rel='nofollow noopener'][href*='/game/xr/?attributionId=']
 ##A[style='width: 100%;height: 150px;z-index:1000;position: absolute;display:block;top: 0px;'][onclick$=';this.style.display="none";']
 ##A[target='_blank'] > IMG[width='100%'][src*='.gif']
 ##A[target='_blank'][href*='/auth/register?code=']
@@ -1045,6 +1047,7 @@
 ##DIV.advertisingConfiguration
 ##DIV.appdownload_ad
 ##DIV.bot-per-context[data-width='728'][data-height='90']
+##DIV.bot-per.visible-xs.visible-sm *
 ##DIV.box-width.ec-ad
 ##DIV.code-block[style='margin: 8px 0; clear: both;']
 ##DIV.col-4.col-sm-2.col-xl-2.px-1.px-sm-2.pb-3.pt-3.pt-sm-0.d-block.d-sm-none
@@ -4615,6 +4618,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /baidu/189/999.php
 /baidu/tg.js
 /baiduStatistics.js
+/banalytics.js
 /banner-ad.
 /banner.js$domain=28188.com|28188.net
 /banner/*$domain=leiphone.com
@@ -10424,6 +10428,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||blackmod.net^$generichide
 @@||blizzard.com/oauth2$removeparam
 @@||blog.ztjal.info^$generichide
+@@||blueconic.net/bostonglobemedia.js$domain=bostonglobe.com
 @@||bluecore.com/triggermail.js$script,domain=fcpeuro.com
 @@||bokecc.com/flash/playlog?
 @@||book.com.tw/image/getImage?
@@ -35759,6 +35764,7 @@ zzzyk.com###Tinfo
 ||glam.com/ctagsimgcmd.act?
 ||glam.com/jsadimp.gif?
 ||glam.com^*/log.act?
+||glami.com.tr/tracker/
 ||glami.gr/js/compiled/pt.js
 ||glancecdn.net^$third-party,domain=~glance.net
 ||glassboxcdn.com^$third-party
@@ -61927,7 +61933,6 @@ zzzyk.com###Tinfo
 ||wpozwh.com^
 ||wpqsmse.cn^
 ||wps.com^$removeparam=from
-||wpshsdk.com^
 ||wpwpquse.cn^
 ||wqdro6us.icu^
 ||wqdwork.com^
