@@ -2159,7 +2159,7 @@ platinmods.*##+js(nano-sib)
 
 ! Common rules for TXXX network
 /\/[a-z]{4,}\/(?!holly7)[0-9a-z]{3,}\d\.\d{1,2}\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,domain=555.porn|bigdick.tube|hclips.com|hdzog.*|hotmovs.*|imzog.com|in-porn.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com
-/\.[a-z]{3,5}\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,domain=555.porn|asiantv.fun|blackporn.tube|bdsmx.tube|bigdick.tube|hclips.com|hdzog.*|hotmovs.*|imzog.com|iin-porn.com|nporn.com|javdaddy.com|mrgay.tube|porn555.com|pornclassic.tube|pornforrelax.com|porngo.tube|pornhits.com|pornj.com|pornl.com|pornq.com|porntop.com|pornzog.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|sextu.com|shemalez.com|sss.xxx|teenorgy.video|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com|xmilf.com
+/\.[a-z]{3,5}\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,domain=555.porn|asiantv.fun|blackporn.tube|bdsmx.tube|bigdick.tube|hclips.com|hdzog.*|hotmovs.*|imzog.com|in-porn.com|inporn.com|javdaddy.com|mrgay.tube|porn555.com|pornclassic.tube|pornforrelax.com|porngo.tube|pornhits.com|pornj.com|pornl.com|pornq.com|porntop.com|pornzog.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|sextu.com|shemalez.com|sss.xxx|teenorgy.video|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com|xmilf.com
 /afon7.$script,1p
 /barbar7.$script,1p
 ! https://github.com/uBlockOrigin/uAssets/issues/10064
@@ -8013,8 +8013,8 @@ pradjadj.com##.ABD_display
 ||pradjadj.com/*banner$image
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4402
-siriusfiles.com##+js(set, popup, noopFunc)
 siriusfiles.com##+js(nano-stb)
+||siriusfiles.com/adframe.js$frame,redirect-rule=noop.html
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4401
 @@||dvdporngay.com^$ghide
@@ -8085,7 +8085,6 @@ generate.plus##+js(nostif, checkStopBlock)
 za.gl##+js(acs, document.addEventListener, click)
 za.gl##+js(acs, document.getElementById, overlay)
 za.gl##+js(acs, setInterval, location)
-za.gl##+js(aopr, app_vars.force_disable_adblock)
 za.gl##+js(aopr, popad)
 za.gl##+js(nowoif, !za.gl, 0)
 za.gl##+js(set, document.hidden, true)
@@ -8093,7 +8092,6 @@ za.gl###ww
 *$script,3p,denyallow=cloudflare.com|google.com|googleapis.com|gstatic.com,domain=za.gl
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4469
-fstream365.xyz###overlay-ads
 ||earn-bitcoins.*/banner_
 ||bmovies.*/bassets/js/jquery.watch.js$script,1p
 bmovies.*###upgrade_pop
@@ -8102,9 +8100,6 @@ bmovies.*###upgrade_pop
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4472
 watchfree.*###vpnvpn
-momomesh.tv##+js(set, lck, true)
-momomesh.tv##.buttonfirst:has-text(/watch/i)
-momomesh.tv##.buttondll:has-text(/Download/i)
 ||filesenzu.com^$3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4368#issuecomment-450583670
@@ -8121,9 +8116,6 @@ watchtvseries.*##+js(nowebrtc)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4481
 gazetedamga.com.tr##+js(aopw, importFAB)
-
-! https://github.com/NanoMeow/QuickReports/issues/498
-sledujfilmy.to##+js(acs, $, hide)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4368#issuecomment-450665976
 bitlk.com##+js(aopr, open)
