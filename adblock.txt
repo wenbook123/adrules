@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: rmzYpX9Vo2pG0Vvau70aNQ
+! Checksum: 2p18qC/Ici1Jf7sSh0cYHA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-07-19 00:20:38（北京时间） 
-! Total count: 64417
+! Version: 2023-07-19 09:54:41（北京时间） 
+! Total count: 64418
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -25056,9 +25056,10 @@ zzzyk.com###Tinfo
 ||amazon.$~xmlhttprequest,removeparam=qid
 ||amazon.*/dp/$removeparam=rps,doc
 ||amazon.*/dp/$removeparam=s,doc
-||amazon.*/dp/$removeparam=tag
+||amazon.*/dp/$removeparam=tag,doc
 ||amazon.*/primeday/$removeparam=mfadid
 ||amazon.*/primeday/$removeparam=tag
+||amazon.*/product/$removeparam=tag,doc
 ||amazon.*/s?$removeparam=/^[^a-z%0-9]adId=/
 ||amazon.*/s?$removeparam=/^[a-z%0-9]*ie=/
 ||amazon.*/s?$removeparam=/^__mk_[a-z]{1,3}_[a-z]{1,3}=/
@@ -25087,7 +25088,7 @@ zzzyk.com###Tinfo
 ||amazon.*/s?$removeparam=spIA
 ||amazon.*/s?$removeparam=sprefix
 ||amazon.*/s?$removeparam=th
-||amazon.*/stores/$removeparam=tag
+||amazon.*/stores/$removeparam=tag,doc
 ||amazon.*^$removeparam=/^[^a-z%0-9]adId=/
 ||amazon.*^$removeparam=/^[a-z%0-9]*ie=/
 ||amazon.*^$removeparam=/^__mk_[a-z]{1,3}_[a-z]{1,3}=/
