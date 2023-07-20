@@ -62,9 +62,6 @@ reuters.com##[class^="workspace-article-banner"]
 reuters.com##div[class^="regular-article-layout__inner_"]:has(> div[data-testid="StickyRail"])
 ! https://www.reddit.com/r/uBlockOrigin/comments/a5g4uu/wallstreetonline_likewise_for_many_german_pages/
 wallstreet-online.de##+js(nostif, userHasAdblocker)
-modhoster.de,quotenmeter.de##+js(nostif, ())return)
-modhoster.de,quotenmeter.de##+js(nostif, )&&)
-modhoster.de,quotenmeter.de##+js(nostif, 0&&)
 bonedo.de##.banner
 mtb-news.de##.mtbnews-forum__banner
 newsbreak24.de##.aw-track-click
@@ -5806,6 +5803,8 @@ investing.com###__next > .fixed
 investing.com##[class^="ad-notification"]
 ! https://www.reddit.com/r/uBlockOrigin/comments/14r9m8a/
 investing.com##[id^="adNotification"]
+! https://github.com/uBlockOrigin/uAssets/issues/19085#issuecomment-1643681900
+investing.com##.border-b > .box-content[data-test="ad-slot-visible"]:upward(1)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2926
 ausfile.com##+js(aopw, Fingerprint2)
