@@ -643,12 +643,15 @@ lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?
 
 ! https://nv.ua/ tracking cookie
 ! https://github.com/uBlockOrigin/uAssets/commit/299bcbbf7faed0f1007dc32197438f8c9a28af28#r122193300
-||campaign.remp.nv.ua^
+||remp.nv.ua/assets/lib/js/remplib.js
 
 ! https://github.com/uBlockOrigin/uBlock-issues/discussions/2714#discussioncomment-6396384
 !#if env_chromium
 *$permissions=browsing-topics=()
 !#endif
+
+! https://github.com/uBlockOrigin/uAssets/issues/19100
+/^https:\/\/kick\.com\/[0-9A-z]{16}\/[0-9A-z]{16}\?apiKey=/$script,1p,match-case,domain=kick.com
 
 ! Merge in resource-abuse.txt
 !#include resource-abuse.txt
