@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: KOfo8x+ZkFzihVSTmFPVCg
+! Checksum: TUFouCRs9i2knyOT9VmNBA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-07-22 16:16:30（北京时间） 
-! Total count: 64478
+! Version: 2023-07-23 00:15:55（北京时间） 
+! Total count: 64484
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1598,6 +1598,7 @@
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > h1 > strong > title > a
+##body#nr_body a[href*="/?utm_source="]
 ##body#nr_body div.fixed ~ *
 ##body#nr_body font > [id]
 ##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
@@ -4374,6 +4375,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /analytics-ping.
 /analytics-plugin/*
 /analytics-pusher/*
+/analytics-reporter/*
 /analytics-sdk.
 /analytics-secure.
 /analytics-tag.
@@ -32871,6 +32873,9 @@ zzzyk.com###Tinfo
 ||easydmp.net/collect_
 ||easydmp.net/etag.
 ||easydmp.net/get_delivery_data.
+||easyfundraising.org.uk^$doc,removeparam=efr_campaign
+||easyfundraising.org.uk^$doc,removeparam=efr_medium
+||easyfundraising.org.uk^$doc,removeparam=efr_source
 ||easyhash.de^$third-party
 ||easyhash.io^$third-party
 ||easyhitcounters.com^$third-party
@@ -64060,6 +64065,7 @@ zzzyk.com###Tinfo
 ||zfotrq.xyz^
 ||zfteiv.xyz^
 ||zfticz.buzz^
+||zfticz.xyz^
 ||zfvltd.xyz^
 ||zg.mmyuer.com^
 ||zgctig.cn^
