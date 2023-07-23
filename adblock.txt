@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: SW0M2HnqOQLfyb4rivkLAw
+! Checksum: o6vcCeGHRt4eUTrBcC2LVg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-07-23 09:02:42（北京时间） 
-! Total count: 64485
+! Version: 2023-07-23 16:16:34（北京时间） 
+! Total count: 64515
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -126,6 +126,7 @@
 ###bottom_qr_code
 ###bottomad
 ###bottombanner
+###bottommob.bottommob
 ###breadCrumb + .c + .t[style="margin-top:8px"]
 ###breadCrumb + .t[style="margin-top:8px"]
 ###cat_intro_first_ad
@@ -3365,6 +3366,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .com/uploads/*-860x250.gif
 .com/vh1/$script,third-party
 .com/vh2/$script,third-party
+.com/vh5/$script,third-party
 .com/vj1/$script,third-party
 .com/vj2/$script,third-party
 .com/vodad.js
@@ -7430,6 +7432,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /simtracker.min.js
 /sinaLoginReward2014.
 /sinaLoginReward2014_comment.
+/sinaads/release/sinaads.js
 /siq-analytics.
 /site/mov*$third-party
 /siteAnalytics-
@@ -8214,6 +8217,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /visit_log.js
 /visit_pixel?
 /visit_tracking.
+/visitinfo.js
 /visitor-event?
 /visitor-js/?
 /visitor-params.
@@ -11260,6 +11264,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||reallyfreegeoip.org/json/$domain=thekitchensafe.com
 @@||redbull.com/gtm.js$~third-party
 @@||redguide.top^*/ad.css?$stylesheet
+@@||redian.news^$generichide
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||renfei.net^$generichide
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
@@ -17671,6 +17676,9 @@ rebooo.com###gong
 recruit.com.hk###bottomBar
 recruit.com.hk###topBar
 recruit.com.hk##div[id^="banner"]
+redian.news##._ap_apex_ad[style^="width: 300px"]
+redian.news##.bottom-0.fixed
+redian.news##.md\:w-\[728px\].mx-auto
 redircdn.com##.al
 redocn.com###yc_adv_1_2
 redocn.com##.big_vip_gg
@@ -17874,6 +17882,7 @@ silver.org.cn##.logo_dsaas
 silver.org.cn##.zl_login
 silver.org.cn##div[class*="_gg"]
 silver.org.cn##div[class^="ads_"]
+sina.cn###float-btn.callApp_fl_btn
 sina.cn###j_card_miniVideo
 sina.cn###j_card_searchHotwords > section.s_card > a:last-child > ins.most
 sina.cn###j_gotop ~ .fl_suspension_template
@@ -17907,11 +17916,13 @@ sina.cn##.xc_da
 sina.cn##.z_c2.j_article_relevent_news.s_card
 sina.cn##.zhidi
 sina.cn##.zhidi.sw_c0
+sina.cn##SECTION.sw_c0.sina_sliders_pos
 sina.cn##[data-href*="://sax"]
 sina.cn##[data-href*="://sax"] + aside
 sina.cn##[data-href*="://sax"] + aside + blockquote
 sina.cn##[data-videojc*="://sax"]
 sina.cn##[href*="://sax"]
+sina.cn##[sax-type='proxy'][data-pos][data-saxname][loaded='loaded']
 sina.cn##a.j_callST.appOnly_card
 sina.cn##a[href*=".maozhuar.com"]
 sina.cn##div[class^=m-client-call]
@@ -17976,6 +17987,7 @@ sina.com.cn##A[href*="/comfinanceweb."]
 sina.com.cn##A[href="https://touzi.sina.com.cn/"]
 sina.com.cn##DIV[class^="side-btns-jifen"]
 sina.com.cn##[data-info^="ad_"]
+sina.com.cn##[id^="fake_div_"].xxl-card
 sina.com.cn##div[class*="farmpop"]
 sina.com.cn##p + .article-video
 sina.com.tw###cboxOverlay
@@ -20375,6 +20387,7 @@ zzzyk.com###Tinfo
 ||22fssv.com^
 ||22pixx.xyz/l/
 ||23.224.89.2^$third-party
+||23.231.151.252^
 ||23.234.217.11^
 ||23.234.217.12^
 ||23.244.43.212^
@@ -27898,6 +27911,7 @@ zzzyk.com###Tinfo
 ||bnextmedia.com.tw/feed/fetch.js
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/cp_prebid
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/mt_programmatic_ad.js
+||bnfyzszm.icu^
 ||bngpt.com^
 ||bnhxxj.xyz^
 ||bnk.wolterskluwerfs.com^
@@ -30659,6 +30673,7 @@ zzzyk.com###Tinfo
 ||cshield.io^$third-party
 ||csi.gstatic.com^
 ||csjkb.com^
+||cslbahf.top^
 ||cslpf.cn^
 ||csm.magnetintell.com^
 ||csp-collector.appspot.com^
@@ -31444,6 +31459,7 @@ zzzyk.com###Tinfo
 ||dblcs.cn^
 ||dbmcmhh.cn^
 ||dbmp4.com/js/foot.
+||dbnwlp.xyz^
 ||dbpbyh.americanas.com.br^
 ||dbtojr.xyz^
 ||dbw.cn/eap/js/db/dbwad_
@@ -31614,6 +31630,7 @@ zzzyk.com###Tinfo
 ||defectivesun.com^
 ||defiantrice.com^
 ||degh48.fnac.com^
+||dehaer.site^
 ||dehua.ixinfan.com^
 ||dehua.mengtubo.com^
 ||dein-plan.de/t.gif
@@ -33217,6 +33234,7 @@ zzzyk.com###Tinfo
 ||ejyymghi.com^
 ||ek8.voyage-prive.com^
 ||ekdbfu.cn^
+||ekdky.cn^
 ||ekhnbwe.cn^
 ||ekmpinpoint.co.uk^$third-party
 ||ekmpinpoint.com^$third-party
@@ -37779,6 +37797,7 @@ zzzyk.com###Tinfo
 ||icnkr.com/cnkradv/
 ||icnkr.com/data/attachment/portal/
 ||icon.zol-img.com.cn/mainpage/js/click.js
+||iconmediapixel.com^
 ||iconnode.com^
 ||icourse163.org/dwr/call/plaincall/CommonBean.obtain.dwr
 ||ics0.com^$third-party
@@ -39024,6 +39043,7 @@ zzzyk.com###Tinfo
 ||iqcontentplatform.de/tracking/
 ||iqcxki.johosokuhou.com^
 ||iqdata.ai^$third-party
+||iqede.xyz^
 ||iqfp1.com^$third-party
 ||iqilu.com/getZone.php
 ||iqilu.com/static_files/multiads/
@@ -40129,6 +40149,7 @@ zzzyk.com###Tinfo
 ||karelia.info/counter/
 ||kart2ks.icu^
 ||kasdwergv.com^
+||kasiklz.cc^
 ||katelin.top^
 ||kattepush.com^$third-party
 ||kavijaseuranta.fi^$third-party
@@ -40350,6 +40371,7 @@ zzzyk.com###Tinfo
 ||klickly.com/track
 ||klik.nrc.nl/ping?
 ||klix.ba/pixel/
+||kljslku.com^
 ||klldabck.com^$third-party
 ||klm.us/CWZUvc/
 ||kloth.net/images/pixel.gif
@@ -40558,6 +40580,7 @@ zzzyk.com###Tinfo
 ||kux5.raileurope.com^
 ||kuxinqi.com^
 ||kuyw.cn^
+||kv8899.com^
 ||kvartirant.ru/counter.php?
 ||kvbgoc.com^
 ||kveff.com^
@@ -47028,6 +47051,7 @@ zzzyk.com###Tinfo
 ||pconline.com.cn/js/ad_
 ||pconline.com.cn/js/ivy.js
 ||pcpop.com/pv/pv.js
+||pcqsajr.icu^
 ||pcrl.co/js/jstracker.min.js
 ||pcspeedup.com^$third-party
 ||pcstore.com.tw/adm/psearch_payad_
@@ -48299,6 +48323,7 @@ zzzyk.com###Tinfo
 ||pzapi-kg.com^
 ||pzd.rakuten.co.jp^
 ||pzimff.com^
+||pzjizsyf.icu^
 ||pzkrgcp.cn^
 ||pzlxnd.xyz^
 ||pzpevk.newbalance.ru^
@@ -48840,6 +48865,7 @@ zzzyk.com###Tinfo
 ||qwblog.cn/localfile/20200612230036.gif
 ||qwcqqw.xyz^
 ||qwcwnjk.com^
+||qwdbsjnql.com^
 ||qwe0231141.bj.bcebos.com^
 ||qweasd.vip^
 ||qweewq2021.online^
@@ -54488,6 +54514,7 @@ zzzyk.com###Tinfo
 ||staging-go.getsquire.com^
 ||staging-link.docyt.com^
 ||staging-links.thriveglobal.com^
+||staging-pt.ispot.tv^
 ||staging-refer.rooam.co^
 ||staging.narrateapp.com^
 ||staging.refer.wagr.us^
@@ -57459,6 +57486,7 @@ zzzyk.com###Tinfo
 ||toadtexture.com^
 ||toast.com/log
 ||toast.com/sendid?
+||toastspinner.com^
 ||tobapplog.ctobsnssdk.com^
 ||toblog.volceapplog.com^
 ||toc.io^$third-party
@@ -59775,6 +59803,7 @@ zzzyk.com###Tinfo
 ||tvpage.com^*/__tvpa.gif?
 ||tvpixel.com^
 ||tvppa.actonservice.com^
+||tvrshv.xyz^
 ||tvsou.com/js/360ad.js
 ||tvsquared.com^$third-party
 ||tvszazx.icu^
@@ -63097,6 +63126,7 @@ zzzyk.com###Tinfo
 ||xpcha.com/js/notice.js
 ||xpcwrgy.cn^
 ||xpdjsd.cn^
+||xpicj1.cc^
 ||xpj08.oss-cn-beijing.aliyuncs.com^
 ||xplosion.de^$domain=comunio.de
 ||xplosion.de^$domain=focus.de
