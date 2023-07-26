@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202307250230
+! Version: 202307260225
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 80318
+! Lenth = 80319
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -381,6 +381,7 @@ $domain=atlanticcouncil.org|digikey.com,removeparam=/^mkt_tok/
 $ping,third-party
 $removeparam=/^__s=[A-Za-z0-9]{6\,}/,domain=~univis.uni-erlangen.de|~univis.uni-bamberg.de|~univis.uni-luebeck.de|~univis.uni-kiel.de|~univis.th-koeln.de
 $removeparam=/^at_custom/,domain=bbc.com|bbc.co.uk
+$removeparam=/^cm_mmc/
 $removeparam=/utm_partner_id|frommail/,domain=mail.ru|sportmail.ru
 $removeparam=ActionID,domain=otto.de|ottoversand.at
 $removeparam=AffiliateID,domain=otto.de|ottoversand.at
@@ -392,6 +393,8 @@ $removeparam=__io_lv
 $removeparam=_branch_match_id
 $removeparam=_clde
 $removeparam=_cldee
+$removeparam=_ga
+$removeparam=_gl
 $removeparam=_hsenc
 $removeparam=_io_session_id
 $removeparam=_kx
@@ -429,6 +432,8 @@ $removeparam=bsft_ek
 $removeparam=bsft_mid
 $removeparam=bsft_uid
 $removeparam=campid,domain=otto.de|ottoversand.at
+$removeparam=cm_cr
+$removeparam=cm_me
 $removeparam=cmpid
 $removeparam=cooper,domain=sbs.co.kr
 $removeparam=cuid
@@ -7735,6 +7740,8 @@ fr.de##.bottom-footer > .dossier
 freecodecamp.org#%#//scriptlet("abort-current-inline-script", "Function", "b9kEBAW")
 fudge.jp##.ratio-wrapper
 full-count.jp#?#.s-entry > section > div.c-heading:has(> div#taboola-below-article-thumbnails-desktop)
+futura-sciences.com#%#//scriptlet('set-constant', 'pa', 'emptyObj')
+futura-sciences.com#%#//scriptlet('set-constant', 'pa.privacy', 'emptyObj')
 galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors', 'emptyObj')
 galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.init', 'noopFunc')
 galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.quick', 'noopFunc')
@@ -16419,7 +16426,6 @@ znak.com##.relap
 ||analysis.afreecatv.com^
 ||analysis.fi^
 ||analysis.fi^$third-party
-||analysis.focalprice.com^
 ||analysis.polarisoffice.com
 ||analysts.tt.omtrdc.net^
 ||analysys.cn^
@@ -16434,7 +16440,6 @@ znak.com##.relap
 ||analytic.hawaii.aaa.com^
 ||analytic.hotelclub.com^
 ||analytic.imlive.com^
-||analytic.piri.net^
 ||analytic.pnc.com^
 ||analytic.press^
 ||analytic.rocks^
@@ -16447,7 +16452,6 @@ znak.com##.relap
 ||analytic.xingcloud.com^$third-party
 ||analytic20.detik.com^
 ||analytically.net^$third-party
-||analyticapi.piri.net^
 ||analyticcdn.globalmailer.com^
 ||analytics*.carambo.la^
 ||analytics*.clickdimensions.com^
@@ -16502,14 +16506,12 @@ znak.com##.relap
 ||analytics-tcp.mintegral.net^
 ||analytics-tracker.thescore.com^
 ||analytics-tracking.meetup.com^
-||analytics-udg.netdna-ssl.com^
 ||analytics-wcms.joins.net^
 ||analytics-zone-1.api.leadfamly.com^
 ||analytics.*.*/*.php
 ||analytics.*.sky.com^
 ||analytics.126.net^
 ||analytics.163.com^
-||analytics.247sports.com^
 ||analytics.300624.com^
 ||analytics.30m.com^
 ||analytics.74.ru^
@@ -16549,7 +16551,6 @@ znak.com##.relap
 ||analytics.architectum.com^
 ||analytics.archive.org^
 ||analytics.argeton.com^
-||analytics.artirix.com^
 ||analytics.arunraghavan.net^
 ||analytics.asml.com^
 ||analytics.athome.com^
@@ -16608,7 +16609,6 @@ znak.com##.relap
 ||analytics.cdn.live^
 ||analytics.ceneo.pl^
 ||analytics.certifriedit.com^
-||analytics.cervellio.com^
 ||analytics.chase.com^
 ||analytics.chattarize.de^
 ||analytics.chegg.com^
@@ -16706,7 +16706,6 @@ znak.com##.relap
 ||analytics.fabricators.ltd^$third-party
 ||analytics.facebook.com^$third-party
 ||analytics.faceitanalytics.com^
-||analytics.fairfax.com.au^
 ||analytics.fatmedia.io^$third-party
 ||analytics.favcy.com^
 ||analytics.ferguson.com^
@@ -16744,7 +16743,6 @@ znak.com##.relap
 ||analytics.gewaterheater.com^
 ||analytics.givealittle.co^
 ||analytics.global.sky.com^
-||analytics.go.com^
 ||analytics.gokwik.co^$third-party
 ||analytics.google.com/g/collect?
 ||analytics.google.com^$domain=d3ward.github.io
@@ -16914,7 +16912,6 @@ znak.com##.relap
 ||analytics.oceanengine.com^
 ||analytics.octaglobal.com^
 ||analytics.okazii.ro^
-||analytics.omgpop.com/log
 ||analytics.omniscientai.com^$third-party
 ||analytics.onedio.com^
 ||analytics.onlinehomeretail.co.uk^
@@ -17020,7 +17017,6 @@ znak.com##.relap
 ||analytics.seagate.com^
 ||analytics.seekxr.com^
 ||analytics.send.cm^
-||analytics.services.distractify.com^
 ||analytics.servogram.io^
 ||analytics.sgnapps.com^
 ||analytics.shareaholic.com^
@@ -17112,7 +17108,6 @@ znak.com##.relap
 ||analytics.themarketiq.com^
 ||analytics.thenest.com^
 ||analytics.thenewslens.com^
-||analytics.thetab.com^
 ||analytics.thingx.tv^
 ||analytics.threedeepmarketing.com^
 ||analytics.ticinolibero.ch^
@@ -17179,8 +17174,6 @@ znak.com##.relap
 ||analytics.virginmobileusa.com^
 ||analytics.visible.com^
 ||analytics.vodgc.net^$third-party
-||analytics.volvocars.com^
-||analytics.vooxe.com^
 ||analytics.vpplayer.tech^
 ||analytics.waterskimag.com^
 ||analytics.wavebox.io^
@@ -17192,8 +17185,6 @@ znak.com##.relap
 ||analytics.websolute.it^
 ||analytics.weldonowen.com^
 ||analytics.wetfish.com.au^
-||analytics.wetpaint.me^
-||analytics.whatculture.com^
 ||analytics.whostheboss.co.uk^
 ||analytics.whotargets.me^
 ||analytics.wienerberger-building-solutions.com^
@@ -17232,7 +17223,6 @@ znak.com##.relap
 ||analytics.wrc.nic.in^
 ||analytics.xiloc.net^
 ||analytics.xoomenergy.com^
-||analytics.xyscdn.com^
 ||analytics.yahoo.com^
 ||analytics.yext-static.com^
 ||analytics.ynap.biz^
@@ -17241,7 +17231,6 @@ znak.com##.relap
 ||analytics.yomedia.vn^
 ||analytics.yugen.to^
 ||analytics.zagg.com^
-||analytics.zeekit.co^
 ||analytics.zevvle.com^
 ||analytics.zg-api.com^
 ||analytics.ziftsolutions.com^
@@ -17846,7 +17835,6 @@ znak.com##.relap
 ||api.c3-pmgt.tt.omtrdc.net^
 ||api.calculator.tt.omtrdc.net^
 ||api.call.tt.omtrdc.net^
-||api.calq.io^
 ||api.cazamba.com^$third-party
 ||api.cc3.infra4.tt.omtrdc.net^
 ||api.centify.co/adb
@@ -17948,7 +17936,6 @@ znak.com##.relap
 ||api.livestory.io/*/collect
 ||api.loadbalancer-debug.tt.omtrdc.net^
 ||api.localhostapi.tt.omtrdc.net^
-||api.logmatic.io^
 ||api.manager.poc2.tt.omtrdc.net^
 ||api.mattcarp.tt.omtrdc.net^
 ||api.mdclone-dev-03.41m3.p1.tt.omtrdc.net^
@@ -26054,6 +26041,11 @@ znak.com##.relap
 ||conimicutlighthouse.viessmann-us.com^
 ||conn.tt.omtrdc.net^
 ||connatix.com/rtb/
+||connatix.com/scripts/facebook-pixel-script.js
+||connatix.com/scripts/gaconnector.js
+||connatix.com/scripts/hotjar.js
+||connatix.com/scripts/microsoft-ad-script.js
+||connatix.com/scripts/munchkin-script.js
 ||connatix.com/tr/
 ||connatix.com/us/google/
 ||connatix.com^*/pixel?
@@ -38484,6 +38476,7 @@ znak.com##.relap
 ||huawei.com/*/hwautocomplete/
 ||hub.com.pl^$third-party
 ||hub.firestonecompleteautocare.com^
+||hub.fromdoppler.com/public/dhtrack.js
 ||hub.hubfinancial.com^
 ||hub.hubinternational.com^
 ||hub.npo-data.nl/tags/tag.min.js
@@ -41969,6 +41962,7 @@ znak.com##.relap
 ||kiamotors.tt.omtrdc.net^
 ||kiamotorsamerica.tt.omtrdc.net^
 ||kibkuwbhzo.azure.hb.tt.omtrdc.net^
+||kick.com/*&loaderVersion=
 ||kickass.cd/analyze*.js
 ||kickass.immunicity.gold/analyze*.js
 ||kickass.unlockproj.party/analyze*.js
@@ -43980,8 +43974,10 @@ znak.com##.relap
 ||loggly.cheatsheet.com^
 ||loggly.com^$third-party
 ||loggw-ex.alipay.com^
+||loggw-exsdk.alipay.com^
 ||loggw.alipay.com.cn^
 ||loggw.alipay.com^
+||loggw.alipaydns.com^
 ||loggychops.paulsmith.site^
 ||logic1xdev.edge.tt.omtrdc.net^
 ||logicanalytics.io^
@@ -54097,6 +54093,9 @@ znak.com##.relap
 ||promos.thermofisher.com^
 ||promos.thermoscientific.com^
 ||promos.trustedtours.com^
+||promote.betcity.ru^$removeparam=icm
+||promote.betcity.ru^$removeparam=refcode
+||promote.betcity.ru^$removeparam=widget_id
 ||promotion-foxentertainment.hb-api.tt.omtrdc.net^
 ||promotion.365soup.hk^
 ||promotion.alcatel-lucent.fr^
@@ -71857,6 +71856,7 @@ znak.com##.relap
 ||track.futebolesportesjack.online^
 ||track.futureshop.ca^
 ||track.fxstreet.com^
+||track.gaconnector.com^
 ||track.gamingchairsforyou.com^
 ||track.gamingchairsspace.com^
 ||track.garagemaxspace.com^
@@ -74938,6 +74938,7 @@ znak.com##.relap
 ||uni-home.tt.omtrdc.net^
 ||uni-leipzig.de^*/stats/
 ||uni02.udupi.tt.omtrdc.net^
+||unibet.com/orval/tracking/lastclick.min.js
 ||unibet.de/stan/campaign.do?*&affiliateId=$subdocument,third-party
 ||unicaondemand.com^$third-party
 ||unicharm.tt.omtrdc.net^
