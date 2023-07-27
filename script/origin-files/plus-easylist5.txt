@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202307260225
+! Version: 202307270140
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 80319
+! Lenth = 80313
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -91,6 +91,7 @@ $cookie=Gtest
 $cookie=IDE
 $cookie=MUIDB
 $cookie=MgidStorage
+$cookie=MicrosoftApplicationsTelemetryDeviceId
 $cookie=PUBMDCID
 $cookie=PWA_adbd,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl|benchmark.pl
 $cookie=SC_ANALYTICS_GLOBAL_COOKIE
@@ -673,14 +674,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .bluekai.com/*?e_id_
 .bmetrack.com/c/$image
 .cf/gif/impression?
-.click/track?
 .cloudfront.net/br?tid=
 .cmail19.com/t/$image
 .cmail19.com/ti/$image
 .cmail20.com/t/$image
 .cn/b.gif?
-.cn/jc.gif?
-.cn/sl.gif?
 .co/gc?id=$domain=nzma.org.nz
 .com.br/cliente/trackRemote^|
 .com.br/tracking.set^|
@@ -700,10 +698,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com/i.gif?
 .com/log/?
 .com/log?event
-.com/mm.gif?
 .com/pvlog?
 .com/s.gif?
-.com/s/at?site
 .com/ss/*sessionId=
 .com/stats.ashx?
 .com/stats.aspx?
@@ -903,7 +899,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /?sentry_version=
 /?swift-performance-tracking
 /?uclick=*;uclickhash=$removeparam
-/@adshield/*
 /AD/PageHits.
 /AIT_Analytics.
 /ASPixel.js
@@ -1156,7 +1151,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
 /_/api/v2/analytics/?
 /_/lite/performance/*
-/_/oh-noes$~third-party,xmlhttprequest
 /_/trace/trace/*
 /_CPiX/art
 /__Analytics-Start?url=
@@ -3974,6 +3968,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /satismeter.js
 /sauron-analytics/*
 /sayac.html
+/sayacff.html
 /scmetrics.*/b/ss/*
 /screencount?vcid=
 /scribd_events?
@@ -6487,6 +6482,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||heute.de/zdf/flash/eplayer/player.swf?*/cgi-bin/ivw/
 @@||hhgregg.com/wcsstore/MadisonsStorefrontAssetStore/javascript/Analytics/AnalyticsTagDataObject.js
 @@||highscreen.ru/bitrix/templates/highscreen/js/counters.js
+@@||hikmall.com/js/sensorsdata.min.js
 @@||hirosystems.vscode-unpkg.net/*/clarity-lsp/$domain=github.dev|vscode.dev
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||hit.interia.pl/iwa_core$script,~third-party
@@ -21428,7 +21424,6 @@ znak.com##.relap
 ||bhwjoa.cotopaxi.com^
 ||bhxemw.charleskeith.com^
 ||bi-eventtracker-*.amazonaws.com^
-||bi-pipeline-collector.stylight.net^
 ||bi.irisdating.com^
 ||bi.manhuaren.com^
 ||bi.medscape.com^
@@ -21663,7 +21658,6 @@ znak.com##.relap
 ||bkvtrack.com^$third-party
 ||bl-test.curatedplanet.com^
 ||bl-wellness.wellness.tt.omtrdc.net^
-||bl.impresa.pt^
 ||bl1.cms.tt.omtrdc.net^
 ||blablabus-test.cloud-prod.cloud.tt.omtrdc.net^
 ||blablacar.co.uk$cookie=vstr_id
@@ -22206,7 +22200,6 @@ znak.com##.relap
 ||boundlessbrake.com^
 ||boundlessbrake.com^$third-party
 ||bourbon.tt.omtrdc.net^
-||bournemouthecho-gb.bournemouthecho.co.uk^
 ||bourse.tt.omtrdc.net^
 ||boutique-dev.asrunapirelease.spotlight-app.eu.eu.tt.omtrdc.net^
 ||boutique.ricoh.fr^
@@ -22311,7 +22304,6 @@ znak.com##.relap
 ||br.kent.co.in^
 ||br.links.kmartphotos.com.au^
 ||br.links.kodakmoments.com^
-||br.phorm.com^
 ||br.potato1.influitive.com^
 ||br.promo.skf.com^
 ||br.spotlight.tt.omtrdc.net^
@@ -22749,7 +22741,6 @@ znak.com##.relap
 ||bt-stage-1.tt.omtrdc.net^
 ||bt.astadia.com^
 ||bt.mediaimpact.de^
-||bt.phorm.com^
 ||bt.tns-gallup.dk^
 ||bt.tt.hb-api.tt.omtrdc.net^
 ||bt.tt.omtrdc.net^
@@ -23088,7 +23079,6 @@ znak.com##.relap
 ||c.security.org^
 ||c.sibnet.ru^
 ||c.snow.com^
-||c.t-online.de^
 ||c.tbex.ru^
 ||c.telemetry.tt.omtrdc.net^
 ||c.thredup.com^
@@ -25638,12 +25628,10 @@ znak.com##.relap
 ||collector-cdn.github.com^
 ||collector-dev.cdp-dev.cnn.com^
 ||collector-hpn.ghostery.net^
-||collector-medium.lightstep.com^
 ||collector-px0py5pczn.octopart.com^
 ||collector-statistics.nhn-commerce.com^
 ||collector-videoplayer.5centscdn.net^
 ||collector-web.tt.omtrdc.net^
-||collector.apester.com^
 ||collector.api.video^
 ||collector.appconsent.io^
 ||collector.automote.co.nz^
@@ -26041,11 +26029,15 @@ znak.com##.relap
 ||conimicutlighthouse.viessmann-us.com^
 ||conn.tt.omtrdc.net^
 ||connatix.com/rtb/
+||connatix.com/scripts/$~third-party
 ||connatix.com/scripts/facebook-pixel-script.js
 ||connatix.com/scripts/gaconnector.js
 ||connatix.com/scripts/hotjar.js
+||connatix.com/scripts/linkedin-script.js
 ||connatix.com/scripts/microsoft-ad-script.js
+||connatix.com/scripts/mkt-cke-script.js
 ||connatix.com/scripts/munchkin-script.js
+||connatix.com/scripts/websights-script.js
 ||connatix.com/tr/
 ||connatix.com/us/google/
 ||connatix.com^*/pixel?
@@ -27111,6 +27103,7 @@ znak.com##.relap
 ||ctr-opc.nmg.de^
 ||ctr.nmg.de^$third-party
 ||ctrdns15av.tt.omtrdc.net^
+||ctrmi.cn/t/
 ||cts.businesswire.com^$third-party
 ||cts.vresp.com^$third-party
 ||ctshirts.tt.omtrdc.net^
@@ -41289,6 +41282,7 @@ znak.com##.relap
 ||jci-dev12.tt.omtrdc.net^
 ||jciiix.dogeat.ru^
 ||jcm.jd.com^$script,third-party
+||jcmonitor.xcar.com.cn^
 ||jcpclick.com^
 ||jcpenney.tt.omtrdc.net^
 ||jcpjfyikk.dogbonemarket.com^
