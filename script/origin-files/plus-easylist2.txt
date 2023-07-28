@@ -3310,15 +3310,6 @@ ekstrabladet.dk##.eb-placement
 webnovel.com##+js(set, adblockSuspected, false)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=webnovel.com
 
-! nbc anti adb https://forums.lanik.us/viewtopic.php?p=131769#p131769
-@@||doubleclick.net^$image,domain=nbc.com
-@@||googlesyndication.com^$image,domain=nbc.com
-! https://www.reddit.com/r/uBlockOrigin/comments/hxzp5h/ublock_fails_to_block_ads_after_clicking_video/
-player.theplatform.com##+js(disable-newtab-links)
-! breakage https://github.com/uBlockOrigin/uAssets/issues/16216
-!||player.theplatform.com^$frame,removeparam=params,domain=nbc.com
-player.theplatform.com##+js(m3u-prune, tvessaiprod.nbcuni.com, /theplatform\.com\/.*?\.m3u8/)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/1463
 @@||totaldebrid.org^$ghide
 *.gif#$image,redirect=1x1.gif,domain=totaldebrid.org
@@ -4096,11 +4087,6 @@ cinedetodo.*##.alignnone
 cinedetodo.*##.bnr
 cinedetodo.*##[id*="yellow"]
 ||cda-online.pl/wp-content/uploads/*.js$script
-
-! https://github.com/uBlockOrigin/uAssets/issues/4430
-! https://github.com/uBlockOrigin/uAssets/issues/13424
-! https://github.com/uBlockOrigin/uAssets/issues/15411
-*$frame,redirect-rule=noopframe,domain=megaup.net
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1850
 aquipelis.*##+js(aopw, smrtSB)
@@ -5063,7 +5049,7 @@ igg-games.com##[href^="https://tm-offers"]
 @@||igg-games.com^$ghide
 igg-games.com#@#.uk-panel.widget-text
 igg-games.com##.uk-panel.widget-text:style(height: 0px !important; visibility: collapse;)
-igg-games.com##p[style] > a[href$=".html"]
+igg-games.com##p[style] > a[href^="https://igg-games.com/"]
 ||igg-games.com/*.gif$image
 pcgamestorrents.com##[href*="banner"]
 igg-games.g3g.ink##[href$=".php"]
@@ -7934,9 +7920,10 @@ hulu.com###banner-ad-container
 hulu.com##.ad-choices
 ! https://github.com/uBlockOrigin/uAssets/issues/17382
 ! https://www.reddit.com/r/uBlockOrigin/comments/14b5lbw/
-hulu.com##+js(json-prune, breaks pause_ads video_metadata.end_credits_time, pause_ads)
 ! https://www.reddit.com/r/uBlockOrigin/comments/158nvca/not_blocking_hulu_ads/jti29qk/
-hulu.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"][.//*[name()="BaseURL" and contains(text()\,'/ads-')]]), Period[id^="Ad"i], .mpd)
+hulu.com##+js(json-prune, breaks pause_ads video_metadata.end_credits_time, pause_ads)
+hulu.com##+js(json-prune, breaks pause_ads video_metadata.end_credits_time, breaks)
+hulu.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"][.//*[name()="BaseURL" and contains(text()\,'/ads-')]] | //*[name()="Period"]/@start), Period[id^="Ad"i], .mpd)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4356
 @@||adserver.iprom.net/adserver7$xhr,domain=rtl.hr
@@ -11117,6 +11104,10 @@ pandamovie.*,pandamovies.me,pornkino.cc,speedporn.*,xxxscenes.net,youwatchporn.c
 @@||bombuj.*^$ghide
 bombuj.*##.ad_banner
 bombuj.*##[id*="ekla"]
+||wurfl.io/wurfl.js$script,3p
+waaaw.*##+js(aopr, doSecondPop)
+waaaw.*,waaw.*##+js(aopr, BetterJsPop)
+/cdn-cgi/trace$xhr,domain=waaw.*|waaaw.*
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5946
 gamefront.com##+js(acs, $, AdBlock)
@@ -14064,7 +14055,6 @@ drivefire.co##+js(aopr, AaDetector)
 yoursavegames.com##ins.adsbygoogle
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19174
-hexupload.net##+js(acs, $, preventDefault)
 hexupload.net##+js(aopw, _pop)
 hexupload.net##+js(aopw, Fingerprint2)
 
@@ -14102,7 +14092,7 @@ work.ink##.waldo-display-unit
 *$popup,3p,domain=work.ink,to=~discord.*|~google.com|~workink.*|~youtu.be|~youtube.com
 workink.click##+js(nowoif, !direct)
 work.ink##+js(nosiif, a0b)
-work.ink##+js(no-fetch-if, /outbrain|criteo|thisiswaldo/)
+work.ink##+js(no-fetch-if, /outbrain|criteo|thisiswaldo|media\.net/)
 work.ink##body > div > a#link:upward(body > div)
 work.ink##.opera-container
 
