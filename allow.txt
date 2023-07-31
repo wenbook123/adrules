@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: v7xdd1VddHv4LeBMeuTxaw
+! Checksum: YbJp/bRs5A5AzIpi7Hc65w
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-07-31 08:57:40（北京时间） 
-! Total count: 14940
+! Version: 2023-07-31 16:20:49（北京时间） 
+! Total count: 14935
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -130,6 +130,7 @@
 @@/^https?:\/\/bugtracker\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
 @@/^https?:\/\/git(lab)?\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
 @@/_ad*/_ad$~third-party,xmlhttprequest
+@@/_js/pubfig.min.js$~third-party,domain=svethardware.cz|relaxuj.cz|svetmobilne.cz|digimanie.cz
 @@/ad*.$domain=tvtropes.org
 @@/ad-blocker-detection$script
 @@/ad-close.png$domain=ch.com
@@ -394,6 +395,7 @@
 @@/pdc_s_code.js$domain=adobe.com
 @@/pl/js/detect-adblock/*.js$domain=ddwloclawek.pl|ddtorun.pl|wpu24.pl
 @@/play.php?$stealth,domain=netlivetv.xyz
+@@/player/*$stealth,domain=ibomma.*
 @@/player/*$stealth,domain=ibomma.pw
 @@/playlist.m3u8$stealth
 @@/plugins/ad-blocking-detector/*$script
@@ -572,7 +574,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtats.malte-bartels.de^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgetrics.handelsblatt.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1448,7 +1450,6 @@
 @@||ajax.googleapis.com/ajax/libs/jquery/
 @@||ajax.googleapis.com^$script,domain=imgbox.com
 @@||ajax.googleapis.com^$script,domain=ultrahorny.com
-@@||ajax.googleapis.com^$script,domain=up-4ever.com|up-4ever.org
 @@||ajax.googleapis.com^$script,domain=up-4ever.net
 @@||ajax.googleapis.com^$script,domain=zdnet.fr
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
@@ -2942,7 +2943,6 @@
 @@||cdn.adswizz.com/adswizz/js/SynchroClient*.js$domain=lounge.fm
 @@||cdn.adswizz.com/adswizz/js/SynchroClient*.js$domain=www.lbc.co.uk
 @@||cdn.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
-@@||cdn.afk.guide/wp-content/plugins/wordpress-popup/assets/js/adb.min.js
 @@||cdn.amplitude.com/libs/amplitude-*-min.gz.js$domain=agroros.ru
 @@||cdn.amplitude.com/libs/amplitude-*-min.gz.js$domain=crunchyroll.com|elconfidencial.com
 @@||cdn.amplitude.com/libs/amplitude-*-min.gz.js$domain=pdfexpert.com
@@ -3342,6 +3342,7 @@
 @@||cdn.privacy-mgmt.com^$domain=spieletipps.de
 @@||cdn.privacy-mgmt.com^$domain=thestreet.com
 @@||cdn.privacy-mgmt.com^$domain=tomsguide.com
+@@||cdn.privacy-mgmt.com^$domain=viki.com
 @@||cdn.privacy-mgmt.com^$domain=voici.fr
 @@||cdn.privacy-mgmt.com^$domain=welt.de|cdn.privacy-mgmt.com
 @@||cdn.privacy-mgmt.com^$domain=ze.tt
@@ -4005,7 +4006,6 @@
 @@||connect.facebook.*/en_US/AudienceNetworkPrebid.js$domain=cbssports.com
 @@||connect.facebook.net/*/sdk/vb.js$domain=deezer.com
 @@||connect.facebook.net/en_US/sdk.js$domain=agar.io
-@@||connect.facebook.net^$script,domain=up-4ever.com|up-4ever.org
 @@||connect.facebook.net^$script,domain=up-4ever.net
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||connect.mail.ru/proxy?resource=getLoginStatus$domain=fotostrana.ru
@@ -4526,7 +4526,6 @@
 @@||delivery-node-*.voe-network.net/hls/$stealth
 @@||delivery.adrecover.com/*/adRecover.js$domain=duplichecker.com
 @@||delivery.adrecover.com/allow.jpg$domain=duplichecker.com|smallseotools.com
-@@||delivery.consentmanager.net/delivery/cmp.php$domain=tvdigital.de
 @@||delivery.consentmanager.net/delivery/cmp.php$domain=tvdigital.de|infranken.de|winfuture.de
 @@||delivery.consentmanager.net/delivery/cmp.php$stealth
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
@@ -5473,7 +5472,6 @@
 @@||focusmate-api.herokuapp.com/v*/profiles/$stealth,domain=focusmate.com
 @@||fofoquei.com/*/*.m3u8$stealth
 @@||fontawesome.com^$generichide
-@@||fonts.googleapis.com^$stylesheet,domain=up-4ever.com|up-4ever.org
 @@||fonts.googleapis.com^$stylesheet,domain=up-4ever.net
 @@||fonts.gstatic.com^
 @@||fonts.shopifycdn.com/roboto/roboto_*.woff$stealth,domain=shopify.com
@@ -8920,7 +8918,6 @@
 @@||maxcdn.bootstrapcdn.com/font-awesome/*/fonts/fontawesome-webfont.woff$domain=livescience.com
 @@||maxcdn.bootstrapcdn.com/font-awesome^
 @@||maxcdn.bootstrapcdn.com^$stylesheet,domain=shink.me|shon.xyz
-@@||maxcdn.bootstrapcdn.com^$stylesheet,domain=up-4ever.com|up-4ever.org
 @@||maxcdn.bootstrapcdn.com^$stylesheet,domain=up-4ever.net
 @@||maxcheaters.com/uploads2/country/*.gif$image
 @@||maxcheaters.com^$generichide
@@ -9417,7 +9414,9 @@
 @@||mxpnl.com^$domain=dailysteals.com
 @@||mxpnl.com^$domain=mixpanel.com
 @@||mxtads.com/vimeo/froogaloop*.min.js$domain=kinozadrot.club
+@@||my-bucket-s3-*-amazonaws.*.*/*.m3u8$stealth,domain=ibomma.*
 @@||my-bucket-s3-*-amazonaws.*.*/*.m3u8$stealth,domain=ibomma.pw
+@@||my-bucket-s3-*-amazonaws.*.*/*.mp4$stealth,domain=ibomma.*
 @@||my-bucket-s3-*-amazonaws.*.*/*.mp4$stealth,domain=ibomma.pw
 @@||my-debrid.net/files/reklam/api.php$~third-party
 @@||my-debrid.net/files/reklam/css/*.css$~third-party
@@ -13120,7 +13119,6 @@
 @@||techsighter.com/js/*.js
 @@||techsite.io/static/js/adsbygoogle.js
 @@||techsmith.com^
-@@||techsolveprac.com/wp-content/plugins/*/js/adb.min.js
 @@||techsupportalert.com/ads.js
 @@||techtobo.com/js/siropu/am/ads.min.js
 @@||techzine.nl/cookiewet.php
@@ -14088,8 +14086,6 @@
 @@||vidstream.to^$stealth,domain=egybest.*
 @@||vidtech.cbsinteractive.com^
 @@||vidtech.cbsinteractive.com^*/AkamaiAnalytics.swf$domain=kuathletics.com|mutigers.com|okstate.com
-@@||vidtodo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com
-@@||vidtodoo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com
 @@||vidup.*/adsense.js$script
 @@||vidup.*^$ghide
 @@||vidyomani.com^*/showads.js
@@ -14707,7 +14703,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide! https://github.com/AdguardTeam/AdguardFilters/issues/17341
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
