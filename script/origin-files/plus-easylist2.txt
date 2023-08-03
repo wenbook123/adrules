@@ -1426,7 +1426,8 @@ mcloud.to,vizcloud.*##+js(ra, data-ad-img|data-ad-target, , stay)
 /\/[A-Z]{1,2}\/[-0-9a-z]{5,}\.com\/(?:[0-9a-f]{2}\/){3}[0-9a-f]{32}\.js$/$script,1p,match-case
 9anime.*##+js(aopw, _pop)
 ! https://github.com/uBlockOrigin/uAssets/issues/19240
-vidstream.pro##.aslot
+! https://github.com/uBlockOrigin/uAssets/issues/19260
+mcloud.to,vidstream.pro##.aslot
 /lazymolecule/*.js$script,3p
 
 youtubedownloader.*##+js(nowoif)
@@ -2786,21 +2787,19 @@ pussyspace.*##+js(aopr, open)
 pussyspace.com,pussyspace.net##+js(aost, document.createElement, /add.?Zone|detectCensorship/)
 pussyspace.com,pussyspace.net##+js(aeld, load, exoJsPop101)
 pussyspace.com,pussyspace.net##+js(norafif, exoframe)
-pussyspace.com,pussyspace.net##+js(aeld, /^callllad/)
+pussyspace.com,pussyspace.net##+js(aeld, /^call/)
+pussyspace.com,pussyspace.net##a[onmouseup^="setRealHref"]
 pussyspace.com,pussyspace.net###alphabet, #channels, #divx-container, #hmenu, #inform, #nowlooking, #playerCamBox, #playerMenu, #qcat, #showPlayer, #tabel_tagslist, #video_content, #web_cam, .BaseRoomContents, .buttons, .carouselTopScroll, .carusel-keys-box-ps, .footerdesc, .in_top, .load_more_rel, .mainBoxTitle, .pagIno, .playerContent100pr, .relatedVideo, .right-160px, .videos-related, footer, header, [href^="/webcams.php"]:others()
 ||www.pussyspace.$image,1p
 @@||www.pussyspace.*/favicon.ico|
+@@||www.pussyspace.*/ajax/contact/exo-logo.png|
 @@||www.pussyspace.*/class/captcha/captcha.php|
 @@||www.pussyspace.*/class/captcha/arrow.png|
 @@||www.pussyspace.*/player/loading.gif|
-@@||www.pussyspace.*/player/playBTN.png|
-@@||www.pussyspace.*/style/03/img/bg.png|
-@@||www.pussyspace.*/style/03/img/navbg.png|
-@@||www.pussyspace.*/style/03/img/navbg.hover.png|
-@@||www.pussyspace.*/style/03/img/speed-dials.png|
-@@||www.pussyspace.*/style/03/img/x-sprite.png|
 @@||www.pussyspace.*/style/img/abuse.email.png#|
+@@||www.pussyspace.*/style/img/bg.png|
 @@||www.pussyspace.*/style/img/navbg.hover.png|
+@@||www.pussyspace.*/upload/no_img.jpg|
 ||pussyspace.*/js/all.js?v=gitcache_gulp_
 ||pussyspace.*/lazyload.im
 
