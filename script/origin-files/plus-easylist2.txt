@@ -26,7 +26,12 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-www.youtube.com,www.youtubekids.com,www.youtube-nocookie.com##+js(aost, JSON.parse, Vgb)
+www.youtube.com,www.youtubekids.com,www.youtube-nocookie.com##+js(aost, Promise.all, Wgb)
+!#if ext_devbuild
+www.youtube.com,www.youtubekids.com,www.youtube-nocookie.com#@#+js(aost, Promise.all, Wgb)
+youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, , /^(?=.*\.js)(?!.*requestAnimationFrame)(?!.*doEnqueue).*/)
+!#endif
 ! https://github.com/uBlockOrigin/uAssets/issues/15632
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 ! https://github.com/uBlockOrigin/uAssets/issues/7636#issuecomment-1453088841
@@ -13238,13 +13243,6 @@ ihow.info##+js(nostif, getComputedStyle, 250)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6552
 @@||eldia.com^$ghide
-
-! https://www.reddit.com/r/uBlockOrigin/comments/dv0n5w/torrentgalaxy_ads/
-torrentgalaxy.to##+js(aost, String.prototype.charCodeAt, $)
-*$script,3p,denyallow=bootstrapcdn.com|disqus.com|disquscdn.com|jsdelivr.net|jwpcdn.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,domain=torrentgalaxy.*
-torrentgalaxy.to##.alert
-||wonkychickens.org/data/statics/sg/
-torrentgalaxy.to##a[href^="/hub.php?a=hotdea"]
 
 ! https://github.com/NanoMeow/QuickReports/issues/2272
 givemereddit.stream##+js(aopw, _pop)
