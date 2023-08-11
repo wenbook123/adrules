@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: iHf/wNcp4LGUySoZgvJUSA
+! Checksum: CWlXQYjCYQkUj40rY4gHQw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-08-11 00:18:26（北京时间） 
-! Total count: 64420
+! Version: 2023-08-11 08:44:25（北京时间） 
+! Total count: 64424
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1854,6 +1854,7 @@ $doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.co
 $doc,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|bluemountain.com|boscovs.com|boxboat.com|britishcornershop.co.uk|brownells.*|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|educba.com|edx.org|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hbomax.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|jobs.deepl.com|just-eat.co.uk|kasta.io|ladbible.com|learn.microsoft.com|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|netflix.com|nortonsafe.search.ask.com|ngx.me|onehanesplace.com|outnorth.fi|paypal.com|petsupplies.com|phonesoap.com|quizlet.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|theathletic.com|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|trendmicro.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|xd.wayin.com|ylighting.com|youtube.com|yubo.live
 $doc,removeparam=trackID
 $doc,removeparam=trackid,domain=~nzpost.co.nz
+$doc,removeparam=user_email_address
 $doc,removeparam=waporef
 $doc,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.com
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
@@ -4583,6 +4584,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /b/ss/*/JS-
 /b/ss?AQB=
 /b/stats?
+/ba_tracking.js
 /baha/*$subdocument,domain=gamer.com.tw
 /baichuan/*$subdocument
 /baidu/189/999.php
@@ -9892,6 +9894,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@/social-share.$domain=patentguru.com
 @@/static/ad/main.$domain=bbmei.top|bbmen.top
 @@/store_ad/*$domain=pcstore.com.tw
+@@/subscribe?$doc,removeparam=user_email_address
 @@/unadblock/adjs_$domain=hepan.com
 @@/unsub/?$removeparam
 @@/urchin.js$domain=on.cc
@@ -35185,6 +35188,7 @@ zzzyk.com###Tinfo
 ||game333.net/aainset/
 ||gameanalytics.com^$third-party
 ||gamecps.com^$third-party
+||gamedeveloper.com^$removeparam=iiris-ref
 ||gamedistribution.com/collect?
 ||gamedock.io/gamemonkey-web-tracker/
 ||gameforge.de/init.gif?
