@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202308110139
+! Version: 202308120107
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 76296
+! Lenth = 76323
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -552,6 +552,7 @@ $removeparam=urrad,domain=u-s-s.jp|belta.co.jp
 $removeparam=user_email_address
 $removeparam=usqp
 $removeparam=utm_ad
+$removeparam=utm_adgroup
 $removeparam=utm_affiliate
 $removeparam=utm_brand
 $removeparam=utm_campaign
@@ -1680,6 +1681,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /bundles/metrics.
 /bunsen/events/*
 /busting/*/gtm-
+/bv-analytics.js
 /bypassma.js
 /byside_webcare.
 /bytro/logs/*
@@ -4817,6 +4819,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wp-content/plugins/affiliate-wp/assets/js/tracking.min.js
 /wp-content/plugins/asmb-tracking/*
 /wp-content/plugins/confection/bridge.php
+/wp-content/plugins/flying-analytics/*
 /wp-content/plugins/google-analytics-dashboard-for-wp/*$domain=xpornass.com|vitacig.eu.com|musicman.co.jp|wilfmovies.com|popfilmeshd.net
 /wp-content/plugins/google-analytics-for-wordpress/*
 /wp-content/plugins/google-analytics-premium/*
@@ -7575,6 +7578,7 @@ chinatimes.com##.popin-recommend
 cienradios.com##article[class^="cXense-"]
 citypizza.ru#%#window.yaCounter9890803 = { reachGoal: function() {} };
 ciudad.com.ar###cxense-wrapper
+click.*.mc.philips.com$image
 click.e.change.org$image
 click.emails.paypal.com$image
 click.icptrack.com/icp/$image
@@ -7596,7 +7600,7 @@ continentseven.com##.gaoop
 conversions.appsflyersdk.com^
 crank-in.net#?#.wrap_general:has(> #taboola-below-article-thumbnails-mg)
 crank-in.net#?#article > section.block-area:has(> div#taboola-below-article-thumbnails-mg)
-ct.sendgrid.net%2Fwf%2Fopen%3$image
+ct.sendgrid.net$image
 ctvnews.ca##img[alt="comscorebeacon"]
 culture.ru###page-error-modal
 curazy.com##.sponsor-link-text
@@ -7636,8 +7640,10 @@ elpais.com,chip.de,moviepilot.com,madison.com,promiflash.de,trendblog.net,qctime
 email-links.buffer.com$image
 email.feedrabbit.com$image
 email.mg-d1.substack.com$image
+email.mgtp01.squarespace-mail.com$image
 email.mixmax.com/e/o$image
 email.nirandfar.com$image
+email.wetransfer.com$image
 embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream', 'emptyObj')
 embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream.event', 'noopFunc')
 emltrk.com$image
@@ -7686,6 +7692,7 @@ go.toutapp.com$image
 goodwillfinds.com#%#//scriptlet("set-constant", "_etmc", "emptyArr")
 hentai-sharing.net,news.webike.net###custom_html-3
 hentaiz.org##img[width="31"][height="31"]
+hinatasoku.blog.jp#?#.right-container > div.sidewrapper:has(> div.side > a[href="http://www.ziyu.net/"])
 hindustantimes.com#%#!function(){window.pSUPERFLY={virtualPage:function(){}};}();
 hitkino.org#?#td[valign="top"] > table.white_text > tbody > tr:has(> td[background] > b:contains(Статистика))
 hitkino.org#?#td[valign="top"] > table.white_text > tbody > tr:has(> td[background] > b:contains(Статистика)) + tr
@@ -7748,10 +7755,12 @@ link.gmapp*.net$image
 link.mail.bloombergbusiness.com$image
 link.seguno-mail.com$image
 link.theatlantic.com$image
+link.theskimm.com$image
 link.theverge.com$image
 link.vox.com$image
 links.email.digg.com$image
 links.newsletter.fortune.com$image
+links.theskimm.com$image
 list-manage.com/track$image
 livedoor.biz,ldblog.jp#?#.plugin-memo > div.side > a[href$="ziyu.net/"]:upward(2)
 livemint.com#%#//scriptlet('set-constant', 'dapTracker', 'emptyObj')
@@ -7810,6 +7819,7 @@ nlab.itmedia.co.jp##div[id^="logly-"] + div.h10px.colBoxClear
 norisoku.com###random
 northerntool.com#%#//scriptlet('prevent-xhr', 'configure.rapid.js')
 northerntool.com#%#AG_onLoad((function(){"function"===typeof window.Yo?.rum?.initialize&&Yo.rum.initialize()}));
+notices.rei.com$image
 notonthehighstreet.com#%#//scriptlet('set-constant', 'window.DD_RUM.init', 'noopFunc')
 novate.ru#?##right > div.bordered:has(> script:contains(relap))
 novate.ru#?##right > h2:contains(Рекомендуем)
@@ -7820,6 +7830,7 @@ nukigazo.com###text-2
 nytimes.com#%#//scriptlet("set-constant", "Navigator.prototype.joinParakeetInterestGroup", "noopFunc")
 oceans-nadia.com##.gtm-bnr-rensai
 okazuch.site###custom_html-30
+open.convertkit-mail*.com$image
 openrate.aweber.com$image
 otekomachi.yomiuri.co.jp###_popIn_right
 otekomachi.yomiuri.co.jp##.p-ads
@@ -7839,6 +7850,7 @@ petyado.com##table[width="700"][height="42"]
 petyado.com##table[width="785"][height="30"]
 petyado.com##td[valign="top"][height="10"] > table[width="795"]
 pioneer.eu#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick^="trackOutboundLink"]')
+pixel.monitor*.returnpath.net$image
 platform.autods.com#%#//scriptlet('set-constant', '_conv_q', 'emptyObj')
 platform.autods.com#%#//scriptlet('set-constant', '_conv_q.push', 'noopFunc')
 politring.com##a[href="https://metrika.yandex.ru/"]
@@ -7862,7 +7874,6 @@ reddit.com#%#//scriptlet('set-constant', 'navigator.sendBeacon', 'noopFunc')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[href="#pixel"]
 register.appsflyersdk.com^
 repubblica.it#%#//scriptlet('prevent-element-src-loading', 'script', 'static.chartbeat.com/js/chartbeat_brightcove_plugin.js')
-returnpath.net/pixel.gif$image
 reuters.com###taboola-recirc
 reuters.com#%#//scriptlet('set-local-storage-item', 'ajs_anonymous_id', 'null')
 reverso.net#%#//scriptlet('set-constant', 'rumjs.business.setManualConsent', 'noopFunc')
@@ -7884,7 +7895,7 @@ shockwave.com#%#(function(){window.swua={swEvent:function(){}}})();
 shutterstockmail.com/pub/as?_ri_=$image
 sinoptik.ua###bigmirTop
 sli.fortune.com$image
-sli.thedailybeast.com/imp?$image
+sli.thedailybeast.com$image
 sli.wired.com/imp?s$image
 specialcom.net#?##sidebar > div.widget:has(span#openstat1)
 sports.goo.ne.jp###taboola-below-sokuho-thumbnails
@@ -7918,6 +7929,7 @@ tinyletterapp.com$image
 today.ua##.li-bi-container
 topics.nintendo.co.jp##.topics-recommend__headline
 tourister.ru##.nt-foot-item[style="overflow:hidden;"]
+track.canva.com$image
 track.customer.io/e/o$image
 track.email.stackcommerce.com/q/$image
 track.mixmax.com/api$image
@@ -9078,6 +9090,7 @@ znak.com##.relap
 ||2gis.*/_/metrics
 ||2gis.ru/_/log
 ||2gis.ru/_/metrics
+||2ip.*/member_photo/$domain=~2ip.com|~2ip.ru
 ||2ip.io/sbar/$third-party
 ||2ip.ru/sbar/$third-party
 ||2izeagitt6zpolk7.sparta.members.tt.omtrdc.net^
@@ -21365,6 +21378,7 @@ znak.com##.relap
 ||bidder.mediams.mb.softbank.jp^
 ||bidderrtb.com^$third-party
 ||biddingmax.apse.trk.rixserv.com^
+||bidgx.com^
 ||bidphysics.com^$third-party
 ||bidr.io^$third-party
 ||bidsimulator.com^$third-party
@@ -27294,6 +27308,7 @@ znak.com##.relap
 ||d1snv67wdds0p2.cloudfront.net^
 ||d1stxfv94hrhia.cloudfront.net^
 ||d1t9uctetvi0tu.cloudfront.net^
+||d1tbj6eaenapdy.cloudfront.net^
 ||d1tracker.ru^
 ||d1uy7uzra011au.cloudfront.net^
 ||d1wix2gc2cgqis.cloudfront.net^
@@ -31618,6 +31633,8 @@ znak.com##.relap
 ||doubtfulrainstorm.com^$third-party
 ||doug1izaerwt3.cloudfront.net^
 ||douglasgmbh.tt.omtrdc.net^
+||douyin.com^$removeparam=extra_params
+||douyin.com^$removeparam=previous_page
 ||douyucdn.cn/fish3/1.gif
 ||dove.ased.org^
 ||dove.com*/Assets/JS/udm.js
@@ -33509,6 +33526,7 @@ znak.com##.relap
 ||error.fc2.com/blog3/$script
 ||error.videonow.ru^
 ||errord.tt.omtrdc.net^
+||errorreports.couponcabin.com^
 ||errors.snackly.co^
 ||erstegroupitinternat.tt.omtrdc.net^
 ||ert5.rmcsport.tv^
@@ -34737,6 +34755,7 @@ znak.com##.relap
 ||flznib.weblio.jp^
 ||fma7.aegon.es^
 ||fmbankva.actonservice.com^
+||fmhy.net^
 ||fmjgtp.dentalspeed.com^
 ||fmlchtavzk.20dupont.hb.tt.omtrdc.net^
 ||fmnetwork.nl/tracking/
@@ -35958,6 +35977,8 @@ znak.com##.relap
 ||getmetrical.com/storagesync
 ||getnotix.co^$third-party
 ||getownerapp.beyondmenu.com^
+||getpocket.com/t/
+||getpocket.com/web-utilities/public/static/te.js
 ||getpos.de/ext/
 ||getpublica.com^$cookie=p_uid
 ||getpublica.com^$third-party
@@ -43860,6 +43881,7 @@ znak.com##.relap
 ||logservice1.hicloud.com^
 ||logsink.zedge.net^
 ||logstash-3.radio-canada.ca^
+||logtail.com^
 ||logtake.weidian.com^
 ||logua.com^$third-party
 ||logupdate.avlyun.sec.miui.com^
@@ -44174,6 +44196,7 @@ znak.com##.relap
 ||lv.premera.tt.omtrdc.net^
 ||lv3-app002005.tt.omtrdc.net^
 ||lv6od3a4sz12.www.logology.co^
+||lvbet.pl/*/json/web-analitics-events.json
 ||lvidqa.unisportstore.de^
 ||lvivsu.peterhahn.de^
 ||lvnuupzyri.182crackle.hb.tt.omtrdc.net^
@@ -73884,6 +73907,10 @@ znak.com##.relap
 ||wetr.sportscheck.at^
 ||wetr.sportscheck.ch^
 ||wetr.sportscheck.com^
+||wetransfer.com^$removeparam=amp;utm_campaign
+||wetransfer.com^$removeparam=amp;utm_medium
+||wetransfer.com^$removeparam=amp;utm_source
+||wetransfer.com^$removeparam=trk
 ||wetransfer.zendesk.com^$removeparam=amp%3Btoken
 ||wetransfer.zendesk.com^$removeparam=amp%3Btrk
 ||wetransfer.zendesk.com^$removeparam=amp%3Butm_campaign
