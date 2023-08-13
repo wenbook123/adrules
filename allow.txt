@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: hjXRkaEGcnxdeXR17Njg9A
+! Checksum: RafLl86nb9lHm78Vk7+KEw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-13 08:47:06（北京时间） 
-! Total count: 14968
+! Version: 2023-08-13 16:16:16（北京时间） 
+! Total count: 14966
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -573,6 +573,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org@||omtrdc.net/b/ss/$image,domain=britishairways.com|halifax-online.co.uk
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1389,7 +1390,6 @@
 @@||ae01.alicdn.com^
 @@||aeonax.com^$ghide
 @@||aeries.net^*/require/analytics/views/$script,~third-party
-@@||aetnd.com^$ghide
 @@||aetv.com^$generichide
 @@||afdah.to/show-ad
 @@||aff.bstatic.com^$image,domain=tonkosti.ru
@@ -2007,6 +2007,7 @@
 @@||apk.tw^*/ads.js$script,~third-party
 @@||apkmirror.com^$generichide
 @@||apkpure.com^$generichide
+@@||apkpure.com^$y > tr > td[colspan="2"][width^="32"]
 @@||aplayer.xyz/player/watch.php^$stealth
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
@@ -4171,6 +4172,7 @@
 @@||cookie-consent.ingatlancdn.com/icom-cookie-consent-manager-*.min.js$domain=ingatlan.com
 @@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
 @@||cookiebot.com/uc.js$domain=adac-shop.de
+@@||cookiebot.com/uc.js$domain=stock3.com
 @@||cookiebot.com^$domain=apetro.pt|asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|caisse-epargne.fr|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|elmzell.se|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|neue.at|nngroup.com|nordiskfilm.com|plaion.com|quandoo.it|refinery29.com|rhein-ruhr.stadtmobil.de|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|toyota-forklifts.se|vn.at|warscrap.io|werder.de|werkenbijlidl.nl|wwf.fi|xn--myeblttle-z2a.de
 @@||cookiebot.com^$domain=cliente.nos.pt|login.nos.pt
 @@||cookiebot.com^$domain=compress-or-die.com
@@ -8925,7 +8927,6 @@
 @@||matrix.org/_matrix/$removeparam
 @@||matystudios.github.io/banner_ad.png$domain=serialyzdarma.eu
 @@||matzoo.pl/*/adsbygoogle.js
-@@||mavencoalition.io^$xhr,domain=history.com
 @@||max.permato.com/getWidget^$stealth
 @@||maxcdn.bootstrapcdn.com/bootstrap/$domain=gelbooru.com
 @@||maxcdn.bootstrapcdn.com/font-awesome/*/fonts/fontawesome-webfont.woff$domain=livescience.com
@@ -9924,11 +9925,11 @@
 @@||onet.pl/*?*utm_campaign=$removeparam
 @@||onet.pl/?utm_source=$removeparam
 @@||onet.pl/?utm_source=$stealth
-@@||onetrust.com/consent/$domain=konami.com|panasonic.com|technics.com
+@@||onetrust.com/consent/$domain=konami.com|panasonic.com|pushsquare.com|technics.com
 @@||onetrust.com/consent/*.json$domain=konami.com
 @@||onetrust.com/consent/*.json$domain=nintendolife.com
 @@||onetrust.com/request/$xmlhttprequest
-@@||onetrust.com/scripttemplates/$domain=konami.com|panasonic.com|technics.com
+@@||onetrust.com/scripttemplates/$domain=konami.com|panasonic.com|pushsquare.com|technics.com
 @@||onetrust.com/scripttemplates/*/otBannerSdk.js$script,domain=konami.com
 @@||onetrust.com/scripttemplates/otSDKStub.js$domain=konami.com
 @@||onetrust.com/webform/$domain=lushaprivacy.com
@@ -10593,7 +10594,6 @@
 @@||play.google.com/log?$domain=meet.google.com
 @@||play.google.com/log?format=json$domain=news.google.com
 @@||play.google.com/store/apps/$document
-@@||play.history.com^$ghide
 @@||play.kisscartoon.ac/player.php?
 @@||play.max.com^$generichide
 @@||play.nova.bg/prebid-ads.js
@@ -11846,10 +11846,8 @@
 @@||secure.selfwealth.com.au^$stealth
 @@||secure.surveymonkey.com^
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
-@@||securenetsystems.net/*/ads/prebid.js$script,1p
 @@||securenetsystems.net/*/scripts/ads/prebid.js
 @@||securenetsystems.net/v5/scripts/
-@@||securenetsystems.net^$xhr,1p
 @@||securepubads.g.doubleclick.net/*/pubads_impl.js$script,domain=gentside.*|ohmymag.*
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=castlesiege.io
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=cityam.com
@@ -13742,7 +13740,6 @@
 @@||uim.tifbs.net/js/3423.js$domain=top.de
 @@||uim.tifbs.net/js/7732.js$domain=gewinnspiel.gmx.de|gewinnspiel.web.de
 @@||uiz.io/_sw.js
-@@||uiz.one^$generichide
 @@||ujinbi.com/UpLoadFile/guanggao/
 @@||ukbride.co.uk/css/*/adverts.css
 @@||ukw.jp^*/?cbk=$script,domain=system5.jp
@@ -14735,6 +14732,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideeye.com##.no-results > .col-lg-4.text-center > a[href][target="_top"] > img
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
