@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: RafLl86nb9lHm78Vk7+KEw
+! Checksum: 2APpF+3l1VbZmB49RLY/mg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-13 16:16:16（北京时间） 
-! Total count: 14966
+! Version: 2023-08-14 00:16:04（北京时间） 
+! Total count: 14967
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -35,6 +35,7 @@
 @@*$image,domain=a2zupload.com
 @@*$image,domain=wstream.video
 @@*$media,domain=camvideos.org
+@@*$redirect-rule,domain=d3ward.github.io
 @@*$script,1p,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@*$script,1p,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@*$script,1p,domain=promo-visits.site|satoshi-win.xyz
@@ -573,7 +574,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org@||omtrdc.net/b/ss/$image,domain=britishairways.com|halifax-online.co.uk
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -2006,8 +2006,8 @@
 @@||apjr.needrom.com/advert*.js
 @@||apk.tw^*/ads.js$script,~third-party
 @@||apkmirror.com^$generichide
+@@||apkpure.com^$genericac-lre-player-ph
 @@||apkpure.com^$generichide
-@@||apkpure.com^$y > tr > td[colspan="2"][width^="32"]
 @@||aplayer.xyz/player/watch.php^$stealth
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
@@ -9932,6 +9932,7 @@
 @@||onetrust.com/scripttemplates/$domain=konami.com|panasonic.com|pushsquare.com|technics.com
 @@||onetrust.com/scripttemplates/*/otBannerSdk.js$script,domain=konami.com
 @@||onetrust.com/scripttemplates/otSDKStub.js$domain=konami.com
+@@||onetrust.com/vendorlist/$domain=pushsquare.com
 @@||onetrust.com/webform/$domain=lushaprivacy.com
 @@||onetrust.com/webform/$subdocument
 @@||onionstatic.com^*/ad-block-check.jpg
@@ -14732,7 +14733,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideeye.com##.no-results > .col-lg-4.text-center > a[href][target="_top"] > img
+@@||xfreehd.com^$generichide340
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
