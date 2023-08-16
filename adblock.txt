@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: bXtfJjE1U+nfLFGkibgDfw
+! Checksum: jFe08v9TJ+GEMbARvjG8og
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-08-16 08:43:54（北京时间） 
-! Total count: 64522
+! Version: 2023-08-16 16:19:12（北京时间） 
+! Total count: 64546
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -8711,6 +8711,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 16rd.com##.c1c2_b1b2_adbx
 16sucai.com##.pindao_ad2
 16sucai.com,bbxxbbs.net##table[width="960"]
+17173.com###finalTuijian
 17173.com###topAlert
 17173.com###vjs-ad-on-pause
 17173.com##.js-lol-pop
@@ -8718,6 +8719,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 17173.com##.mod-tg1
 17173.com##.pic[href*="Room"]
 17173.com##a[href*="&ad_code="]
+17173.com##a[href^="https://gtv."]
 17173.com,cdyee.com,chinaz.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,lantian.tv,phoenixtv.com,pyccoo.cn,xineurope.com,yesky.com,zdzdm.com##.adbox
 172cat.com###adload
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > br
@@ -12399,11 +12401,12 @@ bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
+bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }
+bilibili.com#$?#.container > div[class*="-card"]:has(div[style="display: none !important;"]) { remove: true; }
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
-bilibili.com#?#.container > div[class*="-card"]:has(div[style="display: none !important;"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.van-popover__reference:-abp-contains(下载)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
@@ -20139,6 +20142,7 @@ zzzyk.com###Tinfo
 ||17173cdn.com/20*.mp4$redirect=noopmp3-0.1s,domain=17173.com
 ||17173cdn.com/20*.mp4$rewrite=abp-resource:blank-mp3,domain=17173.com
 ||17173cdn.com/a/lib/vda/seed.js
+||17173cdn.com/a/oms/oms-data.
 ||17173cdn.com/a/www/index/2016v2/js/seed.js
 ||17173cdn.com/js/play/page/pThridPlayerAd.js
 ||17173cdn.com^*/js/task/src/task/live/greenhand/
@@ -27832,6 +27836,7 @@ zzzyk.com###Tinfo
 ||bmp1.ali213.net/js/
 ||bmp1.ali213.net/pubjs/index_sc_utf8.js
 ||bmp2.ali213.net/js/
+||bmptbyb.com^
 ||bmrg.reflected.net^
 ||bmst.pw^
 ||bmwebm.org^
@@ -27855,6 +27860,7 @@ zzzyk.com###Tinfo
 ||bnds3.site^
 ||bnds4.site^
 ||bnds6.site^
+||bnds7.site^
 ||bnds8.site^
 ||bnextmedia.com.tw/feed/fetch.js
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/cp_prebid
@@ -29222,6 +29228,7 @@ zzzyk.com###Tinfo
 ||choujue.net/script/
 ||choupsee.com^
 ||chouti.com/js/tingyun-rum.js
+||chozarpeases.com^
 ||christiantop1000.com^$third-party
 ||christmalicious.com^$third-party
 ||chromeba.net/wp-content/uploads/
@@ -34650,7 +34657,6 @@ zzzyk.com###Tinfo
 ||flxpxl.com^$third-party
 ||flya.me/eventtrack
 ||flyingpt.com^$third-party
-||flymc.cc^$third-party
 ||flyspy.co^$third-party
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
 ||flznib.weblio.jp^
@@ -35339,6 +35345,7 @@ zzzyk.com###Tinfo
 ||gdfp.gifshow.com^
 ||gdg.gardnerdenver.com^
 ||gdgffir.cn^
+||gdjme27.com^
 ||gdls114.com^
 ||gdm1.toner.fr^
 ||gdmm.com*/mybt/
@@ -37015,6 +37022,7 @@ zzzyk.com###Tinfo
 ||hh.ru^$removeparam=vss
 ||hh010.com/static/image/fff/
 ||hh0212.cc^
+||hh6820123.com^
 ||hh9uv6tq.com^
 ||hhaobcj.cn^
 ||hhdmh.net/bd/36mh.js
@@ -39006,6 +39014,7 @@ zzzyk.com###Tinfo
 ||iqdata.ai^$third-party
 ||iqede.xyz^
 ||iqfp1.com^$third-party
+||iqgoukn.cn^
 ||iqilu.com/getZone.php
 ||iqilu.com/static_files/multiads/
 ||iqilu.com/static_files/richmedia/
@@ -39582,6 +39591,7 @@ zzzyk.com###Tinfo
 ||jiwekawe.top^
 ||jixie.io^$third-party
 ||jixing8.com^$third-party
+||jixmlx.xyz^
 ||jiyan.net^
 ||jiyingdm.com/js/loadingshow.html
 ||jjade.xyz^
@@ -40366,6 +40376,7 @@ zzzyk.com###Tinfo
 ||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
 ||kmn1sk.com^
 ||kmnhbr.xyz^
+||kmnhgna.com^
 ||kmpjrjz.cn^
 ||kmpl.rnqxp.cn^
 ||kmplayer.cn/include/jscript/*-a.js
@@ -41020,6 +41031,7 @@ zzzyk.com###Tinfo
 ||lezbrja.cn^
 ||leztc.com^
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
+||lfjtiuy.cn^
 ||lflmdm.com^
 ||lfmhcb.sefamerve.com^
 ||lfov.net^$third-party
@@ -42240,6 +42252,7 @@ zzzyk.com###Tinfo
 ||lsj2.5aer.com^
 ||lsjxs.cc/js/html
 ||lskmipb.icu^
+||lslbahl.top^
 ||lslld.xyz^
 ||lslynl.chiashake.cz^
 ||lsnignsl.xyz^
@@ -42609,6 +42622,7 @@ zzzyk.com###Tinfo
 ||mail.central.co.th^
 ||mail.kguapp.com^
 ||mail.pchome.com.tw/img/classifieds/300120.gif
+||mail.proton.me/api/data/v1/stats
 ||mail.qq.com/cgi-bin/frame_html?$removeparam=r
 ||mail.qq.com/cgi-bin/getinvestigate?
 ||mail.qq.com/lview?
@@ -45284,6 +45298,7 @@ zzzyk.com###Tinfo
 ||ndfsl.com^
 ||ndg.io^$third-party
 ||ndi.nuance.com^
+||ndqcz0e.xyz^
 ||ndqzqmb.xyz^
 ||ndroyp.gettingpersonal.co.uk^
 ||ndruhz.xyz^
@@ -48309,6 +48324,7 @@ zzzyk.com###Tinfo
 ||pymbay.kinguin.net^
 ||pymx5.com^$third-party
 ||pyntr.xyz^
+||pypwxvo.cn^
 ||pyroactive.de/counter/
 ||pywiia.lfmall.co.kr^
 ||pyyhkn.com^
@@ -51104,6 +51120,7 @@ zzzyk.com###Tinfo
 ||seniorliving.whitneycenter.com^
 ||seniorliving.wyndemerelcs.com^
 ||sensic.net^$third-party
+||sensifyfugged.com^
 ||sensor.org.ua^$third-party
 ||sensors.balluff.com^
 ||sensorsdata.cn^$third-party
@@ -51566,6 +51583,7 @@ zzzyk.com###Tinfo
 ||silverpush.co^$third-party
 ||sim-technik.de/dvs.gif?
 ||sim-technik.de^*&uniqueTrackId=
+||simblotusitate.com^
 ||simg.discovery.com^
 ||simg.interhome-retailer.com^
 ||simg.interhome.be^
@@ -55595,6 +55613,7 @@ zzzyk.com###Tinfo
 ||stockstar.com/info/1200x90/
 ||stockx.com/16uD0kOF/init.js
 ||stol.it/pcookie?
+||stomachscience.com^
 ||stonecalcom.com^$third-party
 ||stopthink.onefamilyadviser.com^
 ||storage.googleapis.com/afs-prod/tags
@@ -56662,6 +56681,7 @@ zzzyk.com###Tinfo
 ||tcss.qq.com^
 ||tctltb.com^
 ||tctm.co^$third-party
+||tcuqqhj.icu^
 ||td.airdroid.com^
 ||td.emails.domain.com.au^
 ||td.testbnc.originenergy.com.au^
@@ -60715,7 +60735,9 @@ zzzyk.com###Tinfo
 ||vhjxrj.xyz^
 ||vhmewg.edreams.fr^
 ||vhrbxb.vidaxl.nl^
+||vhsutpgui.xyz^
 ||vhulan.com^
+||vhutitpu.icu^
 ||vhyvkx.com^
 ||vi.adviso.ca^
 ||vi1.souid.com^
@@ -63977,6 +63999,7 @@ zzzyk.com###Tinfo
 ||zbzbzzz.top^
 ||zc173.com/173fee/
 ||zcaijing.com/images/
+||zcbfjd.xyz^
 ||zcchyr*.xyz^
 ||zcchyw*.xyz^
 ||zcck60eqyw.world^
@@ -64392,6 +64415,7 @@ zzzyk.com###Tinfo
 ||zswph.com^
 ||zsyk91.cn^
 ||zsyk91.cn^$third-party
+||zszhln.xyz^
 ||zt-uc-baidu.cc^
 ||zt.chuanke.com/?mod=
 ||zt2088.com^
