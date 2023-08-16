@@ -113,6 +113,8 @@ reddit.com,~old.reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 
 ! https://github.com/uBlockOrigin/uAssets/pull/5997
 docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
+! https://github.com/uBlockOrigin/uAssets/issues/7960
+www.google.*##+js(set, rwt, noopFunc)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6538
 liberation.fr,officedepot.fr,oui.sncf##+js(acs, document.createElement, '.js')
@@ -689,6 +691,8 @@ nowinstock.net##+js(href-sanitizer, a[href^="http://go.redirectingat.com"][href*
 nowinstock.net##+js(href-sanitizer, a[href*="?"][href*="&u=http"], ?u)
 ! https://paypal.com/uk/home
 paypal.com##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?fallback=http"], ?fallback)
+! https://www.elotrolado.net/hilo_el-podcast-de-eol-episodio-43-e3-cronica-de-una-muerte-anunciada_2360079
+elotrolado.net##+js(href-sanitizer, a[href^="https://go.redirectingat.com?url=http"], ?url)
 
 ! https://chataigpt.org
 /detroitchicago/dpv.gif?$image
