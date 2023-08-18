@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202308160109
+! Version: 202308180148
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 72424
+! Lenth = 72457
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -5221,6 +5221,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||astatic.ccmbg.com/fc/js/prebid?v=$domain=sante.journaldesfemmes.fr
 @@||atdmt.com/ds/yusptsprtspr/
 @@||atdmt.com^*/direct*01$domain=sprint.com
+@@||athleanx.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js
 @@||atm.acecounter.com/ac.js?tid=$domain=agabangmall.com
 @@||att.com/scripts/adobe/prod/$script,~third-party
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js$~third-party
@@ -5614,6 +5615,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||data-*.herz-fuer-tiere.de/*/bootstrap/loader.js$domain=herz-fuer-tiere.de
 @@||data-*.rtl.de/iomm/latest/bootstrap/stub.js$domain=rtl.de
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
+@@||datadoghq-browser-agent.com/datadog-logs.js$domain=linktr.ee
 @@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|dashboard.getdriven.app|hungryroot.com|usa.experian.com
 @@||datadoghq-browser-agent.com^$script,domain=hungryroot.com
 @@||datadome.co/js/$xmlhttprequest,domain=sso.garena.com
@@ -6962,8 +6964,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||s.thebrighttag.com/tag?site=$domain=sephora.com
 @@||s.visilabs.net/Target.js^$domain=boyner.com.tr
 @@||s.yjtag.jp/tag.js$domain=baseball.yahoo.co.jp|soccer.yahoo.co.jp
+@@||s.yjtag.jp/tag.js$domain=bousai.yahoo.co.jp
 @@||s.yjtag.jp/tag.js$domain=www.epson.jp
-@@||s.yjtag.jp/tag.js$script,domain=baseball.yahoo.co.jp|soccer.yahoo.co.jp|www.epson.jp
+@@||s.yjtag.jp/tag.js$script,domain=baseball.yahoo.co.jp|bousai.yahoo.co.jp|soccer.yahoo.co.jp|www.epson.jp
 @@||s.youtube.com/api/stats/playback?
 @@||s1.daumcdn.net/svc/original/U03/cssjs/userAgent$domain=tistory.com
 @@||s79.research.de.com/bb-mx/prime$domain=joyn.de
@@ -7438,6 +7441,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||yimg.com/mi/eu/ywa.js$domain=immowelt.de
 @@||yimg.com/ss/rapid-3.7.js$domain=deals.yahoo.com
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
+@@||yjtag.yahoo.co.jp/tag$script,domain=bousai.yahoo.co.jp
+@@||yjtag.yahoo.co.jp/tag?$script,domain=bousai.yahoo.co.jp
 @@||ynet.co.il/Common/App/Video/Gemius/gstream.js
 @@||ynetnews.com/Common/App/Video/Gemius/gstream.js
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
@@ -7495,6 +7500,7 @@ _stat_counter.php?
 _trackWebtrekkEvents.
 _track_pixel.gif?
 _tracking.php?b=
+_vercel/insights/
 _view_pixel&$image
 _webanalytics.
 aatyu.livedoor.blog#?#.article > div.plugin-memo:has(> div.side > div.ninja-recommend-block)
@@ -7506,6 +7512,8 @@ adseek.site#$##primary { display: block !important; }
 aena.es#%#//scriptlet("set-constant", "window.digitalChange", "noopFunc")
 agronews.com##a[alt="Яндекс.Метрика"]
 alternative.me,justjaredjr.com,r-graph-gallery.com#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick*="getOutboundLink"]')
+amazon.com%2Fgp%2Fr.html%3FC%3D*%26ref_%3Dpe_*_open$image
+amazon.com/gp/r.html?C=*&ref_=pe_*_open$image
 android-tools.ru###text-8
 androplus.org##a[href^="https://px.a8.net/"]
 anime-drama.jp###block-11
@@ -7573,6 +7581,8 @@ click.*.mc.philips.com$image
 click.e.change.org$image
 click.emails.paypal.com$image
 click.icptrack.com/icp/$image
+click.redditmail.com%2FCI0%2F$image
+click.redditmail.com/CI0/$image
 click_id=*_branch_referrer=$removeparam
 clickhole.com,lifehacker.com,splinternews.com,avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,qz.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#%#//scriptlet('set-constant', 'ga', 'noopFunc')
 clicks.hungryroot.com$image
@@ -7761,6 +7771,7 @@ list-manage.com/track$image
 livedoor.biz,ldblog.jp#?#.plugin-memo > div.side > a[href$="ziyu.net/"]:upward(2)
 livemint.com#%#//scriptlet('set-constant', 'dapTracker', 'emptyObj')
 livemint.com#%#//scriptlet('set-constant', 'dapTracker.track', 'noopFunc')
+lmqmpm.clicks.mlsend.com$image
 login.coupang.com#%#//scriptlet('prevent-element-src-loading', 'script', 'app-common/js/fingerprint/fingerprint.js')
 lto.de##img[src^="https://ssl-wolterskluwer.met.vgwort.de/"]
 lun.com#%#//scriptlet('set-constant', 'CallAjax', 'noopFunc')
@@ -7810,6 +7821,8 @@ nettiauto.com#%#//scriptlet("set-constant", "listingGoogleEETracking", "noopFunc
 news.biglobe.ne.jp##div[style="min-height: 610px"]
 news.mynavi.jp##.articleList-along
 news.mynavi.jp##.articleList-attention
+news.samsung.com%2Fus%2F%3Fnoti%3D$image
+news.samsung.com/us/?noti=$image
 news.webike.net###custom_html-5
 newsdig.tbs.co.jp#?#.l-contents-wrap > div[v-scope^="Recommend"]:upward(1)
 newslab.ru##.r-recommend
@@ -14710,6 +14723,7 @@ znak.com##.relap
 ||adsmetadata.startappk8s.com^
 ||adsn-da-00.hb-fa-dev.tt.omtrdc.net^
 ||adsoft.tt.omtrdc.net^
+||adsolutions.com^$third-party
 ||adspsp.com^
 ||adspsp.com^$third-party
 ||adsrvr.org^$third-party
@@ -17666,6 +17680,7 @@ znak.com##.relap
 ||api.telemetry.watchabc.go.com^
 ||api.teleport.testing.tt.omtrdc.net^
 ||api.test04.stage.tt.omtrdc.net^
+||api.testbook.com/api/*/popup
 ||api.testing-danny.tt.omtrdc.net^
 ||api.tinypass.com/api/v*/anon/error/log
 ||api.tomi.ai^$third-party
@@ -22191,6 +22206,7 @@ znak.com##.relap
 ||c.tt.omtrdc.net^
 ||c.tvpixel.com^$third-party
 ||c.vrt.be^
+||c.webengage.com^
 ||c.wen.ru^
 ||c.werally.com^
 ||c.woopic.com/tools/pdb.min.js
@@ -22943,6 +22959,7 @@ znak.com##.relap
 ||cgicounter.oneandone.co.uk^
 ||cgicounter.onlinehome.de^
 ||cgicounter.puretec.de^
+||cgmagonline.com/wp-content/plugins/perfmatters/js/analytics-minimal-v*.js
 ||cgqfsc.gemmyo.com^
 ||cgqkhc.trendyol.com^
 ||ch.credithypo.com^
@@ -25685,6 +25702,7 @@ znak.com##.relap
 ||d1tbj6eaenapdy.cloudfront.net^
 ||d1tracker.ru^
 ||d1uy7uzra011au.cloudfront.net^
+||d1vg5xiq7qffdj.cloudfront.net^
 ||d1wix2gc2cgqis.cloudfront.net^
 ||d1xfq2052q7thw.cloudfront.net^
 ||d1yu67rmchodpo.cloudfront.net^
@@ -30884,6 +30902,7 @@ znak.com##.relap
 ||emails.travelchannel.com^
 ||emails.verishop.com^
 ||emails.watchown.tv^
+||emailsnow.info^
 ||emailtest.trustmeimawebsite.com^
 ||emarbox.com^$third-party
 ||emarketeer.com/tracker/
@@ -32858,6 +32877,7 @@ znak.com##.relap
 ||fsugco.rcn.nl^
 ||fsz1.francoisesaget.com^
 ||ft.com/ingest?
+||ft.com^$cookie=spoor-id
 ||ft.groc.press^
 ||ftbpro.com^$third-party
 ||ftd.grotomarketing.com^
@@ -33093,6 +33113,7 @@ znak.com##.relap
 ||gamegecko.com/gametrack?
 ||gamejolt.com/tick/
 ||gameplanfinancial.actonservice.com^
+||gamerant.com/strpixel.png
 ||gamerch.com/s3-assets/library/js/fingerprint2.min.js$script,redirect=noopjs,important
 ||gamergen.com/ajax/actualites/addVue
 ||gamergirl.pro^$all
@@ -41608,6 +41629,7 @@ znak.com##.relap
 ||mail.finwellgroup.com^
 ||mail.google.com^*/flushimpressions?
 ||mail.kz/assets/frontend/img/counter.png
+||mail.proton.me/api/data/v1/stats
 ||mail.qq.com/cgi-bin/getinvestigate?
 ||mail.ru/count/
 ||mail.ru/dstat?
@@ -45214,6 +45236,8 @@ znak.com##.relap
 ||mioree2a.tt.omtrdc.net^
 ||miqeuu.timberland.it^
 ||mira.tt.omtrdc.net^
+||mirabelanalytics.com^
+||mirabelsmarketingmanager.com^$third-party
 ||mirec.ubmmexico.com^
 ||mirror.co.uk^$removeparam=int_source
 ||mirror.tt.omtrdc.net^
@@ -49361,19 +49385,16 @@ znak.com##.relap
 ||pixel.locker2.com^
 ||pixel.mintigo.com^
 ||pixel.mtrcs.samba.tv^
-||pixel.naij.com^
 ||pixel.newscgp.com^
 ||pixel.newscred.com^
 ||pixel.newsdiscover.com.au^
 ||pixel.nine.com.au^
 ||pixel.nur.kz^
-||pixel.parsely.com^
 ||pixel.pcworld.com^
 ||pixel.playbuzz.com^
 ||pixel.poptok.com^
 ||pixel.propublica.org^
 ||pixel.quantserve.com^
-||pixel.randi.adswizz.com
 ||pixel.reddit.com^
 ||pixel.redditmedia.com^
 ||pixel.redgifs.com^
@@ -49554,6 +49575,7 @@ znak.com##.relap
 ||plausible.buildfirst.tech^
 ||plausible.campwire.com^
 ||plausible.canpoi.com^
+||plausible.cgmagonline.com/api/event|
 ||plausible.citynews.ovh^
 ||plausible.conveyal.com^
 ||plausible.corbettbarr.com^
@@ -49622,6 +49644,7 @@ znak.com##.relap
 ||plausible.redchamp.net^
 ||plausible.regex.help^
 ||plausible.riok.ch^
+||plausible.ripped.guide^
 ||plausible.safing.io^
 ||plausible.sbw.org^
 ||plausible.shadygrovepca.org^
@@ -49650,6 +49673,7 @@ znak.com##.relap
 ||plavxml.com^$third-party
 ||play.fanslide.com^
 ||play.google.*^$removeparam=referrer
+||play.google.com/log
 ||play.google.com/newsstand/api/*/people/me/analytics^
 ||play.google.com^$removeparam=pcampaignid
 ||play.googleapis.com/log|
@@ -49713,7 +49737,6 @@ znak.com##.relap
 ||plotrabbit.com^$third-party
 ||plotzn.apmex.com^
 ||ploy.batmobi.net^
-||ploz.mangadex.org^
 ||pls.ambue.com^
 ||pls.fcrpg.net^
 ||pls.skycastle.dev^
@@ -51954,6 +51977,7 @@ znak.com##.relap
 ||roche.tt.omtrdc.net^
 ||rochelle.wantsext.me^
 ||rocket.ivi.ru/event/
+||rocketcdn.me/*/tracking.js
 ||rocketsoftware.tt.omtrdc.net^
 ||rockincontent.net^$third-party
 ||rocks.io^$third-party
@@ -52213,6 +52237,7 @@ znak.com##.relap
 ||runtimecollective.tt.omtrdc.net^
 ||rup5.destinia.ru^
 ||ruralrobin.com^
+||ruralrobin.com^$third-party
 ||rush.hrm.healthgrades.com^
 ||rushlane.com/*/ga-*.js
 ||rushmemorial.hrm.healthgrades.com^
@@ -53171,6 +53196,7 @@ znak.com##.relap
 ||scaredsnake.com^
 ||scaredsnake.com^$third-party
 ||scaredsnakes.com^
+||scaredsnakes.com^$third-party
 ||scaredstory.com^
 ||scaredstory.com^$third-party
 ||scaredswing.com^
@@ -53367,6 +53393,7 @@ znak.com##.relap
 ||sdk.appbrain.com/api/
 ||sdk.appsflyer.com^
 ||sdk.conscent.in^$third-party
+||sdk.fra-*.braze.eu^
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdk.qvol.tv/static/assets/vendor/yandex_metrica.js
 ||sdk.stats-locations.com^
@@ -54590,6 +54617,7 @@ znak.com##.relap
 ||simpleanalytics.io^$third-party
 ||simpleanalyticsbadge.com^$third-party
 ||simpleanalyticscdn.com^$third-party
+||simpleanalyticsexternal.com^$third-party
 ||simplehitcounter.com^$third-party
 ||simplelogin.io^$removeparam=slref
 ||simplereach.com^$third-party
@@ -57593,6 +57621,7 @@ znak.com##.relap
 ||socketviking.net^$third-party
 ||sockjs-goguardian.pusher.com^
 ||socsi.in^$third-party
+||socy.es^$third-party
 ||sodavialitytrk.com^
 ||sodoit.com^$third-party
 ||soejzg.efe.com.pe^
@@ -57911,6 +57940,7 @@ znak.com##.relap
 ||soundstocking.com^
 ||soundvenue.tns-gallup.dk^
 ||source-66584305d5.mainpost.de^
+||source.chromium.org/v1/logging
 ||sourcecode.pro^$third-party
 ||sourceforge.net/tracker/$~xmlhttprequest
 ||sourcepoint-mms.aetv.com^
@@ -58782,6 +58812,7 @@ znak.com##.relap
 ||ssl.pstatic.net/img.tvcast/pc/js/wcslog
 ||ssl.pstatic.net/static.gn/js/clickcrD.js$domain=~search.naver.com
 ||ssl.sc.amc.devk.de^
+||ssl.widgets.webengage.com^
 ||sslanalytics.sixt.es^
 ||sslanalytics.sixt.fr^
 ||sslmetrics.vivint.com^
@@ -60678,6 +60709,7 @@ znak.com##.relap
 ||stocksy.com^$cookie=stocksylytics_anon_id
 ||stockx.com/16uD0kOF/init.js
 ||stol.it/pcookie?
+||stomachscience.com^
 ||stonecalcom.com^$third-party
 ||stopify.co^$all
 ||stopphoulplay.com^$third-party
@@ -72077,6 +72109,7 @@ znak.com##.relap
 ||z.cdp-dev.cnn.com^
 ||z.inlist.com^
 ||z.opmnstr.com^
+||z.webengage.com^
 ||z0uolej1qnxzub1.info^
 ||z211.yourconroenews.com^
 ||z3k9si.covid-resources.com^
