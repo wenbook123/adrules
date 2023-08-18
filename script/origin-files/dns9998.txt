@@ -2,7 +2,7 @@
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules. 
 ! Homepage: https://kbsml.com
-! Last modified: 8/17/2023, 4:00:06 PM
+! Last modified: 8/18/2023, 8:00:04 AM
 !
 ||ad.southcn.com^
 ||media.ethicalads.io^
@@ -32177,6 +32177,8 @@ nfmovies.com#$##adleft { position: absolute!important; left: -3000px!important; 
 nfmovies.com#$#img[src^="/pic/tu/"] { visibility: hidden!important; }
 nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 ||nfmovies.com/static/*.jpg$image,redirect=1x1.gif
+youku.com#$?#.swiper-container-horizontal > div.swiper-wrapper > div.swiper-slide:has(a[href*="/tg.602.com/"]) { remove: true; }
+youku.com#$?#.newswiper_big_swiper_container > div.swiper-container-horizontal > div.swiper-wrapper > div.swiper-slide:has(> a[data-href]:not([data-href^="https://v.youku.com/"]):not([data-scm])) { remove: true; }
 lihkg.com#?#div[data-body-portal] > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[class]:has(> div[class^="_"] ins.adsbygoogle)
 forum.hkgolden.com#?#body > div[class^="jss"]:has(> div[class][style^="transform"]:only-child > div[class] > div[data-role="ad"])
 lihkg.com#?#div[id][class][data-post-id] + div[class]:not([id]):not([data-post-id]):has( > div[class]:only-child > div > div[id^="gam-"]:only-child)
@@ -32194,7 +32196,6 @@ m.nivod5.tv,m.nivod4.tv#?##hellBoy > li[track-by="$index"] > div[style] > .show-
 m.nivod5.tv,m.nivod4.tv#?#.slider-group > .nut-swiper > .nut-swiper-inner > .nut-swiper-item:has(> .swiper-page > span:contains(/^AD/))
 hdmoli.com#?#.row > div.myui-panel:has(div[style^="text-align:"] > a[href][target="_blank"] > img#index_banner)
 bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }
-bilibili.com#$?#.container > div[class*="-card"]:has(div[style="display: none !important;"]) { remove: true; }
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
 bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
@@ -32469,6 +32470,8 @@ ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###resul
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .result ~ div:not([class]):not([style])
 /^(?!.*(sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top
 $script,third-party,denyallow=sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com
+httpcn.com##a[href^="http://www.okbmf.com/"] > img
+v.youku.com##.advertise-layer
 setn.com##.e_ad
 md.hkgolden.com##.hkg-ad
 ||dnxtc.net/images/xiaobing
@@ -35397,6 +35400,7 @@ newduba.cn###jq_youxi
 ||berjzj.xyz^
 ||berylnbb.com^
 ||betcss.site^
+||bfjk360.com^
 ||bftqdd.xyz^
 ||bgdizsay.icu^
 ||bhjuy10.com^
@@ -35448,6 +35452,7 @@ newduba.cn###jq_youxi
 ||dalmfn.xyz^
 ||dasv10rewq.xyz^
 ||dbnwlp.xyz^
+||dcsxv.com^
 ||dd667788dd.com^
 ||dd778899dd.com^
 ||ddush.xyz^
@@ -35463,6 +35468,7 @@ newduba.cn###jq_youxi
 ||dghkpp.xyz^
 ||dhjrvj.xyz^
 ||dhkipdsc.xyz^
+||dnceqzz.icu^
 ||dnightwish.xyz^
 ||dojyiu8.com^
 ||donchen501.cn^
@@ -35504,8 +35510,10 @@ newduba.cn###jq_youxi
 ||feiln.xyz^
 ||fengyukun03.cn^
 ||fhglcpf.icu^
+||fiktvlnc.icu^
 ||fjsytjs.cn^
 ||fjtroip.cn^
+||fmre1.com^
 ||foirkrt.icu^
 ||fszpzd.xyz^
 ||fuliwang.cc^
@@ -35533,6 +35541,7 @@ newduba.cn###jq_youxi
 ||hdpdrandpd.xyz^
 ||hegk01a.top^
 ||hegk03a.top^
+||hfjk3wa.com^
 ||hfqdipw.cn^
 ||hgehse.site^
 ||hgf8hck.com^
@@ -35614,6 +35623,7 @@ newduba.cn###jq_youxi
 ||kklpe.xyz^
 ||kljslku.com^
 ||klufjdo.com^
+||kmjndas.com^
 ||kmnhgna.com^
 ||knjmhmk.com^
 ||kodfn.xyz^
@@ -35730,6 +35740,7 @@ newduba.cn###jq_youxi
 ||qrirud.xyz^
 ||qselic.top^
 ||qslbahy.top^
+||qucncfo.cn^
 ||qwdbsjnql.com^
 ||rabuagc.cn^
 ||rdbousn.cn^
@@ -35746,6 +35757,7 @@ newduba.cn###jq_youxi
 ||ronbbf.xyz^
 ||rpyor0k.xyz^
 ||rssxsjh.icu^
+||rszkhn.xyz^
 ||rtborp.xyz^
 ||rtumdhdk.xyz^
 ||rtumwzp.icu^
@@ -35779,6 +35791,7 @@ newduba.cn###jq_youxi
 ||tggsd07.com^
 ||thesac2.top^
 ||thesac3.top^
+||thesac4.top^
 ||thesac7.top^
 ||tifyeldi.top^
 ||tknkfd.xyz^
@@ -35883,20 +35896,16 @@ newduba.cn###jq_youxi
 ||ziravd.xyz^
 ||znyjmbh.icu^
 ||zonyff.xyz^
-||bfjk360.com^
-||zzisnvb.cn^
-||thesac4.top^
-||kmjndas.com^
-||dnceqzz.icu^
-||rszkhn.xyz^
-||hfjk3wa.com^
-||fmre1.com^
-||fiktvlnc.icu^
-||qucncfo.cn^
 ||zszhln.xyz^
+||zglmvz.xyz^
+||xn--521-x72fh66s.cn^
+||apdfmhp.cn^
+||thesac5.top^
+||rcblfd.xyz^
 ||zvasuzb.icu^
 ||zxrcfw.com^
 ||zypzzv.xyz^
+||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/ky6y.com"]
