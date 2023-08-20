@@ -8342,7 +8342,7 @@ brainly.*,eodev.com##+js(nostif, trigger, 0)
 eodev.com##+js(aopr, localStorage)
 @@*$ghide,domain=brainly.*|eodev.com
 brainly.*##[class^="BrainlyAdsPlaceholder"]
-brainly.*##.brn-ads-box
+brainly.*,eodev.com##.brn-ads-box
 brainly.*,eodev.com##.js-scroll-to-unlock-section.brn-kodiak-answer-redesigned__unlock
 brainly.*##+js(aopr, __brn_private_mode)
 
@@ -11365,6 +11365,8 @@ crunchyroll.com##+js(json-prune, value.media.ad_breaks)
 crunchyroll.com##+js(nosiif, onAdVideoStart)
 crunchyroll.com###template_skin_leaderboard
 ! https://www.reddit.com/r/uBlockOrigin/comments/15vf9oj/problems_with_crunchyroll/
+! https://github.com/easylist/easylist/issues/17104
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,domain=crunchyroll.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=crunchyroll.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6029
@@ -14226,13 +14228,9 @@ new-gomovies.*##+js(aopr, Date.prototype.toUTCString)
 ||fundingchoicesmessages.google.com^$3p
 ! https://github.com/orgs/uBlockOrigin/teams/ublock-filters-volunteers/discussions/289
 ! google contributor anti adblock
-#@#.div-gpt-ad
-! for the french list
-#@#div[class^="div-gpt-ad"]
 #@#[class^="div-gpt-ad"]
 #@#[id^="div-gpt-ad"]
 #@#div[id^="div-gpt-"]
-##.div-gpt-ad:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 ##[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 ##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 ##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
