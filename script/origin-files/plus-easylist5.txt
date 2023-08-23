@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202308220118
+! Version: 202308230109
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 73328
+! Lenth = 73336
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -598,6 +598,7 @@ $removeparam=yclid
 $removeparam=ymid
 $removeparam=ysclid
 $third-party,xmlhttprequest,domain=opensubtitles.org
+%2Ftrack%2Fopen.php%3Fu%3D$image
 &EventType=Impression&
 &action=confection_send_data&
 &action=js_stats&
@@ -4940,13 +4941,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://email.*/e/o/
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*.com/dye?
-://img.promio-connect.com/
 ://internal-matomo.
 ://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
 ://mint.*/?js
-://omni.soundestlink.com/$image
 ://parcel-api.delivery-status.*/open/$image
 ://piwik.$domain=~matomo.org|~piwik.pro
 ://ply.*/?v=$image,third-party
@@ -5168,6 +5167,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||api.cxense.com/public/widget/data$domain=friday.gold
 @@||api.cxense.com/public/widget/data$domain=friday.kodansha.co.jp
 @@||api.cxense.com/public/widget/data$domain=gizmodo.jp
+@@||api.cxense.com/public/widget/data?$domain=bizjournals.com
 @@||api.cxense.com/public/widget/data?$domain=mainichi.jp
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
 @@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
@@ -5193,7 +5193,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||api.mixpanel.com/track/*$domain=etcher.io
 @@||api.mixpanel.com/track/?data=$xmlhttprequest,domain=deezer.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
+@@||api.personaclick.com/init$domain=elektromarketim.com
 @@||api.personaclick.com/init$domain=koctas.com.tr
+@@||api.personaclick.com/recommend/$domain=elektromarketim.com
 @@||api.personaclick.com/recommend/$domain=koctas.com.tr
 @@||api.phnx.click/js/article-stat-v2.js$domain=smak.ua
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
@@ -5356,6 +5358,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cdn.crowdtwist.com/img/$image,domain=myperks.catchow.com
 @@||cdn.cxense.com/cx*.js$domain=bangkokpost.com
 @@||cdn.cxense.com/cx*.js$domain=tn.com.ar
+@@||cdn.cxense.com/cx.cce.js$domain=bizjournals.com
 @@||cdn.cxense.com/cx.cce.js$domain=dhnet.be
 @@||cdn.cxense.com/cx.cce.js$domain=euractiv.com
 @@||cdn.cxense.com/cx.cce.js$domain=journaldemontreal.com
@@ -5363,6 +5366,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cdn.cxense.com/cx.cce.js$domain=president.jp
 @@||cdn.cxense.com/cx.cce.js$domain=wsj.com
 @@||cdn.cxense.com/cx.js$domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
+@@||cdn.cxense.com/cx.js$domain=bizjournals.com
 @@||cdn.cxense.com/cx.js$domain=cdn.cxpublic.com
 @@||cdn.cxense.com/cx.js$domain=dhnet.be
 @@||cdn.cxense.com/cx.js$domain=euractiv.com
@@ -5402,6 +5406,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cdn.optimizely.com/js/8143030612.js$domain=bestbuy.com
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
+@@||cdn.personaclick.com/shop_css/$domain=elektromarketim.com
+@@||cdn.personaclick.com/v*.js$domain=elektromarketim.com
 @@||cdn.personaclick.com^$domain=koctas.com.tr
 @@||cdn.petametrics.com/*.js$domain=lanacion.com.ar
 @@||cdn.petametrics.com/*.js$domain=ranker.com
@@ -7160,6 +7166,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||static.mytf1.tf1.fr/assets/js/build/lib/smarttag.js$domain=tf1.fr
 @@||static.parsely.com/p.js$domain=nfl.com
 @@||static.parsely.com^$script,domain=dailystar.co.uk|express.co.uk|nydailynews.com
+@@||static.personaclick.com/Elektromarketim/$domain=elektromarketim.com
 @@||static.rpxnow.com/js/lib/rpx.js$domain=colbertnation.com|thedailyshow.com
 @@||static.vocstatic.com^$script,domain=areapersonal.hoy.es
 @@||statics.cfmcdn.net/*/scripts/webtrends-$script,domain=cheapflights.com
@@ -7433,6 +7440,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||ws.skoda-auto.com/sap/*_piwik/Piwik.js
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||wurfl.io/wurfl.js$domain=adshnk.com
+@@||wurfl.io/wurfl.js$domain=onlinetouch.nl
 @@||wwa.wipe.de/wwa.js$domain=mobil.dasoertliche.de
 @@||wwe.com/sites/all/modules/wwe/wwe_analytics/s_wwe_code.js
 @@||www.googletagmanager.com^$domain=onlineshop.smt.docomo.ne.jp
@@ -7599,6 +7607,7 @@ click_id=*_branch_referrer=$removeparam
 clickhole.com,lifehacker.com,splinternews.com,avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,qz.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#%#//scriptlet('set-constant', 'ga', 'noopFunc')
 clicks.hungryroot.com$image
 clicks.mlsend.com$image
+clicks.mlsend2.com$image
 close.io/email_opened$image
 club-opel.com##.toplist
 club.berkovich-zametki.com,koneta.nifty.com###custom_html-2
@@ -7655,12 +7664,14 @@ elpais.com,chip.de,moviepilot.com,madison.com,promiflash.de,trendblog.net,qctime
 email-links.buffer.com$image
 email.aol.net$image
 email.azurareborn.com$image
+email.cloud2.secureclick.net$image
 email.feedrabbit.com$image
 email.mail2.smartrmail.co$image
 email.mg-d1.substack.com$image
 email.mgtp01.squarespace-mail.com$image
 email.mixmax.com/e/o$image
 email.nirandfar.com$image
+email.send.aliyana.in$image
 email.wetransfer.com$image
 embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream', 'emptyObj')
 embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream.event', 'noopFunc')
@@ -7669,6 +7680,7 @@ eotrx.substackcdn.com$image
 ero-anime.net###top_area_under
 ero-anime.net#?##side_col #index_side_widget:has(.ninja-recommend-block)
 espreso.tv##.wrap-footer .counter
+esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 esputnik.com/repository/applications/commons/hidden.png
 europcar.com###wt_overlay
 exct.net/open.aspx$image
@@ -7778,11 +7790,13 @@ link.seguno-mail.com$image
 link.theatlantic.com$image
 link.theskimm.com$image
 link.theverge.com$image
+link.thirdlove.com$image
 link.vox.com$image
 links.email.digg.com$image
+links.kahoot.com$image
 links.newsletter.fortune.com$image
 links.theskimm.com$image
-list-manage.com/track$image
+list-manage.com*track$image
 livedoor.biz,ldblog.jp#?#.plugin-memo > div.side > a[href$="ziyu.net/"]:upward(2)
 livemint.com#%#//scriptlet('set-constant', 'dapTracker', 'emptyObj')
 livemint.com#%#//scriptlet('set-constant', 'dapTracker.track', 'noopFunc')
@@ -7804,6 +7818,8 @@ mailchimp.com$removeparam=amp%3Bafl
 mailchimp.com$removeparam=amp%3Baid
 mailchimp.com$removeparam=amp%3Butm_campaign
 mailchimp.com$removeparam=amp%3Butm_medium
+mailchimp.com%2Fmctx%2Fopens$image
+mailchimp.com/mctx/opens$image
 mailfoogae.appspot.com$image
 mailing.pbank.com.ua$image
 mailstat.us/tr$image
@@ -7846,6 +7862,7 @@ newsweekjapan.jp##.taboola-below-article-thumbnails-desktop-2-wrap
 nine.com.au#%#(()=>{window.tracking={setConfig(){},trackPage(){},trackVideoAutoFail(){}}})();
 nine.com.au#%#//scriptlet('prevent-element-src-loading', 'script', 'share.9cdn.net/share/long_cache/js/tracking/tracking')
 nlab.itmedia.co.jp##div[id^="logly-"] + div.h10px.colBoxClear
+nnw.soundestlink.com$image
 norisoku.com###random
 northerntool.com#%#//scriptlet('prevent-xhr', 'configure.rapid.js')
 northerntool.com#%#AG_onLoad((function(){"function"===typeof window.Yo?.rum?.initialize&&Yo.rum.initialize()}));
@@ -7857,6 +7874,7 @@ ntp.msn.com#%#AG_defineProperty("navigator.getBattery",{value:function(){return 
 ntp.msn.com#@%#navigator.getBattery = undefined;
 nukeruerodouga.com#?##main-right > div.right_area > div.ninja-recommend-block:upward(2)
 nukigazo.com###text-2
+nyb.soundestlink.com*track$image
 nytimes.com#%#//scriptlet("set-constant", "Navigator.prototype.joinParakeetInterestGroup", "noopFunc")
 oceans-nadia.com##.gtm-bnr-rensai
 okazuch.site###custom_html-30
@@ -7926,7 +7944,9 @@ seshop.com,shoeisha.co.jp###cceol
 setafi.com##.footer_bl-3
 shockwave.com#%#(function(){window.swua={swEvent:function(){}}})();
 shutterstockmail.com/pub/as?_ri_=$image
+signup.com$image
 sinoptik.ua###bigmirTop
+site123.com*openedMessages.php$image
 sli.fortune.com$image
 sli.thedailybeast.com$image
 sli.wired.com/imp?s$image
@@ -7954,9 +7974,10 @@ tensaigakkou.ru###custom_html-16
 textologia.ru##.bot_right
 the-ans.jp##.side-reccomend
 the-japan-news.com#%#//scriptlet('set-cookie-reload', 'fp', '1')
-thebell.io/admin/images/email/blank.gif$image
 thehill.com###block-thehill-blocks-amp-outbrain
 theqoo.net##.theqoo-counter
+thestar.com##.viafoura-engagement-starter
+thestar.com##div[data-lpos="you-might-be-interested-in"]
 thg.ru#?#td[valign="top"] > table > tbody > tr:has(> td > table[cellpadding="0"] a[href^="http://top100.rambler.ru/"])
 tieba.baidu.com#%#//scriptlet('set-constant', 'passFingerPrint', 'noopFunc')
 timesnownews.com#%#//scriptlet("set-constant", "ga", "noopFunc")
@@ -7969,6 +7990,7 @@ track.customer.io$image
 track.email.stackcommerce.com/q/$image
 track.mixmax.com/api$image
 track.msg.fortune.com$image
+track.team.kahoot.com$image
 trackedlink.net$image
 tracking.cirrusinsight.com$image
 tracking.newsletter.m6.fr$image
@@ -10224,6 +10246,7 @@ znak.com##.relap
 ||a.bf-tools.net/de/de.js
 ||a.bigtennetwork.com^
 ||a.bitmango.com^
+||a.brack.ch^
 ||a.careangel.com^
 ||a.cdn-hotels.com/cos/travel-pixel/
 ||a.centrum.cz^
@@ -19480,6 +19503,7 @@ znak.com##.relap
 ||audiselectplusrybnik-selectplus-plus.tt.omtrdc.net^
 ||audit.303br.net^
 ||audit.median.hu^
+||audit.qiuwen.net.cn^
 ||audit.qiuwen.wiki/analytics.js
 ||audit.shaa.it^
 ||auditorcanary-canary-prod-va7.dev.cloud.tt.omtrdc.net^
@@ -22696,6 +22720,7 @@ znak.com##.relap
 ||cars.com/ajax/activityloggingapi^
 ||cars.smartfleetaustralia.com.au^
 ||cars.smartleasing.com.au^
+||carsandbids.com/a/p
 ||carscannon.com^
 ||carscannon.com^$third-party
 ||cart.matsuzaka-steak.com^
@@ -31090,6 +31115,8 @@ znak.com##.relap
 ||email.msg.navyfederal.org^
 ||email.msg.workday.com^
 ||email.mymandg.co.uk^
+||email.nationalgeographic.com^$removeparam=__F__
+||email.nationalgeographic.com^$removeparam=__dU__
 ||email.nautiljon.com/oo/$image
 ||email.pac-12.com^
 ||email.participaction.com^
@@ -34083,6 +34110,7 @@ znak.com##.relap
 ||go.betbonusbrasil.com^
 ||go.betql.co^
 ||go.bicho365.com^
+||go.bidfluence.com^
 ||go.bigo.tv^
 ||go.bil-jac.com^
 ||go.bilt.page^
@@ -37062,6 +37090,7 @@ znak.com##.relap
 ||imgs.signifyd.com^
 ||imgsen.com/vtrack
 ||imgsmail.ru/gstat?
+||imgssl.constantcontact.com/letters/images/sys/S.gif
 ||imgstat.baidu.com^
 ||imgur.com/albumview.gif?
 ||imgur.com/imageview.gif?
@@ -44783,7 +44812,6 @@ znak.com##.relap
 ||metrics.explore.calvinklein.com^
 ||metrics.extraespanol.warnerbros.com^
 ||metrics.extratv.warnerbros.com^
-||metrics.extremetech.com^
 ||metrics.faceipf.com^
 ||metrics.familiaynutricion.com.co^
 ||metrics.fancl.co.jp^
@@ -50961,7 +50989,6 @@ znak.com##.relap
 ||pub.toku-tag.jp^$third-party
 ||pubdream.com^$third-party
 ||pubexchange.com^$third-party
-||pubgw.yahoo.com^
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.profitwell.com^
 ||publications.nomination.fr^
@@ -60106,7 +60133,6 @@ znak.com##.relap
 ||stat.ws.126.net^
 ||stat.www.fi^
 ||stat.www.fi^$third-party
-||stat.xhamsterpremium.com^
 ||stat.y.qq.com^
 ||stat.youku.com^
 ||stat.zol.com.cn^
@@ -60346,7 +60372,6 @@ znak.com##.relap
 ||stats.beatricew.com^
 ||stats.beausimensen.com^
 ||stats.beautility.makerkits.co^
-||stats.behance.net^
 ||stats.belic.si^
 ||stats.bellflowerlactation.com^
 ||stats.bentleymotors.com^
@@ -60795,7 +60820,6 @@ znak.com##.relap
 ||stats.lumension.com^
 ||stats.lussoveloce.com^
 ||stats.m2m-mobil.de^
-||stats.macmillanusa.com^
 ||stats.macosicons.com^
 ||stats.madeit.io^
 ||stats.madethis.gallery^
@@ -61086,7 +61110,6 @@ znak.com##.relap
 ||stats.staging.hex.pm^
 ||stats.steepandcheap.com^
 ||stats.steuer-soldaten.de^
-||stats.storify.com^
 ||stats.strawberry.rocks^
 ||stats.streamhub.io^
 ||stats.streamhub.io^$third-party
@@ -61161,9 +61184,7 @@ znak.com##.relap
 ||stats.trussed.dev^
 ||stats.tsas.ca^
 ||stats.tubecalculator.co.uk^
-||stats.tudou.com^
 ||stats.tunt.lv^
-||stats.tvmaze.com^
 ||stats.twhl.xyz^
 ||stats.twistage.com^
 ||stats.ubiwiz.com^
@@ -61178,7 +61199,6 @@ znak.com##.relap
 ||stats.urlaubsverwaltung.cloud^
 ||stats.uscreen.io^
 ||stats.useeffect.dev^
-||stats.uswitch.com^
 ||stats.uticorp.com^
 ||stats.uxtools.co^
 ||stats.v4.agirpourlenvironnement.org^
@@ -61295,14 +61315,12 @@ znak.com##.relap
 ||statsp.fpop.net^$third-party
 ||statsrely.com^$third-party
 ||statssheet.com^$third-party
-||statstracker.celebrity-gossip.net^
 ||statsw.com^$third-party
 ||statswebtown.com^$third-party
 ||statsy.net^$third-party
 ||statt-collect.herokuapp.com^
 ||stattds.club^$third-party
 ||stattooz.com^$third-party
-||stattrack.0catch.com^
 ||stattrax.com^$third-party
 ||statuesquebrush.com^
 ||statuesquebrush.com^$third-party
@@ -61329,7 +61347,6 @@ znak.com##.relap
 ||stbg.standardbank.com^
 ||stbt.coupons.com^
 ||stc.store.page.zaloapp.com^
-||stcollection.moneysupermarket.com^
 ||stcounter.com^$third-party
 ||std-lab.jp/js/analytics.js.php
 ||std.o.globalacademycme.com^
@@ -62209,6 +62226,7 @@ znak.com##.relap
 ||synthasite.net^$third-party
 ||synthesizespoon.com^
 ||synthesizespoon.com^$third-party
+||synthira.ru/*.php|$script
 ||sypuhe.thelittlegreenbag.nl^
 ||syqhvv.vivense.com^
 ||syqtujmpyc.tcp.meet.arkena.hb.tt.omtrdc.net^
@@ -62351,7 +62369,6 @@ znak.com##.relap
 ||t.biooncology.com^
 ||t.birchlane.com^
 ||t.blablacar.com^
-||t.blinkist.com^
 ||t.blog.livedoor.jp/u.js
 ||t.bluehens.com^
 ||t.bndestem.nl^$image
@@ -62684,7 +62701,6 @@ znak.com##.relap
 ||t0y.toyota.ca^
 ||t1.ask1.co^
 ||t1.benefits.tops.co.th^
-||t1.clipkit.com^
 ||t1.daumcdn.net/language/cssjs/*/js/lib/userAgent
 ||t1.discover.flashnews.com.au^
 ||t1.musthird.com^
@@ -63429,7 +63445,6 @@ znak.com##.relap
 ||telemetry-beta2.x.tt.omtrdc.net^
 ||telemetry-in.battle.net^
 ||telemetry.adobe.io^
-||telemetry.allrecipes.com^
 ||telemetry.api.playstation.com^
 ||telemetry.api.swiftkey.com^
 ||telemetry.api.wmcdp.io^$third-party
@@ -65879,7 +65894,6 @@ znak.com##.relap
 ||track.cursosdegestionlogisticaenlinea.com^
 ||track.cursosenfermeriahoy.com^
 ||track.customer.io^
-||track.custora.com^
 ||track.cyberpowercenter.com^
 ||track.da2hit.com^
 ||track.dailydrivepro.com^
@@ -65950,7 +65964,6 @@ znak.com##.relap
 ||track.ecomhub.agency^
 ||track.edu-info.jp^
 ||track.effiliation.com^
-||track.effitarget.com^
 ||track.electromastercenter.com^
 ||track.electroworkforyou.com^
 ||track.elmundodeloscruceros.com^
@@ -66187,7 +66200,6 @@ znak.com##.relap
 ||track.livecamtracker.com^
 ||track.livesimplelife.club^
 ||track.livexsite.com^
-||track.lobi.co^
 ||track.lookerpets.com^
 ||track.louefroid.com^
 ||track.luciawellness.com^
@@ -66272,7 +66284,6 @@ znak.com##.relap
 ||track.odinenergyut.com^
 ||track.officialflexup.com^
 ||track.ogrowthlabs.com^
-||track.omgpl.com^
 ||track.onlineappdesigncourses.com^
 ||track.openfixdeckco.com^
 ||track.oricare.ro^
@@ -66335,7 +66346,6 @@ znak.com##.relap
 ||track.pursuittrustcorp.com^
 ||track.push-ad.com^
 ||track.pushbullet.com^
-||track.qcri.org^
 ||track.qoof.com^
 ||track.quad.com^
 ||track.quickestcoverage.com^
@@ -66487,7 +66497,6 @@ znak.com##.relap
 ||track.topflighttrack.com^
 ||track.topplansforyou.cloud^
 ||track.toptechnews.news^
-||track.toroadvertising.com^
 ||track.tourotrilionario.com^
 ||track.tproger.ru^
 ||track.trackerop.com^
@@ -66674,7 +66683,6 @@ znak.com##.relap
 ||tracker-iat.tt.omtrdc.net^
 ||tracker-rec.smart-bdash.com^
 ||tracker.520call.me^
-||tracker.77player.xyz^
 ||tracker.adbinead.com^
 ||tracker.adotmob.com^
 ||tracker.affiliate.iqbroker.com^
