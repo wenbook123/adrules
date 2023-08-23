@@ -1,8 +1,8 @@
-! Checksum: Vk6HwBvowIVsNzoG1pQoAw
+! Checksum: r2+iAAyDLBe3Zt8yBY24qA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.96.72
-! TimeUpdated: 2023-08-23T04:31:17+00:00
+! Version: 2.0.96.75
+! TimeUpdated: 2023-08-23T14:31:21+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -574,7 +574,6 @@ m.twfanti.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=m.twfanti.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=m.twfanti.com,important
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112323
-slashview.com#@#.adsbygoogle
 slashview.com#$##SlashviewAdDetector { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110294
 520call.me#%#//scriptlet("set-constant", "all520dddaaa2022aaa", "undefined")
@@ -792,9 +791,6 @@ ddys.*,ddrk.me#%#//scriptlet('set-constant', 'Object.prototype.cnobpreroll_', 't
 ddys.*,ddrk.me#%#//scriptlet('set-constant', 'Object.prototype.canobpreroll_', 'true')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73877
 league-funny.com#%#//scriptlet("prevent-setTimeout", "ad_num_show")
-! https://github.com/AdguardTeam/AdguardFilters/issues/73958
-blog.reh.tw#@#.adsbygoogle
-blog.reh.tw#%#//scriptlet("prevent-setTimeout", "killads.offsetHeight === 0")
 ! hotpress.info anti adblock
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72413
@@ -2920,8 +2916,6 @@ baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar)
 @@||hdslb.com/u_user/$~object,domain=bilibili.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/4530
 @@||hdslb.com/bfs/archive/*@$domain=bilibili.com,image
-! https://github.com/AdguardTeam/AdguardFilters/issues/4652
-sockscap64.com#@#.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/14051
 @@||cnzz.com/z_stat.php$domain=newsite.sherpa.com.cn
 ! https://github.com/AdguardTeam/AdguardFilters/issues/20783
@@ -5239,6 +5233,7 @@ newduba.cn###jq_youxi
 ||hegk02a.top^
 ||pnlhnx.xyz^
 ||oqyiapj.cn^
+||zpotkvpy.icu^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
@@ -14817,6 +14812,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||sentcss.com/get/cors/spread/
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
