@@ -1417,6 +1417,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||lpoms.com^$all
 ||psfmi.com^$all
 ||gftet.com^$all
+||fwern.com^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136693
 /axad/?lpkey=$doc
@@ -3579,6 +3580,11 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 
 ! https://github.com/uBlockOrigin/uAssets/pull/19359
 ||vencord.app^$all,domain=~vencord.dev
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/159825
+/^https:\/\/[a-z]{5,7}\.[0-9a-z]{12}\.top\/[0-9a-f]{32}\/[0-9-a-f]{32}\/$/$doc,match-case,domain=top
+/\/[0-9a-f]{32}\/maq\/$/$doc,match-case,domain=com|top
+/antivirus/main/cleaner-default/*$doc
 
 
 
