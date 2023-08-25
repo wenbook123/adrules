@@ -23,26 +23,13 @@ youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkle
 ! https://github.com/uBlockOrigin/uAssets/pull/18106/
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playabilityStatus.liveStreamability)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playerResponse.playabilityStatus.liveStreamability)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, streamingData.adaptiveFormats.6)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playerResponse.streamingData.adaptiveFormats.6)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, captions)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playerResponse.captions)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, responseContext.serviceTrackingParams.2)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playerResponse.responseContext.serviceTrackingParams.2)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, attestation.playerAttestationRenderer.botguardData.interpreterSafeUrl.privateDoNotAccessOrElseTrustedResourceUrlWrappedValue)
 ! https://www.reddit.com/r/uBlockOrigin/comments/154vtwy/getting_ads_on_youtube/jsu299l/
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 !#if ext_devbuild
-youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playabilityStatus.liveStreamability)
-youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playerResponse.playabilityStatus.liveStreamability)
-youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, streamingData.adaptiveFormats.6)
-youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playerResponse.streamingData.adaptiveFormats.6)
-youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, captions)
-youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playerResponse.captions)
-youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, responseContext.serviceTrackingParams.2)
-youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playerResponse.responseContext.serviceTrackingParams.2)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , /^(?=.*\.js)(?!.*[A-z]hb \S+polymer).*/)
 !#endif
 ! https://github.com/uBlockOrigin/uAssets/issues/7636#issuecomment-1674303331
@@ -751,7 +738,6 @@ familyhandyman.com##.cm-ad-unit-section
 
 ! https://github.com/uBlockOrigin/uAssets/issues/273
 cwseed.com##+js(aopr, admrlWpJsonP)
-cwtv.com##+js(acs, document.createElement, admiral)
 cwtv.com##+js(noeval)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/278
@@ -1903,7 +1889,6 @@ magesy.*,audioztools.com##+js(no-fetch-if, adsbygoogle)
 audiotools.pro,magesy.blog,magesypro.pro,audioztools.com##+js(noeval-if, blocker)
 audiotools.pro,magesy.blog,magesypro.pro,audioztools.com##+js(nostif, Blocked)
 magesy.download,audioztools.com##+js(acs, addEventListener, google_ad_client)
-audiotools.pro,magesypro.pro,magesy.*##+js(acs, document.createElement, admiral)
 magesy.*,magesypro.pro##+js(aost, document.getElementById, adsBlocked)
 audioztools.com##+js(nostif, nextFunction)
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
@@ -9898,9 +9883,6 @@ imgdawgknuttz.com##^script[data-cfasync]:has-text(h=decodeURIComponent)
 ||imgdawgknuttz.com/*.php$script,1p
 ||xxxwebdlxxx.org^$image,domain=imgdawgknuttz.com
 
-! https://github.com/uBlockOrigin/uAssets/issues/5452
-informazionefiscale.it##+js(acs, document.createElement, admiral)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/5450
 @@||javsubtitle.co^$ghide
 javsubtitle.co###impanel
@@ -10248,9 +10230,6 @@ hentaifox.com##+js(popads-dummy)
 ! https://github.com/NanoAdblocker/NanoFilters/issues/328
 sataniabatch.blogspot.com##+js(nofab)
 
-! https://github.com/uBlockOrigin/uAssets/issues/14552
-esportstales.com##+js(acs, document.createElement, admiral)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/5568
 @@||csm.dev^$ghide
 
@@ -10526,8 +10505,10 @@ moviflex.*##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5698
 ! https://github.com/NanoMeow/QuickReports/issues/3261
+! https://github.com/uBlockOrigin/uAssets/issues/19463
 ||welect.de^$3p
 ||wlct-one.de^$3p
+||wlct-three.de^$3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5699
 ||edgecast-vod.yimg.com/$media,redirect=noopmp3-0.1s,domain=yahoo.com
@@ -10839,7 +10820,6 @@ dictionnaire-medical.net##+js(nostif, nextFunction, 2000)
 ! https://github.com/uBlockOrigin/uAssets/issues/9158
 @@||money.it^$ghide
 money.it##.gptslot
-money.it##+js(acs, document.createElement, admiral)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5877
 nonktube.com##+js(nowoif)
