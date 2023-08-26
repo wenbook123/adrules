@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: LXVqSH/R0U3M5c7/F2wy8Q
+! Checksum: nTdfqX6CtCB/kVWuABaptQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-26 00:17:12（北京时间） 
-! Total count: 15083
+! Version: 2023-08-26 08:44:47（北京时间） 
+! Total count: 15086
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -1801,6 +1801,8 @@
 @@||api-global.netflix.com^
 @@||api-gw.spot.im/v*/feed/spot/sp_*/$domain=bizpacreview.com
 @@||api-js.datadome.co/js/$domain=sso.garena.com
+@@||api-js.datadome.co/js/|$stealth,domain=auth.garena.com
+@@||api-js.datadome.co/js/|$xmlhttprequest,domain=auth.garena.com
 @@||api-maps.yandex.ru/services/startup/$stealth
 @@||api-public.stoerungsauskunft.de/api$stealth
 @@||api-rewarded-video.fyber.com^$app=net.wooga.tropicats_tropical_cats_puzzle_paradise
@@ -8233,6 +8235,7 @@
 @@||js.appboycdn.com/web-sdk/*/appboy.min.js$domain=learning.edx.org
 @@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$domain=account.samsung.com
+@@||js.datadome.co/tags.js$domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.datadome.co/tags.js^$domain=hermes.com
 @@||js.digitalriverws.com/*/components/$stealth
