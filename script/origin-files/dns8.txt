@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sS3KyfN0e80bkBo4ERI2lw
+! Checksum: KIUA7CNgNwvv8uh/kAK5gg
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202308292338
-! Last modified: 2023-08-29 23:38 UTC
+! Version: 202308300638
+! Last modified: 2023-08-30 06:38 UTC
 ! Expires: 3 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1000,7 +1000,6 @@
 /adv/preroll_
 /adv/skin.
 /adv/skin_
-/adv/sponsor/*
 /adv1.
 /adv2.$domain=~adv2.com
 /adv3.
@@ -1016,9 +1015,6 @@
 /adv_head.
 /adv_horiz.
 /adv_left_
-/adv_out.
-/adv_player_
-/adv_server.
 /adv_teasers.js
 /adv_vert.js
 /advanced-ads-$domain=~wordpress.org
@@ -1051,14 +1047,9 @@
 /adverts.$~script,domain=~adverts.ie|~adverts.org.ua
 /adverts/*$~xmlhttprequest
 /adverts_
-/advertserve.
-/advertsky.
-/advertsquare.
-/adviewas3.
-/advrotator.
+/advrotator.js
 /advrotator_
-/advscript.
-/advshow.
+/advscript.js
 /advtBanner.
 /adwidget_
 /adwidgets/*
@@ -1072,7 +1063,6 @@
 /aff/banners/*
 /aff/images/*
 /aff_ad?$script
-/aff_banner/*
 /aff_banners/*
 /affad?
 /affads/*
@@ -1104,7 +1094,6 @@
 /annonse/*
 /annonser.
 /annonser/*$domain=~billink.no
-/ape-ad-
 /api-ads.
 /api.ad.
 /api.ads.$domain=~ads.instacart.com
@@ -1128,19 +1117,12 @@
 /article_ads-
 /asrv/campaign/*
 /asset/ad/*
-/asset/adv/*
 /assets/ad/*
 /assets/ads-
 /assets/ads/*$domain=~outlook.live.com
-/assets/ads_
-/asyncadload.
-/asyncjs.$domain=~asyncjs.com|~asyncjs.today
-/asyncspc.
-/audioads/*
-/auditudeadunit.
-/auditudebanners.
+/asyncjs.php
+/asyncspc.php
 /auto.ad.
-/auto_ad_
 /awaps-ad-sdk-$script
 /awe2.js
 /awempire.
@@ -1474,7 +1456,6 @@
 /framead_
 /frameads.
 /frameads_
-/frequencyads.
 /fro_lo.js
 /froloa.js
 /frontend/ads/*
@@ -21132,6 +21113,7 @@ browsershots.org#@#.advert_area
 ||ads-twitter.com^
 ||ads.lemmatechnologies.com^
 ||ads.rd.linksynergy.com^
+||ads1-adnow.com^
 ||ads2550.bid^
 ||ads2ads.net^
 ||ads3-adnow.com^
@@ -48684,6 +48666,7 @@ browsershots.org#@#.advert_area
 ||unblockia.com^$third-party
 ||undertone.com^$third-party
 ||unibots.in^$third-party
+||unibotscdn.com^$third-party
 ||urlcash.net^$third-party
 ||usemax.de^$third-party
 ||usenetjunction.com^$third-party
@@ -53186,6 +53169,7 @@ browsershots.org#@#.advert_area
 ||amazonaws.com^$domain=downloadpirate.com|hexupload.net|krunkercentral.com|uploadhaven.com
 ||an.yandex.ru^$domain=~e.mail.ru
 ||any.gs/visitScript/
+||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xmlhttprequest
 ||api.140proof.com^
 ||api.bitp.it^
 ||apps.media-lab.ai^
@@ -53428,6 +53412,7 @@ browsershots.org#@#.advert_area
 ||pjatr.com^$image,script
 ||pjtra.com^$image,script
 ||play-asia.com^$image,subdocument,third-party
+||player.globalsun.io/player/videojs-contrib-ads$script,third-party
 ||plista.com/async_lib.js?
 ||plista.com/tiny/$third-party
 ||plus.net/images/referrals/
@@ -62993,6 +62978,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||www.google.*/search?q=*&oq=*&aqs=chrome.*&sourceid=chrome&$popup,third-party
 @@||www.ticketmaster.$popup,domain=adclick.g.doubleclick.net
 ! *** easylist:easylist_adult/adult_allowlist.txt ***
+@@/api/models?$domain=tik.porn
+@@/api/v2/models-online?$domain=tik.porn
 @@||exosrv.com/video-slider.js$domain=xfreehd.com
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
 @@||spankbang.com^*/prebid-ads.js$domain=spankbang.com
@@ -63180,6 +63167,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /addon/analytics/*
 /addpageview/*
 /adds/counter.js
+/adf-tm-base-min.js
 /adlogger.
 /adm_tracking.js
 /adobe-analytics-$domain=~business.adobe.com
@@ -65033,63 +65021,33 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /ocount.php
 /ocounter.
 /odoscope.js
-/oewa_pixel_
-/olx/tracker.
 /om.gif?
-/om_ctrack.
 /om_tracking_
-/omni-tracking.
-/omniture-scode-prod.
-/omniture.do;
+/omni-tracking.min.js
 /omniture/script.
-/omniture/sphere
 /omniture/tracking.
-/Omniture/Tracking/*
 /omniture/uuid.
-/omniture/visitorapi.
+/omniture/visitorapi.js
 /omniture?
 /omniture_tracking.
-/OmnitureAkamai.
-/omnitureAMP.
-/OmnitureAnalytics.
-/OmnitureTracking_
 /omniunih.js
-/oms_analytics_
 /onedot.php?
 /onestat.js
 /onetag/*
 /onl/track.php?
 /onlinecount.php
-/onsitegeo.
-/onstuimig-tag-
-/opdc.gif?
 /opdc.js
 /open/log/*
 /opentag-
 /opentag/*
-/openxblank.gif?
-/openxtargeting.js
 /opinionlab.js
-/OpinionLab_Tag.
 /optiextension.dll?$script
-/optimization-perf.js
 /optimizelyjs/*
 /optimost-
 /optimost.
 /Optimost/*
 /optimost_
-/optimostBody1.
-/optimostBody2.
-/optimostfoot.
-/OptimostFooter.
-/optimosthead.
-/optimosthead/*
-/optimostHeader.
-/optimostHeader1.
-/optimostHeader2.
-/OptimostPageCode.
 /optmzly/*
-/ositTracker.
 /ossleads_analytics.js
 /ot_e404.gif?
 /OtAutoBlock.js
@@ -67618,6 +67576,7 @@ _mongo_stats/
 ||awin1.com^$third-party
 ||awstats.cloud^$third-party
 ||awstrack.me^$third-party
+||awswaf.com^$third-party
 ||axf8.net^$third-party
 ||azalead.com^$third-party
 ||azera-s014.com^$third-party
@@ -69880,6 +69839,7 @@ _mongo_stats/
 ||ybotvisit.com^$third-party
 ||yellowbrix.com^$third-party
 ||yext-pixel.com^$third-party
+||yextevents.com^$third-party
 ||ygsm.com^$third-party
 ||yieldbot.com^$third-party
 ||yieldify.com^$third-party
@@ -74373,6 +74333,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reporting.cdndex.io^
 ||reporting.singlefeed.com^
 ||reports-api.sqreen.io^
+||reports.hibu.com^
 ||reports.pagesuite-professional.co.uk^
 ||reports.sdiapi.com^
 ||res.rbl.ms^
@@ -74388,6 +74349,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||routeapp.io/route-analytics/
 ||rs.sinajs.cn^
 ||rt.flix360.com^
+||rtc.hibuwebsites.com/feature/metrics
 ||rtc.multiscreensite.com^
 ||rtxpx-a.akamaihd.net^
 ||rum.azion.com^
@@ -95856,6 +95818,7 @@ arketing.indianadunes.com^
 ! Slovene
 ||24ur.com/bin/player/?mod=statistics&
 ||dnevnik.si/tracker/
+||ninja.data.olxcdn.com/ninja-olxba.js
 ||tracker.azet.sk^
 ! Spanish
 ||abc.es/pixel/
@@ -139690,11 +139653,13 @@ webnovel.com##.m-streamer
 sc.com,uobgroup.com.sg##.m-warning-alert
 insideevs.com,motor1.com,motor1.uol.com.br,rideapart.com##.m1-footer-messages
 magicplan.app##.magicplan-cookie-banner
+account.mailpoet.com##.mailpoet-privacy-banner
 gear.cdprojektred.com##.main-cookies-1M-
 justcause.com##.main-site-notes
 optica.org,osa.org##.maintenance-popup
 kdkcn.com,operanewsapp.com,realme.com##.mask
 hydra.bot##.max-w-screen-md.z-40
+vallartasupermarkets.com##.mb-accept-cookies-banner
 mbc.net##.mbc-policy
 unono.net##.mceRow--relative
 microchip.com##.mchp-cookie
@@ -140218,7 +140183,6 @@ remosoftware.com##.visitornotice
 trendyol.com##.vnotify-container
 verpex.com##.vpx-gdprModal
 herbiesheadshop.com##.vue-disclaimer-popup
-webuyanycar.com,webuyanyvan.com,yougov.co.uk,yougov.com##.vwo-overlay
 nodecheck.io##.w-100
 curio.io##.w-screen
 lyst.com##.w5yGp
@@ -140440,6 +140404,8 @@ lovehoney.ca,lovehoney.co.nz,lovehoney.com,lovehoney.eu##.dis_message
 bettyblocks.com,clinicalges.es,koncon.nl,mmcgbl.com,pressenter.group,steadfast.com.sg,up-team.cz##.notification-bar
 !! .cookiefox
 indomus.it,karmandala.de##.cookiefox
+!! .vwo-overlay
+acierto.com,webuyanycar.com,webuyanyvan.com,yougov.co.uk,yougov.com##.vwo-overlay
 !! .usn-notification
 blueislands.com,eduroam.ba,getselfhelp.co.uk,lethbridge.ca,merthyr.ac.uk,mfy.org.uk,netsupportdemo.nl,oceole.fr,povv.be##.usn-notification
 !! #modal
@@ -140573,9 +140539,9 @@ proprospan.ru,worksmile.com##.cookies-component
 !! #cc-main
 finna.fi,ndsas.sk###cc-main
 !! #cc--main
-alde.se,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,flowforge.com,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,stocksy.com,suncalc.org,trakt.tv,ungeziefer-ratgeber.info###cc--main
+alde.se,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,flowforge.com,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,stocksy.com,suncalc.org,ungeziefer-ratgeber.info###cc--main
 !! .c--anim
-a24films.com,accademia-agricoltura.it,actualidadempleo.es,alpha-heidelberg.de,amperecomputing.com,auraton.cz,brnooffice.cz,cgmfinance.it,cubeshot.io,diderot.sk,elettricomagazine.it,emmellearredamenti.com,fanfiktion.de,fazzini.sk,fcvysocina.cz,federgolf.it,ferbafran.com,fiumewine.com,floorpark.cz,gaminternational.it,handylex.org,hippogroup.it,import-sport.com,izolace-info.cz,klasikcz.eu,locandadelledune.it,macrent.se,mtbcult.it,nabytek-alesvit.cz,nasejimky.cz,natureticabielli.it,netzwerk-kinderschutz-msh.de,perugiassisi.org,plateuptools.com,plus-gp-joule.de,ppeshop.cz,rptuning.cz,ruinimarco.it,santarcangelobasket.com,sbcomp.cz,senkyrik.cz,shop.dicompass.cloud,sponkovacky-kovani-vruty.cz,svet-topeni.eu,systeminit.com,tagvenue.com,tgyou24.it,tokarex.cz,universoinformatico24.it,vinoplacek.cz,vkcyklosport.cz,www.query.cz,xn--audiodiqualit-1db.com,zeno.fm##.c--anim
+a24films.com,accademia-agricoltura.it,actualidadempleo.es,alpha-heidelberg.de,amperecomputing.com,auraton.cz,brnooffice.cz,cgmfinance.it,cubeshot.io,diderot.sk,elettricomagazine.it,emmellearredamenti.com,fanfiktion.de,fazzini.sk,fcvysocina.cz,federgolf.it,ferbafran.com,fiumewine.com,floorpark.cz,gaminternational.it,handylex.org,hippogroup.it,import-sport.com,izolace-info.cz,klasikcz.eu,locandadelledune.it,macrent.se,mtbcult.it,nabytek-alesvit.cz,nasejimky.cz,natureticabielli.it,netzwerk-kinderschutz-msh.de,perugiassisi.org,plateuptools.com,plus-gp-joule.de,ppeshop.cz,rptuning.cz,ruinimarco.it,santarcangelobasket.com,sbcomp.cz,senkyrik.cz,shop.dicompass.cloud,sponkovacky-kovani-vruty.cz,svet-topeni.eu,systeminit.com,tagvenue.com,tgyou24.it,tokarex.cz,trakt.tv,universoinformatico24.it,vinoplacek.cz,vkcyklosport.cz,www.query.cz,xn--audiodiqualit-1db.com,zeno.fm##.c--anim
 !! #wr-c
 ahprofi.cz,akros.cz,aspshop.cz,fiskars-shop.cz,fiskars-shop.sk,kancelarska-kresla.cz,leifheit-shop.cz,leifheit-shop.sk,mpmshop.eu,rafoshop.cz,relaxin.cz,superdiskont.sk,yatun.cz###wr-c
 !! .gdpr
@@ -145339,6 +145305,7 @@ latendresseencuisine.com##.mdc-snackbar
 rueducommerce.fr##.micromodal-slide.modal
 fr-com.com##.modal-content
 lafi.fr##.nota
+cis-immobilier.com##.nq-rgpd-bar
 axa.ci##.overlay_axa
 groupama.fr##.perfModal
 envol-vert.org##.popup
@@ -145381,6 +145348,7 @@ asharq.com##.PrivacyPopupstyled__PrivacyPopupContainer-uk07rq-0
 kst.by###a--bar
 abw.by###accept_terms
 rosting.by###bg_popup
+flagma.by###cookie-agreement
 deal.by##.H84S0
 korter.by##.NNvvT
 lamoda.by,lamoda.kz##._root_1mejd_2

@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: r6TXP3FdDSUrZ5jQWO0Yuw
+! Checksum: 4TWSjheLXKDRv3obFOpkMg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-08-30 08:46:02（北京时间） 
+! Version: 2023-08-30 16:17:16（北京时间） 
 ! Total count: 64706
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -520,11 +520,6 @@
 ##.adline
 ##.adlist
 ##.adlistcss
-##.adpc > .module
-##.adpc > .promo-link-
-##.adpc > .promot-link-
-##.adpc > .promot-link_
-##.adpc > .promt-link_
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
@@ -859,6 +854,8 @@
 ##.postmessage > #googleFirst
 ##.postmessage > #googleSecond
 ##.privilege-promote
+##.promolink-[style="position:relative;width:100%;height:100%;"]
+##.promtlink_[style="position:relative;width:100%;height:100%;"]
 ##.propa_bottom
 ##.pure-g[onclick*="float"]
 ##.qpdb + a[href]
@@ -3157,6 +3154,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 */preroll/$media,domain=91porn.com
 *_ad_$media,domain=youtube.com,3p
 *tplv-noop.gif*
+-*-*-*-*.alpha^$script,third-party
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
 -1316899192.cos.
@@ -3342,6 +3340,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .com/rmb/daohang*.js
 .com/rmb/dl.js
 .com/rmb/palyyoubian.js
+.com/rs/in/*?n=$script,third-party
 .com/sc/*?n=$script,third-party
 .com/sh/*.js$third-party
 .com/sh/to/$script,third-party,xmlhttprequest
@@ -3885,14 +3884,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /NielsenData/*
 /NielsenTracking.
 /NitroCookies.js
-/Omniture/Tracking/*
-/OmnitureAkamai.
-/OmnitureAnalytics.
-/OmnitureTracking_
-/OpinionLab_Tag.
 /Optimost/*
-/OptimostFooter.
-/OptimostPageCode.
 /OtAutoBlock.js
 /PBSTrackingPlugIn.
 /PKAnalytics.
@@ -4138,6 +4130,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /addon/indexad.php
 /addpageview/*
 /adds/counter.js
+/adf-tm-base-min.js
 /adfile.
 /adfiles/*
 /adflash/*
@@ -6539,36 +6532,25 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /ocount.php
 /ocounter.
 /odoscope.js
-/oewa_pixel_
 /ojborn.so?$script,third-party
-/olx/tracker.
 /om.gif?
-/om_ctrack.
 /om_tracking_
-/omni-tracking.
-/omniture-scode-prod.
-/omniture.do;
+/omni-tracking.min.js
 /omniture/script.
-/omniture/sphere
 /omniture/tracking.
 /omniture/uuid.
-/omniture/visitorapi.
+/omniture/visitorapi.js
 /omniture?
-/omnitureAMP.
 /omniture_tracking.
 /omniunih.js
-/oms_analytics_
 /onead_
 /onedot.php?
 /onestat.js
 /onetag/*
 /onl/track.php?
 /onlinecount.php
-/onsitegeo.
-/onstuimig-tag-
 /opbb/float.js
 /opbb/obpp.tpl
-/opdc.gif?
 /opdc.js
 /open.aspx?
 /open.html?$image
@@ -6576,26 +6558,14 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /opens.jscrambler.com/*$image
 /opentag-
 /opentag/*
-/openxblank.gif?
-/openxtargeting.js
 /opinionlab.js
 /optiextension.dll?$script
-/optimization-perf.js
 /optimizelyjs/*
 /optimost-
 /optimost.
-/optimostBody1.
-/optimostBody2.
-/optimostHeader.
-/optimostHeader1.
-/optimostHeader2.
 /optimost_
-/optimostfoot.
-/optimosthead.
-/optimosthead/*
 /optmzly/*
 /os230718.oss-
-/ositTracker.
 /ossleads_analytics.js
 /ot_e404.gif?
 /other-analitycs/*
@@ -9667,6 +9637,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 :1010/openV5.js
 :11211/t.js?MAC=
 :12289/o.js$script,third-party
+:12289/slot?
 :12443/*/*-*-*.$script,third-party
 :18443/*/*-*-*.html$subdocument,third-party
 :18443/*/*-*-*.js$third-party
@@ -12122,6 +12093,7 @@ baidu.com##.redenvelope-small
 baidu.com##.rel-exp-feed-ad-item
 baidu.com##.result-op[tpl="b2b_prod"] > div > .c-border
 baidu.com##.result-op[tpl="pc-education-fs"]
+baidu.com##.result-op[tpl="pc-soft-accurate"] > div > .c-row
 baidu.com##.result-op[tpl="sp_hot_sale"]
 baidu.com##.rightAd-skin
 baidu.com##.rmb-carsousel-position-bottom
@@ -16106,6 +16078,10 @@ lywww.com##.lianmengclass
 lz13.cn##.left_box3
 lz13.cn##.left_box4
 lz13.cn##.left_box5
+lzacg.one##.content-layout .zib-widget > .textwidget > a[target="blank"]
+lzacg.one##.sidebar .zib-widget > .textwidget > a[target="blank"]
+lzacg.one#?#.content-layout .zib-widget:has(> .textwidget:only-child > a[target="blank"])
+lzacg.one#?#.sidebar .zib-widget:has(> .textwidget:only-child > a[target="blank"])
 lzdcctv.cn##.ac_pc
 lzdcctv.cn##.focusmo + table
 lzdcctv.cn##.widget_ssr > a > img
@@ -16655,6 +16631,7 @@ mpyit.com##.cboxElement + center[style=" padding-top:10px; "]
 mpyit.com##.post-999999
 mpyit.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 mrbird.cc#@#.social-icons
+mrmad.com.tw#?#div[id^="mrmad-"]:-abp-has(>.adsbygoogle)
 mrmad.com.tw#?#div[id^="mrmad-"][style]:has(> .adsbygoogle)
 mscbsc.com##.bao1
 mse.360.cn##a[id^="banner"]
@@ -20631,6 +20608,7 @@ zzzyk.com###Tinfo
 ||3dwwwgame.com^$third-party
 ||3ek9.cn^
 ||3enm.com^$third-party
+||3er88wn.com^
 ||3fa20230512.live^
 ||3g.cn/baidualading/
 ||3g.cn/index.php?s=Index/adv&
@@ -26541,6 +26519,7 @@ zzzyk.com###Tinfo
 ||awst.aviationweek.com^
 ||awstats.cloud^$third-party
 ||awstrack.me^$third-party
+||awswaf.com^$third-party
 ||awtks.com^
 ||awuapj.landwatch.com^
 ||awyys.com^
@@ -26915,6 +26894,7 @@ zzzyk.com###Tinfo
 ||baidu1.cardbaobao.com^
 ||baidu1.codejie.net^
 ||baiduajbcjkabcav.com^
+||baiduapp.app^
 ||baidubdvjssv.com^
 ||baidubvjsbvv.com^
 ||baiduccdn1.com^
@@ -31449,6 +31429,7 @@ zzzyk.com###Tinfo
 ||dblcs.cn^
 ||dbmcmhh.cn^
 ||dbmp4.com/js/foot.
+||dbnsd2viud.xyz^
 ||dbnwlp.xyz^
 ||dbpbyh.americanas.com.br^
 ||dbtojr.xyz^
@@ -31686,6 +31667,7 @@ zzzyk.com###Tinfo
 ||dertyhsf.xyz^
 ||derwesten.de/stats/
 ||des.me.coact.org.au^
+||desac7.icu^
 ||descargar.billeteramango.com^
 ||desertedbreath.com^
 ||desertedrat.com^
@@ -32179,6 +32161,7 @@ zzzyk.com###Tinfo
 ||dm1.ddwk8.cn^
 ||dm1.guanwawa.com^
 ||dm1.zjydt.com^
+||dm590.com/piao/
 ||dmanalytics1.com^$third-party
 ||dmcdn.net/behavior/
 ||dmclick.cn^$third-party
@@ -32319,6 +32302,7 @@ zzzyk.com###Tinfo
 ||doorbrazil.com^
 ||doppiocdn.com/healthcheck
 ||doppiocdn.org/healthcheck
+||doppler-beacon.cbsivideo.com^
 ||doppler-beacons.cbsivideo.com^
 ||doppler-reporting.cbsivideo.com^
 ||dorangesource.alicdn.com^
@@ -32488,6 +32472,7 @@ zzzyk.com###Tinfo
 ||ds9e.top^
 ||dsail-tech.com^$third-party
 ||dsbahmgppc0j4.cloudfront.net^
+||dsbjdeh.cn^
 ||dsbt7.com^
 ||dsctnsn.xyz^
 ||dsfd67.com^
@@ -33753,6 +33738,7 @@ zzzyk.com###Tinfo
 ||esanciw.top^
 ||escalated.io^$third-party
 ||esearchvision.com^$third-party
+||esfbs.com/site/stat?
 ||esgher.fun^
 ||esgher.site^
 ||esiws.com^
@@ -33992,6 +33978,7 @@ zzzyk.com###Tinfo
 ||events.nuance.com^
 ||events.ocdn.eu^
 ||events.onet.pl^
+||events.paramount.tech^
 ||events.practo.com^
 ||events.prd.api.max.com^
 ||events.privy.com^
@@ -39343,6 +39330,7 @@ zzzyk.com###Tinfo
 ||j2i0.mathon.fr^
 ||j6zh4g0.cn^
 ||j721s.top^
+||j7ifivzy.icu^
 ||j8377.com^$popup
 ||j8jp.com^
 ||j927.statnews.com^
@@ -40577,6 +40565,7 @@ zzzyk.com###Tinfo
 ||kt51.com/wz.jpg
 ||ktbelts.cn^
 ||ktdlsb.com^
+||ktienld.top^
 ||ktkkt.com/js/tvb/
 ||ktracker.kumparan.com^
 ||kttoo1.com^$domain=9xav.cc
@@ -40928,6 +40917,7 @@ zzzyk.com###Tinfo
 ||ldckmk.divarese.com.tr^
 ||ldd62n.top^
 ||lddt.de^$third-party
+||ldjhlqr.cn^
 ||ldlc.com/V4px/js/ldlcmachine.js
 ||ldmnq.com/bbs/$third-party
 ||ldmnq.com^$third-party,badfilter
@@ -42593,6 +42583,7 @@ zzzyk.com###Tinfo
 ||m.wishmindr.com^
 ||m.xylmdm.top^
 ||m.ybstwl.com/public/tpl/m2/js/
+||m.ygexing.com/d/js/acmsd
 ||m.yhdm.so/bar/yfgg.js
 ||m.yinghuacd.com/bar
 ||m.ysxs8.com/js/content_db.js
@@ -45710,6 +45701,7 @@ zzzyk.com###Tinfo
 ||ningmengzhibo.com/ement/beforeSearchEment.action
 ||ningsiy.xin^
 ||ninja.akamaized.net^
+||ninja.data.olxcdn.com/ninja-olxba.js
 ||ninja.onap.io^
 ||ninjacat.io^$third-party
 ||nirentang.com^
@@ -46096,6 +46088,7 @@ zzzyk.com###Tinfo
 ||oafishobservation.com^
 ||oaftaijo.net^
 ||oaftaijo.net^$third-party
+||oaihiiacb.com^
 ||oajfpqojev.net^
 ||oajxkah.cn^
 ||oal2.destinia.co.uk^
@@ -48448,6 +48441,7 @@ zzzyk.com###Tinfo
 ||q1.yyxwzx.com^
 ||q1zcp.com^
 ||q20jqurls0y7gk8.info^
+||q27sz.com^
 ||q2p.pub^
 ||q3xly8i4oz.app.taxmachine.be^
 ||q777.sfchronicle.com^
@@ -49458,6 +49452,7 @@ zzzyk.com###Tinfo
 ||reportlog.dftoutiao.com^
 ||reports-api.sqreen.io^
 ||reports-tsi.tangerine.io^
+||reports.hibu.com^
 ||reports.pagesuite-professional.co.uk^
 ||reports.sdiapi.com^
 ||reports.tunein.com^
@@ -49906,6 +49901,7 @@ zzzyk.com###Tinfo
 ||rtb123.com^$third-party
 ||rtbiq.com^$third-party
 ||rtborp.xyz^
+||rtc.hibuwebsites.com/feature/metrics
 ||rtc.multiscreensite.com^
 ||rtcegcp.cn^
 ||rtdxqq.com^
@@ -50154,6 +50150,7 @@ zzzyk.com###Tinfo
 ||s1wq.top^
 ||s205119.aon.com^
 ||s2448.sc.origins.en25.com^
+||s2dcm.com^
 ||s2tu.com/images/*.gif
 ||s2whyufxmzam.chatpay.com.br^
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
@@ -57058,6 +57055,7 @@ zzzyk.com###Tinfo
 ||tffytdo.cn^
 ||tfg2.com/images/upfile/AD/
 ||tfg2.com/images/upfile/banner/
+||tfgotoai.shop^
 ||tfonlyuse.shop^
 ||tfpeev.chanluu.com^
 ||tfprivacy.live^
@@ -57506,6 +57504,7 @@ zzzyk.com###Tinfo
 ||tknkfd.xyz^
 ||tkqlhce.com^$removeparam=sdate
 ||tkqlhce.com^$third-party
+||tkqwurl.icu^
 ||tkrconnector.com^
 ||tkx.mp.lura.live/rest/v2/server_time
 ||tl.tradetracker.net^
@@ -59760,6 +59759,7 @@ zzzyk.com###Tinfo
 ||trqhf.xyz^
 ||trrsf.com.br/metrics/
 ||trrsf.com/metrics/
+||trsbf.com/static/fbs.min.js
 ||trslw.cn^
 ||trstplse.com^$third-party
 ||trtl.ws^$third-party
@@ -60834,6 +60834,7 @@ zzzyk.com###Tinfo
 ||vfsdgjrr.xyz^
 ||vfsdsdeq.xyz^
 ||vfsvv1.com^
+||vfzfrx.xyz^
 ||vfzxaz.bloomingdales.ae^
 ||vg.no/stats/
 ||vg247-p2.vg247.com^
@@ -61476,6 +61477,7 @@ zzzyk.com###Tinfo
 ||wco.crownpeak.com^
 ||wcs.naver.com^
 ||wct-2.com^
+||wcv68kw.com^
 ||wd.adcolony.com^
 ||wdasa.top^
 ||wddsva0.com^
@@ -63586,6 +63588,7 @@ zzzyk.com###Tinfo
 ||yesky.com/s?z=
 ||yext-pixel.com^$third-party
 ||yext.com/plpixel?
+||yextevents.com^$third-party
 ||yeyemo4.com^$third-party,image
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||yezi.cn/_ad/
@@ -63616,8 +63619,6 @@ zzzyk.com###Tinfo
 ||yhbdrnr.cn^
 ||yhbsk.cn^
 ||yhdd1.com^$third-party
-||yhdm.io/bar/
-||yhdm.so/bar/
 ||yhdm.tv/bar/yfyh.js
 ||yhdm44.com/123.html
 ||yhgumcr.xyz^
@@ -63680,7 +63681,6 @@ zzzyk.com###Tinfo
 ||yin1.zgpingshu.com^
 ||yingav.net/images/content/spot01.jpg
 ||yingce.asia^
-||yinghuacd.com/bar/
 ||yinghuavideo.com/bar/
 ||yingnanyqq.com^
 ||yingnanyyds.com^
