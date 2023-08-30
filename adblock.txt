@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: M0n+Pfg//Qme5kekeLoo0A
+! Checksum: r6TXP3FdDSUrZ5jQWO0Yuw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-08-30 00:17:04（北京时间） 
-! Total count: 64720
+! Version: 2023-08-30 08:46:02（北京时间） 
+! Total count: 64706
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2380,6 +2380,7 @@ $removeparam=dt_dapp
 $removeparam=dt_platform
 $removeparam=dti
 $removeparam=dtpid
+$removeparam=dyn,domain=clink2.com|dlink2.com,doc
 $removeparam=e,domain=clockks.com|tellywebnews.com
 $removeparam=ebisAdID
 $removeparam=eblink
@@ -2820,7 +2821,7 @@ $removeparam=refd
 $removeparam=refdomain,domain=bestbuy.com
 $removeparam=refer_code
 $removeparam=referaldomain,domain=microcenter.com
-$removeparam=referer,domain=bodykind.com
+$removeparam=referer,domain=bodykind.com|clink2.com|dlink2.com
 $removeparam=referral,domain=tv2.no|spotify.com|yubo.live
 $removeparam=referralCode
 $removeparam=referralInfo,domain=wix.com
@@ -2909,7 +2910,7 @@ $removeparam=share_time,domain=etsy.com
 $removeparam=shortlink
 $removeparam=shrsl_analytics_sscid
 $removeparam=shrsl_analytics_sstid
-$removeparam=si,domain=open.spotify.com|zappos.com
+$removeparam=si,doc,domain=open.spotify.com|soundcloud.com|youtube.com|youtu.be|zappos.com
 $removeparam=sid,domain=anrdoezrs.net|dpbolvw.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com|gamereactor.*
 $removeparam=site,domain=alina.se
 $removeparam=site_id,domain=taskrabbit.com|kochava.com
@@ -3814,8 +3815,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /DNSCheck.js
 /DNSChecker.js
 /Distribute/Distribute_g/butterfly/*
-/Dotomi.
-/DynamicAnalytics.
+/DynamicAnalytics.js
 /EDigitalSurvey_
 /EWTRACK_
 /EZ-YAHOO/*$domain=ezvivi.com
@@ -4352,7 +4352,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /analytics-event/*
 /analytics-events-
 /analytics-facade.
-/analytics-gjc/*
+/analytics-gjc-min.js
 /analytics-helper.
 /analytics-hit?
 /analytics-ingestion/*
@@ -5151,63 +5151,50 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /diantan.js
 /dibu.adadadad
 /dibun5nodnbmp.js
-/didna-pixel-
 /diffuser.js
-/digital-data-enrichment.
+/digital-data-enrichment.min.js
 /discourse-fingerprint_
-/disp_cnt.
+/disp_cnt.php
 /dispatch.fcgi?
 /dist/analytics.
 /divolte.js
-/dl_counter.
-/dla_tracker.
+/dla_tracker.js
 /dlpageping?
 /dm.gif?
 /dm78ad/*
-/dmp-tracking-
 /dmp/pixel.js
-/dmpmetrics.
-/dmtracking2.
 /dmu2panalytics/*
 /dngz.net\/g\d+.js/$domain=dngz.net
-/doctracking.
-/dolWebAnalytics.
-/dom-event-tracker.
-/domcount.
-/domcount_
+/doctracking.js
+/dolWebAnalytics.js
+/dom-event-tracker.min.js
+/domcount.nsf/*
 /dongaogg/*
 /dot.asp?
 /dot.gif?
 /dotmetrics.min.
-/dotomi_abandon.
-/dotomi_tracking/*
-/dow_analytics.
+/dow_analytics.js
 /download-link-js/?v=$script,~third-party
 /downloads/nmgg.mp4
 /dpistat/updater.php
-/drWebStat.
 /dreamads/*
 /drive-analytics/*
+/drwebstat.js
 /dspixel.js
-/dstracking.
 /dt/guanggao_func.js
-/dtagent_
 /dtm_cm.js
 /dtrack.js
-/duel-analytics.
+/duel-analytics.js
 /duilian.$domain=~388g.com|~msra.cn|~supfree.net
 /duilian2.
 /duilian_gg.
 /duoteimg/dtnew_assets/pc/js/tech/chaping.
 /duoteimg/dtnew_recom_img/duoteself/*
-/dw-tracking-
 /dwanalytics-
-/dwanalytics.
 /dy_66jjss/*
 /dygg_
 /dynaTraceMonitor^
 /dynamic.ziftsolutions.com/*
-/dynamictag.
 /dynamicyield/*
 /dzwww/ad_dzw_inner.js
 /e.gif?
@@ -54135,7 +54122,6 @@ zzzyk.com###Tinfo
 ||soulsoul.xyz^
 ||soulu365.com/images/zhuce.jpg
 ||soundcloud.com^$ping
-||soundcloud.com^$removeparam=si
 ||soundstocking.com^
 ||soup.v.qq.com^
 ||source.chromium.org/v1/logging
