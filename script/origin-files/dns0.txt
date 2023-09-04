@@ -1,8 +1,8 @@
-! Checksum: N+VRPKa0MKRBWyVD8RmOZg
+! Checksum: jiJSFWvg77sQX12I5sp2GA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.97.81
-! TimeUpdated: 2023-09-04T07:31:22+00:00
+! Version: 2.0.97.87
+! TimeUpdated: 2023-09-04T15:32:11+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -452,6 +452,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||ad.u-car.com.tw^
 ||pixoctopus.pixnet.net^
 ||jsx.luyouwang.com^
 ||kdpic.pchome.com.tw^
@@ -1405,6 +1406,9 @@ $script,third-party,denyallow=statically.io|sharecast.ws|bunnycdn.ru|bootstrapcd
 !
 !
 !
+blog.51cto.com##.ac-box
+blog.51cto.com##ul.Navigates > li.first > a[href][target="_blank"]
+blog.51cto.com##li.creative > a.task
 18h.animezilla.com###manga-bottom
 csdn.net###kp_box_www_swiper
 hanime1.me##div[style*="width: 310px; height: 282px;"]
@@ -2838,6 +2842,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/160679
+m.xiaomiyoupin.com#@#[style*="mi-img.com"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158104
 2023.allthingsopen.org#@#a[href*=".com?aff="]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158155
@@ -3036,6 +3042,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 !---------------------------------------------------------------------------!
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.panda^$script,third-party
+/ajgg-1318512902.
 -1316632262.cos.
 -1316899192.cos.
 -1688-wp-media/ads/
@@ -4607,7 +4614,6 @@ newduba.cn###jq_youxi
 ##style + .need_grid_img
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
-##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -5386,6 +5392,8 @@ newduba.cn###jq_youxi
 ||dvenkbn.icu^
 ||rrxddl.xyz^
 ||eexlgyn.cn^
+||88lajs1.com^
+||afxncq.com^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -13802,7 +13810,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||kuaijuwu.net/js/abc/
 szxx.com.cn###A0
+jinbaodm.com##div[style^="position:fixed; top"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -18764,7 +18774,6 @@ tigtag.com##div[id^="Show300x"]
 90bifen.com##div[id^="ShowTopAds_"]
 mail.126.com,mail.163.com##div[id^="_mail_popup_"]
 vod1769.com##div[id^="a"]
-jinbaodm.com##div[id^="a-loading"]
 ettoday.net##div[id^="abp"]
 makepolo.com,mycar168.com,mysteel.com,pchome.net,qz828.com,rjfcw.cn##div[id^="ad"]
 58.com,pcpop.com,phpernote.com##div[id^="ad_"]

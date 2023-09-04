@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: jU7EtoO6j4fhcf12P8ebfw
+! Checksum: spVruo74CgxsEzUqYzdTmw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-09-04 16:18:52（北京时间） 
-! Total count: 63625
+! Version: 2023-09-05 00:18:40（北京时间） 
+! Total count: 63628
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1204,6 +1204,7 @@
 ##[src='/images/c_l.png']
 ##[src='http://m.guangzhoubingqing.com/88888.jpg']
 ##[src='https://pnm.hpvitycz.cn/00.jpg']
+##[src^="https://img.sobot.com/chatres/"][title="sb"]
 ##[src^='/MDassets/images/']
 ##[src^='/Uploads/ad/'][src$='.gif'][alt='广告']
 ##[src^='/banners/pr_advertising_ads_banner']
@@ -9961,7 +9962,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||amazon.*/message-us?$removeparam
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
 @@||amazonaws.com/storage.liveabc.com/ads/$domain=store.liveabc.com
-@@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com
+@@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com|xe.com
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$~third-party
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.163.com/ntes.js$domain=3g.163.com
@@ -10696,7 +10697,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||link.theplatform.com/s/fox-dcg/media/$removeparam
 @@||linksynergy.com/minified_logic.js$xmlhttprequest
 @@||list-manage.com
-@@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||litv.tv/ads/ads.js
 @@||liulanmi.com/wp-content/uploads/*/StatCounter-
 @@||liumingye.cn^$generichide
@@ -24775,6 +24775,7 @@ zzzyk.com###Tinfo
 ||amazon.$removeparam=twitchToken
 ||amazon.$removeparam=visitId
 ||amazon.$~xmlhttprequest,removeparam=qid
+||amazon.*/artists/$removeparam=tag,doc
 ||amazon.*/dp/$removeparam=rps,doc
 ||amazon.*/dp/$removeparam=s,doc
 ||amazon.*/dp/$removeparam=tag,doc
@@ -26301,7 +26302,6 @@ zzzyk.com###Tinfo
 ||awst.aviationweek.com^
 ||awstats.cloud^$third-party
 ||awstrack.me^$third-party
-||awswaf.com^$third-party
 ||awtks.com^
 ||awuapj.landwatch.com^
 ||awyys.com^
@@ -41246,7 +41246,8 @@ zzzyk.com###Tinfo
 ||listen.tunein.com^
 ||listenlayer.com^$third-party
 ||listing-a8-itp.hello-storage.com^
-||listrakbi.com^$third-party
+||listrakbi.com/activity/
+||listrakbi.com/api/ActivityEvents/
 ||lists.ccmbg.com^
 ||lit.connatix.com^
 ||lite-cdn.com^
@@ -44034,6 +44035,7 @@ zzzyk.com###Tinfo
 ||mochiads.com/clk/
 ||mochibot.com^$third-party
 ||mockingfish.com^$third-party
+||moco.yukata.dev/get/$image,third-party
 ||modanisa.com/al/j/analytics.js
 ||modernus.is^$third-party
 ||modifyeyes.com^
@@ -53680,6 +53682,7 @@ zzzyk.com###Tinfo
 ||sss777.net/Alove-A/
 ||sssvd.china.com^
 ||sssxwsry.com^
+||sstats.adobe.com^
 ||sstats.cotswoldoutdoor.com^
 ||sstats.daicompanies.com^
 ||sstats.deloitte.com^
