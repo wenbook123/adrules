@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202309040122
+! Version: 202309050154
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23346
+! Lenth = 23348
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -877,7 +877,6 @@
 ##.textad
 ##.textadlist
 ##.theme_custom_slidebox-ad-below
-##.thumb-overlay-albums > .col-xs-12[style="display: flex;justify-content: center;"]
 ##.title > .gg
 ##.tmall_ad_container
 ##.tmall_bg15
@@ -1378,7 +1377,6 @@
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
-##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
 ##vg-pause-ads
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1885,6 +1883,7 @@ $websocket,domain=5nj.com|cechi8.com
 /aipai/player/game_video/videoAdvert_
 /ajax/ad/*
 /ajds/*
+/ajgg-1318512902.
 /ajjsjfsk/*
 /ajs.php?
 /alljs/alldl.js
@@ -2986,15 +2985,11 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.*##div[data-height="90"][data-width="728"]
 18comic.*#?#body .bot-per
 18comic.*#@#img[style*="300px"]
-18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
-18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
-18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
-18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
-18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
-18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win##div[style="cursor: pointer;"] > img[src*="/media/albums/"]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script+ins)
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip###guide-modal
+18comic.org,18comic.vip##.modal-backdrop
+18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
+18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,jm-comic2.club#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
 18comic.vip##div[data-group^="skyscraper_"]
 18comic.vip#?#.thumb-overlay-albums > div[class][data-group^="photo_center_games_"]:has(> a[target="_blank"] > img)
@@ -5693,7 +5688,10 @@ blog.163.com###topbar_randShowArea
 blog.163.com###topbar_yxpArea
 blog.163.com##.m-regGuideLayer.f-trans
 blog.163.com##.postadlayer
+blog.51cto.com##.ac-box
 blog.51cto.com##.relatedArt.box
+blog.51cto.com##li.creative > a.task
+blog.51cto.com##ul.Navigates > li.first > a[href][target="_blank"]
 blog.csdn.net###article_content > link + a
 blog.csdn.net##.t0
 blog.csdn.net##.toolbar-advert
@@ -7199,6 +7197,7 @@ fun1shot.com##a[href^="https://kenio.cn/"]
 fun48.com###float2016
 fun48.com##.margin-big-bottom
 fund.eastmoney.com##div[data-url^="//same.eastmoney.com/"]
+fusetter.com##a[href^="https://mahoyaku.onelink.me/"] > img
 fuyang.net###portal_block_474
 fuyang.net###portal_block_502
 fuyang.net##.eis_fbox_260:nth-child(n+3)
@@ -8582,7 +8581,7 @@ jin10.com##.l-main > div > div[class^="jin-"] > .jin-timeline > div[class^="jin-
 jin10.com##.top-ad
 jin10.com##div[id^="J_wdgg_"]
 jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
-jinbaodm.com##div[id^="a-loading"]
+jinbaodm.com##div[style^="position:fixed; top"]
 jingangjing.com##.free
 jingangjing.com##.free-popup
 jingdianlaoge.com##.baidu
@@ -8638,12 +8637,10 @@ jkpan.cc#%#//scriptlet("abort-current-inline-script", "jQuery", "\u")
 jkpan.cc#%#//scriptlet("set-constant", "killads", "true")
 jlmhk.com##.bn
 jlpcn.net##.vodAd
-jm-comic2.club##a[href^="http"]:not([href*="jm-comic"]) > img
-jm-comic2.club#?#:-abp-has(>script+ins)
+jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
-jmcomic1.city,jmcomic1.win##a[href^="http"]:not([href*="jmcom"]) > img
 jmnews.com.cn##div[id^="couplet_"]
 jmw.com.cn##.coupon
 jmw.com.cn##.head_1b
@@ -9142,6 +9139,7 @@ m.tvsou.com##.sogou-temp-hidden
 m.tvsou.com##.story_ad_android
 m.twfanti.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
 m.weather.com.cn##div[style^="position: fixed; width: 100%; bottom: 0px;"]
+m.xiaomiyoupin.com#@#[style*="mi-img.com"]
 m.youku.com###banner
 m.youku.com##.cmt-more
 m.youku.com##.cmt-more-cont
@@ -12399,13 +12397,7 @@ zzzyk.com###Tinfo
 ||189.gd^*.html$third-party
 ||18av.mm-cg.com/*/7mmtv.gif
 ||18avday.*/aa/
-||18comic.*/iframe
 ||18comic.*/media/albums/*?$media
-||18comic.*/media/logo/
-||18comic.*/static/resources/files/*0x
-||18comic.*/static/resources/images/168/
-||18comic.*/static/resources/images/300
-||18comic.*/static/resources/images/JGG/
 ||18comic.*/templates/frontend/airav/js/*1_2df4.js
 ||18comic.vip/templates/frontend/airav/js/92_81c7.js
 ||1909.me/upload/ad/
@@ -13209,6 +13201,7 @@ zzzyk.com###Tinfo
 ||888dizhi.com/888/
 ||88993aaa.com^
 ||88kids.mobi^
+||88lajs1.com^
 ||88liu.com/data/attachment/portal/
 ||88p2p.com^$popup
 ||88ys.cc/js/abcd.js
@@ -13611,6 +13604,7 @@ zzzyk.com###Tinfo
 ||ad.muyang888.top^
 ||ad.qn.img-space.com^
 ||ad.szhsx.net^
+||ad.u-car.com.tw^
 ||ad.walkgame.com^
 ||ad.wurangxian.top^
 ||ad.zui.com^
@@ -13693,6 +13687,7 @@ zzzyk.com###Tinfo
 ||afocus.com.cn/s?
 ||afp.chinanews.com^
 ||afx001.pw^
+||afxncq.com^
 ||afzhan.com/JavaScript/ad_Couplet.js
 ||ag1.zuszw.com^
 ||agathacd.com^
@@ -13756,6 +13751,7 @@ zzzyk.com###Tinfo
 ||aizhan.com/imagesa/
 ||aj4j.icu^
 ||ajcnz1.com^
+||ajcode.co^
 ||ajfkwwpo.xyz^
 ||ajjgune.cn^
 ||ajkcdpm.cn^
@@ -14135,6 +14131,7 @@ zzzyk.com###Tinfo
 ||b7yy.com/ad/
 ||baby-kingdom.com/reqsads?
 ||bacder.fun^
+||bace10.top^
 ||backchina.com/banners/
 ||bad996.com/dakaads.js
 ||badding.oss-ap-southeast-1.aliyuncs.com^
@@ -15992,6 +15989,7 @@ zzzyk.com###Tinfo
 ||eepw.com.cn/event/action/rightbd/microchip*.js
 ||eepw.com.cn/pub/js/TopFullScreen.js
 ||eers0cy.com^
+||eexlgyn.cn^
 ||eeyy.cc/style/yxj.js
 ||eeyy.com/otherhtml/js/ad650.js
 ||eeyy.com/otherhtml/poster_js/
@@ -17923,11 +17921,10 @@ zzzyk.com###Tinfo
 ||jlsynmla.fun^
 ||jlsyuula.cam^
 ||jlwz.cn/js/xf*.js
+||jm-comic2.club/media/albums/*?$media
 ||jmbbs.cn/sjgg/
 ||jmbluyxkl.xyz^
-||jmcomic.asia/iframe_
 ||jmcomic.asia/iframe_*&idzone=
-||jmcomic1.*/media/albums/*?$media
 ||jmcomic1.cc/iframe_v*?type=exo&idzone=
 ||jmged.xyz^
 ||jmgwh.cn^
@@ -18381,6 +18378,7 @@ zzzyk.com###Tinfo
 ||kuaihou.com/c/shuoming.js
 ||kuaihou.com/c/you1.js
 ||kuaihou.com/js/new/xiazai
+||kuaijuwu.net/js/abc/
 ||kuaile789.ink^
 ||kuaileco.com/weishou/
 ||kuaishang.cn^$third-party
@@ -18578,6 +18576,7 @@ zzzyk.com###Tinfo
 ||lgmi.com/windows/*-Advert.
 ||lgmi.com^*_gg
 ||lgnlaigl.fun^
+||lgoewtd.icu^
 ||lgohse.fun^
 ||lgoseh.fun^
 ||lgugsnp.cn^
@@ -19731,6 +19730,7 @@ zzzyk.com###Tinfo
 ||owandlk.top^
 ||owihyg.xyz^
 ||owlinggnomist.com^
+||oyfnkle.cn^
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
 ||oyqjp.cn^
@@ -20583,6 +20583,7 @@ zzzyk.com###Tinfo
 ||rr.pochengweiyuan.com^$third-party
 ||rr3r.com/requestData.
 ||rrjc.com/home/seo/ad/
+||rrxddl.xyz^
 ||rryy99.com/statics/js/stat.js
 ||rrzxlt.xyz^
 ||rsanciz.top^
@@ -23027,6 +23028,7 @@ zzzyk.com###Tinfo
 ||zbsybh.cn^$third-party
 ||zbvchabjbcj.com^
 ||zbx01.com^
+||zbzbzb.xyz^
 ||zc173.com/173fee/
 ||zcaijing.com/images/
 ||zcbfjd.xyz^

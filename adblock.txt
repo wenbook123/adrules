@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: i5qATc8kFXSvTnxHZ1EDyQ
+! Checksum: 1YdDjEwVx02yQaNo61UKnA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-09-05 08:45:49（北京时间） 
-! Total count: 63633
+! Version: 2023-09-05 16:19:22（北京时间） 
+! Total count: 63635
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -911,7 +911,6 @@
 ##.textadlist
 ##.theme-dark > .ayx > a
 ##.theme_custom_slidebox-ad-below
-##.thumb-overlay-albums > .col-xs-12[style="display: flex;justify-content: center;"]
 ##.title > .gg
 ##.tmall_ad_container
 ##.tmall_bg15
@@ -1759,7 +1758,6 @@
 ##ul > li > A[href$='_list.html']
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
 ##ul.content-list > li.content-tb
-##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
 ##vg-pause-ads
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -4261,6 +4259,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /ajaxlog?
 /ajcm-inject.
 /ajds/*
+/ajgg-1318512902.
 /ajjsjfsk/*
 /ajs.php?
 /akam/*/pixel_
@@ -8598,15 +8597,11 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 18comic.*##div[data-height="90"][data-width="728"]
 18comic.*#?#body .bot-per
 18comic.*#@#img[style*="300px"]
-18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
-18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
-18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
-18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
-18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
-18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win##div[style="cursor: pointer;"] > img[src*="/media/albums/"]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script+ins)
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip###guide-modal
+18comic.org,18comic.vip##.modal-backdrop
+18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
+18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,jm-comic2.club#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
@@ -12320,7 +12315,10 @@ blog.163.com###topbar_randShowArea
 blog.163.com###topbar_yxpArea
 blog.163.com##.m-regGuideLayer.f-trans
 blog.163.com##.postadlayer
+blog.51cto.com##.ac-box
 blog.51cto.com##.relatedArt.box
+blog.51cto.com##li.creative > a.task
+blog.51cto.com##ul.Navigates > li.first > a[href][target="_blank"]
 blog.csdn.net###article_content > link + a
 blog.csdn.net##.t0
 blog.csdn.net##.toolbar-advert
@@ -13948,6 +13946,7 @@ fun1shot.com##a[href^="https://kenio.cn/"]
 fun48.com###float2016
 fun48.com##.margin-big-bottom
 fund.eastmoney.com##div[data-url^="//same.eastmoney.com/"]
+fusetter.com##a[href^="https://mahoyaku.onelink.me/"] > img
 fuyang.net###portal_block_474
 fuyang.net###portal_block_502
 fuyang.net##.eis_fbox_260:nth-child(n+3)
@@ -15446,7 +15445,7 @@ jin10.com##.l-main > div > div[class^="jin-"] > .jin-timeline > div[class^="jin-
 jin10.com##.top-ad
 jin10.com##div[id^="J_wdgg_"]
 jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
-jinbaodm.com##div[id^="a-loading"]
+jinbaodm.com##div[style^="position:fixed; top"]
 jingangjing.com##.free
 jingangjing.com##.free-popup
 jingdianlaoge.com##.baidu
@@ -15506,12 +15505,10 @@ jkpan.cc#%#//scriptlet("abort-current-inline-script", "jQuery", "\u")
 jkpan.cc#%#//scriptlet("set-constant", "killads", "true")
 jlmhk.com##.bn
 jlpcn.net##.vodAd
-jm-comic2.club##a[href^="http"]:not([href*="jm-comic"]) > img
-jm-comic2.club#?#:-abp-has(>script+ins)
+jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
-jmcomic1.city,jmcomic1.win##a[href^="http"]:not([href*="jmcom"]) > img
 jmnews.com.cn##div[id^="couplet_"]
 jmw.com.cn##.coupon
 jmw.com.cn##.head_1b
@@ -16196,6 +16193,7 @@ m.xiaomiyoupin.com###download-bar
 m.xiaomiyoupin.com##.download-bar-container
 m.xiaomiyoupin.com##.lib10-opapp-wrap
 m.xiaomiyoupin.com##[src="//m.xiaomiyoupin.com/shopcenter/erised/index.html"]
+m.xiaomiyoupin.com#@#[style*="mi-img.com"]
 m.yicai.com###app1
 m.yicai.com##.linkapp
 m.yicai.com##.m-float-appopen
@@ -20035,13 +20033,7 @@ zzzyk.com###Tinfo
 ||189.gd^*.html$third-party
 ||18av.mm-cg.com/*/7mmtv.gif
 ||18avday.*/aa/
-||18comic.*/iframe
 ||18comic.*/media/albums/*?$media
-||18comic.*/media/logo/
-||18comic.*/static/resources/files/*0x
-||18comic.*/static/resources/images/168/
-||18comic.*/static/resources/images/300
-||18comic.*/static/resources/images/JGG/
 ||18comic.*/templates/frontend/airav/js/*1_2df4.js
 ||18comic.vip/templates/frontend/airav/js/92_81c7.js
 ||18dui.com^
@@ -21126,6 +21118,7 @@ zzzyk.com###Tinfo
 ||88993aaa.com^
 ||88eg.cn^
 ||88kids.mobi^
+||88lajs1.com^
 ||88liu.com/data/attachment/portal/
 ||88p2p.com^$popup
 ||88ys.cc/js/abcd.js
@@ -23770,6 +23763,7 @@ zzzyk.com###Tinfo
 ||ad.tencentmusic.com^
 ||ad.theatre.co.jp^
 ||ad.theatreacademy.jp^
+||ad.u-car.com.tw^
 ||ad.udition.jp^
 ||ad.walkgame.com^
 ||ad.wamxb.info^
@@ -24242,6 +24236,7 @@ zzzyk.com###Tinfo
 ||aftonbladet.se/trafikfonden/
 ||afuz032.com^
 ||afx001.pw^
+||afxncq.com^
 ||afzhan.com/JavaScript/ad_Couplet.js
 ||ag1.zuszw.com^
 ||agata88.com^$removeparam=source
@@ -26478,6 +26473,7 @@ zzzyk.com###Tinfo
 ||babybunting.com.au^$removeparam=cq_term
 ||baccarat.abzorbagames.com^
 ||bacder.fun^
+||bace10.top^
 ||bachecaannunci.it/statins3.php?
 ||backchina.com/banners/
 ||backcountry.com/api/log
@@ -32810,6 +32806,7 @@ zzzyk.com###Tinfo
 ||eepw.com.cn/pub/js/TopFullScreen.js
 ||eerekn.diesel.co.jp^
 ||eers0cy.com^
+||eexlgyn.cn^
 ||eeyy.cc/style/yxj.js
 ||eeyy.com/otherhtml/js/ad650.js
 ||eeyy.com/otherhtml/poster_js/
@@ -35016,6 +35013,7 @@ zzzyk.com###Tinfo
 ||generalblue.com/js/pages/shared/analytics.min.js
 ||generalprose.com^
 ||generaltracking.de^$third-party
+||generic-function-log-data-7il2midpaa-nn.a.run.app^$domain=telus.com
 ||genesis.malwarebytes.com^
 ||geni.us/snippet.js
 ||geni.us/snippet.min.js
@@ -39141,11 +39139,10 @@ zzzyk.com###Tinfo
 ||jlsyuula.cam^
 ||jlwz.cn/js/xf*.js
 ||jly24aw29n5m-a.akamaihd.net^
+||jm-comic2.club/media/albums/*?$media
 ||jmbbs.cn/sjgg/
 ||jmbluyxkl.xyz^
-||jmcomic.asia/iframe_
 ||jmcomic.asia/iframe_*&idzone=
-||jmcomic1.*/media/albums/*?$media
 ||jmcomic1.cc/iframe_v*?type=exo&idzone=
 ||jmged.xyz^
 ||jmgwh.cn^
@@ -40005,6 +40002,7 @@ zzzyk.com###Tinfo
 ||kuaihou.com/c/shuoming.js
 ||kuaihou.com/c/you1.js
 ||kuaihou.com/js/new/xiazai
+||kuaijuwu.net/js/abc/
 ||kuaile789.ink^
 ||kuaileco.com/weishou/
 ||kuaishang.cn^$third-party
@@ -40518,6 +40516,7 @@ zzzyk.com###Tinfo
 ||lgmi.com/windows/*-Advert.
 ||lgmi.com^*_gg
 ||lgnlaigl.fun^
+||lgoewtd.icu^
 ||lgohse.fun^
 ||lgoseh.fun^
 ||lgugsnp.cn^
@@ -46051,6 +46050,7 @@ zzzyk.com###Tinfo
 ||oxj8hcfg.xyz^
 ||oxtrmw.marinarinaldi.com^
 ||oyaswl.manor.ch^
+||oyfnkle.cn^
 ||oyhurln.cn^
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
@@ -49088,6 +49088,7 @@ zzzyk.com###Tinfo
 ||rrincc.auto-doc.it^
 ||rrjc.com/home/seo/ad/
 ||rrjzyj.lepage.fr^
+||rrxddl.xyz^
 ||rryy99.com/statics/js/stat.js
 ||rrzxlt.xyz^
 ||rs.adpinfo.com^
@@ -63109,6 +63110,7 @@ zzzyk.com###Tinfo
 ||zbvchabjbcj.com^
 ||zbwp6ghm.com^
 ||zbx01.com^
+||zbzbzb.xyz^
 ||zc173.com/173fee/
 ||zcaijing.com/images/
 ||zcbfjd.xyz^
