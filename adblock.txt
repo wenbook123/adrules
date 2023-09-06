@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: WuufFQ3s1Y0QVvxMRC4jBw
+! Checksum: rnkiq9BTHiC0HOzuDwAjDQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-09-06 00:19:50（北京时间） 
-! Total count: 63638
+! Version: 2023-09-06 08:45:20（北京时间） 
+! Total count: 63639
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1789,7 +1789,7 @@ $doc,removeparam=/^affSource/i
 $doc,removeparam=/^aff_id\d?=/i,domain=~affiliate.salestring.com
 $doc,removeparam=/^affid=/i,domain=~redir.tradedoubler.com|~affiliate.geekbuying.com
 $doc,removeparam=/^affiliateID=/i
-$doc,removeparam=/^amp=$/,domain=~eurasiantimes.com
+$doc,removeparam=/^amp=$/,domain=~eurasiantimes.com|~cybersecuritynews.com
 $doc,removeparam=/^amp=1$/,domain=newsweek.com
 $doc,removeparam=/^amp=true$/
 $doc,removeparam=/^bsft_/
@@ -31722,8 +31722,8 @@ zzzyk.com###Tinfo
 ||dkupaw9ae63a8.cloudfront.net^
 ||dl-dev.tablelist.com^
 ||dl-dev.tytocare.com^
-||dl-protect.net^$removeparam=fn
-||dl-protect.net^$removeparam=rl
+||dl-protect.$removeparam=fn
+||dl-protect.$removeparam=rl
 ||dl-qa.flipagram.com^
 ||dl-stage.zola.com^
 ||dl-test.4buy.net^
@@ -35330,6 +35330,7 @@ zzzyk.com###Tinfo
 ||github.com^$removeparam=ref_page
 ||github.com^$removeparam=reference_location
 ||githubusercontent.com/vip888vip/ug/main/*.gif
+||gitlab.$doc,removeparam=glm_content
 ||gitlab.$doc,removeparam=glm_source
 ||gitlab.$removeparam=ref_type
 ||gitlab.$removeparam=referrer_action,doc
