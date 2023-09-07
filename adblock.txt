@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 6IPNp3atZR6ztbQuJphGOg
+! Checksum: U4QnnH+EvEPWC1A203/AaQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-09-07 08:45:55（北京时间） 
-! Total count: 63634
+! Version: 2023-09-07 16:17:36（北京时间） 
+! Total count: 63635
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1217,6 +1217,8 @@
 ##[style$="both;margin: auto;text-align: center;line-height: initial;margin-bottom: 10px;"]
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
 ##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
+##[style*="b-cdn.net"][style*="background-size"]
+##[style*="mi-img.com"][style*="calc"]
 ##[style*="sotv.me"]
 ##[style*='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147'][style*='bottom: 132px;']
 ##[style*='line-height: 115px; left: 0px; z-index: 0; width: 100vw; background: url']
@@ -1224,7 +1226,6 @@
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !'] *
 ##[style*='width: 100vw; background: url'][style$='no-repeat; position: fixed;'][style*='0px 0px / 100vw ']
 ##[style*='width:9.6vw;height:8.5vw;background:#000;opacity:0.01;']
-##[style="display: flex; justify-content: space-between; width: 100%;"] > [style*="margin-bottom: 6px; background"]
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style='box-sizing: border-box; position: relative; left: 0px; z-index: 912944; text-indent: -10em;']
 ##[style='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 49px; bottom: 132px;']
@@ -2799,7 +2800,7 @@ $removeparam=refd
 $removeparam=refdomain,domain=bestbuy.com
 $removeparam=refer_code
 $removeparam=referaldomain,domain=microcenter.com
-$removeparam=referer,domain=bodykind.com|clink2.com|dlink2.com
+$removeparam=referer,doc,domain=bodykind.com|clink2.com|dlink2.com|nitter.net
 $removeparam=referral,domain=tv2.no|spotify.com|yubo.live
 $removeparam=referralCode
 $removeparam=referralInfo,domain=wix.com
@@ -5052,20 +5053,12 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /dbdm-events/*
 /dbhf.js$script,third-party
 /dcjs/prod/*
-/dcs.gif?
-/dcs/track.
-/dcs_head.
-/dcs_tag.
-/dcs_tag1.
-/dcs_tag2.
-/dcs_tag_
-/dcstag_
+/dcs_tag.js
 /default/ads/*
 /default/pAnalytics
 /delivery/afr.
 /delivery/al.php
 /delivery/lg.
-/delstats/*
 /demandbase.
 /demandbase_
 /demdex.js
@@ -5073,12 +5066,9 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /demo_l.php?id=$script,third-party
 /detail_gg.js
 /detm-container-
-/detm_adobe.
 /device-fingerprint.
-/dfp-gpt.
-/dfpsvc?
 /dg/default/cs?
-/dh-analytics-
+/dh-analytics-prod/*
 /dhfun_ad/*
 /diantan.js
 /dibu.adadadad
@@ -5088,14 +5078,13 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /discourse-fingerprint_
 /disp_cnt.php
 /dispatch.fcgi?
-/dist/analytics.
 /divolte.js
 /dla_tracker.js
 /dlpageping?
 /dm.gif?
 /dm78ad/*
 /dmp/pixel.js
-/dmu2panalytics/*
+/dmu2panalytics/views/*
 /dngz.net\/g\d+.js/$domain=dngz.net
 /doctracking.js
 /dolWebAnalytics.js
@@ -11783,9 +11772,7 @@ axutongxue.com##ASIDE[style*='height:58px;overflow:hidden;width:322px;border:das
 axutongxue.com##DIV[style*='px;position:relative;box-shadow:rgb(0 0 0/24%)0px 3px 8px;']
 axutongxue.com##DIV[style*='z-index: 9999999;display: flex;justify-content: center;align-items: center;']
 axutongxue.com##DIV[style='text-align:center']
-axutongxue.com,axutongxue.net###qtqwb
-axutongxue.com,axutongxue.net###uuuui
-axutongxue.com,axutongxue.net###yfasufd
+axutongxue.com,axutongxue.net###kkkkbbb
 axutongxue.net###uuuui
 axutongxue.net##body > article[style]
 axutongxue.net#%#//scriptlet('prevent-setTimeout', 'getCookie("')
@@ -25020,7 +25007,6 @@ zzzyk.com###Tinfo
 ||analytics.crowdkeep.com^
 ||analytics.cycleworld.com^
 ||analytics.daasrv.net^
-||analytics.dealer.com^
 ||analytics.designspiration.com^
 ||analytics.deutscher-apotheker-verlag.de^
 ||analytics.dev.htmedia.in^
@@ -30053,6 +30039,7 @@ zzzyk.com###Tinfo
 ||counter.maases.com^
 ||counter.megaindex.ru^
 ||counter.nope.dk^$third-party
+||counter.nv.ua^
 ||counter.ok.ee^$third-party
 ||counter.packa2.cz^
 ||counter.pcauto.com.cn^
@@ -30641,6 +30628,7 @@ zzzyk.com###Tinfo
 ||d1net.com/index.php?m=poster&
 ||d1pmhihatyvp1k.cloudfront.net^
 ||d1q4x2p7t0gq14.cloudfront.net^
+||d1qbbgtcslwdbx.cloudfront.net^
 ||d1qnmu4nrib73p.cloudfront.net^
 ||d1qpxk1wfeh8v1.cloudfront.net^
 ||d1r27qvpjiaqj3.cloudfront.net^
@@ -31257,6 +31245,7 @@ zzzyk.com###Tinfo
 ||defectivesun.com^
 ||defiantrice.com^
 ||degh48.fnac.com^
+||degjidp.icu^
 ||dehaer.site^
 ||dehua.ixinfan.com^
 ||dehua.mengtubo.com^
@@ -32557,6 +32546,7 @@ zzzyk.com###Tinfo
 ||ebay.*^$removeparam=_trkparms
 ||ebay.*^$removeparam=_trksid
 ||ebay.*^$removeparam=hash
+||ebay.com/delstats/
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebay.com^*/customer_image_service?
 ||ebayadservices.com/marketingtracking/
@@ -34594,6 +34584,7 @@ zzzyk.com###Tinfo
 ||fse.net.anwalt.de^
 ||fsegfy.lepoint.fr^
 ||fsgsfaf6.com^
+||fsjjrbz.cn^
 ||fsm.lapresse.ca^
 ||fsnpbh.xyz^
 ||fspark-ap.com^$third-party
@@ -36250,6 +36241,7 @@ zzzyk.com###Tinfo
 ||haihongzg.com^
 ||haili-spitzer.com^
 ||hairoak.com^
+||haise10.top^
 ||haituie.com^*.gif
 ||haiwainet.cn*/k.js
 ||haiwaiyy.com/B970X90.gif
@@ -36444,6 +36436,7 @@ zzzyk.com###Tinfo
 ||hdypw.com^
 ||hdzb6.cc^
 ||he2d.com^$third-party
+||head4.net/ad_c_outlink.php
 ||headyhook.com^
 ||healflowers.com^
 ||healio.com^$removeparam=ecp
@@ -37119,6 +37112,7 @@ zzzyk.com###Tinfo
 ||huya.com/leaf/*=vodadv&$rewrite=abp-resource:blank-mp3,domain=huya.com
 ||huyaimg.msstatic.com/cdnimage/roomad/
 ||hvac.solutions.jci.com^
+||hvdath.xyz^
 ||hvfubp.xyz^
 ||hvhudp.xyz^
 ||hvrhgt.the-sun.com^
@@ -37128,6 +37122,7 @@ zzzyk.com###Tinfo
 ||hvxymx.tui.pl^
 ||hwanjia.com^
 ||hwhefj.xyz^
+||hwnod.xyz^
 ||hwpub.com^$third-party
 ||hwwjsi.aboutyou.pl^
 ||hxbt.alading123.com^
@@ -39743,6 +39738,7 @@ zzzyk.com###Tinfo
 ||kilometrix.de^$third-party
 ||kimcil.indonesiya.com^
 ||kinesis.eu-west-1.amazonaws.com^$third-party,domain=~amazon.com
+||kinesis.us-east-1.analytics.edmentum.com^
 ||kingkongapp.com^*/web/adv/list?
 ||kingnews.burgerking.co.za^
 ||kingsandqueens.splowser.com^
@@ -42989,6 +42985,7 @@ zzzyk.com###Tinfo
 ||mddcloud.*/oweApi/ad/
 ||mdfsbn.com^$third-party
 ||mdhv.io^
+||mdhxyhl.cn^
 ||mdi5k.cn^
 ||mdjf9vh9.shop^
 ||mdjf9vh9.xyz^
@@ -53155,6 +53152,7 @@ zzzyk.com###Tinfo
 ||sokrati.com^$third-party
 ||sol-data.com^$third-party
 ||solar.sunpowercorp.com^
+||solaron.top^
 ||solidscape.actonservice.com^
 ||solidtorrents.to/ping
 ||solomon89.xyz^
@@ -59925,6 +59923,7 @@ zzzyk.com###Tinfo
 ||verysadfun.com/assets/publish/jquery.*.js
 ||vesti.ru/counter/
 ||vewdk.cyou^
+||vexilorath.com^
 ||vezvpd.xyz^
 ||vfd2dyn.vodafone.de^
 ||vfgte.com^
@@ -60323,6 +60322,7 @@ zzzyk.com###Tinfo
 ||vyjwxc.elemis.com^
 ||vyplzy.job-medley.com^
 ||vyps.fun^
+||vyreat.icu^
 ||vyye.cn^
 ||vyz3nn85ed0e.controlconceptsusa.com^
 ||vz81m4.top^
@@ -63122,6 +63122,7 @@ zzzyk.com###Tinfo
 ||zcczrvsaw.xyz^
 ||zcdfll.xyz^
 ||zcfhi.cn.com^
+||zcgqsd.icu^
 ||zchkz.cn^
 ||zcih.clotureantifugue.com^
 ||zcjemo.alwaysfashion.com^
