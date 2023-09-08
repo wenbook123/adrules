@@ -879,16 +879,13 @@ watchcartoononline.*,watchcartoonsonline.*,wcostream.*##+js(acs, document.create
 wcostream.*##+js(nowoif)
 watchcartoononline.bz##.BorderColorChangeElement
 ! https://www.reddit.com/r/uBlockOrigin/comments/eslovb/seriously_well_now_watchcartoononline_has_their/
-@@||wcostream.com^$ghide
 @@||wcoanimedub.tv^$ghide
 @@||wcoanimesub.tv^$ghide
 @@||wco.tv^$ghide
 wco.tv##iframe.hide-ads:upward(div[style])
 watchanimesub.net,wco.tv,wcoanimesub.tv,wcoforever.net##+js(set, isAdBlockActive, false)
-wcostream.com,wcoanimedub.tv,wcoforever.net##+js(nostif, google_jobrunner)
-*$script,3p,domain=wcostream.com,denyallow=gstatic.com|bootstrapcdn.com|fastly.net|googleapis.com|hwcdn.net|jquery.com|jwpcdn.com
-m.wcostream.com##.ui-content
-m.wcostream.com##center
+wcoanimedub.tv,wcoforever.net##+js(nostif, google_jobrunner)
+m.wcostream.org##center
 ||bloxplay.com^
 wcoforever.net##.anti-ad
 wcoforever.net###sidebar_r1
@@ -1928,7 +1925,7 @@ hqq.*,waaw.*##^script:has-text(self == top)
 hqq.*,waaw.*##+js(rmnt, script, self == top)
 !#endif
 ! https://github.com/uBlockOrigin/uAssets/issues/14001
-*$script,3p,denyallow=google.com|gstatic.com|polyfill.io,domain=playdede.to
+*$script,3p,denyallow=google.com|gstatic.com|polyfill.io,domain=playdede.us
 waaw.*##+js(aopr, doSecondPop)
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=39244
@@ -3271,9 +3268,9 @@ readmng.com##.sideways
 *$script,redirect-rule=noopjs,domain=next-episode.net
 next-episode.net##.adsbygoogle
 next-episode.net##[id=""]
-next-episode.net##^script:has-text(/onerror|adsbygoogle|pop/)
+next-episode.net##^script:has-text(/onerror|adsbygoogle|pop|function displayNotice/)
 !#if !cap_html_filtering
-next-episode.net##+js(rmnt, script, /onerror|adsbygoogle|pop/)
+next-episode.net##+js(rmnt, script, /onerror|adsbygoogle|pop|function displayNotice/)
 !#endif
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1402
@@ -13050,9 +13047,6 @@ dirrty.remix.es##.AdZone300
 
 ! https://github.com/NanoMeow/QuickReports/issues/2205
 @@||globaltvapp.net^$ghide
-
-! https://github.com/NanoMeow/QuickReports/issues/2208
-@@||zeoob.com^$ghide
 
 ! indaily.com.au anti adb
 indaily.com.au##.advertisement
