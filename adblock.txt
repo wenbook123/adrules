@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: VOb03NazuUf9dWZ1SxpEnw
+! Checksum: HMmiA4YqNoltZEVeoodukw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-09-10 00:15:45（北京时间） 
-! Total count: 63649
+! Version: 2023-09-10 08:48:27（北京时间） 
+! Total count: 63655
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3048,7 +3048,7 @@ $removeparam=vh,domain=hotspotshield.com|gethotspotshield.com
 $removeparam=via,domain=sincode.ai|skillshare.com
 $removeparam=vifAdCount
 $removeparam=vifNav
-$removeparam=visit_id,domain=bilibili.com|google.*
+$removeparam=visit_id,doc,domain=bilibili.com|google.*
 $removeparam=vndid,domain=paramountplus.com|cbs.com
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=waad
@@ -10022,6 +10022,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||bookwalker.com.tw/images/p_img/pc_ad*.png$~third-party
 @@||bootcss.com^$script,domain=kan-tv.com
+@@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
 @@||briian.com/advert.
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
@@ -18944,6 +18945,11 @@ www.wenxuecity.com###leftside
 www.wenxuecity.com###rightside
 www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http"]:not([href*=".wenxuecity."])
 www.xda-developers.com##.adzone-above-latest
+www.xhfz2.com##A[href^='https://www.xhfz2.com/ad.php']
+www.xhfz2.com##DIV#topcont
+www.xhfz2.com##DIV.HomeTuList
+www.xhfz2.com##DIV.pctext
+www.xhfz2.com##span.lileft > A[style^='float:left;color:']
 www.xvideos.com###ad-footer
 www.xvideos.com##.thumb-ad
 www.ydyse.com##.left,.bottom,.right,.ad,.adimage
@@ -55158,8 +55164,8 @@ zzzyk.com###Tinfo
 ||support.bradken.com^
 ||support.flex.com^
 ||support.github.com^$removeparam=tag
+||support.google.com^$doc,removeparam=sjid
 ||support.google.com^$removeparam=ref_topic
-||support.google.com^$removeparam=sjid
 ||support.panasonic.eu^
 ||support.ricoh.fr^
 ||support2.flex.com^
