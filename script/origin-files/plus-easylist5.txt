@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202309120101
+! Version: 202309130127
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 74003
+! Lenth = 74007
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -632,7 +632,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 -coin-hive/$script
 -didomi.js
 -ga-tracker.
--ga-tracking/
 -gatracker.
 -geoIP.js
 -inview-tracker.
@@ -2071,6 +2070,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ecanalytics.js
 /ecap.min.js
 /ecblank.gif?
+/ecg-js-ga-tracking/*
 /ecom/status.jsp?
 /edAnalyticsWrapper.js
 /edata.js
@@ -4695,6 +4695,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /~shared/do/~/count/?$image
 0ukok.mjt.lu$image
 30menu.com/_t/$image
+33mail.com%2Fpage%2Fopened$image
+33mail.com/page/opened$image
 3dnews.ru##a[href^="http://metrika.yandex.ru/"]
 4esnok.by###text-17
 6play.fr#%#//scriptlet('set-local-storage-item', 'gdprAdTargeting', 'false')
@@ -7207,7 +7209,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||wazimo.com/engine/common/widgets/content/$domain=lastnighton.com
 @@||wazimo.com/engine/common/widgets/content/$domain=showsnob.com
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
-@@||wcs.naver.net/wcslog.js$domain=ciokorea.com|adpiamall.com|live.joins.com|naver.com|jbe.go.kr|privatenote.co.kr|dabangapp.com|kyobobook.co.kr
 @@||web.dev/patterns/web-vitals-$~third-party
 @@||web.snrbox.com/*?tracker=$domain=carrefourpl.snrpage.com
 @@||web.snrbox.com/rtom-proxy/rtom/configs/getPublicConfigForContext$domain=komputronik.pl
@@ -16738,6 +16739,7 @@ znak.com##.relap
 ||analytics.gewaterheater.com^
 ||analytics.givealittle.co^
 ||analytics.global.sky.com^
+||analytics.gnetworks.xyz^
 ||analytics.gokwik.co^$third-party
 ||analytics.google.com/g/collect?
 ||analytics.google.com^$domain=d3ward.github.io
@@ -32826,7 +32828,6 @@ znak.com##.relap
 ||flipkart.com^$removeparam=iid
 ||flipkart.com^$removeparam=lid
 ||flipkart.com^$removeparam=pageUID
-||flipkart.com^$removeparam=pid
 ||flipkart.com^$removeparam=pwsvid
 ||flipkart.com^$removeparam=ssid
 ||flipkart.com^$removeparam=store
@@ -35567,6 +35568,7 @@ znak.com##.relap
 ||happen.spkt.io^
 ||happenhistory.com^
 ||happenhistory.com^$third-party
+||happymail.co.jp^$removeparam=Log
 ||happymod.io/event/
 ||happysex.ch/app_jquery/Tracking.js
 ||harborcaption.com^
@@ -44533,6 +44535,7 @@ znak.com##.relap
 ||meetrics.net^$domain=spiegel.de|stern.de
 ||meetrics.net^$third-party
 ||meetup.com^$cookie=MEETUP_BROWSER_ID
+||meetup.com^$cookie=MEETUP_TRACK
 ||mefo1.zdf.de^
 ||mega-stats.com^$third-party
 ||megadata.co.kr^
@@ -51180,6 +51183,7 @@ znak.com##.relap
 ||prod-collector.bigbasket.com^
 ||prod-events.nykaa.com^
 ||prod-sb-appanalytics-us1.servicebus.windows.net^$third-party
+||prod.benchmarkemail.com/tracker.bundle.js
 ||prod.ew.srp.navigacloud.com^
 ||prod.fennec.atp.fox^
 ||prod.nitrosniffer.ottogroup.io^
@@ -70949,7 +70953,7 @@ znak.com##.relap
 ||wcms.cbp.tt.omtrdc.net^
 ||wco.crownpeak.com^
 ||wcs.naver.com^
-||wcs.naver.com^$image
+||wcs.naver.com^$~script
 ||wct-1.com/wct.js
 ||wct-2.com^
 ||wctv.vod.tt.omtrdc.net^
