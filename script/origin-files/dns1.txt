@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309170032
+! Version: 202309170802
 ! Title: Fanboy's Annoyance List
-! Last modified: 17 Sep 2023 00:32 UTC
+! Last modified: 17 Sep 2023 08:02 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1466,7 +1466,7 @@ _twitter_follow.
 /analytics-trackoutbound.js
 /analytics_cookie.js
 /anclytic-ajax.
-/app.dsgvo.
+/app.dsgvo.min.js
 /approvazione-gdpr/*
 /asesor-cookies-$~image
 /assets/cookies_
@@ -1474,8 +1474,9 @@ _twitter_follow.
 /avada-privacy.js
 /avg-cookie.js
 /avia-snippet-cookieconsent.js
-/avisCookies.
-/aviso_cookies.
+/avisCookies.min.js
+/aviso_cookies.css
+/aviso_cookies.js
 /avisos_legales/*
 /aw-cookie.
 /aws-cookie/*
@@ -1506,24 +1507,17 @@ _twitter_follow.
 /ccpa/getPrivacyFlag?
 /ccpa/prod/*
 /cdcookie/*
-/cdn/consent_
-/check_cookie_
-/CheckCookie.
-/checkCookie?$script
 /checkCookieConsent/*
 /cipr-cookie-opt-out/*
 /cm-body.js
-/cmp-init.
+/cmp-init.js
+/cmp-loader.js
 /cmp-sp.js
 /cmp-v2/*
 /cmp.bundle.js
 /cmp.complete.bundle.js
 /cmp/cmp.js
 /cmp/cmp.min.js
-/cmp/consent-
-/cmp/int_cmp.
-/cmp/tmcookie.
-/cmp/tracking-opt-
 /cmp3p.js
 /cmp_didomi.js
 /cmp_shim.js
@@ -1532,13 +1526,12 @@ _twitter_follow.
 /cmpui-popup.js
 /cnil.js
 /cnil.min.js
-/coCookiesDisclaimer.
 /complianz.min.js
 /component-CookieConsent.
 /consent-banner-
 /consent-box.js
 /consent-dialog.
-/consent-layer-loader.
+/consent-layer-loader.js
 /consent-management/*
 /consent-manager.
 /consent-modal.js
@@ -1645,7 +1638,7 @@ _twitter_follow.
 /cookie_consent.$~stylesheet
 /cookie_consent/*
 /cookie_consent_
-/cookie_flyout.
+/cookie_flyout.js
 /cookie_gateway.
 /cookie_header.
 /cookie_hint.$~xmlhttprequest
@@ -1656,21 +1649,17 @@ _twitter_follow.
 /cookie_it.js
 /cookie_js/*
 /cookie_law.js
-/cookie_law/*
-/cookie_layer.
+/cookie_layer.js
 /cookie_legal_$script
 /cookie_msg.js
-/cookie_notice.
-/cookie_notification-
-/cookie_notifier/*
-/cookie_policy+
-/cookie_policy.
-/cookie_policy/*
-/cookie_policy_
-/cookie_sticky_
-/cookie_warning.
-/cookie_ws.
-/cookie_ws/*
+/cookie_notice.js
+/cookie_notice.min.js
+/cookie_notifier.js
+/cookie_notifier/cn.min.js
+/cookie_policy.js
+/cookie_policy/ack.js
+/cookie_warning.js
+/cookie_ws.js
 /cookieaccept.
 /CookieAccept/*
 /cookieacceptance.
@@ -1912,25 +1901,17 @@ _twitter_follow.
 /dsgvo.js
 /dsgvo_2018.js
 /dsgvoCC.js
-/dw-cookies-
-/dx/cmpui.
 /dywc.js
 /easy-cookies-
 /easy-wp-cookie-popup/*
 /easycmp/index.
-/echonetcookie.
+/echonetcookie.js
 /ecookie_check/*
 /edcc.js
-/ee-cookies-min.
 /ElxtrConsent/*
 /emb-cnil-popup-rgpd.js
-/emea-cookie-
-/ena_cookies_
-/epaas.consentdrawer.
-/eprivacy-cookie.
 /ercookiebar.
-/esb-privacy.
-/et_gdpr_
+/esb-privacy.js
 /etagen_cookie/*
 /eu-cookie-$~script,~stylesheet
 /eu-cookie-law-
@@ -2109,6 +2090,7 @@ _twitter_follow.
 /jqueryCookieGuard.
 /js/CookieManager.js
 /js/cookiePolicy?
+/js/eprivacy.js
 /js/onetrust/*
 /js/rodo.js
 /kabimba_cookie/*
@@ -18209,6 +18191,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###avhcookieconsent
 ###avianCookie
 ###avis-cookies
+###avisCookies
 ###avis_cockies
 ###avis_cookies
 ###aviscookies
@@ -35502,6 +35485,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||fc2.com/share/js/gdpr/
 ||form-renderer.trustarc.com/browser/client.js
 ||freeprivacypolicy.com^$third-party
+||fsdn.com/con/js/sftheme/cmp2.js
 ||gatekeeperconsent.com^$third-party
 ||gdpr-legal-cookie.beeclever.app^$third-party
 ||gdpr-service.herokuapp.com^$third-party
@@ -35542,6 +35526,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||privacy-cdn.sixfifty.com^
 ||privacy-center.org^$third-party
 ||privacy.clion.agency^$third-party
+||privacy.digimedia.com^
 ||privacymanager.io^$third-party
 ||privacytools.com.br^$third-party
 ||private.dmscookie.com^$third-party
@@ -36447,6 +36432,7 @@ wellgames.com##.cross-promo
 c-span.org##.cspan-ad-still-prebid-placeholder
 tsn.ca##.cta-element
 commondreams.org##.d-print-none.position-relative
+texastribune.org##.db-frame-pinned
 lambdatest.com##.demo__cta
 streamable.com##.desktop-banner
 dailyfx.com##.dfx-dnaQuizBanner
@@ -36851,6 +36837,7 @@ topauto.co.za###eltd-back-to-top
 lamborghini-tractors.com###floatArrowUp
 informer.com###float_top
 mydeal.com.au###floatingScrollBtn
+softroboticstoolkit.com###footer
 weeklyrecess.com###go-top
 erome.com###goTop
 fanfreegames.com###go_to_top
@@ -37098,7 +37085,7 @@ tdtube.net###main-fixed
 iol.pt###popover
 livenation.co.nz###push-notifications-popup
 google.com###pushdown
-indiatimes.com###wzrk_wrapper
+alarabiya.net,indiatimes.com###wzrk_wrapper
 tenor.com##.LanguageBanner
 bing.com##.PopinAnimation
 airship.com##.PushNotification
@@ -37226,6 +37213,7 @@ imgur.io##.Ad
 redfin.com##.AppInstallBannerWrapper
 reddit.com##.AppSelectorModal__body
 metservice.com##.Footer-section-image
+www.google.com##.QWEVge
 imgur.io##.ShareButtons-backdrop
 imgur.io##.ShareButtons-wrapper
 beebs.app##.SmartAppBanner-module__container___sK72V
@@ -37431,6 +37419,7 @@ amazon.com##.sparkle-container
 m.moovitapp.com##.splash-footer
 inquisitr.com##.stay-in-touch
 airtel.com##.sticky-section-top
+www.google.com##.tCroyc
 m.tribunnews.com##.tapp-banner
 trip.com##.tcp-h5-install-banner
 trip.com##.tcp-h5-install-popup
@@ -38565,6 +38554,7 @@ robbreport.com##.newsletter-link
 sandiegoreader.com##.newsletter-m
 177milkstreet.com##.newsletter-main-old
 177milkstreet.com##.newsletter-mini
+notateslaapp.com##.newsletter-mod
 bloomberg.com,forward.com,latimes.com,sandiegouniontribune.com,tvinsider.com,wamu.org##.newsletter-module
 amu.tv##.newsletter-page
 sportico.com##.newsletter-podcast
@@ -39556,7 +39546,7 @@ grubstreet.com##.follow-list
 opendemocracy.net##.follow-od
 gptoday.net##.follow-section
 thetablet.co.uk##.follow-the-tablet
-ausgamers.com,cloudwards.net,republicworld.com,timeslive.co.za,trueachievements.com##.follow-us
+alarabiya.net,ausgamers.com,cloudwards.net,notateslaapp.com,republicworld.com,timeslive.co.za,trueachievements.com##.follow-us
 financialexpress.com##.follow-us-on
 sciencenews.org##.follow-us__wrapper___1E0vf
 vt.edu##.follow-virginia-tech-icons
@@ -39607,6 +39597,7 @@ cnbctv18.com##.google-btn-div
 ringsidenews.com##.google-news
 crypto.news##.google-news-banner
 crypto.news##.google-news-button
+alarabiya.net##.google-news-callout
 sammobile.com##.google-news-cta
 9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co,searchengineland.com,spaceexplored.com##.google-news-link
 coinpedia.org##.google_news-space
@@ -39797,7 +39788,7 @@ fintech.tv##.share-news
 rebelnews.com##.share-page
 commondreams.org,spectrum.ieee.org##.share-panel
 aajtak.in,gnttv.com,indiatoday.in,indiatodayne.in##.share-social-icons
-timeextension.com##.share-this
+alarabiya.net,timeextension.com##.share-this
 wrif.com##.share-wrap-icons
 thespinoff.co.nz##.shareButton
 audi-sport.net##.shareButtons
