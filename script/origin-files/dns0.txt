@@ -1,8 +1,8 @@
-! Checksum: t6Hqmnaqu+M3fZO6vwOnjQ
+! Checksum: L1ix9a7BCVEfv7UlDJLeFA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.98.80
-! TimeUpdated: 2023-09-18T00:31:07+00:00
+! Version: 2.0.98.83
+! TimeUpdated: 2023-09-18T06:31:08+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2865,6 +2865,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/161870
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=hoy.tv
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161486
 @@||cdn.theguardian.tv/ad/*.m3u8$domain=theguardian.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160679
@@ -5567,6 +5569,7 @@ newduba.cn###jq_youxi
 ||dozwjl.xyz^
 ||rwarwf.icu^
 ||dniwe.xyz^
+||qu96.com^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/ky6y.com"]
@@ -13988,6 +13991,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+tmioe.com##.widget_image_myimg
 szxx.com.cn###A1
 uuzzw.com##.topmedia
 uuzzw.com##.xgtj-recom

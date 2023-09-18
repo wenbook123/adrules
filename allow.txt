@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Ipc2+f2itoFf44GdisbAyg
+! Checksum: vNYHxE63e4phl0O5fOJJ7g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-09-18 08:46:51（北京时间） 
-! Total count: 15148
+! Version: 2023-09-18 16:19:13（北京时间） 
+! Total count: 15150
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -230,6 +230,7 @@
 @@/adview_*_ads_300x250.js$domain=itbaoku.cn
 @@/adview_*_ads_300x250.js$domain=yaociyuan.bid
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
+@@/adview_pic_$domain=bigpixel.cn|fffmo.co##a[href*="kds.2144.cn"]
 @@/adview_pic_$domain=bigpixel.cn|fffmo.com|itbaoku.cn|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zgpingshu.com
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
@@ -283,7 +284,6 @@
 @@/components/js/analytics.js|$xhr,1p
 @@/content/image.jpg?data=$stealth,domain=nettruyenplus.com
 @@/content/tour/banner/*$domain=digitalplayground.com
-@@/cookie*/jquery.cookie.js$script,~third-party,domain=~albeco.com.pl
 @@/cookie-banner.js$domain=fruugo.ae|fruugo.at|fruugo.be|fruugo.ca|fruugo.ch|fruugo.co.il|fruugo.co.nz|fruugo.co.uk|fruugo.co.za|fruugo.com.tr|fruugo.cz|fruugo.de|fruugo.eg|fruugo.dk|fruugo.es|fruugo.fi|fruugo.fr|fruugo.gr|fruugo.hu|fruugo.it|fruugo.ie|fruugo.jp|fruugo.kr|fruugo.lu|fruugo.my|fruugo.nl|fruugo.no|fruugo.ph|fruugo.pl|fruugo.pt|fruugo.qa|fruugo.ro|fruugo.ru|fruugo.se|fruugo.sg|fruugo.sk|fruugo.us|fruugoaustralia.com|fruugobahrain.com|fruugochina.com|fruugoindia.com|fruugosaudiarabia.com
 @@/cookie-consent.$domain=cunardcruceros.com
 @@/cookie-info.$domain=alibaba.com|aliexpress.com
@@ -5037,7 +5037,9 @@
 @@||edgesuite.net^*/ad.css?
 @@||edgesuite.net^*/frontend_webtrekk.js$domain=goertz.de
 @@||edghst.me/*.m3u8$stealth
-@@||edifier-ah.shop/_banner_ads.js$script
+@@||edifier-ah.shop/*.js|$script,domain=animeshouse.net|feralhosting.com|reign-ah.online
+@@||edifier-ah.shop/_banner_ads.js|$script
+@@||edifier-ah.shop/_google_ad.js|$script
 @@||editor.wix.com/_api/wix-laboratory-server/laboratory/conductAllInScope?scope=add-panel-data$domain=editor.wix.com
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||edmondpoon.com^$generichide
@@ -9869,7 +9871,6 @@
 @@||nytimes.com/bi/js/analytics/nyt4/controller.js
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||nytimes.com^*/adslot-$script,xhr,badfilter
-@@||nytimes.com^*/adslot-$script,xmlhttprequest
 @@||nzherald.co.nz/themes/*/s_code.min.js
 @@||nzherald.co.nz^*/ad/$script
 @@||o.aolcdn.com/ads/adsWrapperHeader.min.js$domain=moviefone.com
@@ -13276,7 +13277,6 @@
 @@||teams.microsoft.com^$generichide
 @@||tech-platform.info^$generichide
 @@||techacode.com/peel.js
-@@||techacode.com^$script,1p
 @@||techblog.top^
 @@||techdays.ru/Banners/Redirect?bannerId=
 @@||techdays.ru/banners?pid=
@@ -14304,6 +14304,7 @@
 @@||vitacost.122.2o7.net^
 @@||viu.com^*/tracking/
 @@||viu.tv^$generichide
+@@||vivo.bg/gpt.js
 @@||vivo.bg/gpt.js$domain=topsport.bg|webcafe.bg
 @@||vivo.sx^$generichide
 @@||vivo.sx^$stealth
@@ -14911,6 +14912,7 @@
 @@||xfreehd.com^$generichide
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
+@@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
 @@||xiaomi-miui.gr/*/advertisement.js
 @@||xiaoyuanzhao.com/adservice/$domain=shixiseng.com
