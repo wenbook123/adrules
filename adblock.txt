@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 3iGHI07q7Vosm2vunWaYYg
+! Checksum: jJoh3OB0JfC8L754P3XUJw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-09-19 08:46:23（北京时间） 
-! Total count: 63868
+! Version: 2023-09-19 16:19:08（北京时间） 
+! Total count: 63851
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1765,7 +1765,6 @@
 ##style + .topd + .bottomd
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
-##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 ##ul > li > A[href$='_list.html']
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
 ##ul.content-list > li.content-tb
@@ -3865,7 +3864,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /Optimost/*
 /OtAutoBlock.js
 /PBSTrackingPlugIn.
-/PKAnalytics.
 /PageCount.php?
 /PageHit.ashx
 /PageHitPixel.
@@ -3879,13 +3877,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /PhoenixGoogleAnalytics.
 /Php/Home/kakaxiaikakaxi.php
 /PingPixel.
-/PixelImg.asp
-/PixelNedstat.
 /PixelTracking.
-/PlayerDashboardLoggingService.svc/json/StartSession?
-/PmsPixel?
-/PointRoll.
-/PointRollAnonymous.
 /Public/wap/zymk/js/guanggao.js
 /PushSystem/attached/image/*
 /PushexSDK.
@@ -6587,8 +6579,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /pix.fcg?
 /pix.fly/*
 /pix.gif?
-/pixLogVisit.
-/pixMark.png?
 /pix_st.php?
 /pix_st_v2.php?
 /pixall.min.js
@@ -6611,58 +6601,43 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /pixel/impression?
 /pixel/nvrwe?
 /pixel/sbs?
-/pixel/stats/?
-/pixel/stream/*
 /pixel/view?
 /pixel/visit?
 /pixel1/impression.
 /pixel2.gif?
 /pixel?cid=
-/pixel?id=
 /pixel?tag=
 /pixel?type=
-/pixelArticolo?
 /pixelNew.js
-/pixelTargetingCacheBuster.
 /pixel_V2.
-/pixel_event_data?
 /pixel_identifier.
 /pixel_iframe.
 /pixel_tag.
 /pixel_track.
 /pixel_tracking.
 /pixel_tracking?
-/pixelappcollector.
 /pixelcounter.$domain=~pixelcounter.co.uk|~pixelcounter.com|~pixelcounter.dev|~pixelcounter.org|~pixelcounters.co.uk|~pixelcounters.uk
-/pixelframe/*
 /pixeljs/*
 /pixellog.
-/pixelpropagate.
+/pixelpropagate.js
 /pixels.jsp?
 /pixels/track?
 /pixelstats/*
-/pixeltag.
+/pixeltag.js
 /pixeltrack.
 /pixeltracker.
 /pixeltracking/*
-/pixiedust-build.js
 /pixy.gif?
 /pj5303.oss-
 /pj545.oss-
 /pjk/mdk/*$subdocument,third-party
 /pjk/static/tp.php
 /pjk/xjk/*.php
-/planetstat.
+/planetstat.php
 /plausible.js$domain=~plausible.io
 /plausible.outbound-links.js$domain=~plausible.io
 /player-test-impression?
 /player/stats.php?
-/player_counter.ashx?
-/playerlogger.
-/playerstats.gif?
-/playertracking/*
-/plgtrafic.
-/plingatracker.
 /plog?id
 /plogger/*
 /plugin.php?id=popad_7ree&
@@ -6677,18 +6652,12 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /plugins/visitors-traffic-
 /plugins/wordfence/visitor.php?
 /plus/ad_
-/plzcrawlme.js
 /pm/pixel.
 /pmc-cxense.js
-/pmspxl.
-/point_roll.
 /pointeur.gif?
 /pomegranate.js
 /pop_ads.
-/popanalytics.
 /popunder1000.
-/popupCookieWriter.
-/popuplog/*
 /portalwlanad/pages/*$popup
 /post-tracking/*
 /post.pinterest.com/q/*$image
@@ -8504,6 +8473,11 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 17yy.com###addiv
 17yy.com##.t2_3
 17yy.com##.t2r_3
+18-comic.work,18comic.org,18comic.vip###guide-modal
+18-comic.work,18comic.org,18comic.vip##.modal-backdrop
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
 18183.com###gsBtn
 18183.com##.down_url
 18183.com##.pcBtn > a[href*="@"]
@@ -8543,12 +8517,9 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 18comic.*##div[data-height="90"][data-width="728"]
 18comic.*#?#body .bot-per
 18comic.*#@#img[style*="300px"]
-18comic.org,18comic.vip###guide-modal
-18comic.org,18comic.vip##.modal-backdrop
-18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
-18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img + [style]
-18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18comic.org,18comic.vip,jm-comic2.club#?#:-abp-has(>script+ins)
+18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>ins+script)
+18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>script+ins)
+18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
@@ -9271,6 +9242,8 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 85tube.com##.block-album > .table > .opt
 85tube.com##.block-video > .table
 85tube.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'document.createElement')
+85wp.com###a3_diy2
+85wp.com##.top-ad-img
 8684.cn,8684.com##div[id*="adid"]
 8684.cn,8684.com,kugou.com,solarzoom.com,yesky.com,yxdmgo.com##div[class^="adv"]
 880sy.com##.foot_gg
@@ -15362,8 +15335,8 @@ jianshu.com#?#div[id]:-abp-has(> .ad-badge)
 jianshu.com#?#div[role="button"]:-abp-contains(抽奖)
 jiaodong.net###leftBanner
 jiaodong.net###rightBanner
-jiayongluyou.com##.widget_image_myimg
 jiayongluyou.com#?#.widget_html_myimg:has(> ins.adsbygoogle)
+jiayongluyou.com,tmioe.com##.widget_image_myimg
 jieav.com##.b300
 jieav.com##ul[id^="jieav_"]
 jieav.com#$##comment { margin-bottom: 0 !important; }
@@ -15460,8 +15433,6 @@ jkpan.cc#%#//scriptlet("abort-current-inline-script", "jQuery", "\u")
 jkpan.cc#%#//scriptlet("set-constant", "killads", "true")
 jlmhk.com##.bn
 jlpcn.net##.vodAd
-jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img
-jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img + [style]
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
@@ -20006,6 +19977,7 @@ zzzyk.com###Tinfo
 ||17k.com/jump/uh
 ||17ok.com/focus/3j_right_jdt.shtml
 ||17yy.com/style/ifra_ad/
+||18-comic.work/media/albums/*?$media
 ||180.76.171.28^
 ||180.76.2.18^$third-party,domain=~baidu.ip
 ||180.96.27.85^*.htm
@@ -20311,6 +20283,7 @@ zzzyk.com###Tinfo
 ||3269x.com^
 ||32fi.com^
 ||32xp.com/upimg/
+||32ycta.xyz^
 ||331qka.cn^
 ||3324.cn^$third-party
 ||3332899.com^$third-party,image
@@ -20379,7 +20352,6 @@ zzzyk.com###Tinfo
 ||360114.xyz^
 ||36060.xyz^
 ||360640.com^
-||360buyimg.com$domain=73thz.com
 ||360buyimg.com/babel/jfs/t1/209256/22/21888/60206/627b7a6aEa5f2d78b/219868beb169203f.jpg
 ||360buyimg.com/ddimg/jfs/t1/27218/8/19964/31194/636a1930E1de2ae78/e3ff134116579b95.jpg
 ||360buyimg.com/jdf/1.0.0/unit/log/
@@ -20560,6 +20532,7 @@ zzzyk.com###Tinfo
 ||4k123.com/data/attachment/portal/201712/20/194208ao9pevvvg0xr0n1p.jpg
 ||4kfv18.cn^
 ||4kwu.cc/static/js/tj.js
+||4l903.com^
 ||4oney.com^$third-party
 ||4paradigm.com^$domain=sina.com.cn
 ||4pda.ru/stat/
@@ -21080,6 +21053,7 @@ zzzyk.com###Tinfo
 ||8585go.com/recommend
 ||85tube.com/player/html.php?aid=*_html&video_id=*&*&referer
 ||85tube.com/player/html.php?aid=*_html&video_id=*&*&referer$redirect=nooptext
+||85wp.com/ad/
 ||8622a.com^
 ||8684.cn/id/ad_
 ||8684.com/com/sys_ad_
@@ -24564,7 +24538,6 @@ zzzyk.com###Tinfo
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com^$domain=1024pz.com|11papapa.com|1avlang.com|2334n.com|51dll.com|52kpop.com|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|c7cc.cc|ccxx99.com|dytt.com|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|magnet2048.com|qingmanyong.com|qyl00.com|qyl222.com|spqi.xyz|supfree.net|that2.info|thztv.cc|ttww22.com|viidii.info|wenkuxiazai.com|xiaomingming.org|xingzhiyin44.com|yuese46.com|yzz12.com
 ||alicdn.com^$domain=2c2.website|2p8.space|adultgao.com|caopop.com|caoporn.com|caouoo.com|caox.cc|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vwan.xyz|xhao1.com
-||alicdn.com^$domain=73thz.com
 ||alicdn.com^$domain=99re.com
 ||alicdn.com^$domain=dyhs6.com
 ||alicdn.com^$domain=pianba.net
@@ -32765,6 +32738,7 @@ zzzyk.com###Tinfo
 ||ec-track.com^$third-party
 ||ec.thredup.com^
 ||ec.walkme.com^
+||ecami.xyz^
 ||ecav5.com^
 ||eccbb.com^
 ||eccn.com/js/gg.js
@@ -37952,6 +37926,7 @@ zzzyk.com###Tinfo
 ||imall.cntv.cn^
 ||imanhuapi.com/style/js/mpmh.js
 ||imap.happ.social^
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=hoy.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=line.me,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=linetv.tw
 ||imasdk.googleapis.com^
@@ -39240,7 +39215,6 @@ zzzyk.com###Tinfo
 ||jlsyuula.cam^
 ||jlwz.cn/js/xf*.js
 ||jly24aw29n5m-a.akamaihd.net^
-||jm-comic2.club/media/albums/*?$media
 ||jmbbs.cn/sjgg/
 ||jmbluyxkl.xyz^
 ||jmcomic.asia/iframe_*&idzone=
@@ -41941,6 +41915,7 @@ zzzyk.com###Tinfo
 ||lxyl66.cn^
 ||ly6080.com.cn/gg/
 ||ly8c.caci-online.fr^
+||lybxft.xyz^
 ||lycc72.com/resources/js/content.js
 ||lychangxu.cn^$third-party
 ||lycjsix.cn^
@@ -46720,6 +46695,7 @@ zzzyk.com###Tinfo
 ||pgkxhq.jamesallen.com^
 ||pgl7.cn^
 ||pglstatp-toutiao.com^
+||pgpufyzi.xyz^
 ||pgs.farmprogress.com^
 ||pgs.io^$third-party,domain=~publicgood.com
 ||pgt1.voyage-prive.es^
@@ -48269,6 +48245,7 @@ zzzyk.com###Tinfo
 ||qtmdzsj.cn^
 ||qtmojo.com^$third-party
 ||qtycwy.modivo.cz^
+||qu96.com^
 ||quacksquirrel.com^
 ||quadran.eu^$third-party
 ||quae0.top^
@@ -58668,6 +58645,7 @@ zzzyk.com###Tinfo
 ||tracking.seakeeper.com^
 ||tracking.searchmarketing.com^
 ||tracking.sembox.it^$third-party
+||tracking.server.bytecon.com^
 ||tracking.sexcash.com^
 ||tracking.sezzle.com^
 ||tracking.sharplink.us^
@@ -60018,6 +59996,7 @@ zzzyk.com###Tinfo
 ||vagrantup.com/api/auth/_log
 ||vagvedi.cn^
 ||vainews.cn^
+||vakdop.icu^
 ||valdes.net.anwalt.de^
 ||validate.onecount.net^$image
 ||valipl.cp31.ott.cibntv.net/$media
@@ -61203,6 +61182,7 @@ zzzyk.com###Tinfo
 ||whitepages.com^$doc,removeparam=wp_medium
 ||whitepages.com^$doc,removeparam=wp_term
 ||whitepixel.com^$third-party
+||whjding.cn^
 ||whnews.cn/wh_public/xuxu/
 ||whoaremyfriends.com^$third-party
 ||whoaremyfriends.net^$third-party
@@ -63065,6 +63045,7 @@ zzzyk.com###Tinfo
 ||ypojie.com/wp-content/uploads/*.js
 ||ypowpo.actonservice.com^
 ||yptqys.tianqistatic.com^
+||ypvtw.com^
 ||ypzps.com^
 ||yqgpic.xyz^
 ||yqgzaewe.cn^
@@ -63437,6 +63418,7 @@ zzzyk.com###Tinfo
 ||zengenti.com/tags/
 ||zenimpact.io/dist/zen_init.min.js
 ||zents10.top^
+||zents5.top^
 ||zents7.top^
 ||zeookuv.xyz^
 ||zeotap.com^$third-party
@@ -63566,6 +63548,7 @@ zzzyk.com###Tinfo
 ||zhoubo01.cn^
 ||zhouduanyyds.com^
 ||zhouduayqq.com^
+||zhrrzug.xyz^
 ||zhuangxiu567.com^
 ||zhuashi.oss-cn-beijing.aliyuncs.com^$domain=~zhuashi.com
 ||zhuji.net/2007_ad/
