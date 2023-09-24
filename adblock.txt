@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: BcZvglBQpOBJqIe3NSwGtA
+! Checksum: NEWTl6pkBWz0enfrFpWoCA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-09-24 08:49:24（北京时间） 
-! Total count: 63801
+! Version: 2023-09-24 16:16:29（北京时间） 
+! Total count: 63817
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1700,6 +1700,7 @@
 ##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[style^="line-height"][style*="http"][style$="fixed;"]
 ##div[style^="position"][onclick^="window.open"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([allowfullscreen])
 ##div[style^="width: 100%;"][style$="margin: 0px;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -9803,6 +9804,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||api.enthusiastgaming.net^$xmlhttprequest,domain=diep.io
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
+@@||api.nocturnal-narwhal.buzz^$domain=webtor.io
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.taiga.io^$removeparam
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
@@ -9984,6 +9986,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||chinatimes.com/css-main/ad.css
 @@||chtoen.com/js/adsbygoogle.js
 @@||chuangkit.com^$generichide
+@@||ci-mpsnare.iovation.com/snare.js$domain=equifax.ca
 @@||cibntv.net/youku/*.mp4?$domain=v.youku.com
 @@||citysbs.com^*/swfupload/
 @@||citytalk.tw/js/ct/common/v3/ui/fblike/FBLike.html
@@ -10608,7 +10611,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mp.weixin.qq.com/mp/qrcode?$removeparam=scene
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|gymshark.com|motortrendondemand.com
-@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
+@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 @@||ms332.com^$generichide
 @@||msecnd.net/scripts/jsll-$domain=microsoft.com
 @@||msecnd.net/scripts/jsll-$script,domain=forms.microsoft.com|office.com|sharepoint.com|teams.microsoft.com
@@ -13500,6 +13503,8 @@ etest8.com##.subtop2right
 etnet.com.cn##.firstAD
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
+ettoday.net###mobileweb_inread
+ettoday.net###pc_inread_overseas
 ettoday.net###ticker_3
 ettoday.net##.adHint
 ettoday.net##.ad_300
@@ -19638,6 +19643,7 @@ zzzyk.com###Tinfo
 ||11.yiqig.com^
 ||1104piaoba2022.xyz^
 ||1105yh.com^
+||110628.cn^
 ||1106yh.com^
 ||1107piaoliang2022.xyz^
 ||1108jiuba2022.xyz^
@@ -25883,6 +25889,7 @@ zzzyk.com###Tinfo
 ||asayer.io/tracker.js
 ||asc.solidworks.com^
 ||ascend.ai^$third-party
+||asclan.icu^
 ||ascpqnj-oam.global.ssl.fastly.net^
 ||asd8900.oss-*.aliyuncs.com^
 ||asdffe22.com^
@@ -38732,6 +38739,7 @@ zzzyk.com###Tinfo
 ||iugbjkqwc.xyz^
 ||iughyy7919.com^
 ||iuou.myadobe.cn^
+||iuou.ysw365.com^
 ||iupian.com/mstyle/js/topinfo.js
 ||iuryhk.soccer.com^
 ||iuu3j.xyz^
@@ -39456,6 +39464,7 @@ zzzyk.com###Tinfo
 ||jweod.xyz^
 ||jweoe.xyz^
 ||jwjdpab.cn^
+||jwltpv.xyz^
 ||jwmstats.com^$third-party
 ||jwpepper.actonsoftware.com^
 ||jwronx.xyz^
@@ -40328,6 +40337,7 @@ zzzyk.com###Tinfo
 ||lcodff.uta-net.com^
 ||lcs.comico.jp^$image
 ||lcs.naver.com^
+||lctcbtly.xyz^
 ||lcxw.cn/d/js/thea
 ||lcxw.cn/i/*dl.js
 ||lczk.cn^$third-party
@@ -43962,6 +43972,7 @@ zzzyk.com###Tinfo
 ||mla3.societegenerale.fr^
 ||mlclick.com^$third-party
 ||mlgubn.autouncle.de^
+||mlhdvjv.xyz^
 ||mlinks.fluz.app^
 ||mlinks.helloalfred.com^
 ||mlm-tracking-service.meinestadt.de^
@@ -49072,6 +49083,7 @@ zzzyk.com###Tinfo
 ||rnengage.com^$third-party
 ||rnet.plus^$third-party
 ||rnffgv.wemakeprice.com^
+||rnfhsji.cn^
 ||rng-snp-003.com^$third-party
 ||rnhqxh.com^
 ||rnlabs.com^$third-party
@@ -49767,6 +49779,7 @@ zzzyk.com###Tinfo
 ||sbbd1.qulishi.com^
 ||sbcjahdc.com^
 ||sbdebcz.cn^
+||sbdvjsbjslkv.com^
 ||sbeacon.sina.com.cn^
 ||sbeaje.com^
 ||sbehgm.xyz^
@@ -59224,6 +59237,7 @@ zzzyk.com###Tinfo
 ||tvszazx.icu^
 ||tvxqdp.xyz^
 ||tvyan.com/images/jscss/tv-
+||tvyb03.com/template/mytheme/statics/js/layer/
 ||tw.beanfun.com/bfweb/NEW/commonlogin
 ||tw.buy.yahoo.com/?z=
 ||tw.cx^
@@ -60356,6 +60370,7 @@ zzzyk.com###Tinfo
 ||votejoe.outvote.io^
 ||votistics.com^$third-party
 ||vouninked.com^
+||voxirf.xyz^
 ||voxmedia.com/beacon-min.js
 ||voxus.com.br^$third-party
 ||voyagepotato.com^
@@ -63369,6 +63384,7 @@ zzzyk.com###Tinfo
 ||zents10.top^
 ||zents5.top^
 ||zents7.top^
+||zents8.top^
 ||zeookuv.xyz^
 ||zeotap.com^$third-party
 ||zerkalo.io/stat/
