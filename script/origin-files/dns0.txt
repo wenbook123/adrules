@@ -1,8 +1,8 @@
-! Checksum: 8vd3w21by8w2SbNhgwqTQA
+! Checksum: 04wHfmFo94ser2og1HXQqg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.99.39
-! TimeUpdated: 2023-09-25T05:02:51+00:00
+! Version: 2.0.99.44
+! TimeUpdated: 2023-09-25T14:31:11+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1077,6 +1077,8 @@ csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 !--------------------------------------!
 ! SECTION: Chinese - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/162373
+player.hboav.com#%#//scriptlet('set-constant', 'player.VastADPlugin', 'noopFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162094
 x99av.com#%#//scriptlet('set-constant', 'ADSOBJET', 'emptyObj')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160509
@@ -1413,6 +1415,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+||go.kbnmnl.com/api/models/vast
 bbs.xmfish.com##.adv-760
 liantu.cn##.side > .h250
 liantu.cn##.wrapper > .inner.h90
@@ -5635,6 +5638,9 @@ newduba.cn###jq_youxi
 ||ecmwsx.icu^
 ||havttn.xyz^
 ||7i4dka.cn^
+||quelorimu.com^
+||vanessajumpd.com^
+||keptafd.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/ky6y.com"]
@@ -14023,6 +14029,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+weibo.com#?#.card-wrap:-abp-has(>.card>i[style*="%E5%B9%"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -21565,7 +21572,6 @@ $image,third-party,domain=258zw.com
 /ce_l.aspx?showid=$third-party
 /ceshi127722.
 /dayu2.html?channelCode=$csp=script-src
-/jquery-ui.js?166$script,~third-party
 /js/easyAD.js
 /js/easyAD2.js
 /js/mangoIndexBanner.js

@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: WeLSOVk8hMnDGqLprPcYNw
+! Checksum: jhE1ZHLz7w9Q0hVNcHb0iQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-09-25 16:18:27（北京时间） 
-! Total count: 15178
+! Version: 2023-09-26 00:17:38（北京时间） 
+! Total count: 15181
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -584,7 +584,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -2542,6 +2541,7 @@
 @@||bing.*/account/action$removeparam=cc
 @@||bing.*/ws/redirect/$removeparam
 @@||bing.com/Passport.aspx$document
+@@||bing.com/VisualSystem/AudioConsentInfo$xmlhttprequest,elemhide,jsinject,extension
 @@||bing.com/api/v*/Places/AutoSuggest?$stealth,domain=obi.de
 @@||bing.com/news/search?*InfiniteScroll=$document
 @@||bing.com/search?$generichide
@@ -3088,6 +3088,7 @@
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=southpark.de|movistar.es|redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|foxchannels.com.tr|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|vod.pl|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.de|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|tvnturbo.pl|superporn.com|thebump.com|bk.com|safeway.com|motor1.com|southparkstudios.com.br|southpark.lat|southparkstudios.com|realsimple.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=tripadvisor.*
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=tvguide.com
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js^$domain=mytim.tim.it
 @@||cdn.cookielaw.org/scripttemplates^$domain=abus.com
 @@||cdn.cookielaw.org/scripttemplates^$domain=mojkatalog.rs
 @@||cdn.cookielaw.org/scripttemplates^$domain=trustpilot.com
@@ -7910,6 +7911,7 @@
 @@||img.rakudaclub.com/adv/$~third-party
 @@||img.segmentify.com^$domain=mediamarkt.com.tr
 @@||img.shouji.sogou.com^
+@@||img.soft98.ir/*/300x250.
 @@||img.techwallacdn.com/300x250/photos.demandstudios.com/getty/article/*/*.jpg
 @@||img.tfd.com/ads.js
 @@||img.vidible.tv^
@@ -8713,6 +8715,7 @@
 @@||live.streamtheworld.com/*.mp3
 @@||live.streamtheworld.com/*/playlist.m3u8$elemhide,jsinject,extension,content
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com
+@@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
 @@||live.tv247us.com/tv247/*.m3u8$stealth
 @@||live800.com^
 @@||liveadexchanger.com/a/display.php$script,domain=prem.link
@@ -9410,7 +9413,6 @@
 @@||moneyweb.co.za^*/social-shares.min.js?
 @@||mongoosemetrics.com/jsfiles/js-correlation/mm-rules.min.js$domain=subaru.com
 @@||monnsutogatya.com^$elemhide
-@@||monnsutogatym##div[class^="top_96"]
 @@||monoprice.com^$stealth
 @@||monova.*/fonts/
 @@||monova.*/img/
@@ -11484,7 +11486,6 @@
 @@||research.de.com^$script,domain=spiegel.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsmanager-gtm,domain=carrefoursa.com,important
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -12457,6 +12458,7 @@
 @@||smetrics.target.com/b/ss/$image
 @@||smetrics.ticketmaster.com/b/ss/$image
 @@||smitedatamining.com^$generichide
+@@||smog.moja-ostroleka.pl/mapa/sensorsdata.json$~third-party
 @@||smokelearned.net/embed/$stealth
 @@||smokingmeatforums.com/js/*/generic-ad.js
 @@||smotrim.ru/js/stat.js$script
@@ -14937,6 +14939,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichidentgrocer.ca,zehrs.ca#?#.product-tile-group__list__item:-abp-contains(Sponsored)
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
