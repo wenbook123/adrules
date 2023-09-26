@@ -1,10 +1,11 @@
 ! Title: AdRules Allowlist
-! Checksum: JQKviXgUgsAcfu6cM7h4wA
+! Checksum: +OgOIbPCdSCnJWShEnqmhA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-09-26 08:48:47（北京时间） 
-! Total count: 15184
+! Version: 2023-09-26 16:18:23（北京时间） 
+! Total count: 15185
+@#div[class$="_0"]@www.jianshu.com
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -584,7 +585,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orginsights.academy.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3273,6 +3273,7 @@
 @@||cdn.opencmp.net/tcf-v2/cmp-stub-latest.js$script,domain=idowa.de
 @@||cdn.opencmp.net^$domain=promipool.de
 @@||cdn.opencmp.net^$domain=stimme.de
+@@||cdn.optad360.net/cmp/$domain=cursorinfo.co.il
 @@||cdn.optimizely.com/datafiles/*.json$domain=hm.com
 @@||cdn.optimizely.com/datafiles/*.json$domain=talktalk.co.uk
 @@||cdn.optimizely.com/datafiles/*.json/tag.js$domain=nike.com
@@ -5455,6 +5456,7 @@
 @@||file-upload.com/js/advertisement.js
 @@||file.fm/f/$stealth
 @@||file.myqcloud.com/*.mp4?token=$stealth
+@@||file.myqcloud.com^$stealth,image,domain=icezmz.com
 @@||file.vidcdn.pro/images/*.vtt
 @@||file4go.*/ads.js$script,1p
 @@||filecheck.ru^$elemhide
@@ -8717,7 +8719,6 @@
 @@||live.streamtheworld.com/*.aac
 @@||live.streamtheworld.com/*.mp3
 @@||live.streamtheworld.com/*/playlist.m3u8$elemhide,jsinject,extension,content
-@@||live.streamtheworld.com/partnerIds$domain=iheart.com
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
 @@||live.tv247us.com/tv247/*.m3u8$stealth
 @@||live800.com^
@@ -11074,7 +11075,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamparam=curPageLogUid
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -14943,6 +14943,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichidebranded-sponsored-result
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com

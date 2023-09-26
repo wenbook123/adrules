@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: itRHySbuX8EnbakHzUCAGw
+! Checksum: hrzPWrctU2iheCU0flF/dQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-09-26 08:48:47（北京时间） 
-! Total count: 63831
+! Version: 2023-09-26 16:18:22（北京时间） 
+! Total count: 63851
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -5069,6 +5069,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /efxanalytics.js
 /egcs/v2/collect
 /eis/diy/ad/*
+/elastic-apm-rum.umd.min.js
 /eloqua.js
 /elqcfg.js
 /elqcfg.min.js
@@ -5665,7 +5666,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /jgs_portal_log_bildschirm.php?
 /jianpian.obs.cn-
 /jianshen8/images/plan_banner_
-/jquery-ui.js?166$script,~third-party
 /jquery.analytics.js|
 /jquery.audiencetarget.
 /jquery.browser-fingerprint-
@@ -9408,6 +9408,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 ?statify_referrer=
 ?type=page&event=
 ?type=pageview&
+@#div[class$="_0"]@www.jianshu.com
 @@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-social-bar.$domain=mobi.yahoo.com
@@ -16459,7 +16460,7 @@ mypianku.net##div[style*="background:url"]
 myptt.cc##p[style="padding:0;margin: 5px 0;color:#ff0000;"] > a[href][target="_blank"][style^="display:inline-block;"] > img
 myptt.cc#%#//scriptlet("set-constant", "adsbygoogle.loaded", "true")
 myqqjd.com###advert_widget
-myqqjd.com##.adsbygoogle
+myqqjd.com##.adsbygoogl
 myqqjd.com##.qz-box
 myqqjd.com##aside[id^="sponsor-"]
 myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
@@ -16784,6 +16785,8 @@ pan.baidu.com###share_ad_info_panl
 pan.baidu.com##.decrease-active
 pan.baidu.com##.phone-banner
 pan.baidu.com##.photo-banner
+pan.baidu.com##A.active-msg
+pan.baidu.com##div.content DIV.photo-banner
 pan666.cn##.footer > .containerNarrow
 pansci.asia##body > section.hide-on-print.mt-5
 pansci.asia#$##firstSingle { padding: 0 !important; }
@@ -16960,6 +16963,7 @@ pjtime.com###Couplet_r_small
 pjtime.com###pjtime_full
 pjtime.com##.top_R
 playallvideos.com,pron.co##.rmedia
+player.hboav.com#%#//scriptlet('set-constant', 'player.VastADPlugin', 'noopFunc')
 playno1.com###frame8I822E
 playno1.com###m12
 playno1.com###m2
@@ -18591,6 +18595,7 @@ weibo.com#?#.card-content > ul > li:-abp-has(> p > .icon-txt-recommend)
 weibo.com#?#.card-content > ul > li:-abp-has(>a[action-type="realtimehot_ad"])
 weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains(广告))
 weibo.com#?#.card-wrap:-abp-has(>.card-top>.s-fr:-abp-contains(广告))
+weibo.com#?#.card-wrap:-abp-has(>.card>i[style*="%E5%B9%"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contains(广告))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-auth-tag>div:-abp-contains(热推))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_authtag_"]>img[src^="data"])
@@ -18799,6 +18804,7 @@ www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
 www.jianshu.com##[aria-label='lwa-ad-one']
+www.jianshu.com#@#div[class$="_0"]
 www.jin10.com##.l-main_body > div[class]:not(.jin-timeline)
 www.jin10.com##.l-main_info > div[class]:not(.jin-declaration):not(.jin-qq-cooperation)
 www.jjtyss.com##ins[class],.myui-player.clearfix p,.container p
@@ -19932,7 +19938,7 @@ zzzyk.com###Tinfo
 ||1n4o.icu^
 ||1pel.com^$third-party
 ||1porp.top^
-||1ppt.com/ads.
+||1ppt.com/ad$image
 ||1pwx.com/js/ck.js
 ||1qlgi.top^
 ||1qm5.top^
@@ -20866,6 +20872,7 @@ zzzyk.com###Tinfo
 ||7hdl8dlfjm4g.www.cybernetman.com^
 ||7hjb8.com^*.php
 ||7host.ru/tr/*?r=$third-party
+||7i4dka.cn^
 ||7jkzmbd.cn^
 ||7junshi.com/con/ad
 ||7junshi.com/static/red-envelopes.js
@@ -25910,6 +25917,7 @@ zzzyk.com###Tinfo
 ||aspku.com/z/
 ||aspservice.jp^$third-party
 ||aspwg.cn^
+||asryrzpu.xyz^
 ||asserts.avple.tv/file/avple-asserts/ad.js
 ||assets.garron.blog^
 ||assets.garron.me^
@@ -27496,6 +27504,7 @@ zzzyk.com###Tinfo
 ||bny9.cn^
 ||bnz9.cn^
 ||boardx.huanqiu.com^
+||boats5.top^
 ||boats8.top^
 ||bob-recs.com^$third-party
 ||bob.gitclear.com^
@@ -28082,6 +28091,7 @@ zzzyk.com###Tinfo
 ||bzngisyv.xyz^
 ||bzpics.com/jslib/st.js?
 ||bzqxze.remixshop.com^
+||bzthxv.xyz^
 ||bzxvtj.xyz^
 ||c-5uwzmx78pmca09x24aiux2euavx2ekwu.g00.msn.com^
 ||c-app.heroes.jobs^
@@ -31757,7 +31767,6 @@ zzzyk.com###Tinfo
 ||dm1.ddwk8.cn^
 ||dm1.guanwawa.com^
 ||dm1.zjydt.com^
-||dm590.com/piao/
 ||dmanalytics1.com^$third-party
 ||dmcdn.net/behavior/
 ||dmclick.cn^$third-party
@@ -35527,6 +35536,7 @@ zzzyk.com###Tinfo
 ||go.kareo.com^
 ||go.karos.fr^
 ||go.kasa.co.kr^
+||go.kbnmnl.com/api/models/vast
 ||go.keenvibe.com^
 ||go.korea.innovatedating.com^
 ||go.kurumsal.vodafone.com.tr^
@@ -37859,6 +37869,7 @@ zzzyk.com###Tinfo
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=linetv.tw
 ||imasdk.googleapis.com^
 ||imassg.xyz^
+||imbikh.icu^
 ||imcht.net^$third-party
 ||imdb.com/api/_ajax/metrics/
 ||imdb.com^$removeparam=/^pf_rd_[a-z]*=/
@@ -39711,6 +39722,7 @@ zzzyk.com###Tinfo
 ||keoap.xyz^
 ||keoofp.gulfnews.com^
 ||kep6.destinia.ie^
+||keptafd.cn^
 ||kerastase-usa.com/IZ/PXXiuO7QTJ/init.js
 ||kernenergie.efscle.com^
 ||ketwo2acea.icu^
@@ -39971,6 +39983,7 @@ zzzyk.com###Tinfo
 ||kr.sdykcloud.cn^
 ||kraken.rambler.ru^
 ||kravma.xyz^
+||krjzxie.cn^
 ||kropka.onet.pl^
 ||krp3g.top^
 ||krqole.xyz^
@@ -41431,6 +41444,7 @@ zzzyk.com###Tinfo
 ||lndata.com^$third-party
 ||lngtd.com^$third-party
 ||lnhsjob.com^$third-party
+||lniwe.xyz^
 ||lnk-test.jointakeoff.com^
 ||lnk.culturetrip.com^
 ||lnk.dgsta.com^
@@ -47722,6 +47736,7 @@ zzzyk.com###Tinfo
 ||pv4b.com^$popup
 ||pv966.us/js/tw.js
 ||pvd.to^$third-party
+||pvlnjwr.xyz^
 ||pvmax.net^$third-party
 ||pvmja.cn^
 ||pvoheg.bubbleroom.se^
@@ -48222,6 +48237,7 @@ zzzyk.com###Tinfo
 ||qudajie.com^
 ||qudao.com/common/minisite.js
 ||quellavelinge.com/referer.php?
+||quelorimu.com^
 ||query.petametrics.com^
 ||quesid.com^
 ||questintegrity.actonservice.com^
@@ -48521,6 +48537,7 @@ zzzyk.com###Tinfo
 ||rdnucrn.cn^
 ||rdoybkd.cn^
 ||rdpcom.com^
+||rdpsht.xyz^
 ||rdsig.yahoo.co.jp^$image
 ||rdsmod.cc^
 ||rdtcnt.laredoute.fr^
@@ -49948,6 +49965,7 @@ zzzyk.com###Tinfo
 ||scupio.com/adpinline/
 ||scupio.com/js/ad.js
 ||scupio.com^$third-party
+||scupio.net/kanglei/
 ||scw.systems^$third-party
 ||scw98.com/ADMM.
 ||scw98.com/js/Index
@@ -59971,6 +59989,7 @@ zzzyk.com###Tinfo
 ||valuedopinions.co.uk^$third-party
 ||vamaker.com^$third-party
 ||vancuongthinh.com^
+||vanessajumpd.com^
 ||vanfireworks.com^
 ||vanilladev.com/analytics.
 ||vanityfair.com/user-context?referrer
@@ -62803,6 +62822,7 @@ zzzyk.com###Tinfo
 ||yhdd1.com^$third-party
 ||yhdm.tv/bar/yfyh.js
 ||yhdm44.com/123.html
+||yhdongman.xyz/piao/
 ||yhgumcr.xyz^
 ||yhhnjg.com^
 ||yhjccj.cn^
