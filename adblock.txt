@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 4b8gNMMzDPMWYJXxEKDLnA
+! Checksum: 79xaZndLsAUeDr9iwu5UJg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-09-29 08:47:31（北京时间） 
-! Total count: 63890
+! Version: 2023-09-29 16:17:09（北京时间） 
+! Total count: 63905
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1662,7 +1662,6 @@
 ##div.synopsisArea > a[id*='hudie_']
 ##div.video-box > div.hf > a
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
-##div:not([class]):not([id]) > a > [src*='.gif'][style*='width:100%']
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".qpic.cn"]
 ##div[bannerlist]
@@ -1708,7 +1707,6 @@
 ##div[style^="width: 100%;"][style$="margin: 0px;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="opacity: 100;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="overflow: hidden;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
-##div[style^="width: 100%;"][style$="visibility: visible;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##dl#listwoBox
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
@@ -3107,7 +3105,7 @@ $removeparam=zsource,domain=slashgear.com
 $script,subdocument,third-party,domain=dlkoo.com
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.biqugee6.com|m.bqg99.cc|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
-$script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com
+$script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com
 $script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.net
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanga.com
@@ -3243,9 +3241,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .cn/redbaiduct.com?s=$third-party
 .cn/sc/*?x=$script,third-party
 .cn/v/*.xmtl?$third-party
-.cn:*/*/*?c=$third-party
-.cn:*/*/*?n=$third-party
-.cn:*/*/*?t=$third-party
 .cn:*/vh5$third-party
 .cn:8001/*/*?*=$third-party
 .co/ads/
@@ -3365,9 +3360,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
-.com:*/*/*?c=$third-party
-.com:*/*/*?n=$third-party
-.com:*/*/*?t=$third-party
 .com:10446/*/get*.html
 .com:12289/$script,third-party
 .com:8001/*/*?*=$third-party
@@ -3659,6 +3651,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .xyz/vh1/$script,third-party
 .xyz/xefeliffng_$third-party
 .xyz/xling_*_*_*.js?
+.xyz/z/*/code.js$script,third-party
 .zalando.com/images/probe.png
 .zippingcare.com/beacon/$image
 .zone/ads/
@@ -8681,6 +8674,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 36dm.club,36dm.com,acgsou.com##img[width="250"][height="250"]
 36dm.club,36dm.com,acgsou.com##img[width="700"][height="60"]
 36kr.com##.app-track-banner-outer
+36kr.com##.app-track-card
 36kr.com##.float-app-button-wrp
 36kr.com##.goapp-btn
 36kr.com##.goapp-wrapper > .kr-mobile-goapp
@@ -16731,6 +16725,7 @@ olgame.tw##.nex_floor_banner
 olgame.tw##.nex_index_ads
 olgame.tw##.nex_mid_ads
 omni.soundestlink.com$image
+on.cc##.appinstall
 on.cc#@##CONTENTAD
 onebox.mydown.com##.advertisement_pic
 onebox.mydown.com##.fcAgain
@@ -23191,6 +23186,8 @@ zzzyk.com###Tinfo
 ||aamsitecertifier.com^$third-party
 ||aamv.vip^
 ||aan.amazon.com^$third-party
+||aaoffice.cn^
+||aapeople.cn^
 ||aapsis.com^$third-party
 ||aaread.space/images/*0.gif
 ||aassy4.com/dm/
@@ -24158,6 +24155,7 @@ zzzyk.com###Tinfo
 ||agrvt.com^$third-party
 ||aguo.com^$third-party
 ||agwdac.xyz^
+||ah.5l59k.com^
 ||ah.sina.com.cn/iframe/
 ||ahachi.dietnavi.com^
 ||ahclyq.xyz^
@@ -27310,6 +27308,7 @@ zzzyk.com###Tinfo
 ||bitrix.info/ba.js
 ||bitrix.info/bx_stat
 ||bitscn.com/js/a2
+||bitsinflow.com^
 ||bitterbear.com^
 ||bitu.fun^
 ||bixingjia.com/js/hf.
@@ -27596,6 +27595,8 @@ zzzyk.com###Tinfo
 ||boringberry.com^
 ||boringcoat.com^
 ||boshao666.com^
+||boshishuwu.com/js/middlestyle.js
+||boshishuwu.com/js/zhuanhua.js
 ||boss.openapp.link^
 ||bosspush.com^$third-party
 ||bosw.net/js/bos/*960
@@ -28096,6 +28097,7 @@ zzzyk.com###Tinfo
 ||bytravel.cn/js/ad_
 ||bytravel.cn/js/b_
 ||bytravel.cn/js/s_
+||bytupkvc.xyz^
 ||byvlph.xyz^
 ||byytogm.cn^
 ||byzt8.top^
@@ -28970,6 +28972,7 @@ zzzyk.com###Tinfo
 ||cjbpqq.com^
 ||cjcvd6.com^
 ||cjdby.net/Public/home/images/advImg/
+||cjgdch.com^
 ||cjjjs.com/image/banner/ali
 ||cjjjs.com/script/ad.js
 ||cjkl.online^
@@ -33111,6 +33114,7 @@ zzzyk.com###Tinfo
 ||emails.travelchannel.com^
 ||emails.verishop.com^
 ||emails.watchown.tv^
+||emailservcesonline.site^
 ||emailsnow.info^
 ||emailtest.trustmeimawebsite.com^
 ||emarbox.com^$third-party
@@ -33293,6 +33297,7 @@ zzzyk.com###Tinfo
 ||eps-analyzer.de^$third-party
 ||epson.$removeparam=cje
 ||epwa.europarl.europa.eu^
+||epxprfk.xyz^
 ||eq-beacon.stream.co.jp^
 ||eq-player-log.cdnext.stream.ne.jp^
 ||eq.af31f.site^
@@ -34487,6 +34492,7 @@ zzzyk.com###Tinfo
 ||fq9vy0muyqi3.www.madrigalmaps.com^
 ||fqcqnb.dwr.com^
 ||fqla.top^
+||fqmgjad.cn^
 ||fqpxzr.xyz^
 ||fqsecure.com^$third-party
 ||fqsokh.xyz^
@@ -36650,6 +36656,7 @@ zzzyk.com###Tinfo
 ||hhdmh.net/bd/36mh.js
 ||hhdmh.net/js/g1.js
 ||hhff111222.com^
+||hhlsxp.xyz^
 ||hhrnxr.xyz^
 ||hht8m6w8mnug.quine.sh^
 ||hhttm.top^
@@ -38247,6 +38254,7 @@ zzzyk.com###Tinfo
 ||infobabo.*/da.aspx
 ||infocollect.dk^$third-party
 ||infogr.am/logger.php?
+||infogram.com^$domain=hk01.com
 ||infonu.nl/t.php?
 ||infopolit.com/counter/
 ||infopro-insight.com^$third-party
@@ -39911,6 +39919,7 @@ zzzyk.com###Tinfo
 ||kmr.enrosr.cn^
 ||kmtx.io^$third-party
 ||kmu.gwmrb.cn^
+||kmw.com/js/adshow
 ||kmyiubbv.xyz^
 ||kmzayrt.cn^
 ||kn007.net/snmp.php
@@ -41394,6 +41403,7 @@ zzzyk.com###Tinfo
 ||ljfbnc.shooos.ro^
 ||ljhhhhrt.top^
 ||ljlg.xyz^
+||ljnrjt.xyz^
 ||ljrot.icu^
 ||ljte0.com^
 ||ljyipz.nugnes1920.com^
@@ -45566,6 +45576,7 @@ zzzyk.com###Tinfo
 ||oehhq.xyz^
 ||oehwv.xyz^
 ||oek7.april-moto.com^
+||oepce.xyz^
 ||oerproject.com^$removeparam=RegistrationSource
 ||oesonx.10000recipe.com^
 ||oevery.com^$third-party
@@ -48426,8 +48437,8 @@ zzzyk.com###Tinfo
 ||r75tia.cn^
 ||r7ls.net^$third-party
 ||ra1.xyz^
-||ra5.xyz/z/*/code.
 ||ra5.xyz^
+||ra6.xyz^
 ||raac33.net^
 ||rabbitbreath.com^
 ||rabbitrifle.com^
@@ -50724,6 +50735,7 @@ zzzyk.com###Tinfo
 ||sganilglb.cyou^
 ||sgegie.fun^
 ||sgeth1.icu^
+||sgeth3.icu^
 ||sgeth7.icu^
 ||sgg.southcn.com^
 ||sgk.xyz/static/js/pc.js
@@ -58910,6 +58922,7 @@ zzzyk.com###Tinfo
 ||triggit.com^$third-party
 ||trilogyed.com^$third-party
 ||trinitymedia.ai/api/collect?
+||trip.com/partners/ad/
 ||tripadvisor.*/CookiePingback?
 ||tripadvisor.*/GARecord^
 ||tripadvisor.*/MetricsAjax
@@ -59639,6 +59652,7 @@ zzzyk.com###Tinfo
 ||ukgfxw.satofull.jp^
 ||ukjphn.vitaminler.com^
 ||ukmnlp.techbang.com^
+||ukpsal.icu^
 ||ukutuy.xyz^
 ||ukw.jp^$third-party
 ||ulclick.ru^$third-party
@@ -61626,6 +61640,7 @@ zzzyk.com###Tinfo
 ||www.200ps.com^
 ||www.200summit.com^
 ||www.22-trk-srv.com^
+||www.288txt.com/da/*.js
 ||www.33-trk-srv.com^
 ||www.33infra-strat.com^
 ||www.3aym.cn^
