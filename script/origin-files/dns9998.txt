@@ -1,8 +1,8 @@
 ! Homepage: https://kbsml.com
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules
-! Version: 2023.10.05.0530
-! TimeUpdated: 2023-10-05T05:30
+! Version: 2023.10.06.0530
+! TimeUpdated: 2023-10-06T05:30
 
 ||bilec.xyz^
 ||vkjsnvk.com^
@@ -692,6 +692,10 @@ ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###resul
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .result ~ div:not([class]):not([style])
 /^(?!.*(statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc
 $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com
+tw.news.yahoo.com###sda-WPS-iframe
+tw.news.yahoo.com###sda-LDRB-iframe
+tw.news.yahoo.com###sda-LREC2-iframe
+tw.news.yahoo.com###mrt-node-Lead-1-Ad
 iyf.tv##.ss-ctn
 iyf.tv##.video-player > div.ng-star-inserted > div#PB
 ablesci.com##.fly-panel img[src*="-alipay-autumn-hongbao.png"]
@@ -2205,6 +2209,8 @@ csdn.net###footerRightAds
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||c.mipcdn.com/static/*/mip-ad/mip-ad.js
 ||mycodes.net/js/*.js
+bilibili.com#?#.feed-card:has(> div.bili-video-card > div.bili-video-card__wrap[style="display: none !important;"])
+bilibili.com#?#.bili-video-card:has(> div.bili-video-card__wrap[style="display: none !important;"])
 bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
@@ -3833,14 +3839,21 @@ newduba.cn###jq_youxi
 ||23.234.217.11^
 ||23.234.217.12^
 ||cupfox.app^$third-party
+||273knt.xyz^
 ||88lajs3.com^
 ||anhlnnm.cn^
 ||beste3.icu^
 ||bydcxdy.cn^
 ||ddvoht.xyz^
 ||dhgfhedxx.xyz^
+||gmx27.top^
+||gmx30.top^
+||hwuogmusthxfpk.xyz^
 ||jofknbpe.xyz^
+||kvskknklssv.com^
 ||ldvnehc.xyz^
+||lnxpdj.xyz^
+||mads7.icu^
 ||neeujqf.cn^
 ||pexavfro.xyz^
 ||psroyx.icu^
@@ -3848,9 +3861,14 @@ newduba.cn###jq_youxi
 ||serda10.icu^
 ||tcgaqh.icu^
 ||ulrvkee.xyz^
+||vdggsd005.com^
 ||vttqld.xyz^
 ||xkfigjh.cn^
+||xmvmir.icu^
+||xvzfyra.xyz^
 ||xxkswdf.icu^
+||yepgdita.xyz^
+||yhtpsy8888.cc^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -13166,7 +13184,7 @@ wjx.cn###ctl01_ContentPlaceHolder1_divProMsg
 free.com.tw###custom_html-11
 hexieshe.cn###custom_html-2
 24kplus.com###custom_html-3
-18avinin.com,sunnylife.tw###custom_html-5
+18avinin.com,27ka.cn,sunnylife.tw###custom_html-5
 vikacg.com###custom_html-9
 makaidong.com###cyWallsplugin
 eworldship.com###d1
@@ -17199,6 +17217,7 @@ galacg.me##a[href*="/game"]
 ccav1.com##a[href*="/go"]
 423down.com##a[href*="/go."] > img
 php.cn##a[href*="/go."]:not([href*="Fwww.php"])
+27ka.cn##a[href*="/go/"]
 dy2018.com,xiaopian.com##a[href*="/htmlcode/"]
 cableabc.com##a[href*="/img1/"]
 ooopn.com##a[href*="/jump.html"]
