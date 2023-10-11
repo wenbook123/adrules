@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 8VhNuxodexos3T3H7xAshg
+! Checksum: rQEuBanOJk3ikT+CigL8MQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-10-11 08:46:53（北京时间） 
-! Total count: 63868
+! Version: 2023-10-11 16:17:56（北京时间） 
+! Total count: 63897
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3321,7 +3321,7 @@ $script,third-party,domain=colamanga.com
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
 $script,third-party,websocket,domain=52codes.net
 $third-party,xmlhttprequest,domain=opensubtitles.org
-$third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc
+$third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc|xyg688.com
 $websocket,domain=5nj.com|cechi8.com
 $~css,~script,removeparam=campaignid
 $~image,removeparam=itok
@@ -16842,6 +16842,7 @@ niutuku.com##.listAD
 niutuku.com##.sideAD
 niutuku.com,sina.cn##.bannerAD
 nivod4.tv,nivod5.tv##.nav-ads
+nivod4.tv,nivod5.tv##.qy20-h-carousel__li:nth-child(-n+2)
 nivod5.tv,nivod4.tv##a.focus_title_inner[href*=".ad_click"]
 nivod5.tv,nivod4.tv#$?#.img-list > .img-item:has(> a[href*=".ad_click"]) { remove: true; }
 nivod5.tv,nivod4.tv#$?#a.focus_title_inner[href*=".ad_click"] { remove: true; }
@@ -19261,15 +19262,22 @@ yahoo.com###crazyad_mask
 yahoo.com###hp-ad-left
 yahoo.com###hp-ad-right
 yahoo.com###module-appPromoBanner
+yahoo.com###module-tabadktw
+yahoo.com###module-tabadsw
 yahoo.com###my-adsHPSPON
 yahoo.com##.ad-tl2b
 yahoo.com##.crazyad
 yahoo.com##.wrapper-border > .Pos\(r\) > .VideoPlayer.D\(b\).Pos\(r\)
 yahoo.com##div[data-content="廣告"]
+yahoo.com##div[id$="-Ad-Proxy"]
 yahoo.com##div[id$="-Banner-Proxy"]
 yahoo.com##div[id^="ads-"]
+yahoo.com##li[id^="ad-"][class^="Pos"]
+yahoo.com##li[id^="gemini-ad-"]
+yahoo.com#?#.js-stream-content:-abp-has(a[href*=".promotions."])
 yahoo.com#?#.js-stream-content:-abp-has(div:-abp-contains(雅虎搜尋))
 yahoo.com#?#.stream-item:-abp-has(>div>div>div>span:-abp-contains(即日熱搜))
+yahoo.com#?#.wafer-beacon:-abp-has(a[data-ylk*=":ad;"])
 yam.com##.axdBox
 yamol.tw##.panel[style="text-align:left;width:100%;padding:0px;background-color:white"]
 yantuchina.com##div[style="width:618px;height:150px;margin: 0 auto; display:block;"]
@@ -19336,6 +19344,7 @@ yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
 yii666.com##.widget-asst > p > a[href^="http"]:not([href*="yii666.com"])
 yimuhe.com###maincontent3 > div[style^="height"]
 yingav.com##.spots
+yisu.com##.coupon-get-link
 yixingjia.com###wp > table[width="960"]
 yiyouliao.com##.yyl-ads-swiper
 yiyouliao.com##.yyl-weiruan-ads-swiper
@@ -19535,6 +19544,9 @@ zhuanlan.zhihu.com###root > div.App > main.App-main:nth-child(2) > div.Post-cont
 zhuanlan.zhihu.com##.RichText-MCNLinkCardContainer > a.GoodsRecommendCard
 zhufaner.com###dist_footer
 zhufaner.com##.book
+zhujicankao.com##.topsss-111
+zhujicankao.com##div[style*="padding:0px"] > a[target="_blank"] > img
+zhujicankao.com#?##ez-toc-container > div.ez-toc-right-container:has(> div.ez-toc-rigth > ins.adsbygoogle)
 zhujiceping.com###footer-widget-box
 zhujiceping.com###text-12
 zhujiceping.com##aside[id^="custom_html-"]
@@ -19610,6 +19622,8 @@ zzbaike.com##.link2
 zzkdhb.com##li[style*="important"]
 zzkdhb.com##p[style^="width: 100%; margin: 0px;"]
 zznews.cn#@#.ad-wrapper
+zztt24.com##.event-notice
+zztt24.com##.gotoclick
 zztt24.com##.no-mask
 zzzyk.com###Tinfo
 |.gif$domain=fashangji.com
@@ -23752,6 +23766,7 @@ zzzyk.com###Tinfo
 ||actoys.net/index.php?m=poster&
 ||actoys.net/js/beitou.js
 ||actoys.net/statics/js/index/ad.js
+||actrqdr.cn^
 ||actu.fr/assets/js/smarttag5280-1.js
 ||actuallysheep.com^
 ||actuallysnake.com^
@@ -28406,6 +28421,7 @@ zzzyk.com###Tinfo
 ||cactusglobal.io^$third-party
 ||cactusmedia.com^$third-party
 ||cad.youku.com^
+||cadizer.com^
 ||cadke.xyz^
 ||cadreon.com^$third-party
 ||cadsuta.net^
@@ -28922,6 +28938,7 @@ zzzyk.com###Tinfo
 ||cheda1.icu^
 ||cheda10.icu^
 ||cheda2.icu^
+||cheda6.icu^
 ||cheda7.icu^
 ||cheda8.icu^
 ||cheda9.icu^
@@ -31414,6 +31431,7 @@ zzzyk.com###Tinfo
 ||dektcvna.icu^
 ||delegatediscussion.com^
 ||delfi.lv/t/p.js
+||delicatecascade.com^
 ||delicateducks.com^
 ||delidatax.net^$third-party
 ||delightfulhour.com^
@@ -31854,6 +31872,7 @@ zzzyk.com###Tinfo
 ||dkotrack.com^
 ||dktoo.site^
 ||dkupaw9ae63a8.cloudfront.net^
+||dkvakldvnsv.com^
 ||dl-dev.tablelist.com^
 ||dl-dev.tytocare.com^
 ||dl-protect.$removeparam=fn
@@ -32830,6 +32849,7 @@ zzzyk.com###Tinfo
 ||ebisstore.tamagokichi.com^
 ||ebistoppan1.kyowahakko-bio-campaign-1.com^
 ||eblnzoq.cn^
+||ebmlsvw.cn^
 ||ebnpqi.carrefourlocation.fr^
 ||ebp.renren.com^
 ||ebpu2.top^
@@ -35575,6 +35595,7 @@ zzzyk.com###Tinfo
 ||gmossp-sp.jp^$third-party
 ||gmx.net/monitoring/
 ||gmx23.top^
+||gmx24.top^
 ||gmx27.top^
 ||gmx28.top^
 ||gmx29.top^
@@ -39603,6 +39624,7 @@ zzzyk.com###Tinfo
 ||jv0rlf.com^
 ||jvc.gg^*/traffic.js
 ||jvjlkih.com^
+||jvjmjt.xyz^
 ||jvkckeg.cn^
 ||jvljnb.xyz^
 ||jvmxrug.xyz^
@@ -41515,6 +41537,7 @@ zzzyk.com###Tinfo
 ||lknlkndasda.top^
 ||lknnbd.xyz^
 ||lknqfn.furla.com^
+||lkoqtvvajktpjsk.xyz^
 ||lkpmprksau.com^
 ||lkqyqwk.xyz^
 ||lktmgvw.cn^
@@ -55894,6 +55917,7 @@ zzzyk.com###Tinfo
 ||t5.ro/static/$third-party
 ||t570.wiltonbulletin.com^
 ||t5wm.cc^
+||t6.china-xian.com^
 ||t7baxp1xmw00.boxoffice.adventuretix.com^
 ||t7x22m7c.com^
 ||t8.mailperformance.com^
@@ -59513,6 +59537,7 @@ zzzyk.com###Tinfo
 ||ua.indianexpress.com^
 ||uadblocker.com/pixel1.php?$third-party
 ||uadx.com^$third-party
+||uahozcfq.xyz^
 ||uai.com.br^*/analytics.js
 ||ualkzq.moobel1.ee^
 ||uandmyfuture.net.anwalt.de^
@@ -60084,6 +60109,7 @@ zzzyk.com###Tinfo
 ||vdggsd008.com^
 ||vdggsd009.com^
 ||vdggsd010.com^
+||vdggsd011.com^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdmvyu.falk.de^
@@ -61221,6 +61247,7 @@ zzzyk.com###Tinfo
 ||whiskyqueue.com^
 ||whisperingbadge.com^
 ||whisperingcrib.com^
+||whisperingsummit.com^
 ||whispermeeting.com^
 ||whistleout.com.au/track
 ||whiteclick.biz^$third-party
@@ -61493,6 +61520,7 @@ zzzyk.com###Tinfo
 ||wrlnvt.pepita.hu^
 ||wrongpotato.com^
 ||wrpsouf.cn^
+||wrtjojn.xyz^
 ||wryfinger.com^
 ||ws.audioeye.com^
 ||ws.sharethis.com^$script
@@ -62281,6 +62309,7 @@ zzzyk.com###Tinfo
 ||xclaimwords.net^$third-party
 ||xcmz999.com^
 ||xcounter.ch^$third-party
+||xcqbbcqpl.xyz^
 ||xcvdd.xyz^
 ||xcvhy.xyz^
 ||xcvsw.xyz^
