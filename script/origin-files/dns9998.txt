@@ -1,8 +1,8 @@
 ! Homepage: https://kbsml.com
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules
-! Version: 2023.10.11.0530
-! TimeUpdated: 2023-10-11T05:30
+! Version: 2023.10.12.0530
+! TimeUpdated: 2023-10-12T05:30
 
 ||lqxbkqdtvtdhw.xyz^
 ||noafoaji.xyz^
@@ -535,6 +535,7 @@ nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { pos
 ||nfmovies.com/static/*.jpg$image,redirect=1x1.gif
 ##.Zi_ad_a_H
 ##a[href^="https://adm.beimg.com/"]
+jmcomic1.me##+js(remove-node-text, #text, 中間廣告)
 player.hboav.com##+js(set-constant, player.VastADPlugin, noopFunc)
 x99av.com##+js(set-constant, ADSOBJET, {})
 embedrise.com##+js(window.open-defuser)
@@ -694,6 +695,12 @@ ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###resul
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .result ~ div:not([class]):not([style])
 /^(?!.*(statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc
 $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com
+eprice.com.hk##div[id^="eprice-div-gpt-ad-"]
+jmcomic1.me##div[style^="max-height: 600px"]
+jmcomic1.me#?#.container > div.row:has(ins[data-width="300"])
+||jmcomic1.me/static/resources/lp.php
+||jmcomic1.me/static/resources/old/images/AD/
+||jmcomic1.me/exads
 zhujicankao.com##.topsss-111
 zhujicankao.com##div[style*="padding:0px"] > a[target="_blank"] > img
 zhujicankao.com#?##ez-toc-container > div.ez-toc-right-container:has(> div.ez-toc-rigth > ins.adsbygoogle)
@@ -3848,6 +3855,7 @@ newduba.cn###jq_youxi
 ||23.234.217.11^
 ||23.234.217.12^
 ||cupfox.app^$third-party
+||1bctkn.xyz^
 ||273knt.xyz^
 ||88lajs3.com^
 ||actrqdr.cn^
@@ -3858,16 +3866,22 @@ newduba.cn###jq_youxi
 ||bnets9.icu^
 ||boats4.top^
 ||bydcxdy.cn^
+||cadizer.com^
 ||ceiuip.icu^
+||cheda6.icu^
 ||cjndvoglik.xyz^
+||crhabkd.cn^
 ||cuvtnzv.cn^
 ||ddvoht.xyz^
 ||dhgfhedxx.xyz^
 ||djiuss.cn^
 ||dkvakldvnsv.com^
+||ebmlsvw.cn^
 ||fastjs.org^
 ||fkjsjwbs.xyz^
 ||fzgetdy.cn^
+||gixgav.icu^
+||gmx22.top^
 ||gmx23.top^
 ||gmx24.top^
 ||gmx27.top^
@@ -3883,6 +3897,7 @@ newduba.cn###jq_youxi
 ||jlhlnd.xyz^
 ||jndxsuy.xyz^
 ||jofknbpe.xyz^
+||jvjmjt.xyz^
 ||kvskknklssv.com^
 ||kyikdee.cn^
 ||kzprugp.xyz^
@@ -3899,6 +3914,7 @@ newduba.cn###jq_youxi
 ||mmvjuti.cn^
 ||mphhgat.xyz^
 ||mwfyab.icu^
+||nangongmall.com^
 ||neeujqf.cn^
 ||negnixa.cn^
 ||oapyrzde.xyz^
@@ -3916,6 +3932,7 @@ newduba.cn###jq_youxi
 ||tcgaqh.icu^
 ||thboxp.xyz^
 ||trdmtx.xyz^
+||uahozcfq.xyz^
 ||ukjwyv.icu^
 ||ulrvkee.xyz^
 ||uqeuxpl.cn^
@@ -3926,11 +3943,13 @@ newduba.cn###jq_youxi
 ||vdggsd008.com^
 ||vdggsd009.com^
 ||vdggsd010.com^
+||vdggsd011.com^
 ||vivienjumpe.com^
 ||vttqld.xyz^
 ||vxdpmxw.xyz^
 ||wjoxqd.com^
 ||wkrcbszi.xyz^
+||wrtjojn.xyz^
 ||xcqbbcqpl.xyz^
 ||xkfigjh.cn^
 ||xmvmir.icu^
@@ -9403,7 +9422,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ax.ifeng.com^
 ||ax1x.com/2020/06/14/NSoyHe.png
 ||ax1x.com^$domain=caibaojian.com|hktvyb.com|zzvips.com
-||axutongxue.*/js/pp
+||axutongxue.*/js/yes.
 ||ayxz.com/images/$script
 ||ayxz.com/images/enkj_small.gif
 ||azhibo.*/media/aimg/*.gif
@@ -11349,6 +11368,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||makaidong.com/img/
 ||mall.xinkuaituan.com/zhuanti/
 ||mall0.qiyipic.com^
+||mamecn.com/style/pcjs/bgimg.
 ||manage.wdfans.cn^
 ||mangahax.com/images/ima_
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
@@ -13188,6 +13208,7 @@ bbs-mychat.com###cate_top > tr > .f_one
 sina.com.tw###cboxOverlay
 mangabz.com###cc1
 mangabz.com###cc2
+axutongxue.com,axutongxue.net###ccacc
 yigujin.cn###cebianlan img[src*="/tp/"]
 dapenti.com###center > div[align="center"][target="_blank"]
 55188.com###center-pic
@@ -15327,6 +15348,7 @@ epinv.com##.epinv_f
 shulink.com##.er_g
 sinolub.com##.erjlogo > .fl + .fl
 bilibili.com##.eva-banner
+zztt24.com##.event-notice
 2345.com##.event1-hasList
 58.com##.ewmAdNew
 8264.com##.ewmbox
@@ -15537,6 +15559,7 @@ mail.pchome.com.tw##.good_ad
 jandan.net##.goods2-list
 56.com##.goods_show
 i-part.com.tw##.googleAD160x600
+zztt24.com##.gotoclick
 cmhello.com##.gpost-above
 iyaxin.com##.gr-ggtag
 owyb1688.com##.gray-show
@@ -16346,6 +16369,7 @@ muzhi.baidu.com##.quick-ask-2 + .android + div
 hualongxiang.com##.quick_reply_ad
 iqiyi.com##.qy-plist-ad
 iqiyi.com##.qy20-h-carousel-wrap[data-focus="ad-focus-image"] .qy20-h-carousel__a
+nivod4.tv,nivod5.tv##.qy20-h-carousel__li:nth-child(-n+2)
 iqiyi.com##.qy20-h-carousel_con-gray a[href^="http"]:not([href*="iqiyi.com/"])
 im286.net##.qybj
 myqqjd.com##.qz-box
@@ -17626,7 +17650,7 @@ weather.com.cn##div[class^="adpos"]
 silver.org.cn##div[class^="ads_"]
 xcar.com.cn##div[class^="adset"]
 hybbs.com##div[class^="adtop"]
-8684.cn,8684.com,kugou.com,solarzoom.com,yesky.com,yxdmgo.com##div[class^="adv"]
+8684.cn,8684.com,iyxdm.com,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 ifeng.com##div[class^="adv0"]
 ifeng.com##div[class^="adv1"]
 kumi.cn##div[class^="adz"]
@@ -17840,6 +17864,7 @@ sydneytoday.com##div[style$="-144px;top: 115px;"]
 cbber.com##div[style$=":0px;top:200px;z-index:9999;"]
 anhuinews.com##div[style$="height:40px;overflow:hidden"]
 tuwan.com##div[style$="height:90px;"]
+zhujicankao.com##div[style$="padding:0px"]
 m.mydrivers.com##div[style$="px 0px 0px 0px;text-align:center;"]
 lukedreyer.com##div[style$="width: 125px;z-index:2000;"]
 mydrivers.com##div[style*="/ad/"]
@@ -18191,13 +18216,14 @@ zhihu.com#?#.TopstoryItem:-abp-has(.Popover > .TopstoryItem-advertButton)
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 18-comic.work,18comic.org,18comic.vip###guide-modal
+18-comic.work,18comic.org,18comic.vip##.div_sticky2
 18-comic.work,18comic.org,18comic.vip##.modal-backdrop
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
 18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>ins+script)
 18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 58.com###rightRetui
