@@ -1,8 +1,8 @@
-! Checksum: xcQopjLvbhy5+gtAWwlNGQ
+! Checksum: iskCaqsvBvIf/hjGTOSn8g
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.0.84
-! TimeUpdated: 2023-10-12T23:31:16+00:00
+! Version: 2.1.0.89
+! TimeUpdated: 2023-10-13T13:03:05+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1236,6 +1236,9 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+yiyouliao.com#?#.yyl-weiruan-ads-list-item:has(> div#small1)
+yiyouliao.com#?#.yyl-weiruan-video-list-item:has(> div#small2)
+yiyouliao.com##.yyl-weiruan-news-ad-item
 eprice.com.hk##div[id^="eprice-div-gpt-ad-"]
 jmcomic1.me##div[style^="max-height: 600px"]
 jmcomic1.me#?#.container > div.row:has(ins[data-width="300"])
@@ -4791,6 +4794,10 @@ newduba.cn###jq_youxi
 ||qwjtdcl.cn^
 ||rcnldz.xyz^
 ||vdggsd013.com^
+||nerydw.xyz^
+||aueajkn.cn^
+||gizlnr.com^
+||ionjkcj.cn^
 ||yhlzadr.xyz^
 ||yhtpsy8888.cc^
 ||yutiqf.icu^
@@ -13744,7 +13751,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||juejin.cn/content_api/v1/advert/query_adverts?
 szxx.com.cn###A0
+juejin.cn##.advertisement
+ruanyifeng.com##p[style="text-align:center;font-size: 16px;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
