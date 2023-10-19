@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: D3/Q2q79lCUx6adkzWSgHQ
+! Checksum: 2RAvxrCw2N0fHNUAuFWTzg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-10-19 00:17:37（北京时间） 
-! Total count: 64008
+! Version: 2023-10-19 08:46:21（北京时间） 
+! Total count: 64023
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1820,6 +1820,7 @@ $doc,removeparam=/^p\.utm_/
 $doc,removeparam=/^ref=awin$/
 $doc,removeparam=/^ref=cj$/i
 $doc,removeparam=/^sharedid=/i
+$doc,removeparam=/^siteid=/i,domain=agentprovocateur.com|amerimark.com|anntaylor.com|asos.com|awd-it.*|barenecessities.com|barrons.com|beautyencounter.com|buckle.com|burpee.com|chacos.com|coursera.org|dxl.com|dyson.com|ebay.*|famousfootwear.com|finishline.com|freetaxusa.com|gap.com|gapcanada.ca|gucci.com|hanes.com|hotwire.com|hulu.com|hunterboots.com|jcrew.com|josbank.com|kobo.com|lanebryant.com|laroche-posay.us|loft.com|magazines.com|marketwatch.com|maurices.com|merrell.com|newbalance.com|nordstrom.com|officedepot.com|onehanesplace.com|online4baby.com|radissonhotelsamericas.com|ralphlauren.com|saksfifthavenue.com|saksoff5th.com|samash.com|samsclub.com|saucony.com|sharperimage.com|skinceuticals.com|thingsremembered.com|thrifty.*|timeformecatalog.com|verabradley.com|vivaterra.com|wine.com|yoox.com
 $doc,removeparam=/^source=awin$/i
 $doc,removeparam=/^source=cj$/
 $doc,removeparam=/^source=pepperjam$/
@@ -1941,7 +1942,6 @@ $removeparam=/^referer=prisjakt/i
 $removeparam=/^refsource=webgains$/
 $removeparam=/^sfmc_/
 $removeparam=/^shared/,domain=alibi.fi|anna.fi|eralehti.fi|hymy.fi|kaksplus.fi|kotiliesi.fi|rakennusmaailma.fi|seura.fi|tekniikanmaailma.fi
-$removeparam=/^siteid=/i,domain=agentprovocateur.com|amerimark.com|anntaylor.com|asos.com|awd-it.*|barenecessities.com|barrons.com|beautyencounter.com|buckle.com|burpee.com|chacos.com|coursera.org|dxl.com|dyson.com|ebay.*|elfcosmetics.*|famousfootwear.com|finishline.com|freetaxusa.com|gap.com|gapcanada.ca|gucci.com|hanes.com|hotwire.com|hulu.com|hunterboots.com|jcrew.com|josbank.com|kobo.com|lanebryant.com|laroche-posay.us|loft.com|magazines.com|marketwatch.com|maurices.com|merrell.com|newbalance.com|nordstrom.com|officedepot.com|onehanesplace.com|online4baby.com|radissonhotelsamericas.com|ralphlauren.com|saksfifthavenue.com|saksoff5th.com|samash.com|samsclub.com|saucony.com|sharperimage.com|skinceuticals.com|thingsremembered.com|thrifty.*|timeformecatalog.com|verabradley.com|vivaterra.com|wine.com|yoox.com
 $removeparam=/^source=admitad$/
 $removeparam=/^source=connexity$/
 $removeparam=/^source=igodigital$/
@@ -4857,6 +4857,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /cache/ad_js/*
 /cache/analytics.
 /cache/js/OTca.js
+/cache_warmer/track/*
 /cached-scripts/analytics.js
 /caches/poster_js/*
 /caiguu_gg_
@@ -5047,6 +5048,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /collect?r=
 /collect?tid=
 /collect?type=
+/collect?v=
 /collectStats;
 /collect_data.php?
 /collect_stat.
@@ -6231,6 +6233,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /main/s?
 /maizhan/js/age.js
 /manduan-dev.oss-
+/marfeelanalytics.js
 /marketing-analytics.js
 /martypixel?
 /matomo-tracking.
@@ -7969,16 +7972,15 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /webstats_counter/*
 /webtag.js
 /webtrack.js
-/webtracker.
+/webtracker.dll
 /webtracking/*$~subdocument,domain=~wwwapps.ups.com
 /webtraffic.js
-/webtraxs.
+/webtraxs.js
 /webtrekk_mediaTracking.
 /webtrekk_teaserTracking.
-/webtrends.min.
-/webtrends/webtrends.
+/webtrends.js
+/webtrends.min.js
 /webxmr.js
-/weizenbock/dist/*
 /wf-beacon-
 /wf/open?upn=$image
 /wffm-cookies.
@@ -27308,6 +27310,7 @@ zzzyk.com###Tinfo
 ||bhphotovideo.com/imp/
 ||bhpprfk.cn^
 ||bhulgot.com^
+||bi.banggood.com^
 ||bi.irisdating.com^
 ||bi.medscape.com^
 ||bian-min.com/javascript/a/detail.js
@@ -33816,6 +33819,7 @@ zzzyk.com###Tinfo
 ||events.verticurl.com^
 ||events.whisk.com^
 ||events.yourcx.io^
+||events2.www.edenfantasys.com^
 ||events3alt.adcolony.com^
 ||eventstream.dodopizza.com^
 ||evenyw.xyz^
@@ -34828,6 +34832,8 @@ zzzyk.com###Tinfo
 ||ftrack.ru^$third-party
 ||ftrtnr.xyz^
 ||ftwnwght.net.anwalt.de^
+||ftwo-feedback.autohome.com.cn^
+||ftwo-receiver.autohome.com.cn^
 ||ftysya.aboutyou.de^
 ||ftz.io^$third-party
 ||fubo.tv^$removeparam=irad
@@ -37560,6 +37566,7 @@ zzzyk.com###Tinfo
 ||icws.jb51.net/good/arc2019.js
 ||icyrwy.xyz^
 ||id-visitors.com^$third-party
+||id-ward.com^
 ||id.google.com/verify/
 ||id.verticalhealth.net/script.js?partnerid=
 ||id5-sync.com^
@@ -37588,6 +37595,7 @@ zzzyk.com###Tinfo
 ||idianw.warmteservice.nl^
 ||idio.co^$third-party
 ||idiva.com/analytics_
+||idm.api.autohome.com.cn^
 ||idndlc.kango-oshigoto.jp^
 ||idntfy.ru^$third-party
 ||idot.cz^$third-party
@@ -43914,6 +43922,7 @@ zzzyk.com###Tinfo
 ||metricswave.com^$third-party
 ||metrigo.com^$third-party,domain=~metrigo.de
 ||metrika-informer.com^$third-party
+||metrika.cdn112.com^
 ||metrika.kontur.ru^
 ||metrika.yandex.ru^
 ||metriweb.be^$third-party
@@ -46717,6 +46726,7 @@ zzzyk.com###Tinfo
 ||pdmsmrt.chevrolet.ca^
 ||pdmsmrt.gmccanada.ca^
 ||pdrtcgfx.cn^
+||pds.auction.co.kr^
 ||pdsgaj.piquadro.com^
 ||pdst.fm^$script,third-party
 ||pdweigee.com^
@@ -48775,6 +48785,7 @@ zzzyk.com###Tinfo
 ||rebelswing.com^
 ||rebies.xyz^
 ||rebunb.xyz^
+||rec.banggood.com^
 ||rec1.smt.docomo.ne.jp/bcn_access_log/
 ||recapture.io^$third-party
 ||recart.com/tracking/
@@ -56733,6 +56744,7 @@ zzzyk.com###Tinfo
 ||tieba.baidu.com/f/urlcheck?
 ||tieba.baidu.com/game/markConf?
 ||tiendeo.*/_statsapi/
+||tieszhu.com/e.html
 ||tietuku.$domain=papa1024.com
 ||tietuku.com/b975a9f7c494738b.gif
 ||tietuku.com/d57c01987e74d8f8.gif
@@ -59805,6 +59817,7 @@ zzzyk.com###Tinfo
 ||umengcloud.com^
 ||umkezbh.cn^
 ||ummnam.xyz^
+||umnico.com/tracker/
 ||umrvmb.net.anwalt.de^
 ||umyrn.xyz^
 ||un-acs.youku.com^
@@ -60040,6 +60053,7 @@ zzzyk.com###Tinfo
 ||utrack.hexun.com^
 ||utraff.com^$third-party
 ||uts.auction.co.kr^
+||utsssl.auction.co.kr^
 ||uttermosthobbies.com^
 ||uttlinediv.top^
 ||uty.micocc.com^
@@ -60239,6 +60253,7 @@ zzzyk.com###Tinfo
 ||venienceilo.fun^
 ||ventivmedia.com^$third-party
 ||ventunotech.com/beacon/
+||venture-365-inspired.com^
 ||venturify.at/pixel/
 ||venulaevavs.com^
 ||venum.top^
