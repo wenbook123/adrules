@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: KkWWzsMUvSdAhhaGSiFzCw
+! Checksum: IM3pJ3su1J7LxeE3mB+Jpw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-10-24 16:18:11（北京时间） 
-! Total count: 63974
+! Version: 2023-10-25 00:18:29（北京时间） 
+! Total count: 63957
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3597,6 +3597,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .com:12289/$script,third-party
 .com:8001/*/*?*=$third-party
 .com:8004/*/*?*=$third-party
+.com:8005/*/2483?
 .com:8007/*/*?*=$third-party
 .com:8008/*/*?*=$third-party
 .com:8010/cc/
@@ -4067,6 +4068,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /MailIsRead?$image
 /Maxymiser/*
 /N-960x60.
+/NNAnalyticsWPSites.js
 /NitroCookies.js
 /Optimost/*
 /OtAutoBlock.js
@@ -4321,16 +4323,17 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /adlink.
 /adload.
 /adloader.
-/adlogger.
+/adlogger.php
+/adlogger_tracker.php
 /adm_tracking.js
 /adman.
 /admiral.js
 /admonitor.
 /adnow.js$domain=50.7.31.228|tvboxnow.com
 /adobe-analytics-$domain=~business.adobe.com
-/adobe-analytics.
+/adobe-analytics.js
 /adobe-analytics/*
-/adobe-analytics2.
+/adobe-analytics2.js
 /adobe-prd/*
 /adobe.targetV2-
 /adobe.visitor-
@@ -5848,7 +5851,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /js/btdigg.js
 /js/common/gg.js
 /js/count.js.
-/js/counter.js
+/js/counter.js?
 /js/cpc2_dl.js
 /js/cpc2_i.js
 /js/cpc2_rp.js
@@ -5979,6 +5982,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /library/svy/broker.js
 /libs/tracker.js
 /liferay-analytics-api.js
+/liferay-analytics-processor.js
 /lightspeed_tracker.js
 /link-tracker-
 /link-tracker?*&l=open&
@@ -6309,6 +6313,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /mystats2.px?
 /myzgg.
 /nForum/files/adv/*
+/nLoggerJB_
 /naLogImpressions?
 /natero_analytics.min.js
 /nativendo.js
@@ -6790,6 +6795,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /referadd?
 /referer/visitor/*
 /referral-tracking.js
+/referral-tracking.min.js
 /referral_tracking.js
 /referrer.js
 /referrer.php?*http
@@ -6822,6 +6828,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /rivraddon.js
 /rkrt_tracker-
 /rlvt-track/*
+/rm-gtm-google-analytics-for-wordpress/js/gtm-player.js
 /rm.gif?
 /rmntracking.
 /rntracking.
@@ -7767,7 +7774,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /web-analytics.js
 /web-api/log/*
 /web-data-ingress?
-/web-js-telemetry-service/*
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
 /web-vitals.
@@ -7780,18 +7786,12 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /web_analytics/*
 /web_answertip.js
 /web_logger/*
-/web_tracking_
 /web_traffic_capture.js
-/webc-tracking-
-/webc/tracking/*
 /webcam.mp4$domain=91porn.com
 /webcam600.mp4$domain=91porn.com
 /webcounter/*
 /webdig.js
 /webdig_test.js
-/webiq.$domain=~webiq.co.nz
-/webiq/*
-/webiq_
 /weblog.js?
 /weblog.php?
 /webmnr.min.js
@@ -7828,56 +7828,39 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
 /wp-admin/admin-ajax.php?action=adblockvisitor$~third-party
-/wp-click-track/*
-/wp-clickmap/*
 /wp-content/plugins/confection/bridge.php
-/wp-content/plugins/pageviews/*
-/wp-content/plugins/rm-gtm-google-analytics-for-wordpress/*
-/wp-content/plugins/s2f-referral-tracking/*
+/wp-content/plugins/pageviews/pageviews.min.js
 /wp-content/plugins/upprev/*
+/wp-content/plugins/wp-click-track/js/ajax.js
+/wp-content/plugins/wp-clickmap/clickmap.js
 /wp-content/themes/iMovies/js/tc_
-/wp-content/tracker.
-/wp-counter.php
-/wp-js/analytics.
-/wp-pixels/*
-/wp-powerstat/*
-/wp-rum/*
-/wp-slimstat/*
+/wp-content/tracker.js
+/wp-js/analytics.js
+/wp-slimstat.js
+/wp-slimstat.min.js
 /wp-statistics-tracker.min.js
 /wp-statistics/assets/js/tracker.js
 /wp-statistics/v2/hit?
 /wp-stats-manager/js/wsm_new.js
-/wp-useronline/useronline.
+/wp-useronline/useronline.js
 /wp_stat.php?
 /wpengine-analytics/*
 /wps-visitor-counter/*
 /wpstatistics/*
-/wrapper/metrics/*
 /wreport.js
 /writelog.js
-/wsStats.
-/wsStats_
-/wsTracking.
 /ws_client?zone=gen$websocket
 /wscdn/*$subdocument
 /wstat.pl
 /wstats.php?
 /wt_capi.js
-/wt_tag.js
 /wtbase.js
-/wtbase2.
-/wtbrand.
-/wtcollect.
-/wtcore.js
 /wtd.gif?
 /wtid.js
 /wtinit.js
 /wtrack?event=
 /wtstats/*
-/wunderlytics/*
 /wutime-adblocktracker/*
-/ww-analytics-
-/ww-performance-
 /www/ads/*
 /www/delivery/*
 /wwwads.
@@ -7886,13 +7869,11 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /wxhawkeye.js
 /wxhfm.html?cid=
 /wysistat.js
-/wz_logging.
 /x.gif?
 /x_track.php?
 /xbhf.js$script,third-party
 /xdy_yyo.php
-/xgemius.
-/xgenius.
+/xgemius.js
 /xgrghru981_23.js
 /xhfloatAdv.
 /xianbao_theme/script/intelligence.
@@ -7903,13 +7884,11 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /xiti.js
 /xiwang/dfumeiti.js
 /xiwang/fumeiti.js
-/xn_track.
+/xn_track.min.js
 /xstat.aspx?
 /xstat/*
-/xtclick.
-/xtclicks-$script
-/xtclicks.
-/xtclicks_
+/xtclick.js
+/xtclicks.js
 /xtcore.js
 /xtroi.js
 /xtub_*_rony.js$third-party
@@ -7929,15 +7908,16 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /yandex-metrica-watch/*
 /yandex-metrika.js
 /yastat.js
-/yell-analytics-
-/yell-analytics.
+/yell-analytics-app.js
+/yell-analytics-min.js
+/yell-analytics.js
 /yesky/js/counter/*
 /yinghua4567/*.js
 /yinghuacd/bottom.js
 /yksmartbanner.
 /ylnew/*.js$image
 /ylqq/*.add
-/yna_stat.
+/yna_stat.js
 /youtubeVideoAnalytic.js
 /yozons-lib/*
 /yryy/css/javamy.js
@@ -7953,7 +7933,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /yy_transv/js/cmp.js
 /z.gif?
 /z.zolapp.
-/zaguk.gif?
 /zaius-min.js
 /zaius.js
 /zanox.js
@@ -20134,6 +20113,7 @@ zzzyk.com###Tinfo
 ||26gg.bnq86.com^$third-party
 ||26niao20230505.live^
 ||273knt.xyz^
+||277txt.com/da/*.js
 ||27ang.buzz/us/
 ||27gh.cc^$popup,third-party
 ||27niao20230506.live^
@@ -27308,7 +27288,9 @@ zzzyk.com###Tinfo
 ||bing.com/notifications/render?
 ||bing.com/rewardsapp/reportActivity?
 ||bing.com/search?$removeparam=/^form=/i
+||bing.com/search?$removeparam=FPIG
 ||bing.com/search?$removeparam=cvid
+||bing.com/search?$removeparam=gs_lcrp
 ||bing.com/search?$removeparam=pc
 ||bing.com^$removeparam=/^sh[b-np-z0-9]/
 ||bing.com^*/GLinkPingPost.aspx$ping,xmlhttprequest
@@ -63335,6 +63317,7 @@ zzzyk.com###Tinfo
 ||z.inlist.com^
 ||z.nowscore.com^
 ||z.tudouxy01.com^
+||z0a1b2c3d4.com^
 ||z0uolej1qnxzub1.info^
 ||z1.chezhuzhinan.com^
 ||z1.cwbaike.com^
