@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: kabzpnwdBLOV6pgSDz629g
+! Checksum: 5jHBQ/p69Gcr5DQi5Ydb8A
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-10-28 00:16:27（北京时间） 
-! Total count: 63846
+! Version: 2023-10-28 08:45:08（北京时间） 
+! Total count: 63843
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1859,6 +1859,7 @@ $doc,removeparam=method,domain=peacocktv.com
 $doc,removeparam=o,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
 $doc,removeparam=orig_ref,domain=peacocktv.com
 $doc,removeparam=plcmt,domain=grafana.com
+$doc,removeparam=refId,domain=aebn.com|linkedin.com
 $doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk
 $doc,removeparam=selectedCCIndex,domain=citi.com
 $doc,removeparam=share_id,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
@@ -3372,7 +3373,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 &ev=PageView&
 &event=view&
 &hitType=pageview&
-&http_referer=$script,xmlhttprequest,domain=~facebook.com|~jobscore.com
+&http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &mi_ecmp=
 &pagegroup=*&url=$script
 &refer=http$script
@@ -4123,14 +4124,13 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /TrackClick.
 /TrackPageview?
 /TrackShopAnalytics.aspx?
+/TrackView/*$xmlhttprequest
 /TrackViews/*
 /TrackVisitors/*
 /TrackWebPage?
 /Tracking?id=
 /Tracking?t=
-/TrackingCookieCheck.
-/TrackingCookieCheck?
-/TrackingHandler.
+/TrackingHandler.js
 /TrackingPixel/*
 /TrafficCookie.js
 /UniqueUserVisit?
@@ -6169,6 +6169,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /mms/get_loaders?
 /mn-collector.php
 /mngi/tracking/*
+/mnppixellibrary.min.js
 /mnt/imp?
 /moapt-action-iq-analytics.
 /moat/yield.js
@@ -7340,39 +7341,31 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /tracking/log?
 /tracking/networktrackingservlet
 /tracking/open?
-/tracking/pageview.
 /tracking/pixel.
 /tracking/referrer?
 /tracking/thirdpartytag.js
 /tracking/trackpageview
 /tracking/user_sync_widget?
 /tracking/views/*
-/tracking/xtcore.
-/tracking202/*
+/tracking/xtcore.js
+/tracking202/static/landing.php
 /tracking?referrer
 /tracking?vs=
 /trackingCode-
 /trackingCode.js
 /trackingDTM.js
 /trackingEventsBlocks/*
-/trackingFooter.
+/trackingFooter.js
 /trackingGA.js
 /trackingImpression/*
 /trackingPixel.
-/trackingScriptLoader.
 /trackingTools.
-/trackingVtm.
-/tracking_ajax.
-/tracking_frame_
-/tracking_headerJS_
+/trackingVtm.js
 /tracking_id_
-/tracking_iframe.
-/tracking_pix.
 /tracking_pixel
 /tracking_unitary/*
-/trackingab?
 /trackingcookies.
-/trackingheader.
+/trackingheader.js
 /trackingp.gif
 /trackit.php?
 /trackit.pl?
@@ -7381,20 +7374,18 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /tracklog.
 /trackmerchant.js
 /trackmvisit?
-/tracknat.
 /trackopen.cgi?
 /trackpagecover?
-/trackpageview.
+/trackpageview.js
+/trackpageview.php
 /trackpixel?
 /trackpush.min.js
 /trackpxl?
 /trackstats?
 /trackui.min.js
 /trackvisit?
-/traffic-source-cookie.
-/traffic-source-cookie/*
+/traffic-source-cookie.min.js
 /traffic/status.gif?
-/traffic/track^
 /traffic_record.php?
 /traffictrade/*
 /trafic.js
@@ -7652,7 +7643,9 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /wp-content/tracker.js
 /wp-js/analytics.js
 /wp-monero-miner-class.js
+/wp-monero-miner-util.min.js
 /wp-monero-miner.js
+/wp-monero-miner.min.js
 /wp-slimstat.js
 /wp-slimstat.min.js
 /wp-statistics-tracker.min.js
@@ -9067,6 +9060,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
 ://dreemdmbabys.oss-cn-
+://elqtrk.
 ://email.*/e/o/
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
@@ -10963,6 +10957,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||wx.tenpay.com^
 @@||xbeibeix.com^$generichide
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
+@@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
 @@||xiaoyuanzhao.com/adservice/$domain=shixiseng.com
 @@||xidian.edu.cn^$generichide
@@ -36416,6 +36411,7 @@ zzzyk.com###Tinfo
 ||heartbeat.pmd.444.hu^
 ||heartbreakingmind.com^
 ||hearthorn.com^
+||heatmap.com^$third-party
 ||heatmap.it^$third-party
 ||heatmap.services^$third-party
 ||heavyplayground.com^
@@ -58741,6 +58737,7 @@ zzzyk.com###Tinfo
 ||trafficmaxx.de^$third-party
 ||trafficregenerator.com^$third-party
 ||trafficroots.com^$third-party
+||trafficscanner.pl^$third-party
 ||trafficstars.com$third-party
 ||trafic.ro^$third-party
 ||trafikkfondet.no^$third-party
