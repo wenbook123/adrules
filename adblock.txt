@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: oMgTb+3g2SqzbQDfsjfA2A
+! Checksum: i1i5J0Dc5thfsX9fRBk4NQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-10-28 16:16:50（北京时间） 
-! Total count: 63857
+! Version: 2023-10-29 00:16:26（北京时间） 
+! Total count: 63859
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1873,6 +1873,8 @@ $doc,removeparam=uid_bam
 $doc,removeparam=user_email_address
 $doc,removeparam=waporef
 $doc,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.com
+$doc,removeparam=wt_mc
+$doc,removeparam=wt_zmc
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $domain=googleads.g.doubleclick.net
 $image,third-party,domain=258zw.com
@@ -3590,7 +3592,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
 .com:8004/*/*?*=$third-party
-.com:8005/*/2483?
 .com:8007/*/*?*=$third-party
 .com:8008/*/*?*=$third-party
 .com:8008/sc/*?n=$third-party
@@ -3602,7 +3603,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .cyou/*_*_an*js?$script,third-party
 .cyou/*_*_u*js?$script,third-party
 .cyou/redbaiduct.com
-.cyou/xling_*_
+.cyou/xling_*_$third-party
 .de/h.gif?
 .de/l.gif?
 .delivery-status.com/open?
@@ -3698,7 +3699,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .live/o.js
 .live/o.js$script,third-party
 .live/r/*/*_r=*
-.live/ty/*-*-*
+.live/ty/*-*-*$third-party
 .live:*/o.js
 .lms-analytics/
 .lu/ads/
@@ -8541,7 +8542,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 3jy.com,maolihui.com##.lad
 3rxing.org###fullDD
 3yan.cn##img[style*="300px"]
-3zmmm.net/ggxx/
 40407.com###nei_fmt
 40407.com###tcdgg
 40407.com##.bg_l
@@ -9128,6 +9128,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 :8888/mb1/wap_
 :8888/zhu/pc_
 :8888/zhu/wap_
+:8891/v*$third-party
 :8891/v*/$script,third-party
 :8898/ads_
 :9001/code/
@@ -16444,7 +16445,6 @@ novipnoad.com##.ad_single_title
 novipnoad.com##.bg-ad
 novipnoad.com##img[src*="/bd/"] + span
 novipnoad.com#?#.video-item:-abp-has(img[src*="/bd/"])
-novret.com/?clickid=
 nowcoder.com###jsSideTopicList
 nowcoder.com##.mini-banner
 nownews.com###ads-footer-bar
@@ -20203,6 +20203,7 @@ zzzyk.com###Tinfo
 ||3xy1.dvv9dkv.site^$third-party
 ||3yej.xyz^
 ||3z7qn.cn^
+||3zmmm.net/ggxx/
 ||4-bb.com/new/xxx/
 ||4000bb.com/java/
 ||401aww.com^
@@ -45249,6 +45250,7 @@ zzzyk.com###Tinfo
 ||novipnoad.com/bd/
 ||novipnoad.com/theme/js/helper.
 ||novipnoad.net/theme/js/sponsor/
+||novret.com/?clickid=
 ||now.cummins.com^
 ||now.cumminsfiltration.com^
 ||now.cumminspower.com^
