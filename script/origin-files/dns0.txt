@@ -1,8 +1,8 @@
-! Checksum: Zh/m4So17NOdq8I1b8y5pQ
+! Checksum: VLjueGrKgtb1+bUHVUsQcA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.2.26
-! TimeUpdated: 2023-10-31T00:31:13+00:00
+! Version: 2.1.2.29
+! TimeUpdated: 2023-10-31T07:31:08+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -604,7 +604,10 @@ linovelib.com#$##byspider { display: none !important; }
 linovelib.com#$#body[style] { overflow: auto !important; }
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=linovelib.com,important
 linovelib.com#%#//scriptlet('set-constant', 'adblock', '0')
+! https://github.com/AdguardTeam/AdguardFilters/issues/164798
 ! https://github.com/uBlockOrigin/uAssets/issues/10953
+@@||assets.tingfm.com/wp-content/themes/radio-hub/static/js/adpro.js$domain=tingfm.com
+tingfm.com#%#//scriptlet('set-constant', 'can_run_ads', 'true')
 tingfm.com#%#//scriptlet("prevent-setTimeout", "adblock")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102824
 movieclassic.net###billboard-modal
@@ -5052,6 +5055,8 @@ newduba.cn###jq_youxi
 ||hnkhgw.com^
 ||bpbfymv.xyz^
 ||iccjkn.icu^
+||estixfl.cn^
+||unidict.cn^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -14011,6 +14016,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||olelive.com/v1/pub/index/anchor/check/pc/e?
 szxx.com.cn###A0
 poedb.tw###head_toolbar + .text-center
 track718.com##.track-search-ad

@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: E7S98rUHkViuRS6VyCooVg
+! Checksum: YX1PELbBUfLv/wnS4WUqvA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-10-31 08:50:01（北京时间） 
-! Total count: 63905
+! Version: 2023-10-31 16:17:29（北京时间） 
+! Total count: 63930
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3589,6 +3589,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .com/zz/yd2.js
 .com:10446/*/get*.html
 .com:12289/$script,third-party
+.com:7891/stats$third-party
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
 .com:8004/*/*?*=$third-party
@@ -10537,9 +10538,9 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||plplayer.online/log_event$~third-party,xmlhttprequest
 @@||plugins.matomo.org^$image,~third-party
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
-@@||poedb.tw/js/
 @@||poedb.tw/js/adsbygoogle.js
 @@||poedb.tw^$generichide
+@@||poedb.tw^*ad$script,~third-party
 @@||polfan.pl/app/vendor/fingerprint2.min.js$~third-party
 @@||popart.hk/newweb/$generichide
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com
@@ -11130,6 +11131,8 @@ acglala.net##.gg_img
 acglala.net,boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 acglover.me##.myas
 acgnx.net,acgnx.se##a > img[src^="/images/"]
+achaec.cc##[style*='px; bottom: 0px; left: 0px; z-index: ']
+achaec.cc##[style*='px; top: 0px; left: 0px; z-index:']
 acommunity.com.tw##.ai_widget
 actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com##+js(set, GSvars.addressTracking, false)
 actoys.net##.p_new_ad
@@ -16510,6 +16513,7 @@ olevod.com##div[style*="%;float: left;"] > a[target="_blank"]
 olevod.com#$?#.swiper-wrapper > li.swiper-slide:has(> a[target="_blank"]:not([href^="/"])) { remove: true; }
 olevod.eu##.guangao
 olevod.eu##a.wbalist_thumb[target="_blank"]
+olevod.tv##a[href^="https://www.yywhale.com"]
 olgame.tw##.nex_floor_banner
 olgame.tw##.nex_index_ads
 olgame.tw##.nex_mid_ads
@@ -16781,6 +16785,7 @@ plus28.com##div[style="margin: auto;width: 960px;margin-bottom: 10px;"]
 plus28.com##div[style="width:270px; height:180px;"]
 plus28.com##div[style="width:960px;margin: auto;"]
 po.baidu.com###shareBoxBlank
+poedb.tw###head_toolbar + .text-center
 poedb.tw#%#//scriptlet("abort-current-inline-script", "document.getElementById", "/#myModal'\)\.modal/")
 poedb.tw#?#div[id]:-abp-contains(ad blocker)
 poklw.com##img[alt="恰饭广告"]
@@ -17635,6 +17640,8 @@ sohu.com##[data-spm^='ad-']
 sohu.com##a[href*="_Click_Flow_recommend_"]
 sohu.com##a[href^="https://m.sohu.com/promotion?"]
 sohu.com##div[data-spm-content="promotion"]
+sohu.com#?##allseeList > .allsee-item.bd-wrap:has(> div > script)
+sohu.com#?#.news-wrapper > .news-box:has(> div[id^="taboola-below-article-widget"])
 sohu.com#?#.news-wrapper > div.news-box.clear:has(> [data-ad-format])
 sohu.com#?#.sidebar.right:has(> div.extend-mod:first-child)
 sohu.com#@#.label-ad
@@ -18055,6 +18062,8 @@ touzi.com##.tck-cover
 toy-people.com##.good72890
 toy-people.com##.rightAd_300250
 tptoon.com##span[style^="position:fixed; bottom:30vh;"]
+track718.com##.track-adsense-ad
+track718.com##.track-search-ad
 trafficjunky.com$third-party
 trakt.tv##DIV[id$='-wrapper']
 tropica.cn##.a_mu1
@@ -20821,6 +20830,7 @@ zzzyk.com###Tinfo
 ||88993aaa.com^
 ||88eg.cn^
 ||88kids.mobi^
+||88la.la^
 ||88lajs1.com^
 ||88lajs2.com^
 ||88lajs3.com^
@@ -27375,6 +27385,7 @@ zzzyk.com###Tinfo
 ||bnhxxj.xyz^
 ||bnk.wolterskluwerfs.com^
 ||bnl2bii.icu^
+||bnnfvd.xyz^
 ||bnpfdzp.xyz^
 ||bnpparibas.fr/JavascriptInsert.js
 ||bnqt.com^$third-party
@@ -27511,6 +27522,7 @@ zzzyk.com###Tinfo
 ||bp.mlb.com^
 ||bp01.net^$third-party
 ||bpath.com/count.dll?
+||bpbfymv.xyz^
 ||bpbpxv.xyz^
 ||bpe.mlb.com^
 ||bpe2.destinia.co.il^
@@ -27732,6 +27744,7 @@ zzzyk.com###Tinfo
 ||bronto.com^$third-party
 ||brontops.com^
 ||bronxvanilla.openapp.link^
+||brorzpj.cn^
 ||brothersbucket.com^
 ||brotherslocket.com^
 ||brownfox.top^
@@ -27919,6 +27932,7 @@ zzzyk.com###Tinfo
 ||bvnvx.xyz^
 ||bvr.ast.snva.jp^
 ||bvr.snva.jp^
+||bvsfv6.com^
 ||bvubje.leboncoin.fr^
 ||bvvb9.com^
 ||bvz5.destinia.com.tr^
@@ -31968,6 +31982,7 @@ zzzyk.com###Tinfo
 ||dropbox.com/log/
 ||dropbox.com/log_
 ||dropboxfingerprintjs.com^$third-party
+||drtyuigj.xyz^
 ||drtyujgsg.xyz^
 ||drudgereport.com/204.png
 ||drugs.com/api/logger/
@@ -32059,6 +32074,7 @@ zzzyk.com###Tinfo
 ||duoying.vip^$third-party
 ||dup.baidustatic.com^
 ||durationmedia.net^$third-party
+||durynslg.xyz^
 ||dushiyanqing.net/mobile/lib/ccppcc.js
 ||dustydime.com^
 ||dustyhammer.com^
@@ -33272,6 +33288,7 @@ zzzyk.com###Tinfo
 ||estara.com^$third-party
 ||estat.com^$third-party
 ||estcruden.biz^
+||estixfl.cn^
 ||estore.jp/beacon/
 ||estrack.net^$third-party
 ||et-gv.fr^$third-party
@@ -33967,6 +33984,7 @@ zzzyk.com###Tinfo
 ||fenxiangdashi.com/Res/js/detail_
 ||fenxiangdashi.com/img/banner/
 ||fepmpify.xyz^
+||feq853.com^
 ||feraciumus.com^$third-party
 ||ferank.fr^$third-party
 ||fernandou.online^
@@ -35330,6 +35348,7 @@ zzzyk.com###Tinfo
 ||gmodmp.jp^$third-party
 ||gmossp-sp.jp^$third-party
 ||gmx.net/monitoring/
+||gmx10.top^
 ||gmx11.top^
 ||gmx12.top^
 ||gmx13.top^
@@ -35349,9 +35368,11 @@ zzzyk.com###Tinfo
 ||gmx28.top^
 ||gmx29.top^
 ||gmx30.top^
+||gmx31.top^
 ||gmx34.top^
 ||gmx35.top^
 ||gmx36.top^
+||gmx37.top^
 ||gmx38.top^
 ||gmx39.top^
 ||gmx40.top^
@@ -36773,6 +36794,7 @@ zzzyk.com###Tinfo
 ||hndhas.com^
 ||hnfnjn.xyz^
 ||hnjls.com.cn^
+||hnkhgw.com^
 ||hnlczgjx.com^
 ||hnlphr.cn^
 ||hnltcw.com^
@@ -37288,6 +37310,7 @@ zzzyk.com###Tinfo
 ||icast.cn^$third-party
 ||icaubf.casamundo.de^
 ||icbdr.com/images/pixel.gif
+||iccjkn.icu^
 ||icebergindigo.com^
 ||icentos.info^
 ||icgp.ie/overview/js/tracker.php
@@ -37471,6 +37494,7 @@ zzzyk.com###Tinfo
 ||iifyeldo.top^
 ||iiikefu.com/wp-content/plugins/halfdata-green-popups/js/lepopup.js
 ||iiilab.com/sponsor
+||iikrmw.xyz^
 ||iis7.com/ys/css2018/ggw.js
 ||iivt.com^$third-party
 ||ijaabm.eonline.com^
@@ -45433,6 +45457,7 @@ zzzyk.com###Tinfo
 ||nytimes.com/v1/purr-cache
 ||nytimes.com^$removeparam=smid
 ||nytlog.com^$third-party
+||nyvgbt.xyz^
 ||nyxcosmetics.com/IZ/PXLZNv2dn4/init.js
 ||nz-go.experian.com^
 ||nz04com.com/aabdd/
