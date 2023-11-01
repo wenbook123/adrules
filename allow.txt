@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: EwW8Lvtl8UtY+KS5IoAyRg
+! Checksum: OpqpntPzKDkEOlgQKJf3Rw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-01 16:17:32（北京时间） 
-! Total count: 15310
+! Version: 2023-11-02 00:18:39（北京时间） 
+! Total count: 15316
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -143,6 +143,7 @@
 @@/_ad*/_ad$~third-party,xmlhttprequest
 @@/_js/pubfig.min.js$~third-party,domain=svethardware.cz|relaxuj.cz|svetmobilne.cz|digimanie.cz
 @@/acton/content/aoAdDetect.js$domain=unifilabs.com|freedomiot.ai|westernstatescat.com|marketing.rsvpportal.com
+@@/acton/content/aoAdDetect.js$domain=unifilabs.com|freedomiot.ai|westernstatescat.com|marketing.rsvpportal.com|zeomega.com|resources.harneys.com|fleetstar.com
 @@/ad*.$domain=tvtropes.org
 @@/ad-blocker-detection$script
 @@/ad-close.png$domain=ch.com
@@ -279,6 +280,7 @@
 @@/common/templates/dfp/dfp-component-template.html$~third-party,domain=usrowing.org|bigten.org|gousfbulls.com
 @@/complianz-gdpr-premium/cookiebanner/$script,~third-party
 @@/components/js/analytics.js|$xhr,1p
+@@/content/aoAdDetect.js
 @@/content/image.jpg?data=$stealth,domain=nettruyenplus.com
 @@/content/tour/banner/*$domain=digitalplayground.com
 @@/cookie-banner.js$domain=fruugo.ae|fruugo.at|fruugo.be|fruugo.ca|fruugo.ch|fruugo.co.il|fruugo.co.nz|fruugo.co.uk|fruugo.co.za|fruugo.com.tr|fruugo.cz|fruugo.de|fruugo.eg|fruugo.dk|fruugo.es|fruugo.fi|fruugo.fr|fruugo.gr|fruugo.hu|fruugo.it|fruugo.ie|fruugo.jp|fruugo.kr|fruugo.lu|fruugo.my|fruugo.nl|fruugo.no|fruugo.ph|fruugo.pl|fruugo.pt|fruugo.qa|fruugo.ro|fruugo.ru|fruugo.se|fruugo.sg|fruugo.sk|fruugo.us|fruugoaustralia.com|fruugobahrain.com|fruugochina.com|fruugoindia.com|fruugosaudiarabia.com
@@ -586,6 +588,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgjll.com.co^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -14784,6 +14787,7 @@
 @@||widgets.trustedshops.com/reviews/tsSticker/css/light.theme.css$domain=interpack.eu
 @@||widgets.trustedshops.com/reviews/tsSticker/tsSticker.js$domain=interpack.eu
 @@||wikia.nocookie.net/*/css/*.scss$domain=fandom.com
+@@||wikia.nocookie.net^$script,domain=fandom.com
 @@||wikia.nocookie.net^*/AnalyticsEngine/js/analytics_prod.js
 @@||wikibooks.org^$generichide
 @@||wikidata.org^$generichide
@@ -15066,6 +15070,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide-party
+@@||xfreehd.com^$generichideom#%#//scriptlet('prevent-setTimeout', 'placebo.height()')
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
