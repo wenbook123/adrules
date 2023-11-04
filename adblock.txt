@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: FYlrAIMzyJjLSW2BwQSL8Q
+! Checksum: q3FwKh4zqA+A0mWXJ1yYdg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-11-04 00:18:21（北京时间） 
-! Total count: 63943
+! Version: 2023-11-04 08:44:41（北京时间） 
+! Total count: 63930
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1844,13 +1844,14 @@ $doc,removeparam=_cldee
 $doc,removeparam=_ft_
 $doc,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldscientific.com
 $doc,removeparam=aoOfferParams,domain=citi.com
+$doc,removeparam=bpli,domain=blogger.com
 $doc,removeparam=cId,domain=apple.com|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|youtube.com
 $doc,removeparam=channel,domain=1sol.io|amazon.*|bybit.com|coinpanel.com|docs.google.com|docsend.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|ngx.me|privateinternetaccess.com|reddit.app.link|rei.com|runnode.com|squarespace.com|t.me|twitter.com|xd.wayin.com|x.com|youtube.com
 $doc,removeparam=cn,domain=twitter.com|x.com
 $doc,removeparam=ct,domain=apple.com|bumble.com|newsroom.co.nz
 $doc,removeparam=deliveryName,domain=abp.nl
 $doc,removeparam=feature,domain=reddit.app.link
-$doc,removeparam=helpref,domain=whatsapp.com|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
+$doc,removeparam=helpref,domain=whatsapp.com|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|instagram.com
 $doc,removeparam=iId,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 $doc,removeparam=intc,domain=citi.com
 $doc,removeparam=jp_cmp,domain=chase.com
@@ -3388,6 +3389,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 *_ad_$media,domain=youtube.com,3p
 *ref=404media.co*$doc,removeparam=/^ref=404media.co$/
 *ref=easywithai*$doc,removeparam=/^ref=easywithai$/
+*ref=exploit.media*$doc,removeparam=/^ref=exploit.media$/
 *tplv-noop.gif*
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
@@ -3983,15 +3985,14 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /AutoTracker.js
 /BKVTrack.js
 /BadwebRemindPage.aspx?param=$popup,third-party
-/BlueKaiPixel/*
 /BrandXuanDong.js
 /CaptureStat.asmx
-/ClickTail.
-/ClickTrack.
+/ClickTail.js
+/ClickTrack.js
 /CoNTent*(com?
 /Code/pccpcv.php
 /CodeFiles/*.aspx?placeid=$third-party
-/CofinaHits.
+/CofinaHits.js
 /ContextLogResource/*
 /Counter.ashx?
 /CreateAnalytics.js
@@ -4686,13 +4687,11 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /beacon/user-data
 /beacon/v1/batch?
 /beacon?cust=
-/beaconconfigs/*
 /beaconimages.netflix.net/*$image
-/beacons-external.
 /beacons?data=
 /behavior/web/pv?
-/benchmarketingsmarttag/*
-/better-analytics/*
+/benchmarketingsmarttag/get?
+/better-analytics/js/loader.php
 /bf.gif?ac=
 /bg5t4h.oss-
 /bigREDcat.js?$third-party
@@ -4712,22 +4711,15 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /blink-sw.js
 /blog/showdetail.php?z=$script,third-party
 /blogcounter.js
-/blueKaiAnalytics.
-/bluekai.
-/bluekai/*
-/bluekaicookieinfo.
-/bluetracker/*
+/bluekai.js
 /blxn_*_*_*?*$third-party
-/bm-bam-trk.
 /bmqp6001-
 /bmqp6002-
 /bom/analytics/*
 /bookad.oss-
 /bookxiaoshuo.oss-
-/boomLogger.
 /boomerang-latest.js
 /boomerang-latest.min.js
-/boomerang-minified-
 /boomerang.js
 /boomerang/beacon
 /boomr.js
@@ -4739,19 +4731,17 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /bottomad/*
 /bower_components/fp/fp.js
 /bpsma.js
-/branchMetrics.
+/branchMetrics.js
 /brandAnalytics.js
 /brightTag-min.js
-/brightcove/tracking/*
 /brightedge.js
 /brightspot/analytics/*
 /browserinfo?f.sid=
-/bsp-analytics.
+/bsp-analytics.min.
 /bstat.js
 /bt*.com/imgs.js?t=
 /btba/ad/*
 /btrack.php?
-/buffermetrics/*
 /bugcounter.php?
 /bugsnag.min.js$third-party
 /bundle-analytics.js
@@ -4802,7 +4792,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /cdn_cookie_service.html
 /ce_l.aspx?showid=$third-party
 /cedexis.js
-/cedexis/*
+/cedexis.radar.js
 /census/RecordHit
 /center?advId=
 /certifica-js14.js
@@ -4871,30 +4861,23 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /clicks.email.$image
 /clicks/servlet/*
 /clickscript.js
-/clickstats.
+/clickstats.php
 /clickstream.aspx?
 /clickstream.js
 /clickstream/visit?
-/clicktag.
-/clicktale-
-/clicktale.
-/clicktale/*
-/clicktale_
-/clicktalecdn.
+/clicktag.js
+/clicktale.js
 /clicktotal/ClickTotal.js
 /clicktrack?
-/clicktracker.
-/clicktracking.
-/clicktracking/*
+/clicktracker.js
+/clicktracker.php
+/clicktracking.js
 /clicky.js
 /client-metrics/?target
-/client.rum.
-/clientEventLog/*
-/clientPageLog/*
 /client_204?$image,other,ping,script
 /client_pathlog.asp?
 /clientele/reports/*
-/clientlib-analytics-
+/clientlib-analytics-core.
 /clientstat?
 /cls_report?
 /clys.js?2020
@@ -4910,7 +4893,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /cn-fe-stats/*
 /cn-track?
 /cnki/js/adDetail1124.js
-/cnstats.
+/cnstats.js
 /cnstats/*
 /cnt-combined.php?
 /cnt.aspx?
@@ -4919,7 +4902,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /cnt/cnt.php?
 /cnt/start.php?
 /cnt_js.php?
-/cntpixel.
 /cnvtr.js
 /cocoon-master/lib/analytics/access.
 /code/cpc.asp?
@@ -4929,7 +4911,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /code/pop_cpf.
 /code/popjs.
 /coherentpath.link/o/*$image
-/cohesion-latest.
+/cohesion-latest.min.js
 /coinhive.min.js
 /coinimp-cache/*
 /collect.gif?
@@ -7395,7 +7377,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /uecomscore_cmp_event_mundo.js
 /uedata?
 /uem-ep.js
-/ui/analytics/*
 /uisprime/track
 /umami.js
 /umg-analytics/*
@@ -7457,6 +7438,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /vecapture.js
 /vendor/analytics.js
 /vendor/analytics/*
+/vendor/cedexis/*
 /vendor/xtcore.js
 /vestigo/v1/measure
 /vglnk.js
@@ -9021,6 +9003,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 ://beacon.*/track
 ://blue.*/script.js
 ://btt*/Runtime/js/psData.
+://client.rum.
 ://collect.*/pageview
 ://collector.*/event
 ://dmhy.gate.*/*.*?$image
@@ -23967,6 +23950,7 @@ zzzyk.com###Tinfo
 ||agitos.de/content/track?
 ||agkacg.xyz^
 ||agkn.com^
+||agma-analytics.de^
 ||agnes.waz.de^
 ||agoda.net/v2/track
 ||agogo.tv/images//uploads/ad/
@@ -29011,6 +28995,7 @@ zzzyk.com###Tinfo
 ||clickshift.com^$third-party
 ||clicktale.net^$domain=focus.de
 ||clicktale.net^$third-party
+||clicktalecdn.sslcs.cdngc.net^
 ||clickthru.lefbc.com^$third-party
 ||clicktime.symantec.com^$script,third-party
 ||clicktracker.iscan.nl^
@@ -54710,6 +54695,7 @@ zzzyk.com###Tinfo
 ||stats.nddmed.com^
 ||stats.nebula.fi^
 ||stats.netbopdev.co.uk^
+||stats.netdriven.com^
 ||stats.newsweek.com^
 ||stats.nexagon.dk^
 ||stats.nhk.or.jp^
@@ -60272,6 +60258,7 @@ zzzyk.com###Tinfo
 ||viewer.pandasuite.io^
 ||views.arabnews.com^
 ||views.asura.gg^
+||views.asurascans.com^
 ||views.b1tv.ro^
 ||views.cancan.ro^
 ||views.romaniatv.net^
