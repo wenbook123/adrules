@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: q3FwKh4zqA+A0mWXJ1yYdg
+! Checksum: 6v1c+X897d+YY6e5ERLcHQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-11-04 08:44:41（北京时间） 
-! Total count: 63930
+! Version: 2023-11-04 16:16:39（北京时间） 
+! Total count: 63949
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3202,6 +3202,7 @@ $removeparam=tealium_vid
 $removeparam=term,domain=outnorth.fi|bybit.com
 $removeparam=textadID,domain=media-cdn.costco.ca|media-cdn.costco.com
 $removeparam=tg_ref
+$removeparam=tgclid
 $removeparam=thg_ppc_campaign
 $removeparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobile.com|nhl.com|zulily.com
 $removeparam=tid1
@@ -8499,7 +8500,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 423down.com##.content > a
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
-423down.com##.entry > p[style$="center;"]
+423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
 423down.com##a[href*="/go."] > img
@@ -10160,6 +10161,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||jjjgame.com/plus/ad_
 @@||jjkmn.com^$generichide
 @@||jlthjy.com^$generichide
+@@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||joyk.com^$generichide
 @@||jpush.cn^$domain=jiguang.cn
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
@@ -10433,6 +10435,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yummy.best
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|zxmee.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=m.twfanti.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
@@ -10937,6 +10940,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||youtube.com/signin?$removeparam
 @@||youtube.com/videoplayback$removeparam=source
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
+@@||yummy.best^$generichide
 @@||yunduanxin.xyz/static/js/banger.js
 @@||yunjiema.top/static/js/wpsafelink.js
 @@||yyfweb.postar.cn^
@@ -13594,6 +13598,7 @@ gamer.com.tw,pili.com.tw#@#.text_ad
 gamer.com.tw,pili.com.tw#@#.text_ads
 gamer.com.tw,~buy.gamer.com.tw##a[href^="https://buy.gamer.com.tw"]
 gamersglobal.de#@#.gg-box
+gamersky.com##.ad_cmt_cont
 gamersky.com##.downLoadGame-2
 gamersky.com##.downLoadGame-2 + .dl_url
 gamersky.com##div[id^="adscontainer_"]
@@ -17969,6 +17974,7 @@ tmall.com##.mui-mbarp-qrcode-hd-d.mui-mbarp-qrcode-hd
 tmall.com##.mui-mbarp-qrcode-tip
 tmall.com##.sn-mobile
 tmall.com##div[style*="z-index: 99999; display: block;"]
+tmioe.com###custom_html-4
 tmioe.com##.__single_0
 tmioe.com##.ad_single_0
 tmioe.com##.entry-copyright
@@ -18010,8 +18016,11 @@ toutiao.com#?#.has_action:-abp-has(> .icon_ad)
 touzi.com##.pop720-bg
 touzi.com##.pop720-box
 touzi.com##.tck-cover
+toy-people.com##.article_insertAD
 toy-people.com##.good72890
 toy-people.com##.rightAd_300250
+toy-people.com##.rightAd_3002502
+toy-people.com##.right_bottom_bb
 tptoon.com##span[style^="position:fixed; bottom:30vh;"]
 track718.com##.track-adsense-ad
 track718.com##.track-search-ad
@@ -18247,6 +18256,7 @@ view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
+vikacg.com##a[href^="http"] > img[src^="/assets/main/"]
 vikacg.com##div[id^="home-row-ads"]
 vip.com##.sidebarcom-qrcode
 vip.com##.wp-phone
@@ -28114,6 +28124,7 @@ zzzyk.com###Tinfo
 ||cambash.com/api/metrics
 ||camel.headfarming.com^
 ||camep.xyz^
+||cammak.xyz^
 ||campaign-direct.eisai.jp^
 ||campaign-fbsg.fujifilm.com^
 ||campaign.amadeus.com^
@@ -28834,6 +28845,7 @@ zzzyk.com###Tinfo
 ||ckerw.xyz^
 ||ckg.vipyl.com^
 ||ckies.net^
+||cklithuw.xyz^
 ||ckozwx.n11.com^
 ||cksfgh.jaycar.com.au^
 ||ckxxbao.com/templets/default/js/wx.js
@@ -32679,11 +32691,13 @@ zzzyk.com###Tinfo
 ||efuxqe.tatilbudur.com^
 ||efvsyhbf.xyz^
 ||efyt6.com^$third-party
+||egadfe.xyz^
 ||eganilglw.cyou^
 ||egbqvs.vila.com^
 ||eggplant.cloud^$third-party
 ||eghyahl.cn^
 ||egipsbvlgn.xyz^
+||eglizqf.cn^
 ||egmontpublishing.dk/tracking/
 ||egnlaigw.fun^
 ||egoi.site^
@@ -39989,6 +40003,7 @@ zzzyk.com###Tinfo
 ||ktkkt.com/js/tvb/
 ||ktracker.kumparan.com^
 ||kttoo1.com^$domain=9xav.cc
+||ktvtxir.xyz^
 ||ktzhk.com/file/adv/
 ||kuaicad.com/rest/common/getConfigureByName?
 ||kuaidi100.com/assets/ext?method=mainprofile
@@ -47328,6 +47343,7 @@ zzzyk.com###Tinfo
 ||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
 ||ppstatic.pl^*/track.js
+||pptclb.xyz^
 ||pptv.com/game/aplus/client/gamedetail.html
 ||pptv.com/stg/add?
 ||pptv.com/webdelivery/
@@ -60070,6 +60086,7 @@ zzzyk.com###Tinfo
 ||vdggsd001.com^
 ||vdggsd002.com^
 ||vdggsd003.com^
+||vdggsd004.com^
 ||vdggsd005.com^
 ||vdggsd006.com^
 ||vdggsd007.com^
@@ -62511,6 +62528,7 @@ zzzyk.com###Tinfo
 ||xl.pt/api/stats.ashx?
 ||xl720.com/tmp/
 ||xlardaxq.com^
+||xlca666.site^
 ||xlgqy.com^
 ||xlisting.jp^$third-party
 ||xlivrdr.com^
@@ -63871,6 +63889,7 @@ zzzyk.com###Tinfo
 ||zypzzv.xyz^
 ||zyq2.destinia.sk^
 ||zyrwfd.xyz^
+||zys13.top^
 ||zyzlpt.com^
 ||zz.bdstatic.com^
 ||zz123.com^$third-party
