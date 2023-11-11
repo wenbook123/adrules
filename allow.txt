@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 5FPy59Ng+M+5/LZbm3TuYQ
+! Checksum: B/+E4hKpEtCY5lqYybn/cA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-11 00:18:13（北京时间） 
-! Total count: 14450
+! Version: 2023-11-11 08:48:00（北京时间） 
+! Total count: 14456
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -242,6 +242,7 @@
 @@/chunklist.m3u8$stealth,domain=liveply.me
 @@/chunks.m3u8$stealth
 @@/clarity-*.js$domain=clarity-project.info
+@@/clickn(download|upload)\.[a-z]{3,5}/$script,xmlhttprequest,domain=clickndownload.org|clicknupload.click|clicknupload.link|clicknupload.red|clicknupload.vip|clicknupload.xyz
 @@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/common/templates/dfp/dfp-component-template.html$~third-party,domain=usrowing.org|bigten.org|gousfbulls.com
 @@/complianz-gdpr-premium/cookiebanner/$script,~third-party
@@ -526,7 +527,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||zoosk.com/cs/tp.png?
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org089.actonservice.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -5401,6 +5402,7 @@
 @@||freedidi.com^$generichide
 @@||freedium.cfd^
 @@||freeforums.net^$ghide
+@@||freegamestreams.in/live/*.m3u8$stealth=referrer
 @@||freegeoip.net/json/|$domain=load.pelispedia.vip
 @@||freegeoip.net/json/|$domain=mudwars.io
 @@||freegeoip.net/json/|$domain=userstyles.org
@@ -9869,6 +9871,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=production-api.androidacy.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=quienhabla.mx,xmlhttprequest
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ravenscans.com|oatuu.org|papa4k.xyz
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ravenscans.com|oatuu.org|papa4k.xyz|techedubyte.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=realadmin.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=receive-sms-online.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rekidai-info.github.io
@@ -10519,6 +10522,7 @@
 @@||privacyportal-cdn.onetrust.com^$xmlhttprequest,domain=materialplus.io|minehut.com
 @@||privacyportal-cisco-cdn.onetrust.com/dsarwebform/$domain=privacyrequest.cisco.com
 @@||privacyportal-de.onetrust.com/webform/$domain=telesign.com
+@@||privacyportal-eu.onetrust.com/webform^$domain=locatepeople.org
 @@||privacyportal.cookiepro.com/request/*/consentreceipts
 @@||privacyportal.onetrust.com/request/v*/consentreceipts$domain=channel5.com
 @@||privat24.privatbank.ua^
@@ -14222,6 +14226,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichidetent-leaderboard-ads
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
@@ -14361,6 +14366,7 @@
 @@||youtube.com/get_video_info*&el=editpage
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
 @@||youtube.com/get_video_info?*embedded$~third-party,other
+@@||youtube.com/live_chat$stealth=referrer
 @@||youtube.com/live_chat?$stealth
 @@||youtube.com/my_video_ad$document
 @@||youtube.com/signin?$removeparam
