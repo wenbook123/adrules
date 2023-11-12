@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: nw5cFCZUOpcNMVmtu5usrQ
+! Checksum: R1+L4KCmfPcC58RbwSNT/A
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-11-12 08:51:34（北京时间） 
-! Total count: 64079
+! Version: 2023-11-12 16:17:25（北京时间） 
+! Total count: 64108
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1194,6 +1194,7 @@
 ##[href^='https://analytics.woozooo.com/jump.php?url=']
 ##[href^='https://ccs.holor0803.cn']
 ##[href^='https://dc.vvsmse72']
+##[href^='https://down.erperweima.top/']
 ##[href^='https://dt.mydrivers.com/b.ashx']
 ##[href^='https://fcc.hxaxfcc.cn/']
 ##[href^='https://gougew.lanzoub.com/']
@@ -8507,6 +8508,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 423down.com##.content > a
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
+423down.com##.entry > p[style*="20px;color"]
 423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
@@ -10733,6 +10735,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||szhr.com^$generichide
 @@||szhr.com^*ad
 @@||taboola.com/libtrc/$script,domain=bild.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|sueddeutsche.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
+@@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 @@||tag.search.sensefuel.live/tag/$script,domain=bricomart.es
 @@||tagcommander.com^*/tc_$script
@@ -11217,6 +11220,7 @@ alypw.com##.ceadd
 am730.com.hk#?#.newslist-row > li.newslist-item:has(> div.adbox)
 am730.com.hk,downsx.net##.adbox
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
+amz123.com##.two-activity-style
 ananvod.com##.rbPicAll
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle
 androiddevtools.cn###auto-scroll-ad-box
@@ -12583,6 +12587,9 @@ cupfox.app##IMG[class^='jsx-'][width='100%'],.swiper-wrapper img[class^='jsx-'][
 cupfox.app#?##outer-container > .model:has(> .model-content > a[href*=".jd.com"])
 cupfox.app,cupfox2.com##.a5-box[class^="jsx-"]
 cupfox.app,cupfox2.com,hcomic.net##.swiper
+cw.com.tw##.ad--video
+cw.com.tw##.article__promotion
+cw.com.tw##.bottombar
 cw.com.tw##.cw__advertising
 cw.com.tw##.emailorder
 cw.com.tw#?#.adActive > .list-link:has(> ul > li > div[id^="div-gpt-ad"])
@@ -15857,8 +15864,8 @@ mangabz.com###bb1
 mangabz.com###cc1
 mangabz.com###cc2
 manhua.weibo.com###p-nav-fix + .p-area.w980
-manhuadb.com##.comicbook-index
 manhuadb.com##.d-flex.px-2
+manhuadb.com#?#.comicbook-index:-abp-has(>a[href^="http"])
 manhuadb.com#@#a.d-block
 manhuagui.com##.gg_728
 manhuagui.com##.gg_950
@@ -18590,6 +18597,7 @@ wuyong.fun##.riplus_ads_wrap
 wuyong.fun#?#.sidebar-innter > section[id^="b2-widget-html-"]:has(.adsbygoogle)
 wuzhuiso.com##.download-app
 www.123pan.com##.advBanner
+www.123pan.com##.banner-container-h5
 www.123pan.com##DIV.app-adv-container
 www.123pan.com##IMG[src*='-banner'],.ant-carousel
 www.163.com##.float-bar
@@ -27817,6 +27825,7 @@ zzzyk.com###Tinfo
 ||btc440.top^
 ||btcfans.com/template/comiis_lssy/ad/
 ||btdb.in/beacon.html
+||btdmp.com^
 ||btdx8.com/tmp/
 ||btescs.fun^
 ||btg360.com.br^$third-party
@@ -29699,6 +29708,7 @@ zzzyk.com###Tinfo
 ||consistpotato.com^
 ||console-telemetry.oci.oraclecloud.com^
 ||console.uxlens.com^
+||constellation.networknmedia.com/cdn-cgi/trace
 ||consult.americanexpress.com^
 ||consultant.ru/js/counter.js
 ||consulting.icmi.com^
@@ -30101,6 +30111,7 @@ zzzyk.com###Tinfo
 ||creator.zmags.com^
 ||creawww.top^
 ||credible.com/api/logs-fe
+||credistory.ru/api/v1/LiveMetrics/
 ||creditcreature.com^
 ||creepingbrings.com^
 ||crepemania.openapp.link^
@@ -30193,6 +30204,7 @@ zzzyk.com###Tinfo
 ||cslbahf.top^
 ||cslpf.cn^
 ||csm.magnetintell.com^
+||csmfee.xyz^
 ||csp-collector.appspot.com^
 ||csp-reporting.cloudflare.com^
 ||cspb1.5w5w.com^
@@ -31991,6 +32003,7 @@ zzzyk.com###Tinfo
 ||driver.jugnoo.in^
 ||driverequest.com^
 ||drivingdirt.com^
+||drjyjr.xyz^
 ||drlimmode9ddd.cloudfront.net^
 ||drmcmm.baidu.com^
 ||drom.ru/dummy.
@@ -36013,6 +36026,8 @@ zzzyk.com###Tinfo
 ||grxwqq.com^
 ||gscatk.cn^
 ||gscohm.xyz^
+||gscsahv011.com^
+||gscsahv012.com^
 ||gsdpw.com/file/script/A
 ||gsecondscreen.com^$third-party
 ||gsg9.carrefour-banque.fr^
@@ -36768,6 +36783,7 @@ zzzyk.com###Tinfo
 ||hiuplq.rezultati.com^
 ||hiuplq.soccer24.com^
 ||hiuplq.soccerstand.com^
+||hixutb.xyz^
 ||hiyksu.karllagerfeldparis.com^
 ||hjapi.com/v1/pageSoftText?
 ||hjbqnwb.com^
@@ -44561,6 +44577,7 @@ zzzyk.com###Tinfo
 ||mvilivestats.com^$third-party
 ||mvjkbj.inazumanews2.com^
 ||mvlkvth.cn^
+||mvng.cn^
 ||mvo.g45td.xyz^
 ||mvtracker.com^$third-party
 ||mvxz.com/bar3.js
@@ -44723,6 +44740,7 @@ zzzyk.com###Tinfo
 ||mzbcdn.net/mngr/mtm.js
 ||mzhhdn.com/hongbao.jpg
 ||mzqf1.com^
+||mzthbna.xyz^
 ||mzwzo.cn^
 ||mzxvib.com^
 ||mzya5718.xyz^
@@ -47904,6 +47922,7 @@ zzzyk.com###Tinfo
 ||pyyhkn.com^
 ||pzapi-ij.com^
 ||pzapi-kg.com^
+||pzcogpj.icu^
 ||pzd.rakuten.co.jp^
 ||pzimff.com^
 ||pzjizsyf.icu^
@@ -48197,6 +48216,7 @@ zzzyk.com###Tinfo
 ||qonkdwwf.net^
 ||qonwdq.helmexpress.com^
 ||qooav.top^
+||qoqoangry.com^
 ||qortex.ai^$third-party
 ||qosbbzw.cyou^
 ||qowfknlds.net^
@@ -48278,6 +48298,7 @@ zzzyk.com###Tinfo
 ||qqtn.com/js/downinfo-
 ||qqtn.com/js/html/down_
 ||qqtn.com/skin/know/
+||qqvlsr.icu^
 ||qqxiazai.com/index.*adver&
 ||qqyy.com/js/commAdv
 ||qqyy.com/js/public_end_add.js
@@ -48429,6 +48450,7 @@ zzzyk.com###Tinfo
 ||qwertyuadf.com^
 ||qwesaz.com^
 ||qwjtdcl.cn^
+||qwnmfiti.xyz^
 ||qwrdj.xyz^
 ||qwrnkpow.com^
 ||qwrot.cyou^
@@ -53522,6 +53544,7 @@ zzzyk.com###Tinfo
 ||sooopu.com/asphtml/plnew.
 ||sooopu.com/js/*950.js
 ||sooopu.com/js/contentad330.js
+||sooqr.com^$third-party
 ||soorbka.cn^$third-party
 ||sootheside.com^
 ||soperson.com^$third-party
@@ -55256,6 +55279,7 @@ zzzyk.com###Tinfo
 ||stricaik.com^
 ||strikenurse.usnursing.com^
 ||stringsmile.com^
+||strip.chat/widgets/$domain=tktube.com
 ||strip.taobaocdn.com/tfscom/$subdocument
 ||stripchat.com/pixel/
 ||stripe.com/?event=
@@ -60153,6 +60177,7 @@ zzzyk.com###Tinfo
 ||vainews.cn^
 ||vakdop.icu^
 ||valdes.net.anwalt.de^
+||valerieurania.com^
 ||validate.onecount.net^$image
 ||valipl.cp31.ott.cibntv.net/$media
 ||value.kfcu.org^
@@ -62353,6 +62378,7 @@ zzzyk.com###Tinfo
 ||wyiegt.icu^
 ||wyjbvoz.xyz^
 ||wymiana.org/stat/
+||wymzwy.cn^
 ||wyoaij.icu^
 ||wyohm.xyz^
 ||wyplmjufd.live^
@@ -62395,6 +62421,7 @@ zzzyk.com###Tinfo
 ||x23qb.com/skin/themex.js
 ||x29l.top^
 ||x2l5lsn8rvsq.li.finance^
+||x2y22.fun^
 ||x3zy2.icu^
 ||x4csq.top^
 ||x4jdm.tv/mdp.js
@@ -62769,6 +62796,7 @@ zzzyk.com###Tinfo
 ||xuaihua.work^
 ||xuanyaosp.com^
 ||xuc.monteleone.fr^
+||xucyufv.icu^
 ||xudgjz.xyz^
 ||xue.zbyw.cn^
 ||xueaaaw.cn^
@@ -62919,6 +62947,7 @@ zzzyk.com###Tinfo
 ||yandex.com/clck/
 ||yandex.eu/clck/
 ||yandex.fr/clck/click
+||yandex.net/expjs/latest/exp.js
 ||yandex.ru/clck/
 ||yandex.ru/click/
 ||yandex.ru/cycounter?
