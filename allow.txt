@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: oeKlGHu5v4bw6Fue7au3qA
+! Checksum: 6om/LmRbQnGTMTx/a2aNKA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-15 00:14:01（北京时间） 
-! Total count: 14474
+! Version: 2023-11-15 08:48:33（北京时间） 
+! Total count: 14476
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -43,6 +43,7 @@
 @@*.js|$script,domain=unique-tutorials.info,3p
 @@*/assets/prebid/$script,xhr,1p,domain=gentside.*|maxisciences.com|ohmymag.*
 @@*ad*.cms$domain=indiatimes.com|timesofindia.com
+@@-ah.shop/*.js$script,domain=corsair-ah.shop|reign-ah.online
 @@-atari-embeds.googleusercontent.com/embeds/*/inner-frame-minified.html$stealth
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1327,6 +1328,7 @@
 @@||aicasanitaire.fr/extras/min/$script,~third-party
 @@||aii.sh^$ghide
 @@||aimfar.solution.weborama.fr/fcgi-bin/oba.fcgi?action=opt$domain=youronlinechoices.com
+@@||ainakwalajeen.com*/hls/*.m3u8$stealth=referrer
 @@||air.1688.com^
 @@||airav.cc/js/td_ga_tracker.js
 @@||airbnb.com/book?$jsinject,elemhide,extension
@@ -8897,6 +8899,7 @@
 @@||microsoft.com/*/signin.aspx$stealth
 @@||microsoft.com/*/signout.aspx$stealth
 @@||microsoft.com/*=wsign$stealth
+@@||microsoft.com/*research/redirect$removeparam
 @@||microsoft.com/api/privacy/cookieconsent?$xmlhttprequest,domain=docs.microsoft.com
 @@||microsoft.com/click/services/RioTracking2.js
 @@||microsoft.com/translate/auth
@@ -9811,6 +9814,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=eirudo.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=emucr.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=epicbundle.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=espnv2.online|live.hitsports.bond
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ethereumfaucet.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ff14angler.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=filgoal.com
@@ -10984,7 +10988,6 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsmetrics.handy.airregi.jp^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14244,7 +14247,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichiden##.inside-right-sidebar > #custom_html-4
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
