@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: KCr9wgA9WcR2uCQNS0DdiQ
+! Checksum: yhf6NW2/HFMSJ1dsh2QamQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-11-19 08:51:12（北京时间） 
-! Total count: 64251
+! Version: 2023-11-19 16:17:25（北京时间） 
+! Total count: 64264
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1274,8 +1274,9 @@
 ##[style^='position: fixed; z-index: 2147483616; width: 10%; height: 32.5px;']
 ##a > I.gg-icon
 ##a > IMG[src$='.gif'][wapsrc][style^='width: 100%']
-##a#wrapper_left_bg[target="_blank"]
-##a#wrapper_right_bg[target="_blank"]
+##a#wrapper_left_bg
+##a#wrapper_left_bg\ llll
+##a#wrapper_right_bg
 ##a.gggg[href^="https"]
 ##a.hengfu > img.hengfu
 ##a[clickmode="ad"]
@@ -4559,6 +4560,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /api/ipv4check?
 /api/log-visit
 /api/log?
+/api/metrics/collect
 /api/pageactivity
 /api/pageview?
 /api/pagevisits
@@ -9078,6 +9080,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 :701/gd_xueersi/$popup
 :7701/load.cw.js
 :800*/d/*?n=$script,third-party
+:800*/d/*?t=$script,third-party
 :800*/sc/*?n=$script,third-party
 :8007/*/*?is_not=
 :8008/*/*?is_not=
@@ -13215,7 +13218,7 @@ eol.cn###small_adright
 eol.cn##.ad_490
 eol.cn##.listAd
 eol.cn##div[id^="s1_"]
-eol.cn,firefoxchina.cn,myd666.tv,site.baidu.com##.popup
+eol.cn,firefoxchina.cn,meiyida01.com,myd666.tv,site.baidu.com##.popup
 eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
 epinv.com##.epinv_b
 epinv.com##.epinv_f
@@ -13923,7 +13926,7 @@ hao.360.com###top-nav
 hao.360.com##.licai-right
 hao.360.com#?#.cube-container div.cube-mod:has(span.adMark)
 hao.360.com#?#.cube-list-recommend > div.cube-mod.cpc-card > div.cube-bd > div.cube-card > div.dh-cpcad-container:upward(div.cube-mod.cpc-card)
-hao.360.com#?#.cube-mod:-abp-has(> .cube-bd > .cube-card > .project-root > ._CUBE_A_D_CLK_)
+hao.360.com#?#.cube-mod:-abp-has(.dh-cpcad-container)
 hao.lenovo.com.cn##.IconLink
 hao.lenovo.com.cn##.left.icons
 hao.lenovo.com.cn##.right.icons
@@ -15972,6 +15975,8 @@ meishij.net##.cp_body_right
 meitu.com###meipaiFixed
 meituan.com##.banner-download
 meituan.com##.component-downtip
+meiyida01.com,myd666.tv##.module-blocklist
+meiyida01.com,myd666.tv#?#.module-item:-abp-has(>.module-item-titlebox>a[href*="/download/"])
 meizhou.cn##.toptonglan
 meizhou.cn##.tuwengg
 meizhou.com##.adwords + div
@@ -16212,8 +16217,6 @@ my0511.com##div[id^="topad"]
 my0511.com##table[bordercolor="#C0C0C0"][border="1"]
 my0832.com##.xx_div
 mycq.qq.com##div[style^="width:960px;"]
-myd666.tv##.module-blocklist
-myd666.tv#?#.module-item:-abp-has(>.module-item-titlebox>a[href*="/download/"])
 myday.com.tw##.myday_ad_950
 myday.com.tw##.myday_ad_left
 myday.com.tw##.myday_ad_right
@@ -19180,6 +19183,7 @@ zj.qq.com##.mod-side + div[style="width:300px;height:257px;"]
 zjhlcp.com##.middle_list
 zjst.net##body > style ~ *,.vod-gd
 zk001.cc##section[class^="ch"]
+zkk78.com##div[style^="position:fixed;"]
 znds.com###diy_mobanbus_view_right2
 zol.com.cn###Article_Top_Banner
 zol.com.cn###btmLoginLayer
@@ -19810,6 +19814,7 @@ zzzyk.com###Tinfo
 ||1kqfzwd.com^
 ||1l-hit.mail.ru^
 ||1l1.cc^
+||1mxabnt.com^
 ||1pel.com^$third-party
 ||1porp.top^
 ||1ppt.com/ad$image
@@ -20845,6 +20850,7 @@ zzzyk.com###Tinfo
 ||8886i.top^
 ||88885aaa.com^
 ||888bb666cc.com^
+||888cool.cn^
 ||888dizhi.com/888/
 ||888fr.xyz^
 ||888lianmeng.com^
@@ -20871,6 +20877,7 @@ zzzyk.com###Tinfo
 ||8ccrv.xyz^
 ||8chj9.com^
 ||8cnd.com^
+||8d07a.xyz^
 ||8d4b.pandasuite.io^
 ||8d7hhh8x.com^
 ||8d8d.me/images/dealer.gif
@@ -24727,6 +24734,7 @@ zzzyk.com###Tinfo
 ||analytics-cms.whitebeard.me^
 ||analytics-coletor-site.ojc.com.br^
 ||analytics-consent-manager-v2-prod.azureedge.net^
+||analytics-debugger.com^$third-party
 ||analytics-gw.games.wanmei.com^
 ||analytics-helper.com^$third-party
 ||analytics-nssl.bradyid.com^
@@ -29392,6 +29400,7 @@ zzzyk.com###Tinfo
 ||cnpxwl.cheapcaribbean.com^
 ||cnr.cn/cnrxwph/iframe/tpdy/
 ||cnr.cn/s?z=
+||cnrdlpk.xyz^
 ||cns.wxdal.cn^
 ||cnscg.com/api.php?mod=ad&
 ||cnscg.com/template/default/style/*960x
@@ -30139,6 +30148,7 @@ zzzyk.com###Tinfo
 ||craktraffic.com^$third-party
 ||crall.io/beacon/
 ||crashchance.com^
+||crashlytics.com^$third-party
 ||cratecamera.com^
 ||crawlclocks.com^
 ||crayfish.thingelstad.com^
@@ -31199,6 +31209,7 @@ zzzyk.com###Tinfo
 ||deeplinks.padmapper.com^
 ||deeplinks.pebblebee.com^
 ||deeplinks.zumper.com^
+||deepnote.com/api/track
 ||deerbeginner.com^
 ||deeterno.cn^
 ||deezer.com/ajax/gw-light.php?method=triton.pixelTracking&
@@ -31828,9 +31839,6 @@ zzzyk.com###Tinfo
 ||dns.chuzushijian.cn^$third-party
 ||dns.weibo.cn^
 ||dnsdelegation.io^$third-party
-||dnsseed.bitcoin.dashjr.org^
-||dnsseed.bluematt.me^
-||dnsseed.emzy.de^
 ||dnt-userreport.com^
 ||dnvod.tv/listprovider/ajaxlist.async.ashx
 ||dnvodcdn.me/fast/*.mp4
@@ -32882,6 +32890,7 @@ zzzyk.com###Tinfo
 ||elecfans.com/webapi/advertisement/
 ||electronics.edm.globalsources.com^
 ||elegant-creator.com^
+||elemea.xyz^
 ||elephantqueue.com^
 ||elevatorpartsbuy.com^
 ||elia.thermofisher.com^
@@ -39635,6 +39644,7 @@ zzzyk.com###Tinfo
 ||jwppgyt.cn^
 ||jwronx.xyz^
 ||jwujvjo.cn^
+||jwxwnr.xyz^
 ||jwylcrb.cn^
 ||jx.flzyw.com/js/foot.js
 ||jxad.jx163.com^
@@ -46832,6 +46842,7 @@ zzzyk.com###Tinfo
 ||permutive.app^
 ||permutive.com^$third-party
 ||perpetualpail.com^
+||perplexity.ai/api/$xmlhttprequest
 ||perr.h-cdn.com^
 ||perr.hola.org^
 ||persianstat.com^$third-party
@@ -48576,6 +48587,7 @@ zzzyk.com###Tinfo
 ||qygxrh.vandykes.com^
 ||qygzbxpt.com^
 ||qyn6.ofertastelecable.es^
+||qyoqeq.xyz^
 ||qyuimi.xyz^
 ||qyun.vip/pic/*.gif
 ||qyzyd.top^
@@ -49583,6 +49595,7 @@ zzzyk.com###Tinfo
 ||rvo-cohesion.healthline.com^
 ||rvreuxi.cn^
 ||rvv.emol.com^
+||rvvji.online^
 ||rvyjbwr.cn^
 ||rvz9.destinia.co.ro^
 ||rvzlobj.cn^
@@ -50691,11 +50704,6 @@ zzzyk.com###Tinfo
 ||see.wasteorshare.com^
 ||see.yousoon.com^
 ||seectech.cn/scm/ad/list
-||seed.bitcoin.sipa.be^
-||seed.bitcoin.sprovoost.nl^
-||seed.bitcoin.wiz.biz^
-||seed.bitcoinstats.com^
-||seed.btc.petertodd.org^
 ||seedr.ru^*/stats/
 ||seedscissors.com^
 ||seehits.com^$third-party
@@ -53896,6 +53904,7 @@ zzzyk.com###Tinfo
 ||srf.ch/udp/tracking/
 ||srglobal.actonservice.com^
 ||srkl.pw^
+||srldkqj.cn^
 ||srlhgo.cn^
 ||srm4.destinia.co.no^
 ||srmdata-us.com^$third-party
@@ -55896,6 +55905,7 @@ zzzyk.com###Tinfo
 ||t.cubuffs.com^
 ||t.dailymail.co.uk^
 ||t.dawsoncreekeventscentre.com^
+||t.deepnote.com^
 ||t.destentor.nl^$image
 ||t.dgm-au.com^$third-party
 ||t.discover.kayosports.com.au^
@@ -56506,6 +56516,7 @@ zzzyk.com###Tinfo
 ||telemetry.algolia.com^
 ||telemetry.api.playstation.com^
 ||telemetry.firez.one^
+||telemetry.goodlifefitness.com^
 ||telemetry.jivosite.com^
 ||telemetry.phenixrts.com^
 ||telemetry.reembed.com^
@@ -60660,6 +60671,7 @@ zzzyk.com###Tinfo
 ||vivistats.com^$third-party
 ||vivocha.com^$third-party
 ||vivociti.com/images/$third-party
+||vixajghi.xyz^
 ||vizacasa.xyz^
 ||vizcloud.co/ping/
 ||vizhtd.xyz^
@@ -60753,6 +60765,7 @@ zzzyk.com###Tinfo
 ||voxmedia.com/beacon-min.js
 ||voxus.com.br^$third-party
 ||voyagepotato.com^
+||vozftn.xyz^
 ||vpdcp.com^
 ||vpemsb.autocasion.com^
 ||vpf4.euskaltelofertas.com^
