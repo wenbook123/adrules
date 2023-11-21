@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: znNfR+FXOYG+goedN3Fzfw
+! Checksum: jyntY7wlYc8ytCx2WCJfQw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-21 16:16:54（北京时间） 
-! Total count: 14492
+! Version: 2023-11-22 00:17:09（北京时间） 
+! Total count: 14501
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -61,6 +61,7 @@
 @@.com/js/a_d/$domain=colamanga.com
 @@.com/js/advertisement.js$~third-party
 @@.com/logo/ad.$domain=colamanga.com
+@@.com/o.js$domain=2biqu.com
 @@.dmf.link/dl/$stealth
 @@.doubleclick.net^$domain=mcstatic.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -531,7 +532,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgi24.it^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgfcg?
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1314,6 +1315,7 @@
 @@||agenciatributaria.gob.es^$removeparam
 @@||aggregator.service.usercentrics.eu/aggregate/$domain=aldi.pl
 @@||aggregator.service.usercentrics.eu/aggregate/$domain=flaschenpost.de
+@@||aggregator.service.usercentrics.eu/aggregate/*templates=$domain=highsnobiety.com
 @@||aggregator.service.usercentrics.eu/aggregate/de?templates=$domain=wetter.com|kabeleinsdoku.de|kabeleinsdoku.at
 @@||aggregator.service.usercentrics.eu/aggregate^$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||aggregator.service.usercentrics.eu/aggregate^$domain=studycheck.de
@@ -1879,6 +1881,7 @@
 @@||api.usercentrics.eu/tcf2/*.json$domain=wetter.com|kabeleinsdoku.de|kabeleinsdoku.at
 @@||api.usercentrics.eu/translations/translations-*.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||api.usercentrics.eu^$domain=aldi.pl
+@@||api.usercentrics.eu^$domain=highsnobiety.com
 @@||api.usercentrics.eu^$domain=rsi.ch
 @@||api.vhx.com^$stealth=3p-auth
 @@||api.vhx.tv^$stealth=3p-auth
@@ -1942,6 +1945,7 @@
 @@||app.usercentrics.eu/*/main.js$domain=morenutrition.de
 @@||app.usercentrics.eu/browser-sdk/*/cross-domain-bridge.html$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||app.usercentrics.eu/browser-ui/$script,domain=lootboy.de
+@@||app.usercentrics.eu/browser-ui/*/bundle_legacy.js$domain=highsnobiety.com
 @@||app.usercentrics.eu/browser-ui/latest/bundle.js$domain=studycheck.de
 @@||app.usercentrics.eu/browser-ui^$domain=app.usercentrics.eu
 @@||app.usercentrics.eu/latest/bundle.js$domain=wetter.com|joyn.de|stromseite.de
@@ -3625,6 +3629,8 @@
 @@||cleverbridge.com/*/cleveranalytics.js^$domain=secure.ccleaner.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 @@||cleverpush.com/sdk/$script,domain=heise.de
+@@||cleviationly.com/adServe/aff?*mydealz*&dlink=$popup,domain=mydealz.de
+@@||cleviationly.com/adServe/aff?cmpid=*mydealz*&dlink=$removeparam=cmpid
 @@||click.appcast.io/track^$domain=neuvoo.co.uk
 @@||click.appcast.io^|
 @@||click.cptrack.de^|
@@ -6687,6 +6693,7 @@
 @@||graphql.datocms.com^$stealth,domain=sensorkit.arduino.cc
 @@||graphql.usercentrics.eu/graphql$domain=kabeleinsdoku.de|kabeleinsdoku.at
 @@||graphql.usercentrics.eu/graphql$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
+@@||graphql.usercentrics.eu/graphql$xmlhttprequest,domain=highsnobiety.com
 @@||graphql.usercentrics.eu/graphql$xmlhttprequest,domain=wetter.com
 @@||graphracer.com/js/libs/heatmap.js
 @@||gratis.api.useinsider.com/api/info/$xmlhttprequest,domain=gratis.com
@@ -14262,7 +14269,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide$domain=pornstash.in
+@@||xfreehd.com^$generichide40.com,xhamster.one,xhamster.desi,stripchat.com##.video-thumb[class*="__look-like-item"]
+@@||xfreehd.com^$generichidework.com^$third-party
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
@@ -14494,6 +14502,7 @@
 @@||zx-pk.ru/abp/adblock_detector.js
 @@||zxmee.com^$generichide
 @@||zxzja.com:*/Cloud/Down/$subdocument,stealth
+@@||zxzja.com:*/player-$subdocument,stealth
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 @@||zyz.sdljwomen.com/*/?url=$stealth
