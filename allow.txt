@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: lpPjFuJG5ONWdDwKwk/hkA
+! Checksum: W9Rb/kOm+5iVEBlBVlFR/A
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-26 16:18:36（北京时间） 
-! Total count: 14427
+! Version: 2023-11-27 00:14:38（北京时间） 
+! Total count: 14434
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -532,8 +532,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org-cref.org^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgvry9.destinia.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgar.kr^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -3975,7 +3974,9 @@
 @@||consent.trustarc.com/asset/notice.js$domain=hsl.fi
 @@||consent.trustarc.com/asset/notice.js$domain=philips.de
 @@||consent.trustarc.com/asset/notice.js$domain=weather.com
+@@||consent.trustarc.com/asset/notice.js/$domain=philips-hue.com
 @@||consent.trustarc.com/get$domain=fortune.com
+@@||consent.trustarc.com/get$domain=philips-hue.com
 @@||consent.trustarc.com/iab/$domain=fortune.com
 @@||consent.trustarc.com/notice$domain=concursolutions.com
 @@||consent.trustarc.com/notice$domain=forbes.com
@@ -3983,7 +3984,9 @@
 @@||consent.trustarc.com/notice$domain=fortune.com
 @@||consent.trustarc.com/notice$domain=philips.de
 @@||consent.trustarc.com/notice$domain=tripit.com
+@@||consent.trustarc.com/noticemsg$domain=philips-hue.com
 @@||consent.trustarc.com^$domain=concur.com
+@@||consent.truste.com/notice$domain=philips-hue.com
 @@||consent.truste.com/notice$domain=tmz.com
 @@||consent.truste.com/notice$domain=weather.com
 @@||consent.truste.com/notice?domain=$domain=fortune.com
@@ -6234,6 +6237,7 @@
 @@||googletagmanager.com/gtag/js$domain=om-online.de
 @@||googletagmanager.com/gtag/js$domain=photopea.com
 @@||googletagmanager.com/gtag/js$domain=proinfinity.fun
+@@||googletagmanager.com/gtag/js$domain=rakuten.ca
 @@||googletagmanager.com/gtag/js$domain=riamo.ru
 @@||googletagmanager.com/gtag/js$domain=roman.com.tr
 @@||googletagmanager.com/gtag/js$domain=ryanair.com
@@ -10969,7 +10973,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsdata-1ce541951d.apps.iocnt.de^
+@@||reseguiden.se^*.siteCatalyst.js$image
+@@||reseguiden.se^*.siteCatalyst.jse
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11418,6 +11423,7 @@
 @@||sdk.privacy-center.org^$script,domain=francetvinfo.fr
 @@||sdk.privacy-center.org^$script,domain=frandroid.com
 @@||sdk.privacy-center.org^$script,domain=movilzona.es
+@@||sdk.privacy-center.org^$script,domain=oqee.tv
 @@||sdk.privacy-center.org^$script,domain=vecernji.hr
 @@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~third-party
 @@||sdn.cz^$stealth,domain=televizeseznam.cz
@@ -14196,9 +14202,10 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide]
-@@||xfreehd.com^$generichideerichide
-@@||xfreehd.com^$generichideyugatech.com##a[href^="https://yugatech.ph/"]
+@@||xfreehd.com^$generichide##.recent-purchased
+@@||xfreehd.com^$generichide://v.wpimg.pl/"]:first-child + img[src^="https://v.wpimg.pl/"] + div:last-child:upward(1)
+@@||xfreehd.com^$generichideklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gs24.pl,katowice.naszemiasto.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##.componentsPromotionsListWithTabs
+@@||xfreehd.com^$generichideom,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id*="desktop-dp-"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
