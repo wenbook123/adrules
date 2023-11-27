@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: HcrlWzose7gmA6vGYtXySw
+! Checksum: WhrQphIXRnY3cLDljFLc9Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-27 16:17:35（北京时间） 
-! Total count: 14429
+! Version: 2023-11-28 00:16:20（北京时间） 
+! Total count: 14435
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -532,6 +532,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgrics.junsungki.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -2703,6 +2704,7 @@
 @@||captcha.qq.com^*?*=*=*=$subdocument
 @@||captcha.su.baidu.com^
 @@||carandclassic.co.uk/images/free_advert/$image,~third-party
+@@||card-form.diehard.yandex.net^$stealth=referrer
 @@||care2.com/assets/scripts/cookies/care2/NitroCookies.js
 @@||carefood.kz/upload/$image
 @@||carexpert.com.tw/wp-content/plugins/like-box-pro/includes/javascript/front_end_js.js
@@ -7934,6 +7936,8 @@
 @@||js.jansatta.com/ads_js.js
 @@||js.mamydirect.com^$app=com.adguard.dns
 @@||js.maxmind.com^
+@@||js.monitor.azure.com/scripts/$script,domain=genya.it
+@@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com|rubex.efilecabinet.net
 @@||js.monitor.azure.com/scripts/*/ms.analytics-web-*.min.js$domain=mediastream.microsoft.com
 @@||js.monitor.azure.com/scripts/*/ms.analytics-web-*.min.js$domain=remoteassistance.support.services.microsoft.com
@@ -8331,7 +8335,6 @@
 @@||liumingye.cn^$generichide
 @@||live-buyback-order-api.live-api.recommerce.cloud/product?$stealth
 @@||live-trace.bilibili.com^
-@@||live-tv-channels.org^$ghide
 @@||live.api.stream^$websocket
 @@||live.com^
 @@||live.indiatimes.com/trackjs.cms
@@ -11705,6 +11708,7 @@
 @@||sexgalaxy.net/wp-content/plugins^
 @@||sexgalaxy.net/wp-content/themes^
 @@||sexgalaxy.net/wp-includes/js^
+@@||sextb.net^$generichide
 @@||sexwebvideo.*^$ghide
 @@||sexwebvideo.com/js/ad*.js
 @@||sexwebvideo.me/js/advertising.js
@@ -12065,6 +12069,7 @@
 @@||src.litix.io/core/*/mux.js$domain=kanald.com.tr
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||src.litix.io/videojs/$script,domain=rte.ie
+@@||src.litix.io/videojs/*/videojs-mux.js
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=dplay.co.uk
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=plus.nasa.gov
 @@||srek.net^$ghide
@@ -12934,6 +12939,7 @@
 @@||tlx.3lift.com/header/auction?$xhr,domain=aternos.org
 @@||tlx.3lift.com/header/auction?$xmlhttprequest,domain=aternos.org
 @@||tm-offers.gamingadult.com/?offer=$frame,domain=gamcore.com|69games.xxx
+@@||tm.jsuol.com.br/modules/dmp-uol-sync.js$domain=uol.com.br
 @@||tm.jsuol.com.br/uoltm.js$domain=batepapo.uol.com.br|noticias.uol.com.br|economia.uol.com.br|hugogloss.uol.com.br
 @@||tm.jsuol.com.br/uoltm.js$domain=batepapo.uol.com.br|noticias.uol.com.br|economia.uol.com.br|tribunapr.uol.com.br|midiamax.uol.com.br
 @@||tm.jsuol.com.br/uoltm.js$domain=hugogloss.uol.com.br
@@ -14129,6 +14135,7 @@
 @@||www.msftncsi.com^
 @@||www.msn.cn/spartan/mmx^
 @@||www.no-ip.com^
+@@||www.nzherald.co.nz^$stealth=useragent
 @@||www.olx.ua/api^$app=ua.slando
 @@||www.ow.ly^
 @@||www.paypalobjects.com^
@@ -14200,7 +14207,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidecbaron.com,imgbaron.com##a[href="https://forum.picbaron.com"] > img
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
