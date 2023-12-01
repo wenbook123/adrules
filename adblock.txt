@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 5rSxD7BKHcA0nV8dnPEvmg
+! Checksum: ARTIrbQBNBWDAYlKdf4kxg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-12-01 08:52:04（北京时间） 
-! Total count: 64611
+! Version: 2023-12-01 16:16:28（北京时间） 
+! Total count: 64640
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -836,6 +836,7 @@
 ##.pagecon + .ad1
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
+##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
 ##.photo-two > a[onclick^="_czc."]
@@ -949,9 +950,11 @@
 ##.txtguanggao
 ##.ui-ad
 ##.uk-width-1-1.adbox
+##.vg-overlay-pause
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.video-info-aux + div[style^="border-radius: 5px;"]
 ##.video-item-ads
+##.video-player > .gg-bg-cover
 ##.video_details > .banner
 ##.vodads
 ##.w-full > .banner.el-carousel
@@ -1010,7 +1013,9 @@
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
+##A[href*='exuvu.com']
 ##A[href*='jialu6699h.vip']
+##A[href*='xzzkx.com']
 ##A[href*='youqu.buzz']
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/?'][target='_blank']
@@ -6277,6 +6282,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /optiextension.dll?$script
 /optimizelyjs/*
 /os1019.oss-cn-quanzhou.
+/os2023001.oss-$script
 /os230718.oss-
 /ossleads_analytics.js
 /ot_e404.gif?
@@ -9819,6 +9825,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
 @@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net|bigpixel.cn|tangdoucdn.com
+@@||cpro.baidustatic.com/js/prot.js$domain=rjno1.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||cqcounter.com^$domain=cqcounter.com
 @@||create.jd.com/ad/
@@ -10691,7 +10698,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||sinaimg.cn/dy/deco/*/js/require.js
 @@||sinaimg.cn/tech/https_index/share.
 @@||sinaimg.cn/unipro/pub/suda_m_v629.js$domain=video.sina.com.cn
-@@||sinaimg.cn/unipro/pub/suda_m_v630.js$domain=rjno1.com
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 @@||sinajs.cn/open/analytics/js/suda.js$domain=weibo.com|~widget.weibo.com
 @@||sinajs.cn/open/api/js/wb.js$domain=sc.sina.com.cn
@@ -12073,6 +12079,11 @@ bxwx888.org###bdstatic
 byxx.com##.byzwPC-banner-ADscroll
 byxx.com##.cataAD
 c.biancheng.net##.ggxc-box > a[target="_blank"] > img
+c.m.163.com##.commentBar
+c.m.163.com##.fixedOpenNewsapp
+c.m.163.com##.js-open-newsapp.s-top > .s-btn
+c.m.163.com##.openNewsapp
+c.m.163.com##.qr
 c114.com.cn###ad_r1
 c114.com.cn###barrage_ad
 c114.com.cn###barrage_bg
@@ -12439,6 +12450,7 @@ cnjxol.com##.linked
 cnki.com.cn##.ad-right-default
 cnki.com.cn##.adList
 cnki.com.cn##.mainboxconbanner
+cnki.net##.banner-main
 cnki.net##.translateOutAdLink
 cnki.net#@#.ad_right
 cnlinfo.net##.guanggao-left
@@ -14914,7 +14926,6 @@ ixueyi.com,shangxueba.com###rightfloatdiv
 iyaxin.com##.Information
 iyaxin.com##.gr-ggtag
 iyaxin.com##.huand3
-iyf.tv##.bb > .ng-star-inserted
 iyf.tv##.player-right
 iyf.tv##.player-side > .block > *
 iyf.tv##.ss-ctn
@@ -14922,7 +14933,6 @@ iyf.tv##.video-player + div[class*=" "] > div.block
 iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
 iyf.tv##.video-player > div.ng-star-inserted > div#PB
 iyf.tv##vg-pause-ads
-iyf.tv##vg-pause-p
 iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 iyf.tv#$#.player-side > .block { visibility: hidden !important; min-height: 390px !important; }
 iyf.tv#@#.share-top
@@ -15527,6 +15537,7 @@ linux.cn##a[href^="https://linux.cn/go/"]
 linuxde.net##.ad360x500
 linuxidc.com##.linux801
 litix.io
+litv.tv##.ad_impression
 litv.tv##.internal_bn
 litv.tv##body > .right_float_poster_container
 live.bilibili.com##.container-wrapper[style="height:180px;min-width:1280px"]
@@ -19016,6 +19027,7 @@ you.163.com###j-yx-fixedtoolDownloadlink
 you.163.com##.downloadAppBtn.w-button-ghost.w-button-xl.w-button.btn
 you.163.com##.m-appDownloadGuide
 you.163.com##[href^="/downloadapp"]
+youdao.com##.banner
 youdao.com##.dialog-guide-download
 youdao.com##.dict-dl
 youdao.com#@#.open-share
@@ -20266,6 +20278,7 @@ zzzyk.com###Tinfo
 ||3h3.com/js/homepage.js
 ||3h3.com/js/listad.js
 ||3h3.com/js/show/
+||3i2i.com^
 ||3jia5.com^$third-party
 ||3k8.com/d/js/m/thea
 ||3l0zszdzjhpw.www.comicleaks.com^
@@ -20949,6 +20962,7 @@ zzzyk.com###Tinfo
 ||8seaa.com/template/assets1/js/vue.js
 ||8xia.com/otherhtml/
 ||8ziyuan.com/images/infolinksad.jpg
+||8zkt7.xyz^
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif
 ||900.la/imgs/d829d551-1d6e-4018-b3fe-78991bbbe2d6/2016-06-27/yiwmbica.gif
 ||90bifen.net^*/c_ad_
@@ -23070,6 +23084,7 @@ zzzyk.com###Tinfo
 ||a8ww.net^$third-party
 ||a8x.piece-kaitori.jp^
 ||a962m.xyz^
+||a99hz.space^
 ||a9able.com^
 ||a9d8e7b6i5s.andgino.jp^
 ||aa-metrics.hpbcosme.com^
@@ -27300,6 +27315,7 @@ zzzyk.com###Tinfo
 ||birdsend.co/assets/static/js/pixel/
 ||birdsend.email/pixel
 ||birdsend.net/pixel
+||birgga.top^
 ||birjkhm.cn^
 ||bis8j.com^
 ||bisko.mall.tv^
@@ -38784,6 +38800,7 @@ zzzyk.com###Tinfo
 ||ioam.de/tx.io?$domain=woxikon.de
 ||ioam.de^$third-party
 ||iob.imgur.com^
+||iobvmtx.xyz^
 ||iocnt.net^$third-party
 ||iocoder.cn/alert/js/alert.js
 ||ioeczq.juno.co.uk^
@@ -46041,6 +46058,7 @@ zzzyk.com###Tinfo
 ||ohmpyq.xyz^
 ||ohmystats.com^$third-party
 ||ohnorobot.com/verify.pl?
+||ohopao.xyz^
 ||ohoyao.com^
 ||ohrdit.kfzteile24.de^
 ||oi9rp7.online^
@@ -46335,6 +46353,7 @@ zzzyk.com###Tinfo
 ||openxcdn.net^$third-party
 ||operationchicken.com^
 ||operationnail.com^
+||operqr.top^
 ||opgge.xyz^
 ||oph7o.montecarlosbm-corporate.com^
 ||ophan.theguardian.com^
@@ -49004,6 +49023,7 @@ zzzyk.com###Tinfo
 ||rating.in^$third-party
 ||ravelin.click^$third-party
 ||ravelin.net^$third-party
+||raxetyrw.xyz^
 ||raygun.io/events?
 ||rayli.com.cn^$third-party
 ||rays-counter.com^$third-party
@@ -49760,6 +49780,7 @@ zzzyk.com###Tinfo
 ||rt.prnewswire.com^
 ||rt.rakuten.co.jp^$~xmlhttprequest
 ||rt.ru/proxy?
+||rt004.top^
 ||rta.dailymail.co.uk^
 ||rta2.inews.co.uk^
 ||rta2.metro.co.uk^
@@ -57407,6 +57428,7 @@ zzzyk.com###Tinfo
 ||tk.viapresse.com^
 ||tk.zenpark.com^
 ||tka.tiki.vn/pixel/
+||tklnzv.xyz^
 ||tknkfd.xyz^
 ||tkqlhce.com^$removeparam=sdate
 ||tkqlhce.com^$third-party
@@ -59856,6 +59878,7 @@ zzzyk.com###Tinfo
 ||tupian55.com^*.gif
 ||tupian888.*.bcebos.com^
 ||tuplzt.xyz^
+||turbobit.*/js/analytics/
 ||turboeagle.co^
 ||turbolion.io^
 ||turifb.xyz^
@@ -59907,6 +59930,7 @@ zzzyk.com###Tinfo
 ||tvyb03.com/template/mytheme/statics/js/layer/
 ||tw.beanfun.com/bfweb/NEW/commonlogin
 ||tw.buy.yahoo.com/?z=
+||tw.buy.yahoo.com/smartbanner/$domain=tw.news.yahoo.com
 ||tw.cx^
 ||tw.jav321.com^$popup,domain=ucptt.com
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
@@ -59975,6 +59999,7 @@ zzzyk.com###Tinfo
 ||txt.styr.com^
 ||txv0.destinia.hu^
 ||txvoin.with2.net^
+||txzepl.xyz^
 ||txzqw.*/js/float.js
 ||txzqw.me/attachment88txzqw/*.gif
 ||txzqw.me/tupian/
@@ -60205,6 +60230,7 @@ zzzyk.com###Tinfo
 ||uh.nakanohito.jp^
 ||uhd5nn09mgml.fort-shop.kiev.ua^
 ||uhit.eu/id/$third-party
+||uhjxitn.xyz^
 ||uhm26jyr11zv.www.freecodecamp.org^
 ||uhn9.up-france.fr^
 ||uhwnrfu.cn^
@@ -60814,6 +60840,7 @@ zzzyk.com###Tinfo
 ||viapush.com^$third-party
 ||vibber.download^
 ||vibranthaven.com^
+||vibrantsundown.com^
 ||victoriajumpc.com^
 ||victoriousrequest.com^
 ||vidads.gr/imp/
@@ -62841,6 +62868,7 @@ zzzyk.com###Tinfo
 ||wwwbaiducom.xyz/4/js4/
 ||wwwcdn.kimiss.net/btn/
 ||wwwww.asia^
+||wwxufo.com^
 ||wwzw.cc/img/
 ||wx.sina.com.cn/iframe/pdps/
 ||wx.uc.downcdn.top^
@@ -63152,6 +63180,7 @@ zzzyk.com###Tinfo
 ||xkdlqq.com^
 ||xkfigjh.cn^
 ||xkhall.xyz^
+||xkjmjj.com^
 ||xkjxgt.com^$third-party
 ||xkmwxwy.cn^
 ||xkqit.com^
