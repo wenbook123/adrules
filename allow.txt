@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: oyHutjSCUsJbbgInHrJtyQ
+! Checksum: 9VIbYowuiR9Rqxnw4v7Mzg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-12-01 16:16:29（北京时间） 
-! Total count: 14480
+! Version: 2023-12-02 00:16:38（北京时间） 
+! Total count: 14489
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -243,6 +243,7 @@
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/check.php?callback=$script,domain=ytmp3.cc
 @@/chunklist.m3u8$stealth,domain=liveply.me
+@@/chunklist.m3u8$xmlhttprequest,stealth=referrer,domain=niaomea.me
 @@/chunks.m3u8$stealth
 @@/clarity-*.js$domain=clarity-project.info
 @@/clickn(download|upload)\.[a-z]{3,5}/$script,xmlhttprequest,domain=clickndownload.org|clicknupload.click|clicknupload.link|clicknupload.red|clicknupload.vip|clicknupload.xyz
@@ -353,6 +354,7 @@
 @@/live/*/*.m3u8$stealth,domain=123tvnow.com
 @@/log/report/*$script,domain=bilibili.com
 @@/mangakakalot/*$stealth,image,domain=mangakakalot.com
+@@/media*.ts$xmlhttprequest,stealth=referrer,domain=niaomea.me
 @@/media/*/js/adblock_detector.js$domain=eska.pl|eskarock.pl|voxfm.pl|vibefm.pl|radiosupernova.pl
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/modules/ads/*$domain=shopee.tw
@@ -375,6 +377,7 @@
 @@/pubads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@/s_code_acdc.js$domain=adobe.com
 @@/script/advert.js$domain=sunbtc.space|weatherx.co.in
+@@/scripts/MTY2Njc$xmlhttprequest,stealth=referrer,domain=1stream.eu
 @@/scripts/ads.js|$script,~third-party,domain=fijitimes.com.fj|fijitimes.com
 @@/scripts/adv.js$domain=securenetsystems.net
 @@/securepubads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
@@ -504,6 +507,8 @@
 @@mailinglist$removeparam=/^utm_/i
 @@player*.html$frame,1p,domain=pouvideo.*|povvideo.*|povw1deo.*|powvibeo.*|povwideo.*|powv1deo.*|powvideo.*|powvldeo.*
 @@player*.html$frame,1p,domain=slreamplay.*
+@@premium$stealth=referrer,xmlhttprequest,domain=olalivehdplay.ru|weblivehdplay.ru
+@@premium*.php$stealth=referrer,subdocument,domain=venushd.click
 @@stmggv*.*/images/$stealth,domain=manhuascan.com
 @@truyen$stealth,image,domain=blogtruyen.vn
 @@weather.gov/xml/$document
@@ -2331,6 +2336,7 @@
 @@||bdnewszh.com^*.php|$stealth
 @@||bdstatic.com/??*,*,*,
 @@||bdstatic.com/po/??*,*,*,
+@@||bdstatic.com/r/www/cache/static/protocol/https/plugins/every_cookie_*.js$domain=rjno1.com
 @@||bdstatic.com/static/common/widget/ui/admanager/
 @@||bdstatic.com/static/exp-pc/article/widget/cms-banner-ads/cms-banner-ads_*.css
 @@||bdstatic.com/static/v1/mip$domain=biqugecom.com
@@ -3193,6 +3199,7 @@
 @@||cdn.privacy-mgmt.com/unified/*/gdpr-tcf.*.bundle.js
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=elle.de|instyle.de
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=freundin.de
+@@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=gentside.com
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=hallo-eltern.de
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=hs.fi
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=miltonkeynes.co.uk
@@ -11010,6 +11017,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jsing.janssenmedicalcloud.pt^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14252,6 +14260,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide696
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
