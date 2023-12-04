@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: npMmryknRe3DAgMCUvr2hQ
+! Checksum: 7oJQTFgz3xcXqvaxo05Hjw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-12-04 08:47:53（北京时间） 
-! Total count: 14474
+! Version: 2023-12-04 16:17:14（北京时间） 
+! Total count: 14489
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -187,6 +187,7 @@
 @@/advert.js$domain=remont-aud.net|spilcloud.com
 @@/advert.js|$domain=yenigolcuk.com|hedefgazetesi.com.tr|eldedemokrasi.com|afyonhaberturk.com|nehaberankara.com|mansetburdur.com|bolgesellig.com|telgrafgazetesi.com|burokratika.com|balikesirartihaber.com|ajansbalikligol.com|karar67.com|gazetemalatya.com|vansesigazetesi.com|kocaelisabah.com|antalyadanhaberler.com|aydinyeniufuk.com.tr|yerelvanhaber.com|a2teker.com|kibrishakikat.com|izmirtime35.com|sancakplus.com|marasfisilti.com|burdurgazetesi.com|zeytinburnuhaber.org|denizli20haber.com|akdenizdeyeniyuzyil.net|ulakci.com|egegundem.com.tr|isdunyasindakadin.com|haberimizvar.net
 @@/advert/*$domain=csxbank.com|fjgcjxgl.com|locuspublishing.com|moretv.com.cn
+@@/advert3.js|$~third-party,domain=waaw.tv|czxxx.org|scenelife.orgga.com^
 @@/advert3.js|$~third-party,domain=waaw.tv|czxxx.org|scenelife.org|hqq.tv
 @@/advert_$domain=pisen.com.cn|wb.qq.com
 @@/advertise/*$domain=ceair.com|sfbuy.com
@@ -385,7 +386,6 @@
 @@/script/advert.js$domain=sunbtc.space|weatherx.co.in
 @@/scripts/*js|$xmlhttprequest,stealth=referrer,domain=1stream.eu|1stream.soccer|streameast.app|thecrackstreams.live
 @@/scripts/*m3u8$xmlhttprequest,stealth=referrer,domain=1stream.eu|1stream.soccer|streameast.app|thecrackstreams.live
-@@/scripts/MTY2Njc$xmlhttprequest,stealth=referrer,domain=1stream.eu
 @@/scripts/ads.js|$script,~third-party,domain=fijitimes.com.fj|fijitimes.com
 @@/scripts/adv.js$domain=securenetsystems.net
 @@/securepubads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
@@ -517,7 +517,6 @@
 @@mailinglist$removeparam=/^utm_/i
 @@player*.html$frame,1p,domain=pouvideo.*|povvideo.*|povw1deo.*|powvibeo.*|povwideo.*|powv1deo.*|powvideo.*|powvldeo.*
 @@player*.html$frame,1p,domain=slreamplay.*
-@@premium$stealth=referrer,xmlhttprequest,domain=olalivehdplay.ru|weblivehdplay.ru
 @@premium$stealth=referrer,xmlhttprequest,domain=olalivehdplay.ru|weblivehdplay.ru|dlhd.sx
 @@premium*.php$stealth=referrer,subdocument,domain=venushd.click
 @@stmggv*.*/images/$stealth,domain=manhuascan.com
@@ -1487,6 +1486,7 @@
 @@||amazon.*/message-us?$removeparam
 @@||amazon.com/*/signin$stealth
 @@||amazon.com/gp/redirect.html
+@@||amazonaws.com/*/ui-service/wagenreihung-de.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.it.ao,google.je,google.jo,google.jp,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.ne.jp,google.ng,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tl,google.tm,google.tn,google.to,google.tt,google.us,google.vg,google.vu,google.ws##a[href^="https://www.googleadservices.com/pagead/aclk?"]
 @@||amazonaws.com/*/ui-service/wagenreihung-de.html$elemhide,jsinject,extension,xmlhttprequest,domain=reiseauskunft.bahn.de
 @@||amazonaws.com/academo-assets/$image,stealth,domain=academo.org
 @@||amazonaws.com/ads/ad-300x250.png|$domain=dzone.com
@@ -2343,7 +2343,6 @@
 @@||bdnewszh.com^*.php|$stealth
 @@||bdstatic.com/??*,*,*,
 @@||bdstatic.com/po/??*,*,*,
-@@||bdstatic.com/r/www/cache/static/protocol/https/plugins/every_cookie_*.js$domain=rjno1.com
 @@||bdstatic.com/static/common/widget/ui/admanager/
 @@||bdstatic.com/static/exp-pc/article/widget/cms-banner-ads/cms-banner-ads_*.css
 @@||bdstatic.com/static/v1/mip$domain=biqugecom.com
@@ -2635,6 +2634,7 @@
 @@||c.adsco.re/|$script,domain=hotfrog.*
 @@||c.adsco.re^$domain=shorterall.com
 @@||c.adsco.re^$script,domain=promo-visits.site|shorterall.com
+@@||c.amazon-adsystem.com/aax2"]
 @@||c.amazon-adsystem.com/aax2/amzn_ads.js$domain=mylifetime.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=atozmath.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=baltimoresun.com
@@ -3358,7 +3358,7 @@
 @@||cdn.thisiswaldo.com/static/js/11929.js$domain=work.ink
 @@||cdn.trackjs.com/agent/v*/latest/t.js$script,domain=adshrink.it
 @@||cdn.trackjs.com/releases/current/tracker.js$domain=express.com
-@@||cdn.transcend.io/cm/$script,domain=visible.com
+@@||cdn.transcend.io/cm/$script,domain=pluralsight.com|visible.com
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
 @@||cdn.trustcommander.net/privacy/$domain=cdn.trustcommander.net
@@ -5535,6 +5535,7 @@
 @@||g.doubleclick.net/gampad/ads?*superbanner_3$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gampad/ads?*wallpaper_1$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gampad/adx?$xmlhttprequest,domain=v.ifeng.com
+@@||g.doubleclick.net/gasolver.io###crossword-solver-io_right_rail
 @@||g.doubleclick.net/gpt/pubads_impl_$domain=accuweather.com|blastingnews.com|bloomberg.com|chelseafc.com|chromatographyonline.com|digitaltrends.com|downdetector.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|game.anymanager.io|games.coolgames.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nationalreview.com|nationalworld.com|nbcsports.com|nycgo.com|physicianspractice.com|scotsman.com|telsu.fi|voici.fr|weather.com
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=11freunde.de|auto-motor-und-sport.de|brigitte.de|gala.de|geo.de|hardwareluxx.de|hbf-info.de|kochbar.de|n-tv.de|notebooksbilliger.de|rakuten.at|rakuten.de|rtl.de|stern.de|welt.de|zalando.de,badfilter
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=koigaku.machicon.jp
@@ -6973,6 +6974,7 @@
 @@||hopto.org/js/prebid-ads.
 @@||hopto.org^$generichide
 @@||horriblesubs.info/static/hs.js
+@@||horriblesuffiliate_disclaimer
 @@||hosting24.com^
 @@||hostlogr.com/etc/geo.php?
 @@||hosts-file.net/ad_servers.txt
@@ -7429,6 +7431,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vtvgiaitri.vn
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vvvvid.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=watch.nba.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=watch.nba.comls.net,xbdeals.net##div[class^="ads-"]
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wetv.vip
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wibc.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wink.ru
@@ -8375,6 +8378,8 @@
 @@||live.primis.tech/live/$script,domain=eurogamer.net|vg247.com
 @@||live.rezync.com^$script,domain=batteriesplus.com
 @@||live.simcitybuildit.com^
+@@||live.streamtheworl.cloudfront.net^
+@@||live.streamtheworl.tdi_59
 @@||live.streamtheworld.com/*.aac
 @@||live.streamtheworld.com/*.mp3
 @@||live.streamtheworld.com/*/playlist.m3u8$elemhide,jsinject,extension,content
@@ -10613,6 +10618,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam^$removeparam=ref
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -10685,6 +10691,7 @@
 @@||pubads.g.doubleclick.net^$app=com.treemolabs.apps.cbsnews
 @@||pubads.g.doubleclick.net^$domain=popsugar.com
 @@||pubads.g.doubleclick.net^$domain=twitch.tv
+@@||pubads.g.doubleclick.net^$domat#@#[style] > div > iframe[width]:first-child
 @@||public-api.reviews.2gis.com^$stealth
 @@||public-cis.exponea.com^|
 @@||public-image-upload.s3.amazonaws.com^$stealth
@@ -11010,7 +11017,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsage.com^
+@@||reseguiden.se^*.siteCatalyst.js^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11754,6 +11761,7 @@
 @@||sf*-*cdn-tos.pstatp.com^$domain=juejin.cn
 @@||sf.ezoiccdn.com/ezoimgfmt/i0.wp.com/kosmofoto.com/wp-content/uploads/$image,domain=kosmofoto.com
 @@||sf.ezoiccdn.com/ezoimgfmt/kosmofoto.com/wp-content/uploads/2022/01/KFLogo-272x90-1.jpg$domain=kosmofoto.com
+@@||sf.ezoiccdn.com/ezossp/https/kosmofoto.com/_sle.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tl,google.tm,google.tn,google.to,google.tt,google.us,google.vg,google.vu,google.ws##.commercial-unit-desktop-rhs:not(.mnr-c)
 @@||sf.ezoiccdn.com/ezossp/https/kosmofoto.com/_static/$script,domain=kosmofoto.com
 @@||sf.ezoiccdn.com/ezossp/https/kosmofoto.com/wp-content/$script,domain=kosmofoto.com
 @@||sf.ezoiccdn.com/ezossp/https/kosmofoto.com/wp-includes/$script,domain=kosmofoto.com
@@ -12244,6 +12252,7 @@
 @@||static.ads-twitter.com/uwt.js$domain=simkl.com
 @@||static.ads-twitter.com^$app=jp.co.alc.eow
 @@||static.ads-twitter.com^|$app=com.nttdocomo.android.danimeapp
+@@||static.adsafeprotected.com/iasPET*.js$domaigle.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.ve,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hk,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.it.ao,google.je,google.jo,google.jp,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.ne.jp,google.ng,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tl,google.tm,google.tn,google.to,google.tt,google.us,google.vg,google.vu,google.ws##.cu-container
 @@||static.adsafeprotected.com/iasPET*.js$domain=independent.co.uk
 @@||static.adsafeprotected.com/skeleton.js$domain=cwtv.com
 @@||static.adsafeprotected.com/vans-adapter-google-ima.js$domain=forbes.com
@@ -13074,6 +13083,8 @@
 @@||track.adform.net/*serving/opt/iab
 @@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
 @@||track.adform.net/serving/scripts/trackpoint/async/$domain=ethias.be
+@@||track.eiten.net^$third-party
+@@||track.info^
 @@||track.ksta.de/cre-*/tracking/call.js
 @@||track.mybloglog.com/js/jsserv.php?$domain=egotastic.com
 @@||track.nzz.ch/*/api/auth_v*/
@@ -14244,8 +14255,12 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide.com
-@@||xfreehd.com^$generichidenkoink^
+@@||xfreehd.com^$generichide*.gif$domain=eye.swfchan.com
+@@||xfreehd.com^$generichide,snahp.it,animeshouse.net,drobfilx.com,skymovieshd.fit,porncomix.info,vldtodo.com,xyzembed379.net,zobacz.ws,legendas.dev,shinden.pl,megasubtitles.com,sukidesuost.info,ouofly.com,mixdrop.co,putload.tv,exdb.net,skidrowcodex.net,drycounty.com,ouo.io,shon.xyz$$script[data-cfasync="false"][wildcard="*['push']*['shift']*decodeURIComponent*"][min-length="1000"][max-length="4000"]
+@@||xfreehd.com^$generichide@@||scontent-arn*.cdninstagram.com/v/$stealth,image,domain=afisha.ru
+@@||xfreehd.com^$generichidedguard.com/index.php?threads/17898/
+@@||xfreehd.com^$generichideomain=pandora.com,important
+@@||xfreehd.com^$generichides/1647
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
