@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: MLeB4HZKondl7lbHDwG2Tw
+! Checksum: 9ZE5Y4uwGu2Pmv41iQ7xgA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-12-06 16:16:28（北京时间） 
-! Total count: 14478
+! Version: 2023-12-07 00:17:11（北京时间） 
+! Total count: 14474
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -31,7 +31,6 @@
 @@*$ghide,domain=themattwalshblog.com
 @@*$ghide,domain=web.de|gmx.*
 @@*$image,domain=a2zupload.com
-@@*$image,domain=wstream.video
 @@*$media,domain=camvideos.org
 @@*$redirect-rule,domain=d3ward.github.io
 @@*$script,1p,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
@@ -523,7 +522,6 @@
 @@truyen$stealth,image,domain=blogtruyen.vn
 @@weather.gov/xml/$document
 @@www.any.gs$urlblock
-@@|*ads.$script,domain=wstream.video
 @@|about:blank|$popup,domain=vipbox.*
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -547,6 +545,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orguralrobin.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1013,7 +1012,6 @@
 @@||adbull.me^$stealth
 @@||adcdn.pingan.com^
 @@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
-@@||add.fastcdn.stream/popunder4.js
 @@||addicted-sports.com/piwik/piwik.js
 @@||addicted.es^*/ad728-$image,~third-party
 @@||addon.dismall.com/resource/*/ad
@@ -1411,7 +1409,6 @@
 @@||akubebas.com/?*token=$stealth
 @@||akvideo.stream/banners^$domain=akvideo.stream
 @@||akvideo.stream/js/popunder*.js
-@@||akvideo.stream^$script,domain=wstream.*
 @@||ala.durasite.net/DuraUidSegmentMap.js$domain=passnavi.evidus.com
 @@||alcohol-soft.com^
 @@||alfaloji.org^$ghide
@@ -1631,7 +1628,6 @@
 @@||animeshouse.net/mp4doo/$stealth
 @@||animeshouse.net^$ghide
 @@||animeshouse.net^$script,1p
-@@||animesvision.*^$ghide
 @@||animetake*.*^$ghide
 @@||animetake*.*^$script,1p
 @@||animevietsub.tv^$ghide
@@ -1774,6 +1770,7 @@
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com
 @@||api.cxense.com/public/widget/data?$domain=lopinion.fr
 @@||api.cxense.com/public/widget/data?$domain=mainichi.jp
+@@||api.cxense.com/public/widget/data?$domain=tvnet.lv
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
 @@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data?json=$domain=delfi.lt
@@ -2635,6 +2632,7 @@
 @@||c.adsco.re^$domain=shorterall.com
 @@||c.adsco.re^$script,domain=promo-visits.site|shorterall.com
 @@||c.amazon-adsystem.com/aax2/amzn_ads.js$domain=mylifetime.com
+@@||c.amazon-adsystem.com/aax2/apstag.js$domain=androidpolice.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=atozmath.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=baltimoresun.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=fox21news.com
@@ -2818,6 +2816,7 @@
 @@||cdn.adsafeprotected.com/*.*.js$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|esgentside.com|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.com.br|ohmirevista.com
 @@||cdn.adsafeprotected.com/*.js$domain=gentside.com|ohmymag.com
 @@||cdn.adsafeprotected.com^$script,domain=gentside.*|ohmymag.*|maxisciences.com
+@@||cdn.adsninja.ca/adsninja_client.js$domain=androidpolice.com
 @@||cdn.adspirit.de/banner/_default/160x600.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/300x250.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/468x60.jpg$domain=streetdir.com|roaddir.com
@@ -2993,6 +2992,7 @@
 @@||cdn.cxense.com/cx.cce.js$domain=lopinion.fr
 @@||cdn.cxense.com/cx.cce.js$domain=milenio.com
 @@||cdn.cxense.com/cx.cce.js$domain=president.jp
+@@||cdn.cxense.com/cx.cce.js$domain=tvnet.lv
 @@||cdn.cxense.com/cx.cce.js$domain=wsj.com
 @@||cdn.cxense.com/cx.js$domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
 @@||cdn.cxense.com/cx.js$domain=bizjournals.com
@@ -3005,6 +3005,7 @@
 @@||cdn.cxense.com/cx.js$domain=lopinion.fr
 @@||cdn.cxense.com/cx.js$domain=milenio.com
 @@||cdn.cxense.com/cx.js$domain=president.jp
+@@||cdn.cxense.com/cx.js$domain=tvnet.lv
 @@||cdn.cxense.com/cx.js$domain=wsj.com
 @@||cdn.cxense.com/t_init.min.js$domain=dhnet.be
 @@||cdn.datatables.net^
@@ -7234,6 +7235,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=a1.ro
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=aksam.com.tr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=amc.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=androidpolice.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=anidub.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=animeflv.ru
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=antena3.ro
@@ -8322,7 +8324,6 @@
 @@||lilymanga.net/wp-content/uploads/ad-inserter*/*/ads.js
 @@||limecrete.co.uk/wp-content/plugins/$stylesheet
 @@||limetorrents.*^$ghide
-@@||limontorrents.com^$ghide
 @@||line-scdn.net/*/torimochi.js$domain=web-tw-pay.line.me
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 @@||linehaber.com.tr/wp-content/plugins/better-adsmanager/js/advertising.min.js
@@ -9220,6 +9221,7 @@
 @@||mycommunitynow.com/includes/JI_trafficTracking.js$domain=mycommunitynow.com
 @@||mydramalist.com/js/adsbygoogle.js
 @@||myfamilycominc.tt.omtrdc.net^$domain=ancestry.com|ancestry.co.uk|ancestry.ca|ancestry.de|ancestry.it|ancestry.fr|ancestry.se|ancestry.mx
+@@||myfilestorage.xyz^$stealth,media,domain=bflix.gs
 @@||myfilmyzilla.com^$generichide
 @@||mygoodstream.pw^$ghide
 @@||mygoroot.com^$ghide
@@ -9570,7 +9572,6 @@
 @@||olgasmile.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/
 @@||olhonaviagem.com^$stealth
 @@||olinevid.com^$ghide
-@@||oloadporn.com^$ghide
 @@||olx.*/static/*/js/xgemius.js$domain=olx.kz|olx.ua|olx.pl
 @@||olx.*/static/olx*/*/static/js/advertising.js
 @@||olx.org/ads/offer-eligibility$domain=olx.pl
@@ -10066,7 +10067,6 @@
 @@||panel.flops.ru/js/member/evercookie_init.js
 @@||panjiachen.github.io^$generichide
 @@||panzi.github.io/SocialSharePrivacy/
-@@||papahd.live^$ghide
 @@||papalah.com^$generichide
 @@||papi-service.jd.com/ads/
 @@||paramountplus.com^$generichide
@@ -11015,7 +11015,6 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jspalos118org.myenotice.com$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11977,7 +11976,6 @@
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||soccer.ru/sites/all/themes/mytheme/advert.js
 @@||soccer24hd.com/adblock/advertisement.js
-@@||soccer24hd.com^$ghide
 @@||socialgirls.im^$ghide
 @@||sofire.baidu.com^
 @@||softairbay.com/autoSAB/src/google-ads.js
@@ -12091,7 +12089,6 @@
 @@||sport247.me/api/$stealth,domain=dzeko11.net
 @@||sportbikerider.us^$generichide
 @@||sportdistancecalculator.com/ads.js
-@@||sports24.*^$ghide
 @@||sportsbay.org/stream^$third-party
 @@||sportsgrid.com/decor/javascript/magnify_stats.js
 @@||sportshub.to/frames/cf/$stealth=referrer
@@ -14105,8 +14102,6 @@
 @@||wscdn.xmwol.com^$stealth,image,stylesheet
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||wsr.pearsonvue.com^$extension
-@@||wstream.*^$ghide
-@@||wstream.*^$script,1p
 @@||wstream.to/embed/$stealth
 @@||wstream.video/*.js$~third-party
 @@||wstream.video/ads2.js
@@ -14249,7 +14244,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideicky-ad > a[id][class]:has(> div[id] + div[id]:contains(Hide))
+@@||xfreehd.com^$generichideAdguardFilters/issues/6928
+@@||xfreehd.com^$generichideout.co.kr^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
