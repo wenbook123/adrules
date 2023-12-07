@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 9ZE5Y4uwGu2Pmv41iQ7xgA
+! Checksum: kWsGL5W53MB5ZMmBGu1IJw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-12-07 00:17:11（北京时间） 
-! Total count: 14474
+! Version: 2023-12-07 08:47:43（北京时间） 
+! Total count: 14478
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -40,6 +40,7 @@
 @@*$xhr,domain=luscious.net,3p
 @@*$xhr,domain=thehouseofportable.com
 @@*.js|$script,domain=unique-tutorials.info,3p
+@@*.php?player=desktop$stealth=referrer,domain=feedzstream.com|cricplay2.xyz
 @@*.php?player=desktop&live$stealth=referrer,domain=feedzstream.com
 @@*/assets/prebid/$script,xhr,1p,domain=gentside.*|maxisciences.com|ohmymag.*
 @@*ad*.cms$domain=indiatimes.com|timesofindia.com
@@ -356,8 +357,10 @@
 @@/live/*.$stealth,domain=tutele.sx|futbolfullenvivo.com
 @@/live/*.m3u8$stealth,domain=tutele.nl|futbollibre2.net
 @@/live/*.m3u8$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online
+@@/live/*.m3u8$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online|gameshdlive.net
 @@/live/*.ts|$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online
 @@/live/*/*.m3u8$stealth,domain=123tvnow.com
+@@/live/*/jpeg|$xmlhttprequest,stealth=referrer,domain=weakspell.org
 @@/log/report/*$script,domain=bilibili.com
 @@/mangakakalot/*$stealth,image,domain=mangakakalot.com
 @@/media*.ts$xmlhttprequest,stealth=referrer,domain=niaomea.me
@@ -545,7 +548,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orguralrobin.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.youmail.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1399,6 +1402,7 @@
 @@||akamaihd.net^
 @@||akamaitechnologies.com^
 @@||akamaized.net/*.m4s$stealth,domain=bilibili.com
+@@||akamaized.net/*.m4s$xmlhttprequest,stealth=referrer,domain=bilibili.tv
 @@||akamaized.net/exp=$stealth,xmlhttprequest,domain=vidio.com
 @@||akamaized.net^
 @@||akamaized.net^*.stream/$domain=naver.com
@@ -6792,7 +6796,6 @@
 @@||haaretz.com/htz/js/advertisement.js
 @@||haaretz.com/logger/p.gif?*=COMMENTS$xmlhttprequest
 @@||habbokritik.de/FuckAdBlock/fuckadblock.js
-@@||habbokritik.de^$ghide
 @@||hach.de^*/emstrack.js
 @@||hackingwithphp.com/js/adsbygoogle.js
 @@||hacknetfl1x.net^$ghide
@@ -9908,6 +9911,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=password69.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=phimchill1.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=photopea.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=playvideohd.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk|comicallyincorrect.com|thegatewaypundit.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=portmiamiwebcam.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=prepostseo.com
@@ -12409,6 +12413,7 @@
 @@||stats.hprofits.com/advertisement.js
 @@||stats.jtvnw.net/crossdomain.xml
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
+@@||stats.sports.bellmedia.ca^$domain=rds.ca|tsn.ca
 @@||stats.sports.bellmedia.ca^$domain=tsn.ca
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||stats.streamelements.com^
@@ -12963,7 +12968,6 @@
 @@||titlestorage.xboxlive.com/json/*/data/Ads/$app=Solitaire.exe
 @@||titsbox.com/js/pop.js
 @@||titulky.com/js/reklama.$~third-party
-@@||tivtok.com^$ghide
 @@||tiwag.at/typo3conf/ext/bh/Resources/*/cookie-popup.$~third-party
 @@||tix.axs.com^$removeparam
 @@||tix.axs.com^$removeparam=utm_campaign
@@ -13444,6 +13448,7 @@
 @@||usercentrics.eu^$domain=gematik.de
 @@||usercentrics.eu^$domain=handwerk-magazin.de
 @@||usercentrics.eu^$domain=hornbach.de
+@@||usercentrics.eu^$domain=joyn.at
 @@||usercentrics.eu^$domain=kicker.de
 @@||usercentrics.eu^$domain=paketshop.myhermes.de
 @@||usercentrics.eu^$domain=villeroy-boch.fr
@@ -14244,8 +14249,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideAdguardFilters/issues/6928
-@@||xfreehd.com^$generichideout.co.kr^
+@@||xfreehd.com^$generichide03_parent
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
