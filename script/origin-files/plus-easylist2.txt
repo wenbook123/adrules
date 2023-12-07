@@ -8,9 +8,6 @@
 ! GitHub issues: https://github.com/uBlockOrigin/uAssets/issues
 ! GitHub pull requests: https://github.com/uBlockOrigin/uAssets/pulls
 
-! http://www.wilderssecurity.com/threads/ublock-a-lean-and-fast-blocker.365273/page-25#post-2461804
-! Specific cosmetic filters for Youtube home page
-youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 ! https://github.com/uBlockOrigin/uAssets/issues/644#issuecomment-324214893
 youtube.com###promotion-shelf
 ! https://github.com/uBlockOrigin/uAssets/issues/1408
@@ -3855,9 +3852,8 @@ azlink.xyz##+js(nano-sib)
 ! cricfree .io .live/xyz
 cricplay2.xyz##+js(acs, setTimeout, admc)
 
-! https://forums.lanik.us/viewtopic.php?f=62&t=33564
 ! https://github.com/uBlockOrigin/uAssets/issues/4458
-xmovies8.*##+js(aopw, Fingerprint2)
+xmovies8.*##+js(nowoif)
 xmovies8.*##+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/, system.popunder)
 xmovies8.*##+js(set, check_adblock, true)
 xmovies08.org##+js(aeld, , '0x)
@@ -6261,6 +6257,7 @@ limetorrents.*##+js(aeld, , _0x)
 limetorrents.*##+js(aeld, load, onload)
 limetorrents.*##+js(acs, Object.assign, popunder)
 limetorrents.*##+js(acs, Math, XMLHttpRequest)
+limetorrents.*##+js(nowoif)
 limetorrents.*##[href^="/fast.php"]
 limetorrents.*##div:has(> div > a[href^="/leet/?"])
 limetorrents.*##tr:has-text(VPN)
@@ -7287,7 +7284,6 @@ smallseotools.com##body:style(overflow: auto !important;)
 ||smallseotools.com/webimages/garamarlelogo.png$image,1p
 smallseotools.com##+js(rpnt, script, .css('display') == 'none', .css('display') == 'block')
 smallseotools.com##+js(rpnt, script, .is(':visible'))
-smallseotools.com##.b:remove()
 smallseotools.com##.sede_ara > span > .adsbygoogle:upward(1)
 smallseotools.com##.sede_ara > div[class^="my-"] > .adsbygoogle:upward(1)
 smallseotools.com##abc, iamp, .text_sinter, .mxutoo, [data-topy], .dola__a_est_, [class*="_amamarli_"], [class*="_carosl_"], [dat-hnge], [id^="ayima"], [data-rede="carousl"], [class^="carousl-"]
