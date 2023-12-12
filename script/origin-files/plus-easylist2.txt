@@ -14,9 +14,9 @@
 ! @@||youtube.com/get_video_info?*timedtext_editor$xhr,1p
 ! https://redd.it/ggcmkp https://redd.it/gx03e0
 ! https://github.com/uBlockOrigin/uAssets/pull/18106/
-www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , /player\?key=|watch\?v=|youtubei\/v1\/player/)
+www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
 www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
-tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /player\?key=|watch\?v=|youtubei\/v1\/player/)
+tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
 www.youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , player?key=)
 ! https://www.reddit.com/r/uBlockOrigin/comments/154vtwy/getting_ads_on_youtube/jsu299l/
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
@@ -6825,7 +6825,7 @@ canadianunderwriter.ca##+js(aopw, mockingbird)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128679
 ! https://github.com/uBlockOrigin/uAssets/issues/16601
 forexmab.com,linkjust.com,linkszia.co##+js(set, blurred, false)
-forexlap.com,forexmab.com,forexwaw.club,forex-articles.com,fx4vip.com##+js(nano-sib, , , 0)
+forexlap.com,forexmab.com,forexwaw.club,forex-articles.com,fx4vip.com,forexrw7.com,3rabsports.com##+js(nano-sib, , , 0.001)
 forexlap.com##+js(nowoif)
 forexlap.com###fixedban
 linkjust.com##.banner-inner
