@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Uch9tqeEjgDo5iiM2ImWtg
+! Checksum: jo8B5QqAuIpko6VpFlbxsA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-12-13 08:48:14（北京时间） 
-! Total count: 64142
+! Version: 2023-12-13 16:16:23（北京时间） 
+! Total count: 64162
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1016,6 +1016,7 @@
 ##A[href*='/adjump/?']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
 ##A[href*='exuvu.com']
+##A[href*='jdbfknsbkldns.com']
 ##A[href*='jialu6699h.vip']
 ##A[href*='xzzkx.com']
 ##A[href*='youqu.buzz']
@@ -1103,6 +1104,7 @@
 ##DIV[class^='ads_border_']
 ##DIV[data-text-ad]
 ##DIV[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''],[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''] + div
+##DIV[style$='display:block;width:9.6vw;height:7.96875vw;background: #000;opacity:0.01;']
 ##DIV[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important; height: 150px !important;']
 ##DIV[style*='.xyz/gif/']
 ##DIV[style*='animation: 1s ease 0.2s infinite normal none running shakegwegs; z-index:'][style*='background: url']
@@ -1114,6 +1116,7 @@
 ##DIV[style='clear: both; position: relative; width: 396px; height: 130px;']
 ##DIV[style='position: fixed; bottom: 0px; left: 0px; width: 100%; height: 5.85rem; z-index: 99999;']
 ##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
+##DIV[style='position: fixed; left: 0px; bottom: 0px; width: 100%; height: 120px; z-index: 2147483647 !important;']
 ##DIV[style='position: fixed; line-height: 100vh; width: 100vw; top: 0px; left: 0px;']
 ##DIV[style='width: 100%;background-color: black;color: white;padding: 15px 0;']
 ##DIV[style^='box-sizing: border-box; position: relative; left: 0px; z-index: 214748']
@@ -3824,6 +3827,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .xyz/*=$object,third-party
 .xyz/*?16$third-party
 .xyz/*_*_1_*.js?$third-party
+.xyz//qby_*.js$third-party
 .xyz/99x/
 .xyz/?channelCode=$csp=script-src
 .xyz/?token=
@@ -8460,10 +8464,12 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 423down.com##.content > a
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
+423down.com##.entry > p > strong
 423down.com##.entry > p[style$="111"]
 423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.entry > p[style^="font-size"] > a[href*="/go."]
+423down.com##.menu > .menu-item:nth-child(n+6)
 423down.com##.widget_d_banner
 423down.com##a[href*="/go."] > img
 423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
@@ -12843,6 +12849,7 @@ douyu.com##.FudaiGiftToolBarTips
 douyu.com##.Header-download-wrap
 douyu.com##.HeaderGif-left
 douyu.com##.HeaderGif-right
+douyu.com##.IconCardAdBoundsBox
 douyu.com##.PaladinPop
 douyu.com##.PcDiversion
 douyu.com##.PrivilegeGiftModalDialog
@@ -18106,6 +18113,7 @@ tw.news.yahoo.com###sda-LDRB-iframe
 tw.news.yahoo.com###sda-LREC2-iframe
 tw.news.yahoo.com###sda-MON
 tw.news.yahoo.com###sda-WPS-iframe
+tw.news.yahoo.com##.caas-body > .caas-iframe-wrapper > .flourish
 tw.news.yahoo.com##li[id^="ad-"]
 tw.nextapple.com##[class^="na-ad-"]
 tw.nextapple.com##[id^="lrec"]
@@ -20774,6 +20782,7 @@ zzzyk.com###Tinfo
 ||888dizhi.com/888/
 ||888fr.xyz^
 ||888lianmeng.com^
+||88dgl.top^
 ||88dml.top^
 ||88eg.cn^
 ||88la.la^
@@ -32796,6 +32805,7 @@ zzzyk.com###Tinfo
 ||ejolul.xyz^
 ||ejrbgi.tous.com^
 ||ejunshi.com^
+||ejxo0.online^
 ||ejyvgq.xyz^
 ||ejyymghi.com^
 ||ek8.voyage-prive.com^
@@ -34246,6 +34256,7 @@ zzzyk.com###Tinfo
 ||flixgvid.flix360.io^
 ||flixster.com^*/analytics.
 ||flixsyndication.net^$third-party
+||flo.uri.sh/visualisation/14819166/embed?auto=$subdocument,domain=tw.news.yahoo.com
 ||flockflame.com^
 ||flocktory.com^$third-party
 ||flocktory.com^*/tracks/
@@ -40327,7 +40338,6 @@ zzzyk.com###Tinfo
 ||landing.computershare.com^
 ||landing.georgeson.com^
 ||landing.kccllc.com^
-||landing.kwm.com^
 ||landing.newyorkjets.com^
 ||landingpages.csustudycentres.edu.au^
 ||landingpages.siemens-healthineers.com^
@@ -44486,6 +44496,7 @@ zzzyk.com###Tinfo
 ||msstatic.com/huya/main3/widget/DiyActLayer/DiyActLayer_*.js
 ||msstatic.com/huya/main3/widget/roomGg
 ||msstatic.net/main3/common/assets/template/head/ad.
+||mstkvnya.xyz^
 ||mstm.motorsport.com^
 ||mstrlytcs.com^$third-party
 ||msufcu.actonservice.com^
@@ -44933,6 +44944,7 @@ zzzyk.com###Tinfo
 ||neeva.com/logql/log
 ||neeva.com^$removeparam=nva
 ||nefbjp.xyz^
+||nefrpt.top^
 ||neg2zos.icu^
 ||neghes.fun^
 ||negnixa.cn^
@@ -46051,6 +46063,7 @@ zzzyk.com###Tinfo
 ||optoutadvertising.com^$third-party
 ||opzksyy.cn^
 ||oq6ry.com^
+||oq8.top^
 ||oqeohuc.cn^
 ||oqidne.itaka.pl^
 ||oqjfekdkc.net^
@@ -46411,7 +46424,6 @@ zzzyk.com###Tinfo
 ||pages.exterro.com^
 ||pages.financialintelligence.informa.com^
 ||pages.jobaline.com^
-||pages.kwm.com^
 ||pages.naturopathica.com.au^
 ||pages.nbjsummit.com^
 ||pages.news.realestate.bnpparibas^
@@ -51160,6 +51172,7 @@ zzzyk.com###Tinfo
 ||sifyeldb.top^
 ||sig.nadex.com^
 ||sige20221230.xyz^
+||sigjuw.xyz^
 ||sign.use-neo.com^
 ||signalfx.com^$third-party
 ||signifyd.com^$third-party
@@ -59587,6 +59600,7 @@ zzzyk.com###Tinfo
 ||txt.htltn.com^
 ||txt.shopbanquet.com^
 ||txt.styr.com^
+||txtyuzhaiwu.com/astyle/wap.js
 ||txv0.destinia.hu^
 ||txvoin.with2.net^
 ||txzepl.xyz^
@@ -61445,6 +61459,7 @@ zzzyk.com###Tinfo
 ||wetr.sportscheck.com^
 ||wevbgr.vidaxl.it^
 ||wew.dushiwenxue.net^
+||wewlkq.com^
 ||wf.taboola.com^
 ||wfiles.hcomic.net/indexSwiper/*_*x*_*_TC_gif.gif
 ||wfinterface.com/tracking/$domain=wellsfargo.com
@@ -61555,6 +61570,7 @@ zzzyk.com###Tinfo
 ||wine-searcher.com/K6S8okp3/init.js
 ||wingontravel.com/Static/headerfooter/Content/js/masterpage.
 ||winitout.com^$third-party
+||winniephc.com^
 ||winwin7.com/statics/js/pos_js/
 ||winzid.icu^
 ||wipe.de^$~script,third-party
@@ -62799,6 +62815,7 @@ zzzyk.com###Tinfo
 ||xng02.com/api.php?mod=ad&
 ||xni.ink^
 ||xnimg.cn^*/liveinc/rightlive.js
+||xnjklp.xyz^
 ||xnjvn1.com^
 ||xnmqqq.com^
 ||xnnews.com.cn/adgl/
@@ -62942,6 +62959,7 @@ zzzyk.com###Tinfo
 ||xylkpj.xyz^
 ||xyplxx.2gks.com^$domain=9xav.cc
 ||xyqmy.xyz^
+||xyryjt.xyz^
 ||xywy.com/gk?a=
 ||xywy.com/zhixing/
 ||xyztraffic.com^$third-party
@@ -62950,6 +62968,7 @@ zzzyk.com###Tinfo
 ||xzlurd.xyz^
 ||xznrtl.xyz^
 ||xzvahr.xyz^
+||xzxforn.xyz^
 ||xzxhpcdz.icu^
 ||xzyituo.com^
 ||y-t.topya.com^
@@ -64093,6 +64112,7 @@ zzzyk.com###Tinfo
 ||zzbaike.com/sites/all/themes/zzbaike/images/
 ||zzbmxl.xyz^
 ||zzc.cn/b1/live_b_
+||zzccseo.com/statics/js/di.js
 ||zzdsjxsb.com^
 ||zzgxqlzh.com^
 ||zzisnvb.cn^
