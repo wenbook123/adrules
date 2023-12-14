@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: AuK1Bc6PeFLZaFq3n6EaZQ
+! Checksum: /CYp6z0K5PSmlZdtvg25Jg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-12-14 00:14:55（北京时间） 
-! Total count: 64162
+! Version: 2023-12-14 08:47:45（北京时间） 
+! Total count: 64143
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3996,8 +3996,9 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /GoogleAnalytics?utmac=
 /GoogleAnalyticsEvents.js
 /GoogleAnalyticsModule.min.js
-/GoogleAnalyticsPlus/*
-/HeatmapSessionRecording/*$domain=~plugins.matomo.org|~shop.matomo.org
+/GoogleAnalyticsPlus/distilled.FirstTouch.js
+/HeatmapSessionRecording/configs.php
+/HeatmapSessionRecording/tracker.min.js
 /Hit.ashx?
 /Hit.aspx?
 /HitCounter.
@@ -4030,7 +4031,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /OtAutoBlock.js
 /PageCount.php?
 /PageHit.ashx
-/PageStatistics/*
 /PageStats.asp
 /PageStats.js
 /PageTrack.js
@@ -4086,13 +4086,11 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /StatsPixel?
 /StatsService.RecordStats?
 /T/OFC4/*$image
-/TargetAnalyticsAPI-
 /TeaLeaf.js
 /TeaLeafCfg.js
 /TealeafSDK.js
 /TealeafSDKConfig.js
-/TealeafTarget.
-/TouchClarity.
+/TouchClarity.js
 /Track.aspx/*
 /Track/Capture.aspx?
 /TrackClick.
@@ -4469,6 +4467,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /analytics/embed/*
 /analytics/event
 /analytics/ga.js
+/analytics/google.js
 /analytics/layer
 /analytics/metric/*
 /analytics/pageview
@@ -5221,7 +5220,8 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /fairfax_tracking.js
 /fake_app.mp4$domain=91porn.com
 /fawu999/*.js$script,third-party
-/fb-pixel-$script
+/fb-pixel-dsgvo/*
+/fb-pixel-tracking.js
 /fb-tracking.js
 /fb_pixel_page_view
 /fbanalytics.js
@@ -5297,7 +5297,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /frontend-sentry-
 /fshow.php?id=$script,third-party
 /fsjghgwyegh_f.js
-/fsrscripts/*
+/fsrscripts/triggerParams.js
 /fuliba/js/n1.js
 /fullad.
 /fusion/lucid/data/*
@@ -5439,8 +5439,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /global_tracking.js
 /gmu-download.oss-
 /goAnalytics.js
-/google-analyticator/*
-/google-analytics/*$domain=~stackexchange.com|~superuser.com
+/google-analyticator/external-tracking.min.js
 /google-nielsen-analytics.js
 /google/analytics.js
 /google/autotrack.custom.js
@@ -5465,7 +5464,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /googletag.js
 /googletagmanageranalytics.js
 /googletrack.js
-/googletracker/*
 /gp/r.html?$image
 /gridinbound.blob.core.
 /grumi-ip.js
@@ -5493,7 +5491,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /guanggao2.
 /gubawap/ad/*
 /gv-analytics/riveted.js
-/gweb/analytics/*
+/gweb/analytics/autotrack.js
 /gwunggou/*
 /h.gif?
 /h/k.php?u=*&l=*&v=$third-party
@@ -5510,9 +5508,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /hgct?hc=&hb=*&vjs=
 /hints.netflame.cc/*
 /histats.js
-/histats/*
 /hit-counter.
-/hit-counter/*
 /hit.asp?
 /hit.c?
 /hit.php?
@@ -5855,7 +5851,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /letv-gug/*
 /lhnhelpouttab-current.min.js
 /lib/analytics.js
-/lib/snowplow-
 /library/svy/broker.js
 /libs/tracker.js
 /liferay-analytics-api.js
@@ -6016,22 +6011,20 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /marfeelanalytics.js
 /marketing-analytics.js
 /martypixel?
-/matomo-tracking.
+/matomo-tracking.js
 /matomo.js$domain=~github.com
 /matomo.php
 /matomo/*$domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 /matongwu/img/gg_
 /mcookie.aspx
 /mcount.cgi?
-/mcounter/*
 /measure/pixel/*
 /measure/visit/*
-/media-analytics.min.
 /media.sailthru.com/5ik/1k4/9/*.gif
 /medialaanUniversalTracker.js
 /mediametrie.js
 /mediateGA.js
-/megacounter/*
+/megacounter.php
 /meinv/js/*_banner.js
 /meitui.org\/[a-z].js/$domain=meitui.org
 /meitui.org\/[a-z][a-z].js/$domain=meitui.org
@@ -6070,27 +6063,22 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /mixpanel-init.js
 /mixpanel.$domain=~mixpanel.com
 /mlb-ml-analytics.min.js
-/mlopen_track.
+/mlopen_track.html
 /mmclient.js
 /mmcore.js
 /mmday/91porn_
 /mmday/hgame_
-/mmetrix.mobi/*
 /mms.*/pv?
 /mms/get_loaders?
 /mn-collector.php
-/mngi/tracking/*
 /mnppixellibrary.min.js
 /mnt/imp?
 /moat/yield.js
-/moatanalytics-
 /mobile-ad.
 /mobile/lele.html
 /mobile/mads.js
-/mobileanalytics.
 /mobilegame/getroomapp?
 /module/adsview/*
-/module/analytics/*
 /modules/video/player/nuevo/midroll.php?
 /moksa.js
 /monetate.js
@@ -6259,10 +6247,8 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /pagecpv/*
 /pagedot.gif?
 /pagedot.gif?$domain=focus.de
-/pagehits/*
 /pagelogger/connector.php?
 /pages/ads
-/pagestat/*
 /pagestat?
 /pagestats/*
 /pagetag.gif?
@@ -6302,7 +6288,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /perf-vitals_
 /perfmatters/js/analytics.js
 /perfmetrics.js
-/performance-logger.
 /performance-metrics.js
 /performance.fcgi?
 /performance/metrics
@@ -6342,7 +6327,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /pingd?
 /pinger.cgi?
 /pinterest-pixels.js
-/pistats/cgi-bin/*
 /piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /piwik.$domain=wetter.com
 /piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
@@ -6358,6 +6342,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /pixel-caffeine/build/frontend.js
 /pixel-manager.js?
 /pixel-prod.
+/pixel-tracker.js
 /pixel-tracking.
 /pixel.*/track/*
 /pixel.cgi?
@@ -6388,8 +6373,9 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /pixelstats/*
 /pixeltag.js
 /pixeltrack.
-/pixeltracker.
-/pixeltracking/*
+/pixeltracker.bundle.js
+/pixeltracker.js
+/pixeltracking/sdk-worker.js
 /pixelyoursite/dist/scripts/public.js
 /pixy.gif?
 /pj5303.oss-
@@ -6403,7 +6389,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /player-test-impression?
 /player/stats.php?
 /plog?id
-/plogger/*
 /plugin.php?id=popad_7ree&
 /plugins/catman/*
 /plugins/duracelltomi-google-tag-manager/*
@@ -6434,6 +6419,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /ppms.js
 /pqt.email/o/*$image
 /pr.php?
+/prebid.pro.js
 /preparecookies?callback=$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /prepixel?
 /presslabs.js$script,~third-party
@@ -6662,7 +6648,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /script/ad.
 /script/ads.
 /script/pixel.js
-/scriptAnalytics.
+/scriptAnalytics.js
 /scriptonline.js?uin=
 /scripts.kissmetrics.com/*
 /scripts/ads.
@@ -6705,6 +6691,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /sentry-logger.js
 /sentry/bundle.min.js
 /seo.taCo.min.js
+/seo/pageStat/*
 /seostats.php
 /seotracking-v3.js
 /server.php?request=track&output=
@@ -6717,12 +6704,10 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /session/preparecookies?$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /session/referer
 /session/update-beacon
+/sessioncam.js
 /sessioncam.min.$script
 /sessioncam.recorder.js
-/sessioncam/*
 /set-cookie.gif?
-/setAdStatEV?
-/setTDUID.do?
 /set_cookie.php?
 /set_optimizely_cookie.js
 /set_tracking.js
@@ -6742,13 +6727,14 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /shinystat_
 /shopify-boomerang-
 /shopify-event.gif?
-/shopify/track$domain=~github.com
+/shopify/track.js
 /shopify_stats.js
 /shoutout.wix.com/*$image
 /show_ads.js
 /show_ads_
 /showadcode.
-/showcounter.$domain=~showcounter.com
+/showcounter.js
+/showcounter.php
 /showhits.php?
 /showpage2.asp?u=$script,third-party
 /shreddit/perfMetrics
@@ -6791,7 +6777,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /slot_cmp.js
 /sluurpy_track.js
 /smart-pixel.min.js
-/smartTag.bundle.
+/smartTag.bundle.js
 /smartpixel-1.js
 /smartpixel.$domain=~smartpixel.com|~smartpixel.tv
 /smartserve-
@@ -6803,10 +6789,9 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /smmch-mine.js
 /smmch-own.js
 /snowman.gif?p=
-/snowplow.js$script,third-party
+/snowplow.js
 /snowplow/*$script
 /snowplow_$script
-/snowplowjs.
 /sobt_adv.js
 /socialTracking.js
 /social_tracking.js
@@ -7034,14 +7019,16 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /tags.js?org_id=
 /tailtarget.js
 /taiyangchengjituantupian.
-/talpa-analytics-
+/talpa-analytics-pro/*
 /tan.js
 /tan1.js
 /tanad.js
 /tanchuan.htm$popup,third-party
+/tatari-shopify/tracker-snippet-latest.min.js
 /tb/_/video_frs_head_
 /tb/img/hg/hg.gif?
-/tc_analytics.
+/tc_analytics.js
+/tc_analytics.min.js
 /tc_imp.gif?
 /tccl.min.js
 /tck/gif/*
@@ -7050,11 +7037,10 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /teal-gcianalytics-
 /tealeaf.min.js
 /tealeaftarget?
-/tealium-analytics.
 /tealium-external/utag.js
-/tealium-utag-
-/tealiumAnalytics.
-/tealiumTagsData.
+/tealium-utag-set.js
+/tealiumAnalytics.js
+/tealiumTagsData.js
 /template/*/adm/*
 /template/*/ads/*
 /template/*/lele36.html
@@ -7099,16 +7085,13 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /timer.aspx?568$script,~third-party
 /timer.aspx?649$script,~third-party
 /timer.aspx?719$script,~third-party
-/timingcg.
+/timingcg.min.js
 /tisai/img/nav_980_90.gif
-/tjp_beacon.
-/tjx-tracking-
+/tjp_beacon.js
+/tjx-tracking-data.js
 /tking/ajax_track_stats?
 /tm00738.bj.
-/tms/metrics.
 /tncms/tracking.js
-/tnsCounter.
-/tnsmetrix/*
 /to8to_pc/chunks/slide_and_popup_
 /token?referer=
 /tongji.js
@@ -7116,8 +7099,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /topad_
 /topads.
 /toplytics.js
-/touch-clarity.
-/touchclarity/*
+/touchclarity/logging.js
 /tourl.html?url=
 /tps/noexpire/*
 /tr.gif?
@@ -7131,12 +7113,10 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /track-event.
 /track-focus.min.js
 /track-imp?
-/track-internal-links.
+/track-internal-links.js
 /track-opening/*
-/track-page-view.
 /track-pixel.
-/track-the-click/*
-/track-visit-event?
+/track-the-click-public.js
 /track-visit?
 /track.ads/*
 /track.ashx?*=http
@@ -19267,7 +19247,7 @@ zzzyk.com###Tinfo
 |http://t.cn/$domain=ady8.info|cdsoso.me
 |http://x.o2.pl^
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
-|https://$script,subdocument,popup,3p,domain=btsow.mom|dandanzan10.top|dandanzan.*|nunuyingyuan.com|nunuyy5.org|rarbgprx.org
+|https://$script,subdocument,popup,3p,domain=btsow.mom|rarbgprx.org
 |https://a.pr-cy.ru^$third-party
 |https://dd-static.jd.com/ddimg/jfs/t1/173245/15/28822/346324/62fcb4b0Eb437d047/136a1e04890320b8.jpg$image,domain=subaibaiys.com
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
@@ -45407,6 +45387,7 @@ zzzyk.com###Tinfo
 ||notifyvisitors.com^$third-party
 ||notiks.io^$third-party
 ||notiksio.com^$third-party
+||notion.so/api/v*/teV1
 ||notion.so^$removeparam=gspk
 ||notion.so^$removeparam=gsxid
 ||notion.so^$removeparam=pscd
