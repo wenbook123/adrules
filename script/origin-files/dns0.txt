@@ -1,8 +1,8 @@
-! Checksum: 4STqjU9594s60yaIRHskeQ
+! Checksum: WHomKxN+QHJFEByidPpKiQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.5.60
-! TimeUpdated: 2023-12-14T07:31:10+00:00
+! Version: 2.1.5.64
+! TimeUpdated: 2023-12-14T14:31:14+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -925,6 +925,9 @@ nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { pos
 !--------------------------------------!
 ! SECTION: Chinese - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/168192
+m.lwxs.com#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
+m.lwxs.com#%#//scriptlet('abort-current-inline-script', 'document.write', '_0x')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168280
 ofiii.com#%#//scriptlet('trusted-replace-fetch-response', '"play_ads":true', '"play_ads":false')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/163538
@@ -4703,6 +4706,8 @@ newduba.cn###jq_youxi
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##div#ad_id
+##.pro1-molnk
+##.prom-olnk
 ##div#xinxi
 ##div[bannerlist]
 ~ix8.la##div[class^="ADTOPLB_"]
@@ -5721,6 +5726,8 @@ newduba.cn###jq_youxi
 ||1287a.xyz^
 ||1229a.xyz^
 ||1227a.xyz^
+||jdbfknsbkldns.com^
+||88dgn.top^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
