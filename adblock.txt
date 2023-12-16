@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 5BRS0I1vRPKakes7mYv9wg
+! Checksum: yNJXtl0sGCcTmNDzTtendA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-12-16 08:46:45（北京时间） 
-! Total count: 64196
+! Version: 2023-12-16 16:15:24（北京时间） 
+! Total count: 64206
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1503,6 +1503,7 @@
 ##a[href^="/dasp.php?a="]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="/template/1/html/ad/"]
+##a[href^="http"] > img[src*="p.sda1.dev"]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
 ##a[href^="http://ad-apac.doubleclick.net/"]
@@ -7428,7 +7429,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /vtrack.aspx
 /vtrack.php?
 /vtrack?vid=
-/vwFiles/analytics/$file/analytics.js
+/vwFiles/analytics/*
 /w.gif?
 /w_e_b/de_li_ve_ry/a_j_s.php?zid=$domain=cnlmjx.com
 /wa.gif?
@@ -8439,6 +8440,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.entry > p[style^="font-size"] > a[href*="/go."]
+423down.com##.entry > strong > p
 423down.com##.menu > .menu-item:nth-child(n+6)
 423down.com##.widget_d_banner
 423down.com##a[href*="/go."] > img
@@ -9270,6 +9272,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||3gmfw.cn/js/wap/8.js
 @@||3voor12.vpro.nl^*/streamsense.min.js$~third-party
 @@||40017.cn/cn/min/???/
+@@||423down.com^$generichide
 @@||4399sj.com^*/adview_pic_
 @@||4gtv.tv/4gtv/Data/GetAD.ashx
 @@||4horlover.com^$generichide
@@ -13647,6 +13650,7 @@ gdmm.com##img[width="1200"]
 gdmm.com,gkstk.com#@#.adtop
 gdot.me,sc115.com##script + a
 gdrc.com#@#.midAd
+gdt.qq.com
 gdzjdaily.com.cn##.big_news + div
 gebi1.com###fwin_dialog
 gebi1.com###fwin_dialog_cover
@@ -16918,9 +16922,7 @@ qq.com###qqadv
 qq.com###qqmail_AD_container
 qq.com###r_ad
 qq.com##+js(json-prune, ad)
-qq.com##+js(json-prune,material.video.url)
-qq.com##+js(no-fetch-if,/trace\.|beacon\./)
-qq.com##+js(no-xhr-if,/trace\.|\/collect/)
+qq.com##+js(json-prune, ads ad material.video)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 qq.com##.J_hot_game
@@ -16955,7 +16957,6 @@ qq.com##.member_ads
 qq.com##.mian-ad
 qq.com##.mod-ad-full
 qq.com##.mod-download-tips
-qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap, .iwan-wrapper
 qq.com##.mod_ad_main
 qq.com##.mod_ad_side
 qq.com##.mod_ad_square
@@ -18203,7 +18204,7 @@ v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
 v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
 v.qq.com##.player-side-ads
-v.qq.com##.quick_games.quick_item,div.card-wrap
+v.qq.com##.quick_games.quick_item
 v.qq.com##.site_bg_variety
 v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
 v.qq.com##.svg_icon_client.svg_quick_icon
@@ -23280,6 +23281,7 @@ zzzyk.com###Tinfo
 ||acecounter.com^$third-party
 ||aceik.xyz^
 ||acelogger.heraldcorp.com^
+||acemof.top^
 ||acetrk.com^$third-party
 ||acexedge.com^$third-party
 ||acfun.cn/appSpreadContents/danmuad/
@@ -24131,6 +24133,7 @@ zzzyk.com###Tinfo
 ||albacross.com^$third-party
 ||albanychicago.advancedtech.com^
 ||albsgdq.cn^
+||alchemeeten.com^
 ||alcmpn.com^$third-party
 ||ald.aldautomotive.be^
 ||aldkfsd.cn^
@@ -26052,6 +26055,7 @@ zzzyk.com###Tinfo
 ||awuapj.landwatch.com^
 ||awyyzx.com^
 ||awzbijw.com^
+||awzddev.cn^
 ||ax.*.ifeng.com^
 ||ax.babe.today^
 ||ax.idg.se^
@@ -28455,6 +28459,7 @@ zzzyk.com###Tinfo
 ||cdn1.skrill.com^
 ||cdn3.mancdn88.com^
 ||cdn7.baunetz.de^
+||cdn77.org^*.mp4
 ||cdn93d99x0e.23bei.com^
 ||cdncg.com^*/Aepku
 ||cdncg.com^*/peiyinquan
@@ -28536,6 +28541,7 @@ zzzyk.com###Tinfo
 ||cf.campagnes-france.com^
 ||cf.overblog.com^
 ||cfa.fidelity.com^
+||cfateu.xyz^
 ||cfb.8it.me^
 ||cfcpee.lascana.ch^
 ||cfdns.vip^
@@ -33759,6 +33765,7 @@ zzzyk.com###Tinfo
 ||f775.thehour.com^
 ||f77j6t2b.com^
 ||f77xv3.top^
+||f780f.space^
 ||f8dy.tv/template/m1938/js/b
 ||f8dy.tv/template/m1938/js/foot.js
 ||f8ejqxp.cn^
@@ -35638,7 +35645,6 @@ zzzyk.com###Tinfo
 ||go.norway.innovatedating.com^
 ||go.onecart.co.za^
 ||go.onefc.com^
-||go.oracle.com^
 ||go.ortholive.com^
 ||go.panda-click.com^
 ||go.panda.sa^
@@ -37218,6 +37224,7 @@ zzzyk.com###Tinfo
 ||hvdath.xyz^
 ||hvfubp.xyz^
 ||hvhudp.xyz^
+||hvlitr.xyz^
 ||hvpard.xyz^
 ||hvrhgt.the-sun.com^
 ||hvrhgt.thescottishsun.co.uk^
@@ -40204,6 +40211,7 @@ zzzyk.com###Tinfo
 ||kygso.com/js/lrtk.js
 ||kyikdee.cn^
 ||kyjoyk.modoza.com^
+||kyjwtxei.xyz^
 ||kyoufukudoucname.worldsmile.net^
 ||kyplpw.com^
 ||kyq3hky.icu^
@@ -40271,7 +40279,6 @@ zzzyk.com###Tinfo
 ||l.player.ooyala.com^
 ||l.post2b.com^
 ||l.prk.bz^
-||l.qq.com/livemsg?
 ||l.qq.com/lview?
 ||l.rovo.co^
 ||l.sharethis.com^
@@ -42325,7 +42332,6 @@ zzzyk.com###Tinfo
 ||margueritenice.com^
 ||marinsm.com^$third-party
 ||marjorienice.com^
-||mark.l.qq.com/fcgi-bin/get_video_mark_all?
 ||markedcrayon.com^
 ||markedmeasure.com^
 ||markedpail.com^
@@ -43102,6 +43108,7 @@ zzzyk.com###Tinfo
 ||mbekgac.xyz^
 ||mbelia.underarmour.co.uk^
 ||mbepa.xyz^
+||mbfhwag.xyz^
 ||mbiypew.cn^
 ||mbly0.xyz^
 ||mbna.bruker.com^
@@ -45472,6 +45479,7 @@ zzzyk.com###Tinfo
 ||nr.static.mmcdn.com^
 ||nr7.us^$third-party
 ||nra.locktonaffinity.net^
+||nrfhbd.xyz^
 ||nrg.red-by-sfr.fr^
 ||nrich.ai^$third-party
 ||nrjzkj.cn^
@@ -48504,6 +48512,7 @@ zzzyk.com###Tinfo
 ||qzda.cc^
 ||qzl8.destinia.fi^
 ||qzlog.com^$third-party
+||qznjujv.xyz^
 ||qzone.la/Scripts/m.js
 ||qzone.qq.com/iframe/report
 ||qzone.qq.com/wspeed.qq.com^
@@ -50165,7 +50174,6 @@ zzzyk.com###Tinfo
 ||sd173.com/images/
 ||sd1v.yitongwl.cn/site/
 ||sd6hon.cn^
-||sda1.dev^
 ||sdata.avid.com^
 ||sdata.sealedair.com^
 ||sdata.wiley.com^
@@ -59345,6 +59353,7 @@ zzzyk.com###Tinfo
 ||trkr.shoppingminds.net^
 ||trmads.eu^$third-party
 ||trognoi.com^
+||trojangfw.xyz^
 ||troubledtail.com^
 ||troubleshade.com^
 ||trovus.co.uk^$third-party
@@ -61743,6 +61752,7 @@ zzzyk.com###Tinfo
 ||workers.dev/js/script.js
 ||workoperation.com^
 ||worldcup1.com/imgs/*.gif$domain=avcao.cc
+||worlderva.com^
 ||worldflagcounter.com^$third-party
 ||worldlogger.com^$third-party
 ||worldssl.net/reporting.js
