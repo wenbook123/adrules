@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fCKJrVzzvNLtR49uwDvhoA
+! Checksum: LqYjiu1bttwrOglspISEPw
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202312151535
-! Last modified: 2023-12-15 15:35 UTC
+! Version: 202312152335
+! Last modified: 2023-12-15 23:35 UTC
 ! Expires: 3 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -61190,6 +61190,7 @@ color-hex.com##.margin10
 fandom.com##.marketplace
 imgur.com,pushsquare.com,songlyrics.com##.masthead
 eetimes.eu,korinthostv.gr,powerelectronicsnews.com##.masthead-banner
+augustman.com##.masthead-container
 cloudwards.net##.max-medium
 mayoclinic.org##.mayoad
 racgp.org.au##.mb-1.small
@@ -70024,6 +70025,7 @@ omni.soundestlink.com$image
 ||hiconversion.com^$third-party
 ||hif.to^$third-party
 ||higherengine.com^$third-party
+||highlight.run^$third-party
 ||highmetrics.com^$third-party
 ||hira-meki.jp^$third-party
 ||histats.com^$third-party
@@ -74957,9 +74959,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.carnow.com/dealers/track_visitor
 ||app.link/_r?$script,third-party
 ||app.opmnstr.com/v2/geolocate/
-||app.posthog.com/e/?compression=
-||app.posthog.com/e/?ip=
-||app.posthog.com/static/array.js
+||app.posthog.com^$script,xmlhttprequest
 ||app.yesware.com/t/$third-party
 ||appinthestore.com/click/
 ||apple.com/hvr/mw/v1/spile
@@ -134434,74 +134434,6 @@ dashboard.razorpay.com#@##credential_picker_container
 /privacy/providers/CookiesDataProvider
 ! Amasty_GdprCookie
 /Amasty_GdprCookie/*$domain=schleich-s.com
-! Threatmetrix
-||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
-||cfa.fidelity.com^
-||citi.com^*/fp.js
-||citibank.com.ph/tmx/js/
-||clear.wallapop.com^
-||content22.bmoharris.com^
-||content22.citibank.com.au^
-||content22.citibank.com.sg^$script
-||contents2.00110.citi.com^
-||customer.homedepot.com^$script
-||drfdisvc.walmart.com^
-||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
-||ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js
-||ebaystatic.com/rs/v/enk4ekgiky2ufpj3l2fgfblxaqd.js
-||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
-||event.evtm.53.com^
-||idstatus.sky.com^
-||imgs.signifyd.com^
-||ingbank.pl/mojeing/bs/xx.js
-||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
-||olacontent.schwab.com^$script
-||pages.ebay.com/identity/device/$subdocument
-||pfp.intuit.com^
-||rba-screen.healthsafe-id.com^
-||rsx.afterpay.com^
-||src.ebay-us.com/*=usllpic$script,domain=ebay.com
-||svc2.sc.com^
-||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
-||tm-eps.neutrino.nu^
-||tmetrix.my.chick-fil-a.com^
-||tmx.bestbuy.com^
-||tmx.td.com^
-||u44.pnc.com^
-||u47.pnc.com^
-||w-profiling.cibc.com^$script
-||w-profiling.simplii.com^
-||wup-content23.bmoharris.com^
-! Fingerprint
-||bankofamerica.com/cookie-id.js
-||bup.bankofamerica.com^
-||cdn1.skrill.com^
-||d276.ourmidland.com^
-||d810.mysanantonio.com^
-||dii.bankaust.com.au^
-||eventbus.intuit.com^
-||f775.thehour.com^
-||h353.ncadvertiser.com^
-||h559.stamfordadvocate.com^
-||halifax-online.co.uk/scripts/16c9d93d/
-||j198.registercitizen.com^
-||l936.expressnews.com^
-||o398.trumbulltimes.com^
-||pf.intuit.com^
-||q777.sfchronicle.com^
-||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
-||sofa.bankofamerica.com^
-||t570.wiltonbulletin.com^
-||u652.myplainview.com^
-||u927.sfgate.com^
-||w740.newstimes.com^
-||y738.nhregister.com^
-||y820.darientimes.com^
-||y900.greenwichtime.com^
-||z211.yourconroenews.com^
-||z492.ctinsider.com^
-||z680.beaumontenterprise.com^
-||zion.qbo.intuit.com^
 ! https://github.com/easylist/easylist/issues/13127
 /wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js
 ! privacy-mgmt.com script specific
@@ -141957,7 +141889,7 @@ earlybirdbooks.com,openroadmedia.com,theportalist.com##.copyRight-div
 !! .ml-subscribe-form
 dailynewshungary.com,designersbrasileiros.com.br,fosspost.org,justrunlah.com,michaelwest.com.au,osxdaily.com,roadiscalling.com,upinthesky.nl##.ml-subscribe-form
 !! .subscription
-alhayat.tv,alquds.co.uk,brighteon.com,cgsociety.org,cityam.com,healthboards.com,livejournal.com,noticiasmagazine.pt##.subscription
+alhayat.tv,alquds.co.uk,augustman.com,brighteon.com,cgsociety.org,cityam.com,healthboards.com,livejournal.com,noticiasmagazine.pt##.subscription
 !! .sign-up
 fakartany.com,iai.tv,loopchicago.com,loopnet.com,nintendonews.com##.sign-up
 !! .subscription-box
@@ -148032,6 +147964,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||my.sevdesk.de/shared/components/CookieConsent/CookieConsentModal.html$xmlhttprequest
 @@||mymuesli.com/assets/js/cookiespopup.js$script
 @@||nowegumy.pl/cookiecuttr.js
+@@||openai.com/compliance/cookie_consent/$~third-party
 @@||orangeclickmedia.com/tech/libs/js.cookie.min.js$domain=protothema.gr
 @@||otter.finance/assets/js/cookieconsent.js
 @@||polenka.pl/wp-content/plugins/cookie-law-info/js/cookielawinfo.js$script

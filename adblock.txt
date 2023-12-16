@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 2TAVkEM0EPDDVdigrINFfw
+! Checksum: 5BRS0I1vRPKakes7mYv9wg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-12-16 00:16:12（北京时间） 
+! Version: 2023-12-16 08:46:45（北京时间） 
 ! Total count: 64196
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -14650,13 +14650,18 @@ iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com###zbsp
+iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
+iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
+iqiyi.com##+js(set, QiyiPlayerProphetData.a.data, {})
 iqiyi.com##.ad-seed
 iqiyi.com##.adBanner980
 iqiyi.com##.banner3
 iqiyi.com##.banner980
+iqiyi.com##.black-screen[data-cupid=adblock-blackscreen]
 iqiyi.com##.cell-left
 iqiyi.com##.cell-right
 iqiyi.com##.cupid-panel + div
+iqiyi.com##.cupid-panel + div, div[data-adzone],#block-V
 iqiyi.com##.dove_ad
 iqiyi.com##.dove_banner
 iqiyi.com##.dove_videos
@@ -14706,7 +14711,6 @@ iqiyi.com##div[class^="ad-piclist-"]
 iqiyi.com##div[class^=style_appDownload]
 iqiyi.com##div[class^=style_toApp]
 iqiyi.com##div[class^=styles_openApp]
-iqiyi.com##div[data-adzone],#block-V
 iqiyi.com##div[id^="div_theatre"]
 iqiyi.com##div[style^="z-index: 4200; position: absolute; left:"]
 iqiyi.com##iframe[style^="z-index:"]:last-child
@@ -16914,10 +16918,9 @@ qq.com###qqadv
 qq.com###qqmail_AD_container
 qq.com###r_ad
 qq.com##+js(json-prune, ad)
-qq.com##+js(json-prune,ads ad.pause adList.item)
+qq.com##+js(json-prune,material.video.url)
 qq.com##+js(no-fetch-if,/trace\.|beacon\./)
 qq.com##+js(no-xhr-if,/trace\.|\/collect/)
-qq.com##+js(set,RTCPeerConnection,null)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 qq.com##.J_hot_game
@@ -16986,7 +16989,6 @@ qq.com##a[href^="http://www.10100000.com/"]
 qq.com##div[class^=ad-type-]
 qq.com##div[id^="couplet_auto_"]
 qq.com##img[data-module="advertisement"]
-qq.com#@#+js(nowebrtc)
 qq.com#@#.ad-icon
 qq.com#@#.adsbox
 qq.com#@#.adside
@@ -18574,7 +18576,6 @@ worldve.com###img
 woshipm.com##.article--heroAd
 woshipm.com##.article-bottomAd
 woshipm.com##.article-topAd
-wpadmngr.com
 wpjam.com###wpjam_blog_300x250_1
 wuchajian.net##.UPAD
 wuyong.fun##.content-area .adsbygoogle
@@ -19241,7 +19242,6 @@ zzzyk.com###Tinfo
 |https://dd-static.jd.com/ddimg/jfs/t1/173245/15/28822/346324/62fcb4b0Eb437d047/136a1e04890320b8.jpg$image,domain=subaibaiys.com
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
 |https://r.i.ua^
-|https://static.cloudflareinsights.com/beacon.min.js^$xhr,script
 |https://tellme.pw/go/jav$popup
 ||*.$image,redirect=1x1-transparent.gif,third-party,domain=rmdown.com
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
@@ -20586,6 +20586,7 @@ zzzyk.com###Tinfo
 ||70url.com/aiaike/bood.js$domain=yingwangtv.com
 ||7160.com/js/tiaozhuanquanju.js
 ||7162a.com^
+||71edge.com/videos/other/202$xmlhttprequest
 ||720-trail.co.uk^$third-party
 ||7239618ccc.com^
 ||733.so/template/wap1/js/all_css.js
@@ -25439,9 +25440,7 @@ zzzyk.com###Tinfo
 ||app.payments.53.com^
 ||app.poconoraceway.com^
 ||app.post.vertafore.com^
-||app.posthog.com/e/?compression=
-||app.posthog.com/e/?ip=
-||app.posthog.com/static/array.js
+||app.posthog.com^$script,xmlhttprequest
 ||app.profile.purina.com^
 ||app.pultegroup.com^
 ||app.purduesports.com^
@@ -36733,6 +36732,7 @@ zzzyk.com###Tinfo
 ||highfalutinbox.com^
 ||highfalutinhoney.com^
 ||highfalutinroom.com^
+||highlight.run^$third-party
 ||highmetrics.com^$third-party
 ||highwebmedia.com/CACHE/js/output.92c98302d256.js
 ||hihlj.online^
@@ -38682,6 +38682,7 @@ zzzyk.com###Tinfo
 ||iqiyi.com/track
 ||iqiyi.com/track$popup
 ||iqiyi.com/track2?
+||iqiyi.com/videos/other/202$xmlhttprequest
 ||iqiyi.com^$removeparam=bkt
 ||iqiyi.com^$removeparam=e
 ||iqiyi.com^$removeparam=flashvars
@@ -45529,8 +45530,6 @@ zzzyk.com###Tinfo
 ||numerino.cz^$third-party
 ||numerousnest.com^
 ||nums.upscale.app^
-||nunuyingyuan.tk/serviceworker.js^$script
-||nunuyy.cf/serviceworker.js^$script
 ||nunxhv.com^
 ||nurahf.xyz^
 ||nurse.fastaff.com^
@@ -60170,6 +60169,7 @@ zzzyk.com###Tinfo
 ||utraff.com^$third-party
 ||uts.auction.co.kr^
 ||utsssl.auction.co.kr^
+||utt.pm/utm/
 ||uttermosthobbies.com^
 ||uttlinediv.top^
 ||uty.micocc.com^
