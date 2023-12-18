@@ -1,8 +1,8 @@
-! Checksum: gIVel+WccTP/go13snMsfw
+! Checksum: nJCb5sAx2oeY9ao86vOBNQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.5.93
-! TimeUpdated: 2023-12-18T06:31:14+00:00
+! Version: 2.1.5.97
+! TimeUpdated: 2023-12-18T14:31:14+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1274,6 +1274,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+douyin.com#?##douyin-right-container > div[class] > div[class]:has(> ul[class] > li[class] > a[href][target="_blank"] + div:contains(广告))
 4gamers.com.tw#?#.container-fluid  > .vue-portal-target:has(> div[style] > .aroma-news-detail-iframe-ads)
 4gamers.com.tw#?#.aroma-news-detail-side > div[media-width]:has(div.aols-wrapper > a[target="_blank"][rel="noopener"])
 ||adsv.svc.litv.tv/ads?ad_unit=$xmlhttprequest,redirect=noopvast-3.0,important,domain=ani.gamer.com.tw
@@ -5786,6 +5787,10 @@ newduba.cn###jq_youxi
 ||alwaysc.com^
 ||vpqrydt.xyz^
 ||opszt.com^
+||xvpqrydt.xyz^
+||tvpqrydt.xyz^
+||kreisis.top^
+||mvpqrydt.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -13858,8 +13863,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
+||douyin.com/api/user/getPcBanner?
 ||zzzyk.com/js/
 szxx.com.cn###A0
+segmentfault.com###hotArticles:nth-child(3)
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
