@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: MBoqh2PGy4cr/nmWW4+20Q
+! Checksum: YdyHMZdkySywPOr8jMxWPA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-12-21 16:16:09（北京时间） 
-! Total count: 14438
+! Version: 2023-12-22 00:15:37（北京时间） 
+! Total count: 14440
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -551,7 +551,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||ccztgy.elgiganten.dk^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -4872,6 +4872,7 @@
 @@||edge-enterprise.activity.windows.com^
 @@||edge-mqtt.facebook.com^
 @@||edge.activity.windows.com^
+@@||edge.api.brightcove.com/playback/v1/accounts/*/videos/$xmlhttprequest,domain=tver.jp,stealth=ip
 @@||edge.api.brightcove.com^
 @@||edge.microsoft.com/translate/auth
 @@||edge.mycdn.live/live/*.m3u8$stealth
@@ -7839,6 +7840,7 @@
 @@||j2apps.s.llnwi.net/assets-origin/static/js/mx-prebid-ads.js$domain=mxplayer.in
 @@||jackjones.com^$generichide
 @@||jacquieetmicheltv.net/statics/js/popunder.js.
+@@||jandan.net^$generichide
 @@||jango.com^
 @@||janjua.*^$ghide
 @@||japanreader.com/uploads/$image,stealth,domain=visortmo.com
@@ -9587,6 +9589,7 @@
 @@||onesignal.com^$domain=e1.ru
 @@||onet.pl/*?*utm_campaign=$removeparam
 @@||onet.pl/?utm_source=$removeparam
+@@||onet.pl^$generichide,badfilter
 @@||onetag-sys.com/prebid-request$domain=linkneverdie.net
 @@||onetrust.com/consent/$domain=konami.com|nintendolife.com|panasonic.com|pushsquare.com|technics.com
 @@||onetrust.com/consent/*.json$domain=konami.com
@@ -10979,7 +10982,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsain=adshnk.com|adshrink.it
+@@||reseguiden.se^*.siteCatalyst.jse.com/js/site/tracker.js
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14210,7 +14213,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideinder.com/landing/$popup,third-party
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
