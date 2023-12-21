@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: d5VPvSZpiildb9qog0/IeA
+! Checksum: FbR5Yo21GYc30Oe+L+e0GA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-12-21 08:47:20（北京时间） 
-! Total count: 64306
+! Version: 2023-12-21 16:16:08（北京时间） 
+! Total count: 64334
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -442,6 +442,7 @@
 ##.ad-left
 ##.ad-left-down
 ##.ad-mod
+##.ad-pc
 ##.ad-r
 ##.ad-right
 ##.ad-right-down
@@ -5513,6 +5514,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /hawkeye.js
 /hawklinks.js
 /hc/activity
+/header-pixels.min.js
 /heituad/*
 /heji/mei00*.js
 /hg?hc=&hb=*&vjs=
@@ -6505,6 +6507,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /pxl.gif?
 /pxl.png?
 /pxlctl.gif
+/pxrc.php
 /pxre.php
 /pxtrack.js
 /qd/js/index/bannerTop.
@@ -7988,7 +7991,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 17173.com##.pic[href*="Room"]
 17173.com##a[href*="&ad_code="]
 17173.com##a[href^="https://gtv."]
-17173.com,am730.com.hk,cdyee.com,chinaz.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,lantian.tv,phoenixtv.com,pyccoo.cn,xineurope.com,yesky.com,zdzdm.com##.adbox
+17173.com,am730.com.hk,cdyee.com,chinaz.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,lantian.tv,maoken.com,phoenixtv.com,pyccoo.cn,xineurope.com,yesky.com,zdzdm.com##.adbox
 172cat.com###adload
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > br
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > center > a
@@ -8440,6 +8443,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
 423down.com##.entry > p > strong
+423down.com##.entry > p[align="center"]:first-child
 423down.com##.entry > p[style$="111"]
 423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
@@ -10840,6 +10844,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||wancaibb.com/share/js/share.min.js
 @@||ware.shop.jd.com^$genericblock,generichide
 @@||wargag.ru/public/js/counter.js?
+@@||wavse.com^$generichide
 @@||web.archive.org/*_/http$removeparam
 @@||web.dev/patterns/web-vitals-$~third-party
 @@||webapps.sftc.org/captcha/captcha.dll$removeparam
@@ -15117,7 +15122,9 @@ js0573.com##.gg_bnr
 jsbooks.com.cn#@#.left-ads
 jsjiami.com##.asd > li > a.shaky
 jsjiami.com##.banner-container li._logo ~ li > a[target="_blank"]
+json.cn###shuangshi1Modal1
 json.cn##.tip[target="_blank"]
+json.cn,pianyuan.org,qixingquan.com##.modal-backdrop
 jsphp.net##.adleft-wrap
 jsphp.net##.rightAdBtm-wrap
 jsphp.net##.widget_tuijian
@@ -15862,6 +15869,7 @@ manwa1.me,manwa2.me,manwa.me##.swiper-container.swiper-container-horizontal
 manwa1.me,manwa2.me,manwa.me##[data-group^='ad_chapter'][data-width='300'][data-height='250']
 manwa1.me,manwa2.me,manwa.me##[style*='15px'][style*='background-color:'][style*='margin: 10px'][style*='margin-top: 14px'][style*='border-radius: 20px'],.fas.fa-times
 manwa1.me,manwa2.me,manwa.me##[style='transform-origin: left top; margin: 0px auto;']
+maoken.com###siderAd01
 maolihui.com##.con-ad
 maomaomom.com###execphp-15
 maomaomom.com###execphp-21
@@ -16203,7 +16211,8 @@ mydrivers.com##a[href*=".dangbei.com"]
 mydrivers.com##div[class^="jdong11"]
 mydrivers.com##div[style*="/ad/"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
-mydrivers.com#?#li:-abp-has(>.titl+.t:-abp-contains(广告))
+mydrivers.com#?#div[class^="news_info"] > ul.newslist > li:has(> span:contains(广告))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(广告))
 mydrivers.com#@#.baidu, a[href^=http][target=_blank]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
@@ -16662,7 +16671,6 @@ pianba.tv,pianba.net##.play-btn > a[target="_blank"]
 pianhd.com###myCarousel
 pianku.me###playad
 pianyuan.org###myModal
-pianyuan.org,qixingquan.com##.modal-backdrop
 piaoliang.com##.hot990
 pigai.org###newnotice
 pilifx.com##.alltop
@@ -23944,6 +23952,7 @@ zzzyk.com###Tinfo
 ||afsanalytics.com^$third-party
 ||afterclick.co^$third-party
 ||aftermathbrother.com^
+||afterpay.com^*/v1/event
 ||aftonbladet.se/blogportal/view/statistics?$third-party
 ||aftonbladet.se/cnp-assets/glimr-sdk.js
 ||aftonbladet.se/trafikfonden/
@@ -24675,6 +24684,7 @@ zzzyk.com###Tinfo
 ||analyticcdn.globalmailer.com^
 ||analytics-1.cavai.com^
 ||analytics-api.dvdfab.
+||analytics-api.klickly.com^
 ||analytics-api.samsunghealthcn.com^
 ||analytics-batch.blitz.gg^
 ||analytics-beacon.p.uliza.jp^
@@ -26003,6 +26013,7 @@ zzzyk.com###Tinfo
 ||autostow-test.inthere.link^
 ||autotrader.com/pixall/
 ||autyxdek.xyz^
+||auvohoxm.xyz^
 ||auwdff.dyfashion.ro^
 ||aux.lansator.ro^
 ||av-yoyo.com/images/*.gif
@@ -34129,6 +34140,7 @@ zzzyk.com###Tinfo
 ||fgttbz.xyz^
 ||fguhyg.cn^
 ||fgukchz.icu^
+||fgwerg.top^
 ||fh21.com.cn/js/passport/createQuickMenu.js
 ||fh21.com.cn/partners/
 ||fhcmeiju.com/template/DYXS2/html/1.
@@ -36526,6 +36538,7 @@ zzzyk.com###Tinfo
 ||hbbtv-track.prosieben.de^
 ||hbbtv-track.prosiebensat1puls4.com^
 ||hbbxwan.cn^
+||hbiq.net^
 ||hbkunye.com^
 ||hbo5.concours-pass.com^
 ||hboav.com/guga/
@@ -36682,6 +36695,7 @@ zzzyk.com###Tinfo
 ||hentaicounter.com^$third-party
 ||heqinyyds.com^
 ||heraldandtimeslabs.com/sugar.js
+||herbgreencolumn.com^
 ||heretrail.com^
 ||heroesdom.com^$third-party
 ||herogame.com^$subdocument,domain=gamer.com.tw
@@ -37414,6 +37428,7 @@ zzzyk.com###Tinfo
 ||i3535.com^$third-party
 ||i3z.cn^$third-party
 ||i3zh.com/wp-content/plugins/cm-pop-up-banners/
+||i472x.fun^
 ||i7akpd1.xyz^
 ||i7pnx0t.cn^
 ||i9klo.com^
@@ -40294,6 +40309,7 @@ zzzyk.com###Tinfo
 ||kzeww.com^
 ||kzgmpu.com^
 ||kzjkexn.cn^
+||kznizrhd.xyz^
 ||kzprugp.xyz^
 ||kzsicw.chip.de^
 ||kzsicw.focus.de^
@@ -41440,6 +41456,7 @@ zzzyk.com###Tinfo
 ||listen.tunein.com^
 ||listenlayer.com^$third-party
 ||listing-a8-itp.hello-storage.com^
+||listrak.com/api/Activity/impression
 ||listrakbi.com/activity/
 ||listrakbi.com/api/ActivityEvents/
 ||listrakbi.com^$third-party
@@ -41887,6 +41904,7 @@ zzzyk.com###Tinfo
 ||lpmzt.cn^
 ||lpocne.top^
 ||lporirxe.com^$third-party
+||lppgjf.xyz^
 ||lps.qantas.com^
 ||lpxmall.com^
 ||lpzpyf.personalizedplanet.com^
@@ -42259,6 +42277,7 @@ zzzyk.com###Tinfo
 ||madnet.ru^$third-party
 ||mads7.icu^
 ||mafengwo.cn/uva/i.gif?
+||mafuzcxr.xyz^
 ||magedu.com/wp-content/uploads/*/xwzx
 ||magento-recs-sdk.adobe.net^
 ||magento.com^$removeparam=itm_campaign
@@ -48439,6 +48458,7 @@ zzzyk.com###Tinfo
 ||qtycwy.modivo.cz^
 ||qu96.com^
 ||quacksquirrel.com^
+||quadpay.com/analytics/
 ||quadran.eu^$third-party
 ||quae0.top^
 ||quaintborder.com^
@@ -48520,6 +48540,7 @@ zzzyk.com###Tinfo
 ||quqtone.cn^
 ||qurl.f.360.cn^
 ||qursbq.berceaumagique.com^
+||qusfybj.cn^
 ||quspga.xyz^
 ||qutyan8848.com^
 ||quwwa.top^
@@ -49880,6 +49901,7 @@ zzzyk.com###Tinfo
 ||safepass.citizen.com^
 ||safevisit.online^$third-party
 ||saffronrefuge.com^
+||sagcyq.xyz^
 ||sageanalyst.net^$third-party
 ||sagetrc.com^$third-party
 ||sahibinden.com/sbbi/
@@ -56174,6 +56196,7 @@ zzzyk.com###Tinfo
 ||tacsc.net.anwalt.de^
 ||tad.suning.com^
 ||tae0t.site^
+||tafuzcxr.xyz^
 ||tag-manager.playbuzz.com^
 ||tag.agrvt.com^
 ||tag.aticdn.net^
@@ -59601,6 +59624,7 @@ zzzyk.com###Tinfo
 ||tupian55.com^*.gif
 ||tupian888.*.bcebos.com^
 ||tuplzt.xyz^
+||tupwiwm.com^
 ||turbobit.net/js/analytics/
 ||turboeagle.co^
 ||turbolion.io^
@@ -60373,6 +60397,7 @@ zzzyk.com###Tinfo
 ||v2rayssr.com/wp-content/plugins/eazy-
 ||v34s6r.com^
 ||v3cdn.net^$third-party
+||v44e.com^
 ||v4dwkcv.com/html/click/
 ||v4dwkcv.com^
 ||v6jt.cn^
@@ -62660,6 +62685,7 @@ zzzyk.com###Tinfo
 ||x88s.pandasuite.io^
 ||x8kwcr3l.xyz^
 ||x9.shinobi.jp^
+||xafuzcxr.xyz^
 ||xahycw.com^
 ||xait.actonservice.com^
 ||xapi.ozon.ru^$ping
@@ -63271,6 +63297,7 @@ zzzyk.com###Tinfo
 ||yf5.voyage-prive.at^
 ||yfmhik.xyz^
 ||yfohgo.xyz^
+||yfsstec96.xyz^
 ||yg006.com/attachment/js/
 ||yg006.com/attachment/xjdb.jpg
 ||ygfgzmzo.xyz^
@@ -63911,6 +63938,7 @@ zzzyk.com###Tinfo
 ||zfticz.buzz^
 ||zfticz.xyz^
 ||zfvltd.xyz^
+||zfvtswv.xyz^
 ||zfxakx.xyz^
 ||zg.mmyuer.com^
 ||zgdshoes.com^
