@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: tWiOiZDVnqq0qi4+ZeEBQQ
+! Checksum: WQ0zMh1uz5sfy4kKhiGofA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2023-12-22 08:46:35（北京时间） 
-! Total count: 64337
+! Version: 2023-12-22 16:15:55（北京时间） 
+! Total count: 64361
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -4147,6 +4147,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /__imp_apg__/*
 /__rmn.gif?
 /__ssobj/core.js
+/__ssobj/rum?
 /__ssobj/sync?$image
 /__sttm.gif?
 /__ub.gif?
@@ -4547,6 +4548,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /api/video/stats/*$xmlhttprequest
 /api_ip_info.php
 /apilog?
+/apmrum.min.js
 /app-measurement?
 /app/*/%E6%B5%8F%E8%A7%88%E5%99%A8.apk
 /app/get*?t=*http$third-party
@@ -5211,6 +5213,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /evergage.min.js
 /evt.gif?
 /exactag.js
+/exads-adblock-$image
 /exads-adblock-3.10
 /exittracker.js
 /exmo.email/open.html
@@ -8008,12 +8011,15 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 17yy.com###addiv
 17yy.com##.t2_3
 17yy.com##.t2r_3
-18-comic.work,18comic.org,18comic.vip###guide-modal
-18-comic.work,18comic.org,18comic.vip##.div_sticky2
-18-comic.work,18comic.org,18comic.vip##.modal-backdrop
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18183.com###gsBtn
 18183.com##.down_url
 18183.com##.pcBtn > a[href*="@"]
@@ -8057,9 +8063,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 18comic.org,18comic.vip,18-comic.work#$?#.col-xs-6 > div[data-type][style]:has(> ins + script) { remove: true; }
 18comic.org,18comic.vip,18-comic.work#%#//scriptlet('abort-current-inline-script', 'document.dispatchEvent', '/getexoloader/')
 18comic.org,18comic.vip,18-comic.work#?#.col-xs-6 > div[data-show][style]:has(> p:only-child > a[target="_blank"] > img)
-18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>ins+script)
-18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>script+ins)
-18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,18-comic.work#@?#:-abp-has(>ins+script)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
@@ -10113,6 +10116,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||ixueshu.com/ad-server/
 @@||izo.tw/wp-content/advert1.js
 @@||j.wit.qq.com/sc/crystal_ad.js?$domain=888.sports.qq.com
+@@||jandan.net^$generichide
 @@||jav777.cc/advertise/
 @@||jav777.xyz/advertise/
 @@||jbprogramnotes.com^$generichide
@@ -15320,6 +15324,7 @@ lalilali.com##div[id*="_"]
 lalulalu.com###overture-side-bar-ads
 lalulalu.com###overture_main_banner
 lalulalu.com##.overture_banner
+lan-sha.com#?#.post-list > li.post-item:not(:has(> div.post-item-container a[href^="https://www.lan-sha.com/"][href$=".html"]))
 landian.vip##.content-gg
 landian.vip##.sidebar a[href^="http"]:not([href*="landian."])
 landiannews.com###block-2
@@ -18567,6 +18572,7 @@ wnacg.com#@#.ctm_ad
 wnacg.com#@#.ff-ads
 wnacg.com#@#.google-ads
 wnacg.com#@#.hlol_ad
+wnacg.com#@#.pcd_ad
 wnacg.org##a[href^="https://l.tyrantdb.com/"][target="_blank"] > img
 wnflb2023.com##.GzList
 woego.cn#@##topAds
@@ -19536,6 +19542,7 @@ zzzyk.com###Tinfo
 ||123-counter.de^$third-party
 ||123.sogou.com/discover/?
 ||123456.asia^
+||1234good.com^
 ||123cha.com/counter.js
 ||123compteur.com^$third-party
 ||123count.com^$third-party
@@ -25151,6 +25158,7 @@ zzzyk.com###Tinfo
 ||aoji.cn/default/looyu/
 ||aoji.cn/static/js/pushadv.js
 ||aoji.cn/static/js/yiliao/ad_common.js
+||aokkwzg.cn^
 ||aol.com/ping?
 ||aol32.cn^
 ||aolanswers.com/wtrack/
@@ -28027,6 +28035,7 @@ zzzyk.com###Tinfo
 ||bzdntl.xyz^
 ||bzhanyy.com^*.gif
 ||bzhn9y.icu^
+||bznizrhd.xyz^
 ||bzpics.com/jslib/st.js?
 ||bzqxze.remixshop.com^
 ||bzthxv.xyz^
@@ -33776,6 +33785,7 @@ zzzyk.com###Tinfo
 ||ezacci.xyz^
 ||ezakus.net^$third-party
 ||ezec.co.uk^$third-party
+||ezeqcy.xyz^
 ||ezf48.xyz^
 ||ezlgszdb.icu^
 ||ezobam.jdsports.nl^
@@ -35368,6 +35378,7 @@ zzzyk.com###Tinfo
 ||ghland.site^
 ||ghoffice.com/bbs/js/float.js
 ||ghost580.com/js/nei4.js
+||ghreha.top^
 ||ghsnhjk.cn^
 ||gi-client-tracking.goodgamestudios.com^
 ||gi7a.structube.com^
@@ -35427,6 +35438,7 @@ zzzyk.com###Tinfo
 ||gkfdkf.jdsports.co.uk^
 ||gkiho.xyz^
 ||gkjmev3.com^
+||gkktjf.top^
 ||gknybkl.cn^
 ||gksqdt.reitmans.com^
 ||gksqfw.reverso.net^
@@ -36251,6 +36263,7 @@ zzzyk.com###Tinfo
 ||gullibleguitar.com^
 ||gumgo.cn^$third-party
 ||gumtree.com.au/tracking/
+||gunepszy.xyz^
 ||gunmi.cn^$third-party
 ||guode.cyou^
 ||guohexinxiang.com^
@@ -40287,6 +40300,7 @@ zzzyk.com###Tinfo
 ||kxmusic.top/tc/js/script.js
 ||ky891.oss-*.aliyuncs.com^
 ||kybzkiw.xyz^
+||kycxhgrp.xyz^
 ||kydb.xyz^
 ||kygso.com/js/lrtk.js
 ||kyikdee.cn^
@@ -41615,6 +41629,7 @@ zzzyk.com###Tinfo
 ||lmlmvip.com^
 ||lmlzht.xyz^
 ||lmnpd.xyz^
+||lmrhhn.xyz^
 ||lmtnfl.xyz^
 ||lmx7.com^
 ||lmxxxz.com^
@@ -44860,6 +44875,7 @@ zzzyk.com###Tinfo
 ||myyxox.icu^
 ||mzbcdn.net/mngr/mtm.js
 ||mzhhdn.com/hongbao.jpg
+||mznizrhd.xyz^
 ||mzqf1.com^
 ||mzthbna.xyz^
 ||mzwzo.cn^
@@ -45773,6 +45789,7 @@ zzzyk.com###Tinfo
 ||odysee.com/log/
 ||odysee.com/reports/
 ||oe-static.de^*/wws.js
+||oe3.top^
 ||oedlmz.underarmour.it^
 ||oehcxmhk.xyz^
 ||oehhq.xyz^
@@ -48043,7 +48060,6 @@ zzzyk.com###Tinfo
 ||pxf.io^$image,script,third-party
 ||pxi.pub^$third-party
 ||pxl.indeed.com^
-||pxl.retaku.net^
 ||pxlgnpgecom-a.akamaihd.net^
 ||pxrs6.cn^
 ||pxsg.pandora.com^
@@ -48589,6 +48605,7 @@ zzzyk.com###Tinfo
 ||qxakzox.cn^
 ||qxrvmu.com^
 ||qxsfaj.caloo.jp^
+||qxzlmzt.xyz^
 ||qy0.ru/data/game/
 ||qy1.ru/data/game/
 ||qycfqk.xyz^
@@ -49442,6 +49459,7 @@ zzzyk.com###Tinfo
 ||rouman5.com/a2/*.gif
 ||rouman5.com/cps/*.gif
 ||rouman5.com/hlw.jpg
+||route.com/collect
 ||routeapp.io/route-analytics/
 ||router28.net.anwalt.de^
 ||routes.navibration.com^
@@ -59788,6 +59806,7 @@ zzzyk.com###Tinfo
 ||tzgurwizule3.app.cardahealth.com^
 ||tzlit.cn^
 ||tzmhqll.cn^
+||tznizrhd.xyz^
 ||tzovkp.aboutyou.at^
 ||tzwaw.pw^
 ||u-on.eu^$third-party
@@ -60268,6 +60287,7 @@ zzzyk.com###Tinfo
 ||usgzei.vidaxl.ch^
 ||usingde.com^$third-party
 ||usivbt.qoo10.com^
+||usizy.com/external/pageview
 ||uskoie.xyz^
 ||uslbaht.top^
 ||uslecce.it^$removeparam=et
@@ -60344,6 +60364,7 @@ zzzyk.com###Tinfo
 ||uxtruz.xyz^
 ||uxwkiyp.xyz^
 ||uxxux.com/js/zd.js
+||uycxhgrp.xyz^
 ||uyf1u0x7.xyz^
 ||uyflu0x7.xyz^
 ||uygckiy.cn^
@@ -60358,6 +60379,7 @@ zzzyk.com###Tinfo
 ||uzerly.net^$third-party
 ||uzevnf.realtystore.com^
 ||uzipbs.weltbild.ch^
+||uznizrhd.xyz^
 ||uzpkre.connor.com.au^
 ||uzrating.com^$third-party
 ||uzrxoxd.xyz^
@@ -63134,6 +63156,7 @@ zzzyk.com###Tinfo
 ||xyzyqq.com^
 ||xzji.com/data/block_js/softShow_
 ||xzlurd.xyz^
+||xznizrhd.xyz^
 ||xznrtl.xyz^
 ||xzvahr.xyz^
 ||xzxforn.xyz^
@@ -64150,6 +64173,7 @@ zzzyk.com###Tinfo
 ||zol.com.cn/pvn/
 ||zol.com/index.php?c=ZolShopIndex
 ||zombieslayer.kano.link^
+||zomcz.cyou^
 ||zone-telechargement.al/analytics/
 ||zongheng.com/upload/hzds/
 ||zongheng.com/upload/recommend/game/
