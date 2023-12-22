@@ -1,8 +1,8 @@
-! Checksum: dkOfKa+rNZYEjLz6bIuKKg
+! Checksum: GU2EX7qYNX8QWZ/L6LxXyw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.6.30
-! TimeUpdated: 2023-12-22T02:31:29+00:00
+! Version: 2.1.6.34
+! TimeUpdated: 2023-12-22T14:31:14+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1274,6 +1274,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+423down.com#?#.excerpt > li:has(.info .cat a[rel$="tag"]):contains(产品推荐)
 lan-sha.com#?#.post-list > li.post-item:not(:has(> div.post-item-container a[href^="https://www.lan-sha.com/"][href$=".html"]))
 mydrivers.com#?#div[class^="news_info"] > ul.newslist > li:has(> span:contains(广告))
 douyin.com#?##douyin-right-container > div[class] > div[class]:has(> ul[class] > li[class] > a[href][target="_blank"] + div:contains(广告))
@@ -5851,6 +5852,11 @@ newduba.cn###jq_youxi
 ||1234good.com^
 ||uycxhgrp.xyz^
 ||huryds.top^
+||bycxhgrp.xyz^
+||liujiahao6.cn^
+||xycxhgrp.xyz^
+||tycxhgrp.xyz^
+||mycxhgrp.xyz^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
