@@ -1,9 +1,9 @@
-! Checksum: Bmsd8jsIP91u04ffGc1sRQ
-! Diff-Path: ../patches/224/224-s-1704260148-3600.patch
+! Checksum: Mcxb5pIF6UUXiZfA+BU2SQ
+! Diff-Path: ../patches/224/224-s-1704292604-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.7.39
-! TimeUpdated: 2024-01-03T05:32:19+00:00
+! Version: 2.1.7.43
+! TimeUpdated: 2024-01-03T14:32:17+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -605,8 +605,12 @@ pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117369
 1090ys8.com#%#//scriptlet("abort-on-property-read", "adBlockDetected")
 @@||cdn.bootcss.com/fuckadblock/3.2.1/fuckadblock.min.js$domain=1090ys8.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/169855
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119683
-waipian5.com#@#a[href*=".umtrack.com/"]
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#@#a[href*=".umtrack.com/"]
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#@#.player-rm > a[target="_blank"]
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#$#a[href*=".umtrack.com/"] { position: absolute !important; left: -3000px !important; }
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#$#.player-rm > a[target="_blank"] { position: absolute !important; left: -3000px !important; }
 ! https://github.com/uBlockOrigin/uAssets/issues/13003
 cocomanga.com#%#//scriptlet('prevent-setTimeout', 'loadErrorTip')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114239
@@ -636,7 +640,8 @@ linovelib.com#$#body[style] { overflow: auto !important; }
 linovelib.com#%#//scriptlet('set-constant', 'adblock', '0')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164798
 ! https://github.com/uBlockOrigin/uAssets/issues/10953
-@@||assets.tingfm.com/wp-content/themes/radio-hub/static/js/adpro.js$domain=tingfm.com
+@@/wp-content/themes/radio-hub/static/js/adpro.js$domain=tingfm.com
+tingfm.com#%#//scriptlet('set-constant', 'canRunAds', 'true')
 tingfm.com#%#//scriptlet('set-constant', 'can_run_ads', 'true')
 tingfm.com#%#//scriptlet("prevent-setTimeout", "adblock")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102824
@@ -945,6 +950,7 @@ x99av.com#%#//scriptlet('set-constant', 'ADSOBJET', 'emptyObj')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160509
 embedrise.com#%#//scriptlet('prevent-window-open')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158639
+aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-stack-trace', 'Object.prototype.ppmm', 'invokeInterstitial')
 ! https://github.com/uBlockOrigin/uAssets/issues/19027
 datapps.org#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick^="setpos"]')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/154174
@@ -1278,6 +1284,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+aiyifan.tv,iyf.tv##.video-player > .cc > .ng-star-inserted[style="position: relative;"]
 huya.com##.room-sidebar #public-screen-ab
 vidhub.me,vidhub.tv##.promolnk
 vidhub.me,vidhub.tv##.promote-link
@@ -6066,6 +6073,12 @@ newduba.cn###jq_youxi
 ||xlnvvbk.xyz^
 ||kggikf.icu^
 ||bkbbjtfp.xyz^
+||xkbbjtfp.xyz^
+||nhcdn.cn^
+||tkbbjtfp.xyz^
+||ahernssa.com^
+||rmhfrtnd.com^$third-party
+||mkbbjtfp.xyz^
 ||ukbbjtfp.xyz^
 ||zzyy20.top^
 ##[style*="sotv.me"]
