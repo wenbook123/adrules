@@ -1,9 +1,9 @@
-! Checksum: rp4D7+4LBn3KLJF5v1ebWg
-! Diff-Path: ../patches/224/224-s-1704692169-3600.patch
+! Checksum: z3HrnN3EMvyX2fH7wGJHOA
+! Diff-Path: ../patches/224/224-s-1704722624-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.7.85
-! TimeUpdated: 2024-01-08T05:32:29+00:00
+! Version: 2.1.7.88
+! TimeUpdated: 2024-01-08T13:59:36+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -485,6 +485,8 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170075
+caq98i.top#%#//scriptlet('abort-on-property-read', 'alertadmodal')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169925
 playwright.nodejs.cn#%#//scriptlet('set-constant', '_AdBlockInit', 'noopFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169356
@@ -2644,7 +2646,8 @@ fashionwaltz.com###single_reading
 fashionwaltz.com##.entry-content > div.copyright ~ div[style*="text-align:center;"]
 ||tui56.com/guanggao*.html
 duodada.com##.row > div[class] > div.page-header ~ div[style^="width:100%;"]
-ip138.com,av1868.com,edc1014070.pixnet.net###banner
+ip138.com###banana
+av1868.com,edc1014070.pixnet.net###banner
 av1868.com###totalStationAD
 dmhy.anoneko.com##div[id$="_adv"]
 51nongyao.net###reportPop
@@ -2982,6 +2985,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/170147
+||cdn77.org^*.mp4$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/163158
 ! https://github.com/AdguardTeam/AdguardFilters/issues/163150
 mfa.gov.cn,fmprc.gov.cn#@#.adbox2
@@ -6168,6 +6173,8 @@ newduba.cn###jq_youxi
 ||nenmu1obbi.info^
 ||szmtd.cn^
 ||btwwzqdx.xyz^
+||ttwwzqdx.xyz^
+||mtwwzqdx.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
