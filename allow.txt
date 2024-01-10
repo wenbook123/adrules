@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 2GzpADrIzNy+wRNrsCY6JQ
+! Checksum: w7T7gRzyfW4i+xUBW1OWkQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-01-10 08:48:12（北京时间） 
-! Total count: 14500
+! Version: 2024-01-10 16:16:35（北京时间） 
+! Total count: 14497
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -552,7 +552,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgca^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -921,7 +921,6 @@
 @@||ad-gone.com^
 @@||ad-img.gmarket.com/ads/$image,domain=gmarket.co.kr
 @@||ad-maven.com^$domain=ad-maven.com
-@@||ad-maven.com^$generichide
 @@||ad.*.ch^$xmlhttprequest,other,script,domain=tio.ch
 @@||ad.10010.com^
 @@||ad.12306.cn^$elemhide,subdocument,domain=95306.cn
@@ -1089,7 +1088,6 @@
 @@||adnet.pravda.com/examples/adriver.core.2.minifire.js
 @@||adnet.qq.com^$~third-party
 @@||adnews.me^$domain=adnews.me
-@@||adnews.me^$generichide
 @@||adnxs.com/ast/ast.js$domain=zone.msn.com
 @@||adnxs.com/ast/static/$domain=outlook.live.com
 @@||adnxs.com/prebid/prebid.js$domain=demo.ama.pub
@@ -8374,7 +8372,6 @@
 @@||live.indiatimes.com/trackjs.cms
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
 @@||live.primis.tech^$script,domain=eurogamer.net|loudwire.com|vg247.com|xxlmag.com
-@@||live.primis.tech^$script,domain=eurogamer.net|vg247.com|xxlmag.com
 @@||live.rezync.com^$script,domain=batteriesplus.com
 @@||live.simcitybuildit.com^
 @@||live.streamtheworld.com/*.aac
@@ -14271,7 +14268,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideadtop10.padright10.padleft10.minheight90
+@@||xfreehd.com^$generichidev[class^="col-md"] > div.widget:not([class*="widget_recent_entries"])
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
