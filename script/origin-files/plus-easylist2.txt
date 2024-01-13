@@ -27,8 +27,6 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlac
 m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 ! https://github.com/uBlockOrigin/uAssets/issues/15632
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
-! https://github.com/uBlockOrigin/uAssets/issues/7636#issuecomment-1453088841
-youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action)
 ! https://www.reddit.com/r/uBlockOrigin/comments/163cy47/youtube_antiadblock_and_ads_weekly_thread_august/jyemgzo/
 ||googlevideo.com/initplayback?source=youtube*&c=TVHTML5&oad=$xhr,domain=youtube.com
 
@@ -15049,15 +15047,13 @@ dailymaverick.co.za##+js(nostif, t(), 0)
 notiziemusica.it##+js(aopw, adBlockDetected)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7343
-dood.*##+js(acs, adcashMacros)
-dood.*,dooood.*##+js(acs, document.createElement, 'script')
 dood.*,doods.pro,dooood.*,ds2play.com##+js(aopw, DoodPop)
-d0o0d.com,dood.*,ds2video.com##+js(acs, decodeURI, decodeURIComponent)
+d0o0d.com,do0od.com,dood.*,ds2video.com##+js(acs, decodeURI, decodeURIComponent)
 dood.*##+js(aopr, __aaZoneid)
-d0o0d.com,dood.*,doods.pro,dooood.*,ds2play.com,ds2video.com##+js(nowoif)
-d0o0d.com,dood.*,doods.pro,doodstream.*,dooood.*,ds2play.com,ds2video.com##+js(rmnt, script, /adblock|popunder/)
-d0o0d.com,dood.*,doods.pro,doodstream.*,dooood.*,ds2play.com,ds2video.com##^script:has-text(/adblock|popunder/)
-/sw.js$script,domain=d0o0d.com|dood.*|doods.pro|dooood.*|ds2play.com|ds2video.com
+d0o0d.com,do0od.com,dood.*,doods.pro,dooood.*,ds2play.com,ds2video.com##+js(nowoif)
+d0o0d.com,do0od.com,dood.*,doods.pro,doodstream.*,dooood.*,ds2play.com,ds2video.com##+js(rmnt, script, /adblock|popunder/)
+d0o0d.com,do0od.com,dood.*,doods.pro,doodstream.*,dooood.*,ds2play.com,ds2video.com##^script:has-text(/adblock|popunder/)
+/sw.js$script,domain=d0o0d.com|do0od.com|dood.*|doods.pro|dooood.*|ds2play.com|ds2video.com
 ||declareave.com^
 ||dexchangegenius.com^
 
