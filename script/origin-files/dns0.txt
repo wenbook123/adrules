@@ -1,9 +1,9 @@
-! Checksum: RrFW0IC8EBPClK5rUa/dHg
-! Diff-Path: ../patches/224/224-s-1705131465-3600.patch
+! Checksum: vbD3KU/QAa5dAFTAPyGazw
+! Diff-Path: ../patches/224/224-s-1705199807-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.8.34
-! TimeUpdated: 2024-01-13T07:34:02+00:00
+! Version: 2.1.8.37
+! TimeUpdated: 2024-01-14T02:32:50+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4808,6 +4808,9 @@ newduba.cn###jq_youxi
 ##script + #rbbox
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
+##.module-tglist > .tg-normal-box
+##.page > .wp-none1
+##.homepage > .wp-none1
 ##script + div[id^="a-loading-"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
@@ -6268,6 +6271,16 @@ newduba.cn###jq_youxi
 ||ueumdkc.cn^
 ||bjrspnbf.xyz^
 ||waymom.xyz^
+||kpbqlqv.cn^
+||rmnsdh.xyz^
+||sunshijc.com^
+||imwxsu.xyz^
+||98wjse.top^
+||sdtsad.com^
+||caajol.icu^
+||otxlhpm.xyz^
+||53ynh.xyz^
+||c9ql2.com^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -15034,7 +15047,6 @@ yxbao.com###gs_down
 cncrk.com###gsxza
 121xz.com###gsxzdz
 cnr.cn###gtop00
-doubibackup.com###guangg_image
 jirou.com###guanggao
 creaders.net###guanggao2
 gasaq.com###guanggao_left
@@ -17724,9 +17736,10 @@ yes-news.com##.new-sidebar-today-300ad
 i-part.com.tw##.newAd
 ifeng.com##.newAdImg
 steelcn.cn##.new_fixed
+doubiuser.github.io,doubibackup.com#?#.custom-html-widget:-abp-has(div[style^="position"])
+github.io##.guangg
 mtrend.cn##.new_right > .morecontent_next
 mtrend.cn##.new_right > div[style="float:left; width:100%;"]:first-child
-doubibackup.com##.new_zixun
 ali213.net##.newright
 zhuzhai.com##.news-details-ad
 sydneytoday.com##.news-list > .row > .col-xs-12
@@ -18912,7 +18925,6 @@ ithome.com##a[href*="/lapin."] + .ad
 jandan.net##a[href*="/money.php?"]
 ikjzd.com##a[href*="/redirect-ad-url?"]
 xchina.fun##a[href*="/redirect/ad-"]
-doubibackup.com##a[href*="/rightad"]
 e0575.cn##a[href*="/showad.php?"]
 bt1207ma.xyz##a[href*="/uuribao.com/"]
 bt1207ma.xyz##a[href*="/uuribao.com/"] + .caption
