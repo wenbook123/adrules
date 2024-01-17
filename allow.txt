@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: b8HeLA+KXqWTbgBH5kNWPQ
+! Checksum: Nf5bb3lQ05knRu0Yrw6z9w
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-01-17 16:16:56（北京时间） 
-! Total count: 14529
+! Version: 2024-01-18 00:17:59（北京时间） 
+! Total count: 14544
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -95,10 +95,14 @@
 @@/WebAd/*$domain=yongyoujia.com
 @@/\/\d{5,7}$/$domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@/^https:\/\/127\.0\.0\.1:10039\/\?callback=jQuery[0-9]{20,}_[0-9]{13}&HW&[A-z0-9]{22}==&&0&0&/$stealth
-@@/^https:\/\/coomer\.su\/[a-z]{6,16}\/user\/[a-z]{6,16}\/post\/\d{8,9}$/$xhr,1p,match-case,method=post
 @@/^https:\/\/coomer\.su\/[a-z]{6,16}\/user\/[a-z]{6,16}\/post\/\d{8,9}$/$xmlhttprequest,~third-party,match-case,method=post,domain=coomer.su
-@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/(?:creator|post)\/(?:[a-z]{6,16}\/){1,2}\d{8,9}$/$xhr,1p,match-case,method=post
+@@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[a-z]+\/post\/[0-9a-zA-Z]+\/flag$/$xhr,1p,match-case,method=post
+@@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[a-z]+\/post\/[0-9a-zA-Z]+\/flag$/$xmlhttprequest,~third-party,match-case,method=post
 @@/^https:\/\/coomer\.su\/api\/v1\/favorites\/(?:creator|post)\/(?:[a-z]{6,16}\/){1,2}\d{8,9}$/$xmlhttprequest,~third-party,match-case,method=post,domain=coomer.su
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/creator\/(?:fansly|onlyfans)\/[a-z]+\/\d+$/$xhr,1p,match-case,method=post
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/creator\/(?:fansly|onlyfans)\/[a-z]+\/\d+$/$xmlhttprequest,~third-party,match-case,method=post
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/post\/(?:fansly|onlyfans)\/[a-z]+\/\d+$/$xhr,1p,match-case,method=post
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/post\/(?:fansly|onlyfans)\/[a-z]+\/\d+$/$xmlhttprequest,~third-party,match-case,method=post
 @@/^https:\/\/i\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/20\d{4}\/\d{2}\/\d{9}\/(?:original|thumbs_\d{2})\/\d{1,2}(?:\(m=e[0-9A-Za-z]{5,7}aaaa\)\(mh=[-_0-9A-Za-z]{16}\))?\.jpg$/$image,1p,domain=pussyspace.*
 @@/^https:\/\/i\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/20\d{4}\/\d{2}\/\d{9}\/(?:original|thumbs_\d{2})\/\d{1,2}(?:\(m=e[0-9A-Za-z]{5,7}aaaa\)\(mh=[-_0-9A-Za-z]{16}\))?\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/i\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs169l\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{32}(?:-\d)?\/[0-9a-f]{32}\.\d{1,2}\.jpg$/$image,1p,domain=pussyspace.*
@@ -109,10 +113,14 @@
 @@/^https:\/\/i\.pussyspace\.(?:com|net)\/jz\/(?:[0-9a-f]\/){3,5}[0-9a-f]{42}-?(?:\d{2,3}|(?:(?:\d{3,4}-){3}h264)?\.(?:mp4-\d{1,2}|flv-\d))\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/i\.pussyspace\.(?:com|net)\/sb\/t\/\d{6,8}\/\d\/\d\/w:300\/t\d{1,2}-enh\/(?:[0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,1p,domain=pussyspace.*
 @@/^https:\/\/i\.pussyspace\.(?:com|net)\/sb\/t\/\d{6,8}\/\d\/\d\/w:300\/t\d{1,2}-enh\/(?:[0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/kemono\.su\/[a-z]{6,16}\/user\/[a-z]{6,16}\/post\/\d{8,9}$/$xhr,1p,match-case,method=post
 @@/^https:\/\/kemono\.su\/[a-z]{6,16}\/user\/[a-z]{6,16}\/post\/\d{8,9}$/$xmlhttprequest,~third-party,match-case,method=post,domain=kemono.su
-@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/(?:creator|post)\/(?:[a-z]{6,16}\/){1,2}\d{8,9}$/$xhr,1p,match-case,method=post
+@@/^https:\/\/kemono\.su\/api\/v1\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/user\/\d+\/post\/[0-9a-zA-Z]+\/flag$/$xhr,1p,match-case,method=post
+@@/^https:\/\/kemono\.su\/api\/v1\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/user\/\d+\/post\/[0-9a-zA-Z]+\/flag$/$xmlhttprequest,~third-party,match-case,method=post
 @@/^https:\/\/kemono\.su\/api\/v1\/favorites\/(?:creator|post)\/(?:[a-z]{6,16}\/){1,2}\d{8,9}$/$xmlhttprequest,~third-party,match-case,method=post,domain=kemono.su
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/creator\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/\d+$/$xhr,1p,match-case,method=post
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/creator\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/\d+$/$xmlhttprequest,~third-party,match-case,method=post
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/post\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/\d+\/[0-9a-zA-Z]+$/$xhr,1p,match-case,method=post
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/post\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/\d+\/[0-9a-zA-Z]+$/$xmlhttprequest,~third-party,match-case,method=post
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,1p,domain=pussyspace.*
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,1p,domain=pussyspace.*
@@ -510,6 +518,7 @@
 @@adm.fwmrm.net/p/aetn_live/AdManager.swf$domain=mylifetime.com|aetnd.com
 @@analytics^$domain=wwe.com
 @@cdn.eporner.com^$stealth
+@@cdn.eporner.com^$stealth=referrer
 @@clicks.$domain=cimbclicks.com.my,~third-party
 @@cloudfront.net/index.js$domain=adn.com
 @@doubleclick.net/ads/preferences/
@@ -560,7 +569,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgherlink.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcorporatemr.americanexpress.co.uk^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -5027,6 +5036,8 @@
 @@||encodinghub.com^$generichide
 @@||encoretvb.com^$ghide
 @@||encripted-encripted-encripted-encripted-encripted-encripted.fun/r.php?data=*?vid=$stealth
+@@||endesaclientes.com/*/ruxitagentjs_*.js$domain=endesaclientes.com
+@@||endesaclientes.com^$cookie=dtCookie
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||engine.fyber.com^$app=net.wooga.tropicats_tropical_cats_puzzle_paradise
 @@||engine.widespace.com/map/provisioning?appId=com.sofoot$app=com.sofoot
@@ -10408,6 +10419,7 @@
 @@||plex.tv/api/v*/users/*?utm_source=$removeparam=utm_source,domain=watch.plex.tv
 @@||plex.tv/api/v2/geoip$xmlhttprequest
 @@||plex.tv/wp-content/themes/plex/assets/js/conditional/lib/fastclick.min.js
+@@||plground.live^$stealth=referrer
 @@||plotrabbit.com^$script,domain=cbssports.com
 @@||plplayer.online/log_event$~third-party,xmlhttprequest
 @@||plugin.intuitcdn.net/vep-collab-smlk-ui/assets/vendor/glance/cobrowse/
@@ -10994,6 +11006,7 @@
 @@||redbox.com/images/ads/pixel.png
 @@||redbull.com/gtm.js$~third-party
 @@||redcdn.pl/*/TVN-Adserver/*.mp4$xmlhttprequest,domain=miniminiplus.pl|teletoonplus.pl|tvnturbo.pl|tvn.pl
+@@||reddit.app.link^$stealth=useragent
 @@||reddit.com^$generichide
 @@||reddit.com^$generichide,badfilter
 @@||redditenhancementsuite.com/js/jquery.google-analytics.js
@@ -12709,6 +12722,7 @@
 @@||tag.aticdn.net/*/smarttag.js$domain=kicker.de
 @@||tag.aticdn.net/*/smarttag.js$domain=rte.ie
 @@||tag.aticdn.net/*/smarttag.js$domain=uktvplay.uktv.co.uk
+@@||tag.aticdn.net/piano-analytics.js$domain=choisirleservicepublic.gouv.fr
 @@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 @@||tag.aticdn.net^$script,domain=sport1.de
@@ -14301,7 +14315,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidetrackable-ad]
+@@||xfreehd.com^$generichide||trkunited.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
@@ -14450,6 +14464,7 @@
 @@||yt.upshrink.com/adex.js
 @@||yt3.ggpht.com^
 @@||ytimg.com^*_banner$domain=youtube.com
+@@||ytlarge.com/youtube/ad/cmbdv2.js
 @@||ytmp3.eu/en45/pagead/js/adsbygoogle.js$xmlhttprequest,~third-party
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 @@||yule.sohu.com^
