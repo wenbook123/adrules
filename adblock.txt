@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: crIE0mpb6gF75vHAn81MRg
+! Checksum: HDp1yfilGKOA/Kmp8stPHw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-01-28 08:48:02（北京时间） 
-! Total count: 75397
+! Version: 2024-01-28 16:15:06（北京时间） 
+! Total count: 75426
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -849,6 +849,7 @@
 ##.pagecon + .ad1
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
+##.pause-ad
 ##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
@@ -1210,6 +1211,7 @@
 ##[href*='.top/?token=']
 ##[href*='.xacg.info/']
 ##[href*='anrvl.com']
+##[href*='slkdnlkfnskl.com']
 ##[href*='snnrb.com']
 ##[href*='sohu.com/hy-op']
 ##[href*='zthbe.com']
@@ -1264,6 +1266,7 @@
 ##[onclick='gourl()'][src^='/images/bfq/']
 ##[onclick^="window.location.href='https://apps.apple.com/cn/app/%E9%80%9F%E9%98%85%E5%B0%8F%E8%AF%B4"]
 ##[poster^='https://dingbu.bj.bcebos.com/']
+##[rel='nofollow'][href^='/book/baidu_verify_code']
 ##[src$='/dibu.adadadad']
 ##[src*='zdmbl.xyz']
 ##[src='/images/c_l.png']
@@ -1279,6 +1282,7 @@
 ##[src^='https://ae01.alicdn.com/'][alt='歪歪漫画']
 ##[src^='https://dingbu.bj.bcebos.com/']
 ##[src^='https://immmg.owowqrf.cn']
+##[src^='https://kykqss.xyz']
 ##[src^='https://l.bt5v.com/v.php']
 ##[src^='https://play.cdn6.buzz/js/']
 ##[src^='https://qwe0231141.bj.bcebos.com/']
@@ -1405,6 +1409,7 @@
 ##a[href*=".sudun.com/"]
 ##a[href*=".supernfp.com/"]
 ##a[href*=".taobao.com"] > .top1
+##a[href*=".taobao.com"] > img[src*=".tucao."]
 ##a[href*=".tdchat.in"]
 ##a[href*=".tholikiranam.com/"]
 ##a[href*=".topnfb.com/"]
@@ -9846,9 +9851,9 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||ctrip.com/Customer-Market-Proxy/AdCallProxyV2.$~third-party
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
-@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|handelsblatt.com|mainichi.jp|marketwatch.com|tarzanweb.jp|tn.com.ar|wpb.shueisha.co.jp|wsj.com
-@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|computerbild.de|cyclestyle.net|handelsblatt.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|wsj.com
-@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|wsj.com
+@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|handelsblatt.com|inquirer.com|mainichi.jp|marketwatch.com|tarzanweb.jp|tn.com.ar|wpb.shueisha.co.jp|wsj.com
+@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|computerbild.de|cyclestyle.net|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|wsj.com
+@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|wsj.com
 @@||cy.com/hz/*/ad
 @@||cy.com^$generichide
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
@@ -12646,6 +12651,9 @@ csdn.net##li[data-type="ad"]
 csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 csdn.net#?#aside > div.slide-outer:has(> div.box > div[adsid])
 csdn.net,itboth.com,iteye.com,itkeyword.com###ad_pop
+csgoob.com###ADback
+csgoob.com##.lg\:basis-1
+csgoob.com##.lg\:sticky.lg\:top-22 > .card-shadow:not(.py-4)
 csgoob.com#$##ADback { background: none !important; }
 csgoob.com#?#div[class^="dark:shadow"]:has(> a[href^="https://www.k7csgo.com/"][target="_blank"])
 csgoob.com#?#div[class^="dark:shadow-none"]:has(> div.ant-carousel)
@@ -13219,7 +13227,7 @@ eepw.com.cn###startvideo
 eepw.com.cn##.AD300x200
 eeskill.com##.channel-featured-adv
 eet-china.com#?#.new-list > ul > li:has(> div.li-row > div > h2 > a[href^="http://pubads.g.doubleclick.net/gampad/"])
-eetop.cn,tucao.cam##.alert_windows
+eetop.cn##.alert_windows
 eeyy.cc###div_dn
 eeyy.cc##.ads650
 eeyy.com###beitou_box
@@ -17758,6 +17766,7 @@ sonimei.cn##.style03
 sonkwo.hk##.store-ad-waist
 soopat.com###SoopatAside
 sosg.net###postlist + .cc
+soshu888.net##[style$='width: 100vw; position: relative;']
 sou-yun.cn###ads_index_2
 soufun.com##.danmu_inbox
 soundofhope.org###itb_ads_catfish
@@ -17914,6 +17923,7 @@ taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 taiwancall.com##.gad
 taiwandaily.net##.gofollow[data-track] > img
 taiwanlibrarysearch.herokuapp.com#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
+taiwanus.net##td[width="900"] + td[width="320"]
 taizhou.com.cn##.duilian
 taizhou.com.cn##.duilian2
 talkfx.co###frameff1Hu9_left
@@ -18192,7 +18202,6 @@ ttsp.tv##.play_list_adbox
 ttzmz.vip###footer > div[style]
 ttzmz.vip###otherad
 ttzmz.vip##div[style^="margin-top:2"]
-tucao.cam##.header_rmb
 tuchong.com##.float
 tui18.com##.wp[style^="width:"]
 tuliu.com###red-envelope
@@ -18856,6 +18865,7 @@ xia1ge.com##.wsappad
 xia1ge.com##div[class^="category-iloveyou"]
 xiadele.com##.details-small-carousel
 xiadele.com##.yun-advertisement
+xian360.top##CENTER
 xianzhenyuan.cn##.sd_ad:not(#xztba)
 xianzhenyuan.cn##a[href*=".tmall.com"]:not(#xztba)
 xiaohongshu.com##.android.all-comment
@@ -21197,6 +21207,7 @@ zzzyk.com###Tinfo
 ||9miwo.com^
 ||9nl.eu^$third-party
 ||9odes.ltd^
+||9t51o.icu^
 ||9tata.com/js/Rand.js
 ||9tata.com/js/pbanner.js
 ||9tata.com/js/topxia.js
@@ -25481,6 +25492,7 @@ zzzyk.com###Tinfo
 ||ainu.intel.la^
 ||ainunu.*/vad.js
 ||aipp99.com/haose/
+||aiqu222.com/da/
 ||aiqu28.com/da/
 ||aiqu288.com/da/
 ||air2s.com^$third-party
@@ -28802,6 +28814,7 @@ zzzyk.com###Tinfo
 ||baike.com^$removeparam=view_id
 ||baike.sogou.com^$removeparam=ch
 ||baikebcs.bdimg.com/*banner*.jpg
+||baimakanshu.com/assets/public/
 ||baishuku.com/news/$script
 ||baitaiad.com^$third-party
 ||baitaiz.com^
@@ -31242,6 +31255,7 @@ zzzyk.com###Tinfo
 ||chewcoat.com^
 ||chexun.com/delivery?
 ||chexun.net/images/sales//cxgg/
+||chgpuxim.xyz^
 ||chgwwj.klimate.nl^
 ||chickadvisor.com/js/detect.min.js
 ||chickensstation.com^
@@ -34816,6 +34830,7 @@ zzzyk.com###Tinfo
 ||dj930.cn^$third-party
 ||dj97.com/api.php?mod=ad&
 ||djahkee.xyz^
+||djbgfit.com^
 ||djbztw.marimekko.com^
 ||djcnetb.icu^
 ||djicdn.com/uploads/ad_image_file/
@@ -34951,6 +34966,7 @@ zzzyk.com###Tinfo
 ||dmclick.cn^$third-party
 ||dmdentertainment.com^*/video_debug.gif?
 ||dmdi.pl^$third-party
+||dmdnlr.xyz^
 ||dmdt.io/collect
 ||dmeia.xyz^
 ||dmfjeu.xyz^
@@ -35413,6 +35429,7 @@ zzzyk.com###Tinfo
 ||dwerzv.xyz^
 ||dwfdsfkw.xyz^
 ||dwfjtz.xyz^
+||dwfohh.xyz^
 ||dwglgp.dunelm.com^
 ||dwhyjwrw.xyz^
 ||dwibjkdsn.com^
@@ -41050,6 +41067,7 @@ zzzyk.com###Tinfo
 ||hmgnjf.autoscout24.it^
 ||hmjhnkas.com^
 ||hmjs.cnmo-img.com.cn^
+||hmlkppk.cn^
 ||hmlvxk.julian-fashion.com^
 ||hmma.baidu.com^
 ||hmoctt.leboutique.com^
@@ -43401,6 +43419,7 @@ zzzyk.com###Tinfo
 ||intrastats.com^$third-party
 ||intuitvisitorid.api.intuit.com^
 ||intuitwebsites.com/tracking/
+||inudpbi.com^
 ||inv3te.oui.sncf^
 ||invata.actonservice.com^
 ||inventionpassenger.com^
@@ -44739,6 +44758,7 @@ zzzyk.com###Tinfo
 ||katelin.top^
 ||kattepush.com^$third-party
 ||katylz.lojaspompeia.com^
+||kaurieseluxate.com^
 ||kavijaseuranta.fi^$third-party
 ||kaxsdc.com^$third-party
 ||kayak.*/vestigo/measure
@@ -45291,6 +45311,7 @@ zzzyk.com###Tinfo
 ||kyikdee.cn^
 ||kyjoyk.modoza.com^
 ||kyjwtxei.xyz^
+||kykqss.xyz^
 ||kyloepartners.actonservice.com^
 ||kymahuxv.xyz^
 ||kyoufukudoucname.worldsmile.net^
@@ -45744,6 +45765,7 @@ zzzyk.com###Tinfo
 ||lendgo.com^$removeparam=rate
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
+||lengmen.cc/assets/public/
 ||lenosoft.net/js/ad
 ||lenovo.com.cn/cms/2018-07-20/201807201014498251793.png
 ||lenovo.com.cn/lenovo/bid?clientType=
@@ -46647,6 +46669,7 @@ zzzyk.com###Tinfo
 ||linyongming.top^
 ||lio8.destinia.com.pa^
 ||liosix.mtvuutiset.fi^
+||lioyfmp.cn^
 ||lishuaibin.cn^
 ||list-manage.com/track/
 ||list.fightforthefuture.org/mpss/o/*/o.gif
@@ -51495,6 +51518,7 @@ zzzyk.com###Tinfo
 ||motorsport.com/stat/
 ||motorsports.locktonaffinity.net^
 ||motrixi.com^$third-party
+||motsjnv.cn^
 ||motuopj.cn^
 ||mountain.zhidao.baidu.com^
 ||mountainouspear.com^
@@ -52508,6 +52532,7 @@ zzzyk.com###Tinfo
 ||nisihu.com.cn^
 ||nissifresh.com^
 ||nithisp.cn^
+||niticl.icu^
 ||nitrous-analytics.s3.amazonaws.com^
 ||niu07.com/gg/*.js
 ||niuacc.com/static/common/js/145.js
@@ -55588,6 +55613,7 @@ zzzyk.com###Tinfo
 ||pvn.rewe.de^
 ||pvnzrr.xyz^
 ||pvoheg.bubbleroom.se^
+||pvpdbth.xyz^
 ||pvtag.yahoo.co.jp^
 ||pvtest.zol.com.cn^
 ||pvx.xcar.com.cn^
@@ -57115,6 +57141,7 @@ zzzyk.com###Tinfo
 ||rltd.io/tags/
 ||rltdxt.com/files/h5/
 ||rmccajg.cn^
+||rmduuv.icu^
 ||rmgdapfnccsharpprd.azurewebsites.net^
 ||rmhfrtnd.com^$third-party
 ||rmhoffman.actonservice.com^
@@ -65720,6 +65747,7 @@ zzzyk.com###Tinfo
 ||tajs.qq.com^
 ||takigx.tourneau.com^
 ||takingbackjuly.com^
+||takjttz.cn^
 ||takqyi.laurenhi.jp^
 ||tala.net.anwalt.de^
 ||taldpq.francfranc.com^
@@ -69698,7 +69726,6 @@ zzzyk.com###Tinfo
 ||tubepornstars.com/js/analytics
 ||tubi.io/datascience/logging?
 ||tubitv.com/oz/performance/
-||tucao.cam/uploadfile/*/300-86.
 ||tufcum.margaretha.se^
 ||tuffhf.xyz^
 ||tugngs.tui.com^
@@ -70488,6 +70515,7 @@ zzzyk.com###Tinfo
 ||uslsxe.com^
 ||usmetric.rediff.com^
 ||usnews.com/static/esi/usn-geo.json
+||uspauline.com^
 ||usrkrz.zdravcity.ru^
 ||ussco-dev.actonservice.com^
 ||ussolutions.equifax.com^
@@ -70733,7 +70761,6 @@ zzzyk.com###Tinfo
 ||vdrn.redplum.com^
 ||vdtpuw.yellowoctopus.com.au^
 ||vdtxlt.xyz^
-||ve.kj-cy.cn^
 ||ve.velocityclinical.com^
 ||vec4o.fun^
 ||vec4o.top^
@@ -73578,6 +73605,7 @@ zzzyk.com###Tinfo
 ||xhcdn.com/js/*.track.min.js
 ||xhd.cn/topic/leyu-piaofu/
 ||xheqbc.cn^
+||xhgpuxim.xyz^
 ||xhi8.xyz^
 ||xhiit0n.xyz^
 ||xhit.com^$third-party
@@ -74473,6 +74501,7 @@ zzzyk.com###Tinfo
 ||ypcdbw.drive2.com^
 ||ypcdbw.drive2.ru^
 ||ypcngw.xyz^
+||ypdronhu.xyz^
 ||ypffkbpq.xyz^
 ||ypkxahje.xyz^
 ||ypoiea.xyz^
