@@ -1,9 +1,9 @@
-! Checksum: 13TQhXx0xJEQLE1e12IIlg
-! Diff-Path: ../patches/224/224-s-1706859515-3600.patch
+! Checksum: Ug7+3e3PS+yX199d4jPFHQ
+! Diff-Path: ../patches/224/224-s-1706881211-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.9.70
-! TimeUpdated: 2024-02-02T07:32:12+00:00
+! Version: 2.1.9.73
+! TimeUpdated: 2024-02-02T13:33:16+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4563,6 +4563,7 @@ newduba.cn###jq_youxi
 ##.no-mobile[style="position: fixed;right:0px;bottom: 0px;"]
 ##.opt > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.orbui-post
+##.orbui-site
 ##.overBanner.dowloadBtn
 ##.page > .wp-none1
 ##.page-wwads
@@ -6538,6 +6539,12 @@ newduba.cn###jq_youxi
 ||ctcxflak.xyz^
 ||gghhce96.shop^
 ||bqnmxza.cn^
+##a[href*=".ysmdhk.com/"]
+||bocenamesingle.xyz^
+||xtcxflak.xyz^
+||666bb777ww.com^
+||isigqno.com^
+||catwalkoutled.com^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -14055,6 +14062,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+liues.cn##.AD
+liues.cn##.widget-graphic-cover
+laoliublog.cn##.widget_media_image
+laoliublog.cn##.widget_custom_html
+photopea.com##.flexrow > div[style^="padding-top:"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -19759,6 +19771,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||520cc.cc/api/jspopunder.
 @@||520cc.cc/jspopunder.
 @@||520cc.cc^*/ad.php
+@@||chineseanime.vip^$generichide
 @@||5278.cool^$generichide
 @@||52zy.com/gg/
 @@||58.com/adJump?adType=
@@ -20167,7 +20180,6 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
 @@||petrochina.com.cn/advertisement_
 @@||pg-wuming.com^$generichide
-@@||photopea.com/ads.js
 @@||piccool.com/2home/phpAdsNew/
 @@||pinduoduo.com/advert/$~third-party
 @@||pkstep.com^$generichide
