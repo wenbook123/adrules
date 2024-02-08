@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: zGD0o6l/Cbey2Hf0JpBhaA
+! Checksum: t226FrHYkuPpQA/CAeGnMw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-02-08 16:15:59（北京时间） 
-! Total count: 14528
+! Version: 2024-02-09 00:16:13（北京时间） 
+! Total count: 14532
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -564,6 +564,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||www.csr31.net.anwalt.de^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1023,7 +1024,6 @@
 @@||adbull.me^$generichide
 @@||adbull.me^$stealth
 @@||adcdn.pingan.com^
-@@||adconsent.samsungrs.com^$app=com.samsung.android.rubin.app
 @@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
 @@||addicted-sports.com/piwik/piwik.js
 @@||addicted.es^*/ad728-$image,~third-party
@@ -9939,6 +9939,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=realadmin.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=receive-sms-online.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rekidai-info.github.io
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rte.ie
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sammobile.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=satdl.com
@@ -11046,7 +11047,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jslpx.qantas.com^
+@@||reseguiden.se^*.siteCatalyst.jse
+@@||reseguiden.se^*.siteCatalyst.jsmail.malamawealth.com$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14298,6 +14300,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide div[id^="post"] > center:not([class]):not([id]):not([style])
+@@||xfreehd.com^$generichideba.js
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
@@ -14445,7 +14449,7 @@
 @@||yt.upshrink.com/adex.js
 @@||yt3.ggpht.com^
 @@||ytimg.com^*_banner$domain=youtube.com
-@@||ytlarge.com/youtube/ad*/froloa.js
+@@||ytlarge.com/youtube/*/froloa.js
 @@||ytlarge.com/youtube/ad/
 @@||ytlarge.com/youtube/css/$script
 @@||ytmp3.eu/en45/pagead/js/adsbygoogle.js$xmlhttprequest,~third-party
