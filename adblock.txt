@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: XZJ7cRrm/GTXlo/jYYcZ6w
+! Checksum: YWx+97ulAr+/4NgmL8klIg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-02-11 08:48:46（北京时间） 
-! Total count: 81605
+! Version: 2024-02-11 16:14:22（北京时间） 
+! Total count: 81630
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -292,6 +292,8 @@
 ###player_pause > .tip + a[target="_blank"]
 ###player_pause[style^="position"] > a[target="_blank"]
 ###pop_hongbao
+###popadv_popmask
+###popadv_popmenu
 ###popup.t
 ###pp-modal-id
 ###projectpostbody > a[target="_blank"]
@@ -545,6 +547,7 @@
 ##.ads_all > .ads_w
 ##.ads_desktop
 ##.ads_mobile
+##.ads_plugin
 ##.adsbygoogle
 ##.adsense160
 ##.adsense200
@@ -664,6 +667,7 @@
 ##.content_ad_300
 ##.corner-gg
 ##.couplet_9cb0d
+##.coupletad
 ##.ct-ad-article-wrapper
 ##.ctm_ad
 ##.cui-pt-item[data-qhb]
@@ -4341,6 +4345,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /adver.
 /advert.
 /advert/*
+/advert/youxi.js
 /advert2.
 /advert_
 /advertise/*
@@ -8917,6 +8922,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 9xav.cc#$##alert_windows { display: none !important; }
 9xav.cc#%#//scriptlet('remove-class', 'q-body--prevent-scroll', 'body')
 9xav.cc#?#div[class]:not([class*=" "]):has(> span[class*=" "] > a[href^="https://"][target="_blank"])
+9y01.xyz##.in-friends
 ://*.tv/ad/$domain=~moviedj.tv
 ://*.z*.xyz/$object,third-party
 ://*:*/chunyu.html?k=$csp=script-src
@@ -10156,7 +10162,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||kaitao.cn/public/wenda/ad/css/ds-un-detail.css
 @@||kameleoon.eu/images/$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
-@@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com
+@@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
 @@||kameleoon.io/geolocation^$domain=welt.de
 @@||kameleoon.io/ip^$domain=welt.de
 @@||kaptcha.com/collect/sdk?$domain=palmettostatearmory.com|wyze.com
@@ -12103,6 +12109,7 @@ ce.cn,chenjiayu.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,likefon
 ceiea.com##.adclass2019
 centoschina.cn##a[href="https://www.linuxprobe.com/"]
 cesafe.com,kkpan.com,yxdj.com.cn##.m-a-linktwo
+cgdyx.com##.zib-slider
 cger.com,pcsoft.com.cn#@#.share_box
 cgown.com##.banner-gg
 cgown.com##.breadcrumb-gg
@@ -14199,6 +14206,7 @@ huaban.com#@#img[width="240"][height="400"]
 huaban.com#@#img[width="240px"][height="400px"]
 huaban.com,start.firefoxchina.cn##.extra
 huaban.com,zcool.com.cn##.ad
+huaijiufu.com###wp > center
 hualongxiang.com##.bbs_box_gg
 hualongxiang.com##.khd_b
 hualongxiang.com##.quick_reply_ad
@@ -16448,6 +16456,7 @@ nivod7.tv##.nav-ads
 nivod7.tv,nivod5.tv,nivod4.tv#%#//scriptlet('set-constant', 'detailParams.is_ad_play', 'false')
 nlc.gov.cn###lovexin12xx
 nmgnews.com.cn###div_ad4
+nnhanman.net##div[style="width:728px;padding-top: 8px;"]
 nobugin.com##.td-a-rec
 nodejs.cn###biz_center
 nodejs.cn###biz_nav
@@ -21026,6 +21035,7 @@ zzzyk.com###Tinfo
 ||9wsbf.top^
 ||9xf9qkz5.com^
 ||9xu.com^$third-party
+||9y01.xyz/app/index.html
 ||9ya.net/con/ad
 ||9ye.com/Files/Editor/ad/
 ||9ywl0cwf7e37m5yi.tapin.gg^
@@ -31629,6 +31639,7 @@ zzzyk.com###Tinfo
 ||ccztgy.elgiganten.dk^
 ||cd.chemistanddruggist.co.uk^
 ||cdanjoyner4374.myre.io^
+||cdazjxso.xyz^
 ||cdc.gov^$removeparam=ACSTrackingID
 ||cdc.gov^$removeparam=ACSTrackingLabel
 ||cdc.gov^$removeparam=deliveryName
@@ -33919,6 +33930,7 @@ zzzyk.com###Tinfo
 ||ctvrtrya.xyz^
 ||ctwqxs.autoscout24.at^
 ||ctx.citiservi.es^
+||ctydsy.xyz^
 ||ctyjsf.cellphones.com.vn^
 ||ctyojp.kibek.de^
 ||cubchannel.com^
@@ -36175,6 +36187,7 @@ zzzyk.com###Tinfo
 ||doccd.xyz^
 ||docer.org/static/utils/jquery.min.js
 ||doceree.com^$third-party
+||docfj.cyou^
 ||docin.com/building/getAdvById.
 ||docin.com/docin_adv/
 ||docin.com/jsp_cn/ad/
@@ -40660,6 +40673,8 @@ zzzyk.com###Tinfo
 ||ggsfq.xyz^$third-party
 ||ggsnyc.xyz^
 ||ggtp-1255424916.cos.ap-chengdu.myqcloud.com^
+||ggttbe961.shop^
+||ggttmu853.shop^
 ||ggw.gusuwang.com^
 ||ggw.watertu.com^
 ||ggwan.com^$third-party,domain=~linghit.com
@@ -43055,6 +43070,7 @@ zzzyk.com###Tinfo
 ||huaren.us/banners/
 ||huaren.us/bbs_ads/
 ||huarenjie.com/attachment/myfiles/
+||huatmp.icu^
 ||huatuo.qq.com^
 ||huaweinnd.top^
 ||huaxia.name^
@@ -49685,6 +49701,7 @@ zzzyk.com###Tinfo
 ||lrpoland.wolterskluwer.com^
 ||lrqpyhn.icu^
 ||lrslovakia.wolterskluwer.com^
+||lrxdnyq.cn^
 ||lryqef.xyz^
 ||lrytas.lt/counter/
 ||lsancil.top^
@@ -55646,6 +55663,7 @@ zzzyk.com###Tinfo
 ||nhpwwd.cn^
 ||nhqkbl.semilac.pl^
 ||nhscv.cn^
+||nhvgrb.xyz^
 ||nhyvhmvw.com^
 ||ni8.lafuma-boutique.com^
 ||ni8.lafuma.com^
@@ -66964,6 +66982,7 @@ zzzyk.com###Tinfo
 ||smuc.cnnfootballclub.com^
 ||smuengage.smu.edu.sg^
 ||smutty.com/ajax/trcking/
+||smxflvz.cn^
 ||smy.iheart.com^
 ||smzy.com/v1/img/
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/dxf.js
@@ -72430,6 +72449,7 @@ zzzyk.com###Tinfo
 ||tkelq.genesys.com^
 ||tkgaws.seokplant.com^
 ||tkjcqb.forrent.com^
+||tklivechat.com/widgets/$third-party
 ||tklnzv.xyz^
 ||tkmeyf.houseoflotus.jp^
 ||tknkfd.xyz^
@@ -72682,6 +72702,7 @@ zzzyk.com###Tinfo
 ||topstat.cn^$third-party
 ||topstat.com^$third-party
 ||topthink.com/api/basic/
+||toptoon03.xyz/app/tuijian.html
 ||toptracker.ru^$third-party
 ||toqsxdpx.xyz^
 ||torbit.com^$third-party
@@ -79606,6 +79627,7 @@ zzzyk.com###Tinfo
 ||xcwzq.xyz^
 ||xcysqq.com^
 ||xdaoxa.footasylum.com^
+||xdazjxso.xyz^
 ||xdbchs.bradfordexchange.com^
 ||xdcad.net/source/plugin/disad/disad.js
 ||xddzshop.com^
@@ -80228,6 +80250,7 @@ zzzyk.com###Tinfo
 ||yb0a.xyz^
 ||ybcnvqf.cn^
 ||ybedus.xyz^
+||ybf1o.online^
 ||ybixvc.top^
 ||ybotvisit.com^$third-party
 ||ybrbdft.xyz^
@@ -80350,6 +80373,7 @@ zzzyk.com###Tinfo
 ||yhjccj.cn^
 ||yhjgjk.wemakeup.it^
 ||yhjh04.com^
+||yhlpshi.xyz^
 ||yhlzadr.xyz^
 ||yhmeinv.com/mh/
 ||yhnvgdkw.xyz^
@@ -80486,6 +80510,7 @@ zzzyk.com###Tinfo
 ||ylrjnhxi.xyz^
 ||ylsjdq.jegs.com^
 ||ylsjka.conranshop.jp^
+||ylwrdnrw.xyz^
 ||ylykd.cn^
 ||ylypzbzs.xyz^
 ||ylznwl.cn^
