@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: kzsm1sM0Mxc0Hx/QxGJvLw
+! Checksum: Tt7EP2szrnJxkJl9KXKjgg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-02-14 08:45:45（北京时间） 
-! Total count: 81673
+! Version: 2024-02-14 16:16:01（北京时间） 
+! Total count: 81689
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1074,6 +1074,7 @@
 ##A[href^='https://www.nonstopclub.xyz']
 ##A[href^='https://www.pcjx365.com']
 ##A[href^='https://yongle008.com']
+##A[onclick$="'clicked', 'ad');"]
 ##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
 ##A[rel='nofollow noopener'][href*='/game/xr/?attributionId=']
 ##A[style='width: 100%;height: 150px;z-index:1000;position: absolute;display:block;top: 0px;'][onclick$=';this.style.display="none";']
@@ -3394,6 +3395,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 *ref=easywithai*$doc,removeparam=/^ref=easywithai$/
 *ref=exploit.media*$doc,removeparam=/^ref=exploit.media$/
 *ref=labs.watchtowr.com*$doc,removeparam=/^ref=labs.watchtowr.com$/
+*ref=upstract.com*$doc,removeparam=/^ref=upstract.com$/
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
@@ -15735,10 +15737,10 @@ m.mi.com##.download-app-go
 m.mydrivers.com###content > .ab
 m.mydrivers.com###content > .bb
 m.mydrivers.com##div[style$="px 0px 0px 0px;text-align:center;"]
-m.nivod4.tv,m.nivod5.tv###hellBoy > li:not([track-by]) > img
-m.nivod4.tv,m.nivod5.tv###video-container + ul[style^="width:"] > li > img
-m.nivod5.tv,m.nivod4.tv#?##hellBoy > li[track-by="$index"] > div[style] > .show-div:has(> .show-card > .update-play:contains(/^AD$/))
-m.nivod5.tv,m.nivod4.tv#?#.slider-group > .nut-swiper > .nut-swiper-inner > .nut-swiper-item:has(> .swiper-page > span:contains(/^AD/))
+m.nivod7.tv,m.nivod4.tv,m.nivod5.tv###hellBoy > li:not([track-by]) > img
+m.nivod7.tv,m.nivod4.tv,m.nivod5.tv###video-container + ul[style^="width:"] > li > img
+m.nivod7.tv,m.nivod5.tv,m.nivod4.tv#?##hellBoy > li[track-by="$index"] > div[style] > .show-div:has(> .show-card > .update-play:contains(/^AD$/))
+m.nivod7.tv,m.nivod5.tv,m.nivod4.tv#?#.slider-group > .nut-swiper > .nut-swiper-inner > .nut-swiper-item:has(> .swiper-page > span:contains(/^AD/))
 m.nivod7.tv,m.nivod5.tv,m1.nivod.tv,m.nivod4.tv#%#(function(){window.eval=new Proxy(eval,{apply:(a,b,c)=>{if(c[0]&&c[0].includes("commercial")&&c[0].startsWith("(")&&c[0].endsWith(")")){let a=c[0].slice(1).slice(0,-1),b=JSON.parse(a);b.entity?.commercial&&(b.entity.commercial=void 0),c[0]=`(${JSON.stringify(b)})`}return Reflect.apply(a,b,c)}})})();
 m.nownews.com##.ui-footer-fixed
 m.nownews.com##a[href^="http://ad1.nownews.com"]
@@ -20960,6 +20962,7 @@ zzzyk.com###Tinfo
 ||996000996.xyz/ga/$image,domain=yaociyuan.bid
 ||9984342.reddoorz.in^
 ||99886aaa.com^
+||998sus.com^
 ||9999961.com/JS/bofang.js
 ||9999961.com/JS/daohang.js
 ||9999961.com/JS/lianmeng.js
@@ -32528,6 +32531,7 @@ zzzyk.com###Tinfo
 ||clovercabbage.com^
 ||cloverleaf.infor.com^
 ||clp-mms.cloudpro.co.uk^
+||clplrhum.xyz^
 ||clqkqq.com^
 ||clrjnhxi.xyz^
 ||clrt.ai^
@@ -36045,6 +36049,7 @@ zzzyk.com###Tinfo
 ||dl8.me^$third-party
 ||dlads.cn^
 ||dlads.cn^$third-party
+||dlbghx.xyz^
 ||dldev.wooribank.com.kh^
 ||dlesjf.jutarnji.hr^
 ||dlh1.hilton.com^
@@ -45898,6 +45903,7 @@ zzzyk.com###Tinfo
 ||iwandlo.top^
 ||iwantglobal.actonservice.com^
 ||iwarship.net/wowsdb/static/img/banner.png
+||iwatojc.cn^
 ||iwebtrack.com^$third-party
 ||iweiweb.com^
 ||iwgfdj.iko-yo.net^
@@ -50179,6 +50185,7 @@ zzzyk.com###Tinfo
 ||mahua.com/api/$subdocument
 ||mahua.com/www/default/js/mahua_show.js
 ||mahua.com/www/default/js/replace_ab.js
+||mai22uc.cn^
 ||maiche.com/iframe/rank.html
 ||mail-app.com/pvtracker/
 ||mail-rite.actonservice.com^
@@ -54743,6 +54750,7 @@ zzzyk.com###Tinfo
 ||mqldrm.lgcity.ru^
 ||mqrupjsm.xyz^
 ||mqsicr.smiggle.co.uk^
+||mqsnce.xyz^
 ||mquwyx.engelhorn.de^
 ||mqvyob.vidaxl.fi^
 ||mqxnid.cn^
@@ -55773,6 +55781,7 @@ zzzyk.com###Tinfo
 ||njtprv.xyz^
 ||njupt-sacc.com^
 ||njxnsb.paodeacucar.com^
+||njxraqb.xyz^
 ||njxzwh.com/pcsoft/statics/ycgg/
 ||njzyjy.cn^
 ||nkarmh.jmbullion.com^
@@ -60590,6 +60599,7 @@ zzzyk.com###Tinfo
 ||rfrhfh.xyz^
 ||rfto9i.icu^
 ||rfxnff.xyz^
+||rgdcrt.xyz^
 ||rgecga.piary.jp^
 ||rgiixp.sperry.com^
 ||rgmseo.thejewellershop.com^
@@ -75669,6 +75679,7 @@ zzzyk.com###Tinfo
 ||ttnwxhjv.xyz^
 ||ttpybz.xyz^
 ||ttrace.ru^$third-party
+||ttrruq749.shop^
 ||tttppp.oss-cn-guangzhou.aliyuncs.com^
 ||tttxx.cn^$third-party
 ||ttvosc.com^
@@ -75968,6 +75979,8 @@ zzzyk.com###Tinfo
 ||u644.fun^
 ||u652.myplainview.com^
 ||u66099.com^
+||u68t5.icu^
+||u78s.top^
 ||u7s546.com^
 ||u833ij.com^
 ||u88.cn^$third-party
@@ -79903,6 +79916,7 @@ zzzyk.com###Tinfo
 ||xljqqe.hsn.com^
 ||xlkdbbvy.xyz^
 ||xlnvvbk.xyz^
+||xlplrhum.xyz^
 ||xlpu.cc/adv/
 ||xlrjnhxi.xyz^
 ||xls.go.sohu.com^
@@ -80323,6 +80337,7 @@ zzzyk.com###Tinfo
 ||ydhfvrug.xyz^
 ||ydjfdkcv.com^
 ||ydjs.zol.com.cn^
+||ydmnlxtu.xyz^
 ||ydolhlwq.xyz^
 ||ydosfw.filippa-k.com^
 ||ydqcjy.cn^
@@ -80903,6 +80918,7 @@ zzzyk.com###Tinfo
 ||yyi7.consobaby.de^
 ||yylady.cn^
 ||yynncbn.cn^
+||yyodimq.cn^
 ||yyqlpi.danmusikk.no^
 ||yyrtip.mujkoberec.cz^
 ||yyselrqpyu.com^
