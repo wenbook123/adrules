@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: dP6rus9f1pj77ILnA+/y6g
+! Checksum: fogrJ+0JYrFpL7H+LS54CA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-02-20 16:16:13（北京时间） 
-! Total count: 14426
+! Version: 2024-02-21 00:17:33（北京时间） 
+! Total count: 14434
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -72,6 +72,7 @@
 @@.mp4$domain=crunchyroll.com,stealth
 @@.myvi.ru^$stealth
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
+@@.online^$xmlhttprequest,stealth=referrer,domain=playru.net
 @@.pexcard.com^$jsinject,elemhide,extension
 @@.php?play_vid=$subdocument,stealth=referrer,domain=xyflv.cc
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
@@ -564,7 +565,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgenviedefraise.fr^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1323,6 +1323,7 @@
 @@||agar.io/js/*.js
 @@||agar.pro^$ghide
 @@||agenciatributaria.gob.es^$removeparam
+@@||aggregator.eu.usercentrics.eu/aggregate/$domain=dealer.porsche.com
 @@||aggregator.service.usercentrics.eu/aggregate/$domain=aldi.pl
 @@||aggregator.service.usercentrics.eu/aggregate/$domain=flaschenpost.de
 @@||aggregator.service.usercentrics.eu/aggregate/*templates=$domain=highsnobiety.com
@@ -2647,6 +2648,7 @@
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=time.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=wgntv.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=wivb.com
+@@||c.amazon-adsystem.com/aax2/apstag.js$domain=worldsurfleague.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=diep.io
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=mylifetime.com
 @@||c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js$domain=atozmath.com
@@ -3924,6 +3926,8 @@
 @@||concertads-configs.vox-cdn.com/sbn/verge/config.json$domain=theverge.com
 @@||config.*.usercentrics.eu/gvl/*/*.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||config.eu.usercentrics.eu/gvl/v3/en.json$domain=wetter.com
+@@||config.eu.usercentrics.eu/settings/*.json$domain=dealer.porsche.com
+@@||config.eu.usercentrics.eu/translations/*.json$domain=dealer.porsche.com
 @@||config.inmobi.com^$app=com.picsart.studio
 @@||config.playwire.com/*/zeus.json$domain=explosm.net
 @@||config.uca.cloud.unity3d.com^$app=com.rovio.baba
@@ -4144,6 +4148,7 @@
 @@||coop-land.ru/templates/*/js/adfox/admixer.js
 @@||copilog2.jp/*/webroot/ad_img/$domain=ikkaku.net
 @@||copypastecharacter.com^$generichide
+@@||coral.coralproject.net^$stealth
 @@||core-nmaps-renderer-nmaps.maps.yandex.net/tile?x=$stealth
 @@||core.windows.net^*/annonser/$image,domain=kmauto.no
 @@||corel.com^
@@ -10311,6 +10316,7 @@
 @@||playnewserie.xyz^$stealth
 @@||playok.com^$ghide
 @@||playoverwatch.com/static/externals/cookie-consent-filter-compat.js
+@@||playru.net/*.php$stealth=referrer
 @@||playshakespeare.com/*/js/prebid-ads.js
 @@||playtube.ws/ad/banner/*.json
 @@||playtube.ws/js/pop.js
@@ -10969,7 +10975,6 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsnts/pub/common/js/I2A.js
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11569,6 +11574,7 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_108.js^$domain=pocketnow.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=abccar.com.tw
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=line.me
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=worldsurfleague.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=downdetector.in
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=independent.co.uk
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=weather.com
@@ -13413,6 +13419,7 @@
 @@||usercentrics.eu^$domain=hornbach.de
 @@||usercentrics.eu^$domain=joyn.at
 @@||usercentrics.eu^$domain=kicker.de
+@@||usercentrics.eu^$domain=liebscher-bracht.com
 @@||usercentrics.eu^$domain=paketshop.myhermes.de
 @@||usercentrics.eu^$domain=villeroy-boch.fr
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=atv.at|bayer04.de|douglas.de|festool.at|festool.be|festool.bg|festool.ch|festool.cn|festool.co.kr|festool.co.uk|festool.co.za|festool.com|festool.cz|festool.de|festool.dk|festool.es|festool.fi|festool.fr|festool.hu|festool.ie|festool.it|festool.lt|festool.nl|festool.no|festool.pl|festool.pt|festool.ro|festool.ru|festool.se|festool.sk|festool.ua|festoolcanada.com|festoolusa.com|flaschenpost.de|highsnobiety.com|immowelt.de|joyn.de|kicker.de|morenutrition.de|paketshop.myhermes.de|postbank.de|prosieben.at|puls4.com|ran.de|sat1.at|schlager.radio|sportdeutschland.tv|srf.ch|verivox.de|wetter.com
@@ -14199,7 +14206,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide##.ehgtMe.sc-ed3f1eaf-1
+@@||xfreehd.com^$generichideom,geeksided.com,gigemgazette.com,glorycolorado.com,gojoebruin.com,goldengatesports.com,gonepuckwild.com,greenstreethammers.com,guiltyeats.com,hailfloridahail.com,hailwv.com,halohangout.com,hardwoodhoudini.com,hiddenremote.com,highposthoops.com,hookemheadlines.com,hoopshabit.com,hoosierstateofmind.com,horseshoeheroes.com,hotspurhq.com,houseofhouston.com,housethathankbuilt.com,howlinhockey.com,huskercorner.com,insideibrox.com,insidetheiggles.com,insidetheloudhouse.com,interheron.com,jaysjournal.com,jetswhiteout.com,justblogbaby.com,kardashiandish.com,kckingdom.com,keepingitheel.com,kingjamesgospel.com,kingsofkauffman.com,krakenchronicle.com,lakeshowlife.com,lasportshub.com,lastnighton.com,lawlessrepublic.com,lobandsmash.com,localpov.com,lombardiave.com,mancitysquare.com,marlinmaniac.com,maroonandwhitenation.com,milehighsticking.com,mlsmultiplex.com,motorcitybengals.com,musketfire.com,netflixlife.com,newcastletoons.com,nflspinzone.com,ninernoise.com,nolanwritin.com,northbankrsl.com,nothinbutnets.com,nugglove.com,octopusthrower.com,oilonwhyte.com,oldjuve.com,olehottytoddy.com,orangeintheoven.com,orlandomagicdaily.com,otowns11.com,paininthearsenal.com,pelicandebrief.com,penslabyrinth.com,phinphanatic.com,pippenainteasy.com,pistonpowered.com,playingfor90.com,pokespost.com,poppicante.com,precincttv.com,predlines.com,predominantlyorange.com,princerupertstower.com,progolfnow.com,psgpost.com,puckettspond.com,puckprose.com,pucksandpitchforks.com,pucksofafeather.com,raisingzona.com,ramblinfan.com,ranchesandreins.com,raptorsrapture.com,rayscoloredglasses.com,razorbackers.com,redbirdrants.com,reddevilarmada.com,redshirtsalwaysdie.com,reignoftroy.com,reportingkc.com,reviewingthebrew.com,rhymejunkie.com,riggosrag.com,rinkroyalty.com,ripcityproject.com,risingapple.com,roxpile.com,rubbingtherock.com,rumbunter.com,rushthekop.com,sabrenoise.com,saintsmarching.com,saturdayblitz.com,scarletandgame.com,section215.com,senshot.com,showsnob.com,sidelionreport.com,sircharlesincharge.com,skyscraperblues.com,slapthesign.com,soaringdownsouth.com,sodomojo.com,soundersnation.com,southboundanddown.com,southsideshowdown.com,spacecityscoop.com,spartanavenue.com,sportdfw.com,stairwayto11.com,starsandsticks.com,stillcurtain.com,stormininnorman.com,stormthepaint.com,stripehype.com,survivingtribal.com,swarmandsting.com,teaandbanter.com,tenntruth.com,terrapinstationmd.com,thatballsouttahere.com,thecanuckway.com,thecelticbhoys.com,thehuskyhaul.com,thejetpress.com,thejnotes.com,thelandryhat.com,theparentwatch.com,thepewterplank.com,theprideoflondon.com,therattrick.com,therealchamps.com,thesixersense.com,thesmokingcuban.com,thetimberlean.com,thetopflight.com,theviewfromavalon.com,thevikingage.com,throughthephog.com,thunderousintentions.com,tipofthetower.com,titansized.com,tomahawktake.com,torontoreds.com,torotimes.com,tripsided.com,trumanstales.com,undeadwalking.com,underthelaces.com,unionandblue.com,valleyofthesuns.com,vegashockeyknight.com,venomstrikes.com,victorybellrings.com,vivaligamx.com,whitecleatbeat.com,whodatdish.com,wildcatbluenation.com,winteriscoming.net,withthefirstpick.com,wizofawes.com,wreckemred.com,writingillini.com,yanksgoyard.com,yellowjackedup.com,zonazealots.com#$##main { min-height: calc(100%) !important; }
+@@||xfreehd.com^$generichideowzers.lol^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
