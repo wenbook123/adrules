@@ -1,9 +1,9 @@
-! Checksum: w2SfmUeLOrf5z0n868vCyw
-! Diff-Path: ../patches/224/224-s-1708558596-3600.patch
+! Checksum: oKxhtagmSc8q4H4BPpGt2Q
+! Diff-Path: ../patches/224/224-s-1708587433-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.11.17
-! TimeUpdated: 2024-02-21T23:32:31+00:00
+! Version: 2.1.11.20
+! TimeUpdated: 2024-02-22T07:32:34+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4800,7 +4800,7 @@ newduba.cn###jq_youxi
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
-##body.desktop span[class^="c"] > a[href^="http"][rel="nofollow"][target="_blank"]
+##body.desktop[style^="-"] span[class*=" "] > a[href^="http"][rel="nofollow"][target="_blank"]
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
@@ -4971,6 +4971,9 @@ newduba.cn###jq_youxi
 ||wkywrc.cn^
 ||rarcff.xyz^
 ||phvfevk.xyz^
+||rydyvv.xyz^
+||zopuqv.icu^
+||ebgwdon.cn^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
@@ -16405,7 +16408,6 @@ pan.baidu.com##.decrease-active
 sm.ms##.detail-advert
 dytt5.net##.detail-body > .fly-panel
 17qingsong.com##.detail-gads
-pc.qq.com##.detail-install-fast
 360kuai.com##.detail-top-banner
 ali213.net##.detailAlertBox > a[style]
 360kuai.com##.detail__top__title__under
