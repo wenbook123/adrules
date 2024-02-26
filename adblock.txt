@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 2Fz0VZ7jpLwGljp4o9U8Qw
+! Checksum: sNRI6vIDM9tatTvdieNd6A
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-02-26 16:16:22（北京时间） 
-! Total count: 81415
+! Version: 2024-02-27 00:15:49（北京时间） 
+! Total count: 81418
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9074,6 +9074,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ?statify_referrer=
 ?type=page&event=
 ?type=pageview&
+@@$doc,removeparam=/^.*_dest_url=.*$/
 @@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
 @@-social-bar.$domain=mobi.yahoo.com
 @@.adserver.$domain=litv.tv
@@ -9591,7 +9592,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.mipcdn.com^$domain=prpcoin.com
 @@||c.paypal.com/da/r/fb.js$script
-@@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
+@@||c.webtrends-optimize.com/acs/$image,script,domain=tvlicensing.co.uk
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
@@ -9907,6 +9908,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||ganji.com/findjob/send_resume.*&ad_type=
 @@||gaus.ee^$generichide
 @@||gboku.com^$generichide
+@@||gdh.postcodeloterij.nl/gdltm.js$domain=vriendenloterij.nl
 @@||geekbang.org/resource/image/ad/14/addb521e20de1a302206f4286eac3914.png
 @@||gemius.pl/gplayer.js$domain=tsn.ua
 @@||gemius.pl/gplayer.js$script,third-party
@@ -26294,7 +26296,6 @@ zzzyk.com###Tinfo
 ||analytics.avanser.com.au^
 ||analytics.avis.de^
 ||analytics.aweber.com^
-||analytics.b2.ai^
 ||analytics.banksneveraskthat.com^
 ||analytics.basistheory.com^
 ||analytics.belgacom.be^
@@ -38844,6 +38845,7 @@ zzzyk.com###Tinfo
 ||farethief.com^
 ||farm-cn.plista.com^
 ||farmergoldfish.com^
+||faro-collector-prod-*.grafana.net^
 ||farshake.com^
 ||farsnails.com^
 ||fascinatedfeather.com^
@@ -63065,6 +63067,7 @@ zzzyk.com###Tinfo
 ||shinobi.jp/track?
 ||shinobi.jp/zen?
 ||shinsegae.com/topNPopup.do
+||shinypond.com^
 ||shinystat.com^$third-party
 ||shinystat.it^$third-party
 ||shipostrich.com^
