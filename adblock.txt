@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 9AIxhveN/2suqArGsyDM5Q
+! Checksum: wlbatbYvGz9RsaWXSicuVQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-02-28 08:44:17（北京时间） 
-! Total count: 81426
+! Version: 2024-02-28 16:16:21（北京时间） 
+! Total count: 81441
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1138,6 +1138,7 @@
 ##DIV[data-text-ad]
 ##DIV[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''],[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''] + div
 ##DIV[style$='display:block;width:9.6vw;height:7.96875vw;background: #000;opacity:0.01;']
+##DIV[style$='display:block;width:9.6vw;height:7.96875vw;background:#000;opacity:0.01;']
 ##DIV[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important; height: 150px !important;']
 ##DIV[style*='.xyz/gif/']
 ##DIV[style*='animation: 1s ease 0.2s infinite normal none running shakegwegs; z-index:'][style*='background: url']
@@ -1682,6 +1683,7 @@
 ##script + #rbbox
 ##script + #strl
 ##script + #strl + div[style]
+##script + .header_rmb
 ##script + [id][style="width:100%;height:auto;min-height:120px;position:relative;display:block;"]
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -3892,7 +3894,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /1x1.png?
 /1x1_usermatch.gif?
 /1xhtml?$script,third-party
-/2.120.0/main.js
 /2.gif?
 /2016v2/js/adm2.js
 /2048/aps/*_pc.js
@@ -6454,6 +6455,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /pub/as?_ri_=$image
 /pub/imp?
 /pubads.
+/pubcid.min.js
 /public/analytics.js
 /public/imgbed/gg/*
 /public/statsd
@@ -11137,12 +11139,6 @@ aishoujizy.com##a[target="_blank"] > img[src^="/upload/1/"]
 aishs.top###frameu9916W_left > .block:nth-child(-n+6)
 aiweibk.com##.lili
 aiweibk.com##.pc
-aiyifan.tv,iyf.tv##.video-player > .cc > .ng-star-inserted[style="position: relative;"]
-aiyifan.tv,iyf.tv#$#.bg-overlayer { pointer-events: unset !important; }
-aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-property-read', 'Object.prototype.ShouldLoadAds')
-aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-stack-trace', 'Object.prototype.ppmm', 'invokeInterstitial')
-aiyifan.tv,iyf.tv#%#//scriptlet('remove-class', 'publicplay', '#main-player')
-aiyifan.tv,iyf.tv#?#.video-player + div.ps > div:has(> div.bb)
 aiyingshi.tv###ADmask
 aiyuke.com###Playerpad
 aiyuke.com###js-ad-type4
@@ -18919,6 +18915,12 @@ yesky.com##.abox
 yesky.com##div[class^="ad1"]
 yesky.com##div[class^="ad7"]
 yeyemo4.com,yeyemo5.com,yeyemo6.com,yeyemo7.com,yeyemo8.com,yeyemo9.com,yeyemo10.com##center > a[target="_blank"] > img
+yfsp.tv,aiyifan.tv,iyf.tv##.video-player + div.ps > div:has(> div.bb)
+yfsp.tv,aiyifan.tv,iyf.tv##.video-player > .dabc > .ng-star-inserted[style="position: relative;"]
+yfsp.tv,aiyifan.tv,iyf.tv#$#.bg-overlayer { pointer-events: unset !important; }
+yfsp.tv,aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-property-read', 'Object.prototype.ShouldLoadAds')
+yfsp.tv,aiyifan.tv,iyf.tv#%#//scriptlet('abort-on-stack-trace', 'Object.prototype.pgmp', 'invokeInterstitial')
+yfsp.tv,aiyifan.tv,iyf.tv#%#//scriptlet('remove-class', 'publicplay', '#main-player')
 ygdy8.cc##.container > a[href^="/"]
 ygdy8.cc##body > a[href^="/"]
 yhdm*.com/js/wap2-jm-ms.js?ver=
@@ -39025,6 +39027,7 @@ zzzyk.com###Tinfo
 ||ferias.usj.es^
 ||fernandou.online^
 ||fernomius.com^$third-party
+||ferriesendless.com^
 ||fertilefeeling.com^
 ||fespzx.sfr.fr^
 ||festo.actonservice.com^
@@ -41981,6 +41984,7 @@ zzzyk.com###Tinfo
 ||haiyuer.com/nb.js
 ||haiyuer.com/uc
 ||hal.courrierinternational.com^
+||halct.cn^
 ||halcyoncanyon.com^
 ||halifax-online.co.uk/scripts/16c9d93d/
 ||halihali*.com/js/wap2-jm-ms.js
@@ -42393,6 +42397,7 @@ zzzyk.com###Tinfo
 ||hgpbhuj.cn^
 ||hgpdoa.cn^
 ||hgsly.buzz^
+||hgthpj.xyz^
 ||hgxwhpba.xyz^
 ||hgyouxi.com/data/hgyouxiad/
 ||hgyouxi.net/source/plugin/hgyouxiad/
@@ -45418,6 +45423,7 @@ zzzyk.com###Tinfo
 ||ip.up66.ru^
 ||ip.ws.126.net^
 ||ip.ws.126.net^$domain=~fxingw.com
+||ip138.com/banana/
 ||ip138.com/banner/
 ||ip138.com/idc/
 ||ip1398.com^
@@ -56047,6 +56053,7 @@ zzzyk.com###Tinfo
 ||oceanair.actonservice.com^
 ||oceanautomotive.actonservice.com^
 ||oceanbot-steam.com^
+||ocggec.xyz^
 ||ochre-app.hotdoc.com.au^
 ||oci.dyn.com^
 ||oclasrv.com^$third-party
@@ -57710,6 +57717,7 @@ zzzyk.com###Tinfo
 ||picyq.com/index.php/Home/run/get_ad/
 ||piddme.buyma.com^
 ||pidurrmu.xyz^
+||pidzlp.xyz^
 ||pierrebotton.com/global/
 ||piespower.com^
 ||pietexture.com^
@@ -59104,6 +59112,7 @@ zzzyk.com###Tinfo
 ||qhjm600.com^
 ||qhkxs.cn^
 ||qhnews.com/tupian/
+||qhocciks.com^
 ||qhonzpl.cn^
 ||qhres.com/static/*/common/seed.js
 ||qhres.com/static/4b6ab193405b6ca3.js
@@ -60816,6 +60825,7 @@ zzzyk.com###Tinfo
 ||ryyuvrt.cn^
 ||rz261.cn^$third-party
 ||rzdcyv.oreca-store.com^
+||rzfdbsn.cn^
 ||rzflhxn.cn^
 ||rzgwpw.madeincookware.com^
 ||rzkptd.com^
@@ -70146,6 +70156,7 @@ zzzyk.com###Tinfo
 ||svibeacon.onezapp.com^
 ||svmarketing.destinationtoronto.com^
 ||svmarketing.torcvb.com^
+||svncowt.cn^
 ||svoywu.autoscout24.de^
 ||svpury.sizeofficial.de^
 ||svpxbr.drsquatch.com^
@@ -71449,6 +71460,7 @@ zzzyk.com###Tinfo
 ||tdigcw.com^
 ||tdjdpyrt.xyz^
 ||tdjvod.chevignon.com.co^
+||tdljuuw.xyz^
 ||tdor-smetrics.td.com^
 ||tdp1.vivabox.es^
 ||tds.io^$third-party
@@ -71786,6 +71798,7 @@ zzzyk.com###Tinfo
 ||tfzozf.xyz^
 ||tg.loclog.cn^
 ||tgbevv.xyz^
+||tgccct.icu^
 ||tgcfmh.com^
 ||tgdaudience.com^$third-party
 ||tgdopodk.com^
@@ -75420,6 +75433,7 @@ zzzyk.com###Tinfo
 ||tsn.ca^$doc,removeparam=tsn-amp
 ||tsp.onjoyri.de^
 ||tsphone.biz/pixelvoleur.jpg?
+||tsrvrr.xyz^
 ||tst-link-ccontact.focuscura.com^
 ||tsvkfwth.xyz^
 ||tsyndicate.com^
@@ -76286,6 +76300,7 @@ zzzyk.com###Tinfo
 ||uslecce.it^$removeparam=et
 ||uslsjwnk.xyz^
 ||uslsxe.com^
+||usltmus.cn^
 ||usmetric.rediff.com^
 ||usnews.com/static/esi/usn-geo.json
 ||uspauline.com^
