@@ -1338,7 +1338,7 @@ msn.com##msft-article-card:not(.contentCard)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173054
 www.msn.com##+js(json-prune-fetch-response, properties.componentConfigs.slideshowConfigs.slideshowSettings.interstitialNativeAds, , propsToMatch, url:consumptionpage/gallery_windows/config.json)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146823
-www.msn.com##+js(json-prune-fetch-response, *, list.*.link.ad list.*.link.kicker, propsToMatch, url:appconfig/default/config.json)
+www.msn.com##+js(json-prune-fetch-response, *, list.*.link.ad list.*.link.kicker, propsToMatch, url:content/v1/cms/api/amp)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/6u2isr/i_cant_scroll_on_know_your_meme_when_i_use_ublock/
 ! https://github.com/easylist/easylist/issues/7159
@@ -9396,18 +9396,10 @@ nhl.com##.native-ad-slot
 ! https://github.com/uBlockOrigin/uAssets/issues/5474
 @@||thuthuatjb.com^$ghide
 
-! https://github.com/uBlockOrigin/uAssets/issues/5305#issuecomment-487402038
-! https://github.com/uBlockOrigin/uAssets/issues/5305#issuecomment-487403023
-watchhowimetyourmother.online,watchmadmenonline.com,watchonceuponatimeonline.com,watchsexandthecity.com,watchsouthpark.online,watchtrailerparkboys.com##+js(aopr, require)
-watchhowimetyourmother.online,watchmadmenonline.com,watchonceuponatimeonline.com,watchsexandthecity.com,watchsouthpark.online,watchtrailerparkboys.com##+js(nobab)
-
 ! https://github.com/NanoMeow/QuickReports/issues/1105
 dfiles.*##+js(acs, decodeURI, decodeURIComponent)
 @@||cloudflare.com/ajax/libs/*/fuckadblock.js$script,domain=depositfiles.org|dfiles.eu
 ||dfiles.*/sw.js$script,1p
-
-! https://github.com/NanoMeow/QuickReports/issues/1106
-iptvtools.net##+js(set, isAdsDisplayed, true)
 
 ! https://github.com/NanoAdblocker/NanoFilters/issues/318
 m4maths.com##+js(aopr, alert)
@@ -9415,13 +9407,6 @@ m4maths.com##+js(aopr, alert)
 ! https://github.com/NanoMeow/QuickReports/issues/1112
 dailycamera.com##+js(nostif, n.trigger, 1)
 dailycamera.com##+js(set, CnnXt.Event.fire, noopFunc)
-
-! https://adblockplus.org/forum/viewtopic.php?p=188198#p188198
-||gearbest.com/sw.js
-
-! https://github.com/uBlockOrigin/uAssets/issues/5490
-@@||freetutsdownload.net^$ghide
-freetutsdownload.net##[id^="modal-adbmon-"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5495
 ! https://github.com/uBlockOrigin/uAssets/issues/12710
