@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: rLsljP2J1EByCn8M4UElFw
+! Checksum: RMvUta8+0FZSyCfT0qxAtw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-05 16:16:40（北京时间） 
+! Version: 2024-03-06 00:15:16（北京时间） 
 ! Total count: 14335
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -221,7 +221,6 @@
 @@/advt.png$domain=freevpn4you.net
 @@/adx.$domain=tanx.com
 @@/aff_c?$removeparam=/^aff_id\d?=/i
-@@/all-for-adsense/1.js|$script,1p
 @@/analytics.php?$domain=xcar.com.cn
 @@/angular-facebook.js
 @@/api/ad/*$domain=pinduoduo.com
@@ -565,7 +564,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgsmetrics.plumbenefits.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -2506,7 +2504,6 @@
 @@||bombhopper.io/prebid.js
 @@||bombom.io/ads.txt
 @@||bombuj.*^$ghide
-@@||bomcondutor.pt^$ghide
 @@||bonjourdefrance.com^$script,1p
 @@||book.com.tw/image/getImage?
 @@||book.com.tw/image/getImage?$domain=books.com.tw
@@ -9427,6 +9424,7 @@
 @@||odb.outbrain.com^$domain=nypost.com
 @@||odc.officeapps.live.com/odc/$elemhide,jsinject,extension
 @@||odcdn.com^*/cm.js
+@@||oddee.com/w_files/scripts/adblock.js
 @@||oddschecker.com/cookie-policy-banner/$~third-party
 @@||odin.re.taobao.com^
 @@||odkrywamyzakryte.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/
@@ -10470,6 +10468,7 @@
 @@||profile.csdnimg.cn^
 @@||profile.microsoft.com/RegSysProfileCenter/$stealth
 @@||profitsfly.com/*/ad*.js$domain=tiktokcounter.net
+@@||profitsfly.com/*/btcmatias.js$domain=tiktokcounter.net
 @@||programasve.blogspot.com^$ghide
 @@||programasvirtualespc.net^$ghide
 @@||programiz.com/ads.js
@@ -14107,7 +14106,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide_body_tags
+@@||xfreehd.com^$generichide#.textad
+@@||xfreehd.com^$generichide-instant-chance.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font

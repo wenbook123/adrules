@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202403050725
+! Version: 202403051444
 ! Title: EasyPrivacy
-! Last modified: 05 Mar 2024 07:25 UTC
+! Last modified: 05 Mar 2024 14:44 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1897,6 +1897,7 @@
 /scripts/clickjs.php
 /scripts/hbx.js
 /scripts/statistics/*
+/scripts/track_visit.php?
 /scripts/xiti/*
 /scroll-analytics-
 /scroll-track.js
@@ -2075,6 +2076,7 @@
 /stats/add/*
 /stats/adonis_
 /stats/api/collect
+/stats/api/event
 /stats/article?
 /stats/bezoek_count.php
 /stats/collect/*
@@ -8943,6 +8945,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||intrastats.com^$third-party
 ||mabaya.com^$third-party
 ||micodigo.com^$third-party
+||propelbon.com^$third-party
 ||protecmedia.com^$third-party
 ||socy.es^$third-party
 ! Swedish
@@ -10455,6 +10458,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||o.aolcdn.com/js/mg1.js
 ||observer.ip-label.net^
 ||ocmail1.in/rtw/$image
+||oct8ne.com/Visitor/
 ||octaneai.com^*/utrk
 ||octopart-analytics.com^$third-party
 ||oda.markitondemand.com^
@@ -12647,7 +12651,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||madrid.report.botm.transparentedge.io^
 ||mat.socy.es^
 ||mdstrm.com/js/lib/streammetrics.js
-||mtm.qdqmedia.com^
+||mtm.qdqmedia.com
 ||pub.servidoresge.com^
 ||recogerconsentimiento.com/consent/
 ||rt.cdnmedia.tv^
@@ -13371,6 +13375,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||juno.com/start/javascript.do?message=
 ||justanswer.com/jatag/
 ||justdial.com/jd-trkr
+||k.p-n.io/event-stream
 ||kaggle.com/api/i/diagnostics.MetricsService
 ||kansascity.com/nyb-zsooli/
 ||kayak.*/vestigo/measure
@@ -49466,6 +49471,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||rakuten.co.jp/gw.js
 ||rat.rakuten.co.jp^
 ||rdsig.yahoo.co.jp^$image
+||rebuyengine.com/api/*/analytics/event/
 ||rec1.smt.docomo.ne.jp/bcn_access_log/
 ||recv-entry.tbs.co.jp^
 ||recv-jnn.tbs.co.jp^
