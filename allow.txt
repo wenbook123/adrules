@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: rPE8goGdidHhBNomPVmOHA
+! Checksum: HZTbiTUXcyT6m+lK2cGgCg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-08 16:15:25（北京时间） 
-! Total count: 14349
+! Version: 2024-03-09 00:19:07（北京时间） 
+! Total count: 14356
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -325,6 +325,7 @@
 @@/home.php$popup,domain=mlwbd.*
 @@/home/ads/*$domain=esunbank.com.tw
 @@/iframe*.php$subdocument,stealth,domain=dizipal700.com|dizipal701.com|dizipal702.com|dizipal703.com|dizipal704.com|dizipal705.com|dizipal706.com|dizipal707.com|dizipal708.com|dizipal709.com|dizipal710.com|dizipal711.com|dizipal712.com|dizipal713.com|dizipal714.com|dizipal715.com|dizipal716.com|dizipal717.com|dizipal718.com|dizipal719.com|dizipal720.com|dizipal721.com|dizipal722.com|dizipal723.com|dizipal724.com|dizipal725.com|dizipal726.com|dizipal727.com|dizipal728.com|dizipal729.com|dizipal730.com|dizipal731.com|dizipal732.com|dizipal733.com|dizipal734.com|dizipal735.com|dizipal736.com|dizipal737.com|dizipal738.com|dizipal739.com|dizipal740.com|dizipal741.com|dizipal742.com|dizipal743.com|dizipal744.com|dizipal745.com|dizipal746.com|dizipal747.com|dizipal748.com|dizipal749.com|dizipal750.com|dizipal751.com|dizipal752.com|dizipal753.com|dizipal754.com|dizipal755.com|dizipal756.com|dizipal757.com|dizipal758.com|dizipal759.com|dizipal760.com|dizipal761.com|dizipal762.com|dizipal763.com|dizipal764.com|dizipal765.com|dizipal766.com|dizipal767.com|dizipal768.com|dizipal769.com
+@@/iframe*.php$subdocument,stealth,domain=dizipal801.com|dizipal802.com|dizipal803.com|dizipal804.com|dizipal805.com|dizipal806.com|dizipal807.com|dizipal808.com|dizipal809.com|dizipal810.com|dizipal811.com|dizipal812.com|dizipal813.com|dizipal814.com|dizipal815.com|dizipal816.com|dizipal817.com|dizipal818.com|dizipal819.com|dizipal820.com|dizipal821.com|dizipal822.com|dizipal823.com|dizipal824.com|dizipal825.com|dizipal826.com|dizipal827.com|dizipal828.com|dizipal829.com|dizipal830.com|dizipal831.com|dizipal832.com|dizipal833.com|dizipal834.com|dizipal835.com|dizipal836.com|dizipal837.com|dizipal838.com|dizipal839.com|dizipal840.com|dizipal841.com|dizipal842.com|dizipal843.com
 @@/image/*$xmlhttprequest,stealth,domain=turkanime.co
 @@/image/ad/*$domain=gashpoint.com
 @@/image/share_$domain=pan.baidu.com
@@ -416,6 +417,7 @@
 @@/showads.$~third-party,domain=rte.ie
 @@/site/ad/*$domain=islide.cc
 @@/site=*/size=*/viewid=$domain=morningstar.in
+@@/sites/jquery.adx.js$domain=expressnews.com|sfchronicle.com
 @@/smarttag.js$~third-party,domain=rte.ie
 @@/social-share.$domain=patentguru.com
 @@/speedtest/upload.php$domain=speedtest.net
@@ -880,7 +882,10 @@
 @@||account.microsoft.com/auth/$stealth
 @@||account.withings.com^$stealth
 @@||accounts.ea.com^$stealth
+@@||accounts.google.*^$removeparam
 @@||accounts.google.com/gsi/$stealth
+@@||accounts.google.com/o/oauth2/$removeparam
+@@||accounts.google.com/signin/oauth/$removeparam
 @@||accounts.google.com^$jsinject,generichide
 @@||accounts.google.com^$popup
 @@||accounts.intuit.com/fe_logger?$~third-party
@@ -4165,6 +4170,7 @@
 @@||cqcounter.com^$domain=cqcounter.com
 @@||cr.acecounter.com/Web/AceCounter_AW.js$domain=berryjam.co.kr
 @@||crackedgameservers.com/uploads/set_resources*adframe.js
+@@||crackedresource.com^$generichide
 @@||cracking.org/js/siropu/am/ads.min.js
 @@||crackle.com/vendor/AdManager.js
 @@||crackle.com/vendor/AdManager.js$script,~third-party
@@ -6501,6 +6507,7 @@
 @@||googletagmanager.com/gtm.js$domain=sloggi.com
 @@||googletagmanager.com/gtm.js$domain=society6.com
 @@||googletagmanager.com/gtm.js$domain=spareroom.co.uk
+@@||googletagmanager.com/gtm.js$domain=spaziogames.it
 @@||googletagmanager.com/gtm.js$domain=spektrum.de
 @@||googletagmanager.com/gtm.js$domain=sport1.de
 @@||googletagmanager.com/gtm.js$domain=sportingnews.com
@@ -14119,9 +14126,9 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide*,topflix.*,flixtor.gg,upvid.*,mangas-raw.com,bbb.fm,clipconverter.cc,megafilmeshd20.pro,watchseries.*,animesonline.cz,superflix.*,kick4ss.com,jpscan-vf.com,rawkuma.com,pobreflix.top,losmovies.*,123movieshub.*,seriesflix.top,intereseducation.com,vizer.re,123movies-official.site,querofilmehd.*,gogoanime.*,animixplay.to,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws,anime4up.*,watchmovie.*,myflixer.*,pahe.li,filmyzilla.*,megafilmeseseriesonline.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "break;case $.")
-@@||xfreehd.com^$generichide.xyz^
-@@||xfreehd.com^$generichideit
+@@||xfreehd.com^$generichidee^$popup
+@@||xfreehd.com^$generichideer.cell > div[style^="clear: both; width: 100%; text-align: left; padding:"] + div > sup
+@@||xfreehd.com^$generichidestingLayout-outerContainer > div[class] > div[style][class] > div[style][class] > div[class] div[class]:not([data-redditstyle]):has(> div[class] > div[class] > .SidebarAd)
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
