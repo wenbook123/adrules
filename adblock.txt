@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: reggjvyR95U312x8U9KaGQ
+! Checksum: r/Id77VF0KTI+Ukuw74gjw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-03-16 08:44:21（北京时间） 
-! Total count: 81763
+! Version: 2024-03-16 16:15:45（北京时间） 
+! Total count: 81778
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -291,7 +291,7 @@
 ###player_banner[style*="fixed;"]
 ###player_pause > .tip + a[target="_blank"]
 ###player_pause[style^="position"] > a[target="_blank"]
-###playlistbtn > a[href="/h0312.html"]
+###playlistbtn > a[href$=".html"]
 ###pop_hongbao
 ###popadv_popmask
 ###popadv_popmenu
@@ -1145,7 +1145,6 @@
 ##DIV[class*='id_ads__']
 ##DIV[class^='ads_border_']
 ##DIV[data-text-ad]
-##DIV[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''],[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''] + div
 ##DIV[style$='display:block;width:9.6vw;height:7.96875vw;background: #000;opacity:0.01;']
 ##DIV[style$='display:block;width:9.6vw;height:7.96875vw;background:#000;opacity:0.01;']
 ##DIV[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important; height: 150px !important;']
@@ -1280,6 +1279,7 @@
 ##[href^='https://w5979.com:']
 ##[href^='https://www.00285164.com']
 ##[href^='https://www.00426740.com']
+##[href^='https://www.jumbobag.cn']
 ##[href^='https://www.qlspx.com:']
 ##[href^='https://xcc.'][href*='cn/']
 ##[href^='https://xxx.nunxun.com']
@@ -5502,6 +5502,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /gtag.js
 /gtag.min.js
 /gtag/js?
+/gtagv4.js
 /gtm-data-layer-$script
 /gtm-listeners.js
 /gtm-suite.js
@@ -10735,7 +10736,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||sudupan.com^*/*.gif
 @@||sug.browser.miui.com^
 @@||suning.cn/project/msIndex/js/??
-@@||supercloudsms.com/static/js/taboola_ads.js
+@@||supercloudsms.com/static/ad/ads.js
 @@||support.steampowered.com^$removeparam
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
 @@||swa.mail.ru/cgi-bin/counters?$script
@@ -16306,6 +16307,8 @@ netflav.com##.ads_head_banner_container
 netflav.com##.ads_video_overlay_mobile
 netfly.fun##.player-box-main ~ [style^="display: flex; justify-content: space-between;"]
 netfly.fun#?#.content > div:not([class]):has(> [style="display: flex; justify-content: space-between; width: 100%;"])
+netfly.fun,netfly.tv##.container-slide
+netfly.fun,netfly.tv##.content > div > [style="display: flex; flex-direction: column;width: 100%;"]
 netfly.fun,netfly.tv##.module-tg-box
 netfly.fun,netfly.tv##.player-box > div.player-tt-rmm
 netfly.fun,netfly.tv##[style^="display: flex; justify-content:"]
@@ -17789,6 +17792,7 @@ sunofbeach.net##div[id$="-ad"]
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
 super.sina.cn##.call_up_banner
+supercloudsms.com##A[id^="ad_"]
 superlife.ca##.sidebar-ad-zone
 supportdap.online##.td-post-content > a[rel="nofollow"] > img
 susongbbs.com#@#.ad_banner
@@ -19409,6 +19413,7 @@ zzzyk.com###Tinfo
 ||0ns32h.com^
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0op8kh.cn^
+||0oqt9i.cn^
 ||0p7w.cn^
 ||0r3tyg.cn^
 ||0sbm.consobaby.co.uk^
@@ -42744,6 +42749,7 @@ zzzyk.com###Tinfo
 ||hk2d.tourismemauricie.com^
 ||hkaiedb.icu^
 ||hkb123.com/plus/show.php
+||hkbumv.icu^
 ||hkcoding.com/chequeconvert/img/grammarly-
 ||hkcoding.com/img/
 ||hkctmldg.icu^
@@ -45723,6 +45729,7 @@ zzzyk.com###Tinfo
 ||iqyioj.harryanddavid.com^
 ||iqzone.com^$third-party
 ||iraiser.eu/analytics.js
+||irayedo.cn^
 ||iready.curriculumassociates.com^
 ||irecommend.ru/collect/
 ||irmsolutions.choicepoint.com^
@@ -47358,6 +47365,7 @@ zzzyk.com###Tinfo
 ||kspotson.de^
 ||ksqfwxu.cn^
 ||ksrgsc.xyz^
+||kssolo.com^
 ||kstj.baidu.com^
 ||ksvkfwth.xyz^
 ||ksyrium0014.com^$third-party
@@ -47792,6 +47800,7 @@ zzzyk.com###Tinfo
 ||ld0766.com/index.php?m=call&id=10
 ||ldb.cc/js/top.js
 ||lddt.de^$third-party
+||ldgjwdohqbi.xyz^
 ||ldgnrtn.com^
 ||ldgxsr.locasun-vp.fr^
 ||ldhteg.mooihorloge.nl^
@@ -56201,6 +56210,7 @@ zzzyk.com###Tinfo
 ||o.xbox.com^
 ||o.zjjrlx4.com^
 ||o1.jyjyj.cn^
+||o1b04.cyou^
 ||o2.cz^*-ga_o2cz_bundle.js?
 ||o2.ikontwerpflyers.nl^
 ||o2.jyjyj.cn^
@@ -56325,6 +56335,7 @@ zzzyk.com###Tinfo
 ||offerstrategy.com^$third-party
 ||offerwall.yandex.net^
 ||officemonster.co.uk^$removeparam=/^fo_/
+||ofkcww.xyz^
 ||ofkqiy.knowfashionstyle.com^
 ||ofooe.cn^
 ||ofqkbk.proclipusa.com^
@@ -57577,6 +57588,7 @@ zzzyk.com###Tinfo
 ||pb.sogou.com^$removeparam=uigs_cookie
 ||pb.sogou.com^$removeparam=uigs_t
 ||pbaiyho.cn^
+||pbbhhxm.xyz^
 ||pbbl.co^$third-party
 ||pbc.programbrokerage.com^
 ||pbecrm.aquanet.ru^
@@ -72681,6 +72693,7 @@ zzzyk.com###Tinfo
 ||tnfhxszj.xyz^
 ||tngmn.com^$third-party
 ||tnhcsf.holzkern.com^
+||tnifdlai.top^
 ||tnincvf1d1jl.de.themoneytizer.com^
 ||tniujy.natura.com.br^
 ||tnjvz.cn^
@@ -76145,6 +76158,7 @@ zzzyk.com###Tinfo
 ||udrvvx.kabum.com.br^
 ||udsahkln.xyz^
 ||udsgty.alkosto.com^
+||udykkl.cn^
 ||udzucw.haggar.com^
 ||ue8im.com^
 ||ueb4.destinia.tw^
@@ -80100,6 +80114,7 @@ zzzyk.com###Tinfo
 ||xray.mail.ru^
 ||xrb0owc.icu^
 ||xrcembm.cn^
+||xrdqdd.xyz^
 ||xrkadslmgg.top^
 ||xrkadslmgg.xyz^
 ||xrkyqq.com^
