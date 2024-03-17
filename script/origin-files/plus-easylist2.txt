@@ -83,6 +83,7 @@ wa.de,wallstreet-online.de,waz.de,weather.us,webfail.com,weihnachten.me,weihnach
 yachtrevue.at##+js(nostif, .call(null), 10)
 ze.tt,zeit.de##+js(nostif, .call(null), 10)
 meineorte.com,osthessen-news.de,techadvisor.com,focus.de##+js(nostif, .call(null))
+kicker.de##+js(set, ov.advertising.tisoomi.loadScript, noopFunc)
 ! https://github.com/uBlockOrigin/uAssets/issues/22096
 !#if cap_html_filtering
 alpin.de,boersennews.de,chefkoch.de,chip.de,clever-tanken.de,desired.de,donnerwetter.de,fanfiktion.de,focus.de,formel1.de,frustfrei-lernen.de,gewinnspiele.tv,giga.de,gut-erklaert.de,kino.de,messen.de,nickles.de,nordbayern.de,spielfilm.de,teltarif.de,unsere-helden.com,weltfussball.at##^script:has-text(DisplayAcceptableAdIfAdblocked)
@@ -948,9 +949,6 @@ kissasian.*##div[style$="width: 610px;"]:has(.adsbyvli)
 kissasian.*##div[style$="height: 90px;"]:has(.adsbyvli)
 kissasian.*###overplay
 ||kissasian.*/Ads/$frame
-
-! https://github.com/uBlockOrigin/uAssets/issues/12650
-australianfrequentflyer.com.au##+js(nostif, prompt)
 
 ! https://www.wilderssecurity.com/threads/ublock-a-lean-and-fast-blocker.365273/page-107#post-2668597
 ! https://www.wilderssecurity.com/threads/ublock-a-lean-and-fast-blocker.365273/page-126#post-2719661
@@ -8173,9 +8171,6 @@ extramovies.*##[href^="http://adfpoint.com"]
 *$script,3p,denyallow=bootstrapcdn.com|disqus.com|jsdelivr.net|jwpcdn.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|facebook.net,domain=extramovies.*
 extramovies.*###theme_back
 ! https://github.com/uBlockOrigin/uAssets/issues/11023
-extralinks.*,extramovies.*##[href^="https://t.me/"]
-extralinks.*,extramovies.*##[class^="ad_btn"]:upward(center)
-||extralinks.*/ads.js$script,1p
 ||extramovies.*/ads.js$script,1p
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145210
 extramovies.*#@#.ad_btn
