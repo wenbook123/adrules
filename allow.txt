@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: CW0ZYhydg2k9UmTVFGFKow
+! Checksum: EvNc8T5H5hDSarxVKbLCNA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-17 00:13:52（北京时间） 
-! Total count: 14364
+! Version: 2024-03-17 08:48:11（北京时间） 
+! Total count: 14361
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -567,7 +567,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org|tiscali.it/banner-tiscali/stats.html?
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org37/init.js
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -14133,9 +14133,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidedonecperficiam.net^$popup
-@@||xfreehd.com^$generichideovies.*,123movieshd.ws,gomovies.la##.mvic-btn
-@@||xfreehd.com^$generichidernhub.net##.playerFlvContainer > div#pb_template[style]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/api/ads$xmlhttprequest,~third-party
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
