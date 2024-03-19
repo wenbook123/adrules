@@ -956,6 +956,153 @@ coursera.org##+js(no-fetch-if, eventing)
 
 ! Merge in resource-abuse.txt
 !#include resource-abuse.txt
+om|x.com
+! https://github.com/brave/adblock-lists/pull/1455
+! eBay tracking parameters
+||www.ebay.$removeparam=ssspo
+||www.ebay.$removeparam=sssrc
+||www.ebay.$removeparam=ssuid
+||www.ebay.$removeparam=mkevt
+||www.ebay.$removeparam=mkcid
+||www.ebay.$removeparam=_trkparms
+||www.ebay.$removeparam=_trksid
+||www.ebay.$removeparam=amdata
+||www.ebay.$removeparam=mkrid
+||www.ebay.$removeparam=campid
+! https://github.com/brave/brave-browser/issues/35094
+! instagram.com - share tracking
+||instagram.com^$removeparam=ig_rid
+||instagram.com^$removeparam=igsh
+$removeparam=igshid,domain=instagram.com|threads.net
+! https://github.com/uBlockOrigin/uAssets/issues/18938#issuecomment-1693238481
+! https://community.brave.com/t/unable-to-open-reddit-com-urls-in-private-tabs/503125/4
+!#if env_firefox
+||reddit.com^$removeparam=rdt,doc
+!#endif
+! Exceptions
+@@||web.archive.org/*/http$removeparam
+
+! https://github.com/easylist/easylist/issues/16468#issuecomment-1691717458
+natgeotv.com##+js(no-xhr-if, /VisitorAPI|AppMeasurement/)
+natgeotv.com##+js(set, Visitor, {})
+||fichub.com/plugins/adobe/lib/$xhr,domain=natgeotv.com,important
+
+! https://comikey.com/
+||house.comikey.com/unw.gif?$image,1p
+
+! https://github.com/easylist/easylist/issues/17135
+||googletagmanager.com/gtag/js$domain=starblast.io,important
+
+! https://github.com/uBlockOrigin/uAssets/issues/19954
+||cdn.cuty.io/fps.js$script
+
+! https://github.com/uBlockOrigin/uAssets/issues/19998
+||roshy.tv/wp-content/uploads/perfmatters/gtagv4.js
+
+! https://lenovo.com/us/en/legal/copytrade/?orgRef=[...] - Search Google for "Lenovo copyright", Click on the first result
+www.lenovo.com##+js(aost, history.replaceState, injectedScript)
+
+! https://developers.google.com/tag-platform/tag-manager/server-side/send-data
+! https://simoahava.com/analytics/server-side-tagging-google-tag-manager
+!*$1p,strict3p,script,header=via:1.1 google
+
+! PersianBlocker filters
+! web.bale.ai - Tracking (OS and browser)
+!#if !env_mobile
+web.bale.ai##+js(trusted-set, navigator.userAgent, '{"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML\, like Gecko) Chrome/119.0.0.0 Safari/537.36"}')
+!#else
+web.bale.ai##+js(trusted-set, navigator.userAgent, '{"value": "Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML\, like Gecko) Chrome/119.0.6045.66 Mobile Safari/537.36"}')
+!#endif
+! https://www.halaldownload.com/%d8%af%d8%a7%d9%86%d9%84%d9%88%d8%af-%d9%82%d8%b3%d9%85%d8%aa-6-%d9%81%d8%b5%d9%84-2-%d8%b2%d8%ae%d9%85-%da%a9%d8%a7%d8%b1%db%8c-%d8%a8%d8%a7%d8%b2%da%af%d8%b4%d8%aa/ - Download links
+||upera.shop/ref/$doc,uritransform=/^\/ref\/[^\/]+//
+
+! https://www.makeuseof.com/best-vs-code-chatgpt-extensions/ - Tracking cookies
+androidpolice.com,makeuseof.com,movieweb.com,xda-developers.com##+js(cookie-remover, /articlesRead|previousPage/) 
+
+! https://github.com/uBlockOrigin/uAssets/issues/20440
+/^https?:\/\/chat\.openai\.com\/ces\/v1\/[a-z]$/$xhr,1p,domain=chat.openai.com,method=post
+
+! https://github.com/uBlockOrigin/uAssets/issues/20530
+airtel.in##+js(no-xhr-if, analytics/bulk-pixel)
+
+! https://elevenlabs.io/dubbing - Stores the last dubbing result
+elevenlabs.io##+js(set-local-storage-item, IIElevenLabsDubbingResult, $remove$)
+
+! Pepper redirection - pepper.ru/deals/post-428233 | pepper.pl/promocje/post-750379 | dealabs.com/bons-plans/post-2674687
+chollometro.com##+js(href-sanitizer, a[href*="https://www.chollometro.com/visit/"][title^="https://"], [title])
+dealabs.com##+js(href-sanitizer, a[href*="https://www.dealabs.com/visit/"][title^="https://"], [title])
+hotukdeals.com##+js(href-sanitizer, a[href*="https://www.hotukdeals.com/visit/"][title^="https://"], [title])
+mydealz.de##+js(href-sanitizer, a[href*="https://www.mydealz.de/visit/"][title^="https://"], [title])
+nl.pepper.com##+js(href-sanitizer, a[href*="https://nl.pepper.com/visit/"][title^="https://"], [title])
+pepper.it##+js(href-sanitizer, a[href*="https://www.pepper.it/visit/"][title^="https://"], [title])
+pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="https://"], [title])
+pepper.ru##+js(href-sanitizer, a[href*="https://www.pepper.ru/visit/"][title^="https://"], [title])
+preisjaeger.at##+js(href-sanitizer, a[href*="https://www.preisjaeger.at/visit/"][title^="https://"], [title])
+promodescuentos.com##+js(href-sanitizer, a[href*="https://www.promodescuentos.com/visit/"][title^="https://"], [title])
+pelando.com.br##+js(href-sanitizer, a[href*="https://www.pelando.com.br/api/redirect?url="], ?url)
+! desidime.com##+js(href-sanitizer, a[href*="https://www.desidime.com/links?ref=][href*="&url="], &url)
+
+! https://www.aachener-zeitung.de/
+||r.aachener-zeitung.de^
+||prod-mhaa.mhtr.be^
+||mhtr.be/public/tr/tracker.min.js
+
+! https://github.com/uBlockOrigin/uAssets/issues/21342
+proboards.com,winclassic.net##+js(rmnt, script, vglnk)
+proboards.com,winclassic.net##^script:has-text(vglnk)
+
+! https://github.com/uBlockOrigin/uAssets/issues/21384
+! FootprintDNS
+||res.office365.com/footprint/v*/scripts/fp-min.js$script
+||res.office365.com/footprint/v*/scripts/fpconfig.json$script
+||atmrum.net/rum.js$script
+||atmrum.net/client/v*/atm/fpv*.min.js$script
+||atmrum.net/conf/v*/atm/fpconfig.min.json$script
+||config.fp.measure.office.com/conf/v*/*/fpconfig.min.json$script
+||fp.msedge.net/conf/v*/asgw/fpconfig.min.json?monitorId=asgw$script
+/apc/trans.gif
+/apc/r.gif
+||atmrum.net/report/v*/atm/r.gif
+||fp.msedge.net/r.gif
+||odinvzc.azureedge.net/apc/trans.gif
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/168248
+||bi-tracker-cn.rivergame.net/event/tracker$xhr,redirect=noop.txt
+
+! https://baomoi.com/ - znews.vn/zingnews.vn - Tracking pixels
+/n/images/su?info$xhr,1p
+://log.$image,1p,domain=znews.vn|zingnews.vn
+
+! https://github.com/uBlockOrigin/uAssets/issues/22077
+coursera.org##+js(no-fetch-if, eventing)
+||coursera.org/*/eventing/
+
+! https://github.com/uBlockOrigin/uAssets/issues/22076
+||rambler.ru/*#rcmrclid=$uritransform=/#rcmrclid=.*//
+
+! https://github.com/uBlockOrigin/uAssets/issues/22295
+||cmp.*.no^*/metrics/$important
+
+! https://github.com/uBlockOrigin/uAssets/issues/22380
+||fsho.st/tracker.js^$script,domain=fshost.me
+
+! https://github.com/uBlockOrigin/uAssets/issues/22493
+/^https:\/\/mudah\.my\/[a-zA-Z0-9]{16}\/[a-zA-Z0-9]{16}\?apiKey=/$script,1p,domain=mudah.my
+
+! https://github.com/uBlockOrigin/uAssets/issues/20586#issuecomment-1949649857
+! m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(href-sanitizer, a[href^="https://www.youtube.com/redirect?event=video_description"][href*="&q=http"], ?q)
+
+! https://github.com/uBlockOrigin/uAssets/issues/22631#issuecomment-1962238669
+||view.mngusr.com^$domain=chapmanganato.to|manganato.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/22676
+||analytics.strapi.io^
+
+! https://www.royalroad.com/home
+||royalroad.com/dist/sentry.js$script
+
+! Merge in resource-abuse.txt
+!#include resource-abuse.txt
 
 
 
