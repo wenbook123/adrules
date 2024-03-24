@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: p+lwiXbvEiur5DxiTgQsNg
+! Checksum: x75LkSTJQCi+tCDD0b3L+A
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-24 08:50:26（北京时间） 
-! Total count: 14388
+! Version: 2024-03-24 16:14:40（北京时间） 
+! Total count: 14384
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -568,7 +568,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgetunique.fr^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -3358,7 +3357,6 @@
 @@||cdn.tagcommander.com^$domain=secure.galerieslafayette.com
 @@||cdn.theatlantic.com/assets/static/*/js/advertisement.2.js
 @@||cdn.theguardian.tv/ad/*.m3u8$domain=theguardian.com
-@@||cdn.thisiswaldo.com/static/js/$script,domain=work.ink
 @@||cdn.trackjs.com/agent/v*/latest/t.js$script,domain=adshrink.it
 @@||cdn.trackjs.com/releases/current/tracker.js$domain=express.com
 @@||cdn.transcend.io/cm/$script,domain=outlier.org|pluralsight.com|visible.com
@@ -3562,7 +3560,6 @@
 @@||chd4.com^$ghide
 @@||cheatnetwork.eu/js/adsensegoogle.js
 @@||cheatsquad.gg/javascript/ad*.js
-@@||cheatsquad.gg^$script,xhr,1p
 @@||check.ddos-guard.net/check.js
 @@||check.ddos-guard.net/check.js$script
 @@||checkdomain.b-cdn.net/assets/$stealth
@@ -4693,7 +4690,6 @@
 @@||doubleclick.net^$xhr,domain=op.gg
 @@||doubleclick.net^$xmlhttprequest,domain=yyets.click
 @@||doublepimp.com/Scripts/advertisement.js
-@@||doubleverify.com^$xhr,domain=work.ink
 @@||douglas.*/public/CookieBar.*.async.js$domain=douglas.de|douglas.at
 @@||douglas.*/public/CookieConsent.*.async.js$domain=douglas.de|douglas.at
 @@||douploads.*^$ghide
@@ -10945,6 +10941,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jsl.ratequote.com$image
+@@||reseguiden.se^*.siteCatalyst.jssinesszoneusa.com$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13981,8 +13979,6 @@
 @@||wordpress.org/stats/plugin/$domain=wordpress.org
 @@||wordpress.org/wp-slimstat/assets/banner-$image,~third-party
 @@||work.ink^$generichide
-@@||work.ink^$ghide
-@@||work.ink^$xhr,1p
 @@||workingtitlefilms.com/site-content/plugins/nbcu-plugins/bwp-minify/$stylesheet
 @@||world-sms.org/get-ad/step
 @@||worldaide.fr^$ghide
@@ -14160,7 +14156,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide##.billboard-ad-one
+@@||xfreehd.com^$generichideaw-sudoku.com,puzzle-kakurasu.com,puzzle-kakuro.com,puzzle-killer-sudoku.com,puzzle-light-up.com,puzzle-lits.com,puzzle-loop.com,puzzle-masyu.com,puzzle-minesweeper.com,puzzle-nonograms.com,puzzle-norinori.com,puzzle-nurikabe.com,puzzle-pipes.com,puzzle-shakashaka.com,puzzle-shikaku.com,puzzle-shingoki.com,puzzle-skyscrapers.com,puzzle-slant.com,puzzle-star-battle.com,puzzle-stitches.com,puzzle-sudoku.com,puzzle-tapa.com,puzzle-tents.com,puzzle-thermometers.com,puzzle-words.com###Skyscraper:has(> #bannerSide)
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/api/ads$xmlhttprequest,~third-party
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
