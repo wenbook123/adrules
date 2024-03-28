@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: VSiGaEuzpEmLIjfTAl5IBw
+! Checksum: OcZ5J5TTH6HfPowsUJJiDw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-28 00:16:57（北京时间） 
-! Total count: 14400
+! Version: 2024-03-28 08:45:59（北京时间） 
+! Total count: 14398
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -968,6 +968,7 @@
 @@||ad.doubleclick.net/*/adi/com.ytbc/$domain=youtube.com
 @@||ad.doubleclick.net/clk*&destinationURL=$popup
 @@||ad.doubleclick.net/clk;$urlblock
+@@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|creditcard.com.au|debitcards.com.au|findershopping.com.au|finder.com|finder.com.au|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be|whatphone.com.au
 @@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|creditcard.com.au|finder.com|finder.com.au|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be|whatphone.com.au
 @@||ad.doubleclick.net/ddm/ad/$domain=mylifetime.com
 @@||ad.doubleclick.net/ddm/ad/*$domain=bournemouthecho.co.uk
@@ -1928,8 +1929,6 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
-@@||apotheken-umschau.de$contentdetail__wrap > p.parts__title__tertiary:contains(SHARE)
-@@||apotheken-umschau.de$contentsocial-share-elements
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-cdn.minepi.com^|
@@ -7547,6 +7546,7 @@
 @@||imasdk.googleapis.com^$app=com.graymatrix.did
 @@||imasdk.googleapis.com^$app=com.mperience.vvvvidmobile
 @@||imasdk.googleapis.com^$app=com.tour.pgatour
+@@||imasdk.googleapis.com^$app=com.tvb.mytvsuper
 @@||imasdk.googleapis.com^$app=com.zattoo.player|com.sfr.android.redtv
 @@||imasdk.googleapis.com^$app=de.cellular.focus
 @@||imasdk.googleapis.com^$app=de.dmhub.android.radiobrocken
@@ -14171,8 +14171,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichiderd-party
-@@||xfreehd.com^$generichidey
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/api/ads$xmlhttprequest,~third-party
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
