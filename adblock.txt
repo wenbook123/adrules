@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 2jfgEqSAeD0G8kNtzx7J1A
+! Checksum: cc6kmrFFpim+3uGTbqiF4Q
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-04-03 08:45:29（北京时间） 
-! Total count: 81821
+! Version: 2024-04-03 16:16:42（北京时间） 
+! Total count: 81834
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -10097,7 +10097,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||ikea.cn^*/img/ads/
 @@||ikea.com^*/analyticsEvent.$script,~third-party
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|ani.gamer.com.tw|appledaily.com|hamivideo.hinet.net|line.me|linetv.tw|litv.tv|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|ulifestyle.com.hk
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|ani.gamer.com.tw|appledaily.com|ha365.com|hamivideo.hinet.net|line.me|linetv.tw|litv.tv|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|ulifestyle.com.hk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kktv.me
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=linetv.tw
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=news.tvb.com
@@ -11794,8 +11794,12 @@ bilibili.com##.banner-card
 bilibili.com##.bili-app
 bilibili.com##.bili-app-link-container
 bilibili.com##.bili-dyn-ads
+bilibili.com##.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
+bilibili.com##.bili-video-card:has(.bili-video-card__info--ad) > .extension-tips
+bilibili.com##.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.btn-ctnr
+bilibili.com##.carousel-container > .carousel-transform > .carousel-slide:has(> a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"])) > .extension-tips
 bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.desktop-download-tip
 bilibili.com##.download-client-trigger.download-entry
@@ -11831,13 +11835,11 @@ bilibili.com##a[href="//app.bilibili.com"]
 bilibili.com##a[href="/video/av8587236/?tg"]
 bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
-bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
-bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
+bilibili.com#$#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
+bilibili.com#$#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
-bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
-bilibili.com#?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.van-popover__reference:contains(下载)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
@@ -12339,6 +12341,7 @@ click108.com.tw##.AD_730280
 clickhole.com,lifehacker.com,splinternews.com,avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,qz.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##div[class]:has(> div[data-ad-unit]:only-child)
 cloud.tencent.com##.cdc-commercial-swiper
 cloud.tencent.com##.mod-commercial
+cls.cn#@#.share-body
 cm.bilibili.com
 cm.k366.com##.rightpart td[height="260"]
 cm.k366.com##.rightpart td[width="300"][height="270"]
@@ -19778,6 +19781,7 @@ zzzyk.com###Tinfo
 ||1909.me/upload/ad/
 ||1909a8.satofull.jp^
 ||192.151.218.66^$third-party
+||192.luyouwang.com^
 ||193.197.158.209^$third-party,domain=~statistik.lubw.baden-wuerttemberg.de.ip
 ||194.59.220.161^
 ||199.116.177.156^$domain=~fc2.jp.ip
@@ -39774,6 +39778,7 @@ zzzyk.com###Tinfo
 ||fpxewa.ilmeteo.it^
 ||fq67.top^
 ||fq9vy0muyqi3.www.madrigalmaps.com^
+||fqbjzj.xyz^
 ||fqcqnb.dwr.com^
 ||fqfclmlo.xyz^
 ||fqmgjad.cn^
@@ -46419,6 +46424,7 @@ zzzyk.com###Tinfo
 ||jn060.xyz^
 ||jn23.madeindesign.ch^
 ||jn23.madeindesign.it^
+||jnalzla.top^
 ||jndxsuy.xyz^
 ||jnhgm.com^
 ||jnifdlaa.top^
@@ -47511,6 +47517,7 @@ zzzyk.com###Tinfo
 ||kwivb.cn^
 ||kwo-0115.cc^
 ||kwongwah.com.my/wp-content/plugins/dibs_engine/js/dibs_popup.js
+||kwqnki.xyz^
 ||kwqpix.ravenna.gr^
 ||kwsjy9.oui.sncf^
 ||kwtgntyu.xyz^
@@ -55343,6 +55350,7 @@ zzzyk.com###Tinfo
 ||navrcholu.cz^$third-party
 ||naweslt.cn^
 ||nawpush.com^
+||nawpyd.icu^
 ||naytev.com^$third-party
 ||nb.zol.com.cn/detail_*.html
 ||nba55.cc^
@@ -57112,6 +57120,7 @@ zzzyk.com###Tinfo
 ||ostjpig.cn^
 ||ostrichesica.com^
 ||osur.dell.com^
+||osusjsga.com^
 ||osuwzo.oyunfor.com^
 ||osvdtm.theshopyohjiyamamoto.jp^
 ||oswegocounty.actonservice.com^
@@ -60040,6 +60049,7 @@ zzzyk.com###Tinfo
 ||ravelin.click^$third-party
 ||ravelin.net^$third-party
 ||ravzbd.xyz^
+||rawmtft.cn^
 ||raxetyrw.xyz^
 ||raygun.io/events?
 ||rayli.com.cn^$third-party
@@ -70808,6 +70818,7 @@ zzzyk.com###Tinfo
 ||szmpy.cn^
 ||szmtd.cn^
 ||szmty.cn^
+||szmyl.cn^
 ||szn0ehq.icu^
 ||sznews.com/s?z=
 ||szonline.net/static/js/ads.js
@@ -77288,6 +77299,7 @@ zzzyk.com###Tinfo
 ||vjnxpj.xyz^
 ||vjpgm.space^
 ||vjrpnv.xyz^
+||vjvj.vj24co.com^
 ||vjzjpt.xyz^
 ||vk.com/js/lib/px.js
 ||vk.com/rtrg?
@@ -81438,6 +81450,7 @@ zzzyk.com###Tinfo
 ||zhiyoo.com/mplus/images/banner.jpg
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||zhizhunbao.top^
+||zhnnaxe.xyz^
 ||zhongfujiaoyu.cn^
 ||zhongfumzzew.com^
 ||zhongkaowu.com^$third-party
