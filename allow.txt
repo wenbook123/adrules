@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: QW6sQO3ygRykFacoEgoP8A
+! Checksum: dWXX/Ko0DcSrgKvaJNJPeg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-04-05 08:46:17（北京时间） 
-! Total count: 12401
+! Version: 2024-04-06 00:16:27（北京时间） 
+! Total count: 12402
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -13,6 +13,7 @@
 @@*$app=com.cinemark.mobile
 @@*$stealth=referrer,domain=cdnbuzz.buzz
 @@*.php?player=desktop$stealth=referrer,domain=feedzstream.com|cricplay2.xyz|antenatv.shop|virazo.sx
+@@*.php?player=desktop$stealth=referrer,domain=feedzstream.com|cricplay2.xyz|antenatv.shop|virazo.sx|redditsoccerstream.online
 @@*ad*.cms$domain=indiatimes.com|timesofindia.com
 @@-atari-embeds.googleusercontent.com/embeds/*/inner-frame-minified.html$stealth
 @@-ds.metric.gstatic.com^|
@@ -281,9 +282,7 @@
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
 @@/img/tab_$stealth,image,domain=mangakakalot.com
 @@/img_ad/*$domain=tkec.com.tw
-@@/inc/embed/*ads.js$domain=wcostream.org|watchanimesub.net|wco.tv|wcostream.net|wcostream.com
 @@/inc/embed/*ads.js$domain=wcostream.org|watchanimesub.net|wco.tv|wcostream.net|wcostream.com|wcoforever.tv
-@@/inc/embed/suv4.js$domain=wcostream.org|watchanimesub.net|wco.tv|wcostream.net|wcostream.com
 @@/inc/embed/suv4.js$domain=wcostream.org|watchanimesub.net|wco.tv|wcostream.net|wcostream.com|wcoforever.tv
 @@/index.m3u8?wmsAuthSign=$stealth
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
@@ -315,6 +314,7 @@
 @@/live/*.$stealth,domain=futbolfullenvivo.com
 @@/live/*.m3u8$stealth,domain=futbollibre2.net
 @@/live/*.m3u8$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online|gameshdlive.net|bestsolaris.com|itssportstime.info
+@@/live/*.m3u8$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online|gameshdlive.net|bestsolaris.com|itssportstime.info|weakspell.to
 @@/live/*.ts|$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online
 @@/live/*/jpeg|$xmlhttprequest,stealth=referrer,domain=weakspell.org
 @@/log/report/*$script,domain=bilibili.com
@@ -337,7 +337,9 @@
 @@/playstream/*/embed*.php$xmlhttprequest,stealth=referrer,domain=playstream.site
 @@/playstream/*/event.php$xmlhttprequest,stealth=referrer,domain=playstream.site
 @@/pop.js|$domain=pornve.com
+@@/premium*/index.m3u8$xmlhttprequest,stealth=referrer,domain=claplivehdplay.ru
 @@/premium*/tracks-*.html$xmlhttprequest,stealth=referrer
+@@/premium*/tracks-*/*$xmlhttprequest,stealth=referrer,domain=claplivehdplay.ru
 @@/premium*/tracks-*/*.webp$xmlhttprequest,stealth=referrer,domain=claplivehdplay.ru
 @@/progress.php?callback=$script,domain=ytmp3.cc
 @@/pub/ad/*$domain=ruten.com.tw
@@ -498,6 +500,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgl.wingocard.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1001,13 +1004,10 @@
 @@||ads.adfox.ru/*/getCode$app=ru.infoshell.android
 @@||ads.adfox.ru/*/getCodeTest?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru
 @@||ads.adfox.ru/*/prepareCode?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru
-@@||ads.adthrive.com/api/$domain=adamtheautomator.com|mediaite.com|packhacker.com
 @@||ads.adthrive.com/api/$domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
-@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=adamtheautomator.com|mediaite.com|packhacker.com
 @@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
 @@||ads.adthrive.com/core/*/js/adthrive.min.js$domain=mediaite.com
 @@||ads.adthrive.com/core/gdpr/vendor/prebid/prebid.min.js$domain=mediaite.com
-@@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com
 @@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
 @@||ads.aiir.net/rf/feed?callback=jQuery
 @@||ads.alafish.cn^$~third-party
@@ -9562,8 +9562,9 @@
 @@||rtoaster.jp^$domain=3ple.jp
 @@||rtoaster.jp^$domain=attenir.co.jp
 @@||rtoaster.jp^$script,domain=animate-onlineshop.jp|brainpad.co.jp|hikaritv.net|lexus.jp|peachjohn.co.jp|rurubu.jp|melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=cecile.co.jp
+@@||rtoaster.jp^$script,domain=cecile.co.jp|ec-store.net|jreastmall.com|lexus.jp|melonbooks.co.jp
 @@||rtoaster.jp^$script,domain=ec-store.net
-@@||rtoaster.jp^$script,domain=ec-store.net|jreastmall.com|lexus.jp|melonbooks.co.jp
 @@||rtoaster.jp^$script,domain=jreastmall.com
 @@||rtoaster.jp^$script,domain=kanaloco.jp
 @@||rtoaster.jp^$script,domain=store.united-arrows.co.jp
@@ -11770,6 +11771,7 @@
 @@||vidmoly.to/jws.php
 @@||vidoza.net/embed-*.html$subdocument
 @@||vidoza.net/js/pop.js
+@@||vidsrc.*/embed/$stealth=referrer
 @@||vidsrc.*^$stealth
 @@||vidstream.to^$stealth,domain=egybest.*
 @@||vidtech.cbsinteractive.com^*/AkamaiAnalytics.swf$domain=kuathletics.com|mutigers.com|okstate.com
@@ -12209,7 +12211,6 @@
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||xfinity.com^$stealth
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideget-5
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/api/ads$xmlhttprequest,~third-party
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
