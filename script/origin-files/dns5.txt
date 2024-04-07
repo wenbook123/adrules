@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3YguWzPeTMS3nQyGt8WPqg
-! Version: 202404070801
+! Checksum: ypaSmLBcNgzvTv1+5FsNFA
+! Version: 202404071601
 ! Title: EasyList China+EasyList
-! Last modified: 07 Apr 2024 08:01 UTC
+! Last modified: 07 Apr 2024 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1327,6 +1327,7 @@ newduba.cn###jq_youxi
 ##.jqrp_infoflow_ad
 ##.js-cui-pt-item[data-qhb]
 ##.jsv > .mobile-adv
+##.jsv-layer > .image > a[href^="http"]
 ##.ka-flo
 ##.kjk-flo
 ##.ksads
@@ -1653,7 +1654,6 @@ newduba.cn###jq_youxi
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
-##.jsv-layer > .image > a[href^="http"]
 ##style + .need_grid_img
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
@@ -1672,6 +1672,7 @@ newduba.cn###jq_youxi
 ||23.231.151.252^
 ||cupfox.app^$third-party
 !
+##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".bvftxy.com/"]
 ##a[href*=".imiwang.com/"]
@@ -1684,6 +1685,7 @@ newduba.cn###jq_youxi
 ##a[href*=".yezere.com/"]
 ##a[href*="/dsf71.cc"]
 ##a[href*="/ihezu.fans"]
+||0322cfmtl.cc^
 ||0940088.com^
 ||0j775d.cn^
 ||0k7wod.cn^
@@ -1733,11 +1735,13 @@ newduba.cn###jq_youxi
 ||ariqye.xyz^
 ||arnhhwo.xyz^
 ||arqvm.cn^
+||atzhcjv.xyz^
 ||awuvcq.xyz^
 ||azyuuk.xyz^
 ||b37r5.cyou^
 ||batijian.com^
 ||bba9603w.com^
+||bdjfea.cn^
 ||bdtdat652.shop^
 ||bdxpdz.xyz^
 ||benpsbp.com^
@@ -1873,6 +1877,7 @@ newduba.cn###jq_youxi
 ||gblxtlo.xyz^
 ||gcumgu.xyz^
 ||gfjn5.xyz^
+||gfylyw.xyz^
 ||ghgasdb365.shop^
 ||ghgasdt963.shop^
 ||gicjtss.cn^
@@ -1987,6 +1992,7 @@ newduba.cn###jq_youxi
 ||lznfuab.xyz^
 ||m1170.top^
 ||m6690.top^
+||m6j37.xyz^
 ||mdhv3.icu^
 ||mdzwjra.cn^
 ||misjgy.xyz^
@@ -2023,6 +2029,7 @@ newduba.cn###jq_youxi
 ||nvjqtz.xyz^
 ||nyt5j.cyou^
 ||o1b04.cyou^
+||obgekjz.icu^
 ||obturex.com^
 ||ocggec.xyz^
 ||ofkcww.xyz^
@@ -2192,9 +2199,11 @@ newduba.cn###jq_youxi
 ||vcnpnf.xyz^
 ||vdvcjlp.cn^
 ||veaiyl.icu^
+||vejhln.xyz^
 ||vfchm.cyou^
 ||vflorp.xyz^
 ||vhvwlb.xyz^
+||vioyugo.cn^
 ||vmnlkr.icu^
 ||vpzohx.xyz^
 ||vszzzj.xyz^
@@ -2208,6 +2217,7 @@ newduba.cn###jq_youxi
 ||wisealty.com^
 ||wjwod.cyou^
 ||wkywrc.cn^
+||wnalzle.top^
 ||wnifdlae.top^
 ||wnmaoc.xyz^
 ||wopvmmy.cn^
@@ -2271,16 +2281,6 @@ newduba.cn###jq_youxi
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
-||gfylyw.xyz^
-||bdjfea.cn^
-||wnalzle.top^
-||vejhln.xyz^
-||obgekjz.icu^
-||atzhcjv.xyz^
-||m6j37.xyz^
-##A[href*=".68hantang.com"]
-||obgekjz.icu^
-||vioyugo.cn^
 ||zopuqv.icu^
 ||zsjpi.cn^
 ||zttuvj.xyz^
@@ -10232,6 +10232,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||sesefu8.com/index.php?m=poster&
 ||sesefu8.com/statics/js/layer/layer.js
 ||setn.com/js/advertisement?
+||setn.com/js/idleAD.
 ||sex141.com/img/banner/
 ||sexbarss.net/wap/
 ||sexyno1.com/mk-banner/
@@ -11032,11 +11033,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
-||setn.com/js/idleAD.
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-gotrip.hk,nmplus.hk,weekendhk.com##.ai_widget
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -12916,6 +12915,7 @@ baidu.com##.afd-item
 aotter.net##.ag-revenue
 weiyun001.com##.agency-list
 dimtown.com##.aggd
+gotrip.hk,nmplus.hk,weekendhk.com##.ai_widget
 wmzhe.com##.aibyte_ad
 moe.best##.alert
 5217kdy1.xyz##.alert-success + center
@@ -17361,17 +17361,17 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
-/exads-adblock-$image
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
@@ -17403,8 +17403,7 @@ guailie.com#@#.google-ad
 !#7
 !#8
 !#91porny.com
-91porny.org###main > div[id^="rd"]
-jiuse.io###main > div[id^="rd"]
+91porny.org,jiuse.io###main > div[id^="rd"]
 ###playerJsvLayer.jsv-layer
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
 ##.fixed-bottom.jsv.jsv-g1
@@ -19494,7 +19493,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/index.
 /ads/index/*
 /ads/index_
-/ads/js/*
 /ads/leaderboard-
 /ads/leaderboard.
 /ads/native.js
@@ -19559,38 +19557,28 @@ fqsousou.com,kengso.com#@#.user-share
 /ads_banner_
 /ads_banners/*
 /ads_bg.
-/ads_bottom.
-/ads_bottom_
+/ads_bottom.js
 /ads_controller.js
-/ads_dfp/*
-/ads_display.
+/ads_dfp/resources/*
 /ads_files/*
 /ads_footer.
 /ads_frame.
 /ads_iframe.
 /ads_image/*
 /ads_images/*
-/ads_loader.
-/ads_manager.
-/ads_sidebar.
-/adsadview.
-/AdsAjaxRefresh.
-/adsAPI.$domain=~snap.com|~snapchat.com
+/adsAPI.js
 /adsbanner-
 /adsbanner.
 /adsbanner/*
-/adsbb.
 /adsbox.$~script,domain=~adsbox.com.sg
-/adscontrol.
-/adscontroller.
+/adscontrol.js
+/adscontroller.js
 /adscroll.js
-/adsdelivery.
 /adsdelivery/*
 /adserv.
 /adserve/*
 /adserver-
 /adserver.$~stylesheet,~xmlhttprequest
-/adserver1-
 /adserver1.
 /adserver2.
 /adserver2/*
@@ -36900,6 +36888,7 @@ sdf-event.sakura.ne.jp#@##ad_3
 sdf-event.sakura.ne.jp#@##ad_4
 streetinsider.com#@##ad_space
 adtunes.com#@##ad_thread_first_post_content
+aga-clinic-experience.jp#@##ad_top
 linuxtracker.org#@##adbar
 pyfunceble.readthedocs.io#@##adblock
 lalovings.com#@##adcontainer
@@ -36914,7 +36903,7 @@ mafagames.com#@##adsContainer
 video.tv-tokyo.co.jp#@##adspace
 globalsecurity.org#@##adtop
 ewybory.eu#@##adv-text
-basinnow.com,oxfordlearnersdictionaries.com#@##advertise
+basinnow.com,e-jpccs.jp,oxfordlearnersdictionaries.com#@##advertise
 fcbarcelona.dk#@##article_ad
 catb.org#@##banner-ad
 hifi-forsale.co.uk#@##centerads
@@ -36923,11 +36912,13 @@ deepgoretube.site#@##fwdevpDiv0
 developers.google.com#@##google-ads
 plaza.rakuten.co.jp#@##headerAd
 airplaydirect.com#@##header_ad
+665.jp#@##leftad
 tei-c.org#@##msad
 suntory.co.jp#@##page_ad
 box10.com#@##prerollAd
 spjai.com#@##related_ads
 eva.vn#@##right_ads
+665.jp,e-jpccs.jp#@##rightad
 39.benesse.ne.jp,techeyesonline.com#@##side-ad
 lexicanum.com#@##sidebar-ad
 mars.video#@##stickyads
@@ -45453,6 +45444,7 @@ browsershots.org#@#.advert_area
 ||d36f31688a.com^
 ||d37914770f.com^
 ||d3befd5a11.com^
+||d3c.life^
 ||d3c.site^
 ||d3d98dc11c.com^
 ||d3da127b69.com^
@@ -82893,6 +82885,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||2merkato.com/images/banners/
 ||2oceansvibe.com/?custom=takeover
 ||4f.to/spns/
+||abcnews.com/assets/js/adCallOverride.js
 ||aboutmyarea.co.uk/images/imgstore/
 ||ad.animehub.ac^
 ||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
@@ -84242,6 +84235,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||redtube.fm/advertisment.htm
 ||redtube.fm/lcgldrbboxj.php
 ||rintor.space/t2632cd43215.js
+||rockpoint.xhaccess.com^
 ||rockpoint.xhamster.com^
 ||rockpoint.xhamster.desi^
 ||rockpoint.xhamster2.com^
@@ -85247,6 +85241,7 @@ neoseeker.com###section-pagetop
 searchenginejournal.com###sej-pop-wrapper_v2
 analyticsinsight.net###sgpb-popup-dialog-main-div-wrapper
 v3rmillion.net###sharingPlace
+fedex.com###shop-runner-banner-link
 search.brave.com###shopping
 filedropper.com,lifenews.com###sidebar
 whatsondisneyplus.com###sidebar > .widget_text.amy-widget
@@ -92004,6 +91999,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||assoc-amazon.com/widgets/cm?$subdocument,domain=atcoder.jp
 @@||astatic.ccmbg.com^*/prebid$script,domain=linternaute.com
 @@||banki.ru/bitrix/*/advertising.block/$stylesheet
+@@||bihoku-minpou.co.jp/img/ad_top.jpg$~third-party
 @@||bloominc.jp/adtool/$~third-party
 @@||book.com.tw/image/getImage?$domain=books.com.tw
 @@||c.ad6media.fr/l.js$domain=scan-manga.com
@@ -92037,6 +92033,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||ienohikari.net/ad/common/$~third-party
 @@||ienohikari.net/ad/img/$~third-party
 @@||img.rakudaclub.com/adv/$~third-party
+@@||infotop.jp/html/ad/$image,~third-party
 @@||jmedj.co.jp/files/$image,~third-party
 @@||jobs.bg/front_job_search.php$~third-party
 @@||kanalfrederikshavn.dk^*/jquery.openx.js?
