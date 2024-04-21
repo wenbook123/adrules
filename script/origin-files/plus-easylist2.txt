@@ -14,6 +14,7 @@
 ! @@||youtube.com/get_video_info?*timedtext_editor$xhr,1p
 ! https://redd.it/ggcmkp https://redd.it/gx03e0
 ! https://github.com/uBlockOrigin/uAssets/pull/18106/
+! https://www.reddit.com/r/uBlockOrigin/comments/1atwzem/comment/l06ayn9/
 tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|player\?|watch\?v=|youtubei\/v1\/player/)
 !#if !cap_html_filtering
 www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , /playlist\?list=|player\?|watch\?v=|youtubei\/v1\/player/)
@@ -23,8 +24,8 @@ www.youtube.com##+js(trusted-replace-fetch-response, /\"adSlots.*?\}\]\}\}\]\,/,
 !#else
 ||www.youtube.com/playlist?list=$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
 ||www.youtube.com/playlist?list=$xhr,1p,replace=/"adSlots.*?\}\]\}\}\]\,//
-||www.youtube.com/watch?v=$doc,xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
-||www.youtube.com/watch?v=$doc,xhr,1p,replace=/"adSlots.*?\}\]\}\}\]\,//
+||www.youtube.com/watch?v=$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
+||www.youtube.com/watch?v=$xhr,1p,replace=/"adSlots.*?\}\]\}\}\]\,//
 ||www.youtube.com/youtubei/v1/player?$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
 ||www.youtube.com/youtubei/v1/player?$xhr,1p,replace=/"adSlots.*?\}\]\}\}\]\,//
 !#endif
@@ -10146,7 +10147,8 @@ washingtonpost.com##div.grey-bg
 washingtonpost.com##section > div:has-text(/^AD$/)
 washingtonpost.com##:xpath('//*[(text()="AD")]/..')
 washingtonpost.com##.w-100:has-text(Advertisement)
-washingtonpost.com##[data-testid="article-body-ad-desktop"]:upward(1)
+! https://github.com/uBlockOrigin/uAssets/issues/23379
+washingtonpost.com##[data-testid="article-body-card"]:has(> [data-qa="article-body-ad"])
 ! https://github.com/uBlockOrigin/uAssets/issues/9185#issuecomment-847835587
 !#if env_mobile
 washingtonpost.com##div.mb-lg.mt-lg.pb-lg.pt-lg.bc-gray-lighter.bh.b.justify-center.items-center.flex.dn-hp-sm-to-mx
