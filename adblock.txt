@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Ly5LKdPNTUnwUSPSp+p9OQ
+! Checksum: UrCcnO7dvLcosn6QWQGNVw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-04-28 00:14:10（北京时间） 
-! Total count: 82285
+! Version: 2024-04-28 08:50:55（北京时间） 
+! Total count: 82289
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1887,6 +1887,7 @@ $doc,removeparam=refer_page_el_sn,domain=temu.com
 $doc,removeparam=refer_page_sn,domain=temu.com
 $doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk|~cravesandflames.com
 $doc,removeparam=refresh,domain=cnn.com|startribune.com
+$doc,removeparam=s_campaign
 $doc,removeparam=sal,domain=indeed.com
 $doc,removeparam=searchidx,domain=bedbathandbeyond.com
 $doc,removeparam=selectedCCIndex,domain=citi.com
@@ -3374,7 +3375,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
 */letv-gug/$media
-*/preroll/$media,domain=91porn.com
 *_ad_$media,domain=youtube.com,3p
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
@@ -4540,6 +4540,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
+/api_adlog.php?
 /api_ip_info.php
 /apilog?
 /apmrum.min.js
@@ -4599,6 +4600,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /avshow_cn1.gif
 /awin?awc=$image
 /awp.log
+/awpx_click.js
 /awpys.log
 /awstats.js
 /awstats_misc_tracker
@@ -6408,6 +6410,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /plugins/vdz-google-analytics/*
 /plugins/visitors-traffic-
 /plugins/wordfence/visitor.php?
+/plugins/wp-vgwort/*
 /plus/ad_
 /pmc-cxense.js
 /pointeur.gif?
@@ -8216,7 +8219,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 2dway.com##a[href="https://www.2dway.com/5244/"]
 2ghai.com##.a_xiu_t
 2ghai.com##.yttl_x_g
-2qpqwkx.cn
 2yjw.com##.widget-tops
 2yjw.com,fuliba2021.net,itdog.cn,zhujiceping.com##.orbui
 324324.cn###gg_468_60
@@ -8815,7 +8817,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 91lai.com##.D_guanggaotu2
 91lai.com##.D_guanggaotu3
 91lai.com##.showimgs
-91p20.space
 91porn.com##.preroll-blocker
 91porn.com##iframe[src$="/fans/ad.php"]
 91porny.com###playerJsvLayer.jsv-layer
@@ -10220,6 +10221,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||lnk2.cc^$generichide
 @@||loader-cdn.azureedge.net/prod/smi/loader.min.js$domain=pressdemocrat.com
 @@||lobi.co/1/track/event/
+@@||log.mmstat.com/eg.js^$script
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 @@||logcg.content-delivery.top/wp-content/plugins/bwp-minify/min/?f=
 @@||logging.apache.org^$~third-party
@@ -10297,7 +10299,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||mmgd.xyz^$generichide
 @@||mmstat.com/eg.js$domain=1688.com|taobao.com|tmall.com|tudou.com|youku.com
 @@||mmstat.com/eg.js$script,domain=aliexpress.com
-@@||mmstat.com^$domain=youku.com
 @@||mmuu22.link^$generichide
 @@||mmy.la^*300*250
 @@||mnighthk.net/template/*/ad
@@ -10614,6 +10615,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||simba.taobao.com/?name=mcad$script
 @@||simba.taobao.com/?name=tcmad&$domain=www.taobao.com
 @@||simcotools.app/assets/adsense-*.js$~third-party
+@@||simpleanalyticsexternal.com^$script,domain=inleo.io
 @@||sina.com.cn/litong/*/close
 @@||sina.com.hk^*_ads.cgi
 @@||sinaimg.cn/ad/adimage/50x50_
@@ -10725,7 +10727,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||taobao.com^*&adgroupid=
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
 @@||targetimg1.com/webui/$script,domain=target.com
-@@||tb.mgtv.com/sdk/*/ad-sdk.
+@@||tb.mgtv.com/sdk/*/ad-sdk.js^$script
 @@||tbcdn.cn^*/click_track.js
 @@||tbskip.taobao.com/json/
 @@||tce.alicdn.com^$domain=alimama.com
@@ -11087,7 +11089,6 @@ actoys.net,hualongxiang.com##div[id^="ads_d_"]
 acwifi.net##.article-content > div[style="float: none; margin:10px 0 10px 0; text-align:center;"]
 acwifi.net##.widget_ssr
 acwifi.net,zhain8.com##.ssr
-ad-survey.com
 adbug.cn#@#.google_ads
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_ext
@@ -12643,8 +12644,6 @@ dajie.com##.envelop_layer
 dajie.com##.register_layer
 dalipan.com##.hongbao-wrap
 dan-teng.top##.nav
-dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,webkitRTCPeerConnection,null)
-dandanzan.com,nnyy.in##.gm-fp-body video:style(max-height:100%!important)
 dangdang.com###fix_erweima
 dangdang.com##.bottom_fixed
 dangdang.com##.code2s
@@ -16014,6 +16013,7 @@ mianhuatang520.com###addiv2
 miaopai.com##.footer_banner
 miaopai.com,renren.com##.swiper-container
 miaoshangmanhua.com##.cy_menuright
+miaozhen.com
 microcontrol.cn###body > table[width="758"]
 microsoftnews.msn.cn##div[class^="nativeAd-DS-card"]
 microsoftnews.msn.cn#?#.riverSections-DS-EntryPoint1-1 > div[style^="display: grid;"] > div[style^="grid-area:"]:last-child > .card-DS-card1-1 > div[class^="nativeAd-DS-card"]:upward(2)
@@ -16466,6 +16466,7 @@ nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv#%#//scriptlet('set-constant', 'detailPar
 nlc.gov.cn###lovexin12xx
 nmgnews.com.cn###div_ad4
 nnhanman.net##div[style="width:728px;padding-top: 8px;"]
+nnyy.in##.gm-fp-body video:style(max-height:100%!important)
 nobugin.com##.td-a-rec
 nodejs.cn###biz_center
 nodejs.cn###biz_nav
@@ -16572,7 +16573,6 @@ opdown.com##.gxxz-btn
 opdown.com##.listaddrs
 opticsky.cn###head > .tac
 opticsky.cn##.p83_gridC > .cc
-orgaorg.com
 orsoon.com###new-actentry
 oschina.net###project_ad_banner
 oschina.net##.aside-topjj
@@ -18445,7 +18445,6 @@ wasu.cn###scan_qrcode
 wasu.cn##.info_ads
 wasu.cn##.qp
 wasu.cn##div[class^="play_ads"]
-waust.at
 wbiao.cn###popupImgCorner
 wbiao.cn##.wb-panel
 wcjbb.com###frame37boCx
@@ -18526,7 +18525,6 @@ weiyun.com#@#.page-share-box
 weiyun001.com##.agency-list
 weiyun001.com##.bg-box > .slide-box
 weiyun001.com##.g-side-r > a[onclick^="onLogs"]
-weizhenwx.com
 wenda.so.com##a[href^="http://e.so.com/search/eclk?"]
 wendangxiazai.com###ft_hb
 wendu.cn###topads
@@ -19129,7 +19127,6 @@ yxlady.com##.left_bottom_gg3
 yxssp.com##.td-main-content > div[id^="metaslider-id"]
 yxzp.net##img[width="770"]
 yy.com###rbappend
-yy.com,le.com##+js(nowebrtc)
 yyets.click#?#.MuiBadge-root:-abp-has(>a[href*="/maomao.cloud/"])
 yyrtv.com##.right-gg
 yyrtv.com##li[class*="baidu"]
@@ -19352,7 +19349,6 @@ zzzyk.com###Tinfo
 |http://r.i.ua^
 |http://x.o2.pl^
 |https://a.pr-cy.ru^$third-party
-|https://dd-static.jd.com/ddimg/jfs/t1/173245/15/28822/346324/62fcb4b0Eb437d047/136a1e04890320b8.jpg$image,domain=subaibaiys.com
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
 |https://r.i.ua^
 |https://tellme.pw/go/jav$popup
@@ -33903,6 +33899,7 @@ zzzyk.com###Tinfo
 ||cs1863sbeda.glaucoma-arrest.net^
 ||cs2113sbeda.hokto-onlineshop.jp^
 ||cs42.pikabu.ru^
+||cs43.pikabu.ru^
 ||csaimall.com^$popup,third-party
 ||cscsexam.quantresear.ch^
 ||csdata1.com^$third-party
@@ -40114,6 +40111,7 @@ zzzyk.com###Tinfo
 ||fuliwang.cc^
 ||fullcircleinsights.com^$third-party
 ||fullerton-app.hotdoc.com.au^
+||fulllab.com.br^$third-party
 ||fullscreen.nz/v1/tracking/$domain=threenow.co.nz
 ||fullstory.com^$third-party
 ||fulmar.net.anwalt.de^
@@ -41136,6 +41134,7 @@ zzzyk.com###Tinfo
 ||go-test.tamed.fdm.dk^
 ||go-test.wondavr.com^
 ||go-uat.qantaswellbeing.com^
+||go-usertrack-importer.pub.24ur.si^
 ||go.17app.co^
 ||go.4010.ru^
 ||go.4sq.com^
@@ -41479,6 +41478,7 @@ zzzyk.com###Tinfo
 ||go.piccolo.mobi^
 ||go.picsart.com^
 ||go.pinoy.innovatedating.com^
+||go.planetnine.com^
 ||go.playbackbone.com^
 ||go.player2app.com^
 ||go.plygem.com^
@@ -42826,6 +42826,7 @@ zzzyk.com###Tinfo
 ||hiqua.xyz^
 ||hira-meki.jp^$third-party
 ||hirmatrix.hu^$third-party
+||hirsung.de^
 ||hirtv.hu/ajaxx/_stat/
 ||hirtv.hu/nx_general_stat.jpg?
 ||hisense.com/ta.js
@@ -45795,6 +45796,7 @@ zzzyk.com###Tinfo
 ||ip.chipestimate.com^
 ||ip.cliphunter.com^
 ||ip.lovely-app.com^
+||ip.momentummedia.com.au^
 ||ip.sb/assets/images/*_ads.
 ||ip.tianqiapi.com^
 ||ip.up66.ru^
@@ -47310,7 +47312,7 @@ zzzyk.com###Tinfo
 ||kilometrix.de^$third-party
 ||kimberlyspa.actonservice.com^
 ||kindhush.com^
-||kinesis.eu-west-1.amazonaws.com^$third-party,domain=~amazon.com
+||kinesis.*.amazonaws.com^$third-party,domain=~amazon.com
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||kingnews.burgerking.co.za^
 ||kingsandqueens.splowser.com^
@@ -52183,6 +52185,7 @@ zzzyk.com###Tinfo
 ||mat.chasedream.com^*.gif
 ||mat.lgdisplay.com^
 ||mat.socy.es^
+||mat.ukraine-nachrichten.de^
 ||mat1.gtimg.com/2014/vikkydu/GA/haier
 ||mat1.gtimg.com/2014/webtips/ola2014tips
 ||mat1.gtimg.com/cq/flash/
@@ -52577,6 +52580,7 @@ zzzyk.com###Tinfo
 ||mediaite.com^*/track/
 ||mediamarket.$removeparam=rbtc
 ||mediamathrdrt.com^
+||mediamax.suning.com/adssp/sdk/$script
 ||mediametrics.mpsa.com^
 ||mediametrics.ru^$third-party
 ||mediaplan.ru^$third-party
@@ -56153,7 +56157,6 @@ zzzyk.com###Tinfo
 ||nongjitong.com/adm/
 ||nonprofit.aon.com^
 ||noodle.backmarket.io^
-||nooen.com^$popup
 ||noowho.com^$third-party
 ||nordace.com/track.js
 ||nordicmarketing.sedgwick.com^
@@ -57610,7 +57613,6 @@ zzzyk.com###Tinfo
 ||p2ijd.space^
 ||p2kfynrr.icu^
 ||p2oh1.xyz^
-||p2p.$xhr,websocket,ping,domain=~huya.com|~binance.com
 ||p2p.v.yyclouds.com/crossdomain.xml
 ||p2peye.com/ajax.php?mod=ad&
 ||p2peye.com/ajax.php?mod=advertisement&
@@ -61352,6 +61354,7 @@ zzzyk.com###Tinfo
 ||rumt-sg.com^
 ||run-syndicate.com^
 ||run.app/data.log
+||run.app/events
 ||run.app/events$domain=imgur.com
 ||run.app/metrics/
 ||runative-syndicate.com^
@@ -62611,7 +62614,6 @@ zzzyk.com###Tinfo
 ||seal.godaddy.com^$third-party
 ||seal.networksolutions.com^$third-party
 ||seal.qualys.com^$third-party
-||sealine.youku.com/yk/*callback=adpagesdk$script
 ||sealine.youku.com^
 ||sealingdev.actonservice.com^
 ||sealmetrics.com^$third-party
@@ -76146,6 +76148,7 @@ zzzyk.com###Tinfo
 ||trustid.actonservice.com^
 ||trustiseverything.de^$third-party
 ||trustisimportant.fun^
+||trustmary.io/agg-event
 ||trustpilot.com/stats/
 ||truthfulsensor.com^
 ||truvidplayer.com^$domain=technews.tw
@@ -79097,6 +79100,7 @@ zzzyk.com###Tinfo
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
 ||wozdcc.vidaxl.at^
 ||wp-engage.org/api/v5/post/activity/log/
+||wp-worthy.de^$third-party
 ||wp.com/i/mu.gif$image
 ||wp.com/wp-content/js/bilmur.min.js
 ||wp.pl/?rid=
