@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: MsXob2ut3Nu9ToV720omxw
+! Checksum: wWS9dmSv2CZTz5y3bpZvFg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-05-15 08:48:41（北京时间） 
-! Total count: 82586
+! Version: 2024-05-15 16:17:03（北京时间） 
+! Total count: 82607
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -11801,12 +11801,10 @@ bilibili.com##.banner-card
 bilibili.com##.bili-app
 bilibili.com##.bili-app-link-container
 bilibili.com##.bili-dyn-ads
-bilibili.com##.bili-video-card > div[class^="extension-tips"]
 bilibili.com##.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
 bilibili.com##.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.btn-ctnr
-bilibili.com##.carousel-container > .carousel-transform > div[class^="carousel-slide"] > div[class^="extension-tips"]
 bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.desktop-download-tip
 bilibili.com##.download-client-trigger.download-entry
@@ -11844,9 +11842,12 @@ bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
+bilibili.com#$?#.bili-video-card > div[class]:only-child:matches-css(before, content: /Adblock/) { remove: true; }
+bilibili.com#$?#.carousel-container > .carousel-transform > div[class^="carousel-slide"] > div[class]:only-child:matches-css(before, content: /Adblock/) { remove: true; }
 bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
+bilibili.com#%#//scriptlet('spoof-css', '.__adblockhidden > a', 'display', 'block')
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.van-popover__reference:contains(下载)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
@@ -16881,6 +16882,7 @@ poklw.com##img[alt="恰饭广告"]
 polyapt.com#@#.ad-one
 popart.hk###slideshow
 popbee.com##.adblocker
+popdaily.com.tw##div[class^="ad-delimiter-"]
 popo.tw#@#.header_ad
 porn5f.com###dprecommend
 porn5f.com###main_video_block > .m-t-5.pull-right
@@ -18333,6 +18335,7 @@ up.woozooo.com##.ves
 up01.cc###popad
 up01.cc##div[style="position:fixed;width:468px;left: 50%;transform:translate(-50%,0);height:60px;background:#fff;bottom:0px;text-align:center;z-index:9"]
 upmedia.mg###divider_ad
+upsangel.com##a[href="https://upsangel.com/check/surfsharkvpn/"]
 user.qzone.qq.com###qz_notification
 user.qzone.qq.com##.f-single-biz
 user.qzone.qq.com##div[id^="fct_20050606_"]
@@ -19230,12 +19233,14 @@ zhidao.baidu.com###feed-recommend
 zhidao.baidu.com###knowledge-answer-list
 zhidao.baidu.com###main-content > div[class]:first-child > a
 zhidao.baidu.com###qb-content div.businessvip-wrapper
+zhidao.baidu.com###wap-youx-change-asp
 zhidao.baidu.com##.daily-header-download
 zhidao.baidu.com##.doodle-container
 zhidao.baidu.com##.doodle-container,.feed-recommend,.wgt-recommend-business,[class*="-ads"],[class*="related-yxiao-item"],[class*="icon-bdad"],[class*="-youx"]
 zhidao.baidu.com##.icon-bdad
 zhidao.baidu.com##.singin-bubble
 zhidao.baidu.com##.zhidao-app.menu-right-list-item
+zhidao.baidu.com##[class$='-ecom-ads']
 zhidao.baidu.com##a[class="cur"][href^="/mobile/board?"] > img
 zhidao.baidu.com##div[class^="cms-slide"] > p[class="cms-link-title"]
 zhidao.baidu.com#?#.wgt-ads
@@ -19480,6 +19485,7 @@ zzzyk.com###Tinfo
 ||074adzx.com^
 ||0755rc.com^$third-party
 ||07b3.pandasuite.io^
+||07dy.cc^
 ||08088.top^
 ||080999.cn^
 ||085cczz.com^
@@ -30659,6 +30665,7 @@ zzzyk.com###Tinfo
 ||bpsemea.hilton.com^
 ||bpsxld.meutudo.com.br^
 ||bpt.webedia-group.com^
+||bpxbzps.xyz^
 ||bpyerxzn.xyz^
 ||bpztsxx.com^
 ||bqacmp.vidaxl.no^
@@ -32040,6 +32047,7 @@ zzzyk.com###Tinfo
 ||cheda10.icu^
 ||cheda7.icu^
 ||cheerfulrange.com^
+||cheerycraze.com^
 ||cheese.guac.live^
 ||chef.getmenoo.com^
 ||chef.newtrina.com^
@@ -37516,6 +37524,7 @@ zzzyk.com###Tinfo
 ||eggplant.cloud^$third-party
 ||eghrbf.immowelt.at^
 ||eghyahl.cn^
+||egidskiw.top^
 ||egipsbvlgn.xyz^
 ||eglizqf.cn^
 ||egmontpublishing.dk/tracking/
@@ -39225,6 +39234,7 @@ zzzyk.com###Tinfo
 ||fancentro.com/lapi/statisticWriter/
 ||fancentro.com/trck-
 ||fancyactivity.com^
+||fancydune.com^
 ||fandom.com^$removeparam=so
 ||fandommetrics.com^$third-party
 ||fang.com/house/ajaxrequest/adverTlGet.
@@ -42849,6 +42859,7 @@ zzzyk.com###Tinfo
 ||hfqdipw.cn^
 ||hfresgtyytjncvvh.com^
 ||hfwld.cn^
+||hgcgnfe.icu^
 ||hgehse.site^
 ||hgf4.zanzicar.fr^
 ||hgf8hck.com^
@@ -46836,6 +46847,7 @@ zzzyk.com###Tinfo
 ||jokerlu.com/upload/addon/
 ||jokerlu.com/upload/vod/
 ||jokerlulm.com^
+||jollylens.com^
 ||jollyspring.com^
 ||jollytestpartying.com^
 ||jomwihn.cn^
@@ -47308,6 +47320,7 @@ zzzyk.com###Tinfo
 ||kbb.com/pixall/
 ||kbbrptv.xyz^
 ||kbcmdi.florsheim.com.au^
+||kbexos.xyz^
 ||kbighx.absolventa.de^
 ||kbneks00.online^
 ||kbomku.xyz^
@@ -55197,6 +55210,7 @@ zzzyk.com###Tinfo
 ||mqldrm.lgcity.ru^
 ||mqrupjsm.xyz^
 ||mqsicr.smiggle.co.uk^
+||mqsjzm.cn^
 ||mqsnce.xyz^
 ||mquwyx.engelhorn.de^
 ||mqvyob.vidaxl.fi^
@@ -56590,6 +56604,7 @@ zzzyk.com###Tinfo
 ||nuttyorganization.com^
 ||nuucmzuc.com^
 ||nuvi.actonservice.com^
+||nuxwlc.cn^
 ||nuyibu.pieper.de^
 ||nuyujp.barstoolsports.com^
 ||nv.inhaabit.com^
@@ -59435,6 +59450,7 @@ zzzyk.com###Tinfo
 ||prowareness.actonservice.com^
 ||proxy.dzeio.com^
 ||proxycheck.io/v2/
+||prpmdp.xyz^
 ||prprocess.com^$third-party
 ||prtracker.com^$third-party
 ||prudential.distribution.team.prudential.co.uk^
@@ -60318,6 +60334,7 @@ zzzyk.com###Tinfo
 ||qwmamh.icu^
 ||qwnmfiti.xyz^
 ||qwrnkpow.com^
+||qwsanan.top^
 ||qxakzox.cn^
 ||qxauwo.sportisimo.ro^
 ||qxibrn.enviedefraise.fr^
@@ -63551,6 +63568,7 @@ zzzyk.com###Tinfo
 ||sentcss.com/get/cors/spread/
 ||sentcss.com/get/showcase/
 ||sentiment.icis.com^
+||sentinelbi.com^$third-party
 ||sentinelp.com^
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry-cdn.top^$third-party
@@ -71861,6 +71879,7 @@ zzzyk.com###Tinfo
 ||ta.sbird.xyz^$third-party
 ||ta.taxslayer.com^
 ||ta.trs.cn^$third-party
+||ta20k.xyz^
 ||tablesafe.actonservice.com^
 ||taboola.com/?uid=
 ||taboola.com/libtrc/
@@ -77721,6 +77740,7 @@ zzzyk.com###Tinfo
 ||vfsvv1.com^
 ||vfvad.top^
 ||vfvcxv.naturhaeuschen.de^
+||vfxrpl.xyz^
 ||vfzfrx.xyz^
 ||vfzxaz.bloomingdales.ae^
 ||vg.no/stats/
@@ -82160,6 +82180,7 @@ zzzyk.com###Tinfo
 ||zhengliyqq.com^
 ||zhengshaoze.com^
 ||zhengxiaoliu.top^
+||zhengzhou12.top^
 ||zhenjiang365.cn/*/ad_
 ||zhev.com.cn/file/weixin/
 ||zhflodsix.cn^
