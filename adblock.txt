@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: FDd5fLxdBBExbEEoyY9sHA
+! Checksum: EhSeacPClMpsvsZGQEz0yQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-05-22 08:48:40（北京时间） 
-! Total count: 82741
+! Version: 2024-05-22 16:17:45（北京时间） 
+! Total count: 82772
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -581,6 +581,7 @@
 ##.afc_popup
 ##.alert_windows > .q-card__actions > a
 ##.anniversary-wrap-2018
+##.apd-footer
 ##.app-down-fix.body-fix
 ##.appdownload_ad + .hider
 ##.appguide-wrap[onclick*="bcebos.com"]
@@ -1489,6 +1490,7 @@
 ##a[href^="/dasp.php?a="]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="/template/1/html/ad/"]
+##a[href^="http"] > img[height="60px"][src*="imgsrc.baidu.com"]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
 ##a[href^="http://ad-apac.doubleclick.net/"]
@@ -3680,6 +3682,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .kijiji.ca/r/
 .klclick.com/$image
 .la/style/vue.js?v=
+.land/ad/*.gif
 .life/ads/
 .list-manage.com/track/
 .live/hm.js$third-party
@@ -8211,7 +8214,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 2345.com##div[id^="bd-search-ad"]
 2345.com#?#.pic:-abp-has(a[href^="http://g.wan."])
 2345.com,duanwenxue.com###topHf
-247sports.com,androidpolice.com,bringmethenews.com,mensjournal.com,arstechnica.com,audiotools.pro,audizine.com,blackenterprise.com,boston.com,britannica.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,download.mokeedev.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,pastes.io,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,usatoday.com,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acis, document.createElement, admiral)
+247sports.com,androidpolice.com,bringmethenews.com,mensjournal.com,arstechnica.com,audizine.com,blackenterprise.com,boston.com,britannica.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,usatoday.com,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acis, document.createElement, admiral)
 24en.com##.article_part_top
 24en.com##A[href*="/ClickAd?"]
 24h.pchome.com.tw,find.ruten.com.tw##.site_evt
@@ -11723,6 +11726,7 @@ baofeng.com##.ad-pop-wrap
 baofeng.com##.play-ads
 baoliny.com,gasaq.com,hgitv.com,ifooday.cn,nen.com.cn##.guanggao
 baomidou.com##.sidebar-slot-top
+baomidou.com#%#//scriptlet('set-constant', '_AdBlockInit', 'noopFunc')
 bbc.com##section[class*="AdContainer"]
 bbs-mychat.com###cate_top > tr > .f_one
 bbs-mychat.com#@#.adContent
@@ -12891,8 +12895,9 @@ douguo.com###dlayer
 douguo.com##.mbs
 douxie.com##.ndxBanner
 douxie.com##.ndxChdjBox
+douyin.com###videoSideBar iframe
 douyin.com#?##douyin-right-container > div[class] > div[class]:has(> ul[class] > li[class] > a[href][target="_blank"] + div:contains(广告))
-douyin.com#?#.page-recommend-container:-abp-has(span[style^="background"]:-abp-contains(广告))
+douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 douyu.com###FansFestival2003Tips
 douyu.com###douyu_room_normal_player_danmuDom > .ani-base-hover.DanmuEffectBC.ani-broadcast
 douyu.com###douyu_room_normal_player_proxy_box > .PlayerSuspendedBallAd
@@ -16624,6 +16629,8 @@ olevod.com##.B1R
 olevod.com##.L1
 olevod.com##.L4A
 olevod.com##.ad1
+olevod.com##.pc-ads
+olevod.com##.swiper-wrapper > div.swiper-slide:has(> img[src^="https://static.olelive.com/uploads/file/"])
 olevod.com##div[class^="ad"][style="margin-top: 0.05rem;"]
 olevod.com##div[style*="%;float: left;"] > a[target="_blank"]
 olevod.com#$?#.swiper-wrapper > li.swiper-slide:has(> a[target="_blank"]:not([href^="/"])) { remove: true; }
@@ -20518,6 +20525,7 @@ zzzyk.com###Tinfo
 ||55555555555.xyz^
 ||555bbb333bbb.com^
 ||555bbb555www.com^
+||555bbb777www.com^
 ||5588.tv/js/piaofuImg.js
 ||5598tp.com^$domain=9xav.cc
 ||55bbs.com/east.html
@@ -20643,6 +20651,7 @@ zzzyk.com###Tinfo
 ||6528fdyngk.xyz^
 ||65432.pw^
 ||66.fmx.cn/js/
+||66308888.com^
 ||6651tp.com^
 ||6665432.com^*.gif
 ||666579.xyz^
@@ -20651,6 +20660,7 @@ zzzyk.com###Tinfo
 ||666bb777ww.com^
 ||666bbb222www.com^
 ||666bbb333bbb.com^
+||666bbb888www.com^
 ||6677648.reddoorz.com^
 ||6696q.com^
 ||6699fa.cn/imagestb/
@@ -20670,6 +20680,7 @@ zzzyk.com###Tinfo
 ||68-175.net.jumia.co.ke^
 ||68710266.com^
 ||69-74.net.jumia.sn^
+||692881.com^
 ||693836.com^$popup
 ||6969aa.cn^
 ||69adu.com/bootstrap.
@@ -20740,6 +20751,7 @@ zzzyk.com###Tinfo
 ||7701zxcv.com^
 ||771fnypadw0j.pt.themoneytizer.com^
 ||775mz.com/js/jquery.js
+||777aa888bb.com^
 ||777aa999aa.com^
 ||777bb111ww.com^
 ||777bbb222bbb.com^
@@ -20869,6 +20881,8 @@ zzzyk.com###Tinfo
 ||88448.com/images/appkai980x100.gif
 ||8861198.com^
 ||8861202.com^
+||888aa111bb.com^
+||888aa222bb.com^
 ||888bb555ww.com^
 ||888bb666cc.com^
 ||888bbb555www.com^
@@ -29551,6 +29565,7 @@ zzzyk.com###Tinfo
 ||baofeng.com/images/yiqi
 ||baojia.steelcn.cn/images/$object
 ||baoliny.com/js/jing.js
+||baomidou.com/_astro/CheckAdBlocked.*.js
 ||baomihua.com/yy/
 ||baomitu.duapp.com/js/layer.js
 ||bapages.carte-gr.total.fr^
@@ -31211,7 +31226,6 @@ zzzyk.com###Tinfo
 ||buzzfeednews.com^$removeparam=bfsource
 ||buzzhand.com/images/$subdocument
 ||buzzoole.com^$third-party
-||buzztoon*.com/data/*.gif
 ||buzzurl.jp/api/counter/
 ||bvbqyq.odalys-vacances.com^
 ||bvexmf.bigtv.ru^
@@ -31247,6 +31261,7 @@ zzzyk.com###Tinfo
 ||bxbyll.xyz^
 ||bxiaev.linvosges.com^
 ||bxjhlhk.xyz^
+||bxlmrl.xyz^
 ||bxlsct.ex-shop.net^
 ||bxnxdlb.xyz^
 ||bxoiksm.xyz^
@@ -32107,6 +32122,7 @@ zzzyk.com###Tinfo
 ||chengdu.cn/acts/phoneqss/openCornerWin/
 ||chengtongled.com/gg/
 ||chengtu.com/api.php?mod=ad&adid=
+||chengzijianzhan.cc^$third-party,subdocument
 ||chenhaishan.info^
 ||chenjiayu.cn/gg.js
 ||chenyuzhou1.cn^
@@ -34100,6 +34116,7 @@ zzzyk.com###Tinfo
 ||csvtt.bmolife.com^
 ||csvtu.bmolending.com^
 ||csygxdym.com^
+||csylief.top^
 ||csymrm.24mx.fr^
 ||csyqts.tmon.co.kr^
 ||csyys0731.com^
@@ -36617,6 +36634,7 @@ zzzyk.com###Tinfo
 ||dpbolvw.net^$third-party
 ||dpckzt.mesrecettesfaciles.fr^
 ||dpe5t.space^
+||dpedrt.xyz^
 ||dpg.danawa.com/*/rest/*getStampEvent
 ||dpijohb.icu^
 ||dpj0uvy.icu^
@@ -37570,6 +37588,7 @@ zzzyk.com###Tinfo
 ||efmtsw.xyz^
 ||efplso.epost.go.kr^
 ||efreecode.com^
+||efs604.top^
 ||efuxqe.tatilbudur.com^
 ||efvsyhbf.xyz^
 ||egadfe.xyz^
@@ -47956,12 +47975,14 @@ zzzyk.com###Tinfo
 ||kykqss.xyz^
 ||kyloepartners.actonservice.com^
 ||kymahuxv.xyz^
+||kyokglm.icu^
 ||kyoufukudoucname.worldsmile.net^
 ||kyplpw.com^
 ||kyq3hky.icu^
 ||kyq3xch.icu^
 ||kyson.kakao.com^
 ||kyszhn.qvc.jp^
+||kytbxcl.cn^
 ||kytesconge.com^
 ||kyuwkbd.top^
 ||kyvpze.vidaxl.co.uk^
@@ -54822,6 +54843,7 @@ zzzyk.com###Tinfo
 ||mitbbs.ca/ad_
 ||mitbbs.com/ad_
 ||mitbbs.com/img/app
+||mito03.top^
 ||mitour.de^
 ||mitself.net^
 ||mitt.3.se^
@@ -55433,6 +55455,7 @@ zzzyk.com###Tinfo
 ||mtrs.fluorconstructors.com^
 ||mtrs.fluoruniversity.com^
 ||mts.ru/fe-api/logger
+||mttpsy6666.cc^
 ||mtv.it/flux/trackingcodes/
 ||mtv3.fi/remarketing.js
 ||mtvgxt.partirpascher.com^
@@ -62288,6 +62311,7 @@ zzzyk.com###Tinfo
 ||sageanalyst.net^$third-party
 ||sagetrc.com^$third-party
 ||sahibinden.com/sbbi/
+||sahqoo.com^
 ||sail-horizon.com/horizon/$third-party
 ||sailinsight-app.sapsailing.com^
 ||sailinsight20-app.sapsailing.com^
@@ -68905,6 +68929,7 @@ zzzyk.com###Tinfo
 ||ssc.rfa.org^
 ||ssc.rferl.org^
 ||ssc.severreal.org^
+||ssc.shopstyle.com/collective.min.js
 ||ssc.sibreal.org^
 ||ssc.slobodnaevropa.mk^
 ||ssc.slobodnaevropa.org^
@@ -69463,9 +69488,9 @@ zzzyk.com###Tinfo
 ||startingcars.com^
 ||startpage.$removeparam=segment
 ||startpage.com/sp/$ping
-||startpage.com/sp/dplpxs?
-||startpage.com/sp/elp
 ||startpage.com/sp/jst
+||startpage.com/sp/qi
+||startpage.com/sp/sxpra?
 ||startrekk.flaconi.at^
 ||startrekk.flaconi.de^
 ||startrekk.flaconi.fr^
@@ -77815,6 +77840,7 @@ zzzyk.com###Tinfo
 ||vercel-vitals.axiom.co^
 ||vercel.app/ads/
 ||verdantanswer.com^
+||verdantlabyrinth.com^
 ||verdantsculpture.com^
 ||verify.authorize.net^$third-party
 ||verify.safesigned.com^$third-party
@@ -77843,6 +77869,7 @@ zzzyk.com###Tinfo
 ||vewbab.entertainmentearth.com^
 ||vexilorath.com^
 ||vezvpd.xyz^
+||vf.startpage.com^
 ||vfchm.cyou^
 ||vfd2dyn.vodafone.de^
 ||vfgajrk.cn^
@@ -78422,6 +78449,7 @@ zzzyk.com###Tinfo
 ||w7.berlin.de^
 ||w7.berliner-silvester.de^
 ||w7.weihnachteninberlin.de^
+||w7044.com^
 ||w740.newstimes.com^
 ||w88.abc.com^
 ||w88.disneynow.com^
@@ -78972,6 +79000,7 @@ zzzyk.com###Tinfo
 ||websiteceo.com^$third-party
 ||websiteperform.com^$third-party
 ||websitequan.com^
+||websitesdude.com^
 ||websitewelcome.com^$third-party
 ||websolutions.it/statistiche/
 ||webspectator.com^$third-party
@@ -81468,6 +81497,7 @@ zzzyk.com###Tinfo
 ||yhdm.tv/bar/yfyh.js
 ||yhdm44.com/123.html
 ||yhdongman.xyz/piao/
+||yhgfoe.xyz^
 ||yhgpuxim.xyz^
 ||yhgumcr.xyz^
 ||yhhnjg.com^
@@ -81834,6 +81864,7 @@ zzzyk.com###Tinfo
 ||yuanbao777.com/download/*.gif
 ||yuanlin15.cn^
 ||yuanmengbi.com^
+||yuanpinghengkangfuyouxiangongsi.top^
 ||yuanpinghengkangfuyouxiangongsi.top^$domain=9xav.cc
 ||yuanxiaa.cn^
 ||yuanxiab.cn^
