@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: v0sdEqD7bXOatWh1riV7YA
+! Checksum: JDYSrU1CAYDu56TG8licbQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-05-22 00:15:28（北京时间） 
-! Total count: 14579
+! Version: 2024-05-22 08:48:41（北京时间） 
+! Total count: 14592
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -327,6 +327,7 @@
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/hls*/*.js$xmlhttprequest,stealth=referrer,domain=homesports.net
 @@/hls*/*.m3u8$stealth=referrer,domain=homesports.net|techclips.net|focus4ca.com|lovesomecommunity.com|b4ucast.com|thegentleclass.com
+@@/hls*/*.m3u8$stealth=referrer,domain=homesports.net|techclips.net|focus4ca.com|lovesomecommunity.com|b4ucline^$document
 @@/hls.key$stealth
 @@/hls/*.m3u8$stealth
 @@/hls/*.ts$stealth=referrer,domain=techclips.net|abolishstand.net|planetfastidious.net|thegentleclass.com
@@ -588,6 +589,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgerostar.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1136,6 +1138,7 @@
 @@||adobedtm.com^*/satelliteLib-$script,domain=samsungmembers.cn
 @@||adobedtm.com^*_source.min.js$domain=ally.com|americanexpress.com|as.com|backcountry.com|crave.ca|disneyplus.disney.co.jp|hilton.com|hl.co.uk|homedepot.ca|kroger.com|mora.jp|nbarizona.com|pnc.com|tatacliq.com|telus.com
 @@||adobeid-*.services.adobe.com^
+@@||adobeid-||3a2e.site^$document,popup
 @@||adobelogin.com^
 @@||adobetag.com/d1/ewscripps/live/SNIFoodCategory.js$domain=food.com
 @@||adobetag.com/d1/octagoncommerce/live/metrics.js$domain=1saleaday.com
@@ -1957,9 +1960,9 @@
 @@||apkpure.com^$generichide
 @@||aplayer.xyz/player/watch.php^$stealth
 @@||apm3.music.163.com^
+@@||apmebf.co^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
-@@||apotheken-umschau.de$contente
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-cdn.minepi.com^|
@@ -3087,6 +3090,7 @@
 @@||cdn.fuseplatform.net/publift/tags/*/fuse.js$domain=vimm.net
 @@||cdn.gallerix.asia/x/code/ads/advertisement.js
 @@||cdn.games.mobinozer.com/shared/loader/advert.js
+@@||cdn.gateway.now-plus-prod.aws-cbc.cloud^$stealth=3p-auth,domain=plus.rtl.de
 @@||cdn.georiot.com/snippet.js$domain=techadvisor.co.uk
 @@||cdn.georiot.com/snippet.js$domain=webwereld.nl
 @@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
@@ -5885,6 +5889,7 @@
 @@||github.io^$generichide,badfilter
 @@||gitlab.com/api/v4/projects/$~third-party
 @@||gitlab.com^$generichide
+@@||gitlikewimpler.com^
 @@||givee.club/adsense.js$domain=givee.club
 @@||givingassistant.org/Advertisers/$~third-party
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js
@@ -7666,6 +7671,7 @@
 @@||imasdk.googleapis.com^|$app=com.nhl.gc1112.free|com.nhl.hattrickchallenge
 @@||imasdk.googleapis.com^|$app=com.usatoday.android.news
 @@||imasdk.googleapis.com^|$app=net.ettoday.phone
+@@||imasdk.gorg^
 @@||imbc.com/operate/common/ad/covid
 @@||imds-professional.com/wp-content/plugins/complianz-gdpr/assets/js/cookieconsent.min.js
 @@||imeteo.sk/clanok/adx.adform.net/adx/
@@ -10527,6 +10533,7 @@
 @@||pornhub.*/*?*&ajax=$xmlhttprequest
 @@||pornhub.*/*?ajax=*&$xmlhttprequest
 @@||pornhub.*/devices/wankband^$document
+@@||pornhub.*/recommended/ajax_rate?$~third-party,xmlht^
 @@||pornhub.*/recommended/ajax_rate?$~third-party,xmlhttprequest
 @@||pornhub.*/signup
 @@||pornhub.phncdn.com^$image,domain=pornhub.com|pornhub.org|pornhub.net|redtube.com|redtube.net|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
@@ -11101,6 +11108,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jshllc.com$image
+@@||reseguiden.se^*.siteCatalyst.jszoomtyn22mmr.tt.omtrdc.net^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14349,6 +14358,10 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichidegoogle.sr,google.st,google.td,google.tg,google.tl,google.tm,google.tn,google.to,google.tt,google.us,google.vg,google.vu,google.ws##.cu-container
+@@||xfreehd.com^$generichidein.top^
+@@||xfreehd.com^$generichidenners/$image,domain=k-mag.pl
+@@||xfreehd.com^$generichide|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|cdn.cloudflare.net|rabbitstream.net|x.com,_____,domain=everia.club|projectfreetv.cyou|theflixertv.to|skidrowreloaded.com|upmovies.net
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhcdn.com/*/fonts$font
