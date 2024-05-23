@@ -1,9 +1,9 @@
-! Checksum: 11D02cgNnjqywxMmCf4yPQ
-! Diff-Path: ../patches/224/224-s-1716420943-3600.patch
+! Checksum: 02Eh+ooxPnEdBsjAovI6ug
+! Diff-Path: ../patches/224/224-s-1716449728-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.16.30
-! TimeUpdated: 2024-05-22T23:33:55+00:00
+! Version: 2.1.16.34
+! TimeUpdated: 2024-05-23T07:33:10+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -773,6 +773,8 @@ nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { pos
 !--------------------------------------!
 ! SECTION: Chinese - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/179866
+cnys.tv#%#//scriptlet('set-constant', 'config.group', '')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179385
 applnn.cc#%#//scriptlet('trusted-set-cookie', 'gg_info', '$now$')
 applnn.cc#%#//scriptlet('prevent-eval-if', 'encodeURIComponent')
@@ -3026,6 +3028,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
+||iwanshang*.asia^
 -1316899192.cos.
 .land/ad/*.gif
 -1688-wp-media/ads/
@@ -3808,6 +3811,7 @@ ubmcmm.baidustatic.com
 |http://ad.$domain=~ad.cnr.cn|~ckckk.com|~jxnews.com.cn
 |http://gg.$third-party,domain=~guagua.cn
 ||allyes.$third-party
+wss://*/api/wss/GetNotReadCount$third-party
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
 ||ssh.*.com^*!$script,third-party
@@ -5711,6 +5715,9 @@ newduba.cn###jq_youxi
 ||u2w95z.xyz^
 ||kmwclt.xyz^
 ||dreuaxk.icu^
+||isylieo.top^
+||mweriox.top^
+||iwanshang8.asia^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -14134,6 +14141,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||chengzijianzhan.cc^$third-party,subdocument
 szxx.com.cn###A0
 olevod.com##.swiper
+douyin.com###videoSideBar:-abp-has(div:-abp-contains(/商品|商家|退款|店铺/))
 douyin.com###videoSideBar iframe
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 czys.top#?#.swiper-slide:-abp-has(.coveimg[src*=".gif"])

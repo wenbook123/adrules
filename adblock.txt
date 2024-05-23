@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: gieeLusicFIML2TRMD9dCQ
+! Checksum: GLTEKxhBN0gOi6kyxWuiGw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-05-23 08:48:12（北京时间） 
-! Total count: 82774
+! Version: 2024-05-23 16:16:49（北京时间） 
+! Total count: 82790
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -869,6 +869,7 @@
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
 ##.pause-ad
+##.pc-layout-content > .pc-ads
 ##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
@@ -1040,6 +1041,7 @@
 ##.xstui-content__acc
 ##.xzbox-gh
 ##.y.mtw[style="padding: 0px 10px;"]
+##.ya-normal-box-done
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
@@ -1465,6 +1467,7 @@
 ##a[href*="://4"][href*="/vod."]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href*=":10443/"] > img[src$="gif"]
+##a[href*=":6001/entry/register"]
 ##a[href*=":7888/?register="]
 ##a[href*=":8701/?register="]
 ##a[href*="?channelCode="] > img[src*=".com"]
@@ -1628,6 +1631,7 @@
 ##div[class][id][style] > .pic_container
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
+##div[class^="module-"] > a[href="/index/voddetail.html?id=1"]
 ##div[class^="ps_"][value="20"]
 ##div[id$='ad1'][class^='text'],div[id$='ad2'][class^='text'],div[id$='ad3'][class^='text'],div[id$='ad4'][class^='text'],div[id$='ad5'][class^='text'],div[id$='ad6'][class^='text']
 ##div[id*='cat_'][id*='_ad']
@@ -8240,8 +8244,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 2dfan.com,galge.fun##.collapse > a[href*=".taobao.com"]
 2dfan.com,galge.fun##.leftside-bg
 2dway.com##a[href="https://www.2dway.com/5244/"]
-2ghai.com##.a_xiu_t
-2ghai.com##.yttl_x_g
 2yjw.com##.widget-tops
 2yjw.com,fuliba2021.net,itdog.cn,zhujiceping.com##.orbui
 324324.cn###gg_468_60
@@ -8867,6 +8869,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 91wenmi.com##a[href^="http://www.91wenmi.com/xiezuo/"]
 91wii.com#%#window.ad = window.ads = window.dzad = window.dzads = true;
 920share.com###layui-layer1
+92ghai.com##.a_xiu_t
+92ghai.com##.yttl_x_g
 92sucai.com##.adtg2
 92wy.com##.adhengfu
 9312.net##.pop-up
@@ -11725,7 +11729,7 @@ baofeng.com##.ad-bar-r
 baofeng.com##.ad-pop-wrap
 baofeng.com##.play-ads
 baoliny.com,gasaq.com,hgitv.com,ifooday.cn,nen.com.cn##.guanggao
-baomidou.com##.sidebar-slot-top
+baomidou.com##.sidebar-content > astro-island
 baomidou.com#%#//scriptlet('set-constant', '_AdBlockInit', 'noopFunc')
 bbc.com##section[class*="AdContainer"]
 bbs-mychat.com###cate_top > tr > .f_one
@@ -13268,7 +13272,7 @@ eol.cn###small_adright
 eol.cn##.ad_490
 eol.cn##.listAd
 eol.cn##div[id^="s1_"]
-eol.cn,firefoxchina.cn,meiyida01.com,myd666.tv,site.baidu.com##.popup
+eol.cn,firefoxchina.cn,site.baidu.com##.popup
 eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
 epinv.com##.epinv_b
 epinv.com##.epinv_f
@@ -16067,8 +16071,6 @@ meishij.net##.cp_body_right
 meitu.com###meipaiFixed
 meituan.com##.banner-download
 meituan.com##.component-downtip
-meiyida01.com,myd666.tv##.module-blocklist
-meiyida01.com,myd666.tv#?#.module-item:-abp-has(>.module-item-titlebox>a[href*="/download"])
 meizhou.cn##.toptonglan
 meizhou.cn##.tuwengg
 meizhou.com##.adwords + div
@@ -16339,8 +16341,7 @@ mydrivers.com##div[style*="/ad/"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com#?#.newslist > li:has(> span:contains(广 告))
 mydrivers.com#?#div[class^="news_info"] > ul.newslist > li:has(> span:contains(广告))
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(广 告))
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(广告))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/广*告/))
 mydrivers.com#@#.baidu, a[href^=http][target=_blank]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
@@ -16630,6 +16631,7 @@ olevod.com##.L1
 olevod.com##.L4A
 olevod.com##.ad1
 olevod.com##.pc-ads
+olevod.com##.swiper
 olevod.com##.swiper-wrapper > div.swiper-slide:has(> img[src^="https://static.olelive.com/uploads/file/"])
 olevod.com##div[class^="ad"][style="margin-top: 0.05rem;"]
 olevod.com##div[style*="%;float: left;"] > a[target="_blank"]
@@ -20115,7 +20117,6 @@ zzzyk.com###Tinfo
 ||2ememain.be/px/
 ||2fa20230511.live^
 ||2g9x9uf.cn^
-||2ghai.com/zz/
 ||2gis.ru/_/log
 ||2gis.ru/_/metrics
 ||2hpg0.fun^
@@ -21002,6 +21003,7 @@ zzzyk.com###Tinfo
 ||922tp.com/wp-content/uploads/*0x
 ||92dp.com/home/showga?
 ||92f2m.top^
+||92ghai.com/zz/
 ||92ph.cn^
 ||92uq.com/Ads/
 ||933m.com/1.js
@@ -33620,6 +33622,7 @@ zzzyk.com###Tinfo
 ||conversionly.com^$third-party
 ||conversionruler.com^$third-party
 ||conversions.genieventures.co.uk^
+||convertagain.net^$third-party
 ||convertcart.com^$third-party
 ||convertexperiments.com^$third-party
 ||convertflow.co^*/visitors/
@@ -35316,6 +35319,7 @@ zzzyk.com###Tinfo
 ||dcclaa.slowlyveggie.de^
 ||dcdglb.xyz^
 ||dcdn.lt/g.js
+||dceuhnpc57.shop^
 ||dcf.espn.com/privacy/
 ||dciep.xyz^
 ||dcinfos-cache.abtasty.com^
@@ -36682,6 +36686,7 @@ zzzyk.com###Tinfo
 ||drebz4f.shop^
 ||dreemdmbabys.oss-cn-guangzhou.aliyuncs.com^
 ||dressexpansion.com^
+||dreuaxk.icu^
 ||drfdisvc.walmart.com^
 ||drfvtgbyk.xyz^
 ||drift.com/impressions/
@@ -43477,6 +43482,7 @@ zzzyk.com###Tinfo
 ||hswfj.cn^
 ||hsyfcenter.com^
 ||hsyipos.com/template/mxone/html_tplmx/vod/*.gif
+||hsylieu.top^
 ||htc.oaken.com^
 ||htcnbx.odkarla.cz^
 ||hthivr.xyz^
@@ -46241,6 +46247,7 @@ zzzyk.com###Tinfo
 ||istats.nl^$third-party
 ||istrack.com^$third-party
 ||iswgnn.com^
+||isylieo.top^
 ||iszbxqps.com^
 ||it-business.vodafone.com^
 ||it-go.experian.com^
@@ -46366,6 +46373,7 @@ zzzyk.com###Tinfo
 ||iwa.iplsc.com^
 ||iwanad.baidu.com^
 ||iwandlo.top^
+||iwanshang8.asia^
 ||iwantglobal.actonservice.com^
 ||iwarship.net/wowsdb/static/img/banner.png
 ||iwatojc.cn^
@@ -46655,6 +46663,7 @@ zzzyk.com###Tinfo
 ||jhlazsot.icu^
 ||jhm3.ifgexecutive.com^
 ||jhmkopen.minortom.net^
+||jhnnnb.xyz^
 ||jhpbtp.xyz^
 ||jhprvk.skstoa.com^
 ||jhpxlyd.cn^
@@ -47521,6 +47530,7 @@ zzzyk.com###Tinfo
 ||kgdyoh.icu^
 ||kgeesh.site^
 ||kgelugaz.com^
+||kgeqsu.xyz^
 ||kgeshe.site^
 ||kget.com/CvbtpUrj/init.js
 ||kgfjrb711.com^
@@ -47697,6 +47707,7 @@ zzzyk.com###Tinfo
 ||kmr.enrosr.cn^
 ||kmtx.io^$third-party
 ||kmw.com/js/adshow
+||kmwclt.xyz^
 ||kmyiubbv.xyz^
 ||kmzayrt.cn^
 ||kn007.net/snmp.php
@@ -49631,6 +49642,7 @@ zzzyk.com###Tinfo
 ||liuyun.name^
 ||live-cover.msstatic.com/huyalive/*/format,webp/$image
 ||live-partner.com/tags?
+||live-tv.top/js/k.min.js
 ||live.alljobs.co.il^
 ||live.bilibili.com^$removeparam=broadcast_type
 ||live.bilibili.com^$removeparam=is_room_feed
@@ -55554,6 +55566,7 @@ zzzyk.com###Tinfo
 ||mwdwepok.xyz^
 ||mwed.jp/assets/packs/js/measurements/
 ||mwefgc.pazolini.com^
+||mweriox.top^
 ||mwfyab.icu^
 ||mwqucr.icu^
 ||mwrf.net/images/js/*mrf.js
@@ -56995,6 +57008,7 @@ zzzyk.com###Tinfo
 ||ohjrxj.personalizationmall.com^
 ||ohm-dot-hackster-io.appspot.com^
 ||ohmystats.com^$third-party
+||ohncc.cn^
 ||ohnorobot.com/verify.pl?
 ||ohopao.xyz^
 ||ohoyao.com^
@@ -58192,7 +58206,6 @@ zzzyk.com###Tinfo
 ||paruvendu.fr/*/stats/
 ||pasco.actonservice.com^
 ||pass-1234.com^$third-party
-||passeidireto.com/pd-tracking-lib/
 ||passengerpage.com^
 ||passivepolo.com^
 ||pastcabbage.com^
@@ -63884,6 +63897,7 @@ zzzyk.com###Tinfo
 ||shandian.biz/wp-content/themes/inove/js/comment.js
 ||shang.hlgnet.com/code/
 ||shangqun.com/webforms/embed/
+||shangwenchao4.cn^
 ||shangxueba.com/ask/images/woxiaoyun.jpg
 ||shanhaimiwenlu.com/sh
 ||shanjewelry.com^
@@ -76929,6 +76943,7 @@ zzzyk.com###Tinfo
 ||u26u.com^$popup,third-party
 ||u299.libelle-lekker.be^
 ||u2tu4.icu^
+||u2w95z.xyz^
 ||u33011.com^
 ||u346zd.top^
 ||u47.pnc.com^
@@ -82147,6 +82162,7 @@ zzzyk.com###Tinfo
 ||zbxtcwi.xyz^
 ||zbzbzb.xyz^
 ||zc173.com/173fee/
+||zca31.com^
 ||zcaijing.com/images/
 ||zcbfjd.xyz^
 ||zcchyr*.xyz^
