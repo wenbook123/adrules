@@ -1,9 +1,9 @@
-! Checksum: bj/GDscQnfdA/L2wM4ssKQ
-! Diff-Path: ../patches/224/224-s-1716554166-3600.patch
+! Checksum: fokvCL0u8daDPGGxQ7/ixg
+! Diff-Path: ../patches/224/224-s-1716593682-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.16.42
-! TimeUpdated: 2024-05-24T12:33:31+00:00
+! Version: 2.1.16.45
+! TimeUpdated: 2024-05-24T23:32:52+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4693,6 +4693,10 @@ newduba.cn###jq_youxi
 ||23.231.151.252^
 ||cupfox.app^$third-party
 ||wqzmed.cn^
+||jxqdl.cn^
+||ieapak.xyz^
+||piksrie.icu^
+||rbrmhz.xyz^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -14157,7 +14161,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||aiboav.vip/wp-content/uploads/ad/
 ||aiboav.vip/wp-content/uploads/uu-chat/*.gif
 szxx.com.cn###A0
+939394.xyz##body > table:first-child img
 vsping.com##.ad_01
+939394.xyz##.j_m_ad
 vsping.com##div[style^="border-radius: 10px; box-shadow"]
 szxx.com.cn###A1
 szxx.com.cn###A2
