@@ -378,6 +378,8 @@ eisamay.com##a[href^="https://eisamay.com/best-deals-online"]
 indiatimes.com##.article_first_ad
 health.economictimes.indiatimes.com##.layer-overlay
 health.economictimes.indiatimes.com##.article-detail-ad-slot
+! https://github.com/AdguardTeam/AdguardFilters/issues/180466
+educationtimes.com##div[class]:has(> div[class] > div[id^="div-gpt-ad"])
 
 ! https://github.com/uBlockOrigin/uAssets/issues/88
 ! https://github.com/uBlockOrigin/uAssets/issues/211
@@ -3281,13 +3283,6 @@ vidoza.net###plo_0
 vidoza.net##[id*="ScriptRoot"]
 vidoza.net##.simpleToast
 vidoza.net##.download-green
-
-! https://github.com/uBlockOrigin/uAssets/issues/1634
-! https://github.com/uBlockOrigin/uAssets/issues/6749
-katfile.com##+js(acs, document.createElement, onerror)
-katfile.com##+js(nano-stb)
-katfile.com##+js(nowoif)
-katfile.com##+js(set, adblock, false)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2695
 *$image,redirect-rule=1x1.gif,domain=freeopenvpn.org
