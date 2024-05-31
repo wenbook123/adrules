@@ -2267,7 +2267,7 @@
 @@||img*.*img18fx.xyz^$stealth,image,domain=manga18fx.com
 @@||img*.*img18fx.xyz^$stealth,image,domain=manga18fx.com
 @@||img*.doubanio.com^$stealth,domain=accounts.douban.com
-@@||img*.doubanio.com^$stealth,domain=accounts.douban.com
+@@||img*.doubanio.com^$stealth=referrer,domain=douban.com
 @@||img.achost.top^$stealth,domain=galge.fun
 @@||img.achost.top^$stealth,domain=galge.fun
 @@||img.ads.tvb.com^
@@ -3220,6 +3220,7 @@
 @@||poedb.tw^$generichide
 @@||poedb.tw^*ad$script,~third-party
 @@||poedb.tw^*ad$script,~third-party
+@@||pohjanmaanhyvinvointi.fi^*/pwd-cookie-consent.
 @@||policy.app.cookieinformation.com^$domain=altibox.no|elkjop.no|fdm-travel.dk|jysk.nl|power.no|skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
 @@||policy.app.cookieinformation.com^$domain=karkkainen.com
 @@||policy.app.cookieinformation.com^$domain=skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
@@ -3722,7 +3723,7 @@
 @@||signin.verizon.com^*/affiliate/$subdocument,xmlhttprequest
 @@||signin.verizon.com^*/affiliate/$subdocument,xmlhttprequest
 @@||simg.doubanio.com^$stealth,domain=douban.com
-@@||simg.doubanio.com^$stealth,domain=douban.com
+@@||simg.doubanio.com^$stealth=referrer,domain=douban.com
 @@||simkl.com^$xmlhttprequest,elemhide,jsinject,extension
 @@||simpleanalyticsexternal.com^$script,domain=inleo.io
 @@||simplyhired.com^
@@ -4526,7 +4527,6 @@
 @@||xfinity.com^$stealth
 @@||xfinity.com^$stealth
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide##[type="doubleclick"]
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
 @@||xidian.edu.cn^$generichide
