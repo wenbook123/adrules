@@ -1,9 +1,9 @@
-! Checksum: abkcARP0EBQV83q653XJsQ
-! Diff-Path: ../patches/224/224-s-1717310080-3600.patch
+! Checksum: ywulr79TwuffnQeB8yVHRw
+! Diff-Path: ../patches/224/224-s-1717338922-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.16.83
-! TimeUpdated: 2024-06-02T06:32:45+00:00
+! Version: 2.1.16.86
+! TimeUpdated: 2024-06-02T14:33:26+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4419,7 +4419,7 @@ newduba.cn###jq_youxi
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
 ##.pause-ad
-##.pc-layout-content > .pc-ads
+##.pc-ads
 ~dongman8.com##.pc_acmsd
 ##.pccb > .ng-star-inserted
 ##.pcd_ad
@@ -4778,6 +4778,8 @@ newduba.cn###jq_youxi
 ||vevhjj.xyz^
 ||dajiahao9.top^
 ||dajiahao10.top^
+##a[href*=".uu2123sd.vip"]
+||snjfasp.com^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -14245,6 +14247,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||diamiu.com/wp-content/uploads/1200-200.
 ||e.so.com/search/pcnew?
 szxx.com.cn###A0
+woaimoon.com##DIV[id^="juan_"]
 mydrivers.com##.vwE9JmqU
 mydrivers.com##.yTv3AMqP
 mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/推*广/))
