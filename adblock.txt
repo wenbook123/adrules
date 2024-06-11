@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: UsCVMsmbfmB1tJup0QvAIg
+! Checksum: Z292+ZwkJMSTeEtqErf25A
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-06-11 08:50:48（北京时间） 
-! Total count: 83079
+! Version: 2024-06-11 16:17:57（北京时间） 
+! Total count: 83097
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -739,6 +739,7 @@
 ##.global_video_bottom_dbtc
 ##.google-ad2_fixed
 ##.google_adsense2
+##.gotoclick[adv_id]
 ##.gpost-below
 ##.gpt_ads_box
 ##.gpt_ads_title
@@ -776,6 +777,7 @@
 ##.indexad3
 ##.indexad4
 ##.indexnews-ad
+##.infomation + #notice_container > .event-notice
 ##.inner-advertise
 ##.it618_firstad_flex
 ##.item-ad
@@ -1042,6 +1044,7 @@
 ##.xzbox-gh
 ##.y.mtw[style="padding: 0px 10px;"]
 ##.ya-normal-box-done
+##.yueduad1
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
@@ -8325,6 +8328,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 360kuai.com##.float--left.right_aside_wrapper
 360kuai.com##.g4.undefined
 360kuai.com##.k-float-btn__qrcode__body
+360kuai.com##.marketing-box
 360kuai.com##.mid-right__operate-adv__container
 360kuai.com##.novel_galery_icon
 360kuai.com##.side-wrapper
@@ -10708,6 +10712,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||soufunimg.com/count/uvbforpc.js
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
 @@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com
+@@||sovrn.com^$domain=mens1069.com
 @@||sozi.cn/images/ad/tj
 @@||space.bilibili.com^$removeparam
 @@||spark.co.nz/content/*/utag.sync.js$domain=skinny.co.nz
@@ -13258,7 +13263,7 @@ element-plus.org##.page-content-main-a
 element-plus.org##.toc-content > div[style="margin-top:16px;"]
 element-plus.org##aside > .page-content-main
 elle.com.hk##.tpc-container
-elle.com.hk##article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
+elle.com.hk#?#article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
 embedrise.com#%#//scriptlet('prevent-window-open')
 emome.net##.source_advertising
 emumax.com##.tbanner
@@ -16155,6 +16160,8 @@ mmff30.com##.top_box
 mmff30.com##a[href$="/ref.html"]
 mmff30.com##span[id$="_gg"]
 mmonly.cc###\32 vm_box
+mnews.tw##.ad-container-pc
+mnews.tw##.ad-container-pc-only
 mnw.cn##.mnw_685
 mnw.cn##.mnw_960
 mnw.cn##.mnw_top_ads
@@ -17007,7 +17014,10 @@ pythonthree.com##.astra-advanced-hook-7063
 pythonthree.com##.sidebar-main
 pzzc.net##.portal_block_summary
 qbaobei.com###diyforumdisplaybottom
+qciss.net###lightbox
+qciss.net###lightbox1
 qciss.net##.container-fluid > #lightbox
+qciss.net##.d1
 qciss.net##div[style^="border-style:solid;"][style*="border-width:2px;"][style*="width: 80%;"]
 qciss.net#%#//scriptlet("prevent-window-open", "0", "qciss.net")
 qdaily.com##.app
@@ -18487,10 +18497,7 @@ view.inews.qq.com##div[class^="normal_buttonWrap"]
 view.inews.qq.com##div[class^="slider-top-bar_newSliderWrapper"]
 view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
-vikacg.com###custom_html-9
-vikacg.com###home-row-lunbo
-vikacg.com##a[href^="http"] > img[src^="/assets/main/"]
-vikacg.com##div[id^="home-row-ads"]
+vikacg.com,vikacg.xyz##a[href^="http"] > img[src^="/assets/main/"]
 vip.com##.sidebarcom-qrcode
 vip.com##.wp-phone
 vipthz.com###fwin_content_imc_attachad [style="WIDTH: 100%; padding-left:10px;"] > div > a[href][target="_blank"] > img
@@ -19449,9 +19456,6 @@ zzbaike.com##.link2
 zzkdhb.com##li[style*="important"]
 zzkdhb.com##p[style^="width: 100%; margin: 0px;"]
 zznews.cn#@#.ad-wrapper
-zztt11.com,zztt24.com##.event-notice
-zztt11.com,zztt24.com##.gotoclick
-zztt11.com,zztt24.com##.no-mask
 zzzyk.com###Tinfo
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -28828,6 +28832,7 @@ zzzyk.com###Tinfo
 ||auerkbo.cn^
 ||aufp.io^$third-party
 ||auisaoa.top^
+||auislq.top^
 ||aukllsq.cn^
 ||aullwp.sportisimo.sk^
 ||aumarketing.sedgwick.com^
@@ -30342,6 +30347,7 @@ zzzyk.com###Tinfo
 ||bing005.shop^
 ||bing007.shop^
 ||binga01.shop^
+||binga03.shop^
 ||binocule21c.merriam-webster.com^
 ||bint.openapp.link^
 ||bio-equip.com/dimg/
@@ -42798,6 +42804,7 @@ zzzyk.com###Tinfo
 ||haymarket.com/injector/deliver/
 ||haymarketstat.de^$third-party
 ||hb.vhsrv.com^
+||hb8g86k.mom/mz.js
 ||hbaazk.bukalapak.com^
 ||hbahrd.yogibo.jp^
 ||hbandier.com^
@@ -43590,6 +43597,7 @@ zzzyk.com###Tinfo
 ||hslbahu.top^
 ||hsleadflows.net^
 ||hslkll.psychic.de^
+||hsoubnp.icu^
 ||hspbotdetection.azurewebsites.net^
 ||hspdiom.cn^
 ||hsrgnac.cn^
@@ -46656,6 +46664,7 @@ zzzyk.com###Tinfo
 ||jcbjcb9.cn^
 ||jcde.site^
 ||jcdf99.com/hzz/scripts/new
+||jcfnbhqo.icu^
 ||jched3.com^
 ||jcheys.com^
 ||jcimgi.bestcuckoo.co.kr^
@@ -47760,6 +47769,7 @@ zzzyk.com###Tinfo
 ||kjdfho.eidaihouse.com^
 ||kjeqga.xyz^
 ||kjggk1.xyz^
+||kjipko.xyz^
 ||kjjjusb.xyz^
 ||kjjuuy.icaniwill.fi^
 ||kjmaoi.babor.com^
@@ -57323,6 +57333,7 @@ zzzyk.com###Tinfo
 ||ometrics.wb.com^
 ||omgcreative.actonservice.com^
 ||omgid.qq.com^
+||omgthink.com^
 ||omguk.com^$third-party
 ||omhoa.com^
 ||omiki.com^$third-party
@@ -59891,6 +59902,7 @@ zzzyk.com###Tinfo
 ||pulpulyy.club/cdn-cgi/trace
 ||puls.lv^$third-party
 ||pulsar.ebay.com^
+||pulsatingmeadow.com^
 ||pulse.delta.com^
 ||pulseinsights.com^$third-party
 ||pulselog.com^$third-party
@@ -60062,6 +60074,7 @@ zzzyk.com###Tinfo
 ||pzphmkf.xyz^
 ||pzpivx.xyz^
 ||pzqqstb.icu^
+||pztezl.xyz^
 ||pztjlr.xyz^
 ||pzwjonv.icu^
 ||pzxhyp.aeropostale.com^
@@ -61491,6 +61504,7 @@ zzzyk.com###Tinfo
 ||retirementliving.actsretirement.org^
 ||retirementservices.firstallied.com^
 ||retrack.q-divisioncdn.de^
+||retrefsf.cn^
 ||retresco.de^*/stats/$third-party
 ||retrieval-bd.duote.com^
 ||retrievemint.com^
@@ -61798,6 +61812,7 @@ zzzyk.com###Tinfo
 ||rqjjdi.bershka.com^
 ||rqkmir.ferragamo.com^
 ||rqkmnr.ifemme.co.kr^
+||rqnefp.xyz^
 ||rqrvfp.xyz^
 ||rqxtbr.xyz^
 ||rqytqq.com^
@@ -72436,6 +72451,7 @@ zzzyk.com###Tinfo
 ||taplytics-umami.grubhub.com^
 ||taplytics.com^$third-party
 ||taporn.com/d/
+||taproximo.com^
 ||taps.io^$third-party
 ||tapstream.com^$third-party
 ||target-omtrdc.deka.de^
@@ -77048,6 +77064,7 @@ zzzyk.com###Tinfo
 ||twnafj.xyz^
 ||two.fsylr.com^
 ||twoeej.carrefour.fr^
+||twqtf.boats^
 ||twrank.com^$third-party
 ||twtfdd.xyz^
 ||twunbbs.com/images/
@@ -79485,6 +79502,7 @@ zzzyk.com###Tinfo
 ||wf.taboola.com^
 ||wfiles.hcomic.net/indexSwiper/*_*x*_*_TC_gif.gif
 ||wfinterface.com/tracking/$domain=wellsfargo.com
+||wfjslie.top^
 ||wfla.com/CvbtpUrj/init.js
 ||wfmcgd.msccruzeiros.com.br^
 ||wfndponfd.com^
