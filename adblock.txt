@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: rCjZ2KzQP8T68DeUGW/suQ
+! Checksum: y9WEBdP57Y8nrgeF3WTHVw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-06-26 08:51:37（北京时间） 
-! Total count: 83354
+! Version: 2024-06-26 16:17:42（北京时间） 
+! Total count: 83361
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -10315,8 +10315,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||mail.google.com^$document
 @@||mail.td^$generichide
 @@||manhua.weibo.com/adv/
-@@||manwa.fun/static/upload/ads/*.gif?$image,~third-party
-@@||manwa.me/static/custom/files/300X250.gif
 @@||manwa.me^
 @@||mapquestapi.com/logger/$domain=hertz.com
 @@||maptiles.ping-admin.ru^$image,domain=ping-admin.com
@@ -16035,8 +16033,10 @@ manhuagui.com##div[style^="width: 300px; height: 250px;"]
 manhuaren.com###lb-win
 manmanbuy.com##.app-activity-download
 manmanw.net##.tlads
+manwa.fun###detail > div:has(> div.ad-area-close)
+manwa.fun#%#//scriptlet("prevent-setTimeout", "/alert\('请关闭.*Chrome/")
+manwa.fun#%#//scriptlet('remove-attr', 'style', '.two-ad-area')
 manwa.me##.ad-area > a
-manwa.me#$#.ad-area { position: absolute !important; left: -3000px !important; }
 manwa.me#@#.ad-area
 manwa1.me,manwa2.me,manwa.me##.ad-area-close
 manwa1.me,manwa2.me,manwa.me##.swiper-container.swiper-container-horizontal
@@ -25865,6 +25865,7 @@ zzzyk.com###Tinfo
 ||aiiaqw.xyz^
 ||aijiamao.top^
 ||aikhra.londonclub.sk^
+||aiknx.cn^
 ||aikrir.lcwaikiki.com^
 ||ailehui9149.com^
 ||aili.com^$third-party
@@ -26348,6 +26349,7 @@ zzzyk.com###Tinfo
 ||amazon.$removeparam=lp_page_asin
 ||amazon.$removeparam=lp_slot
 ||amazon.$removeparam=maas
+||amazon.$removeparam=ms3_c
 ||amazon.$removeparam=orig
 ||amazon.$removeparam=qsid
 ||amazon.$removeparam=qu
@@ -26356,6 +26358,7 @@ zzzyk.com###Tinfo
 ||amazon.$removeparam=sbo
 ||amazon.$removeparam=sig
 ||amazon.$removeparam=sigts
+||amazon.$removeparam=spIA
 ||amazon.$removeparam=sprefix
 ||amazon.$removeparam=sr
 ||amazon.$removeparam=sres
@@ -34700,7 +34703,6 @@ zzzyk.com###Tinfo
 ||d18p8z0ptb8qab.cloudfront.net^
 ||d191y0yd6d0jy4.cloudfront.net^
 ||d196fri2z18sm.cloudfront.net^
-||d1af033869koo7.cloudfront.net^
 ||d1cr9zxt7u0sgu.cloudfront.net^
 ||d1esebcdm6wx7j.cloudfront.net^
 ||d1f05vr3sjsuy7.cloudfront.net^
@@ -40645,6 +40647,7 @@ zzzyk.com###Tinfo
 ||fvuitt.alibabuy.com^
 ||fvvyjd.jtv.com^
 ||fvxlhn.xyz^
+||fvyqblc.icu^
 ||fw-ad.jp^$third-party
 ||fw.tv/embed/impressions
 ||fwcnex.icu^
@@ -42224,6 +42227,7 @@ zzzyk.com###Tinfo
 ||google-analytics.com/analytics.js$script,redirect=noopjs,important,domain=ebb.io
 ||google-analytics.com^$third-party
 ||google-js-01.xyz^
+||google-js-02.xyz^
 ||google.$doc,removeparam=sca_esv
 ||google.$removeparam=/^sa=N$/
 ||google.$removeparam=/^sa=X$/
@@ -50735,6 +50739,7 @@ zzzyk.com###Tinfo
 ||lxoemc.buonissimo.it^
 ||lxoemc.libero.it^
 ||lxoemc.tuttocitta.it^
+||lxryhx.xyz^
 ||lxsway.alltforforaldrar.se^
 ||lxsway.blogg.se^
 ||lxsway.brollopstorget.se^
@@ -51200,10 +51205,8 @@ zzzyk.com###Tinfo
 ||manua.ls/g/collect?
 ||manua.ls/gtag
 ||manufacturing.autodeskcommunications.com^
-||manwa.fun/static/upload/ads/$image,redirect=1x1-transparent.gif,important
 ||manwa.me/static/custom/files/300X250.$image,redirect=1x1-transparent.gif,~third-party
 ||manwa.me/static/custom/files/300X250.$image,rewrite=abp-resource:1x1-transparent-gif,~third-party
-||manwa.me/static/custom/files/300X250.gif$image,redirect=1x1-transparent.gif,important
 ||manymgsgn.com^
 ||maobujie.com^
 ||maodh.com/admin/up/*.gif
@@ -62230,6 +62233,7 @@ zzzyk.com###Tinfo
 ||rydyvv.xyz^
 ||rydzfldt.xyz^
 ||ryhkft.xyz^
+||ryhuzj.xyz^
 ||rymhet.posudamart.ru^
 ||ryrmvd.xyz^
 ||rystadenergy.actonservice.com^
@@ -73037,6 +73041,7 @@ zzzyk.com###Tinfo
 ||tdljuuw.xyz^
 ||tdlyfz.xyz^
 ||tdor-smetrics.td.com^
+||tdoshbi.top^
 ||tdp1.vivabox.es^
 ||tds.io^$third-party
 ||tds1.vivabox.be^
@@ -81167,6 +81172,7 @@ zzzyk.com###Tinfo
 ||wyelmp.vidaxl.si^
 ||wyfec.cn^
 ||wyiegt.icu^
+||wyisloe.top^
 ||wyjbvoz.xyz^
 ||wymqjow.icu^
 ||wymzwy.cn^
@@ -82083,6 +82089,7 @@ zzzyk.com###Tinfo
 ||yhtpsy8888.cc^
 ||yhuamf.ktronix.com^
 ||yhubsxmg.xyz^
+||yhutou.xyz^
 ||yhvewh.aboutyou.ro^
 ||yhz18.com^
 ||yhzjidgc.xyz^
