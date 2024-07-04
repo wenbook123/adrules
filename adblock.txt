@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 2Pb+3W+VJ9cRfN9genp2Dg
+! Checksum: QZpsGYV6Y8suhksSHCkw8A
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-07-04 08:51:47（北京时间） 
-! Total count: 85069
+! Version: 2024-07-04 16:19:10（北京时间） 
+! Total count: 85087
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8630,7 +8630,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 52asus.com###guiigo-black-mask
 52av.one##.message + center
 52av.one##div[style^="text-align:center;"] > a[target="_blank"] > img
-52bdys.com###ayx
+52bdys.com###ayx > img
 52bdys.com##center[style*="background"]
 52bdys.com##div[style^="position: fixed;bottom:"]
 52biquge.com##[onclick*="app"]
@@ -16304,13 +16304,19 @@ msn.cn##.rc > a[href^="https://sp.booking.com/"]
 msn.cn##[class^="articlePage_eoabContent"]
 msn.cn##cs-native-ad-card
 msn.cn##div[class^="nativeAd-DS-card"]
-msn.cn#%#//scriptlet("json-prune", "*", "list.*.link.ad list.*.link.kicker")
 msn.cn#%#//scriptlet('hide-in-shadow-dom', '.recommended-sites-container')
+msn.cn#%#//scriptlet('hide-in-shadow-dom', 'msft-article-card:not([class="contentCard"])')
+msn.cn#%#//scriptlet('inject-css-in-shadow-dom', '#entry-point-hp-wc-header[style^="top:"] { top: 0 !important; }')
+msn.cn#%#//scriptlet('inject-css-in-shadow-dom', '#entry-point-hp-wc-root-wrapper[style^="margin-top:"] { margin-top: 0 !important; }')
+msn.cn#%#//scriptlet('inject-css-in-shadow-dom', '.ad-container, .vd-ad, cs-native-ad-card-no-hover, display-ads, .display-ad-container, .display-ads-container, .views-right-rail-top-display, #entry-point-hp-wc-banner, .me-stripe-title-subtitle, #displayAdCard, a[href*=".booking.com/"], a[href^="https://amzn.to/"] { display: none !important; }')
+msn.cn#%#//scriptlet('inject-css-in-shadow-dom', 'cs-native-ad-card { visibility: hidden !important; }')
+msn.cn#%#//scriptlet('json-prune', '*', 'list.*.link.ad list.*.link.kicker')
+msn.cn#%#//scriptlet('json-prune', '*.*', 'adFeedbackData adType adServedUrls')
+msn.cn#%#//scriptlet('json-prune', 'configs.*.properties.slideshowWCSettings.interstitialNativeAds configs.*.properties.fullScreenSlideshowSettings.interstitialNativeAds properties.componentConfigs.slideshowConfigs.interstitialNativeAds properties.componentConfigs.slideshowConfigs.slideshowSettings.interstitialNativeAds')
 msn.com###displayAdCard
 msn.com###taboola-above-homepage-thumbnails
 msn.com##.ad
 msn.com##div[data--adqjyluqt]
-msn.com#%#//scriptlet('hide-in-shadow-dom', 'msft-article-card:not([class="contentCard"])')
 mtrend.cn###morecontent > .morecontent_next[style]
 mtrend.cn###topictabs1
 mtrend.cn###toptabs1 > .kz_line
@@ -16894,7 +16900,7 @@ pexels.com##a[href*=".istockphoto.com"]
 pg-wuming.com#%#//scriptlet("abort-current-inline-script", "$", "!document.getElementById(btoa")
 pharmnet.com.cn###img1
 pharmnet.com.cn##.ad9502
-phileweb.com##+js(set-attr, .floatL > img.lazyload, src, [data-src])
+phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 phone-book.tw#%#//scriptlet('remove-node-text', 'script', 'yumayishop')
 photopea.com##.flexrow > div[style^="padding-top:"]
 php.cn##.close_id
@@ -26538,6 +26544,7 @@ zzzyk.com###Tinfo
 ||afoykb.ebook.de^
 ||afp.chinanews.com^
 ||afpd.groundwidgets.com^
+||afqodjc.top^
 ||afraidlanguage.com^
 ||africa.edm.globalsources.com^
 ||africa.promo.skf.com^
@@ -29541,6 +29548,7 @@ zzzyk.com###Tinfo
 ||ask.antalis.ro^
 ||ask.antalis.se^
 ||ask.wearelistening.co.nz^
+||askdlajfbv.top^
 ||asklcnlkacnklnl.com^
 ||asldmlws.cn^
 ||asleyty.com^
@@ -35354,6 +35362,7 @@ zzzyk.com###Tinfo
 ||ctyjsf.cellphones.com.vn^
 ||ctyojp.kibek.de^
 ||ctyusif.top^
+||cuaeblh.icu^
 ||cubchannel.com^
 ||cuberoot.co^$third-party
 ||cucaido.abphotos.link^
@@ -35921,6 +35930,7 @@ zzzyk.com###Tinfo
 ||dajdnm.splits59.com^
 ||dajiadu8.com/17.js
 ||dajiahao10.top^
+||dajiahao17.top^
 ||dajiahao9.top^
 ||dajiazhao.com/login/reg.js
 ||dajkqqpz.top^
@@ -40963,6 +40973,7 @@ zzzyk.com###Tinfo
 ||fenxi.com^$third-party
 ||fenxiangdashi.com/Res/js/detail_
 ||fenxiangdashi.com/img/banner/
+||feofamdak.top^
 ||fepmpify.xyz^
 ||feppiu.systemaction.es^
 ||feptbh.xyz^
@@ -41932,6 +41943,7 @@ zzzyk.com###Tinfo
 ||fxmdjr.saita-puls.com^
 ||fxmdjr.yogajournal.jp^
 ||fxmkij.jny.com^
+||fxnmjb.xyz^
 ||fxpayments.americanexpress.co.nz^
 ||fxpayments.americanexpress.com.au^
 ||fxreferral.americanexpress.com^
@@ -41960,6 +41972,7 @@ zzzyk.com###Tinfo
 ||fzexkf.drogaraia.com.br^
 ||fzgetdy.cn^
 ||fzgpzp.opodo.de^
+||fzllis.cn^
 ||fzlnk.com^
 ||fzlol.com/images/$script
 ||fznxvf.xyz^
@@ -45284,6 +45297,7 @@ zzzyk.com###Tinfo
 ||hy.huangye88.net^
 ||hy.luassane.cn^
 ||hy5.com.cn/admin/
+||hy90.cn^
 ||hybbs.com/i/$image,object
 ||hybrid.ai^$third-party
 ||hycywj.akkushop.de^
@@ -45664,6 +45678,7 @@ zzzyk.com###Tinfo
 ||ihcamp.ybtour.co.kr^
 ||ihclam.cn^
 ||ihcrqa.sonnenklar.tv^
+||ihcxue.xyz^
 ||iheart.com/api/v3/playback/reporting
 ||iheart.com/events
 ||iherb.com/VtidNbtC/init.js
@@ -48109,6 +48124,7 @@ zzzyk.com###Tinfo
 ||iyingdi.com/goood?
 ||iyinghua.io/bar/
 ||iyisayfa.net/inc.php?
+||iyisloo.top^
 ||iykig.cn^
 ||iys.org.tr/mti-popts.js
 ||iytrn.xyz^
@@ -48313,6 +48329,7 @@ zzzyk.com###Tinfo
 ||jdgtgb.watson.de^
 ||jdgtgb.weser-kurier.de^
 ||jdh74bf.com^
+||jdipsuma.top^
 ||jdnlynb.cn^
 ||jdoshba.top^
 ||jdpm.net.cn^
@@ -83443,6 +83460,7 @@ zzzyk.com###Tinfo
 ||xxtalp.xyz^
 ||xxxcounter.com^$third-party
 ||xxxssv.jeulia.com^
+||xxxuhx.xyz^
 ||xxxviijmp.com^
 ||xxxvjmp.com^
 ||xxxx68xxxx.com^
