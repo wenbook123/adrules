@@ -520,8 +520,12 @@
 @@||api.athom.com^$domain=my.homey.app,stealth
 @@||api.babbel.io^$stealth
 @@||api.babbel.io^$stealth
+@@||api.bileto.com^$stealth,domain=arotballroma.com##.container42
+@@||api.bileto.com^$stealth,domain=arript,redirect=google-ima3,domain=cbsnews.com,important
 @@||api.bileto.com^$stealth,domain=arriva.cz
 @@||api.bileto.com^$stealth,domain=arriva.cz
+@@||api.bileto.com^$stealth,domain=art/ad/p/1?$replace=/(<adResponse[\s\S]*?>)[\s\S]*<\/adResponse>/\$1<\/adResponse>/,domain=theplatform.com
+@@||api.bileto.com^$stealth,domain=artsglosstandard.co.uk,wiltshiretimes.co.uk,wimbledonguardian.co.uk,wirralglobe.co.uk,witneygazette.co.uk,worcesternews.co.uk,yeovilexpress.co.uk,yorkpress.co.uk,yourlocalguardian.co.uk##.promoted-block
 @@||api.bilibili.com^$removeparam
 @@||api.bilibili.com^$stealth
 @@||api.bilibili.com^$stealth
@@ -1488,6 +1492,8 @@
 @@||decorardicas.com.br^$stealth
 @@||deezer.com^$generichide
 @@||deezer.com^$generichide
+@@||delivery-cdn--aspernatur.com^
+@@||delivery-cdn-cechasing.com^
 @@||delivery.consentmanager.net^$domain=buerstaedter-zeitung.de|allgemeine-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de|ruhrnachrichten.de
 @@||delivery.consentmanager.net^$domain=dw.com
 @@||delivery.consentmanager.net^$domain=kinoheld.de
@@ -1971,6 +1977,8 @@
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com|tw.buy.yahoo.com
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com|tw.buy.yahoo.com
 @@||geo.settings-win.data.microsoft.com.akadns.net^
+@@||geoip.redirect-ads.com^$subdoc
+@@||geoip.redirect-ads.com^$subdoclters/issues/17500
 @@||geoip.redirect-ads.com^$subdocument,third-party
 @@||geoip.redirect-ads.com^$subdocument,third-party
 @@||geolocation.onetrust.com^$domain=tvguide.com
@@ -2200,7 +2208,6 @@
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hutchgo.advertserve.com^$popup,domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hutchgo.advertserve.com^$popup,domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
-@@||hutchgo.advertserve.com^$popup,domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.td-header-sp-logoright
 @@||hwcdn.net^$domain=canyoublockit.com
 @@||hwcdn.net^$domain=canyoublockit.com
 @@||hwcdn.net^$script,domain=mp4upload.com
@@ -2279,6 +2286,7 @@
 @@||imasdk.googleapis.com^$stealth,domain=news.tvb.com
 @@||imasdk.googleapis.com^$stealth,domain=news.tvb.com
 @@||imasdk.googleapis.com^$xmlhttprequest,domain=cc-fan.tv|cn-fan.tv|fox-fan.tv|nf-fan.tv
+@@||imasdk.googleapis.|letshareus.com^$popup
 @@||img*.*.*^$stealth,domain=mangalib.me
 @@||img*.*.*^$stealth,domain=mangalib.me
 @@||img*.*.xyz^$stealth,image,domain=manhwa18.cc
@@ -3668,7 +3676,7 @@
 @@||sdk.privacy-center.org^$domain=strategies.fr
 @@||sdk.privacy-center.org^$domain=sudinfo.be
 @@||sdk.privacy-center.org^$domain=vanitatis.elconfidencial.com
-@@||sdk.privacy-center.org^$script,domain=20minutos.es|abc.es|allocine.fr|as.com|auto.it|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|edreams.de|edreams.net|elcomercio.es|elconfidencial.com|europe1.fr|filmweb.pl|fip.fr|france24.com|franceculture.fr|franceinter.fr|francetvinfo.fr|frandroid.com|funradio.fr|gamepro.de|gamestar.de|giphy.com|gloswielkopolski.pl|gofeminin.de|goplay.be|gva.be|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|mitula.pt|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nicematin.com|nieuwsblad.be|numerama.com|onmeda.de|opodo.ch|opodo.co.uk|opodo.com|opodo.com.au|opodo.de|opodo.dk|opodo.es|opodo.fi|opodo.fr|opodo.it|opodo.nl|opodo.no|opodo.pl|opodo.se|podcasts.leparisien.fr|publicsenat.fr|recup.paylib.fr|revistaoxigeno.es|rfi.fr|rtbf.be|rtl.be|rtl.fr|seguro.elespanol.com|sensacine.com|serially.it|sncf-connect.com|softonic.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|xataka.com
+@@||sdk.privacy-center.org^$script,domain=20minutos.es|abc.es|allocine.fr|as.com|auto.it|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|edreams.de|edreams.net|elcomercio.es|elconfidencial.com|euronews.com|europe1.fr|filmweb.pl|fip.fr|france24.com|franceculture.fr|franceinter.fr|francetvinfo.fr|frandroid.com|funradio.fr|gamepro.de|gamestar.de|giphy.com|gloswielkopolski.pl|gofeminin.de|goplay.be|gva.be|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|mitula.pt|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nicematin.com|nieuwsblad.be|numerama.com|onmeda.de|opodo.ch|opodo.co.uk|opodo.com|opodo.com.au|opodo.de|opodo.dk|opodo.es|opodo.fi|opodo.fr|opodo.it|opodo.nl|opodo.no|opodo.pl|opodo.se|podcasts.leparisien.fr|publicsenat.fr|recup.paylib.fr|revistaoxigeno.es|rfi.fr|rtbf.be|rtl.be|rtl.fr|seguro.elespanol.com|sensacine.com|serially.it|sncf-connect.com|softonic.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|xataka.com
 @@||sdk.privacy-center.org^$script,domain=francetvinfo.fr
 @@||sdk.privacy-center.org^$script,domain=frandroid.com
 @@||sdk.privacy-center.org^$script,domain=movilzona.es
@@ -4573,11 +4581,13 @@
 @@||xda-developers-forum.blogspot.com^$generichide
 @@||xfinity.com^$stealth
 @@||xfinity.com^$stealth
-@@||xfinity.com^$stealth###adhome
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichider.com##.fs-pushdown-sticky
-@@||xfreehd.com^$generichides://github.com/AdguardTeam/AdguardFilters/issues/82882 [Stealth Mode - Referrer]
-@@||xfreehd.com^$generichidew-open")
+@@||xfreehd.com^$generichide^
+@@||xfreehd.com^$generichidecimeterbren.top^$popup
+@@||xfreehd.com^$generichideinc.com##div[style^="min-height: 250px"]
+@@||xfreehd.com^$generichideport.com##.ms-side-items--with-banner
+@@||xfreehd.com^$generichideri.xyz##.adblock-wrapper
+@@||xfreehd.com^$generichidetableironicaldrone.com^
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
 @@||xidian.edu.cn^$generichide
