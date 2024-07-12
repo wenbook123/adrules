@@ -3767,27 +3767,6 @@ hdmotori.it##body:style(background: none !important; overflow: auto !important;)
 hdmotori.it##+js(nostif, CANG, 3000)
 hdmotori.it##.ads_block
 
-! https://github.com/uBlockOrigin/uAssets/issues/1932
-megawarez.org##+js(aopw, smrtSB)
-megawarez.org##[class^="ads"]
-megawarez.org##[id^="text-"] > .textwidget > p > [href][target="_blank"] > .size-full.alignnone
-! https://github.com/uBlockOrigin/uAssets/issues/1932#issuecomment-457093955
-megawarez.org##.onp-sl-content:style(display: block !important;)
-megawarez.org##.onp-sl-social-locker
-mwpaste.com##+js(nowoif, /^/, 15)
-*$frame,3p,domain=mwpaste.com
-! https://github.com/uBlockOrigin/uAssets/issues/1932#issuecomment-465748184
-acortalo.*,acortar.*,megadescarga.net##+js(nofab)
-acortalo.*,acortar.*,megadescarga.net,megadescargas.net##+js(nano-sib, , , 0)
-acortalo.*,acortar.*,megadescarga.net,megadescargas.net##+js(set, clicked, true)
-acortalo.*,acortar.*,megadescarga.net,megadescargas.net##+js(set, eClicked, true)
-acortalo.*,acortar.*,megadescarga.net,megadescargas.net##+js(set, number, 0)
-acortalo.*,acortar.*,megadescarga.net,megadescargas.net##+js(set, sync, true)
-||acortalo.*^$3p
-@@*$css,1p,domain=acortalo.*|acortar.*|megadescarga.net
-@@*$ghide,domain=acortalo.*|acortar.*|megadescarga.net
-*$popunder,domain=acortalo.*|acortar.*|megadescarga.net|megadescargas.net
-
 ! https://github.com/uBlockOrigin/uAssets/issues/7348
 hentai2read.com##+js(nowoif)
 hentai2read.com##[target="_blank"]:has([src^="//"])
@@ -7743,20 +7722,11 @@ teknorizen.*##+js(set, safelink.adblock, false)
 hdfriday.*##+js(aopr, open)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4834
-extramovies.*##+js(aopr, open)
-extramovies.*##+js(aopr, AaDetector)
-extramovies.*##+js(aopw, u_cfg)
-vanfem.com##+js(aopr, __Y)
-extramovies.*##center
-extramovies.*##[href^="/dlbutton.php"]
-extramovies.*##[href^="http://adfpoint.com"]
-*$script,3p,denyallow=bootstrapcdn.com|disqus.com|jsdelivr.net|jwpcdn.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|facebook.net,domain=extramovies.*
-extramovies.*###theme_back
-! https://github.com/uBlockOrigin/uAssets/issues/11023
-||extramovies.*/ads.js$script,1p
-! https://github.com/AdguardTeam/AdguardFilters/issues/145210
-extramovies.*#@#.ad_btn
-extramovies.*##+js(aopw, afStorage)
+||pub-3d10bad2840341eaa1c7e39b09958b46.r2.dev^$3p
+extramovies.*##.textwidget > a[target="_blank"] > img
+extramovies.*##.stickyzone
+extramovies.*##.gridshow-header-img
+extramovies.*##.gridshow-widget-box-inside
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4835
 @@||googletagmanager.com/gtm.js$script,domain=ciudad.com.ar
