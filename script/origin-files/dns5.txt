@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Bv2GsMb7BsGmWKBBXadwSQ
-! Version: 202407210041
+! Checksum: j6oNRH0VpIFwiAhCpiy49g
+! Version: 202407210801
 ! Title: EasyList China+EasyList
-! Last modified: 21 Jul 2024 00:41 UTC
+! Last modified: 21 Jul 2024 08:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1639,6 +1639,7 @@ newduba.cn###jq_youxi
 ##div#xinxi
 ###Zi_ad_a_H
 ##.Zi_ad_a_SB
+##.imagegg-container
 ##div[bannerlist]
 ~ix8.la##div[class^="ADTOPLB_"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
@@ -1696,7 +1697,7 @@ newduba.cn###jq_youxi
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
-||38.33.15.10^
+||38.33.15.*.gif
 ||107.167.16.*.gif
 ||121.204.246.*.gif
 ||154.7.80.158^
@@ -1707,6 +1708,10 @@ newduba.cn###jq_youxi
 ||107.167.22.*.gif
 ||cupfox.app^$third-party
 !
+||zqkxlf.com^
+||25662zubo23739.com^
+||88362zubo95838.com^
+||cosmo001.top^
 ||ofebyk.xyz^
 ||mdipsumx.top^
 ||jsdelivr.vip^
@@ -1730,6 +1735,8 @@ newduba.cn###jq_youxi
 ||nouusup.icu^
 ||tyretui.top^
 ||zyfnbl.xyz^
+||uyretut.top^
+||ppxscy1.cn^
 ||wnootzc.icu^
 ||eiuoom.xyz^
 ||bavotr.xyz^
@@ -11749,9 +11756,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||singtao.ca/editions/affiliate_
+||news.ssp.qq.com/ad
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 landiannews.com##a[href*="ourl.co"]
+||baijs011.xyz^
+||google-js-09.xyz^
 7itv.com##body > div[style]
 fengchedmp.com##body > div[style]
 huya.com##.huya-ab
@@ -42995,6 +43005,7 @@ browsershots.org#@#.advert_area
 ||ciwedsem.xyz^
 ||ciwhacheho.pro^
 ||cizzwykcug.com^
+||cj2550.com^
 ||cjcbzqrwwi.com^
 ||cjewz.com^
 ||cjhkmsguxlxgy.com^
@@ -86176,8 +86187,8 @@ olympics.com##.-adv
 porndoe.com##.-h-banner-svg-desktop
 nhl.com##.-leaderboard
 nhl.com##.-mrec
-hellomagazine.com##.-variation-bannerinferior
-hellomagazine.com##.-variation-megabanner
+hellomagazine.com,hola.com##.-variation-bannerinferior
+hellomagazine.com,hola.com##.-variation-megabanner
 hellomagazine.com##.-variation-robainferior
 hellomagazine.com##.-variation-robapaginas
 yelp.com##.ABP
@@ -88038,6 +88049,7 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.
 westword.com##.hil28zhf1wyd
 48hills.org##.hills-adlabel
 highwayradio.com##.hiway-widget
+hola.com##.hm-sticky-sidebar
 ndtv.com##.hmpage_rhs
 seattlepi.com##.hnpad-Flex1
 seattlepi.com##.hnpad-Inline
