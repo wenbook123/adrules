@@ -3543,7 +3543,7 @@ insidemarketing.it##.homeBannerMax
 ! https://github.com/uBlockOrigin/uAssets/issues/1835
 desiupload.*,9xupload.*##+js(nano-stb)
 desiupload.*##+js(acs, getCookie)
-desiupload.*##[href*="desifile.in/404"]
+desiupload.*###container > center > a[href*="?key="][target="_blank"] > img
 ||a2ztechworld.com^$3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1839
@@ -3944,6 +3944,7 @@ vipbox.*,vipboxtv.*##+js(json-prune, *, *.adserverDomain)
 vipbox.*,viprow.*##^script:has-text("admc")
 vipbox.*,viprow.*##^script:has-text(\"admc\")
 vipbox.*##+js(nowoif, , 10)
+vipbox.*##+js(acs, JSON.parse, atob)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2104
 wkyc.com##+js(acs, btoa)
