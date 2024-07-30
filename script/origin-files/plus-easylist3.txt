@@ -406,8 +406,7 @@ utreon.com##+js(no-xhr-if, utreon.com/pl/api/event method:POST)
 ! https://github.com/uBlockOrigin/uAssets/issues/16731
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$script,xhr,3p,match-case
 ! https://github.com/uBlockOrigin/uBlock-discussions/discussions/461
-! https://github.com/uBlockOrigin/uAssets/issues/24672
-/^https:\/\/[0-9a-z]{7,25}\.com\/(?:build|bundles|chunks|dist|files|j|public|scripts|static)?\/?[_0-9a-f]{6,15}\/?[0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index))?(?:\.js)?$/$script,3p,match-case,redirect=noopjs
+/^https:\/\/[0-9a-z]{7,25}\.com\/(?:assets|build|bundles|chunks|dist|files|j|public|scripts|static)?\/?(?:js\/)?[_0-9a-f]{6,15}\/?[_0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index|v1|vendor))?(?:\.js)?$/$script,3p,match-case,to=com,redirect=noopjs
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16751
 zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
@@ -619,6 +618,9 @@ slickdeals.net##+js(href-sanitizer, a[href^="https://slickdeals.net/?"][href*="u
 dk.pcpartpicker.com##+js(href-sanitizer, a[href^="https://online.adservicemedia.dk/"][href*="deeplink=http"], ?deeplink)
 ! https://github.com/uBlockOrigin/uBlock-discussions/discussions/775#discussioncomment-10120835
 justwatch.com##+js(href-sanitizer, a[href^="https://click.justwatch.com/"][href*="r="], ?r)
+
+! https://github.com/uBlockOrigin/uAssets/issues/24675 - click tracking
+||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 
 ! https://chataigpt.org
 /detroitchicago/dpv.gif?$image
@@ -852,9 +854,6 @@ natgeotv.com##+js(set, Visitor, {})
 ! https://github.com/uBlockOrigin/uAssets/issues/19954
 ||cdn.cuty.io/fps.js$script
 
-! https://github.com/uBlockOrigin/uAssets/issues/19998
-||roshy.tv/wp-content/uploads/perfmatters/gtagv4.js
-
 ! https://lenovo.com/us/en/legal/copytrade/?orgRef=[...] - Search Google for "Lenovo copyright", Click on the first result
 www.lenovo.com##+js(aost, history.replaceState, injectedScript)
 
@@ -897,10 +896,6 @@ preisjaeger.at##+js(href-sanitizer, a[href*="https://www.preisjaeger.at/visit/"]
 promodescuentos.com##+js(href-sanitizer, a[href*="https://www.promodescuentos.com/visit/"][title^="https://"], [title])
 pelando.com.br##+js(href-sanitizer, a[href*="https://www.pelando.com.br/api/redirect?url="], ?url)
 ! desidime.com##+js(href-sanitizer, a[href*="https://www.desidime.com/links?ref=][href*="&url="], &url)
-
-! https://www.aachener-zeitung.de/
-||r.aachener-zeitung.de^
-||prod-mhaa.mhtr.be^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/21342
 proboards.com,winclassic.net##+js(rmnt, script, vglnk)
