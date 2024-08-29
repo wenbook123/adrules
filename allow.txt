@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Me4dpf/0q7sa59m/gp77Cg
+! Checksum: mS/+dZ4uCkAAyud5nOsQxg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-08-29 16:18:37（北京时间） 
-! Total count: 14876
+! Version: 2024-08-30 00:17:30（北京时间） 
+! Total count: 14878
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -589,6 +589,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1811,6 +1812,7 @@
 @@||api.cxense.com/public/widget/data?json=$domain=business.nikkei.com
 @@||api.cxense.com/public/widget/data?json=$domain=delfi.lt
 @@||api.cxense.com/public/widget/data?json=$domain=euractiv.com
+@@||api.cxense.com/public/widget/data?json=$domain=i-voce.jp
 @@||api.cxense.com/public/widget/data?json=$domain=journaldemontreal.com
 @@||api.cxense.com/public/widget/data?json=$domain=journaldequebec.com
 @@||api.cxense.com/public/widget/data?json=$domain=lavoz.com.ar
@@ -1900,6 +1902,7 @@
 @@||api.production.k8s.y3o.tv/*/video-ads/$domain=yallo.tv
 @@||api.rhombusads.com/v*/embed/check$domain=spin.com
 @@||api.rlje.net^
+@@||api.rmr.rocks^$stealth=3p-auth
 @@||api.savemedia.website^$domain=convert2mp3.club
 @@||api.sbs.com.au^
 @@||api.sec.miui.com^
@@ -1971,7 +1974,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
-@@||apotheken-umschau.de$contentt.io##ul[class^="footer-module--social-media"]
+@@||apotheken-umschau.de$content> .lk-icon-social-instagram-2
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -3086,6 +3089,7 @@
 @@||cdn.cxense.com/cx.cce.js$domain=business.nikkei.com
 @@||cdn.cxense.com/cx.cce.js$domain=dhnet.be
 @@||cdn.cxense.com/cx.cce.js$domain=euractiv.com
+@@||cdn.cxense.com/cx.cce.js$domain=i-voce.jp
 @@||cdn.cxense.com/cx.cce.js$domain=journaldemontreal.com
 @@||cdn.cxense.com/cx.cce.js$domain=lopinion.fr
 @@||cdn.cxense.com/cx.cce.js$domain=milenio.com
@@ -3098,6 +3102,7 @@
 @@||cdn.cxense.com/cx.js$domain=cdn.cxpublic.com
 @@||cdn.cxense.com/cx.js$domain=dhnet.be
 @@||cdn.cxense.com/cx.js$domain=euractiv.com
+@@||cdn.cxense.com/cx.js$domain=i-voce.jp
 @@||cdn.cxense.com/cx.js$domain=itmedia.co.jp
 @@||cdn.cxense.com/cx.js$domain=journaldemontreal.com
 @@||cdn.cxense.com/cx.js$domain=lavoz.com.ar
@@ -4410,7 +4415,6 @@
 @@||css.yhdmtu.xyz^$domain=iyinghua.io|yinghua8.tv
 @@||cstnet.cn/r/cms/cstnet/zh_CN/ad/index/
 @@||csub.edu/static/js/google-analytics.js
-@@||csub.edu/static/||clarity.ms^$third-party
 @@||ctldl.windowsupdate.com^
 @@||ctrip.com/Customer-Market-Proxy/AdCallProxyV2.$~third-party
 @@||ctrip.com^
@@ -5507,6 +5511,7 @@
 @@||finclub.in/safe*.php?link=$stealth
 @@||findernet.com^$content
 @@||findicons.com/files/icons/$~third-party
+@@||findlawimg.com^$stealth=referrer,domain=findlaw.cn
 @@||fingahvf.top/advertisers.js
 @@||fingerprintjs.com^$generichide
 @@||finishline.com^$stealth
@@ -6086,7 +6091,6 @@
 @@||gomediago.baidu.com/api/bidder/$domain=jump2.bdimg.com
 @@||gomein.net.cn^*,
 @@||gomoplayer.com^$subdocument
-@@||goo
 @@||goo.gl^
 @@||goodinfo.tw/StockInfo/image/*.png
 @@||goodinfo.tw^$generichide
@@ -8025,6 +8029,7 @@
 @@||iphonetweak.fr^$ghide
 @@||ipify.org^
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
+@@||ipinfo.io/json$domain=ptube.pipio.site|queye.co
 @@||ipinfo.io/json$domain=queye.co
 @@||ipinfo.io/static/images/use-cases/adtech.jpg$image,~third-party
 @@||ipinfo.io^
@@ -8325,7 +8330,6 @@
 @@||kimcartoon.me/Scripts/$~third-party
 @@||kimcartoon.me/Search/$xmlhttprequest
 @@||kimcartoon.me/Special/AreYouHuman$xmlhttprequest
-@@||kimcartoon.me/ads/fbMob.aspx
 @@||kimcartoon.to/*Bookmark$other,xmlhttprequest
 @@||kimcartoon.to/Content/ui-lightness/jquery.ui.progressbar.css
 @@||kimcartoon.to/Register/GetCaptcha
@@ -9591,6 +9595,7 @@
 @@||newsource-cdn-static.ns.cnn.com/prd/analytics/*/cnnvan-omniture.min.js$domain=6abc.com
 @@||newsroom.consilium.europa.eu/smarttag.js$domain=newsroom.consilium.europa.eu
 @@||newsthessaloniki.gr/wp-content/*/adblock-detector/advertisement.js
+@@||newtoki*.org/data/file/$image,stealth=referrer
 @@||newver.api.dedecms.com/index.php$subdocument
 @@||next-episode.net^$ghide
 @@||next-episode.net^$script,1p
@@ -11310,8 +11315,6 @@
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js.spectacorexperience.com$image
-@@||reseguiden.se^*.siteCatalyst.jsshoptarget.com.br^$third-party
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -12718,6 +12721,7 @@
 @@||static.telegraph.co.uk/*/ads.js
 @@||static.telegraph.co.uk/telegraph-advertising/tmg-gpt.min.js$domain=telegraph.co.uk
 @@||static.tieba.baidu.com^
+@@||static.truex.com/js/client.js$domain=schoolcheats.net
 @@||static.tvmaze.com/css/ads.css
 @@||static.videostar.pl/static/assets/js/adcheck.min.js^
 @@||static.vidgyor.com/live/dai/js/videojs.ads.min.js
@@ -14637,9 +14641,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideM(ext_ff, ext_opera, ios, ext_android_cb)
-@@||xfreehd.com^$generichideom^
-@@||xfreehd.com^$generichiderocker.com#$#@media (min-width: 1000px) { .adhesiveHeaderAdFixed header { top: 0 !important; } }
+@@||xfreehd.com^$generichide.adsbygoogle)
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhcdn.com/*/fonts$font
