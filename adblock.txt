@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: G3muE8m/tLWnSrjEDpAZcQ
+! Checksum: /aIG0p+sFrdMptJ+no2QJw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-09-24 09:00:34（北京时间） 
-! Total count: 85386
+! Version: 2024-09-24 16:19:57（北京时间） 
+! Total count: 85411
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3422,7 +3422,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 &uclick=*&uclickhash=$doc,removeparam
 &xhtml?$script,third-party
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
-*.gif$domain=aeahsck.cc
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
 -*-*-*-*.alpha^$script,third-party
@@ -3674,6 +3673,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .gif?Log=
 .gif?stat=open
 .gif|$domain=7mshipin.org|viidii.info
+.gif|$domain=8724ck.cc|aeahsck.cc
 .gif|$domain=99re.com
 .goodwell18.com/track/
 .google-analytics.com/
@@ -6566,6 +6566,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /public/analytics.js
 /public/imgbed/gg/*
 /public/statsd
+/public/tingshu/foor.js$~third-party
 /public/visit/record
 /public/visitor.json?
 /public/visitor/create?
@@ -8930,6 +8931,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 85wp.com##.top-ad-img
 8684.cn,8684.com##div[id*="adid"]
 8684.cn,8684.com,iyxdm.org,iyxdm.one,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
+8724ck.cc##body > div[style] > a[href][target="_blank"]
+8724ck.cc,aeahsck.cc##.stui-vodlist  > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
 880sy.com##.foot_gg
 880sy.com##.fot_btom
 88448.com###ad_forum_banner
@@ -10272,6 +10275,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||inoreader.com^$genericblock,generichide
 @@||inpad.com.tw/data/adv/
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
+@@||int.mwbbiz.com/static/*/app.js$domain=91porny.com
+@@||int.mwbbiz.com/static/*/videoShow.js$domain=91porny.com
 @@||invoice-ua.taobao.com/e-invoice/invoice-apply-online.html?source$stealth
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipfs-lab.com^$generichide
@@ -11319,7 +11324,6 @@ admaimai.com##.in16_w01 > div[class*="_ad0"]
 admin5.com##.float_both_index
 admin5.com##.notice
 adpushup.com
-aeahsck.cc##.stui-vodlist  > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
 aeink.com##.widget_ui_adsf
 aeink.com##.widget_ui_textads
 aeink.com##p[style*=".alicdn.com/"]
@@ -11828,6 +11832,8 @@ baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
 baidu.com#$##content_left > div[style*="display:block !important;"]:not(.result) { position: absolute!important; left: -4000px!important; }
 baidu.com#$#.ec_wise_ad { position: absolute !important; left: -3000px !important; }
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
+baidu.com#?#.container:-abp-has(>.bottom-section>.item_voice_room[data-yysid])
+baidu.com#?#.container_frs:-abp-has(>.voice_room_card_frs[data-url*="yylive"])
 baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
 baidu.com#@##header > div:last-child
 baidu.com#@##page-pre
@@ -12029,6 +12035,7 @@ bilibili.com##.index__downLoadBtn__src-videoPage-commentArea-
 bilibili.com##.index__floatOpenBtn__src-videoPage-floatOpenBtn-
 bilibili.com##.index__openAppBtn__src-commonComponent-topArea-
 bilibili.com##.index__openApp__src-videoPage-related2Col-videoItem-
+bilibili.com##.is-rcmd > div:only-child
 bilibili.com##.mobile.nav-item
 bilibili.com##.online + .adpos
 bilibili.com##.open-app-bar
@@ -12579,6 +12586,8 @@ cmhello.com##.gpost-above
 cmsky.com##.textwidget a[href^="http"]:not([href*="cmsky"])
 cn-healthcare.com##.fh_ad_wrap
 cn-healthcare.com##.fh_advent_wrap
+cn.bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
+cn.bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
 cn.bing.com##.b_bza_pole
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
@@ -40699,6 +40708,7 @@ zzzyk.com###Tinfo
 ||ewfsef.com^
 ||ewjhic.cn^
 ||eworfe.babyartikel.de^
+||ewqeq23.fun^
 ||ewqws55.fun^
 ||ewrwf.com^
 ||ewtyewj.com^
@@ -42003,6 +42013,7 @@ zzzyk.com###Tinfo
 ||fretfulfurniture.com^
 ||freychang.fun^
 ||frgf99.fun^
+||frgre33.fun^
 ||fridaymarketing.actonservice.com^
 ||friendbuy.com^$third-party
 ||friendlycrayon.com^
@@ -43850,6 +43861,7 @@ zzzyk.com###Tinfo
 ||google.com/gsi/log?
 ||google.com/images/phd/px.gif
 ||google.com/log?
+||google.com/pagead/1p-conversion/
 ||googleads.g.doubleclick.net/pagead/ads$subdocument,redirect=noopframe,domain=rjno1.com,important
 ||googleadservices.com^$removeparam=ae
 ||googleadservices.com^$removeparam=agsac
@@ -45057,6 +45069,7 @@ zzzyk.com###Tinfo
 ||hkitblog.com^*-banner
 ||hkj8.evobanco.com^
 ||hkjunkcall.com/images/b_banner_
+||hkjzkrqz.icu^
 ||hkk456.cc^
 ||hkkeafj.cn^
 ||hkljed.xyz^
@@ -45966,6 +45979,7 @@ zzzyk.com###Tinfo
 ||igkgag.xyz^
 ||ignchq.kentaku.co.jp^
 ||ignite.liftigniter.com^
+||ignslkgs.com^
 ||ignulsniy.com^
 ||igo.cn/liuxue/js/slideBar
 ||igo99.cn/js/freetest.js
@@ -46761,7 +46775,7 @@ zzzyk.com###Tinfo
 ||imgs.itxueyuan.com/advPicture/
 ||imgs.signifyd.com^
 ||imgsmail.ru/gstat?
-||imgsrc.baidu.com/*/pic/*.jpg$domain=aeahsck.cc
+||imgsrc.baidu.com/*/pic/*.jpg$domain=8724ck.cc|aeahsck.cc
 ||imgsrc.baidu.com/tieba/pic/item/$image
 ||imgstat.baidu.com^
 ||imgtg.com^*.gif
@@ -48593,6 +48607,7 @@ zzzyk.com###Tinfo
 ||jcpenney.com^$removeparam=selectedSKUId
 ||jcpenney.com^$removeparam=urlState
 ||jcplzp.lancel.com^
+||jcppcmqa.icu^
 ||jcpyyh.laredoute.es^
 ||jcr3.onlyyouhotels.com^
 ||jcrb.com/ZYW$subdocument
@@ -49287,6 +49302,7 @@ zzzyk.com###Tinfo
 ||jvpyxve.cn^
 ||jvrwil.gabor.de^
 ||jvzlya.benesse.ne.jp^
+||jwatera.top^
 ||jwcnjv.xlmoto.eu^
 ||jwddpvu.cn^
 ||jweoe.xyz^
@@ -49721,6 +49737,7 @@ zzzyk.com###Tinfo
 ||kiwi8.top/media/plugins/jquery_confirm/
 ||kiwihk.net^$third-party
 ||kiwisizing.com/api/log
+||kiykfux.icu^
 ||kjacgk.xyz^
 ||kjanfwss.xyz^
 ||kjappzvz.xyz^
@@ -49786,6 +49803,7 @@ zzzyk.com###Tinfo
 ||klik.nrc.nl/ping?
 ||klix.ba/pixel/
 ||kljslku.com^
+||klkk66.fun^
 ||klktmc.parler.co.jp^
 ||klldabck.com^$third-party
 ||klm.us/CWZUvc/
@@ -50069,6 +50087,7 @@ zzzyk.com###Tinfo
 ||kvt5.blesscollectionhotels.com^
 ||kvyyyde.cn^
 ||kwalnc.vans.co.kr^
+||kwaterd.top^
 ||kwbpge.jra-van.jp^
 ||kwcmrfb.cn^
 ||kwdgudw.cn^
@@ -57700,6 +57719,7 @@ zzzyk.com###Tinfo
 ||mvjkbj.2-carat.net^
 ||mvjkbj.inazumanews2.com^
 ||mvlkvth.cn^
+||mvmqos.xyz^
 ||mvng.cn^
 ||mvpqrydt.xyz^
 ||mvtracker.com^$third-party
@@ -57985,6 +58005,7 @@ zzzyk.com###Tinfo
 ||naemailom.fun^
 ||nafmxc.1083.fr^
 ||nahgvfhs.xyz^
+||nahjzx.xyz^
 ||naiadsystems.com/api/v1/xment/
 ||naidileobram.actonservice.com^
 ||naiep.xyz^
@@ -58586,6 +58607,7 @@ zzzyk.com###Tinfo
 ||nmiodk.promiflash.de^
 ||nmkghh.com^
 ||nmm9i.xyz^
+||nmmemzi.icu^
 ||nmntgd.cn^
 ||nmo1.orpi.com^
 ||nmrdnqn.cn^
@@ -59725,6 +59747,7 @@ zzzyk.com###Tinfo
 ||opinary.com/v1/events
 ||opinionsurprise.com^
 ||opjnbmk.com^
+||opkkjh.xyz^
 ||opnked*.xyz^
 ||opo4.assuronline.com^
 ||opoffice.actonservice.com^
@@ -73740,6 +73763,7 @@ zzzyk.com###Tinfo
 ||sygmtz.com^
 ||syislob.top^
 ||syiwgwsqwngrdw.xyz^
+||sykzow.xyz^
 ||syllablesight.com^
 ||symantec.ecs.arrow.com^
 ||symbio.actonservice.com^
@@ -78966,6 +78990,7 @@ zzzyk.com###Tinfo
 ||tscounter.com^$third-party
 ||tsdfxv.xyz^
 ||tsdm.live/weibo.html
+||tsdm39.com/img01/MP3/GG/
 ||tsdmw.net/img01/MP3/pm_
 ||tse.telerama.fr^
 ||tsearch.snssdk.com^
