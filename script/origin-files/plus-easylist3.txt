@@ -1044,26 +1044,22 @@ nytimes.com##+js(no-fetch-if, api.theathletic.com/graphql body:/PostEvent|PostIm
 ! https://github.com/uBlockOrigin/uAssets/issues/25467
 ||shrinkearn.com/full?*&type=1$urlskip=?url -base64
 
-! blog.cloudflare.com tracking
-blog.cloudflare.com##+js(no-fetch-if, method:POST body:zaraz)
+! cloudflare.com tracking
+blog.cloudflare.com,www.cloudflare.com##+js(no-fetch-if, method:POST body:zaraz)
+||radar.cloudflare.com/api/analytics
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25532
-! ||s.yimg.com/ss/analytics
-! https://github.com/uBlockOrigin/uAssets/issues/25552
-! yahoo.com,~mail.yahoo.com##+js(set-attr, img.caas-lazy[data-src]:not([src]), src, [data-src])
-! yahoo.com,~mail.yahoo.com##.caas-img-container.caas-img-loader .caas-img:style(opacity: 1 !important;)
-! yahoo.com,~mail.yahoo.com##.caas-img-container.caas-img-loader:style(background-color: transparent !important;)
-! yahoo.com,~mail.yahoo.com##.caas-img-container.caas-img-loader::after:style(background: unset !important;)
-! https://github.com/uBlockOrigin/uAssets/issues/25570
-! yahoo.com,~mail.yahoo.com##+js(set, rapidInstance, {})
-! yahoo.com,~mail.yahoo.com##+js(set, rapidInstance.beaconLinkViews, noopFunc)
-! yahoo.com,~mail.yahoo.com##+js(set, rapidInstance.beaconClick, noopFunc)
-! https://github.com/uBlockOrigin/uAssets/issues/25579
-! yahoo.com,~mail.yahoo.com##+js(set, rapidInstance.isModuleTracked, noopFunc)
-! yahoo.com,~mail.yahoo.com##+js(set, rapidInstance.addModulesWithViewability, noopFunc)
+||udc.yahoo.com^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25558
 ||gitbook.com/v1/integrations/googleanalytics/
+
+! https://www.reddit.com/r/uBlockOrigin/comments/1fzfpfj/a_small_issue_with_targetcom/
+!#if env_firefox
+forum.blu-ray.com##a[href][onclick*="this.href"]:remove-attr(/^on(?:click|contextmenu|mouseover)$/)
+!#else
+forum.blu-ray.com##+js(ra, onclick|oncontextmenu|onmouseover, a[href][onclick*="this.href"], stay)
+!#endif
 
 ! Merge in resource-abuse.txt
 !#include resource-abuse.txt
