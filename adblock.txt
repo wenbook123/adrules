@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: IO3SSzJWIF5jSkXQTZuulg
+! Checksum: /X6AE0XAVOsaKNH8MCFkCg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-10-12 08:58:43（北京时间） 
-! Total count: 85745
+! Version: 2024-10-12 16:22:10（北京时间） 
+! Total count: 85775
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1698,6 +1698,7 @@
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
+##header + main > div[class$=" block"][id="rd0"][data-v-app]
 ##html.wap [style='left: 40%;']
 ##iframe.ad-frame
 ##iframe[src*=".xxmh"][src*="?u="]
@@ -4209,6 +4210,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
 /^(?!.*(authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru|cloudflare.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,third-party
+/^https:\/\/zz\d{4}bb\d{4}\.com/$third-party,image
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=kleinanzeigen.de
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=tjx.com
@@ -9181,6 +9183,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 :81/c/i.php?id=$script
 :81/s/i.php?id=$script
 :818/nowscore/
+:8686/8888/*.gif$third-party,image
 :88/999pc/
 :88/lighttpd/default/
 :8888/js/cctv.js
@@ -17310,6 +17313,7 @@ ptbus.com##.weixin_ad
 ptbus.com,weather.com.cn###duilian
 ptthito.com##.scupio-f
 ptthito.com#?##main-content > div[style*="margin-top:"]:not([class]):has(> .adsbygoogle)
+pttweb.cc##.e7-min-ad-height
 pub.funshion.com
 pujia8.com###recommend
 pujia8.com##.ad740
@@ -21049,6 +21053,7 @@ zzzyk.com###Tinfo
 ||666bbb222www.com^
 ||666bbb333bbb.com^
 ||666bbb888www.com^
+||666hh999gg.com^
 ||666ppp222ppp.com^
 ||666ppp888ppp.com^
 ||6677648.reddoorz.com^
@@ -21149,6 +21154,7 @@ zzzyk.com###Tinfo
 ||7701zxcv.com^
 ||771fnypadw0j.pt.themoneytizer.com^
 ||775mz.com/js/jquery.js
+||776.jstatic.xyz^
 ||777aa888bb.com^
 ||777aa999aa.com^
 ||777bb111ww.com^
@@ -29802,6 +29808,7 @@ zzzyk.com###Tinfo
 ||asdx55.com^
 ||asdyui16.cn^
 ||asdzxc1.top^
+||aseads.com^
 ||asentech-dev.actonservice.com^
 ||asfklgnbvx.com^
 ||asfybkiy.xyz^
@@ -33470,6 +33477,7 @@ zzzyk.com###Tinfo
 ||cfugrnc.icu^
 ||cfyhym.weightwatchers.fr^
 ||cfzhushou.com^*/King_Chance_Layer.js
+||cg-pao-tu.nanyanglk.com^
 ||cgbswl.icu^
 ||cgctsw.mytour.vn^
 ||cgczuu.xyz^
@@ -35226,12 +35234,14 @@ zzzyk.com###Tinfo
 ||corporateplatino.americanexpress.it^
 ||correctchaos.com^
 ||cortellisconnections.thomsonreuters.com^
+||cos1999.top^
 ||cosme.caseepo.jp^
 ||cosmi.io^$third-party
 ||cosmicsculptor.com^
 ||cosmo.ru/*/.js?i=*&r=
 ||cosmo001.top^
 ||cosmo100.top^
+||cosmo202.top^
 ||cosmosjackson.com^
 ||cosouy.xyz^
 ||cost1action.com^$third-party
@@ -36110,6 +36120,7 @@ zzzyk.com###Tinfo
 ||d23p9gffjvre9v.cloudfront.net^
 ||d241ujsiy3yht0.cloudfront.net
 ||d24cze5sab2jwg.cloudfront.net^
+||d24fnxkxwarvg8.cloudfront.net^
 ||d24rtvkqjwgutp.cloudfront.net^
 ||d276.ourmidland.com^
 ||d2c.ne.jp^$third-party
@@ -36281,7 +36292,7 @@ zzzyk.com###Tinfo
 ||daiyanbao.com/flash/md
 ||dajdnm.splits59.com^
 ||dajiadu8.com/17.js
-||dajiadu8.com/17mb/script/ad.js
+||dajiadu8.com/17mb/script/ad*.js
 ||dajiahao10.top^
 ||dajiahao17.top^
 ||dajiahao8.top^
@@ -38368,6 +38379,7 @@ zzzyk.com###Tinfo
 ||dpedrt.xyz^
 ||dpg.danawa.com/*/rest/*getStampEvent
 ||dpijohb.icu^
+||dpjzr.top^
 ||dpjzzgw.cn^
 ||dplp1.ibmnorthamerica.adobesandbox.com^
 ||dpm.demdex.net.iberostar.com^
@@ -41507,6 +41519,7 @@ zzzyk.com###Tinfo
 ||files.info.posteitaliane.it^
 ||files.jb51.net/image/
 ||files.urlinsgroup.com^
+||files.xtpag.top^
 ||filesonic.com/referral/$third-party
 ||filext.com/pageview^
 ||filitrac.com^$third-party
@@ -45453,6 +45466,7 @@ zzzyk.com###Tinfo
 ||hoxdotye.icu^
 ||hoyoverse.com/dora/biz/mihoyo-h5log/
 ||hp.com^$removeparam=jumpid
+||hp8g6.icu^
 ||hpark-adobe.branch.rocks^
 ||hpark-beta-moengage.branch.rocks^
 ||hpark-brazesp.branch.rocks^
@@ -46830,8 +46844,10 @@ zzzyk.com###Tinfo
 ||img-static.com/CERISE.gif?
 ||img.*.com/images/*.gif$domain=czzy01.com
 ||img.0279.net^
+||img.175532.com^
 ||img.263y.com^
 ||img.3sjt.com^
+||img.911787.com^
 ||img.91p51.com^
 ||img.aonunited.com^
 ||img.biospace.com^
@@ -46880,6 +46896,7 @@ zzzyk.com###Tinfo
 ||img.mikudm.net/img01/MP3/GG/20240415_CPS_960X75_general.gif
 ||img.n.nasdaq.com^
 ||img.newsletter.mazda.co.jp^
+||img.qxwoiv.com^
 ||img.response.digicert.com^
 ||img.scupio.com$domain=briian.com
 ||img.scupio.com/js/ad.js
@@ -50035,6 +50052,7 @@ zzzyk.com###Tinfo
 ||kmpxq.cn^
 ||kmqghr.bristolshop.be^
 ||kmqhmn.helen-marlen.com^
+||kmqianneng66.com^
 ||kmr.enrosr.cn^
 ||kmruv.cn^
 ||kmtx.io^$third-party
@@ -58123,6 +58141,7 @@ zzzyk.com###Tinfo
 ||myqcloud.com/ad/
 ||myqcloud.com/uploads/m3u8/*.ts$third-party
 ||myqcloud.com/wp-content/uploads/huoxingyun.
+||myqmgm.xyz^
 ||myreadcloud.com^
 ||myrealty.su/counter/
 ||myretailmatch.actonservice.com^
@@ -58217,6 +58236,8 @@ zzzyk.com###Tinfo
 ||n3xpjc.xyz^
 ||n4kb43cl2bsw.creatordrop.com^
 ||n522rv1.cn^
+||n55cpw.vip^
+||n55ylc001.vip^
 ||n5725.com^
 ||n5m5.com/static/js/playcon.js
 ||n5n5s.icu^
@@ -63033,6 +63054,7 @@ zzzyk.com###Tinfo
 ||qxsfaj.caloo.jp^
 ||qxvp6.site^
 ||qxvqhy.miliboo.es^
+||qxwoiv.com^
 ||qxzlmzt.xyz^
 ||qy0.ru/data/game/
 ||qy1.ru/data/game/
@@ -64103,6 +64125,7 @@ zzzyk.com###Tinfo
 ||rnnstu.rentbeforeowning.com^
 ||rnpkxgfp.xyz^
 ||rntdqwc.xyz^
+||rnwenpn.icu^
 ||rnybul.gismeteo.lv^
 ||rnybul.gismeteo.md^
 ||rnyhid.pepperfry.com^
@@ -65293,6 +65316,7 @@ zzzyk.com###Tinfo
 ||sbldw.cn^
 ||sbmwgj.vidaxl.hu^
 ||sbo8.com/static/theme/js/bottom.
+||sbovgy.xyz^
 ||sbpb1.chuiyue.com^
 ||sbpb1.qulishi.com^
 ||sbpzeq.lululemon.com.au^
@@ -66553,6 +66577,7 @@ zzzyk.com###Tinfo
 ||sgms.greatschools.org^
 ||sgru.cn^
 ||sgsb.aba.com^
+||sgsosi.xyz^
 ||sgstats.com^
 ||sgtm.tagmanageritalia.it^
 ||sgtm.tennis-point.de^
@@ -79341,12 +79366,14 @@ zzzyk.com###Tinfo
 ||ttzw.tv/tz/h.js
 ||ttzw.tv/tz/true.js
 ||tu.zx110.org^
+||tu0379199038.cc^
 ||tu1500919341.cc^
 ||tu2.taohuaimg.com^$third-party
 ||tu2024020388.com^
 ||tu3168509469.cc^
 ||tu3921276844.cc^
 ||tu4038097360.cc^
+||tu5551976196.cc^
 ||tu6767109513.cc^
 ||tuagol.gartenmoebel.de^
 ||tubemogul.com^$third-party
@@ -80946,6 +80973,7 @@ zzzyk.com###Tinfo
 ||vizury.com/analyze/
 ||vizury.com^$third-party
 ||vizzit.se^$third-party
+||vjharl.xyz^
 ||vjie.com^$third-party
 ||vjjgpt.diamond.jp^
 ||vjnxpj.xyz^
@@ -82653,6 +82681,7 @@ zzzyk.com###Tinfo
 ||www.agile365enterprise.com^
 ||www.agiledata7.com^
 ||www.aiea6gaza.com^
+||www.aiqu*.com/da/*.js
 ||www.alda1mure.com^
 ||www.alea6badb.com^
 ||www.alga9frog.com^
@@ -83969,6 +83998,7 @@ zzzyk.com###Tinfo
 ||xphcrjth.xyz^
 ||xpicj1.cc^
 ||xpj08.oss-cn-beijing.aliyuncs.com^
+||xpjcg.oss-accelerate.aliyuncs.com^
 ||xpkxahje.xyz^
 ||xplosion.de^$domain=spiegel.de
 ||xplosion.de^$third-party
