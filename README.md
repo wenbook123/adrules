@@ -34,23 +34,23 @@
 * DNS过滤器请使用 **AdRules DNS List**
 ## 规则总数
 ```
-更新时间: 2024-10-16 16:19:39 （北京时间） 
+更新时间: 2024-10-17 00:17:25 （北京时间） 
 
-AdRules AdBlock List 规则数量: 85838 
+AdRules AdBlock List 规则数量: 85843 
 
-AdRules AdGuard Filter List 规则数量: 192069 
+AdRules AdGuard Filter List 规则数量: 192210 
 
-AdRules DNS List 规则数量: 187582 
+AdRules DNS List 规则数量: 187617 
 
-AdRules Hosts List 规则数量: 187500 
+AdRules Hosts List 规则数量: 187535 
 
-AdRules Allowlist 规则数量: 14853 
+AdRules Allowlist 规则数量: 14861 
 
-AdRules Ad Domains List 数量: 187500 
+AdRules Ad Domains List 数量: 187535 
 
-AdRules AdBlock Full List 规则数量: 352270 
+AdRules AdBlock Full List 规则数量: 352403 
 
-AdRules AdGuard Full List 规则数量: 299523 
+AdRules AdGuard Full List 规则数量: 299635 
 ``` 
 ## 说明
 
