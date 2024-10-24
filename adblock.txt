@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: jjqDE1GUBQTBdlk49jG1hw
+! Checksum: CcNXCOg6fiORjun/dAlWqQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-10-24 09:00:20（北京时间） 
-! Total count: 85974
+! Version: 2024-10-24 16:19:46（北京时间） 
+! Total count: 85996
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -5340,6 +5340,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /ezprice_ad.js
 /ezytrack.js
 /f.gif?
+/facebook-pixel-worker.js
+/facebook-pixel.js
 /facebook/pixel.js
 /facebook_fbevents.js
 /facebook_pixel_3_1_2.js
@@ -15088,6 +15090,7 @@ iqilu.com##.gg580140
 iqilu.com##.kejie_ad
 iqiyi.com###adflash
 iqiyi.com###jingdongArea
+iqiyi.com###middle_banner_ad_bk
 iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
@@ -15137,6 +15140,7 @@ iqiyi.com##.rightLink
 iqiyi.com##.rm-header-ad
 iqiyi.com##.rm-logo-ad
 iqiyi.com##.rm-site-main
+iqiyi.com##.search-item-box:has(> a > div > div[class^="ad_adContent"])
 iqiyi.com##.site-title_right
 iqiyi.com##.thumbnail_item[href^="http"]:not([href*=".iqiyi.com/"])
 iqiyi.com##.video-ad_left
@@ -15151,6 +15155,8 @@ iqiyi.com##div[class="iqiyi-h5-empty header_app"]
 iqiyi.com##div[class="m-iqylink-guide"]
 iqiyi.com##div[class="vue-portal-target "]
 iqiyi.com##div[class^="ad-piclist-"]
+iqiyi.com##div[class^="list_list__"] > div[style*="margin-bottom:"] > div[style*="margin-right:"]:has(> div > div[style*="background-image:"] div > div[class^="video-list-item_"] > div[class^="video-list-item_"] > a > div[class^="video-list-item_"] > div[class*="video-list-item_"] > img[src*="/ADS/"])
+iqiyi.com##div[class^="list_list__"] > div[style*="margin-bottom:"] > div[style*="margin-right:"]:has(> div > div[style*="background-image:"] div > div[class^="video-list-item_"] > div[class^="video-list-item_"] > a[href*="&creative_id="][href*="&impress_id="])
 iqiyi.com##div[class^="video-slide_normal"] > a[href^="http"]:not([href*="iqiyi.com"]) > div > img
 iqiyi.com##div[class^="video-slide_normal"] > a[href^="http"]:not([href*="iqiyi.com"]) div[class^="video-slide_row"]
 iqiyi.com##div[class^="video-slide_threeImagePages"] > a[href^="http"]:not([href*="iqiyi.com"]) > div
@@ -15163,6 +15169,8 @@ iqiyi.com##iframe[style^="z-index:"]:last-child
 iqiyi.com##li[data-flag="shop"]
 iqiyi.com##li[id^="100000"]
 iqiyi.com##section[class^="ChannelHomeBanner"]
+iqiyi.com#%#(()=>{let e=!1;window.qyMesh=window.qyMesh||{},window.qyMesh=new Proxy(window.qyMesh,{get:function(a,t,d){return!e&&a?.preload?.Page_recommend_1?.response?.items&&(a.preload.Page_recommend_1.response.items.forEach((e=>{e.extData?.dataExtAd&&(e.extData.dataExtAd={}),e.video&&e.video.forEach((e=>{e.adverts&&(e.adverts=[]),e.data&&(e.data=e.data.filter((e=>!e.ad)))}))})),e=!0),Reflect.get(a,t,d)}})})();
+iqiyi.com#%#//scriptlet('json-prune', 'data.template.tabs.*.blocks.*.data.data.videos.*.ad')
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 iqshv.com#?#.post-list-item:-abp-has(.thumb-link[href^="http"]:not([href*=".iqshv."]))
 iqshw.com##.iqshwad-comm
@@ -28265,6 +28273,7 @@ zzzyk.com###Tinfo
 ||analytics.virginmobileusa.com^
 ||analytics.visible.com^
 ||analytics.vixcloud.co^
+||analytics.vortexscans.com^
 ||analytics.warnertv.fr^
 ||analytics.wavebox.io^
 ||analytics.wayland.app^
@@ -29602,6 +29611,7 @@ zzzyk.com###Tinfo
 ||apps.info.convio.com^
 ||apps.jeffgalloway.com^
 ||apps.myprepaidcenter.com^
+||apps.omegatheme.com/facebook-pixel/
 ||apps.shakaguide.com^
 ||apps.software.netsimplicity.com^
 ||apps.spectrum-member.com^
@@ -35954,6 +35964,7 @@ zzzyk.com###Tinfo
 ||cvhp.hrm.healthgrades.com^
 ||cvi6.destinia.qa^
 ||cvlb.dev^
+||cvmuia.xyz^
 ||cvnxetmq.xyz^
 ||cvoyrn.astotel.com^
 ||cvpthv.vipoutlet.com^
@@ -45243,6 +45254,7 @@ zzzyk.com###Tinfo
 ||hits.antena3.com^
 ||hits.dealer.com^
 ||hits.getelevar.com^
+||hits.gokwik.co^
 ||hits.guardian.co.uk^
 ||hits.informer.com^
 ||hits.letras.mus.br^
@@ -48336,6 +48348,7 @@ zzzyk.com###Tinfo
 ||iot.informaengage.com^
 ||iotapool.com^
 ||iotechnologies.com^$third-party
+||iouvxlio.top^
 ||iovation.com^$third-party
 ||ioxqdp.leatherology.com^
 ||ioykmxa.icu^
@@ -55589,8 +55602,10 @@ zzzyk.com###Tinfo
 ||merywf.xyz^
 ||mesalabs.actonservice.com^
 ||mesh.if.iqiyi.com/player/pcw/update/commonAppDownloadData^$xhr
-||mesh.if.iqiyi.com/portal/lw/search/$removeparam=ad
-||mesh.if.iqiyi.com/portal/lw/search/$removeparam=adExt
+||mesh.if.iqiyi.com/portal/*/recommend?$xmlhttprequest,removeparam=ad
+||mesh.if.iqiyi.com/portal/*/recommend?$xmlhttprequest,removeparam=adExt
+||mesh.if.iqiyi.com/portal/lw/search/$xmlhttprequest,removeparam=ad
+||mesh.if.iqiyi.com/portal/lw/search/$xmlhttprequest,removeparam=adExt
 ||message.alldata.com^
 ||message.sonicwall.com^
 ||messagenovice.com^
@@ -57714,6 +57729,7 @@ zzzyk.com###Tinfo
 ||mop.com/js/common/watermark.js
 ||mop.com/newIndex/gg.html
 ||mopinion.com^$third-party
+||moqdy.icu^
 ||moqsxdpx.xyz^
 ||moratame.tw/img/contents/banner
 ||more-data.ru^$third-party
@@ -61134,6 +61150,7 @@ zzzyk.com###Tinfo
 ||pfuyhr.schutz.com.br^
 ||pg-ad-b1.nosdn.127.net^
 ||pg.totaaltv.nl/api/metrics
+||pg2bk.icu^
 ||pgcciax.icu^
 ||pgdt.gtimg.cn/gdt/$domain=info.3g.qq.com
 ||pgdt.ugdtimg.com^
@@ -62392,6 +62409,7 @@ zzzyk.com###Tinfo
 ||pulsatingmeadow.com^
 ||pulse.delta.com^
 ||pulse.munsonhealthcare.org^
+||pulse.shopflo.com^
 ||pulseinsights.com^$third-party
 ||pulselog.com^$third-party
 ||pulsemaps.com^$third-party
@@ -63477,6 +63495,7 @@ zzzyk.com###Tinfo
 ||rcblfd.xyz^
 ||rcbsrm.fivefoxes.co.jp^
 ||rccnyh.airportrentalcars.com^
+||rcdwhp.xyz^
 ||rce.iperceptions.com^
 ||rcevcm.lyst.co.uk^
 ||rcgi.video.qq.com^
@@ -70710,6 +70729,7 @@ zzzyk.com###Tinfo
 ||snr4.canalplus.com^
 ||snrbox.com/tck/
 ||sns2.secureforms.mcafee.com^
+||snueirk.icu^
 ||snux.cn^
 ||snva.jp/api/bcon/basic?
 ||snva.jp/javascripts/reco/
@@ -71479,6 +71499,7 @@ zzzyk.com###Tinfo
 ||sravga.xyz^
 ||srbzw.cn^
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
+||src.freshmarketer.in^
 ||srchoffer.com/tracking/
 ||srcip.com^$third-party
 ||srd1-pdx.net.jumia.ci^
@@ -84852,6 +84873,7 @@ zzzyk.com###Tinfo
 ||yonsandileer.com^
 ||yoochoose.net^$third-party
 ||yorkbbs.ca/crm/section/v1/get/list/open
+||yotpo.com/widget-assets/yotpo-pixel/
 ||yottaa.com/rapid.min.js
 ||yottaa.net/log-jh
 ||yottlyscript.com^
