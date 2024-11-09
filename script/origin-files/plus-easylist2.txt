@@ -787,6 +787,7 @@ mediafire.com##+js(aeld, load, IsAdblockRequest)
 mediafire.com##+js(nostif, InfMediafireMobileFunc, 1000)
 gamestorrents.*,gogoanimes.*,limetorrents.*,piratebayz.*##^script:has-text(AaDetector)
 mediafire.com##.errorExtraContent
+mediafire.com##.center:style(margin-top:50px !important)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3826
 ||rule34.us/ad.html$frame
@@ -3826,6 +3827,12 @@ vipbox.*,viprow.*##^script:has-text("admc")
 vipbox.*,viprow.*##^script:has-text(\"admc\")
 vipbox.*##+js(nowoif, , 10)
 vipbox.*##+js(acs, JSON.parse, atob)
+reliabletv.me##+js(nowoif)
+cricstream.me##+js(aopr, Adcash)
+cricstream.me##+js(acs, navigator, FingerprintJS)
+cricstream.me##^script:has-text(FingerprintJS)
+||hologydeno.info^
+||hologydeno.info^$popup
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2104
 wkyc.com##+js(acs, btoa)
@@ -4028,7 +4035,9 @@ ashemaletube.com##.ads-block-rightside
 ||cc.ashemaletube.com/*/black-header.jpg$image
 ||cc.ashemaletube.com/*/header-black.jpg$image
 ashemaletube.com##.video-end-overlay
-*.mp4$media,redirect=noopmp3-0.1s,domain=ashemaletube.com
+!*.mp4$media,redirect=noopmp3-0.1s,domain=ashemaletube.com
+ashemaletube.com##+js(rpnt, script, /vastURL:.*?'\,/, vastURL: ''\,)
+ashemaletube.com##+js(rpnt, script, /url:.*?'\,/, url: ''\,)
 ||cc.ashemaletube.com/*/black-main.jpg$image,1p
 ashemaletube.com###site-wrapper:style(padding-top: 0 !important;)
 ashemaletube.com##.header-ads-wrapper
