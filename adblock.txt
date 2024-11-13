@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: fjC3VeArVhgWlvchVY0YDQ
+! Checksum: ABS6kZvS1cyWx2kIdyt68Q
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-11-13 09:00:29（北京时间） 
-! Total count: 86231
+! Version: 2024-11-13 16:19:37（北京时间） 
+! Total count: 86243
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3502,6 +3502,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .adsense.
 .adserver.
 .alcmpn.com/
+.aoao111*iis.top/$script,third-party
 .app.returnpath.net/
 .asp?wg&df=$script,third-party
 .asp?wsg&df=$script,third-party
@@ -9561,6 +9562,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||accounts.google.*^$removeparam
 @@||accounts.google.com/o/oauth2/$removeparam
 @@||accounts.google.com/signin/oauth/$removeparam
+@@||accounts.home.id/authui/client/assets/vendors/new-relic.min.js$~third-party
 @@||accounts.intuit.com/fe_logger?$~third-party
 @@||acgbenzi.com//dist/images/top.png
 @@||acgdraw.com/ad$xmlhttprequest
@@ -16872,7 +16874,6 @@ news.qq.com##.download-banner-wrap
 news.qq.com##.download-content.mr28.download-wrapper
 news.qq.com##.godown.qqcom_fb-item
 news.qq.com##.time > a[style="position: absolute;top: -8px;left: 296px;"]
-news.qq.com,www.qq.com,v.qq.com,new.qq.com#%#//scriptlet('json-prune', 'ads')
 news.sohu.com##.god-first
 news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
 news.tvbs.com.tw##.sidebar_div:has(> div.nolazydiv)
@@ -18262,11 +18263,13 @@ splaybow.com###divPrevious:last-child
 sports.qq.com##.focus_con > .item > a[href^="http"]:not([href*=".qq."])
 sports.qq.com##.scr-login > .cnxh:has(> .videoDiv #hotvideo)
 sports.qq.com##.topBnaner
+sports.qq.com##.txp_ad[data-role="creative-player-pause-picture-container"]
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 sports.qq.com##a[href^="http://market.1hai.cn/"]
 sports.qq.com#@#.txp_ad_center
 sports.qq.com,lpl.qq.com,v.qq.com#%#//scriptlet('set-constant', 'CreativePlayerwebPlugin.AD_EVENT.AD_DESTROY', '')
 sports.qq.com,lpl.qq.com,v.qq.com#%#//scriptlet('set-constant', 'CreativePlayerwebPlugin.AD_EVENT.AD_LOAD_START', '')
+sports.qq.com,news.qq.com,www.qq.com,v.qq.com,new.qq.com#%#//scriptlet('json-prune', 'ads')
 sports.sohu.com##.allsee-list > .bd-wrap
 sportsplanetmag.com##.adshow
 sportsv.net##.adv01
@@ -18395,6 +18398,8 @@ t66y.com##.tpc_content.do_not_catch > span.f24
 t66y.com##a[href^="http://www.viidii.info/?https://po88_"]
 t66y.com##a[href^="http://www.viidii.info/?https://po88_"] ~ :nth-child(-n+115)
 t66y.com#%#//scriptlet('prevent-setTimeout', '/tpc.?[A-Z0-9].?tml/')
+t66y.com#%#//scriptlet('prevent-setTimeout', 'adhtml', '10006')
+t66y.com#%#//scriptlet('prevent-setTimeout', 'tpcHt0ml', '1006')
 t66y.com#%#AG_onLoad(function(){var a=document.querySelector(".tpc_content img");if(a){a=a.attributes;for(var b=0;b<a.length;b++)if(!a[b].name.startsWith("data-link")&&!a[b].name.match(/data-.?(h|i|s)|(a|o|f|b|c|d|v|\d)s?\d?z?t?-data/)&&!a[b].value.match(/:\/\/[\s\S]*?a\.?d?\/.?.?b(_)?l(0|o|)ck\.jpg/i)){var c=a[b].name;break}}$("img["+c+"]").each(function(){0<$(this).attr(c).indexOf("sinaimg")&&$(this).attr(c,$(this).attr(c).replace(/https:/,"http:"));$(this).attr("src",$(this).attr(c));$(this).css("cursor","pointer");$(this).click(function(){window.open($(this).attr("src"));return!1})})});
 t7z.cupid.iqiyi.com
 tahua.net###frameJjnBIp
@@ -18770,7 +18775,6 @@ uc123.com##.s-left
 uc123.com##.s-right
 uc123.com##.side-hot
 ucptt.com##.hidden-sm
-ucptt.com#%#(function() { window.open_ = window.open; var w_open = window.open, regex = /tw\.jav321\.com/; window.open = function(a, b) { if (typeof a !== 'string' || !regex.test(a)) { w_open(a, b); } }; })();
 udn.com###ad-pall
 udn.com###ad_curtain
 udn.com###ads-billboard
@@ -21683,6 +21687,7 @@ zzzyk.com###Tinfo
 ||a.careangel.com^
 ||a.centrum.cz^
 ||a.cnki.net/a/
+||a.d/adblo_ck.jpg
 ||a.deutschehospitality.com^
 ||a.dev-ajo.caixabank.com^
 ||a.dlads.cn^$third-party
@@ -28525,6 +28530,7 @@ zzzyk.com###Tinfo
 ||aoakss.com^
 ||aoao11111iis.top^
 ||aoao11120iis.top^
+||aoao11121iis.top^
 ||aobtwv.icu^
 ||aobuygo.com^
 ||aod.echovisuals.com^
@@ -30336,6 +30342,7 @@ zzzyk.com###Tinfo
 ||avseesee.com/amandison.php
 ||avseesee.com/htmls/vlinks.html
 ||avseesee.com/twad
+||avspda.xyz^$third-party
 ||avsplow.com^$third-party
 ||avvenire.it/content/js/track.es5.min.js?
 ||avvfjhg.xyz^
@@ -43316,6 +43323,7 @@ zzzyk.com###Tinfo
 ||ghbdsbfd.com^
 ||ghd.vsee.me^
 ||ghdlry.greetz.nl^
+||gheqien.com^
 ||ghgasdb365.shop^
 ||ghgasdt963.shop^
 ||ghghgf.51dongshi.com^
@@ -52522,6 +52530,7 @@ zzzyk.com###Tinfo
 ||location3.com/analytics/
 ||lockview.cn^$third-party
 ||locotrack.net^$third-party
+||locpikbb.icu^
 ||lodicoandco.actonservice.com^
 ||lodlww.carcon.co.jp^
 ||lofo3l15c674.platform.replai.io^
@@ -57548,6 +57557,7 @@ zzzyk.com###Tinfo
 ||miyushu.com^
 ||mj-snowplow-static-js.s3.amazonaws.com^
 ||mjappzvz.xyz^
+||mjbidlg.icu^
 ||mjca-yijws.global.ssl.fastly.net^
 ||mjfunt.bibi.com^
 ||mjg0310.com^
@@ -64415,6 +64425,7 @@ zzzyk.com###Tinfo
 ||rjsos.com/channel/laomo_dibu.png
 ||rjsouj.clubd.co.jp^
 ||rjwljrf.xyz^
+||rjwpwod.icu^
 ||rjzqtz.xyz^
 ||rjzxw.com/include/
 ||rjzxw.com/temp/index.files/logo2.gif
@@ -73959,6 +73970,7 @@ zzzyk.com###Tinfo
 ||study.vu.edu.au^
 ||studylabs.cn^
 ||stulip.org/static/js/header.js
+||stunkrins.com^
 ||stunthedge.com^
 ||stupendousselection.com^
 ||stupendoussleet.com^
