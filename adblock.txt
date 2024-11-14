@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: h4g5Tp5DeG3o/OWSM08dhA
+! Checksum: IWLRlOQrBCZoF0Sr7yLTKA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-11-14 00:18:47（北京时间） 
-! Total count: 86245
+! Version: 2024-11-14 09:00:05（北京时间） 
+! Total count: 86252
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -16813,7 +16813,6 @@ netfly.lol##.module-tglist
 new-reporter.com##div[id^="mdl-elmt-"]
 new.m.taobao.com##[style*="top: 0px"]
 new.qq.com###Recomend
-new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 new.qq.com##.cms-bar
 new.qq.com##.godown.qqcom_fb-item
 new.qq.com##.group-pic-bar
@@ -16870,6 +16869,7 @@ news.pchome.com.tw##div[style="width:300px;height:600px"]
 news.pchome.com.tw##div[style="width:687px;height:145px"]
 news.pchome.com.tw##div[style="width:970px;height:250px"]
 news.qq.com###focus-bar
+news.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 news.qq.com##.download-banner-wrap
 news.qq.com##.download-content.mr28.download-wrapper
 news.qq.com##.godown.qqcom_fb-item
@@ -18843,7 +18843,6 @@ v.ifeng.com##section[class^="index_hot"]
 v.pptv.com###video-download-game
 v.qq.com###iwan-gamependant-page
 v.qq.com###pc_client > .quick_link
-v.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
 v.qq.com##.game-switch-ad
 v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
@@ -18858,6 +18857,8 @@ v.qq.com##.video-card-module > .card-wrap
 v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
+v.qq.com,news.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
+v.qq.com,news.qq.com##+js(no-xhr-if, snowflake.qq.com)
 v.shensgo.com##body > div[id][class*="animated"][style*="position"][style*="z-index"]
 v.shensgo.com##brde[id][style*="height"]
 v.youku.com###player-advertise
@@ -64086,6 +64087,7 @@ zzzyk.com###Tinfo
 ||rertrc.abc-mart.net^
 ||reryt111.fun^
 ||res-x.com^$third-party
+||res.ab.qq.com/tab/$script
 ||res.cngoldres.com/web/index/img/*_ad_
 ||res.elle.fr^
 ||res.femina.fr^
@@ -72118,6 +72120,7 @@ zzzyk.com###Tinfo
 ||ssp.hinet.net^
 ||ssp.kdnet.net^
 ||ssp.moeli.net^
+||ssp.qq.com/ad^$xhr
 ||ssp.qq.com^
 ||ssp.rambler.ru^
 ||ssp.seznam.cz^
@@ -72761,6 +72764,8 @@ zzzyk.com###Tinfo
 ||static.zongheng.com^*/adClickStat.js
 ||static.zongheng.com^*/ad_click.js
 ||static.zongheng.com^*/logger.min.js
+||staticfile.qq.com/datong/$script
+||staticfile.qq.com/qimei/$script
 ||staticiv.com^$third-party
 ||staticmoly.me/metric.php
 ||statics.woozooo.com/img/*.js$domain=lanzous.com
@@ -80907,6 +80912,7 @@ zzzyk.com###Tinfo
 ||v.oney.es^
 ||v.oui.sncf^
 ||v.pcswtw.cn^$third-party
+||v.qq.com/cache/wuji/object^$script
 ||v.shopify.com^
 ||v.topya.com^
 ||v00yvd.xyz^
@@ -81121,6 +81127,7 @@ zzzyk.com###Tinfo
 ||vfgajrk.cn^
 ||vfghe.com^
 ||vfgte.com^
+||vfiles.gtimg.cn/tvideo/js/new_ping_video.js^$script
 ||vfjsa6do.icu^
 ||vflorp.xyz^
 ||vfmahn.slevomat.cz^
