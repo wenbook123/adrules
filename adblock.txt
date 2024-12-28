@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: RKY10dHj3goceDJQZVerWw
+! Checksum: txqEFHYbcPBY4pIpGM4gDg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2024-12-28 08:59:21（北京时间） 
-! Total count: 85805
+! Version: 2024-12-28 16:17:53（北京时间） 
+! Total count: 85821
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1543,6 +1543,7 @@
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
 ##body > A[ontouchstart='this.click();'][href]
+##body > DIV.ad3
 ##body > DIV[class][style='top: 132px;']
 ##body > DIV[class][style='top: 133px;']
 ##body > DIV[class][style^='bottom: '][style$='vw; display: block;']
@@ -3665,6 +3666,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .facebook.com/tr/$image
 .facebook.com/tr?$image
 .flipboard.com/usage?
+.fun/*.jss?17*&r=0$third-party
+.fun/*/17*/*.css?r=0$third-party
 .fun/*_*_rony.js
 .fun/ad/
 .gatracking.js
@@ -3863,6 +3866,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .titus.de/oo/$image
 .top/*/*.js?ts=$third-party
 .top/*/2022*/.js$third-party
+.top/*_*_vw*sbjs?$third-party
 .top/*q=*form=*&*url=http*$third-party
 .top/?token=$third-party
 .top/ad-
@@ -11466,6 +11470,7 @@ aiyuke.com##.index_app_down_ad
 aizhan.com###all_text_content
 aizhan.com###home_text_content
 aizhan.com##.btn
+akkxs.net#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
 alexa.cn##.importantList
 alexa.cn##.importantTop
 ali213.net###ali-js-4
@@ -12002,6 +12007,7 @@ baoliny.com,gasaq.com,hgitv.com,ifooday.cn,nen.com.cn##.guanggao
 baomidou.com##.sidebar-content > astro-island
 baomidou.com#%#//scriptlet('set-constant', '_AdBlockInit', 'noopFunc')
 baozimh.one,yazhouse8.com##.banners
+baozimh.org,bzmh.org,g-mh.org,godamh.com,manhuafree.com,sportsplanetmag.com##.adshow
 bbc.com##section[class*="AdContainer"]
 bbs-mychat.com###cate_top > tr > .f_one
 bbs-mychat.com#@#.adContent
@@ -13962,7 +13968,6 @@ fxykx.com##a[href*="zyttx.com/"]
 fxykx.com,pantsu.cat#@##banner_ad
 fydisk.com###vbox
 fznews.com.cn##.kuang100_right
-g-mh.org,godamh.com,manhuafree.com,sportsplanetmag.com##.adshow
 g-years.com,ghoffice.com,gpsuu.com,mydigit.cn###main > .textMes
 g.huya.com
 galacg.me##.sidebar-top
@@ -32727,6 +32732,7 @@ zzzyk.com###Tinfo
 ||bwbx.io/s3/javelin/public/hub/js/abba/$script,domain=bloomberg.co.jp|bloomberg.com
 ||bwdhuanbao.com^
 ||bweriov.top^
+||bwilmiv.top^
 ||bwj4.hrhibiza.com^
 ||bwjfnj.xyz^
 ||bwkpkx.projectxparis.com^
@@ -34442,6 +34448,7 @@ zzzyk.com###Tinfo
 ||cnblogs.com/units/
 ||cnblogs.com^*/sideColumnAd?
 ||cncnails.net^
+||cncover.godamanga.online/ad/
 ||cndns.com/incs/js/website_mobile.js
 ||cndzys.com/huanlian/
 ||cnebis.chocola.com^
@@ -43389,8 +43396,10 @@ zzzyk.com###Tinfo
 ||gmrhzf.wolfermans.com^
 ||gms.greatschools.org^
 ||gmsllx.sorteonline.com.br^
+||gmso1*oka.top/$script,third-party
 ||gmso12251oka.top^
 ||gmso12261oka.top^
+||gmso12271oka.top^
 ||gmufag.e1.ru^
 ||gmufag.fontanka.ru^
 ||gmufag.nn.ru^
@@ -58048,6 +58057,7 @@ zzzyk.com###Tinfo
 ||mwerilxx.top^
 ||mweriox.top^
 ||mwf7.montecarlowellness.com^
+||mwilmix.top^
 ||mwqetvn.icu^
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
@@ -58310,6 +58320,7 @@ zzzyk.com###Tinfo
 ||n7181.com^
 ||n74s9.com^$third-party
 ||n7a.icu^
+||n8u.icu^
 ||na-pages.husqvarna.com^
 ||na.groupondata.com^
 ||na06.cn^
@@ -59020,6 +59031,7 @@ zzzyk.com###Tinfo
 ||nortonsafe.search.ask.com^$removeparam=vendorsrc
 ||nos.netease.com/udc-web/*.log.js
 ||nosjew.glamira.de^
+||noslugut.com^
 ||nossl.aafpfoundation.org^
 ||nossl.basco.com^
 ||nostalgicknot.com^
@@ -64150,6 +64162,7 @@ zzzyk.com###Tinfo
 ||rkdms.com^
 ||rkgbqn.icu^
 ||rkgwzfwjgk.com^
+||rklzpo.com^
 ||rksnqq.com^
 ||rkstmr.cyrillus.ch^
 ||rktch.com^$third-party
@@ -65578,6 +65591,7 @@ zzzyk.com###Tinfo
 ||scp.deltadentalwa.com^
 ||scrapesleep.com^
 ||scratchsofa.com^
+||screddoit.com^
 ||screechingfurniture.com^
 ||screechingstocking.com^
 ||screechingstove.com^
@@ -78935,6 +78949,7 @@ zzzyk.com###Tinfo
 ||tritondigital.com/ondemand/impression?
 ||triumph.actonservice.com^
 ||trivago.com/tracking/
+||trjfoagf.icu^
 ||trjs.mediafin.be/loader/trmfn-loader.js
 ||trjs2.mediafin.be^
 ||trk-branch.balinea.com^
@@ -79374,6 +79389,7 @@ zzzyk.com###Tinfo
 ||tsancii.top^
 ||tsbkht.puritan.com^
 ||tsbmkf.zonnebrillen.com^
+||tsbrzz.icu^
 ||tsck.online^
 ||tscounter.com^$third-party
 ||tsdfxv.xyz^
