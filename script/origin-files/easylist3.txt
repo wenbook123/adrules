@@ -785,6 +785,70 @@ $removeparam=si,domain=youtube.com|youtu.be
 @@||track.sendle.com/tracking$removeparam=ref
 ! https://github.com/DandelionSprout/adfilt/issues/1012
 @@||google.com^$xmlhttprequest,removeparam=ei
+\/\/([a-z0-9-]+\.)*?tweakers\.net\/ext\/lt\.dsp\?.*?(%3F)?&?ref_?=./$removeparam
+@@/^https?:\/\/git(lab)?\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
+@@||amazon.*/message-us?$removeparam
+@@||authorization.td.com^$removeparam
+@@||support.steampowered.com^$removeparam
+@@||privacy.vakmedianet.nl/*ref=$removeparam
+@@||sso.serverplan.com/manage2fa/check?ref=$removeparam
+@@||login.meijer.com/*?ref=$removeparam
+@@/^https?:\/\/([a-z0-9-]+\.)*?facebook\.com\/(login_alerts|ajax|should_add_browser)//$removeparam
+@@||facebook.com/groups/member_bio/bio_dialog/$removeparam
+@@||api.taiga.io^$removeparam
+@@||gog.com/click.html$removeparam
+@@||login.progressive.com^$removeparam
+@@||www.sephora.com/api/$removeparam
+@@||www.contestgirl.com^$removeparam
+@@||agenciatributaria.gob.es^$removeparam
+@@||login.ingbank.pl^$removeparam
+@@|wss://zoom.us^$removeparam
+@@||api.bilibili.com^$removeparam
+@@||onet.pl/*?*utm_campaign=$removeparam
+@@||stripe.com/*?*referrer=$removeparam
+@@||lichess.org/login*referrer=$removeparam
+@@||microsoft.com/*research/redirect$removeparam
+@@||like.co/api/like/likebutton/*?*referrer=$removeparam
+@@||button.like.co/in/*referrer=$removeparam
+@@||www.mma.go.kr^$removeparam
+@@||github.com^$removeparam
+@@||billiger.de/*mc=$removeparam
+@@||youtrack.cloud^$removeparam
+@@||cu.bankid.com^$removeparam
+@@||login.aliexpress.us^$removeparam
+@@||amazon-adsystem.*/v3/oor?$removeparam
+@@||youtube.com/signin?$removeparam
+@@/^https?:\/\/([a-z0-9-]+\.)*?facebook\.com\/.*?(plugins|ajax)\//$removeparam
+@@/^https?:\/\/([a-z0-9-]+\.)*?facebook\.com\/dialog\/(share|send)/$removeparam
+@@||facebook.com/groups/member_bio/bio_dialog/$removeparam
+@@||facebook.com/photo.php?$removeparam
+@@||facebook.com/privacy/specific_audience_selector_dialog/$removeparam
+@@||facebook.com/photo/download/$removeparam
+@@||twitter.com/i/redirect$removeparam
+@@||x.com/i/redirect$removeparam
+@@||bing.*/WS/redirect/$removeparam
+@@||indeed.com/rc/clk$removeparam
+@@||mozilla.org/api$removeparam
+@@||comment-cdn.9gag.com/*comment-list.json?$removeparam
+@@||api.bilibili.com^$removeparam
+@@||space.bilibili.com^$removeparam
+@@||marketscreener.com/search/?$removeparam
+
+! This is an allowlist added by the Adfilt maintainers
+@@||tix.axs.com^$removeparam=utm_campaign
+@@||tix.axs.com^$removeparam=utm_content
+@@||tix.axs.com^$removeparam=utm_medium
+@@||tix.axs.com^$removeparam=utm_source
+@@||tix.axs.com^$removeparam=utm_term
+! https://github.com/DandelionSprout/adfilt/issues/678
+@@||transfernow.net/*/dltransfer$removeparam
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4081177
+! https://github.com/ClearURLs/Rules/issues/54
+@@||webapps.sftc.org/captcha/captcha.dll$removeparam
+! https://github.com/ClearURLs/Rules/issues/46
+@@||track.sendle.com/tracking$removeparam=ref
+! https://github.com/DandelionSprout/adfilt/issues/1012
+@@||google.com^$xmlhttprequest,removeparam=ei
 
 
 
