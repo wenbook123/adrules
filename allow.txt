@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: AZowm1jeHVv5eylcvfRwww
+! Checksum: H1jXerZYNLqtADq9BBektw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-02-02 09:03:33（北京时间） 
-! Total count: 15027
+! Version: 2025-02-02 16:17:35（北京时间） 
+! Total count: 15028
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -550,6 +550,7 @@
 @@weather.gov/xml/$document
 @@ws://localhost^$stealth,domain=play.sooplive.co.kr
 @@yandex.*/user-id?$stealth=referrer|searchqueries
+@@|#post-0
 @@|/wp-content/plugins/*/assets/fuckadblock.js
 @@|about:blank|$popup,domain=vipbox.*
 @@|ads.adsterra.com^|
@@ -576,6 +577,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orghermanmiller.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1987,9 +1990,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
-@@||apotheken-umschau.de$contentin-sidebar > .td_block_template_2:has(> h4 > span:contains(Sosyal Medya:))
-@@||apotheken-umschau.de$contentow > div > div.article-footer__title
-@@||apotheken-umschau.de$contentsocialShareBar
+@@||apotheken-umschau.de$content,work-master.net##.snsicon
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -4046,7 +4047,6 @@
 @@||codepen.io^$generichide
 @@||codesandbox.io^$generichide
 @@||codesoom.com/assets/js/google-analytics.js
-@@||codesoom.com/assets/js/google-analyticsfmc-marketing.com$image
 @@||codicebusiness.shinystat.com/cgi-bin/getcod.cgi?USER=panoramait&P=2$script,domain=panorama.it
 @@||codicefl.shinystat.com/cgi-bin/getserver.cgi?$script,domain=3bmeteo.com|quotidiano.net
 @@||codicefl.shinystat.com/cgi-bin/getserver.cgi?$script,domain=3bmeteo.com|quotidiano.net|radioitalia.it
@@ -7049,7 +7049,6 @@
 @@||gpt-worldwide.com/js/gpt.js$~third-party
 @@||grafixfather.com^$ghide
 @@||grahaflasher.com^$ghide
-@@||graion-button
 @@||grandcentral.1plus1.video^$stealth
 @@||grandhotelcalciomercato.com/js/prebid-ads.js
 @@||grapeshot.co.uk/image-resize/$image
@@ -9425,6 +9424,7 @@
 @@||motortrader.com.my/advert/$image,~third-party
 @@||motortrader.com.my/assets/ads.js
 @@||motortrendondemand.com/advertisements-ad-unit/
+@@||motortrendondemand.comopolitan.de##.content #dikr-responsive-ads-posterad + p
 @@||moulinex.com/js/xtroi.js
 @@||moviehousememories.com/wp-content/themes/jannah/assets/js/ad.js
 @@||moviejones.de/lib/ads.js
@@ -10803,6 +10803,7 @@
 @@||policy.app.cookieinformation.com^$domain=skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
 @@||policy.app.cookieinformation.com^$script,domain=altibox.no
 @@||policy.cookieinformation.com/uc.js$domain=jysk.nl
+@@||political'trusted-set-session-storage-item', 'second-popup-show-date', '1736410895611')
 @@||politicalite.com/wp-content/plugins/simple-adblock-notice^
 @@||politiken.dk/static/$script
 @@||politumor.ru/engine/classes/min/index.php?f=*/share42.js$script,~third-party
@@ -10886,6 +10887,7 @@
 @@||powr.io/powr.js$domain=ipitaka.com
 @@||powr.io/powr.js$domain=lavatools.co
 @@||powr.io^$domain=kinetikwellbeing.com
+@@||powr.io^$domain=kinetikwellbepl#$?#.fancybox-overlay.fancybox-overlay-fixed:has(div) { display: none!important; }
 @@||powv1deo.cc^$stealth
 @@||powvibeo.me/js/dfp-pop.js
 @@||powvideo.net/$~third-party,popup
@@ -11437,9 +11439,8 @@
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseau.ovation.ca/_scripts/cookie-banner.js
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsaplus_*.js
-@@||reseguiden.se^*.siteCatalyst.jsbu.com$image
-@@||reseguiden.se^*.siteCatalyst.js|ooopym.younited-credit.com^
+@@||reseguiden.se^*.siteCatalyst.js.gcimetrics.com^
+@@||reseguiden.se^*.siteCatalyst.jscom^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -12716,8 +12717,6 @@
 @@||static.addtoany.com/menu/page.js$script,domain=suttonquebec.com
 @@||static.adman.gr^$domain=naftemporiki.gr
 @@||static.ads-twitter.com/uwt.js$domain=cms.nova.cz
-@@||static.ads-twitter.com/uwt.js$domain=simkl.c("set-constant", "AdBlockSELECTOR", "undefined")
-@@||static.ads-twitter.com/uwt.js$domain=simkl.cet.ad
 @@||static.ads-twitter.com/uwt.js$domain=simkl.com
 @@||static.ads-twitter.com^$app=jp.co.alc.eow
 @@||static.ads-twitter.com^|$app=com.nttdocomo.android.danimeapp
@@ -13340,6 +13339,7 @@
 @@||testufo.com/*.html$jsinject,elemhide,extension
 @@||testufo.com^$generichide
 @@||tetris.com/play-tetris-content/ads.js
+@@||tex:"]
 @@||texasroadhouse.com/common/javascript/google-analytics.js
 @@||textbin.net/js/prebid-ads.js
 @@||textfree.us^$generichide
@@ -14788,8 +14788,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideFilters/issues/35407 [Stealth Mode - Referrer]
-@@||xfreehd.com^$generichidehttprequest,stealth=referrer,domain=weakspell.org|weakspell.to
+@@||xfreehd.com^$generichide.SponsoredMessage
+@@||xfreehd.com^$generichide|filter.safesearchguard.com^
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
@@ -14847,6 +14847,7 @@
 @@||yandexcdn.com/ad/api/popunder.js$script
 @@||yandexcdn.com^$ghide
 @@||yandexcdn.com^$script,1p
+@@||yansg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##.qarstb > div[data-endpoint="overlay"] + div.vcVZ7d
 @@||yantuchina.com/gg/tmp/hong.gif
 @@||yap.ru/html/static/share/$image,~third-party
 @@||yaplakal.com/html/static/$image,~third-party
