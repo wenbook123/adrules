@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: felbmhGPkqc8UW1so/5ewQ
+! Checksum: lO0tI/yt5hdQTGqWGVeU4w
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-02-04 08:59:55（北京时间） 
-! Total count: 85593
+! Version: 2025-02-04 16:20:17（北京时间） 
+! Total count: 85607
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1572,6 +1572,9 @@
 ##body.page.player > DIV.shortcuts-mobile-overlay
 ##body.page.player > div.popup.popup-tips.popup-icon.open
 ##body[onload*="u()"] > #x
+##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
+##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[ontouchstart] > #topBox
 ##body[ontouchstart] > .wrap > div[id^="content_"][style="display: block;"]
 ##body[ontouchstart] > div[id^="content_"][style="display: block;"]
@@ -9124,7 +9127,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
 ://dreemdmbabys.oss-cn-
-://e.email.*/open?$image
+://e.*/open?$image
 ://elqtrk.
 ://email.*/e/o/
 ://email.*/o/$image
@@ -9707,7 +9710,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||asadcdn.com/adlib/$domain=computerbild.de
 @@||asadcdn.com/assets/video/$domain=computerbild.de
 @@||assbbs.com^$generichide
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=medscape.com|nbc.com|subwy.com|tatamotors.com|usanetwork.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|subwy.com|tatamotors.com|usanetwork.com
 @@||assets.fyers.in/Lib/analytics/Analytics.js$~third-party
 @@||assets.giocdn.com/2.1/gio.js$domain=saicmg.com
 @@||assets.msn.com/staticsb/statics/latest/adboxes/$script,~third-party
@@ -13972,6 +13975,7 @@ fxykx.com##a[href*="zyttx.com/"]
 fxykx.com,pantsu.cat#@##banner_ad
 fydisk.com###vbox
 fznews.com.cn##.kuang100_right
+g-mh.org,godamh.com##.adshow
 g-years.com,ghoffice.cc,gpsuu.com,mydigit.cn###main > .textMes
 g.huya.com
 galacg.me##.sidebar-top
@@ -20326,6 +20330,7 @@ zzzyk.com###Tinfo
 ||17173cdn.com/a/www/index/2016v2/js/seed.js
 ||17173cdn.com/js/play/page/pThridPlayerAd.js
 ||17173cdn.com^*/js/task/src/task/live/greenhand/
+||172.247.208.87/js/head.js
 ||1722t.com/js/jquery.js
 ||17282.org^
 ||174.123.15.43:8080
@@ -29960,6 +29965,7 @@ zzzyk.com###Tinfo
 ||aspservice.jp^$third-party
 ||aspwg.cn^
 ||asserts.avple.tv/file/avple-asserts/ad.js
+||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com
 ||assets.apollo.io/micro/website-tracker/
 ||assets.channelplay.in^
 ||assets.datarize.ai^
@@ -33326,6 +33332,7 @@ zzzyk.com###Tinfo
 ||cdhfvrug.xyz^
 ||cdickef.top^
 ||cdilm.cn^
+||cdinmaf.top^
 ||cdipsumf.top^
 ||cdjhcf.hometogo.es^
 ||cdl.booksy.com^
@@ -35604,6 +35611,7 @@ zzzyk.com###Tinfo
 ||crobotb.com^
 ||crocetta.viessmann.it^
 ||crodfnyk.xyz^
+||crolerl.com^
 ||crookedcreature.com^
 ||crossees.com^
 ||crosspixel.net^$third-party
@@ -37534,6 +37542,7 @@ zzzyk.com###Tinfo
 ||dhdaa.duke.edu^
 ||dheear.site^
 ||dheirzeh.com^
+||dhemixu.com^
 ||dherea.site^
 ||dhgate.com^$removeparam=f
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
@@ -38805,6 +38814,7 @@ zzzyk.com###Tinfo
 ||dzwww.com/data/js/asp_$script
 ||dzwww.com/images/ad_down.js
 ||dzwww.com/k.js
+||dzzdspiu.icu^
 ||e-click.jp^$third-party
 ||e-contenta.com^$third-party
 ||e-goi.com^$third-party,domain=~e-goi.com.br|~e-goi.pt
@@ -43934,6 +43944,7 @@ zzzyk.com###Tinfo
 ||gocye.com^$third-party
 ||god.vsee.me^
 ||godaddy.com/js/gdwebbeacon.js
+||godamanga.online/ad/
 ||godev.steps.me^
 ||godhat.com^$third-party
 ||godiciardstia.com^
@@ -46299,6 +46310,7 @@ zzzyk.com###Tinfo
 ||ilzies.com^
 ||im-apps.net^$third-party
 ||im-x.jd.com^
+||im.1vkx.cn/uploads/images/*.gif$third-party
 ||im286.net/286/
 ||image-shop.baidu.com/n/imageproduct?
 ||image.39.net/style/
@@ -73637,8 +73649,6 @@ zzzyk.com###Tinfo
 ||suibiankan.co/Runtime/Js/
 ||suibianlu.com/zb_users/ad/
 ||suibianlu.com/zb_users/theme/tx_fzy/script/zhao.js
-||suidodo.com/public/*/plugins/
-||suidodo.com/public/1/assets/js/custom/tt.
 ||suiyishop.cn/zhuangxiu_
 ||sulia.com/papi/sulia_partner.js/$third-party
 ||sulkybutter.com^
@@ -74076,6 +74086,8 @@ zzzyk.com###Tinfo
 ||syycwa.barcelo.com^
 ||syzjxz2018.cn^
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
+||szaction.cc/public/*/assets/js/custom/tt.
+||szaction.cc/public/*/plugins/
 ||szafvjdd.icu^
 ||szakms.bygghemma.se^
 ||szapaqi.cn^
@@ -75085,6 +75097,7 @@ zzzyk.com###Tinfo
 ||tchkcc.cn^
 ||tci.oss-ap-southeast-1.aliyuncs.com^
 ||tcimg.com^$third-party
+||tciqgx.xyz^
 ||tck.fr.transavia.com^
 ||tck.photobox.com^
 ||tck.wonderbox.fr^
@@ -81112,6 +81125,7 @@ zzzyk.com###Tinfo
 ||vxohkh.laboutiqueofficielle.com^
 ||vxotu.com/i/*.gif
 ||vxpdfb.xyz^
+||vxpnld.icu^
 ||vxvibc.asahi-kasei.co.jp^
 ||vyeysj.foto-mundus.de^
 ||vyjwxc.elemis.com^
