@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ceGAir7OS77B8Z5/ZsDdIg
+! Checksum: qQYvcONXr7Gi51Y0fumYRQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-02-07 09:01:07（北京时间） 
-! Total count: 85664
+! Version: 2025-02-07 16:20:13（北京时间） 
+! Total count: 85680
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3460,6 +3460,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .adsense.
 .adserver.
 .alcmpn.com/
+.apk0*oo.xyz/$script,third-party
 .app.returnpath.net/
 .as0*kkp.xyz/$script,third-party
 .asp?wg&df=$script,third-party
@@ -3947,6 +3948,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .xyz/vh1/$script,third-party
 .xyz/xefeliffng_$third-party
 .xyz/xling_*_*_*.js?
+.xyz/z/*/code.js$script,third-party
 .xyz:*/bug?*=$third-party
 .xyz:*?x=$script,third-party
 .xyz:8009/11?x=
@@ -5652,7 +5654,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /hit-counter.
 /hit.asp?
 /hit.c?
-/hit.php?
+/hit.php?$domain=~etoland.co.kr
 /hit.t?
 /hit.xiti?
 /hit/?r=
@@ -9408,7 +9410,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@/pubads_impl.js$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@/rwd_cap.js$domain=ibf.tw
 @@/sensorsdata-$domain=aixiaoyuan.cn|zkh.com
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|guancha.cn|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|ttcdw.cn|xinrenxinshi.com|zzjiasuqi.com
+@@/sensorsdata.$domain=36kr.com|53zaixian.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|guancha.cn|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|ttcdw.cn|xinrenxinshi.com|zzjiasuqi.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
 @@/show_ad_$domain=wb.qq.com
@@ -11698,10 +11700,10 @@ axutongxue.com##DIV[style='text-align:center']
 axutongxue.com##a[href^="https://axu.simhaoka.com/phone/index?id=B956B2050EAA74084CC3FE6EF37C57CF"],img[src^="https://wework.qpic.cn/wwpic3az/846587_PMCu545RQwifXal_1712199121"],img[src^="https://wework.qpic.cn/wwpic3az/600855_1TyhIR25RbqC90L_1725602260/0"],img[src^="http://cbu01.alicdn.com"],a[href^="https://ibiling.cn/paper?from=axpaper"],a[href^="https://flowus.cn/share/f35316bd-0af5-490a-a755-ff3538e868f3?code=CZ3ECT"],a[href^="https://marscode.cn/?utm_source=axutongxue.com&utm_medium=xycpa&utm_campaign="],a[href="https://mp.weixin.qq.com/s/ZARDTFAmy2mM7ExgcXOl-w"]
 axutongxue.com,axutongxue.net###jjjagl
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
+axutongxue.com,axutongxue.net##body > div[id]:has(> ul[class] > li > img.icon + a[href])
+axutongxue.com,axutongxue.net#%#//scriptlet('prevent-setTimeout', 'checkCookie')
+axutongxue.com,axutongxue.net#%#//scriptlet('trusted-suppress-native-method', 'document.write', '/ul class.*icon.*href/', 'prevent')
 axutongxue.net##body > article[style]
-axutongxue.net##body > div[id]:has(> ul[class] > li > img.icon + a[href])
-axutongxue.net#%#//scriptlet('prevent-setTimeout', 'checkCookie')
-axutongxue.net#%#//scriptlet('trusted-suppress-native-method', 'document.write', '/ul class.*icon.*href/', 'prevent')
 azofreeware.com###HTML7
 azofreeware.com,pttjoke.com###HTML3
 baby-kingdom.com##.right5
@@ -14628,6 +14630,7 @@ html-js.com##div[style="margin:10px auto;width:1000px;"]
 htmleaf.com##.htmleaf-adv
 htmlsucai.com,sucai8.cn,ui.cn#@#.adv_img
 httpcn.com##a[href^="http://www.okbmf.com/"] > img
+https://github.com/DandelionSprout/adfilt/pull/364
 huaban.com###top_promotion
 huaban.com##.hb-ad
 huaban.com##div[class="pin wfc ad wft"]
@@ -16973,6 +16976,8 @@ nicotv.me##.clearfix-ads
 nicotv.me##.container > div.slide[style="padding-bottom:0px"]
 nicovideo.jp##+js(no-fetch-if, stella)
 nicovideo.jp##+js(no-xhr-if, stella)
+nikkansports.com###headerAdBnr2022
+nikkansports.com##div[id^="adUnit"]
 niotv.com##.epg_ad3
 niotv.com##.epg_ad_list
 niotv.com##.right_ad1
@@ -17638,6 +17643,9 @@ qqyy.com##.ind_ad
 qqyy.com##.right_dcotor_tab
 qsptv.net###widget-weixin
 quark.cn##.ad-wolong-container
+quark.cn#@#.open-share
+quark.cn#@#.share-btns
+quark.cn#@#.share-save
 qudao.com###wechat
 qudong.com##.advert_bottom
 qunar.com##.flight_ad
@@ -28718,6 +28726,8 @@ zzzyk.com###Tinfo
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.qqvv88.com^
 ||apk.tw/static/js/showpic.js
+||apk02061oo.xyz^
+||apk02070oo.xyz^
 ||apkonline.ru^$third-party
 ||apllogistics.actonservice.com^
 ||aplobv.xexymix.com^
@@ -39363,6 +39373,7 @@ zzzyk.com###Tinfo
 ||edghkc.xyz^
 ||edickew.top^
 ||edigitalsurvey.com^$third-party
+||edinmaw.top^
 ||edipsumw.top^
 ||edisound.com/api/p/stats
 ||edjjpgf.xyz^
@@ -41255,6 +41266,7 @@ zzzyk.com###Tinfo
 ||fairiesbranch.com^
 ||fairygaze.com^
 ||fairytaleflame.com^
+||faithrowold.com^
 ||fakjkwp.cn^
 ||faktor.io^$third-party
 ||fal2.carrefour-banque.fr^
@@ -57826,6 +57838,7 @@ zzzyk.com###Tinfo
 ||mtcvyv.webaslan.com^
 ||mteme7li1d6r.vertexmarketingagency.com^
 ||mtest.fontself.com^
+||mtfc8.com^
 ||mtguwx.xyz^
 ||mthhhuq.cn^
 ||mtienlx.top^
@@ -65660,6 +65673,7 @@ zzzyk.com###Tinfo
 ||searchiq.co/api/tr?
 ||searchplow.com^$third-party
 ||searchrecterm.kuwo.cn^$app=cn.kuwo.player
+||searchunify.com/analytics/suanlytics.png
 ||seashoresociety.com^
 ||seat.it/cgi-bin/getcod.cgi?
 ||seatsmoke.com^
@@ -80506,6 +80520,7 @@ zzzyk.com###Tinfo
 ||vbe.voyage-prive.be^
 ||vbiakpu.icu^
 ||vbkryy.pasonacareer.jp^
+||vbllxaaj.icu^
 ||vbnmjjda.xyz^
 ||vbseje.stonehengehealth.com^
 ||vbsjdd.olx.pt^
@@ -83972,6 +83987,7 @@ zzzyk.com###Tinfo
 ||xtazfx.50factory.com^
 ||xtbzff.xyz^
 ||xtcxflak.xyz^
+||xtdvvp.icu^
 ||xtgreat.com^$third-party
 ||xtjpdfr.cn^
 ||xtnwxhjv.xyz^
