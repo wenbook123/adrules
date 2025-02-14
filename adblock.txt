@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: +is45M92U5nJVfYfslTYIQ
+! Checksum: iMCYOyzZ8RlZ0/h+X+HmdQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-02-14 09:01:25（北京时间） 
-! Total count: 85677
+! Version: 2025-02-14 16:21:11（北京时间） 
+! Total count: 85688
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4228,6 +4228,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
+/\.[a-z]cinma[a-z].top\//$script,third-party
 /\.[a-z]dinma[a-z].top\//$script,third-party
 /\.[a-z]dinmi[a-z].top\//$script,third-party
 /\.[a-z]domsi[a-z].top\//$script,third-party
@@ -8013,6 +8014,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 115cdn.com##a[href="https://vip.115.com/"] > img
 118pan.com##.card.mt-2:nth-child(2)
 120ask.com##.b_right > div[style]
+120ask.com##IFRAME[width='400']
 123-bt.cn###mianze_fixed
 123-bt.cn###mianze_mask
 123-bt.cn##.sd
@@ -9049,6 +9051,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 91porn.com#@#.vjs-preroll
 91porna.com##.carousel-container-bottom
 91porna.com##.carousel-container:has(#carouselExampleInterval)
+91porna.com##.dx-banner-item
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
@@ -15950,9 +15953,10 @@ liisex.com###apDiv22
 likr.tw###avivid_waterfall_wp_product_area
 line.me###install_line
 line.me##.midAdModule-root
-linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-brand"]
+linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-linetv"][class*="-emphasis"]
 linetv.tw#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 linetv.tw#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
+linetv.tw#%#//scriptlet('set-constant', 'google.ima.AdError', 'noopFunc')
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
 linovelib.com#$##byspider { display: none !important; }
@@ -20188,7 +20192,6 @@ zzzyk.com###Tinfo
 ||120askimages.com/ask/js/askfrom.js
 ||120askimages.com/ask/js/q
 ||120askimages.com/ask/zhenshi/templates/pub/js/loadPart.js
-||120askimages.com^
 ||121.204.246.*.gif
 ||121.43.235.135^
 ||121zou.com^$subdocument
@@ -29415,7 +29418,6 @@ zzzyk.com###Tinfo
 ||app.tajawal.com^
 ||app.talksport.com^
 ||app.task.io^
-||app.teachfx.com^
 ||app.tech.pentontech.com^
 ||app.test.elly.com^
 ||app.texasperformingarts.org^
@@ -29571,6 +29573,7 @@ zzzyk.com###Tinfo
 ||application.ricoh.ie^
 ||application.taleo.com^
 ||applicationinsights.azure.com^$third-party,domain=~azure.net
+||applicationinsights.io^$third-party
 ||appliedsemantics.com/images/x.gif
 ||applink-test.chalknation.com^
 ||applink.aspiration.com^
@@ -37563,6 +37566,7 @@ zzzyk.com###Tinfo
 ||dhresource.com/dhs/fob/js/common/track/$domain=dhgate.com
 ||dhsjpz.bugaboo.com^
 ||dhukul.com^
+||dhuquxqy.com^
 ||dhwmtx.stylewe.com^
 ||dhxrop.com^
 ||di-capt.com^$third-party
@@ -49800,6 +49804,7 @@ zzzyk.com###Tinfo
 ||kccdk.com/Content/img/*.gif
 ||kccsrecommend.site/torimochi_log/
 ||kcgser.azialo.com^
+||kcinmad.top^
 ||kck.st/web/track
 ||kclimid.top^
 ||kcnwe.xyz^
@@ -50702,6 +50707,7 @@ zzzyk.com###Tinfo
 ||ld0766.com/index.php?m=call&id=10
 ||ldamcsl.top^
 ||ldb.cc/js/top.js
+||ldbnhd.icu^
 ||ldckmk.divarese.com.tr^
 ||lddt.de^$third-party
 ||ldgjwdohqbi.xyz^
@@ -62068,6 +62074,7 @@ zzzyk.com###Tinfo
 ||proporn.com/ajax/log/
 ||propps.com/v1/referrer/
 ||props.id^$third-party
+||propsid.b-cdn.net^
 ||propsynergy.com^
 ||prospecteye.com^$third-party
 ||prospex.actonservice.com^
@@ -64887,6 +64894,7 @@ zzzyk.com###Tinfo
 ||sadbmetrics.worldcanic.com^
 ||sadbmetrics.xlsemanal.com^
 ||sadbmetrics.zendalibros.com^
+||saddarue.com^
 ||sadloaf.com^
 ||sadobe.autoscout24.at^
 ||sadobe.autoscout24.be^
@@ -65427,6 +65435,7 @@ zzzyk.com###Tinfo
 ||scihuns.com^
 ||sciillr.cn^
 ||scinable.net/access?
+||scinmab.top^
 ||scint-x.com/js/
 ||scintillatingscissors.com^
 ||scintillatingsilver.com^
@@ -73544,6 +73553,7 @@ zzzyk.com###Tinfo
 ||strokesystem.com^
 ||strongvpn.com/aff/
 ||strossle.it^$third-party
+||stroveiks.com^
 ||strs.jp^$third-party
 ||strtape.cloud/stat/
 ||strtapeadblock.club/stat/
@@ -85048,6 +85058,7 @@ zzzyk.com###Tinfo
 ||zbdtkk.totvs.com^
 ||zbfszb.calpis-shop.jp^
 ||zbjimg.com/static/union/
+||zbldxf.icu^
 ||zblz.me^
 ||zbrfde.ozmall.co.jp^
 ||zbv7kxrteclub.xyz^
