@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Mt2GTkpVsUT+QMPqItlpRg
+! Checksum: Xzpwvpi9XYuVntdVBJ/Atw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-03-15 09:02:50（北京时间） 
-! Total count: 85367
+! Version: 2025-03-15 16:18:37（北京时间） 
+! Total count: 85386
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1547,6 +1547,7 @@
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > a[id*='hudie_']
 ##body > div#bottommob.bottommob
+##body > div#inplayer[align="center"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body#chapterbody.novel_chapter [style='padding-top: 150px;']
 ##body#nr_body #appss
@@ -8808,10 +8809,10 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 520call.me#%#//scriptlet("set-constant", "all520dddaaa2022aaa", "undefined")
 520call.me#%#//scriptlet("set-constant", "all520dddaaa2022ccc", "true")
 520call.me,av99.us,yocoolnet.in###inplayer
+520cc.cc##div[id^="myad_alert_"]
 520cc.cc#%#//scriptlet("prevent-setTimeout", "location.href", "3000")
 520cc.cc#%#//scriptlet('prevent-setTimeout', 'myModal')
 520cc.cc#%#//scriptlet('set-constant', 'all520dddaaa2022ccc', 'true')
-520cc.cc,v.5278.mobi,jizz99.com,bonbonyou.com,in99.org,av99.us,jav777.xyz,520call.me,hboav.com###inplayer
 520cc.me#$##acornerinner1122 { position: absolute!important; left: -3000px!important; }
 520cc.me#%#(function(){var b=window.setTimeout;window.setTimeout=function(a,c){if(!/myaaqqbpfun12\(\)/.test(a.toString()))return b(a,c)};})();
 520film.net##.wapimg
@@ -9366,6 +9367,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@.jpg#$domain=huhupan.com
+@@.php?id=$script,domain=surirt.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
 @@/WebAd/*$domain=yongyoujia.com
 @@/^https?:\/\/([a-z0-9-\.])*(chat|drive)\.google\.com\/videoplayback/$removeparam
@@ -9576,6 +9578,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||520cc.cc^*/ad.php
 @@||520click.com/ad.php$domain=520cc.cc
 @@||520click.com/ad.php$stealth
+@@||520click.com/ad.php?id=$script,domain=surirt.com
 @@||5278.cool^$generichide
 @@||52zy.com/gg/
 @@||58.com/adJump?adType=
@@ -11092,6 +11095,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||suning.cn/project/msIndex/js/??
 @@||supercloudsms.com/js/ad
 @@||support.steampowered.com^$removeparam
+@@||surirt.com/ad/ads.php?id=$script,domain=surirt.com
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
 @@||swa.mail.ru/cgi-bin/counters?$script
 @@||swsc.com.cn/download/ad_images/
@@ -13831,6 +13835,7 @@ ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
 fh21.com.cn###lbzxM
 fhm.com.tw###add-box
 filmaker.cn###frame2gS3Ea
+finance.eastmoney.com###ContentBody > p[style="text-align:center;"]:has(> a[href^="https://acttg.eastmoney.com/pub/"])
 finance.ettoday.net##.all_news_text1
 finance.ifeng.com###box_img
 finance.ifeng.com##.lccs
@@ -18466,6 +18471,9 @@ supertaste.tvbs.com.tw###lightbox--ad
 supertaste.tvbs.com.tw##.ad_m_block
 supertaste.tvbs.com.tw##.ad_m_top
 supportdap.online##.td-post-content > a[rel="nofollow"] > img
+surirt.com#%#//scriptlet('set-constant', 'ad_id_for_555', '')
+surirt.com#%#//scriptlet('set-constant', 'all520dddaaa2022ccc', 'true')
+surirt.com,520cc.cc,v.5278.mobi,jizz99.com,bonbonyou.com,in99.org,av99.us,jav777.xyz,520call.me,hboav.com###inplayer
 susongbbs.com#@#.ad_banner
 sutin0831.pixnet.net#$#div[class*="-ad-sidebar-"] { position: absolute!important; left: -3000px!important; }
 suxzp.com##.full-screen-cover
@@ -19524,6 +19532,7 @@ xmfish.com###pw_content > .forum_panel:nth-child(4)
 xmfish.com##.advert-entry-list
 xmfish.com##.readCon_right
 xmh/200/200-*.gif
+xn--p3tv7h.com###floating-image-container
 xpiaotian.net#@#.pagead
 xtuan.com###foot_zhaobiao_bar
 xueqiu.com##.ad-right-aside
@@ -27156,6 +27165,7 @@ zzzyk.com###Tinfo
 ||ajybgc.xyz^
 ||ajzsa.xyz^
 ||ak-br-cdn.kwai.net.iberostar.com^
+||ak03150hou.com^
 ||ak0gsh40.com^
 ||ak530.com/js/*.js
 ||akabebe.com/jgg/*.gif
@@ -28334,6 +28344,7 @@ zzzyk.com###Tinfo
 ||analytics.virginaustralia.com^
 ||analytics.virginmobileusa.com^
 ||analytics.visible.com^
+||analytics.viture.dev^
 ||analytics.vixcloud.co^
 ||analytics.vortexscans.com^
 ||analytics.warnertv.fr^
@@ -31183,6 +31194,7 @@ zzzyk.com###Tinfo
 ||bd-china-1.appmobile.cn^
 ||bd-js.duote.com^
 ||bd-js1.2345.com^
+||bd-retrieval1.2345.com^
 ||bd-s.baixing.net^
 ||bd.ahsrst.cn^
 ||bd.beimap.com^
@@ -34541,6 +34553,7 @@ zzzyk.com###Tinfo
 ||cointelegraph.com/pixel?
 ||coinwebmining.com^$third-party
 ||coinzillatag.com^$third-party
+||cokudsvit.com^
 ||col.casa.it^
 ||col.idealista.com^
 ||col.idealista.it^
@@ -44385,6 +44398,7 @@ zzzyk.com###Tinfo
 ||guozh.net/wp-content/plugins/eazy-ad-unblocker/
 ||guq9.vente-unique.it^
 ||guqoinly.com^
+||guqransoq.com^
 ||guqsqfmi.com^
 ||guqu.net/Cooperate/
 ||gurgle.pcmag.com^
@@ -45018,6 +45032,7 @@ zzzyk.com###Tinfo
 ||hhdmh.net/js/g1.js
 ||hhff111222.com^
 ||hhglobal.actonservice.com^
+||hhplayer.com/cdn/fb.js
 ||hhrerv.xyz^
 ||hht8m6w8mnug.quine.sh^
 ||hhttm.top^
@@ -50825,6 +50840,7 @@ zzzyk.com###Tinfo
 ||lfov.net^$third-party
 ||lfpfpl.andar.co.kr^
 ||lfrdskwj.icu^
+||lftcph.icu^
 ||lftpvh.xyz^
 ||lfuzec.bglen.net^
 ||lfxdqs.mamasandpapas.ae^
@@ -57795,6 +57811,7 @@ zzzyk.com###Tinfo
 ||mvmqos.xyz^
 ||mvtracker.com^$third-party
 ||mvwitz.xyz^
+||mvxh.cn^
 ||mvxz.com/bar3.js
 ||mvxz.com/boximg/
 ||mvxz.com/img/
@@ -76235,6 +76252,7 @@ zzzyk.com###Tinfo
 ||tpcs.payu.in/pixelwithcookie.gif$domain=hindustantimes.com
 ||tpe.theparticipanteffect.com^
 ||tpfrro.justlease.nl^
+||tpjw.cn^
 ||tpkv.cn^
 ||tpmexb.vans.co.nz^
 ||tptoon.com/skin/js/tjtjkk.
@@ -83637,6 +83655,7 @@ zzzyk.com###Tinfo
 ||xn--jvrp4x1zyfta.net^
 ||xn--m7r781dz66a.cn^
 ||xn--mts60is5y5uk.com^
+||xn--p3tv7h.com/imgs/Uxuan2.jpg
 ||xn--qrq171dxpq.com^
 ||xn--sssy7vrppusjyv0a.com^
 ||xn--swt207gl1hzc.net^
