@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: WbPjWcEKt3PyiJQlnc227Q
+! Checksum: 4defxqTUtoVQW3pCsExspA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-03-18 09:03:58（北京时间） 
-! Total count: 85454
+! Version: 2025-03-18 16:22:09（北京时间） 
+! Total count: 85476
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1363,6 +1363,7 @@
 ##[style$=' 0% 0% / 100% no-repeat; height: 130px; width: 100%; position: relative;']
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
 ##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
+##[style$='width:9.6vw;height:6.40625vw;background: #000;opacity:0.01;']
 ##[style*="mi-img.com"][style*="calc"]
 ##[style*='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147'][style*='bottom: 132px;']
 ##[style*='line-height: 115px; left: 0px; z-index: 0; width: 100vw; background: url']
@@ -3906,6 +3907,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .top/ad-
 .top/ad/
 .top/ads/
+.top/api.php?mod=ad&
 .top/g3/myString3AsyncG?$third-party
 .top/gluinfo.php?s=$third-party
 .top/upload/ad.js
@@ -8621,6 +8623,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 3dmgame.com##A[href^="http://web.3dmgame.com/h5/game?"]
 3dmgame.com##a[href*=".chuangmengsy.xyz"]
 3dmgame.com##a[href^="https://down.hyds360.com/"] > div[style]
+3dmgame.com#$#body > div.content { margin-top: 0 !important; }
 3dmgame.com#%#//scriptlet('abort-on-property-write', 'adStart')
 3dmgame.com#?#.Gmaeinfobtn_tab > a.patchshow[style]:has(> span:contains(/^广告$/))
 3dmgame.com#?#.downl_list:-abp-has(style)
@@ -9505,7 +9508,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@_ads_cpc_$domain=90lover.cn
 @@_cpc_cpm/$domain=youranshare.com
 @@_cpc_cpm_$domain=saraba1st.com
-@@googlesyndication.com@bilinovel.com
+@@googlesyndication.com$domain=bilinovel.com
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
 @@https://static.ws.126.net/163/frontend/libs/antanalysis.min.js
 @@mailinglist$removeparam=/^utm_.*$/i
@@ -11770,6 +11773,9 @@ axios-js.com##.lessonlist
 axios-js.com##.recommand
 axios-js.com##.vultr-desc
 axjbt.com,avcao.cc#%#//scriptlet('abort-on-property-read', 'myclick')
+axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##body > :is(div, aside)[id]:has(> ul[class] > li > img.icon + a[href])
+axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('prevent-setTimeout', '/getCookie|checkCK|checkCookie/')
+axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('trusted-suppress-native-method', 'document.write', '/ul class.*icon.*href/', 'prevent')
 axutongxue.com##ASIDE[style*='height:58px;overflow:hidden;width:322px;border:dashed .5px']
 axutongxue.com##DIV[style*='px;position:relative;box-shadow:rgb(0 0 0/24%)0px 3px 8px;']
 axutongxue.com##DIV[style*='z-index: 9999999;display: flex;justify-content: center;align-items: center;']
@@ -11778,9 +11784,6 @@ axutongxue.com##a[href^="https://axu.simhaoka.com/phone/index?id=B956B2050EAA740
 axutongxue.com,axutongxue.net###jjjagl
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
 axutongxue.net##body > article[style]
-axutongxue.vip,axutongxue.com,axutongxue.net##body > :is(div, aside)[id]:has(> ul[class] > li > img.icon + a[href])
-axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('prevent-setTimeout', '/getCookie|checkCK|checkCookie/')
-axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('trusted-suppress-native-method', 'document.write', '/ul class.*icon.*href/', 'prevent')
 azofreeware.com###HTML7
 azofreeware.com,pttjoke.com###HTML3
 baby-kingdom.com##.right5
@@ -13837,6 +13840,7 @@ fffdm.com##[style^="width"][style*="height"]
 ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
 fh21.com.cn###lbzxM
 fhm.com.tw###add-box
+fhxy-a.top##.sd_recpic
 filmaker.cn###frame2gS3Ea
 finance.eastmoney.com###ContentBody > p[style="text-align:center;"]:has(> a[href^="https://acttg.eastmoney.com/pub/"])
 finance.ettoday.net##.all_news_text1
@@ -19005,6 +19009,7 @@ vgtime.com##.vgart_top
 vgtime.com##.vgart_top > img
 via=rss$doc,removeparam=via
 vid.onlymu.site##.tips
+video4k.cc#@#a[href*="/?aff="][target="_blank"]
 vidhub.me,vidhub.tv##.promotelink
 vidhub1.cc,vidhub.me,vidhub.tv##.adpwc
 vidhub1.cc,vidhub.me,vidhub.tv##.adwap
@@ -27767,6 +27772,7 @@ zzzyk.com###Tinfo
 ||amvecurt.cn^
 ||amvtwk.thebottleclub.com^
 ||amxwqv.com^
+||amyapad.top^
 ||an.avast.com^
 ||an.avast.ru^
 ||an.constantcontact.com^
@@ -33782,6 +33788,7 @@ zzzyk.com###Tinfo
 ||chooncv.icu^
 ||choose.adelaide.edu.au^
 ||choose.nu.edu^
+||chorninsm.com^
 ||chosun.com/hitlog/
 ||choujue.net/one/down.js
 ||choujue.net/script/
@@ -38876,6 +38883,7 @@ zzzyk.com###Tinfo
 ||e403.pandasuite.io^
 ||e49.xyz^
 ||e50.icu^
+||e5nnk.com^
 ||e5obq1v261.www.lurkit.com^
 ||e5yx.com^$popup
 ||e77lmzbqou0n-a.akamaihd.net^
@@ -41337,6 +41345,7 @@ zzzyk.com###Tinfo
 ||fb.echovisuals.com^
 ||fb.ru/stat/
 ||fb_servpub-a.akamaihd.net^
+||fbhkxt.icu^
 ||fbjpji.europcar.es^
 ||fbo-statistics-collector-tc.is.flippingbook.com^
 ||fbot.me/error
@@ -52568,6 +52577,7 @@ zzzyk.com###Tinfo
 ||lpmzt.cn^
 ||lpocne.top^
 ||lporirxe.com^$third-party
+||lppfnf.icu^
 ||lps-info.arval.com^
 ||lptest.email-mobiledx.cjm.adobe.com^
 ||lpuqtu.propertyfinder.bh^
@@ -60960,6 +60970,7 @@ zzzyk.com###Tinfo
 ||phrasetech.com/api/collect
 ||phsmobile.actonservice.com^
 ||phtivr.xyz^
+||phuustikd.com^
 ||phvylw.beurer-shop.de^
 ||phxdrf.icu^
 ||phyins.actonservice.com^
@@ -61591,6 +61602,7 @@ zzzyk.com###Tinfo
 ||polishedfolly.com^
 ||politegoldfish.com^
 ||politeplanes.com^
+||political-effort.com^
 ||politicalflip.com^
 ||politicalporter.com^
 ||politico.com/resource/assets/js.min/video-tracking.
@@ -62899,6 +62911,7 @@ zzzyk.com###Tinfo
 ||qutyan8848.com^
 ||quwkke.xyz^
 ||quyerj.northstyle.com^
+||quyr.cn^
 ||quyuancn.com^$third-party
 ||quzmtpxw.xyz^
 ||qvbxza.stoneberry.com^
@@ -63053,6 +63066,7 @@ zzzyk.com###Tinfo
 ||r2b2.cz/events.php?
 ||r2r.utas.edu.au^
 ||r36ku.site^
+||r3nvrr4uzh.com^
 ||r3sub.com/images/aaa^
 ||r3sub.com/images/ccc/
 ||r3sub.com/posters/0069810.jpg
@@ -63238,6 +63252,7 @@ zzzyk.com###Tinfo
 ||rdlbkvo.cn^
 ||rdllzz.icu^
 ||rdlrbm.studying.jp^
+||rdoq.cn^
 ||rdpcom.com^
 ||rdsgick.icu^
 ||rdsig.yahoo.co.jp^$image
@@ -66669,6 +66684,7 @@ zzzyk.com###Tinfo
 ||shbzpgs.cn^
 ||shbzqgs.cn^
 ||shbzqkj.cn^
+||shedranfd.com^
 ||sheego.de/ar/$third-party
 ||sheeroop.com^
 ||sheeta.nrj-play.fr^
@@ -71297,6 +71313,7 @@ zzzyk.com###Tinfo
 ||srmy.srglobal.com^
 ||sroork.mrmarvis.nl^
 ||srootshare.com/otmyjs/
+||srootshare.com^
 ||srpx.net^$third-party
 ||srqponmd.carte-gr.total.fr^
 ||srratl.mona-mode.at^
@@ -76130,6 +76147,7 @@ zzzyk.com###Tinfo
 ||toedrawer.com^
 ||toeopa.doutornature.com^
 ||toggle.qq.com^
+||togmoxwnw.com^
 ||toijr.xyz^
 ||tokendomain.xyz^
 ||tokopedia.com/helios-client/client-log
@@ -79276,6 +79294,7 @@ zzzyk.com###Tinfo
 ||tubemogul.com^$third-party
 ||tubepornstars.com/js/analytics
 ||tubi.io/datascience/logging?
+||tubingacater.com^
 ||tubitv.com/oz/performance/
 ||tudxhzj.cn^
 ||tufcum.margaretha.se^
@@ -81799,6 +81818,7 @@ zzzyk.com###Tinfo
 ||weike87.com/images/*0
 ||weike87.com/images/*1
 ||weikeys.com/js/zt.js
+||weitietl.com^
 ||weixin.qq.huigun.top^
 ||weiyuedu.cc/skin/v3/js/dibu.js
 ||weiyun.com/cgi-bin/tianshu_get?position=4&
@@ -83990,6 +84010,7 @@ zzzyk.com###Tinfo
 ||ya*.dwstatic.com^
 ||ya.ru/clck/
 ||yaacdn.top^
+||yaaumqa.top^
 ||yac5t.cn^
 ||yachtingnetwork.it/stat/
 ||yadtbk.blacks.co.uk^
@@ -84828,6 +84849,7 @@ zzzyk.com###Tinfo
 ||zbcdn.net/__uvjgyw/slb.default.js
 ||zbdtkk.totvs.com^
 ||zbfszb.calpis-shop.jp^
+||zbhuafx.com^
 ||zbjimg.com/static/union/
 ||zbldxf.icu^
 ||zblz.me^
