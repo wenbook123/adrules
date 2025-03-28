@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: TaJvhJ1WOfHEl9V4Nnp0ZQ
+! Checksum: Z5hZDXDZyeoX8RIBFUHC5g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-03-28 00:21:14（北京时间） 
-! Total count: 15204
+! Version: 2025-03-28 09:07:52（北京时间） 
+! Total count: 15189
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -584,6 +584,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.ethika.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -599,6 +600,7 @@
 @@||*.ali*.*^$stealth
 @@||*.php?id=$subdocument,stealth=referrer,domain=dubznetwork.com
 @@||*.youku.com^$stealth
+@@||*.yt2api.com/api/$domain=api.ytapi.cc,stealth=referrer
 @@||*/assets/js/common/juqery/
 @@||*optout$domain=smartadserver.com
 @@||*optout$domain=youronlinechoices.com
@@ -1571,6 +1573,7 @@
 @@||ams.cdn.arkadiumhosted.com/advertisement/display/stable/display-ads.js$domain=arkadium.com
 @@||ams.cdn.arkadiumhosted.com/advertisement/display/stable/display-ads.js$domain=crosswordsolver.org
 @@||ams.cdn.arkadiumhosted.com/advertisement/display/stable/display-ads.js$domain=games.metro.us
+@@||ams.cdn.arkadiumhosted.com/advertisement/video/stable/games.msn.com/video-ads.js$domain=zone.msn.com
 @@||ams.cdn.arkadiumhosted.com/advertisement/video/stable/video-ads.js$domain=arkadium.com
 @@||ams.cdn.arkadiumhosted.com/advertisement/video/stable/video-ads.js$domain=crosswordsolver.org
 @@||ams.cdn.arkadiumhosted.com/advertisement/video/stable/video-ads.js$domain=games.metro.us
@@ -2015,7 +2018,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
-@@||apotheken-umschau.de$contentch.com##div[id^="sns-"]
+@@||apotheken-umschau.de$content#.js-tabs-simple:has(> span > p:contains(Facebook))
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -2951,8 +2954,6 @@
 @@||cdn-go.cn/aegis/aegis-sdk/latest/aegis.min.js$domain=store.lining.com
 @@||cdn-go.cn/aegis/aegis-sdk/latest/aegis.min.js$domain=yfk20.com
 @@||cdn-lfs.hf.co/repos/$stealth=3p-cache
-@@||cdn-magiclinks.trackonomics.net/client/static/v2/*_gamespot.js$domain=g https://github.com/AdguardTeam/AdguardFilters/issues/37935
-@@||cdn-magiclinks.trackonomics.net/client/static/v2/*_gamespot.js$domain=g/gtag/js$script,domain=www3.nissan.co.jp
 @@||cdn-magiclinks.trackonomics.net/client/static/v2/*_gamespot.js$domain=gamespot.com
 @@||cdn-manga.com^$image,stealth=referrer
 @@||cdn-mobile.api.pluto.tv^
@@ -3928,7 +3929,6 @@
 @@||cloud.notification-naviextras.com^|
 @@||cloud.polarbyte.com/webapps-api/api/v1/campaigns/$domain=cambridgeenglish.org
 @@||cloud.roistat.com/api/site/$script,domain=britvabarber.ru|tickets.bckhimki.ru
-@@||cloud.roistat.com/dist//140733
 @@||cloud.roistat.com/dist/module.*$script,stylesheet,domain=britvabarber.ru|tickets.bckhimki.ru
 @@||cloud.roistat.com/dist/module.js$domain=motostudy.ru
 @@||cloud.roistat.com/dist/module.js$domain=pandashop.md
@@ -5571,7 +5571,6 @@
 @@||fangraphs.com/ads.js
 @@||fansonlinehub.com^$generichide
 @@||fapality.com/1qbqp47kyhhh/advertisement.jsx
-@@||faq.viewcard.co.j*="center"]
 @@||faq.viewcard.co.jp^$stealth=dpi
 @@||farmeramania.de^$ghide
 @@||farsondigitalwatercams.com^$ghide
@@ -6656,7 +6655,6 @@
 @@||googlesyndication.com^$domain=searchftps.org
 @@||googlesyndication.com^$script,xmlhttprequest,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
 @@||googlesyndication.com^$xhr,domain=extremereportbot.com
-@@||googletagmanager.com-count.jp#?#.s-entry > section > div.c-heading:has(> div#taboola-below-article-thumbnails-desktop)
 @@||googletagmanager.com/gtag/$domain=oo.ai
 @@||googletagmanager.com/gtag/$domain=usnews.com
 @@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|schwab.com|seatmaps.com|showroom-live.com|skylar.com|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
@@ -7046,7 +7044,6 @@
 @@||googletagmanager.com/gtm.js?$domain=ozon.ru
 @@||googletagmanager.com/gtm.js?$domain=renault.ua
 @@||googletagmanager.com/gtm.js?$domain=vseinstrumenti.ru
-@@||googletagmanager.com/gtm.js?id=GTM$domain=/gtag/js$script,domain=www3.nissan.co.jp
 @@||googletagmanager.com/gtm.js?id=GTM$domain=bglab.briangavindiamonds.com
 @@||googletagmanager.com/gtm.js?id=GTM$domain=spiegel.de
 @@||googletagmanager.com/gtm.js?id=GTM-TSHZLHD$domain=cyclingnews.com
@@ -7071,8 +7068,6 @@
 @@||googletagmanager.com/gtm.js^$domain=tn.com.ar
 @@||googletagmanager.com^$domain=addons.opera.com
 @@||googletagmanager.com^$domain=mobilmania.cz
-@@||googletagmanager.commodule.js$domain=motostudy.ru
-@@||googletagmanager.comng cookie. It allows us to engage with a user that has previously visited our website.
 @@||googletagservices.com/dcm/dcmads.js$domain=italiamac.it
 @@||googletagservices.com/tag/js/gpt.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.tw|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||googletagservices.com/tag/js/gpt.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de,badfilter
@@ -9108,7 +9103,6 @@
 @@||map.poketrack.xyz/js/ads-min.js
 @@||map.qq.com^
 @@||mapandroute.de/MapAPI-$stealth=referrer,domain=dastelefonbuch.de
-@@||mapandroute.de/MapAPI-$stealth=referrer,domainader/ima3.js$script,redirect=google-ima3,domain=typingtest.com
 @@||mapapi.cloud.huawei.com/mapjs/v*/api/$stealth,domain=petalmaps.com
 @@||mapi.perfectworldgames.com/*/api/user/token/login$stealth=xclientdata
 @@||mapquest.com^$generichide
@@ -11120,7 +11114,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamkei.com^$removeparam=n_cid
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11550,11 +11543,7 @@
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseau.ovation.ca/_scripts/cookie-banner.js
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsamespot.com
-@@||reseguiden.se^*.siteCatalyst.jsdboat.com^
-@@||reseguiden.se^*.siteCatalyst.jsil.staging.procsea.com$image
-@@||reseguiden.se^*.siteCatalyst.jsspiegel.de
-@@||reseguiden.se^*.siteCatalyst.jsthanson.com$image
+@@||reseguiden.se^*.siteCatalyst.jsprofessionalholdings.com$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -12564,7 +12553,6 @@
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||sobot.com^
 @@||soccer.ru/sites/all/themes/mytheme/advert.js
-@@||socialgirls.im^$ghide
 @@||sofire.baidu.com^
 @@||soft8ware.com^$generichide
 @@||softblog.tw^$generichide
@@ -14944,11 +14932,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide partnership with|En partenariat avec|Mit Unterstützung von|In collaborazione con|En colaboración con|Em parceria com|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|بالمشاركة مع/))
-@@||xfreehd.com^$generichided468innerboxadpic
-@@||xfreehd.com^$generichideefpaikgai.top^
-@@||xfreehd.com^$generichidem,un-block-voe.net,voeun-block.net,voe-un-block.com,voeunblk.com,voeunblck.com,voeunbl0ck.com,voeunblock3.com,voeunblock2.com,voeunblock1.com,voeunblock.com,voe-unblock.*,voe.sx#%#//scriptlet("prevent-addEventListener", "click", "VODMonetisation")
-@@||xfreehd.com^$generichidev[style^="clear: both;"]
+@@||xfreehd.com^$generichide-ads
+@@||xfreehd.com^$generichidekin
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
