@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: BhamkX3hr9Jsy7zXGGfZ7A
+! Checksum: JiJsKkDXhLFja8bXFCkZfA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-03-30 09:12:00（北京时间） 
-! Total count: 85649
+! Version: 2025-03-30 16:20:26（北京时间） 
+! Total count: 85661
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2337,6 +2337,7 @@ $removeparam=aff_track
 $removeparam=affc
 $removeparam=affcode
 $removeparam=affi_id
+$removeparam=affid2
 $removeparam=affil
 $removeparam=affiliateCode
 $removeparam=affiliateCustomId
@@ -2928,6 +2929,7 @@ $removeparam=oft_sk
 $removeparam=ogbl
 $removeparam=ogmap,domain=coach.com|loft.com
 $removeparam=ogmeas,domain=lanebryant.com
+$removeparam=oid2
 $removeparam=oly_anon_id
 $removeparam=oly_enc_id
 $removeparam=oly_enc_id,doc,domain=~greenbuildingadvisor.com
@@ -6386,6 +6388,14 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /ocount.php
 /ocounter.php
 /odoscope.js
+/offer/pre/*$removeparam=country_name
+/offer/pre/*$removeparam=device_type
+/offer/pre/*$removeparam=lpid
+/offer/pre/*$removeparam=oid
+/offer/pre/*$removeparam=req_id
+/offer/pre/*$removeparam=source_id
+/offer/pre/*$removeparam=sub_id
+/offer/pre/*$removeparam=uid
 /ojborn.so?$script,third-party
 /om.gif?
 /omni-tracking.min.js
@@ -10476,7 +10486,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||jianshu.com/asimov/ab_test/info
 @@||jiav000.com^$generichide
 @@||jiayuan.com^*/pv.js
-@@||jin10.com^$generichide
 @@||jinritemai.com^$generichide
 @@||jinyongci.com^$generichide
 @@||jjjgame.com/plus/ad_
@@ -12230,7 +12239,6 @@ bilibili.com##.desktop-download-tip
 bilibili.com##.download-client-trigger.download-entry
 bilibili.com##.eva-banner
 bilibili.com##.extension-tips
-bilibili.com##.float-btn:contains(打开App)
 bilibili.com##.floor-single-card:has(.floor-skeleton):not(:has(> div.bili-video-card__skeleton))
 bilibili.com##.gg-floor-module
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
@@ -12272,6 +12280,7 @@ bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 bilibili.com#%#//scriptlet('json-prune', 'data.cm_info.ads')
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
+bilibili.com#?#.float-btn:contains(打开App)
 bilibili.com#?#.is-rcmd:-abp-has(>div:not(div:-abp-has(div)))
 bilibili.com#?#.van-popover__reference:contains(下载)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
@@ -15005,7 +15014,6 @@ ifeng.com##div[class^="fixSlideBox"]
 ifeng.com##div[class^="games_ad_"]
 ifeng.com##div[class^="h"] > div[class$="-main"]
 ifeng.com##div[class^="hot_box"]
-ifeng.com##div[class^="index_link"]:contains(app)
 ifeng.com##div[class^="index_topBox_"]
 ifeng.com##div[class^="index_top_box_"]
 ifeng.com##div[class^="layout-"] > div#subNav + div
@@ -15024,12 +15032,13 @@ ifeng.com##div[class^="topAd-"]
 ifeng.com##div[class^="topBox-"]
 ifeng.com##div[id^="couplet3_"]
 ifeng.com##div[id^="padhide_"]
-ifeng.com##header:contains(立即打开)
 ifeng.com##header[class*="headerIn"]
 ifeng.com##section[class^="fixSlide-"]
 ifeng.com#?#.box_list:-abp-has(.tuig)
+ifeng.com#?#div[class^="index_link"]:contains(app)
 ifeng.com#?#div[class^="index_yaowen_center"] div[class^="index_news_list_"]:has(a[target="_blank"] + img[src^="https://x0.ifengimg.com/feprod/"])
 ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contains(推广))
+ifeng.com#?#header:contains(立即打开)
 ifeng.com,qq.com###advert
 ifeng.com,sohu.com##.ad950
 ifeng.com,vsping.com##.ad_01
@@ -15593,16 +15602,12 @@ jijidy.com###box
 jikexueyuan.com##.pewm2
 jikexueyuan.com##.pewm3
 jiligame.com##img[onerror="zhurl($(this))"]
-jin10.com###J_wdgg_t
+jin10.com##.activity-side
 jin10.com##.jin-popularize
-jin10.com##.l-main > div > .jin-timeline
-jin10.com##.l-main > div > div[class^="jin-"] > .jin-timeline > div[class^="jin-1"]
 jin10.com##.quoted-price__pro
 jin10.com##.side-module-2
-jin10.com##.top-ad
+jin10.com##.top-poster
 jin10.com##.tradinghero
-jin10.com##div[id^="J_wdgg_"]
-jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
 jinbaodm.com##div[style^="position:fixed; top"]
 jingangjing.com##.free
 jingangjing.com##.free-popup
@@ -16069,7 +16074,7 @@ litv.tv##body > .right_float_poster_container
 liues.cn##.widget-graphic-cover
 live.bilibili.com##.container-wrapper[style="height:180px;min-width:1280px"]
 live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
-live.bilibili.com##div.pointer:contains(下载客户端)
+live.bilibili.com#?#div.pointer:contains(下载客户端)
 lkong.com##.lkong-ads
 llss.bz###secondary img:not(.avatar)
 localking.com.tw###adbannerurl
@@ -16187,10 +16192,6 @@ m.baidu.com##.water-container.tab-news-content
 m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
 m.baidu.com##a[href*="m.lecai.com"]
 m.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
-m.bilibili.com##.bottom-tab:contains(App)
-m.bilibili.com##.container:contains(打开App)
-m.bilibili.com##.launch-app-btn > a:contains(App)
-m.bilibili.com##.launch-app-btn:contains(打开APP)
 m.bilibili.com##.m-home-float-openapp
 m.bilibili.com##.m-nav-openapp.m-open-app
 m.bilibili.com##.m-video2-awaken-btn
@@ -16201,6 +16202,10 @@ m.bilibili.com##div[class*="mplayer-control-btn mplayer-control-btn-callapp mpla
 m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
 m.bilibili.com##div[class*="openapp"]
 m.bilibili.com##div[class^="open-app-btn"]
+m.bilibili.com#?#.bottom-tab:contains(App)
+m.bilibili.com#?#.container:contains(打开App)
+m.bilibili.com#?#.launch-app-btn > a:contains(App)
+m.bilibili.com#?#.launch-app-btn:contains(打开APP)
 m.biqiugege8.com#%#//scriptlet("set-constant", "lists", "undefined")
 m.chinaso.com##.chinaso_weixin
 m.chinaso.com##.wrap-layout > .wrap-toolbar
@@ -16211,8 +16216,8 @@ m.dangdang.com##.redrain-index-i
 m.dongchedi.com##.float-open-app-btn.float-open-app
 m.dongchedi.com##.mui-dialog__no-spacing.mui-dialog
 m.dongchedi.com##.open-app
-m.dongchedi.com##.tw-flex:contains(App内打开)
 m.dongchedi.com##div[style="width: 84px; height: 38px; background: rgb(255, 204, 50);"]
+m.dongchedi.com#?#.tw-flex:contains(App内打开)
 m.douban.com###comment-list > div > .show-all
 m.douban.com##.TalionNav-static > .info
 m.douban.com##.download-app
@@ -16894,8 +16899,8 @@ myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
 mytheme.cn##.ad01
 mywpku.com##.sidebar-recommended
 mzh.moegirl.org.cn##.download-app
-mzh.moegirl.org.cn##.n-button__content:contains(在App内打开)
 mzh.moegirl.org.cn##.open-in-app-wrapper
+mzh.moegirl.org.cn#?#.n-button__content:contains(在App内打开)
 n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
 n.sinaimg.cn/tech/zcapp2018/zc_new1x.png$image
 naifei.im##.tg_w
@@ -18679,7 +18684,6 @@ tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5fe
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u901f\\u8baf\""]
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u8d34\\u5427\\u89e6\\u70b9\\u63a8\\u5e7f\""]
 tieba.baidu.com##.load-more.wake-app
-tieba.baidu.com##.more-btn-desc:contains(打开APP)
 tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.nav-bar-bottom
 tieba.baidu.com##.only-lz
@@ -18705,6 +18709,7 @@ tieba.baidu.com##div[class*="nav-bar-wrapper"]
 tieba.baidu.com##div[class*='-ad-pb-']
 tieba.baidu.com##li.tb-share__item:nth-of-type(1)
 tieba.baidu.com#$#.special_conf_skin .wrap1 { background: none !important; }
+tieba.baidu.com#?#.more-btn-desc:contains(打开APP)
 tieba.baidu.com,wapp.baidu.com##.iSlider-wrapper-container-hot-thread
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
 tiexue.net##.reloadCont > div:first-child
@@ -18777,7 +18782,7 @@ tongren.gov.cn###tanchukuang
 tongxiang.net##.mmver.w-1200
 tongxiang.net##.x15sdv.display_3_3
 tongyi.aliyun.com##div[class^="downloadWrap"]
-tongyi.aliyun.com##ul > li:nth-child(2):not(:contains("效率"))
+tongyi.aliyun.com#?#ul > li:nth-child(2):not(:contains("效率"))
 tongzhuo100.com###gold_banner
 tool.lu##.recommend-container
 toolfk.com###layui-layer100001
@@ -19394,8 +19399,6 @@ www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.to
 www.itdog.cn#%#window.alert=function(str){return}
 www.jianshu.com##[aria-label='lwa-ad-one']
 www.jianshu.com#@#div[class$="_0"]
-www.jin10.com##.l-main_body > div[class]:not(.jin-timeline)
-www.jin10.com##.l-main_info > div[class]:not(.jin-declaration):not(.jin-qq-cooperation)
 www.jjtyss.com##ins[class],.myui-player.clearfix p,.container p
 www.jmhongyan.com##ins[class],.container p
 www.kafan.cn##.comeing_show_box[style="padding:10px;"]
@@ -19538,7 +19541,7 @@ ximalaya.com##.dl-pc
 xineurope.com###qmenu_menu + .wp
 xineurope.com##.adft
 xinghuo.xfyun.cn##div[class*="download_btn"]
-xinghuo.xfyun.cn##div[class*="jump_btn"]:contains(下载APP)
+xinghuo.xfyun.cn#?#div[class*="jump_btn"]:contains(下载APP)
 xingkbjm.com##.d_textbanner
 xinhuanet.com##.adv-column2
 xinhuanet.com##.adv3
@@ -31486,6 +31489,7 @@ zzzyk.com###Tinfo
 ||beoofo.pairs.lv^
 ||bepartof.wechain.eu^
 ||beqioy.promessedefleurs.com^
+||beqnnobwt.com^
 ||berg-6-82.com^$third-party
 ||berjzj.xyz^
 ||berliner-stadtplan.com/t.gif
@@ -38563,6 +38567,7 @@ zzzyk.com###Tinfo
 ||drjs123.com^
 ||drlzlc.top^
 ||drmcmm.baidu.com^
+||drohlaneh.com^
 ||drollwharf.com^
 ||drom.ru/dummy.
 ||drop.com/impressionsBeacon
@@ -40738,6 +40743,7 @@ zzzyk.com###Tinfo
 ||eurotax-sk.autovistagroup.com^
 ||eurotaxsrbija-si.autovistagroup.com^
 ||eusdbk.philosophyofficial.com^
+||ev.mmin.io/ping
 ||ev.moneymade.io^
 ||ev.stellarlabs.ai^
 ||ev.tpocdm.com^
@@ -45616,6 +45622,7 @@ zzzyk.com###Tinfo
 ||hruoxg.5vorflug.de^
 ||hrutvncu.top^
 ||hruyiq.auction.co.kr^
+||hrwbeqv.icu^
 ||hrwgsq.loesdau.de^
 ||hrzn-nxt.com/pxl?
 ||hs-analytics.net^
@@ -49321,6 +49328,7 @@ zzzyk.com###Tinfo
 ||journey.cisco.com^
 ||journeys.journeyed.com^
 ||journity.com^$third-party
+||jovcbp.top^
 ||jowkkzx.icu^
 ||jowtkv.vertbaudet.de^
 ||joy.ochronus.online^
@@ -50264,6 +50272,7 @@ zzzyk.com###Tinfo
 ||kspl48j.xyz^
 ||kspotson.de^
 ||ksqfwxu.cn^
+||ksro.cn^
 ||kssolo.com^
 ||kstj.baidu.com^
 ||ksylied.top^
@@ -52789,6 +52798,7 @@ zzzyk.com###Tinfo
 ||lu228.com/ajs/
 ||luaqlg.blissy.com^
 ||lub-links.eyecue.io^
+||lubrzh.top^
 ||lucanet.actonservice.com^
 ||lucid.mjhassoc.com^
 ||lucida.su/api/event
@@ -58827,6 +58837,7 @@ zzzyk.com###Tinfo
 ||nkarmh.jmbullion.com^
 ||nkbpft.xyz^
 ||nkdgnsfsk.com^
+||nkdyzf.com^
 ||nkjkvn.xyz^
 ||nkothz.duskin.jp^
 ||nkqxyn.misterspex.co.uk^
@@ -81105,6 +81116,7 @@ zzzyk.com###Tinfo
 ||vqbidy.benetton.com^
 ||vqbzpv.xyz^
 ||vqjacf.mauriziocollectionstore.com^
+||vqle.cn^
 ||vqlwoy.xyz^
 ||vqp3.madeindesign.co.uk^
 ||vqpque.eloan.co.jp^
