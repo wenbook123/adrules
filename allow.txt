@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: L0QkO9jePUVW5Cge1cmEXA
+! Checksum: NfQRqRi9C04ciCaZRa/5zQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-05-02 09:09:16（北京时间） 
-! Total count: 15233
+! Version: 2025-05-02 16:23:38（北京时间） 
+! Total count: 15244
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -584,6 +584,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgt.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -2028,6 +2029,8 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$contentdc-modal-is-locked > body.dc-layout--modal-active[style="padding-right: 17px;"] > .dc-modal-wrapper.dc-modal-is-opened > .dc-modal--site-facebook-like { display: none!important; }
+@@||apotheken-umschau.de$contentgrid.com,gazeteduvar.com.tr#@#.social-block
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -3418,6 +3421,7 @@
 @@||cdn.privacy-mgmt.com/mms/$domain=weather.com
 @@||cdn.privacy-mgmt.com/mms/$xmlhttprequest,domain=ccpa-notice.sp-prod.net
 @@||cdn.privacy-mgmt.com/mms/choice_select
+@@||cdn.privacy-mgmt.com/mms/v2/get_site_data$domain=aamulehti.fi
 @@||cdn.privacy-mgmt.com/mms/v2/get_site_data$domain=athlonsports.com
 @@||cdn.privacy-mgmt.com/mms/v2/get_site_data?$domain=discover.hubpages.com
 @@||cdn.privacy-mgmt.com/mms/v2/get_site_data?$domain=gamesradar.com
@@ -3432,6 +3436,7 @@
 @@||cdn.privacy-mgmt.com/unified/*/ccpa.*.bundle.js$domain=tomsguide.com
 @@||cdn.privacy-mgmt.com/unified/*/gdpr-tcf.*.bundle.js
 @@||cdn.privacy-mgmt.com/unified/*/usnat-uspapi.*.bundle.js$domain=gamesradar.com
+@@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=aamulehti.fi
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=athlonsports.com
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=businessinsider.com
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=discover.hubpages.com
@@ -3913,6 +3918,7 @@
 @@||client.axept.io/*.json$domain=welcometothejungle.com
 @@||client.axept.io^$domain=welcometothejungle.com
 @@||client.crisp.chat^$domain=journey.cloud
+@@||client.crisp.chat^$domain=journey.cloud|aa.net.uk
 @@||client.crisp.chat^$domain=support.aftership.com
 @@||client.falixnodes.net^$generichide
 @@||clientconfig.passport.net^
@@ -5838,7 +5844,6 @@
 @@||freebcc.org^$ghide
 @@||freebitco.in^$generichide
 @@||freebitcoin.win/static/deliver_ads/popunder_moon_ads_*.js$~third-party
-@@||freebitcoin.win/static/deliver_ads/s
 @@||freebitcoin.win^$ghide
 @@||freecodecamp.org^$generichide
 @@||freecourseweb.com^$ghide
@@ -10071,7 +10076,7 @@
 @@||omggamer.com/porpoiseant/banger.js
 @@||omniplex.ie/script/modules/cookiecuttr.js$~third-party
 @@||omniture.walmart.com^|
-@@||omniture.walmart.com^|x.com^
+@@||omniture.walmart.com^||analytics.test.cheggnet.com^
 @@||omniva.ee/ext/js/eu_cookies.js
 @@||omns.americanexpress.com/b/ss/
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
@@ -11141,6 +11146,8 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamndeed.com/viewjob^$removeparam=vjs
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam||stacksocial.com^$removeparam=rid
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11568,6 +11575,10 @@
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseau.ovation.ca/_scripts/cookie-banner.js
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.js#%#//scriptlet('set-attr', 'iframe[data-lazy-src]:not([src^="http"])', 'src', '[data-lazy-src]')
+@@||reseguiden.se^*.siteCatalyst.jsequity.com$image
+@@||reseguiden.se^*.siteCatalyst.jsgency.it$image
+@@||reseguiden.se^*.siteCatalyst.jslert_ids%$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14972,10 +14983,10 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide "document.createElement", "/\/main\.js[\s\S]*?document\?document:null/")
-@@||xfreehd.com^$generichideissues/102928
-@@||xfreehd.com^$generichidet.getElementsByTagName', '/antiAdBlock|adblock/')
-@@||xfreehd.com^$generichideton.com,centredaily.com,charlotteobserver.com,cleaner.com,cults3d.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com,weekand.com##.zone
+@@||xfreehd.com^$generichide.net/dfp"]:only-child)
+@@||xfreehd.com^$generichidebenjaminmedia.com^
+@@||xfreehd.com^$generichideeachertube.com#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "|kcolbdakcolb|")
+@@||xfreehd.com^$generichidescriptlet("prevent-addEventListener", "load", "adblock")
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
