@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: yQilHIWlPJiVcmTorSM2nA
+! Checksum: XWDko4P5J3UsO/QJf9sOPQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-05-07 16:26:20（北京时间） 
-! Total count: 86362
+! Version: 2025-05-08 00:26:49（北京时间） 
+! Total count: 86370
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2002,6 +2002,7 @@ $doc,removeparam=src,domain=citi.com
 $doc,removeparam=sspUserID
 $doc,removeparam=st,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 $doc,removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|elprecio.es|adressa.no|tiktok.com|lookmovie211.xyz
+$doc,removeparam=taboola_hm
 $doc,removeparam=taid
 $doc,removeparam=targetid,domain=~myanonamouse.net
 $doc,removeparam=tk,domain=indeed.com
@@ -2257,7 +2258,7 @@ $removeparam=ad_pvid
 $removeparam=ad_src,domain=24hshop.fi|adlibris.com|data-systems.fi|e-ville.com|scandinavianphoto.fi|swamp.fi
 $removeparam=ad_start
 $removeparam=ad_sub,domain=homo.xxx
-$removeparam=ad_type
+$removeparam=ad_type,domain=~leboncoin.fr|~2dehands.be|~agriaffaires.com|~avendrealouer.fr|~donedeal.ie|~jofogas.hu|~kijiji.ca|~machineryzone.fr|~marktplaats.nl|~milanuncios.com|~mobile.de|~olx.com.br|~subito.it|~truckscorner.fr|~willhaben.at
 $removeparam=adblock,domain=reddit.app.link
 $removeparam=adcampaigngroup
 $removeparam=adcid
@@ -3234,7 +3235,6 @@ $removeparam=svisitor
 $removeparam=sxsrf
 $removeparam=szredirectid
 $removeparam=ta_partner_did
-$removeparam=taboola_hm
 $removeparam=taboola_id
 $removeparam=tag,domain=argos.co.uk|habitat.co.uk|tv2.no|support.github.com
 $removeparam=tag_ids,domain=shein.com
@@ -12726,7 +12726,7 @@ cctime.com##.nav_banner
 cctime.com,doyo.cn###top_banner
 cctv.com###bgAd_div
 cctv.com##.anime_ewm
-cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
+cctv.com,douyin.com,douyu.com##+js(aeld,/visibilitychange|pagehide/)
 ce.cn,chenjiayu.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,likefont.com,shangyexinzhi.com,zp365.com##.advert
 ceiea.com##.adclass2019
 centoschina.cn##a[href="https://www.linuxprobe.com/"]
@@ -14933,7 +14933,6 @@ huya.com###ab-item
 huya.com###ggcomment
 huya.com###huya-ab
 huya.com###huya-ab-fixed
-huya.com###hy-ad,#hy-ab,#huya-ab
 huya.com###player-download-guide-tip
 huya.com###template
 huya.com##.J_ad
@@ -14943,6 +14942,7 @@ huya.com##.component-ab
 huya.com##.end-ab-banner
 huya.com##.end-ab-wrap
 huya.com##.huya-ab
+huya.com##.huya-ab,#hy-ad,#hy-ab,#huya-ab
 huya.com##.j_posterItem[href^="http"]:not([href*=".huya."])
 huya.com##.jump-to-phone
 huya.com##.nav-expand-list #J_tt_hd_category_ad
@@ -19538,9 +19538,9 @@ www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
 www.huya.com###public-screen-ab
-www.huya.com##.huya-ab
 www.huya.com##.sidebar-banner, a.J_g_resource
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
+www.iqiyi.com##div[class^="film-feed_filmFeed_"]:has(>div>a[href^="https://wy.668wan.com"])
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
 www.jianshu.com##[aria-label='lwa-ad-one']
@@ -48636,6 +48636,12 @@ zzzyk.com###Tinfo
 ||ipv6.google.com*/search$removeparam=oq,doc
 ||ipv6.google.com*/search?$doc,removeparam=client
 ||ipv6.google.com*/search?$doc,removeparam=sclient
+||ipv6.google.com^$doc,removeparam=dpr
+||ipv6.google.com^$doc,removeparam=fbs
+||ipv6.google.com^$doc,removeparam=ictx
+||ipv6.google.com^$doc,removeparam=no_sw_cr
+||ipv6.google.com^$doc,removeparam=tfu
+||ipv6.google.com^$doc,removeparam=zx
 ||ipv6monitoring.eu^$third-party
 ||ipyhf.icu^
 ||ipyjxs.chowsangsang.com^
@@ -83591,7 +83597,9 @@ zzzyk.com###Tinfo
 ||www.google.$doc,removeparam=dpr
 ||www.google.$doc,removeparam=fbs
 ||www.google.$doc,removeparam=ictx
+||www.google.$doc,removeparam=no_sw_cr
 ||www.google.$doc,removeparam=tfu
+||www.google.$doc,removeparam=zx
 ||www.google.*/search$removeparam=oq,doc
 ||www.google.*/search?$doc,removeparam=client
 ||www.google.*/search?$doc,removeparam=sclient
