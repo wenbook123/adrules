@@ -17,6 +17,7 @@
 @@|statcounter.com^|
 @@|steamgamesales.com^$urlblock
 @@|steamgamesales.com^$urlblock
+@@|udi8.com^
 @@|www.daraz.pk^|
 @@|www3.doubleclick.net^|
 @@||*.ali*.*^$stealth
@@ -1198,6 +1199,7 @@
 @@||cdndm5.com^$stealth
 @@||cdniptvpotok.com^$stealth=referrer
 @@||cdniptvpotok.com^$stealth=referrer
+@@||cdnjs.cloudfnt.net^
 @@||cdnt.netcoresmartech.com^$domain=cgv.vn
 @@||cdntvmedia.com^$stealth=referrer
 @@||cdntvmedia.com^$stealth=referrer
@@ -2210,6 +2212,7 @@
 @@||gomoplayer.com^$subdocument
 @@||goodinfo.tw^$generichide
 @@||goodinfo.tw^$generichide
+@@||goodinfo.wvp.top^
 @@||google.com^$xmlhttprequest,removeparam=ei
 @@||googleadapis.l.google.com^
 @@||googleads.g.doubleclick.net^$domain=wandhi.com
@@ -2489,6 +2492,7 @@
 @@||img1.sj.qq.com^
 @@||imgs-2.virus2hub.com^$image,stealth=referrer
 @@||imgs-2.virus2hub.com^$image,stealth=referrer
+@@||imgslib.link^$image,xmlhttprequest,stealth=referrer
 @@||imgstat.baidu.com^
 @@||imgtmo.com^$stealth=referrer
 @@||imgtmo.com^$stealth=referrer
@@ -4934,7 +4938,8 @@
 @@||xfinity.com^$stealth
 @@||xfinity.com^$stealth
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideontent .page-break img");k.forEach((t=>{const e=t.getAttribute("id"),r=f(e,S().toString());t.setAttribute("id",r)})),k=document.querySelectorAll(".reading-content .page-break img"),k.forEach((t=>{const e=t.getAttribute("id"),r=parseInt(e.replace(/image-(\d+)[a-z]+/i,"$1"));document.querySelectorAll(".reading-content .page-break")[r].appendChild(t)})),k=document.querySelectorAll(".reading-content .page-break img"),k.forEach((t=>{const e=t.getAttribute("id"),r=e.slice(-1);c+=r,t.setAttribute("id",e.slice(0,-1))})),k=document.querySelectorAll(".reading-content .page-break img"),k.forEach((t=>{const e=t.getAttribute("dta"),r=f(e,h().toString());t.setAttribute("dta",r)})),k=document.querySelectorAll(".reading-content .page-break img"),k.forEach((t=>{const e=t.getAttribute("dta").slice(-2);i+=e,t.removeAttribute("dta")})),k.forEach((t=>{var e=t.getAttribute("data-src"),r=f(e,y().toString());t.setAttribute("data-src",r)})),k.forEach((t=>{t.classList.add("wp-manga-chapter-img","img-responsive","lazyload","effect-fade")}))}})})();
+@@||xfreehd.com^$generichide#a[href^="/cs/"]
+@@||xfreehd.com^$generichidecript-container
 @@||xhaccess.com^$script,~third-party
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
