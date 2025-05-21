@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: W6JIX8JMQ1LZAaKyoM06eA
+! Checksum: KP6jRY/gI03Cal+gVLX9gg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-05-21 16:23:53（北京时间） 
-! Total count: 86299
+! Version: 2025-05-22 00:21:44（北京时间） 
+! Total count: 86301
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9584,6 +9584,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@.jpg#$domain=huhupan.com
 @@.php?id=$script,domain=surirt.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
+@@/Netaxept.jsp?$removeparam
 @@/WebAd/*$domain=yongyoujia.com
 @@/^https?:\/\/([a-z0-9-\.])*(chat|drive)\.google\.com\/videoplayback/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?(cloudflare\.com|prismic\.io|tangerine\.ca|gitlab\.com)/$removeparam
@@ -10465,7 +10466,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com|tw.buy.yahoo.com
 @@||geoip-db.com/jsonp/$script,third-party
-@@||geoip.radio-canada.ca/geoip.js$script,domain=ici.radio-canada.ca
 @@||geolocation-db.com/json/$domain=admanager.line.biz
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
@@ -11178,6 +11178,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||scyts.com^$generichide
 @@||sdc.pingan.com^$~image
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
+@@||secure.kps-payment.de^$removeparam
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
 @@||securepubads.g.doubleclick.net/gpt/pubads$domain=line.me
@@ -17133,6 +17134,8 @@ natgeomedia.com##div[id^="AD-970x250"]
 natgeomedia.com,setn.com,eprice.com.tw##div[class^="ad-"]
 nb.zol.com.cn##.article-cont > div.zol-eshop
 nba.hupu.com##div[class^="nba-ad"]
+ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
+ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 ncnews.com.cn##div[id^="ban"]
 ncno1.playno1.com##.eis_box_s > div:first-child
 nczsks.com###downyxjs
@@ -43059,7 +43062,6 @@ zzzyk.com###Tinfo
 ||geoip.ifunny.co^
 ||geoip.instiengage.com^
 ||geoip.nekudo.com^
-||geoip.radio-canada.ca^
 ||geoiplookup.io^$third-party
 ||geolid.com^$third-party
 ||geolocation-db.com^$third-party
@@ -58558,7 +58560,7 @@ zzzyk.com###Tinfo
 ||ncadvertiser.com/413gkwMT/init.js
 ||ncaudienceexchange.com^$third-party
 ||ncbabz.hometogo.co.uk^
-||ncbi.nlm.nih.gov/core/pinger
+||ncbi.nlm.nih.gov/core/pinger/pinger.js
 ||ncc.nip-col.jp^
 ||nccaf.ncc-mens.com^
 ||nccer.actonservice.com^
