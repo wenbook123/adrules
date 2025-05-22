@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Y92fIDyCDQF07v6t0G5MPg
+! Checksum: vhphD8ISG58ldrk7Z6UZ4Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-05-22 16:22:30（北京时间） 
-! Total count: 15292
+! Version: 2025-05-23 00:21:31（北京时间） 
+! Total count: 15298
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -386,6 +386,7 @@
 @@/play.php?$stealth=referrer,domain=netlivetv.xyz
 @@/player/*$stealth=referrer,domain=ibomma.*
 @@/playlist.m3u8$stealth=referrer
+@@/playlist.m3u8$stealth=referrer|ip
 @@/playlist/*caxi.m3u8$xmlhttprequest,stealth=referrer,domain=methstreamer.com|crackstreamer.net|thestreameast.ai|1stream.soccer|streameast.app|1stream.eu|buffstreams.app|meth-streams.ai
 @@/playstream/*/embed*.php$xmlhttprequest,stealth=referrer,domain=playstream.site
 @@/playstream/*/event.php$xmlhttprequest,stealth=referrer,domain=playstream.site
@@ -589,7 +590,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgelles.fr^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||osvdtm.theshopyohjiyamamoto.jp^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -845,6 +846,7 @@
 @@||a.applovin.com^$app=ac.hush.app
 @@||a.bf-ad.net/makabo/ads_fol_init.js$domain=chip.de
 @@||a.bf-ad.net/makabo/ads_fol_init.js$script,domain=chip.de
+@@||a.delivery.consentmanager.net/delivery/cmp.php$domain=nwzonline.de
 @@||a.fsdn.com/con/js/sftheme/cmp2.js$script,domain=m.slashdot.org
 @@||a.fsdn.com/sd/js/scripts/ad.js
 @@||a.klaviyo.com/consent-pages/client/$xmlhttprequest
@@ -2039,6 +2041,8 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$contentng
+@@||apotheken-umschau.de$contenttranslate.yandex.*###shareContent
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -4404,7 +4408,7 @@
 @@||consentmanager.net^$domain=gutefrage.net
 @@||consentmanager.net^$domain=parkerlebnis.de
 @@||consentmanager.net^$domain=well.pl
-@@||consentmanager.net^$script,subdocument,domain=bauhaus.se|bluray-disc.de|cyberport.at|cyberport.de|dailybuzz.nl|dw.com|eat.de|empfohlen.de|lippu.fi|mediaite.com|morgenpost.de|racingnews365.com|spar.hu|teslamag.de|test.de|testerup.com|vaterland.li|vijesti.hrt.hr|vkmag.com|webfail.com|winfuture.de
+@@||consentmanager.net^$script,subdocument,domain=bauhaus.se|bluray-disc.de|cyberport.at|cyberport.de|dailybuzz.nl|dw.com|eat.de|empfohlen.de|lippu.fi|mediaite.com|morgenpost.de|nwzonline.de|racingnews365.com|spar.hu|teslamag.de|test.de|testerup.com|vaterland.li|vijesti.hrt.hr|vkmag.com|webfail.com|winfuture.de
 @@||consents.usercentrics.eu/consent*?controllerId=$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||consilium.europa.eu/assets/chunk/cookie-banner.js$~third-party
 @@||console.cloud.google.com^$generichide
@@ -9039,6 +9043,7 @@
 @@||lsi.com^*/google-analytics.js
 @@||lso.ca^$stealth=dpi
 @@||lswcdn.net^$stealth=referrer
+@@||ltv.lsm.lv/embed?$stealth=ip
 @@||ltzn.9377.com^
 @@||luluvdo.com^$stealth=useragent
 @@||luminalearning.com/affiliate-content/$image,~third-party
@@ -10871,6 +10876,7 @@
 @@||player.avplayer.com/script/*/libs/hls.min.js$domain=sportbible.com
 @@||player.avplayer.com/script/2/v/avcplayer.js$domain=adnkronos.com
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
+@@||player.backscreen.com^$stealth=ip
 @@||player.clevercast.com/players/video-js/video-js-plugins/videojs.ads.min.js
 @@||player.clevercast.com/players/video-js/video-js-plugins/videojs.ads.min.js$script,1p
 @@||player.enetres.net/js/videojs-plugins/videojs-ads-contrib/videojs.ads.js
@@ -11188,7 +11194,8 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamp%3Butm_campaign
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamm=visitor_status
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamrequest,removeparam=/cdt|ref/
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11617,8 +11624,7 @@
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseau.ovation.ca/_scripts/cookie-banner.js
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsjp^
-@@||reseguiden.se^*.siteCatalyst.jsrizon.news.discovery.com$image
+@@||reseguiden.se^*.siteCatalyst.jse
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -15032,9 +15038,9 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideak.*,swoodoo.com##div.YTRJ[role="button"][tabindex="0"] > .yuAt-pres-rounded
-@@||xfreehd.com^$generichided.pro,sexvid.xxx##.player-sponsor
-@@||xfreehd.com^$generichideues.in###right_level_8
+@@||xfreehd.com^$generichide="display:flex;font-size:14px;margin-top:30px;margin-bottom:5px"] + .py-8
+@@||xfreehd.com^$generichidemehtyfe.com^
+@@||xfreehd.com^$generichiderd-party,domain=fembed-hd.com,badfilter
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
