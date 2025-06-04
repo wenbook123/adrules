@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: xf2R0NZlrvySEnUBkbXzbA
+! Checksum: G/zvJnHWHPUiATzX/ZUNnA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-06-04 09:11:43（北京时间） 
-! Total count: 86586
+! Version: 2025-06-04 16:23:21（北京时间） 
+! Total count: 86602
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -756,6 +756,7 @@
 ##.headxx11xiaoapp
 ##.heg > .div-list
 ##.heg > .partner-list
+##.hidden-text + .ad-container
 ##.his-sign-cont[data-dysign-adid]
 ##.hlol_ad
 ##.homepage > .wp-none1
@@ -1741,7 +1742,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 $csp=script-src 'self' * 'unsafe-inline',domain=haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jubiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|2dsk.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
 $csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 $csp=script-src 'self' * 'unsafe-inline',domain=yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
-$csp=script-src 'self' *,domain=wuwxs.com|biquge678.com|biqugezw.us|zk01.net
+$csp=script-src 'self' *,domain=qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us|zk01.net
 $doc,domain=bilibili.com|querie.me,removeparam=timestamp
 $doc,domain=youtube.com,removeparam=embeds_referring_origin
 $doc,removeparam=/^.*affcid.*$/i
@@ -13569,6 +13570,8 @@ douban.com##.bottom_ad_download
 douban.com##.channel_promo
 douban.com##.lnk-doubanapp
 douban.com##.rec_topics_name[href^="https://erebor.douban."]
+douban.com##IFRAME[width='315']
+douban.com##div.center [style*='padding: 4px;']
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
 douban.com#@#.download-ad
 doubibackup.com##.widgetRoller
@@ -16463,7 +16466,6 @@ m.douban.com##.write-comment
 m.douban.com##.write-review
 m.douban.com##[href^="https://erebor.douban.com/monitor/"]
 m.douban.com##div.center > div
-m.douban.com##div.center [style*='padding: 4px;']
 m.douban.com##h2 > [href^="https://www.douban.com/doubanapp/card/get_app"]
 m.douban.com#?#a:contains(用App看更多)
 m.douban.com#?#div:matches-css(width:68px)
@@ -20737,6 +20739,7 @@ zzzyk.com###Tinfo
 ||1990tu.com/i/*.png
 ||1990tu.com^$third-party
 ||1999019.com^
+||19o8hzj117.com^
 ||1a715b8q5m3j.www.logology.co^
 ||1abzar.ir/abzar/tools/stat/
 ||1amehwchx31.bloxdhop.io^
@@ -21431,6 +21434,7 @@ zzzyk.com###Tinfo
 ||59gt.cn^
 ||5axxw.com/extends/ad/
 ||5brxi.icu^
+||5d7k30pv1u.com^
 ||5dm.link/html/20240*.gif
 ||5dm.tv/html/5dmm.jpg
 ||5dmail.net/image/$object
@@ -28520,6 +28524,7 @@ zzzyk.com###Tinfo
 ||analytics.praetor.im^$third-party
 ||analytics.prezly.com^
 ||analytics.productreview.com.au^
+||analytics.pyksid.com^
 ||analytics.qogita.com^
 ||analytics.qualcomm.com^
 ||analytics.qualityquestions.co^
@@ -35811,6 +35816,7 @@ zzzyk.com###Tinfo
 ||cpb.esprit.*/91405.js
 ||cpbl-elta.cdn.hinet.net/web/images/ad_
 ||cpcmanager.com^$third-party
+||cpglqg.icu^
 ||cpgo.avatacar.com^
 ||cpihrinfo.cpihr.com^
 ||cpiibb.top-office.com^
@@ -37523,6 +37529,8 @@ zzzyk.com###Tinfo
 ||dealmoon.com/hotdeals/hotdeals_scroller.php
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||dealnews.com/lw/ul.php
+||debales.ai/api/analytic/
+||debales.ai/ingest/
 ||debjpy.globoshoes.com^
 ||debonairdust.com^
 ||debonairtree.com^
@@ -37599,6 +37607,7 @@ zzzyk.com###Tinfo
 ||deezer.com/ajax/gw-light.php?method=triton.pixelTracking&
 ||deezer.com^$removeparam=deferredFl
 ||def.bayer04.de^
+||def2g1kz2t.top^
 ||defeatedbadge.com^
 ||defensevest.com^
 ||defygravity.convio.com^
@@ -59889,6 +59898,7 @@ zzzyk.com###Tinfo
 ||ok-11-cai.cc^
 ||ok.ru/dk?cmd=videoStatNew
 ||ok5.fun^
+||ok5xe6r7o.top^
 ||okbd2ou.icu^
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
@@ -61341,6 +61351,7 @@ zzzyk.com###Tinfo
 ||petametrics.com^$image,third-party,xmlhttprequest
 ||pets.channeladvisor.com^
 ||pevftg.shopee.sg^
+||pevmdv.top^
 ||pevpbx.icu^
 ||pexels.com^*/sponsored-media/
 ||pexels.com^*/sponsored_
@@ -64780,6 +64791,7 @@ zzzyk.com###Tinfo
 ||runsky.com/phpstat/
 ||rup5.destinia.ru^
 ||ruqaks.com^
+||ruqneakyp.com^
 ||ruralrobin.com^
 ||rusnuiyu.com^
 ||rusticaula.com^
@@ -76318,6 +76330,7 @@ zzzyk.com###Tinfo
 ||titan007.com/news.aspx
 ||titan24.com/scripts/stats.js
 ||titomacia.net.anwalt.de^
+||titroikan.com^
 ||tittendestages.net.anwalt.de^
 ||tivan.naver.com^
 ||tivixv.nutribullet.com^
@@ -76881,6 +76894,7 @@ zzzyk.com###Tinfo
 ||tptoon.com/skin/js/tjtjkk.
 ||tptp002.cfd^
 ||tpubrk.eobuv.com^
+||tpuo.cn^
 ||tpvuxt.xyz^
 ||tpx.tesseradigital.com^
 ||tq.cn/floatcard?
@@ -83110,6 +83124,7 @@ zzzyk.com###Tinfo
 ||wizardbuck.com^
 ||wiztube.xyz/cdn-cgi/trace
 ||wj.jiancai365.cn^
+||wj9uod3838.com^
 ||wjimtye.top^
 ||wjssvg.descentekorea.co.kr^
 ||wjtekf.vidaxl.bg^
@@ -85415,6 +85430,7 @@ zzzyk.com###Tinfo
 ||yjnhkd.com^
 ||yjnhndt.com^
 ||yjnkas.com^
+||yjnlk.com^
 ||yjoyse.icu^
 ||yjpgxf.svsound.com^
 ||yjpzqw.jackjones.com^
