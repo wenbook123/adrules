@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: ZoSgHOSFY1h174Z+aPrxGg
+! Checksum: 5YNxab0lLGTJ2RyodSiZCA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-06-16 16:27:19（北京时间） 
-! Total count: 15107
+! Version: 2025-06-17 00:21:51（北京时间） 
+! Total count: 15115
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|godstoryinfo.com|laweducationinfo.com|rsfinanceinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -579,8 +579,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.backtest.io^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtrk.cz.business.westernunion.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -2011,6 +2009,9 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$content { overflow: visible!important; }
+@@||apotheken-umschau.de$contentt.pl,fakt.pl##.socialButtons
+@@||apotheken-umschau.de$contentton
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -9601,6 +9602,7 @@
 @@||my.bmi.ir^$elemhide,jsinject
 @@||my.foxnews.com^$stealth=referrer
 @@||my.goabode.com/assets/js/fp2.min.js$script,~third-party
+@@||my.gumtree.com/login$stealth=1p-cookie
 @@||my.leadpages.net/template/$script,domain=weddingjams.com|thesaturdaypaper.com.au|careercontessa.com
 @@||my.leadpages.net^*/public/
 @@||my.minecraft.net/static/site/minecraft/privacy^
@@ -10947,6 +10949,7 @@
 @@||premid.app/ads/ads$xhr,1p
 @@||premid.app^$ghide
 @@||premium-link.ninja/js/blockadblock.js
+@@||premiumvideo.click/player*.php$stealth=referrer
 @@||preromanbritain.com/maxymiser/$~third-party
 @@||preview.editmysite.com^$stealth=referrer
 @@||prezzibenzina.it/www2/js/jquery.cookiebar.js$domain=prezzibenzina.it
@@ -11043,7 +11046,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamveparam=km_partner
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamo.co.jp^$removeparam=cpt_m
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11467,9 +11470,8 @@
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseau.ovation.ca/_scripts/cookie-banner.js
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js-mail.clearlink.com$image
+@@||reseguiden.se^*.siteCatalyst.js.smartchoiceus.com$image
 @@||reseguiden.se^*.siteCatalyst.jsimage
-@@||reseguiden.se^*.siteCatalyst.jsndhome.com$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13449,6 +13451,7 @@
 @@||theglobeandmail.com^$stealth=referrer
 @@||thehackernews.com/images^
 @@||thehansindia.com/xhr/
+@@||thehous
 @@||thehouseofportable.com^$generichide
 @@||them4ufree.com/*/player.php?$popup
 @@||themarker.com/htz/js/advertisement.js
@@ -13958,6 +13961,7 @@
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 @@||union.video.qq.com/fcgi-bin/data?$script
 @@||unique-tutorials.info^$generichide
+@@||united.uimserv.net/*tagid$domain=web.de|gmx.net|gmx.at|gmx.ch|glet("set-constant", "adblockDetector", "noopFunc")
 @@||united.uimserv.net/*tagid$domain=web.de|gmx.net|gmx.at|gmx.ch|gmx.com
 @@||universal.wgplayer.com/tag/$script,domain=supergames.com
 @@||universalfreecourse.com/ads-prebid.js
@@ -14850,8 +14854,12 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide0563
-@@||xfreehd.com^$generichideeam/AdguardFilters/issues/29759
+@@||xfreehd.com^$generichide#.ad_img
+@@||xfreehd.com^$generichide("/intro-mm"))for(var c=document.cookie.split(";"),b=0;b<c.length;b++){var a=c[b];a=a.split("=");"redirect_url_to_intro"==a[0]&&window.location.replace(decodeURIComponent(a[1]))}})();
+@@||xfreehd.com^$generichide-300-250
+@@||xfreehd.com^$generichidem
+@@||xfreehd.com^$generichidendlesscobwebmiller.com^
+@@||xfreehd.com^$generichidesets.genius.com/javascripts/compiled/reactAds.*.js
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
