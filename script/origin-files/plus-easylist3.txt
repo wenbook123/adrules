@@ -1076,6 +1076,16 @@ community.fortinet.com##+js(remove-cookie, /LithiumVisitor|ValueSurveyVisitorCou
 camhub.cc,heavyfetish.com,kissjav.*,severeporn.com,shemale6.com,watchporn.to##+js(cookie-remover, kt_ips)
 ! cxense.com
 bizjournals.com,businessinsider.de,computerbild.de##+js(remove-cookie, /^(_pc|cX_)/, when, scroll keydown)
+elconfidencial.com,journaldemontreal.com##+js(remove-cookie, /_pcid|_pctx|amp_|cX|incap/, when, scroll keydown)
+elconfidencial.com,journaldemontreal.com##+js(set-local-storage-item, /amplitude|lastUtms|gaAccount|cX|_ls_ttl/, $remove$)
+elconfidencial.com,journaldemontreal.com##+js(set-session-storage-item, _cX_S, $remove$)
+elconfidencial.com,journaldemontreal.com##+js(norafif, cX_atfr)
+||api.cxense.com/public/widget/data?$removeparam=experienceId
+||api.cxense.com/public/widget/data?$removeparam=experienceActionId
+||api.cxense.com/public/widget/data?$removeparam=sid
+||api.cxense.com/public/widget/data?$removeparam=trackingId
+||api.cxense.com/public/widget/data?$removeparam=tzo
+||api.cxense.com/public/widget/data?$removeparam=widgetId
 ! adobedtm.com
 bizjournals.com##+js(remove-cookie, /^AMCVS?_/)
 ! disqus.com
@@ -1951,6 +1961,13 @@ mediamarkt.de##+js(aopw, ftr__startScriptLoad)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/29042
 ||swatalk.com/wp-admin/admin-ajax.php?action=bill_minozzi_js_error_catched
+
+! https://massagechairs.com/
+||ob.*.com/i/*.js|$script,3p,domain=apothekenaratgeber.com|apothekenaratgeber.de|massagechairs.com
+/^https:\/\/ob\.[a-z]{8,}\.com\/i\/[a-f0-9]{32}\.js$/$script,3p,match-case,to=com
+!#if env_safari
+/^https:\/\/ob\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]*\.com\/i\/[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]\.js$/$script,3p,match-case
+!#endif
 
 ! Merge in resource-abuse.txt
 !#include resource-abuse.txt
