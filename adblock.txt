@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: SDQAHR5laChB3Mz2oKkHZw
+! Checksum: hricnvzk1pZH3if/Q0yZTA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-07-08 09:13:20（北京时间） 
-! Total count: 86815
+! Version: 2025-07-08 16:24:51（北京时间） 
+! Total count: 86830
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -17221,7 +17221,10 @@ news.china.com.cn##.Wrapper > div[style]
 news.cn2che.com##.banner01
 news.cnyes.com##.content-main > div:empty
 news.cnyes.com##.content-main > div:has(> div[id^="div-gpt-"])
+news.cnyes.com##.content-main > div[class]:has(div[id^="div-gpt-ad-"])
+news.cnyes.com##.section-aside-wrapper ~ div[class] > a[title] ~ div[class]:not([title])
 news.cnyes.com##article > div:has(> div[id^="div-gpt-"])
+news.cnyes.com##div[id^="desktop-ad-card-"]
 news.ebc.net.tw###marquee-box
 news.ebc.net.tw##.fncnews-content > div.raw-style > div > p > a[href]
 news.ebc.net.tw##.inline_text.has_marker
@@ -19111,6 +19114,7 @@ tw.news.yahoo.com##.caas-body > .caas-iframe-wrapper > .flourish
 tw.news.yahoo.com##div[data-google-query-id]
 tw.news.yahoo.com##div[id^="sda-"]
 tw.news.yahoo.com##li[id^="ad-"]
+tw.news.yahoo.com,tw.stock.yahoo.com##iframe[src^="https://tw.buy.yahoo.com/smartbanner/"]
 tw.nextapple.com##[class^="na-ad-"]
 tw.nextapple.com##[id^="lrec"]
 tw.stock.yahoo.com###ysmcm
@@ -19331,6 +19335,8 @@ vmall.com#@#.iframeAd
 vmvps.com###long_image
 vmvps.com##.spbox
 voachinese.com##.slide-in-wg
+vocus.cc##article > div[style^="min-height:"]:empty
+vocus.cc##article > div[style^="min-height:"]:has(> div[class^="sc-"] > div[class^="sc-"] > ins[data-rmax-space-id])
 vod1769.com##.banner_img
 vod1769.com##div[id^="a"]
 volcore.xyz##.avd1
@@ -33803,6 +33809,7 @@ zzzyk.com###Tinfo
 ||cdn7.baunetz.de^
 ||cdn77.org^*.mp4$badfilter
 ||cdn77.org^*.mp4|
+||cdn77.org^*.mp4|$badfilter
 ||cdn93d99x0e.23bei.com^
 ||cdncg.com^*/Aepku
 ||cdncg.com^*/FCPXku.
@@ -42045,6 +42052,8 @@ zzzyk.com###Tinfo
 ||fiu07060kl.com^
 ||fiu07061kl.com^
 ||fiu07070kl.com^
+||fiu07071kl.com^
+||fiu07080kl.com^
 ||fiverr.com/api/v1/activities
 ||fiverr.com/px/client/PXK3bezZfO/main.min.js
 ||fiverr.com^$removeparam=afp
@@ -42771,6 +42780,7 @@ zzzyk.com###Tinfo
 ||fuoo1.top^$third-party
 ||fuooms.aetrex.com^
 ||fup5qxstgi.com^
+||fuq3sve1gj.com^
 ||furlhp.kango.mynavi.jp^
 ||furnishings.bellacor.com^
 ||furnituredl.istaging.co^
@@ -45483,6 +45493,7 @@ zzzyk.com###Tinfo
 ||hgiafe.site^
 ||hgjjk45.com^
 ||hgjxp.cn^
+||hgk0mu8irw.com^
 ||hgkzl.cn^
 ||hglm.com^
 ||hgo06041uyi.com^
@@ -48777,6 +48788,7 @@ zzzyk.com###Tinfo
 ||iplt20.com^$doc,removeparam=tagNames
 ||ipm.atm.youku.com^
 ||ipmeta.io^$third-party
+||ipmsqu.icu^
 ||ipn-app.hotdoc.com.au^
 ||ipnoid.com^$third-party
 ||iporn.world/attachment/ad/
@@ -55485,6 +55497,7 @@ zzzyk.com###Tinfo
 ||mb.gulongbbs.com^
 ||mb4a.com^$third-party
 ||mbaco.actonservice.com^
+||mbaedurr.com^
 ||mbainfo.ust.hk^
 ||mbalib.com/common/a_mbalib/
 ||mbbhij.mi-home.pl^
@@ -74344,6 +74357,7 @@ zzzyk.com###Tinfo
 ||suncanny.marvel.com^
 ||suncanny.marvelhq.com^
 ||sundaysky.com^$third-party
+||sunflowers66.top^
 ||suning.cn/javascript/sn_da/sa.js
 ||suning.cn^$domain=qianggou5.com
 ||suning.com/cpc/getCpcSearchDatasRev?
@@ -80149,7 +80163,7 @@ zzzyk.com###Tinfo
 ||tw-go.experian.com^
 ||tw.beanfun.com/bfweb/NEW/commonlogin
 ||tw.buy.yahoo.com/?z=
-||tw.buy.yahoo.com/smartbanner/$domain=tw.news.yahoo.com
+||tw.buy.yahoo.com/smartbanner/$domain=tw.news.yahoo.com|tw.stock.yahoo.com
 ||tw.cx^
 ||tw.jav321.com^$popup,domain=ucptt.com
 ||tw.live/assets/images/fsk-0*.webp
@@ -81616,6 +81630,7 @@ zzzyk.com###Tinfo
 ||varys.asongofzandc.xyz^
 ||vast.com/vimpressions.js$third-party
 ||vast.doublemax.net/adserver/vast.xml$script,xmlhttprequest,other,redirect=noopvast-2.0
+||vasz.cn^
 ||vatrack.hinet.net^
 ||vaxgyly.cn^
 ||vaykjwn.top^
