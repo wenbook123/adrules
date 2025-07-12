@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: y4+WfGw1GpD4zh3sJxrY0A
+! Checksum: 652ENqwL8I7iAfHcYa1R2Q
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-07-12 09:16:13（北京时间） 
-! Total count: 86868
+! Version: 2025-07-12 16:20:59（北京时间） 
+! Total count: 86892
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4422,6 +4422,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /_xa/ads?
 /_xa/ads_
 /a.gif?
+/a/elevar/static/*
 /a/p?adid=
 /a/performance_timing/*
 /a8c-analytics.js
@@ -5991,6 +5992,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /indexpc.html?agent=$popup,third-party
 /indextools.js
 /info/ads/*
+/init?*&fallbackUserId=
 /inline-pixel.js
 /inpl.measure.jssc
 /insales_counter.js?
@@ -6824,6 +6826,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /promo/impression?
 /promo/right_float_poster/image^$domain=litv.tv
 /propagate_cookie.php
+/providers/atLabel/load|
 /proxy.htm?id=
 /proxy.html?id=
 /proxy_top_banner_js.php
@@ -9532,6 +9535,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 =Ad_ZPlusGoods&
 =BAIDU_SSP_define&
 =SOGOU_WAP_SETJSONADSLOT&
+=aWQ9R1RNL*apiKey=$script,~third-party
+=aWQ9R1RNL*page=$script,~third-party
 =ad_top_slider&
 =adservice$removeparam=coid,domain=~radioreference.com|~finanzonline.bmf.gv.at
 =ajaxGetAds&type=
@@ -14869,6 +14874,10 @@ hk.on.cc##div[id^="google_div_"]
 hk.xfastest.com##.adv-side-wrap
 hk.xfastest.com##.adv_v2
 hk.yahoo.com##div[id^="my-ads"]
+hk.yahoo.com,tw.yahoo.com###fullbleed > div[data-content="廣告"]
+hk.yahoo.com,tw.yahoo.com##.ntk-list > .grid-item:has(> div[data-wf-benji-config])
+hk.yahoo.com,tw.yahoo.com##aside > div[id^="module-adgroup"]
+hk.yahoo.com,tw.yahoo.com##aside > div[id^="module-sponsoredad"]
 hk01.com###debug-0-ad-outer-container
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(.lazyload-wrapper > .js-ad-slot)
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(> div[class^="sc-"] > div[data-id="lazyload-placeholder"])
@@ -19121,14 +19130,10 @@ tw.stock.yahoo.com##tr:has(> td[valign="top"] > .geminiAd)
 tw.stock.yahoo.com#?#.news > div[class="bd quote"]:has(ul > li > .geminiAd)
 tw.yahoo.com###abu-live
 tw.yahoo.com###discount
-tw.yahoo.com###fullbleed > div[data-content="廣告"]
 tw.yahoo.com###tabTemplate
 tw.yahoo.com###util-top-promotion
-tw.yahoo.com##.ntk-list > .grid-item:has(> div[data-wf-benji-config])
 tw.yahoo.com##.travelads
 tw.yahoo.com##[class*="has-beacon-click"][data-wf-beacons^="https://*.gemini.yahoo.com/"]
-tw.yahoo.com##aside > div[id^="module-adgroup"]
-tw.yahoo.com##aside > div[id^="module-sponsoredad"]
 tw.yahoo.com##div[id^="applet_p_"][class^="dealstdv2wafer"]
 tw100s.com##div[class="ui_adblock"]
 tw116.com###t365
@@ -20357,6 +20362,7 @@ zzzyk.com###Tinfo
 ||036e.cn^
 ||039nez.com^
 ||03asdf.com^
+||03t441b8w.com^
 ||042.cn/adver/
 ||0439.com/javascript.php?part=advertisement&
 ||0460.com/images/ad/
@@ -33968,6 +33974,7 @@ zzzyk.com###Tinfo
 ||chalkoil.com^
 ||challengeh.carte-gr.total.fr^
 ||chanalytics.merchantadvantage.com^
+||chanced112.com^
 ||change.org/api-proxy/-/bandit/pull
 ||change.org/api-proxy/-/et
 ||change.org/api-proxy/-/event_tracker
@@ -36260,6 +36267,8 @@ zzzyk.com###Tinfo
 ||customerlobby.com/ctrack-
 ||customerrelations.theinstitutes.org^
 ||customers-capitalbank-jo-877029.p06.elqsandbox.com^
+||customers.edgetag.io^
+||customers.xray-superpixel.com^
 ||customersucceed.nanophase.com^
 ||customfingerprints.bablosoft.com^
 ||customize.titanfactorydirect.com^
@@ -41644,6 +41653,8 @@ zzzyk.com###Tinfo
 ||falcon.pixnet.net/ad/
 ||falkenbergtorget.se/sc.gif?
 ||fallaciousfifth.com^
+||fallback.attntags.com^
+||fallback.emtag.net^
 ||faloo.com/ou/site/
 ||falsarywaybung.com^
 ||falseframe.com^
@@ -43465,6 +43476,7 @@ zzzyk.com###Tinfo
 ||getdev.payso.ca^
 ||getdeviceinf.com^
 ||getdrip.com^$third-party
+||getelevar.com/configs/
 ||getelevar.com/shops/*/events.js
 ||getfreebl.com^$third-party
 ||getglue.com^*/count?
@@ -46195,6 +46207,8 @@ zzzyk.com###Tinfo
 ||huo07100hy.com^
 ||huo07101hy.com^
 ||huo07110hy.com^
+||huo07111hy.com^
+||huo07120hy.com^
 ||huo720.com/back/ad_
 ||huo720.com/files/vidhub
 ||huobaowang.com/meeting/js/hbchat.
@@ -46464,6 +46478,7 @@ zzzyk.com###Tinfo
 ||ibtimes.com/front/js/counter.js
 ||ibtmla.discovery-expedition.com^
 ||ibwqfpo.xyz^
+||ibwvky.icu^
 ||ibyrwvi.cn^
 ||ic-live.com^$third-party
 ||icahealth.actonservice.com^
@@ -51420,6 +51435,7 @@ zzzyk.com###Tinfo
 ||leryt111.fun^
 ||lesenjiaoyu.xyz^
 ||leserservice-tracking.de^$third-party
+||lessonsnetwork.com^
 ||lestv1.icu^
 ||lestv10.icu^
 ||lestv7.icu^
@@ -61510,6 +61526,7 @@ zzzyk.com###Tinfo
 ||perf.mouser.com^
 ||perfalytics.com^$third-party
 ||perfectaudience.com^$third-party
+||perfectfetch.com^
 ||perfiliate.com^$third-party
 ||perfops.io^$third-party
 ||perfops.net/rom3/
@@ -63676,6 +63693,7 @@ zzzyk.com###Tinfo
 ||qxaz2xcw.com^
 ||qxibrn.enviedefraise.fr^
 ||qxkous.sweet-mommy.com^
+||qxn9qlvmca.com^
 ||qxrvmu.com^
 ||qxsfaj.caloo.jp^
 ||qxvqhy.miliboo.es^
@@ -65656,6 +65674,7 @@ zzzyk.com###Tinfo
 ||salesviewer.org^$third-party
 ||salfgkhsklgcvrg.com^
 ||salidzini.lv^*/logo_button.gif?$third-party
+||salmonfin.com^
 ||salsacartel.com^
 ||salsifyua22.com^
 ||salto.freeto.jp^
@@ -67903,6 +67922,7 @@ zzzyk.com###Tinfo
 ||skfqxkk.cn^
 ||ski1.skiset.com^
 ||skidfqh.xyz^
+||skilledview.com^
 ||skillfuldrop.com^
 ||skillshouse.actonservice.com^
 ||skillsresults.com^
@@ -76306,6 +76326,7 @@ zzzyk.com###Tinfo
 ||theporn.cc/anyalytics?
 ||theporn.xyz/static/bet365.gif
 ||theporn.xyz/static/tmp/
+||thepowerstones.com^
 ||thequickbooksteam.intuit.ca^
 ||thequin.ai^$third-party
 ||therapeuticcars.com^
@@ -82620,6 +82641,7 @@ zzzyk.com###Tinfo
 ||waudit.cz^$third-party
 ||wave.getonthewave.com^
 ||waveinverter.com^
+||wavesmachine.com^
 ||wavrlh.cedok.cz^
 ||wavzlt.michaelstars.com^
 ||wawacity.*/bypass
@@ -85540,6 +85562,7 @@ zzzyk.com###Tinfo
 ||yesss-a1at.mno.link^
 ||yetacdn.com^
 ||yetacdn.net^
+||yetacdn.org^
 ||yetcdn.com^
 ||yeti.com/T1p5rBaN/init.js
 ||yeuviq.icu^
@@ -85587,6 +85610,7 @@ zzzyk.com###Tinfo
 ||yh18h8s.com^
 ||yh20230625tu.com^
 ||yh6u.dealeusedevoyages.com^
+||yh823ogu6b.com^
 ||yhak0o7rtz.com^
 ||yhbdzh.farmasiint.com^
 ||yhbsk.cn^
