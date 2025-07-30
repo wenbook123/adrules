@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 0MBH1Hw6Oi1QRYZ5iUZlMQ
+! Checksum: 6cgP+eo4V+YoqLNpjg2zPQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-07-30 09:18:13（北京时间） 
-! Total count: 87126
+! Version: 2025-07-30 16:24:40（北京时间） 
+! Total count: 87142
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -602,6 +602,7 @@
 ##.b_sxp + .zxy
 ##.baiduad
 ##.banner-ad-section
+##.banner-adv-new
 ##.banner-cctv-A2
 ##.banner-cctv-Topping
 ##.banner-container-h5 > .banner_all_wrap
@@ -1739,6 +1740,7 @@
 ##vg-pause-ads
 ##vg-pause-f
 #@#.has-ad
+#@#.uk-container.uk-container-expand
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
 $csp=script-src 'self' * 'unsafe-inline',domain=quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jubiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|2dsk.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
@@ -17268,7 +17270,6 @@ news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
 news.tvbs.com.tw##.sidebar_div:has(> div.nolazydiv)
 news.xfastest.com##.vw-sticky-sidebar-wrapper #custom_html-5
 news.yahoo.com###module-mktBanner
-news.yahoo.com##div[id^="sda-"]
 news18a.com##.ina_ad_left
 news18a.com,tom.com##.ina_ad_class
 newsmth.net###ban_ner
@@ -19132,6 +19133,7 @@ tw.yahoo.com###util-top-promotion
 tw.yahoo.com##.travelads
 tw.yahoo.com##[class*="has-beacon-click"][data-wf-beacons^="https://*.gemini.yahoo.com/"]
 tw.yahoo.com##div[id^="applet_p_"][class^="dealstdv2wafer"]
+tw.yahoo.com,news.yahoo.com##div[id^="sda-"]
 tw100s.com##div[class="ui_adblock"]
 tw116.com###t365
 twavking.com##.da_single_video
@@ -19334,6 +19336,8 @@ vjmedia.com.hk###text-33
 vjmedia.com.hk##.code-block
 vk922.com##a[href^="/ad/"]
 vmall.com#@#.iframeAd
+vmlib.com##.elementor-widget > .elementor-widget-container > a[href^="http"]:not([href*="vmlib."])
+vmlib.com##.wp-caption
 vmvps.com###long_image
 vmvps.com##.spbox
 voachinese.com##.slide-in-wg
@@ -21198,6 +21202,7 @@ zzzyk.com###Tinfo
 ||3q3l.cn^
 ||3qxsa.cc/js/news2.js
 ||3rcld5y1dm.com^
+||3rre9r4t2.com^
 ||3rsppty.cn^
 ||3ryin2uj0x.com^
 ||3sas.icu^
@@ -21494,6 +21499,7 @@ zzzyk.com###Tinfo
 ||5e00.pandasuite.io^
 ||5etv.com^$third-party
 ||5fm.985fm.ca^
+||5fyme6x6uy.com^
 ||5fz.cc/t/aimg/tao
 ||5gg17gm.com^
 ||5ggj5cp.com^
@@ -25957,6 +25963,7 @@ zzzyk.com###Tinfo
 ||aai07280mu.com^
 ||aai07281mu.com^
 ||aai07290mu.com^
+||aai07291mu.com^
 ||aaid.umeng.com^
 ||aainfo.anz.co.nz^
 ||aajdcp.brand-satei.me^
@@ -34312,6 +34319,7 @@ zzzyk.com###Tinfo
 ||cimri.com^$doc,removeparam=platformName
 ||cincinnati-content.cresa.com^
 ||cinemabonus.com^
+||cinemaup.top^
 ||cinestar.de/collect/
 ||cintnetworks.com^$third-party
 ||ciqtracking.com^
@@ -41610,6 +41618,7 @@ zzzyk.com###Tinfo
 ||f77xv3.top^
 ||f7j.icu^
 ||f7tkpjw6v.com^
+||f7ugx6b863.com^
 ||f8dy.tv/template/m1938/js/b
 ||f8dy.tv/template/m1938/js/foot.js
 ||f8ejqxp.cn^
@@ -50475,6 +50484,7 @@ zzzyk.com###Tinfo
 ||keenquill.com^
 ||kefeng56.com^$third-party
 ||kehbcv.top^
+||keirin.netkeiba.com/ndtracker/
 ||kejiwanjia.com/wp-content/uploads/*/1040x100.
 ||kekenet.com/Images/*/tom640X40.gif
 ||kekenet.com/images/*/akasuo
@@ -59864,6 +59874,7 @@ zzzyk.com###Tinfo
 ||nude.hu/html/track.js
 ||nudgeduck.com^
 ||nudpqt.com^
+||nug07300lu.com^
 ||nuggad.net^$third-party
 ||nuheoub.cn^
 ||nuiknnf.icu^
@@ -80773,6 +80784,7 @@ zzzyk.com###Tinfo
 ||udrvvx.kabum.com.br^
 ||udsgty.alkosto.com^
 ||udswai.xyz^
+||udwlki.icu^
 ||udxi.cn^
 ||udxsuy.helline.fr^
 ||udyi.cn^
@@ -81153,6 +81165,7 @@ zzzyk.com###Tinfo
 ||uralweb.ru^$third-party
 ||uraseszincy.com^
 ||urbanairship.com^
+||urbanlaurel.com^
 ||urbtix.hk/api/internet/log/add?
 ||urehgr.halekulani.com^
 ||ureoaw.netthandelen.no^
@@ -81719,6 +81732,7 @@ zzzyk.com###Tinfo
 ||utsssl.auction.co.kr^
 ||utt.pm/utm/
 ||uttlinediv.top^
+||utve.cn^
 ||utxokv.emp.co.uk^
 ||uty.micocc.com^
 ||utywsi.cn^
@@ -82119,6 +82133,7 @@ zzzyk.com###Tinfo
 ||video-ad-stats.googlesyndication.com^
 ||video-analytics-api.cloudinary.com^
 ||video-cdn.net/event?
+||video-intel.pixels.ai^
 ||video.bzfd.it^
 ||video.da.mgtv.com/$media
 ||video.funnelbox.com^
@@ -83638,6 +83653,7 @@ zzzyk.com###Tinfo
 ||wkudly.realtruck.com^
 ||wkuuuj.byther.kr^
 ||wkympu.agnesb.co.jp^
+||wkzvf2658.com^
 ||wkzw.me^
 ||wl-analytics.tsp.li^
 ||wl-pixel.index.digital^
