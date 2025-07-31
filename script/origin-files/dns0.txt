@@ -1,9 +1,9 @@
-! Checksum: RKwEfHRaxH2aSfaPd2ZHqg
-! Diff-Path: ../patches/224/224-s-1753946025-3600.patch
+! Checksum: jc6/MMstLXuczNFSJDo3DA
+! Diff-Path: ../patches/224/224-s-1753971212-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.41.27
-! TimeUpdated: 2025-07-31T07:10:04+00:00
+! Version: 2.1.41.31
+! TimeUpdated: 2025-07-31T14:09:25+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -469,7 +469,8 @@ linovelib.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'adB
 linovelib.com#%#//scriptlet('set-constant', 'adblock', '0')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164798
 ! https://github.com/uBlockOrigin/uAssets/issues/10953
-@@/wp-content/themes/radio-hub/static/js/adpro.js$domain=tingfm.com
+@@/wp-content/themes/radio-hub/static/js/*.js$domain=tingfm.com
+tingfm.com#%#//scriptlet('trusted-replace-node-text', 'script', 'wndt.can_run_ads', '/wndt\.can_run_ads.*=.*;/', 'wndt.can_run_ads = !0;')
 tingfm.com#%#//scriptlet('set-constant', 'canRunAds', 'true')
 tingfm.com#%#//scriptlet('set-constant', 'can_run_ads', 'true')
 tingfm.com#%#//scriptlet("prevent-setTimeout", "adblock")
@@ -4968,6 +4969,9 @@ newduba.cn###jq_youxi
 ||nug07311lu.com^
 ||tinjsicyt.com^
 ||gio07311rp.com^
+||82e9ac3c1.com^
+||dkngfkgbc.com^
+||qhaazaduez.com^
 ||4xicd08qs.com^
 ||cinemaup.top^
 ||udwlki.icu^
@@ -17774,7 +17778,7 @@ ikjzd.com##.wv-right-content > .imgTop-right
 52pk.com##.wxbox
 55188.com##.wz_text
 eyy5.cn##.wzgg
-tmioe.com##.ekssxhn
+tmioe.com##.ekxxhn
 tmioe.com##a[href*=".zps.im"]
 sohu.com##.x-adv-band-panel
 sohu.com##.x-adv-flogo-panel
