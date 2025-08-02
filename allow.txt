@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 3Y2TZchb0o5g94k3smbM3w
+! Checksum: adf81svbLd7wp0noll/3Pw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-08-02 16:22:39（北京时间） 
-! Total count: 14871
+! Version: 2025-08-03 00:21:20（北京时间） 
+! Total count: 14869
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -573,6 +573,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgostudy.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1972,7 +1973,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
-@@||apotheken-umschau.de$contentrea-follow-us
+@@||apotheken-umschau.de$contentbar_default
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -3087,7 +3088,6 @@
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=vandenborre.be
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=wpb.shueisha.co.jp
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js^$domain=mytim.tim.it
-@@||cdn.cookielaw.org/scripttemplates/otSDKStub.jstps://github.com/AdguardTeam/AdguardFilters/issues/194163
 @@||cdn.cookielaw.org/scripttemplates^$domain=abus.com
 @@||cdn.cookielaw.org/scripttemplates^$domain=mojkatalog.rs
 @@||cdn.cookielaw.org/scripttemplates^$domain=trustpilot.com
@@ -7520,7 +7520,6 @@
 @@||imagefap.com/jscripts/ad_loader.js
 @@||images*.imagebam.com/ad^
 @@||images-*.ssl-images-amazon.com/images/*/advertising^$domain=amazon.de|amazon.com|amazon.fr|amazon.it|amazon.es|amazon.co.jp|amazon.co.uk|amazon.ca
-@@||images-dl.taboola.com^$domain=samsung.com|thestartmagazine.co/*-f.html
 @@||images-dl.taboola.com^$domain=samsung.com|thestartmagazine.com|taboolanews.com
 @@||images.apple.com/metrics/scripts/s_code_h.js$domain=apple.com
 @@||images.audycje.tokfm.pl/prodstatic/js/advertisement.js
@@ -8669,6 +8668,7 @@
 @@||live.streamtheworld.com/*/playlist.m3u8$elemhide,jsinject,extension,content
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
 @@||live.tv247us.com/tv247/*.m3u8$stealth=referrer
+@@||live.tv247us.com/tv247/*.m3u8$stealth=referrer@@||router.asus.com^$document
 @@||live800.com^
 @@||liveadexchanger.com/a/display.php$script,domain=prem.link
 @@||liveadexchanger.com/a/display.php^$domain=prem.link
@@ -10881,7 +10881,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparams/131093
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam/github.com/AdguardTeam/AdguardFilters/issues/110571
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11298,10 +11298,8 @@
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseau.ovation.ca/_scripts/cookie-banner.js
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js.com^
-@@||reseguiden.se^*.siteCatalyst.jsgoogle.com/apis/gpf_metrics?
-@@||reseguiden.se^*.siteCatalyst.jsk^
-@@||reseguiden.se^*.siteCatalyst.jsnk.com$image
+@@||reseguiden.se^*.siteCatalyst.js.com.br$image
+@@||reseguiden.se^*.siteCatalyst.jsu.nl^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14501,7 +14499,6 @@
 @@||www.douglas.*/public/cookieconsent.
 @@||www.gdata.pl^$elemhide
 @@||www.google-analytics.com^
-@@||www.google-analytics.com^$app=com.fitb.flex:has(> .overflow-hidden > .re-box-wrap)
 @@||www.google-analytics.com^$app=com.fitbit.FitbitMobile
 @@||www.google-analytics.com^$app=com.google.android.apps.cultural
 @@||www.google-analytics.com^$app=jp.naver.line.android
@@ -14613,12 +14610,11 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide-star-inserted
-@@||xfreehd.com^$generichide..[?(key-substr 'type' 'nativead')]
-@@||xfreehd.com^$generichide.net^
-@@||xfreehd.com^$generichidecom|tvableon.me|cricstreams.re|tvableon.me|kunmanga.com|anime3rb.com|forcedtoplay.xyz|thedaddy.*|streamlord.com|forcedtoplay.xyz|youtubemp4.to|tinyzonetv.cc
-@@||xfreehd.com^$generichidelegispin.help^
-@@||xfreehd.com^$generichidews.com##.desktop-sticky-ad_desktopStickyAdWrapper__a_tyF
+@@||xfreehd.com^$generichide"multi-brand-"]
+@@||xfreehd.com^$generichide.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,ncadvertiser.com,newstimes.com,nhregister.com,ourmidland.com,recordpatriot.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,sheltonherald.com,smallbusiness.chron.com,stamfordadvocate.com,theheraldreview.com,thehour.com,theintelligencer.com,timesunion.com,trumbulltimes.com,weekand.com,wiltonbulletin.com,work.chron.com,yourconroenews.com##.ar16-9
+@@||xfreehd.com^$generichidee-unit
+@@||xfreehd.com^$generichides/*/*/*.js$replace=/(\.onerror=\(\)=>\{.\()!0(\);)/\$1!1\$2/
+@@||xfreehd.com^$generichideywwyvtsjuywc.space^
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
@@ -14876,3 +14872,5 @@
 @@||zxzja.com:*/player-$subdocument,stealth=referrer
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
+l > .layui-row:-abp-has(.ad)
+m/AdguardFilters/issues/129677
