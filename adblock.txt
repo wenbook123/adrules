@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: xfOWtCtESGooh8HdsAKMjQ
+! Checksum: XyqegUUznUeyNJOVvObxNg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-08-05 16:24:54（北京时间） 
-! Total count: 87223
+! Version: 2025-08-06 00:24:57（北京时间） 
+! Total count: 87226
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1561,6 +1561,7 @@
 ##body > div#inplayer[align="center"]
 ##body > div[style$=";background: #000;opacity:0.01;"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
+##body > embed[id][src*="://"][src$="="]
 ##body#chapterbody.novel_chapter [style='padding-top: 150px;']
 ##body#nr_body #appss
 ##body#nr_body [onclick='goAppHtml();']
@@ -3959,6 +3960,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .redsift.com/e/o/$image
 .revolut.com/q/$image
 .ru/ads/
+.salesforce.com/servlet/servlet.ImageServer?$image
 .secureserver.net/bbimage.aspx?
 .sendcloud.net/track/$image
 .sendemail.gate.io/o/$image
@@ -43121,7 +43123,7 @@ zzzyk.com###Tinfo
 ||ga-beacon.appspot.com^
 ||ga-tracker-dot-detmir-bonus.appspot.com^
 ||ga.chickgoddess.com/gs_api/stats/
-||ga.finam.ru^
+||ga.finam.ru/metrics
 ||ga.groc.press^
 ||ga.nsimg.net^
 ||ga.webdigi.co.uk^
@@ -76304,6 +76306,7 @@ zzzyk.com###Tinfo
 ||telemetry.navispherecarrier.com^
 ||telemetry.owenscorning.com^
 ||telemetry.phenixrts.com^
+||telemetry.proton.me^
 ||telemetry.reembed.com^
 ||telemetry.ruthschris.com^
 ||telemetry.sdk.inmobi.com^
