@@ -19,6 +19,9 @@
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/xif3tf/
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
+! https://github.com/uBlockOrigin/uAssets/issues/29730
+||googletagmanager.com/gtag/js?id=$removeparam=gtm
+||googletagmanager.com/gtag/js?id=$removeparam=cx
 
 ! https://github.com/gorhill/uBlock/issues/1411
 ! https://www.reddit.com/r/firefox/comments/3pwcey/firefox_extension_download_manager_s3_asks_for/
@@ -2034,9 +2037,6 @@ abs-cbn.com##+js(set-session-storage-item, VR-INJECTOR-INSTANCES-MAP, $remove$)
 ! https://github.com/uBlockOrigin/uAssets/issues/28450
 ||trueachievements.com/tgn/ana?*page_view
 
-! https://github.com/uBlockOrigin/uAssets/issues/28625
-||vidembed.re/js/script.outbound-links.pageview-props.tagged-events.js
-
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/3650
 ||prod.outgoing.prod.webservices.mozgcp.net/v1/$urlskip=/\/v1\/\w+\/(http.+)$/ -uricomponent +https
 
@@ -2154,6 +2154,9 @@ mediamarkt.de##+js(aopw, ftr__startScriptLoad)
 ||monitor.*/test?rnd=$xhr,3p
 /measurements/*.ts?rnd=$xhr,3p
 !#endif
+
+! https://www.netflix.com/
+||netflix.com/log/
 
 ! Merge in resource-abuse.txt
 !#include resource-abuse.txt
