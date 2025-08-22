@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: KtzFcyaE+fJ3FMj8CNLgGw
+! Checksum: 07cfB8UEUPkLIY1o0vwUBw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-08-22 09:09:13（北京时间） 
-! Total count: 87418
+! Version: 2025-08-22 16:24:08（北京时间） 
+! Total count: 87447
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4401,6 +4401,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /^https:\/\/www\.38ksw\.com\/public\/[0-9]+\.js/$domain=38ksw.com
 /^https:\/\/zz\d{4}bb\d{4}\.com/$third-party,image
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=kleinanzeigen.de
+/^https?:\/\/kan\.znds\.com\/public\/home\/images\/[0-9]+-[0-9]+\.gif\?v=/$domain=kan.znds.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=tjx.com
 /^https?:\/\/tmx\.(td|tdbank)\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com|tdbank.com
@@ -7341,7 +7342,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /stats/collect?
 /stats/collector.js
 /stats/event.js?
-/stats/events$xmlhttprequest
+/stats/events$xmlhttprequest,domain=~wbsc.org
 /stats/footer.js
 /stats/ga.js
 /stats/header.js
@@ -12510,6 +12511,7 @@ bilibili.com##.desktop-download-tip
 bilibili.com##.download-client-trigger.download-entry
 bilibili.com##.eva-banner
 bilibili.com##.extension-tips
+bilibili.com##.feed-card:has(> div.bili-feed-card > div > div > div.bili-video-card__no-interest + a[target="_blank"]:not([href^="https://www.bilibili.com/"]))
 bilibili.com##.floor-single-card:has(.floor-skeleton):not(:has(> div.bili-video-card__skeleton))
 bilibili.com##.gg-floor-module
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
@@ -15435,6 +15437,8 @@ ipcfun.com###sidebar > ul > li[style]
 ipcfun.com##div[style="height:280px;width:336px;margin:-10px auto 20px auto"]
 ipinyou.com
 ipip.net##.row[style="width:1000px;margin:0px auto 25px auto;"]
+iplark.com##body > div:not([class]):not([style])
+iplark.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'localStorage')
 iplaysoft.com###_cblzx
 iplaysoft.com###link1111
 iplaysoft.com###section_postbanner
@@ -21057,6 +21061,7 @@ zzzyk.com###Tinfo
 ||2kandy.com/js/123/
 ||2l6ddsmnm.de^
 ||2lb.cc^
+||2ld8mx979a.com^
 ||2lzg9mqzw.com^
 ||2o7.net^$third-party
 ||2parale.ro^$third-party
@@ -27077,6 +27082,8 @@ zzzyk.com###Tinfo
 ||ads-collector.luizalabs.com^
 ||ads-pixiv.net^
 ||ads-sg.tiktok.com^
+||ads-tracking.beop.io^
+||ads-tracking.collectiveaudience.co^
 ||ads-trk.vidible.tv^
 ||ads-union.jd.com^
 ||ads.adaptv.advertising.com/*roll&pageUrl=4gtv.tv$script,xmlhttprequest,other,redirect=noopvast-2.0
@@ -30578,6 +30585,7 @@ zzzyk.com###Tinfo
 ||atcdn.co.uk/frostbite/
 ||atconnect.npo.nl^
 ||atencion.banrural.com.gt^
+||atepcs.icu^
 ||ateveq.street-beat.ru^
 ||atgsvcs.com/js/atgsvcs.js
 ||atgt.grafana.com^
@@ -32353,6 +32361,8 @@ zzzyk.com###Tinfo
 ||bjhockey.org/public/pc/video/test.mp4
 ||bjimtyv.top^
 ||bjk08210ip.com^
+||bjk08211ip.com^
+||bjk08220ip.com^
 ||bjkedv*.xyz^
 ||bjmama.net/a/spc_
 ||bjmantis.net^
@@ -35737,7 +35747,6 @@ zzzyk.com###Tinfo
 ||contentpass.net/stats
 ||contentpass.net/stats?$third-party
 ||contentreveal.net/event/events.js
-||contents-tracking.beop.io^
 ||contents.pwc.com^
 ||contentsfeed.com^$third-party
 ||contentspread.net^$third-party
@@ -36399,6 +36408,7 @@ zzzyk.com###Tinfo
 ||cupfox*.com/statics/js/ing.js
 ||cupfox.app^$third-party
 ||cupid.iqiyi.com/mixer?
+||cupid.iqiyi.com/mixer?$domain=www.iqiyi.com,badfilter
 ||cupid.iqiyi.com/show2?
 ||cups.republicoftea.com^
 ||cuqpi.cn^
@@ -36948,6 +36958,7 @@ zzzyk.com###Tinfo
 ||dandyglow.com^
 ||dangbei.net/2022/dbhezi.
 ||dangbei.net/img/db/downdangbei.gif
+||dangbei.net/jing/dbai/$domain=kan.znds.com
 ||dangdang.com/adall.
 ||dangongshijie.com^
 ||danicirvr.com^
@@ -42954,6 +42965,7 @@ zzzyk.com###Tinfo
 ||ftmsyy.jbl.com.br^
 ||ftnnce.autodoc.dk^
 ||ftp.happ.social^
+||ftrfnx.icu^
 ||fttxhcua.icu^
 ||fttzfw.top^
 ||ftuart.chomedeynissan.com^
@@ -44659,6 +44671,7 @@ zzzyk.com###Tinfo
 ||goi08200kh.com^
 ||goi08201kh.com^
 ||goi08210kh.com^
+||goi08211kh.com^
 ||goikbnjksdf.com^
 ||goingsranchange.com^
 ||goingup.com^$third-party
@@ -45468,6 +45481,7 @@ zzzyk.com###Tinfo
 ||haymarketstat.de^$third-party
 ||hazawl.veke.fi^
 ||hazmatworkshop.com^
+||hb.collectiveaudience.co^
 ||hb.vhsrv.com^
 ||hb8g86k.mom/mz.js
 ||hbaazk.bukalapak.com^
@@ -50265,6 +50279,7 @@ zzzyk.com###Tinfo
 ||jsztl.com/img/particular/tbyhq.jpg
 ||jszwxm.hometogo.nl^
 ||jt01151knd.com^
+||jt5.dangbei.net/site/$domain=kan.znds.com,image
 ||jtbaoo.belvini.de^
 ||jtbunh.xyz^
 ||jtdltu.top^
@@ -51338,6 +51353,7 @@ zzzyk.com###Tinfo
 ||labuladong.github.io/algo/pictures/ad/
 ||lacentrale.fr/collect
 ||lacentrale.fr/static/fragment-sentry/lc-sentry.js
+||lacentrale.fr/static/fragment-tracking/tracking-
 ||lacinfo.motorolasolutions.com^
 ||lackadaisicalkite.com^
 ||lacoccinelle.net/tools.js
@@ -51436,6 +51452,7 @@ zzzyk.com###Tinfo
 ||laosiji.com/static/js/lib/od_statistics.js
 ||laowang81.com/getfuolist
 ||laowangblog.com^*-ad
+||laowanglm.com^
 ||laozuo.org/banner/
 ||lapescheria.openapp.link^
 ||lapiana.actonservice.com^
@@ -56342,6 +56359,8 @@ zzzyk.com###Tinfo
 ||mesh.if.iqiyi.com/tvg/v2/lw/base_info?entity_id=*&ad_ext=
 ||message.alldata.com^
 ||message.sonicwall.com^
+||messagebird.com/assets/fp.min.js
+||messagebird.com/metrics.js
 ||messages.blackhat.com^
 ||messari.io/js/wutangtrack.js
 ||messenger.com/ajax/bnzai?
@@ -58507,6 +58526,7 @@ zzzyk.com###Tinfo
 ||motu-teamblue.services^
 ||motuopj.cn^
 ||mountain.zhidao.baidu.com^
+||mountainrood.com^
 ||mouse3k.com^$third-party
 ||mousebusters.odencat.com^
 ||mouseflow.com^
@@ -58841,6 +58861,7 @@ zzzyk.com###Tinfo
 ||mwandlx.top^
 ||mwbhkv.plasico.bg^
 ||mwbilx.pisos.com^
+||mwbncf22w.com^
 ||mwcnmtx.top^
 ||mwdwepok.xyz^
 ||mwed.jp/assets/packs/js/measurements/
@@ -60211,6 +60232,7 @@ zzzyk.com###Tinfo
 ||o9tt6h08li.execute-api.eu-west-1.amazonaws.com^
 ||oa-panther.data.aliyun.com^$third-party
 ||oa.hinews.cn/work/img/
+||oa88s0gb8.com^
 ||oaatyq.icu^
 ||oabnmx.jewelryexchange.com^
 ||oaclrst.cn^
@@ -65554,6 +65576,7 @@ zzzyk.com###Tinfo
 ||s.cdin.me/i.php
 ||s.chatie.ai^
 ||s.clientes.construrama.com^
+||s.collectiveaudience.co^
 ||s.columbiathreadneedle.ch^
 ||s.columbiathreadneedle.co.uk^
 ||s.columbiathreadneedle.hk^
@@ -75095,6 +75118,7 @@ zzzyk.com###Tinfo
 ||swellstocking.com^
 ||swerilxb.top^
 ||swetrix.org^$third-party
+||swiftintro.com^
 ||swiftmining.win^$third-party
 ||swiftypecdn.com/cc.js$third-party
 ||swiftypecdn.com/te.js$third-party
@@ -76281,6 +76305,7 @@ zzzyk.com###Tinfo
 ||tck.wonderbox.fr^
 ||tclimii.top^
 ||tcmap.com.cn/js/b_
+||tcragarnh.com^
 ||tcsgcdn.top^
 ||tcss.qq.com^
 ||tctm.co^$third-party
@@ -82272,6 +82297,7 @@ zzzyk.com###Tinfo
 ||verizon.com^$removeparam=campaignSource
 ||verizon.com^$removeparam=vendorid
 ||verkkokauppa.com^$removeparam=list
+||vernaellac.com^
 ||verseballs.com^
 ||vertexcs.actonservice.com^
 ||vertical-leap.co.uk^$third-party
@@ -82773,6 +82799,7 @@ zzzyk.com###Tinfo
 ||vriesziy.com^
 ||vrinqaell.com^
 ||vrinqop.icu^
+||vrje.cn^
 ||vrlvnz.xyz^
 ||vroom.be^*/stats.js?
 ||vroom.be^*/stats.php?
@@ -82817,6 +82844,7 @@ zzzyk.com###Tinfo
 ||vtjbnb.xyz^
 ||vtneexam.quantresear.ch^
 ||vtodss.livenation.com^
+||vtongm82lz.com^
 ||vtqhelleano.com^
 ||vtracker.net^$third-party
 ||vtracy.de^$third-party
@@ -86021,6 +86049,7 @@ zzzyk.com###Tinfo
 ||ydgal.com/axfile/
 ||ydgh0zc.com^
 ||ydgsvls.cn^
+||ydhilninhp.com^
 ||ydjfdkcv.com^
 ||ydjs.zol.com.cn^
 ||ydosfw.filippa-k.com^
