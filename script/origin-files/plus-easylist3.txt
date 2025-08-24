@@ -1216,9 +1216,11 @@ allrecipes.com##+js(set-local-storage-item, /_li_duid|_lc2_fpi/, $remove$)
 ||demeter-tr-core-collect.trendyol.com^
 ||collect.trendyol.com^
 ! test on uBO first
+! https://www.trendyol.com/kadin-mont-x-g1-c118
 !#if !ext_ubol
 ||cdn.dsmcdn.com/sfx/mergen/
 trendyol.com##+js(set, process, {})
+trendyol.com##+js(set, process.env, {})
 !#endif
 trendyol.com##+js(remove-cookie, /anonUserId|pid|sid/)
 ! https://www.bostonscally.com/
@@ -2121,7 +2123,7 @@ mediamarkt.de##+js(aopw, ftr__startScriptLoad)
 ||ob.*.com/i/*.js|$script,3p,domain=apothekenaratgeber.com|apothekenaratgeber.de|massagechairs.com
 /^https:\/\/ob\.[a-z]{8,}\.com\/i\/[a-f0-9]{32}\.js$/$script,3p,match-case,to=com
 !#if env_safari
-/^https:\/\/ob\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]*\.com\/i\/[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]\.js$/$script,3p,match-case
+/^https:\/\/ob\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]*\.com\/i\/[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]\.js$/$script,3p,match-case,to=com
 !#endif
 
 ! https://github.com/uBlockOrigin/uAssets/issues/29029#issuecomment-3046461585
