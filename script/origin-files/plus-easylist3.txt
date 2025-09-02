@@ -2246,9 +2246,6 @@ linklog.tiagorangel.com##+js(set, data, true)
 ! https://www.servustv.com/
 /iomm/latest/bootstrap/*
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/211902
-||counter1.fc2.com^
-
 ! https://app.tophat.com/catalog/
 ||publictelemetry.tophat.com^
 
@@ -2298,6 +2295,11 @@ linklog.tiagorangel.com##+js(set, data, true)
 !#if !ext_ubol
 ||c.bookwalker.jp/v/louis/*/tracks.js
 ||bookwalker.jp/ex/browser-viewer/unitag_bv.js
+!#endif
+
+! Merge in resource-abuse.txt
+!#include resource-abuse.txt
+r/unitag_bv.js
 !#endif
 
 ! Merge in resource-abuse.txt
