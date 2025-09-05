@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: kJryzjDDgVrCfz2+PfuENQ
+! Checksum: zA7CyIksBoYw7jS7yxXDQw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-09-05 09:06:01（北京时间） 
-! Total count: 87521
+! Version: 2025-09-05 16:22:08（北京时间） 
+! Total count: 87538
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3839,6 +3839,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .html?android=hx*&_$csp=script-src
 .html|$domain=www.gamer.com.tw
 .hur0*kns.com/$script,xmlhttprequest,third-party
+.icu/$domain=cidetxt.cc
 .icu/*?ssid=_$third-party
 .icu/*_*_*.js$third-party
 .icu/*_*_rony.js
@@ -4404,6 +4405,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /WebAnalytics.$domain=~webanalytics.italia.it
 /WebStat2.asmx
 /Web_JS_Stats.js
+/[a-z0-9]+\.[a-z0-9]+\//$denyallow=cidetxt.cc,domain=cidetxt.cc,subdocument,script
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
@@ -13110,6 +13112,7 @@ cibaipuki.com##A[href^='/article-list-id']
 cibaipuki.com##IMG[border='0'][width='100%']
 cibaipuki.com##SECTION[id^='download_']
 cibaipuki.com##[href*=":"]
+cidetxt.cc#%#//scriptlet('prevent-setTimeout', 'try{e()}catch(e){if(t[e.message])return;')
 cilil.cn,magnet2048.com##.hotwords
 cilimao.co,cilimao.one##div[class^="FixBanner"]
 cjjjs.com,cnblogs.com,fastadmin.net,ziqiangxuetang.com##a[href^="https://promotion.aliyun.com/"]
@@ -17843,13 +17846,13 @@ porn5f.com#?#.row:has(> div.col-lg-3 > div[style] > div.carousel-inner > p.ad-ti
 pornbest.org#%#//scriptlet('abort-current-inline-script', 'jQuery', 'injectPops')
 pornbest.org#?#.container-fluid > div.row:has(> div.item > div.card > div.card-body > div > span:contains(/^ad$/))
 pornbest.org,pornlulu.com,ptt.sex##.no-gutters
-pornbest.org,ptt.sex###fullPageModal
 pornbest.org,ptt.sex##.btn-group + .row
 pornbest.org,ptt.sex##.links.row
 pornhub.com##.adContainer
 pornhub.com##.topAdContainter
 pornlulu.com##.row.links
 pornlulu.com,pornbest.org###fullPageModal
+pornlulu.com,pornbest.org,ptt.sex###fullPageModal
 portablesoft.org##.downcenter
 portablesoft.org##.rightside > :nth-child(n+2)
 portablesoft.org##.sidebar-box
@@ -21149,6 +21152,7 @@ zzzyk.com###Tinfo
 ||2yjw.com/statics/js/jquery.min.
 ||2yqcaqbfnv.nextgen.shareablee.com^
 ||2za.fun^
+||2zjftxgl5s.com^
 ||2znp09oa.com^
 ||2zzt.com/file/aliyun
 ||2zzt.com/images/
@@ -37677,6 +37681,7 @@ zzzyk.com###Tinfo
 ||db-ip.com^$third-party
 ||db11yy.com^
 ||db7q4jg5rkhk8.cloudfront.net^
+||db8b41ie5.com^
 ||dba4.pandasuite.io^
 ||dbbest.actonservice.com^
 ||dbdophuz.icu^
@@ -41747,6 +41752,7 @@ zzzyk.com###Tinfo
 ||eyein.com^$third-party
 ||eyenox.eschuhe.de^
 ||eyfygb.yourfirm.de^
+||eyhv.cn^
 ||eylnhf.jobhouse.jp^
 ||eymiwj.cancan.ro^
 ||eymiwj.ciao.ro^
@@ -43279,6 +43285,7 @@ zzzyk.com###Tinfo
 ||g41i.icu^
 ||g4p.redtram.com^
 ||g4y7uuk.com^
+||g4yk4cyyw.com^
 ||g6tgashb.fun^
 ||g792337340.co^
 ||g792337342.co^
@@ -49607,6 +49614,8 @@ zzzyk.com###Tinfo
 ||jaderooster.com^
 ||jads.co^
 ||jads.co^$domain=avgle.com
+||jadxs.org/themes/*/js/fixed.js
+||jadxs.org/themes/*/js/test.js
 ||jagransolutions.com.actonservice.com^
 ||jailbaitchan.com/tp/
 ||jailbulb.com^
@@ -50058,6 +50067,8 @@ zzzyk.com###Tinfo
 ||johojima.com/wp-content/uploads/*/bn_*.jpg
 ||johojima.com/wp-content/uploads/*/bnr_*.jpg
 ||johojima.com/wp-content/uploads/*/cropped-johojima_fabicon-*.jpg
+||joi09041pt.com^
+||joi09050pt.com^
 ||join-staging.kloaked.app^
 ||join-test.pre-prod.spur.io^
 ||join-test.step.com^
@@ -54016,6 +54027,7 @@ zzzyk.com###Tinfo
 ||m8ryjf38a.com^
 ||m8zgls6zt.com^
 ||m9s3h265lq.com^
+||m9sz0hh3f7.com^
 ||ma-petite-recette.fr/visites
 ||ma.a3.se^
 ||ma.axiomatics.com^
@@ -60452,6 +60464,7 @@ zzzyk.com###Tinfo
 ||offshorecyclone.com^
 ||offshoregeology.com^
 ||ofincm.icu^
+||ofja.cn^
 ||ofkqiy.knowfashionstyle.com^
 ||ofooe.cn^
 ||ofqkbk.proclipusa.com^
@@ -62036,6 +62049,7 @@ zzzyk.com###Tinfo
 ||pf.intuit.com^
 ||pf.newegg.com^
 ||pfbmht.icu^
+||pfdqvf.icu^
 ||pfdth.cn^
 ||pfhe.cn^
 ||pfhj89w.com^
@@ -72425,6 +72439,7 @@ zzzyk.com###Tinfo
 ||spnx.jp/spnx-logger.js
 ||spoaven.top^
 ||spoh.cn^
+||spongeds.com^
 ||sponsorcounter.de^$third-party
 ||sponsored.com^$third-party
 ||spookyexchange.com^
@@ -86846,6 +86861,7 @@ zzzyk.com###Tinfo
 ||zalando-prive.*/api/tracking/
 ||zalnouiy.com^
 ||zalo.me/v3/w/_zaf.gif
+||zamiasfinable.com^
 ||zampda.net^$third-party
 ||zanghaihua.org/js/
 ||zangtankqq.com^
@@ -87148,6 +87164,7 @@ zzzyk.com###Tinfo
 ||zhuwang.cc/api.php?op=ad_
 ||zhuys.com/js/ysmm.
 ||zhuys.com^*.php
+||zhwzsym.top^
 ||zhy333.com^$third-party
 ||zhyeqw.mercury.ru^
 ||zhzyw.com/js/InsertJS.js
