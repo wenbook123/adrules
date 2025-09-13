@@ -1083,6 +1083,10 @@ arstechnica.com,dermnetnz.org##.gsc-webResult a[data-cturl]:remove-attr(/^data-c
 
 ! https://www.deezer.com/
 ||deezer.com/ajax/gw-light.php?method=log.listen
+
+! https://razorpay.com/
+||razorpay.com/build/razor-analytics/
+||razorpay.com/build/analytics-sdk/
 !#endif
 
 ! Tracking cookies
@@ -1292,6 +1296,9 @@ theverge.com##+js(set-local-storage-item, csg_uid, $remove$)
 goodcar.com##+js(set-local-storage-item, uw-uid, $remove$)
 ! https://ici.radio-canada.ca/tele/le-telejournal-acadie/site/episodes/1110490/episode-du-8-septembre-2025
 ici.radio-canada.ca##+js(set-local-storage-item, RC_PLAYER_USER_ID, $remove$)
+! https://soundcloud.com/
+soundcloud.com##+js(remove-cookie, /sc_anonymous_id|sc_tracking_anonymous_id/, when, scroll keydown)
+soundcloud.com##+js(set-local-storage-item, /sc_tracking_anonymous_id|statsig/, $remove$)
 
 ! Query parameter stripping
 ! Google ads/analytics
@@ -2121,7 +2128,6 @@ grok.com##+js(no-fetch-if, url:/api/statsig/log_event method:POST)
 ! test on uBO first
 !#if !ext_ubol
 ||mercari.com/ko40/
-||u-web-assets.mercdn.net/assets/scripts/raphaelp-*.js
 mercari.com##+js(json-edit-fetch-request, .*[?.operationName=="TrackEvent"], propsToMatch, /v1/api)
 !#endif
 
