@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: sL9Mbrts8C+nmPOl/tVkHQ
+! Checksum: RGHVsmoFIGHEViuyGEAOvg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-09-23 09:05:39（北京时间） 
-! Total count: 14978
+! Version: 2025-09-23 16:21:48（北京时间） 
+! Total count: 14984
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -577,6 +577,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org2.prod.min.js
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgges.comms.cirium.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -2793,6 +2795,7 @@
 @@||caf.fr/*/smarttag.js
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||cafe.naver.com/ArticleRead.nhn$stealth=useragent
+@@||cafe24.com^$stealth=dpi
 @@||cafedelapaix.fr/assets/plugins/bwp-minify/min/$script,~third-party
 @@||caffenero-webassets-production.s3.eu-west-2.amazonaws.com/images/$stealth=referrer
 @@||caib.es/webgoib/o/goib-theme/js/klaro-config.js$~third-party
@@ -10238,7 +10241,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kisahdunia.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kitguru.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=laptrinhx.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lascimmiapensa.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=list-org.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=litecoinfaucet.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=live.hitsports.bond
@@ -13550,6 +13552,7 @@
 @@||tr.rdrtr.com^|
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
 @@||tra.scds.pmdstatic.net/advertising-core/$script,domain=gentside.*|gentside.com|gentside.de|gentside.co.uk|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.co.uk
+@@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|geo.fr|voici.fr
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|voici.fr
 @@||traceparts.com/lib/piano-analytics/piano-analytics.js$script,~third-party
 @@||track.adform.net/*cpdir=$popup,domain=pepper.*
@@ -14719,7 +14722,10 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidekadium.com#%#//scriptlet('adjust-setTimeout', '[native code]', '*', '0.02')
+@@||xfreehd.com^$generichide, 'googletag', '')
+@@||xfreehd.com^$generichide^$generichide
+@@||xfreehd.com^$generichidepl##.placeholder
+@@||xfreehd.com^$generichidetes.co.uk
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
