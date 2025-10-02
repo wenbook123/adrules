@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: IxVSp9Z8z0LbHdvQ3oRmaA
+! Checksum: 24qaH4La2zlzYbGZlg0Hdw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-10-02 16:21:22（北京时间） 
-! Total count: 14991
+! Version: 2025-10-03 00:20:52（北京时间） 
+! Total count: 14994
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -579,7 +579,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgzernerzeitung.ch^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1989,6 +1988,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$contentoiwidgets_social > span[data-plugin$="-share"]
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -3286,8 +3286,7 @@
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.jwplayer.com/*/media/$domain=pro.thestreet.com
 @@||cdn.kaizenplatform.net^$script,domain=navi.onamae.com
-@@||cdn.ketchjs.com/lanyard/$script,domain=cbs.com|cbsnews.com|chipotle.com|realtruck.com
-@@||cdn.ketchjs.com/lanyard/$script,domain=cbs.com|cbsnews.com|chipotle.com|realtruck.com|southparkstudios.com
+@@||cdn.ketchjs.com/lanyard/$script,domain=cbs.com|cbsnews.com|chipotle.com|realtruck.com|southpark.cc.com|southparkstudios.com
 @@||cdn.klambt.services/js/advertisement.js|
 @@||cdn.krxd.net/amp/remote.min.js$domain=static.telegraph.co.uk
 @@||cdn.krxd.net/controltag/*.js$domain=video.foxnews.com|video.foxbusiness.com
@@ -4815,6 +4814,7 @@
 @@||delivery.consentmanager.net/delivery$domain=sir-apfelot.de
 @@||delivery.consentmanager.net/delivery/$domain=benzinpreis.de
 @@||delivery.consentmanager.net/delivery/cmp.php$domain=nrz.de|braunschweiger-zeitung.de|waz.de|thueringer-allgemeine.de|weser-kurier.de
+@@||delivery.consentmanager.net/delivery/cmp.php$domain=play3.de
 @@||delivery.consentmanager.net/delivery/cmp.php$domain=propertydesign.pl
 @@||delivery.consentmanager.net/delivery/cmp.php$domain=rlptoday.de
 @@||delivery.consentmanager.net/delivery/cmp.php$domain=ruhr24.de
@@ -5449,6 +5449,7 @@
 @@||evkur.com.tr^$stealth=dpi
 @@||evowars.io/ads.js
 @@||ex.qq.com^
+@@||exacttarget.com^$domain=pub.msg.smbc.co.jp
 @@||exali.de/static/theme/assets/js/cookieBanner.js
 @@||exe.app^$ghide
 @@||exee.app^$stealth=referrer
@@ -9959,6 +9960,7 @@
 @@||omhm.qc.ca^$stealth=dpi
 @@||omniplex.ie/script/modules/cookiecuttr.js$~third-party
 @@||omniture.walmart.com^|
+@@||omniture.walmart.com^||landwestern.com^
 @@||omniva.ee/ext/js/eu_cookies.js
 @@||omns.americanexpress.com/b/ss/
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
@@ -13289,6 +13291,7 @@
 @@||tennisachat.com/*/cookiealert.css
 @@||tennisachat.com/min/?f=/skin/frontend/rwd/*/css/styles.css
 @@||tennisactu.net/adserver.js
+@@||tennislegend.fr/wp-content/plugins/thrive-leads/js/frontend.min.js
 @@||tennislegend.fr/wp-content/plugins/thrive-leads/js/frontend.min.js$domain=tennislegend.fr
 @@||tennispro.*/gdpr/cookiealert.css
 @@||tennispro.eu/min/?$script,~third-party
@@ -14731,8 +14734,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideam/AdguardFilters/issues/98591
-@@||xfreehd.com^$generichidetest/exp.js$script,domain=some.porn
+@@||xfreehd.com^$generichide.*,voe.sx,ask4movie.*,masahub.net,moviesjoy.*,easyexploits.com,azm.to,biqle.org,m4uhd.tv,9anime.*,vidstreamz.online,beef1999.blogspot.com,files.im,movies07.co,playtube.ws,upstream.to,tii.ai,iir.ai,hhkungfu.tv,playhydrax.com,hydrax.net,get-to.link,ouo.press,ouo.io,xstreamcdn.com#%#//scriptlet("abort-on-property-read", "AaDetector")
+@@||xfreehd.com^$generichideContainer-root ~ div[class^="mantine-"]:has(> .mantine-Center-root > .mantine-Container-root > div[class^="mantine-"] > .mantine-Grid-root .mantine-Image-root img:is([src^="https://aieasypic.com/"], [src^="https://aieasyimage.com/"]))
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
