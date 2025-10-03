@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 6ziH0sB7J5hLwtuj6BKbyw
+! Checksum: BaB0qEQgfqKwc3FEZdI7UA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-10-03 16:22:14（北京时间） 
-! Total count: 14990
+! Version: 2025-10-04 00:19:39（北京时间） 
+! Total count: 14997
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -579,6 +579,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.it/banner-tiscali/stats.html?
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1988,6 +1989,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$contentnone !important; }
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -8225,6 +8227,7 @@
 @@||itv.com/itv/tserver/$~third-party,badfilter
 @@||itv.com/itv/tserver/*size=*/*/viewid=
 @@||itv.com/itv/tserver/*size=*/*/viewid=$badfilter
+@@||itv.com/itv/tserver/*t,important
 @@||itworld.com/elqnow/elq*.js
 @@||iubenda.com^$script,stylesheet,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|all3dp.com|ansa.it|artribune.com|automoto.it|brutkasten.com|cagliaripad.it|capital.it|cdt.ch|centrometeoitaliano.it|cioccolatonippon.it|cookaround.com|darkhorizons.com|decugnanodeibarbi.com|deejay.it|delladio.it|gelocal.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ilsecoloxix.it|internazionale.it|kisskiss.it|lastampa.it|leanplayer.com|leggo.it|m2o.it|mediaset.it|mee6.xyz|meteo.it|moto.it|movieplayer.it|mowmag.com|multiplayer.it|onepodcast.it|player.boom973.com|r101.it|radiomontecarlo.net|repubblica.it|rockol.it|saratoga.it|skuola.net|today.it|tomshw.it|virginradio.it
 @@||iubenda.mgr.consensu.org/bridge/*$domain=video.lastampa.it
@@ -9958,7 +9961,7 @@
 @@||omhm.qc.ca^$stealth=dpi
 @@||omniplex.ie/script/modules/cookiecuttr.js$~third-party
 @@||omniture.walmart.com^|
-@@||omniture.walmart.com^|.com^
+@@||omniture.walmart.com^|||tktracker.aotter.net^
 @@||omniva.ee/ext/js/eu_cookies.js
 @@||omns.americanexpress.com/b/ss/
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
@@ -11909,6 +11912,7 @@
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||search-module.s3.us-east-2.amazonaws.com/pubs/trib/adblockdetect.js
 @@||search.brave.com/search$xmlhttprequest
+@@||search.powergap.de/indexes/$stealth=3p-auth
 @@||search.spotxchange.com/vast/$xhr,domain=rakuten.tv
 @@||search.spotxchange.com/vmap/*&content_page_url=www.bsfuji.tv$xmlhttprequest,domain=imasdk.googleapis.com
 @@||search.video.iqiyi.com^
@@ -14731,7 +14735,10 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidectreview.com.au#?#main div#search-results + div > div[class]:has(> div div[style="line-height:0"])
+@@||xfreehd.com^$generichide##text-2
+@@||xfreehd.com^$generichider|mariages.net|matrimonio.com|matrimonio.com.co|matrimonio.com.pe|matrimonios.cl|pianobuyer.com|weddingspot.co.uk|zillow.com
+@@||xfreehd.com^$generichidey
+@@||xfreehd.com^$generichide||afdads.com^
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
