@@ -1,9 +1,9 @@
-! Checksum: he4mpnKm5iNkClYM7K8fpA
-! Diff-Path: ../patches/224/224-s-1759710532-3600.patch
+! Checksum: Lc+/EGv4EKrrwYFEtuBhIA
+! Diff-Path: ../patches/224/224-s-1759752957-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.45.26
-! TimeUpdated: 2025-10-06T00:25:25+00:00
+! Version: 2.1.45.32
+! TimeUpdated: 2025-10-06T12:12:00+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -604,8 +604,9 @@ game735.com#$#div[id^="gklobl"] { height: 1px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43307
 @@||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws='
 ruanyifeng.com#@#a > img[src*="wangbase.com/blogimg/asset/"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/214685
 ! https://github.com/AdguardTeam/AdguardFilters/issues/196593
-t66y.com#%#//scriptlet('prevent-setTimeout', '/(\s|\()tpc/')
+t66y.com#%#//scriptlet('prevent-setTimeout', 'html')
 ||alicdn.com^$domain=t66y.com
 ||sinaimg.cn^$domain=t66y.com
 t66y.com##.tpc_content.do_not_catch > span.f24
@@ -1080,6 +1081,13 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 ! NOTE: Specific rules
 !
+news.mydrivers.com##.baidu
+||5dm.link/htmI/*.gif
+5dm.link###rip
+5dm.link###popop
+5dm.link###xaify
+5dm.link##a[href^="https://equity.tmall.com/"]
+5dm.link##a[href^="https://aigirlfriendstudio.com/"]
 csqaq.com##div[class^="bg_left_click_"]
 csqaq.com##div[class^="bg_right_click_"]
 csqaq.com##div[class^="ant-pro-card banner"]
@@ -5093,6 +5101,12 @@ newduba.cn###jq_youxi
 ||zmrkxz.icu^
 ||mmeumm.icu^
 ||vwiy.cn^
+||btfclfeqc9.com^
+||hlj10061ip.com^
+||wucvvf3t6n.com^
+||ympl9l9b.xyz^
+||ffvmgevrid.com^
+||dwyeeunm.com^
 ||d24fx92qb.com^
 ||mmes30jla.com^
 ||ojizau.icu^
@@ -21699,12 +21713,6 @@ fqsousou.com,kengso.com#@#.user-share
 @@||tracklog.58.com/referrer$~third-party
 @@||udn.com/mall/images/spacer.gif?
 @@||viu.com^*/tracking/
-@@||wl.jd.com/joya.js
-@@||wl.jd.com/wl.js
-@@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
-@@||youku.com/cms/player/userinfo/
-@@||youku.com/cms/playlog/get?
-||hjfile.cn/analytics/site/TrackEvent.js@@||viu.com^*/tracking/
 @@||wl.jd.com/joya.js
 @@||wl.jd.com/wl.js
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
