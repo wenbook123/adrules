@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: IJk8mCydacut7ZE2Z/dR/w
+! Checksum: E6b+3Y53b/DS0q5C+g+Qcw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-10-07 09:04:59（北京时间） 
-! Total count: 87718
+! Version: 2025-10-07 16:23:13（北京时间） 
+! Total count: 87740
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -744,6 +744,7 @@
 ##.gpt_ads_box
 ##.gpt_ads_title
 ##.gr_slide_car_inner
+##.grid > .m0auto > div > .grid + div:not([class]):not([id])
 ##.guanggaoBox
 ##.guding312
 ##.guruin-ads
@@ -815,6 +816,7 @@
 ##.lt_ad
 ##.lyad
 ##.lyzm-prevent
+##.m0auto > div:not([class]):not([id]) > div > .swiper-initialized
 ##.m1938-container
 ##.m_hot_rec_box_base[id^="right"]
 ##.main-ad-l
@@ -9238,6 +9240,11 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 58pic.com##.xyyh
 591hx.com##.banner_w
 5dm.app##[src*="sinaimg.cn"]
+5dm.link###popop
+5dm.link###rip
+5dm.link###xaify
+5dm.link##a[href^="https://aigirlfriendstudio.com/"]
+5dm.link##a[href^="https://equity.tmall.com/"]
 5dm.link##div[id^="player_p"]
 5dm.link#@#.tm-share-this
 5dy15.cc##div[id][class^="is_"][style^="margin"]
@@ -17417,6 +17424,7 @@ news.hf365.com##.main-r > div:first-child
 news.ifeng.com##.right1
 news.lyd.com.cn##table[cellspacing="5"]:nth-child(3)
 news.lyd.com.cn##td[width="300px"] > table[width="300"] > tbody > tr:nth-last-child(n+2)
+news.mydrivers.com##.baidu
 news.mydrivers.com##.baidu_left
 news.mydrivers.com##.kkjgoods
 news.mydrivers.com##div[style="margin: auto;width: 580px;padding: 10px 0;"]
@@ -18977,7 +18985,7 @@ t66y.com##.tips
 t66y.com##.tpc_content.do_not_catch > span.f24
 t66y.com##a[href^="http://www.viidii.info/?https://po88_"]
 t66y.com##a[href^="http://www.viidii.info/?https://po88_"] ~ :nth-child(-n+115)
-t66y.com#%#//scriptlet('prevent-setTimeout', '/(\s|\()tpc/')
+t66y.com#%#//scriptlet('prevent-setTimeout', 'html')
 t7z.cupid.iqiyi.com
 tahua.net###frameJjnBIp
 taian.com##.ggtp
@@ -21710,6 +21718,7 @@ zzzyk.com###Tinfo
 ||5b025cnm.top^
 ||5d7k30pv1u.com^
 ||5dm.link/htm1/$image
+||5dm.link/htmI/*.gif
 ||5dm.tv/html/5dmm.jpg
 ||5dmail.net/image/$object
 ||5dmail.net/image/ORF_1000.gif
@@ -29130,6 +29139,7 @@ zzzyk.com###Tinfo
 ||annoyingacoustics.com^
 ||annoyingclover.com^
 ||annwwu.guitarcenter.com^
+||anode67.top^
 ||anon-stats.eff.org^
 ||anoneko.com^*.*?$image
 ||anontimes.com^
@@ -33315,6 +33325,7 @@ zzzyk.com###Tinfo
 ||btdx8.com/tmp/
 ||btescs.fun^
 ||bteucoiyp.com^
+||btfclfeqc9.com^
 ||btg360.com.br^$third-party
 ||btgoo.cc^
 ||btime.com/api/weblog?
@@ -39510,6 +39521,7 @@ zzzyk.com###Tinfo
 ||dwtpxq.karaca-home.com^
 ||dwuupq.com^
 ||dwuzxuvwlq.winticket.jp^
+||dwyeeunm.com^
 ||dwyeuy.com^
 ||dwyngjb.icu^
 ||dx.mountain.com^
@@ -42344,6 +42356,7 @@ zzzyk.com###Tinfo
 ||ffrmel.gerryweber.com^
 ||ffrmwn.musinsa.com^
 ||ffuodj.lanebryant.com^
+||ffvmgevrid.com^
 ||ffxe.cn^
 ||ffyvsn.evisu.com^
 ||ffzz71.com^
@@ -43440,7 +43453,7 @@ zzzyk.com###Tinfo
 ||gaccwr.dutramaquinas.com.br^
 ||gacela.eu^$third-party
 ||gaconnector.com^$third-party
-||gacraft.jp^$third-party
+||gacraft.jp/publish/token.html
 ||gadgets360.com/analytics.js
 ||gaglxx.com/5_
 ||gagysn.floward.com^
@@ -46223,6 +46236,8 @@ zzzyk.com###Tinfo
 ||hlj10050ip.com^
 ||hlj10051ip.com^
 ||hlj10060ip.com^
+||hlj10061ip.com^
+||hlj10070ip.com^
 ||hllu.cn^
 ||hlms.ecologie.gouv.fr^
 ||hlnr9q.icu^
@@ -49762,6 +49777,7 @@ zzzyk.com###Tinfo
 ||javazhijia.com/skin/
 ||javbooks.com/52toy/
 ||javdove.com/templates/frontend/javdove/*/partialviewslider.
+||javdtezk7.com^
 ||javedit.com/e/public/ViewClick/
 ||javhd.com/ascripts/gcu.js
 ||javhd.com/banners-mainpage/
@@ -51163,6 +51179,7 @@ zzzyk.com###Tinfo
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||koyso.com/aclib.js
 ||koyso.com/static/js/abcd.
+||kpapyw.icu^
 ||kpbzar.warbyparker.com^
 ||kpcyic.sportisimo.cz^
 ||kpfvaq.schuhe.de^
@@ -54102,6 +54119,7 @@ zzzyk.com###Tinfo
 ||m1905.cn/js/afp/m
 ||m1905.com/asp_js/k.js
 ||m1955.com/template/qq/images/playad/
+||m1jm3nzf2.com^
 ||m1vvvv1k2.com^
 ||m2.lelemh.com^
 ||m2.washmen.com^
@@ -60303,6 +60321,7 @@ zzzyk.com###Tinfo
 ||nvsheng.com/js/gg.js
 ||nvumcv.standoil.kr^
 ||nvxlag.liligo.fr^
+||nvxq.cn^
 ||nwajdf.zakzak.co.jp^
 ||nwbmvq.jockey.com^
 ||nweon.com/wp-content/repo/ad/
@@ -84541,6 +84560,7 @@ zzzyk.com###Tinfo
 ||wubizigeng.com^
 ||wucnmte.top^
 ||wucnwte.top^
+||wucvvf3t6n.com^
 ||wucvvh.surpricenow.com^
 ||wud2g55ffy.com^
 ||wudizuqiu.com/fy
@@ -85535,6 +85555,7 @@ zzzyk.com###Tinfo
 ||wzpwxe.4lapy.ru^
 ||wzrk.co^$third-party
 ||wzrkt.com^$third-party
+||wzvaknomh.com^
 ||wzyjup.patch.com^
 ||wzzhvn.hammer.de^
 ||x-resource05.com/media_orange/server-img/*_1200_120.
@@ -86574,6 +86595,7 @@ zzzyk.com###Tinfo
 ||ymm19.cc^
 ||ymmegy.icu^
 ||ymmiyun.com^
+||ympl9l9b.xyz^
 ||ymprove.gmx.net^
 ||ymprove.web.de^
 ||ymqnky.bagaggio.com.br^
