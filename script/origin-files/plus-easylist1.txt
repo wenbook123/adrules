@@ -2626,8 +2626,6 @@ cracksmid.com##div[style=""] > center > center
 ||grootcam.shop^$all
 ||z13.web.core.windows.net/*/?clickid=$doc
 ||viruswarning*.web.core.windows.net^$all
-! https://github.com/uBlockOrigin/uAssets/issues/30334
-/^https:\/\/[a-z]{6,12}\.[a-z]{4,6}\/index\.php/$doc,to=online|shop|~tibiantis.online,match-case
 
 ! https://github.com/uBlockOrigin/uBlock-discussions/discussions/302#discussioncomment-10338866
 ||pages.dev/*/Fm7-alert.wav
@@ -3445,6 +3443,8 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||svropeauthentificatid.run.place^$all
 ! https://www.virustotal.com/gui/url/3de6552df663c8ac07fa2e5ea111627d27de960a8c8d185ff0a24d72d0c494da
 ||payer-ma-acture-*.mystrikingly.com^$all
+! https://www.virustotal.com/gui/url/ab73890769129e9638adc3c972d882cd939a3beef82cf678459885f0e982d1d3
+||orange-connexion*.godaddysites.com^$all
 
 ! amazon
 ||amazon-*.shop^$doc
@@ -4525,6 +4525,31 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||alienxchain*.pages.dev^$doc
 ! https://www.virustotal.com/gui/url/e0f4f24fcaab6c1f540ac141d0c2088d3c5f5f6a2fad4bde212a00a676825ac3
 ||xcoinspro.com^$doc
+
+! swan.com
+! https://www.reddit.com/r/Scams/comments/1o1muxh/us_has_anyone_ever_heard_of_httpsswan9topassets/
+! https://www.virustotal.com/gui/ip-address/15.207.81.128/relations
+/^https?:\/\/(?:www\.)?swan[0-9]\.[ctv][cio]p?\//$doc,to=cc|top|vip
+||bullishapp.cc^$all
+||cc^$doc,ipaddress=15.207.81.128
+||top^$doc,ipaddress=15.207.81.128
+||vip^$doc,ipaddress=15.207.81.128
+
+! uphold
+! https://www.reddit.com/r/CryptoScams/comments/1o18i71/sketchy_looking_url_to_access_uphold_trading/
+! https://www.virustotal.com/gui/ip-address/206.82.7.123/relations
+/^https?:\/\/qqh[0-9]\.mom\//$doc,to=mom
+||bitoranges.com^$all
+||hswgs.com^$all
+||putrans.com^$all
+||qqh4.mom^$all
+||qqh5.mom^$all
+||snfee.com^$all
+||yzzrst.com^$all
+||zbzqgm.com^$all
+||zykqk.com^$all
+||com^$doc,ipaddress=206.82.7.123
+||mom^$doc,ipaddress=206.82.7.123
 
 ! uniswap
 ||interface-git-parallel-cypress-uniswap.vercel.app^$doc
@@ -5775,7 +5800,7 @@ uploadfox.net###ad-gs-05
 
 ! https://github.com/AdguardTeam/CoreLibs/issues/1966 Can be removed if it's fixed
 !#if ext_ubol
-/^https:\/\/[a-z]{3,5}\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9a-z]{10}|\d{8})\.html$/$doc,match-case,to=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|quest|sale|sbs|skin|today|top|work|world|xyz
+/^https:\/\/[a-z]{3,5}\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9a-z]{10}|\d{8})\.html$/$doc,match-case,to=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|quest|sale|sbs|skin|today|top|wiki|work|world|xyz
 /^https:\/\/[a-z]{4,5}\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9a-z]{10}|\d{8})\.html$/$doc,match-case,to=biz|blog|cc|cloud|club|info|life|live|me|one|online|shop|site|space|store
 !#endif
 
@@ -6285,6 +6310,9 @@ $doc,ipaddress=185.216.143.121
 
 ! https://www.reddit.com/r/antivirus/comments/1o0qpvg/ios_mcafee_and_other_random_scans_while_scrolling/
 ||killmalware.click^$all
+
+! https://x.com/masaomi346/status/1976194339962515575
+.com/SecurityPlugin.zip
 
 
 
