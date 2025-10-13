@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: rWgKPZr4oAKATkR6lpuenQ
+! Checksum: 6ifSEeD3xQ9GoUXoVVHv7Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-10-13 16:25:23（北京时间） 
-! Total count: 15027
+! Version: 2025-10-14 00:20:24（北京时间） 
+! Total count: 15028
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -580,6 +580,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnt.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -2555,6 +2556,7 @@
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
 @@||bing.com^$generichide
 @@||bing.com^$stealth=ip
+@@||bing.com^$stealth=ip|referrer|push
 @@||bingfeng.tw/source/plugin/unadblock/*_ads_*.js
 @@||birdflock.unipus.cn/ufe/third/sensorsdata/*/sensorsdata.min.js$domain=ucloud.unipus.cn
 @@||bit.ly^
@@ -2694,6 +2696,7 @@
 @@||bsp.needrom.com/advert*.js
 @@||bssdlbig.kugou.com^
 @@||bstatic.com/libs/privacy-consent/*/cookie-banner.min.js$script,domain=booking.com
+@@||bstlar.com^$generichide
 @@||bt*.t-ru.org^$stealth=useragent
 @@||bt.com^*/touchclarity/homepage/omtr_tc.js
 @@||bt.dk/build/advertisement.e39e7e4b.js
@@ -6560,6 +6563,7 @@
 @@||googleads.g.doubleclick.net/ads/preferences/$domain=googleads.g.doubleclick.net
 @@||googleads.g.doubleclick.net/favicon.ico$app=com.ftt.boxingstar.gl.aos
 @@||googleads.g.doubleclick.net/mads/gma?*&_package_name=com.nextradiotv.bfmbusiness
+@@||googleads.g.doubleclick.net/pagead/
 @@||googleads.g.doubleclick.net/pagead/$domain=maxedtech.com
 @@||googleads.g.doubleclick.net/pagead/*games2rule$xhr,domain=imasdk.googleapis.com
 @@||googleads.g.doubleclick.net/pagead/ads$domain=next-episode.net
@@ -7236,7 +7240,6 @@
 @@||hanime.tv/omni-player/index.html$stealth=referrer
 @@||hanimesubth.com/assets/js/ads.core.js$script,1p
 @@||hanjubaike.com^$script,~third-party
-@@||hanjubaike.com^$script,~third-partyrty
 @@||hanjuwang.com^$script,~third-party
 @@||hanjuwang.net^$script,~third-party
 @@||hankyung.com^$stealth=dpi
@@ -11002,6 +11005,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamibution.com^$removeparam=xdm_p
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -14763,10 +14767,8 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideb.com,genshinlab.com##div[id^="pw-incontent"]
-@@||xfreehd.com^$generichidek with capture")
-@@||xfreehd.com^$generichiderty
-@@||xfreehd.com^$generichidey.rest^
+@@||xfreehd.com^$generichideihasi.ru/upload/resize_cache/*/300_250_$image,~third-party
+@@||xfreehd.com^$generichidet,xmlhttprequest,redirect=noopjs,domain=mix957gr.com
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
@@ -15031,4 +15033,3 @@
 @@||zxzja.com:*/player-$subdocument,stealth=referrer
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
-ript,domain=louzhong8.com|miwens.com
