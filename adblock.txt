@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: BVD36kHaofBTUwE7yqBEyA
+! Checksum: SMPD1NR0dyJ/8frs9pAvqw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-10-20 00:20:44（北京时间） 
-! Total count: 87671
+! Version: 2025-10-20 09:12:47（北京时间） 
+! Total count: 87677
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9536,6 +9536,9 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ://ipv6.google.com*/search^$removeparam=kgs
 ://ipv6.google.com*/search^$removeparam=shndl
 ://ipv6.google.com^$doc,removeparam=ie,domain=www.google.*|ipv6.google.com
+://ipv6.google.com^$removeparam=/^num=\d{2,}$/
+://ipv6.google.com^$removeparam=aep
+://ipv6.google.com^$removeparam=ntc
 ://l.*/counter.php?id=$script,~third-party
 ://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
@@ -9588,6 +9591,9 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
 ://www.ebay.$doc,removeparam=/^itm[a-zA-Z0-9].*$/
 ://www.google.$doc,removeparam=ie,domain=www.google.*|ipv6.google.com
+://www.google.$removeparam=/^num=\d{2,}$/
+://www.google.$removeparam=aep
+://www.google.$removeparam=ntc
 ://www.google.*/search^$removeparam=entrypoint
 ://www.google.*/search^$removeparam=kgs
 ://www.google.*/search^$removeparam=shndl
