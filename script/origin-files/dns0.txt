@@ -1,9 +1,9 @@
-! Checksum: XD0J3Xk1x0WeLKpNF1Ovdg
-! Diff-Path: ../patches/224/224-s-1761779491-3600.patch
+! Checksum: AmHmPBtd94XBVYn9v/42iQ
+! Diff-Path: ../patches/224/224-s-1761808344-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.46.77
-! TimeUpdated: 2025-10-29T23:07:49+00:00
+! Version: 2.1.46.80
+! TimeUpdated: 2025-10-30T07:08:30+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5127,6 +5127,15 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||zdh10300lo.com^
+||dlkliqrxt2.com^
+||gv0oi9ecji.com^
+||braised58.top^
+||ebqonaidz.com^
+||eqqp.cn^
+||uxx1sawfwm.com^
+||zbl40hvzzy.com^
+||zdh10301lo.com^
 ||careless05.com^
 ||zdh10290lo.com^
 ||1futnsio0.com^
@@ -5506,10 +5515,6 @@ newduba.cn###jq_youxi
 ||ipybks.icu^
 ||ufne.cn^
 ||vplrvf.icu^
-||rgcrunzozp.com^
-||umbrella6.top^
-||fuw6cipmw.com^
-||nzl09291oa..icu^
 ||rgcrunzozp.com^
 ||umbrella6.top^
 ||fuw6cipmw.com^
@@ -11417,7 +11422,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
 ||hexun.com/gphqtc/
-||hexun.com/hxpage_jrtj2
+||hexun.com/hxpage_jrtj2020/
+||hexun.com/pc/img/diversionToWXBottom_
+||hexun.com/pc/js/dataPopup.
 ||hf365.com/0/13/79/87/13798795_912593.jpg
 ||hf365.com/0/14/31/00/14310068_933922.png
 ||hf365.com/0/14/60/93/14609355_921128.jpg
@@ -21346,7 +21353,8 @@ _vwisbjs?
 /83zg/tss.js
 yydstxt*.com/js/html
 yydstxt*.com/js/cdn.
-||69shuba.com/js/ad.js
+/js/ad.js$domain=69shuba.com
+||vqbmxyzda.icu^
 ||banzhu33333.net/js/cdn.
 ||banzhu33333.net/js/html
 ||djdedu.net/static/*.gif
@@ -21419,6 +21427,7 @@ wss://*.*.top/$third-party
 ||lzbao.net/mtvbox.
 ||4taoxs.com/api/accept/
 ||biquge.ac/tongji/ad.
+||haogushi88.cc/static/simple/yue
 .cn/Ao390sW2.js
 .cn/cS389.js
 ##.row.nav-bottom + div[style^="display: block; position: relative; width: 0px; height:"]
@@ -21793,8 +21802,6 @@ fqsousou.com,kengso.com#@#.user-share
 @@||wl.jd.com/wl.js
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
-@@||youku.com/cms/playlog/get?
-||hjfile.cn/analytics/site/TrackEvent.js/
 @@||youku.com/cms/playlog/get?
 ||hjfile.cn/analytics/site/TrackEvent.js
 
