@@ -1,9 +1,9 @@
-! Checksum: N/60AEw4JJC6snM4ZadaoQ
-! Diff-Path: ../patches/224/224-s-1761833492-3600.patch
+! Checksum: hnLx+XOYZTbIwhGzqDBQvg
+! Diff-Path: ../patches/224/224-s-1761894712-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.46.82
-! TimeUpdated: 2025-10-30T14:07:52+00:00
+! Version: 2.1.46.87
+! TimeUpdated: 2025-10-31T07:08:12+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1719,7 +1719,7 @@ v2rayssr.com#?#.single-top-html:has(> div:only-child > a[target="_blank"] > img)
 v2rayssr.com#?#.content-area > .single-bottom-html:has(> div[align="center"] > .adsbygoogle)
 rouman5.com#?#.col-md-4 > div.row:has(> div.col > div[style] > ins[id])
 pornbest.org#?#.container-fluid > div.row:has(> div.item > div.card > div.card-body > div > span:contains(/^ad$/))
-carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div[style^="width:"]:has(a[aria-label^="licksang"]) { remove: true }
+carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div[style^="width:"]:has(a[aria-label^="licksang"]) { remove: true; }
 boylove.cc#?#.stui-pannel__bd > div[class]:has(> div[class] > div[class] > a[href][target="_blank"][rel="nofollow"] > img[src^="/bookimages/img/"][src$=".gif"])
 rouman5.com#?#.col-md-4 > div.row:has(> div.col > h5:contains(支持一下吧))
 olevod.com#$?#.swiper-wrapper > li.swiper-slide:has(> a[target="_blank"]:not([href^="/"])) { remove: true; }
@@ -5127,6 +5127,16 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||m17d1e83q.com^
+||pzq7ilwvv.com^
+||specialty75.com^
+||zdh10310lo.com^
+||aovk.cn^
+||zihqjf.icu^
+||xpdgvlxwn.icu^
+||lyjq9gwob.com^
+||rvrl1srlq.com^
+||zdh10311lo.com^
 ||zdh10300lo.com^
 ||dlkliqrxt2.com^
 ||gv0oi9ecji.com^
@@ -21430,6 +21440,7 @@ wss://*.*.top/$third-party
 ||4taoxs.com/api/accept/
 ||biquge.ac/tongji/ad.
 ||haogushi88.cc/static/simple/yue
+||zztxt.net/Public/wapbiquge/js/static.js
 .cn/Ao390sW2.js
 .cn/cS389.js
 ##.row.nav-bottom + div[style^="display: block; position: relative; width: 0px; height:"]
@@ -21805,7 +21816,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
-||hjfile.cn/analytics/site/TrackEvent.jss
+||hjfile.cn/analytics/site/TrackEvent.js
 
 
 
