@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: SOjtX0pnlx3JjHRkooR1Cg
+! Checksum: K85yG5BZtk97zfUR+iMaPg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-11-01 16:24:15（北京时间） 
-! Total count: 15010
+! Version: 2025-11-02 00:18:33（北京时间） 
+! Total count: 15011
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -575,7 +575,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org_models$subdocument,~third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.citizensclimatelobby.org^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -5208,6 +5208,7 @@
 @@||ebank.bsstarozreby.pl^$stealth=dpi
 @@||ebanking.meezanbank.com/AmbitRetailFrontEnd/js/fingerprint2.min.js$~third-party
 @@||ebates.com^$generichide
+@@||ebay.*/*promote$xmlhttprequest,elemhide,jsinject,extension
 @@||ebay.*/bfl/placebid/$xmlhttprequest,elemhide,jsinject,extension
 @@||ebay.*/makeOffer/$document,subdocument
 @@||ebay.*/sio/buyer/reviewSellersOffer/$xmlhttprequest,elemhide,jsinject,extension
@@ -9960,7 +9961,6 @@
 @@||omhm.qc.ca^$stealth=dpi
 @@||omniplex.ie/script/modules/cookiecuttr.js$~third-party
 @@||omniture.walmart.com^|
-@@||omniture.walmart.com^|-v4.fdkox-c.online^
 @@||omniva.ee/ext/js/eu_cookies.js
 @@||omns.americanexpress.com/b/ss/
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
@@ -10455,6 +10455,7 @@
 @@||passport.csdn.net/login^$stealth=referrer
 @@||passport.jlcpcb.com^$removeparam=from
 @@||passport.yandex.ru^$stealth=3p-cookie
+@@||passwordsleakcheck-pa.googleapis.com$stealth=dpi
 @@||paste.in^
 @@||pastebin.com/etc/geo.php?
 @@||pastepvp.org^$ghide
@@ -14746,9 +14747,9 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide=virgilio.it
-@@||xfreehd.com^$generichidem/AdguardTeam/AdguardFilters/issues/146068
-@@||xfreehd.com^$generichideub.com/AdguardTeam/AdguardFilters/issues/202710
+@@||xfreehd.com^$generichidess^="go"]:only-child > nav + div[class^="go"] > div[class^="go"]:first-child:has(> div[class^="go"]:first-child + .onet-ad:last-child)
+@@||xfreehd.com^$generichideup,domain=streamtape.to
+@@||xfreehd.com^$generichideww.google.*/search?q=*&oq=*&aqs=chrome.*&sourceid=chrome&$popup,third-party
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
