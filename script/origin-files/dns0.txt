@@ -1,9 +1,9 @@
-! Checksum: +fVXc6DiHX2zOa9F+o7Tvw
-! Diff-Path: ../patches/224/224-s-1761887550-3600.patch
+! Checksum: YLxmTxatMrBF2klMPE2xxw
+! Diff-Path: ../patches/224/224-s-1761901925-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.46.86
-! TimeUpdated: 2025-10-31T05:08:51+00:00
+! Version: 2.1.46.88
+! TimeUpdated: 2025-10-31T09:08:23+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1076,6 +1076,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 ! NOTE: Specific rules
 !
+||lpl.qq.com/*/data/LOL_MATCH2_NEWS_RECOMMEND_*_INFO.js
 .gif|$domain=18j.tv
 18j.tv##div[class="container"] > div[class="warp"]
 18j.tv##div[class="container"] > div.main > div[class]:has(> a[href][target="_blank"][rel="nofollow"])
@@ -5136,6 +5137,7 @@ newduba.cn###jq_youxi
 ||xpdgvlxwn.icu^
 ||lyjq9gwob.com^
 ||rvrl1srlq.com^
+||zdh10311lo.com^
 ||zdh10300lo.com^
 ||dlkliqrxt2.com^
 ||gv0oi9ecji.com^
@@ -21439,6 +21441,7 @@ wss://*.*.top/$third-party
 ||4taoxs.com/api/accept/
 ||biquge.ac/tongji/ad.
 ||haogushi88.cc/static/simple/yue
+||zztxt.net/Public/wapbiquge/js/static.js
 .cn/Ao390sW2.js
 .cn/cS389.js
 ##.row.nav-bottom + div[style^="display: block; position: relative; width: 0px; height:"]
@@ -21814,10 +21817,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
-||hjfile.cn/analytics/site/TrackEvent.jsw|tw.answers.yahoo.com
-@@||youku.com/cms/player/userinfo/
-@@||youku.com/cms/playlog/get?
-||hjfile.cn/analytics/site/TrackEvent.js
+||hjfile.cn/analytics/site/TrackEvent.jsTrackEvent.js
 
 
 
