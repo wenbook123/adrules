@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 41GryVVFkU0Vxzg6TNdFZg
+! Checksum: 4e7YFdpVKOGFMfKYGXcb0Q
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2025-11-02 16:20:33（北京时间） 
-! Total count: 87980
+! Version: 2025-11-03 00:18:42（北京时间） 
+! Total count: 87994
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2817,6 +2817,7 @@ $removeparam=icid2
 $removeparam=iclid
 $removeparam=icn,domain=shein.com
 $removeparam=ico,domain=dailymail.co.uk|inews.co.uk|metro.co.uk|thisismoney.co.uk
+$removeparam=id,domain=affiliate.orangewebsite.com|linksynergy.com|www.bestbuy.*
 $removeparam=id,domain=go.redirectingat.com|go.skimlinks.com|go.skimresources.com|karkkainen.com
 $removeparam=id_mid_4
 $removeparam=iflsig,domain=www.google.*|ipv6.google.com
@@ -10411,6 +10412,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||collusion.com/static/newrelic.js$script,~third-party
 @@||comment-cdn.9gag.com/*comment-list.json?$removeparam
 @@||community.brave.app/t/$xmlhttprequest
+@@||configurator.porsche.com/public/adobe-analytics-$~third-party
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||console.statsig.com/_next/$~third-party
@@ -30669,6 +30671,7 @@ zzzyk.com###Tinfo
 ||artfut.com^$third-party
 ||artisan.actonservice.com^
 ||artistchristinacarmel.ericksonbuilt.com^
+||artlist.io^$removeparam=artlist_aid
 ||arts-cloud.net^
 ||artstation.com^$removeparam=/^\d.*$/
 ||arttrk.com/pixel/
@@ -34946,6 +34949,7 @@ zzzyk.com###Tinfo
 ||click.googleanalytics.com^
 ||click.instacartemail.com^
 ||click.kataweb.it^
+||click.linksynergy.com^$removeparam=mid
 ||click.lmbcustomersupport.com^
 ||click.mail.carousell.com^
 ||click.mail.thecarousell.com^
@@ -42300,6 +42304,11 @@ zzzyk.com###Tinfo
 ||fastly.net/i?
 ||fastly.net/sp.js
 ||fastmail.com/api/event/
+||fastmail.com^$removeparam=gspk
+||fastmail.com^$removeparam=gsxid
+||fastmail.com^$removeparam=ps_partner_key
+||fastmail.com^$removeparam=ps_xid
+||fastmail.com^$removeparam=pscd
 ||fastpic.org/viewed.php?url=/*.html&ref=$xmlhttprequest
 ||faststart.ru^$third-party
 ||fasttiger.io^
@@ -59889,6 +59898,7 @@ zzzyk.com###Tinfo
 ||nexon.com/nxlog-collect/
 ||nexstardigital.net/segment.js
 ||next.rikunabi.com/api/logRecommendRealtimeI2AV2
+||nextdns.io^$removeparam=from
 ||nextdoor.*/ajax/ping_ndas/
 ||nextdoor.com/events/
 ||nextstat.com^$third-party
@@ -62041,6 +62051,7 @@ zzzyk.com###Tinfo
 ||parallax.askmediagroup.com^
 ||parallel6.actonservice.com^
 ||parallelbulb.com^
+||parallels.com^$removeparam=x-source
 ||paramedicexam.quantresear.ch^
 ||parameter.dk^$third-party
 ||parametre.online^$third-party
@@ -63507,6 +63518,8 @@ zzzyk.com###Tinfo
 ||protectcrev.com^$third-party
 ||protectsubrev.com^$third-party
 ||protestcopy.com^
+||proton.me^$removeparam=phfp
+||proton.me^$removeparam=url_id
 ||protosell.actonservice.com^
 ||protys.protys.fr^
 ||provenpixel.com^$third-party
@@ -81087,6 +81100,7 @@ zzzyk.com###Tinfo
 ||tu6.icu^
 ||tu6767109513.cc^
 ||tuagol.gartenmoebel.de^
+||tubebuddy.com^$removeparam=a
 ||tubemogul.com^$third-party
 ||tubepornstars.com/js/analytics
 ||tubi.io/datascience/logging?
