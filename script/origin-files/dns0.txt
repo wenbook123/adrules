@@ -1,9 +1,9 @@
-! Checksum: zORkjItZip9m8ZZTPIMYVQ
-! Diff-Path: ../patches/224/224-s-1762337565-3600.patch
+! Checksum: dhVeeERins9yLUUEsPfM9A
+! Diff-Path: ../patches/224/224-s-1762348825-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.47.33
-! TimeUpdated: 2025-11-05T10:09:01+00:00
+! Version: 2.1.47.34
+! TimeUpdated: 2025-11-05T13:16:39+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1161,6 +1161,8 @@ haiwaishubao.com#%#//scriptlet('abort-current-inline-script', 'document.write')
 ||jt5.dangbei.net/site/$domain=kan.znds.com,image
 /^https?:\/\/kan\.znds\.com\/public\/home\/images\/[0-9]+-[0-9]+\.gif\?v=/$domain=kan.znds.com
 iplark.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'localStorage')
+iplark.com#%#//scriptlet('trusted-set-local-storage-item', 'adClosedTimestamp', '$now$')
+iplark.com##body > #capture-area ~ div[class]:empty
 iplark.com##body > div:not([class]):not([style])
 ||xslca.cc/js/pf.js
 xslca.cc##.footer ~ div[class$="fanye"][onclick$="fanye()"]
@@ -1788,11 +1790,6 @@ knews.com.tw,1905.com,news.ltn.com.tw,commonhealth.com.tw,health.tvbs.com.tw,idr
 world68.com##.guanggao
 world68.com##.zzs_ad
 onebox.mydown.com##.fcGg
-onebox.mydown.com##.fcAgain
-onebox.mydown.com##.advertisement_pic
-detail.zol.com.cn##.link_jd
-blog.csdn.net##.programmer1Box
-n.com##.fcGg
 onebox.mydown.com##.fcAgain
 onebox.mydown.com##.advertisement_pic
 detail.zol.com.cn##.link_jd
@@ -3359,7 +3356,9 @@ world.huanqiu.com#@#.ad_all
 @@||ifengimg.com/fe/shank/content/mobile_view.*_modern.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/52124
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62452
-@@||potsdk/*sdk.js$script,domain=youku.com
+@@||potalapalace.cn/upload/images/advertise/picture/131030000583.jpg
+! https://github.com/AdguardTeam/AdguardFilters/issues/84824
+@@||alicdn.com^*yksdk/*sdk.js$script,domain=youku.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81317
 @@||bookwalker.com.tw/images/p_img/pc_ad*.png$~third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80692
@@ -5145,8 +5144,7 @@ newduba.cn###jq_youxi
 ||lnme1q1qa.com^
 ||5j45n3f6r.com^
 ||zdh11051lo.com^
-||hrtnmhkzhpfpnqvchoe7lyb9wy.cfd^
-||hzjfup46v3nj6ilr8k.rest^
+||dygeitaze.com^
 ||dkc63u5su8.com^
 ||tb4gv2cp5z.com^
 ||divergentld.com^
@@ -7367,12 +7365,6 @@ newduba.cn###jq_youxi
 ||jnwuama.top^
 ||jia6983.xyz^
 ||rjvzjn.top^
-||vrosqutsgh.com^
-||rgme.cn^
-||zofmhx.icu^
-||pktfla.top^
-||mucnwtx.top^
-||owcnmtk.vzjn.top^
 ||vrosqutsgh.com^
 ||rgme.cn^
 ||zofmhx.icu^
