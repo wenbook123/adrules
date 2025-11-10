@@ -1,9 +1,9 @@
-! Checksum: BS2L+Jqt+nfeT7GRFQGPUA
-! Diff-Path: ../patches/224/224-s-1762745740-3600.patch
+! Checksum: OaTwgymthGKdrsR4/L3xlg
+! Diff-Path: ../patches/224/224-s-1762762428-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.47.63
-! TimeUpdated: 2025-11-10T03:32:13+00:00
+! Version: 2.1.47.65
+! TimeUpdated: 2025-11-10T08:10:15+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5140,6 +5140,9 @@ newduba.cn###jq_youxi
 ||q58nf16jd3.com^
 ||wueyninj7r.com^
 ||pdrerzug.com^
+||wbea.cn^
+||fxab9iuprt.com^
+||lls11101ko.com^
 ||hc1kycrud.com^
 ||lls11090ko.com^
 ||vocabulary83.com^
@@ -20907,8 +20910,6 @@ bejson.com##img[src^="data"]
 bingfeng.tw###adbt
 bingfeng.tw##.wow-ad-link
 !#boylove.cc
-boy.wow-ad-link
-!#boylove.cc
 boylov.xyz,boylove.cc,boyloves.fun###fake_avivid_waterfall_webpush
 boylov.xyz,boylove.cc,boyloves.fun##.owl-carousel
 boylov.xyz,boylove.cc,boyloves.fun##.swiper-wrapper
@@ -20957,7 +20958,7 @@ $script,third-party,domain=cilimao.co|cilimao.one
 cilimao.co,cilimao.one##div[class^="FixBanner"]
 ||cilimao.*/amaod/
 !#CSP filters
-$csp=script-src 'self' * 'unsafe-inline',domain=nodejs.cn|smsonline.cloud
+$csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
 !#ddooo.com
 ddooo.com##.gadat_list
@@ -21715,7 +21716,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
-||hjfile.cn/analytics/site/TrackEvent.js
+||hjfile.cn/analytics/site/TrackEvent.jsfile.cn/analytics/site/TrackEvent.js
 
 
 
