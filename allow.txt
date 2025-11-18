@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: OrIXYYJk0xQVGFs467+tOQ
+! Checksum: IFaeVvV0OrR+TMNM70e+Tw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-11-18 16:28:23（北京时间） 
-! Total count: 15086
+! Version: 2025-11-19 00:22:54（北京时间） 
+! Total count: 15096
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -579,7 +579,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgm^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -884,6 +883,7 @@
 @@||aboluowang.com^$generichide
 @@||about-australia.com/*/clickheat.js
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
+@@||abp-profile-service.adobe.io^$stealth=3p-auth
 @@||abqjournal.com/wp-content/themes/jpc-wp-theme/assets/js/advertisement/ads.js
 @@||abstream.to/embed-$stealth=referrer
 @@||abstream.to^$stealth=useragent
@@ -1140,7 +1140,9 @@
 @@||adobedtm.com^*/satelliteLib-$script,domain=samsungmembers.cn
 @@||adobedtm.com^*_source.min.js$domain=ally.com|americanexpress.com|as.com|backcountry.com|crave.ca|disneyplus.disney.co.jp|hilton.com|hl.co.uk|homedepot.ca|kroger.com|mora.jp|nbarizona.com|pnc.com|tatacliq.com|telus.com
 @@||adobeid-*.services.adobe.com^$stealth=3p-cookie
+@@||adobeid-*.services.adobe.com^$stealth=3p-cookie|3p-auth
 @@||adobelogin.com^$stealth=3p-cookie
+@@||adobelogin.com^$stealth=3p-cookie|3p-auth
 @@||adobesparkpost-web.app.link/e$stealth=useragent
 @@||adobetag.com/d1/ewscripps/live/SNIFoodCategory.js$domain=food.com
 @@||adobetag.com/d1/octagoncommerce/live/metrics.js$domain=1saleaday.com
@@ -1180,6 +1182,7 @@
 @@||ads.adthrive.com/core/gdpr/vendor/prebid/prebid.min.js$domain=mediaite.com
 @@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
 @@||ads.adthrive.com/sites/*/ads.min.js$domain=laurelberninteriors.com
+@@||ads.adtpopup
 @@||ads.aiir.net/rf/feed?callback=jQuery
 @@||ads.alafish.cn^$~third-party
 @@||ads.allegro.pl^$domain=ads.allegro.pl
@@ -2106,6 +2109,7 @@
 @@||appvn.com^$ghide
 @@||appzdam.net^$elemhide
 @@||apresolve.spotify.com^
+@@||aps-web.adobe.io/webapps/access_profile$stealth=3p-auth
 @@||apt.sonarr.tv^
 @@||aptal.pro^$websocket
 @@||apv-launcher.minute.ly/api/$script
@@ -2656,6 +2660,7 @@
 @@||botprotect.io^$stealth=referrer,domain=robloxscripts.com
 @@||boxberry.ru/tracking.service^
 @@||boxer.baidu.com^
+@@||bps-il.adobe.io/users/$stealth=3p-auth
 @@||brainly.com/app/scripts/wp-banners.js
 @@||brainly.lat/app/scripts/wp-banners.js
 @@||bran-media.canalplus.pro^$media,domain=canalplus.com
@@ -2893,6 +2898,7 @@
 @@||cbsistatic.com/fly/js/components/urban-airship-$domain=cnet.com
 @@||cbsistatic.com/fly/js/libs/ads/bidbarrel-*.js$domain=cnet.com
 @@||cbsistatic.com/scripts/NativeAdManager.js^$domain=cbsnews.com
+@@||cc-collab.adobe.io/profile$stealth=3p-auth
 @@||cc.cdn.civiccomputing.com/*/cookieControl-*.min.js$domain=randa.org
 @@||cc.cdn.civiccomputing.com/*/cookieControl-*.min.js$domain=stagecoachbus.com
 @@||cc.cdn.civiccomputing.com/*/cookieControl-9.x.min.js$domain=losteria.net
@@ -5632,6 +5638,7 @@
 @@||fastly.net/js/_ads/prebid-*-min.js$domain=spanishdict.com
 @@||fastmail.com^$generichide
 @@||fastssh.com/dfp.min.js
+@@||fathom.video/embed/$subdocument
 @@||faucetcrypto.com/ads^
 @@||faucetcrypto.com^$generichide
 @@||faucetcrypto.com^$ghide
@@ -5922,6 +5929,7 @@
 @@||g.alicdn.com/AWSC/et/$domain=ele.me
 @@||g.alicdn.com^*/banner_ad_
 @@||g.csdnimg.cn/lib/fuckadblock/3.2.1/fuckadblock.min.js
+@@||g.doubleclick.net.$popup
 @@||g.doubleclick.net/aclk?$popup,domain=bodas.com.mx|bodas.net|casamentos.com.br|casamentos.pt|casamiento.com.uy|casamientos.com.ar|mariages.net|matrimonio.com|matrimonio.com.co|matrimonio.com.pe|matrimonios.cl|pianobuyer.com|weddingspot.co.uk|zillow.com
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=bloomberg.com|chromatographyonline.com|formularywatch.com|journaldequebec.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com|samsclub.com
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
@@ -10157,6 +10165,7 @@
 @@||orange.fr/medias/toolkit/js/Wtinit.js
 @@||orangeclickmedia.com/tech/libs/js.cookie.min.js$domain=protothema.gr
 @@||orbit.jd.com^
+@@||orders.adobe.io/v4/orders/$stealth=3p-auth
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||oriflame.ru^$cookie=SC_ANALYTICS_GLOBAL_COOKIE
 @@||origin-ads.exosrv.com/ad99uip8i.php
@@ -13904,6 +13913,7 @@
 @@||udndata.com/ndapp/ads/$~third-party
 @@||udnplay.com/js/momo/adsbygoogle.js
 @@||udp2p.com^$generichide
+@@||uds.adobe-identity.com/userdocs/$stealth=3p-auth
 @@||uflash.tv^$ghide
 @@||ugdturner.com/xd.sjs$domain=tbs.com
 @@||ugdturner.com^$script,domain=live.bleacherreport.com
@@ -14821,8 +14831,8 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideeam/AdguardFilters/issues/16790
-@@||xfreehd.com^$generichideomain=luluvdo.com
+@@||xfreehd.com^$generichide/213340
+@@||xfreehd.com^$generichides_banner_Hp
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
