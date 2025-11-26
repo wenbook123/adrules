@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: OXL/i3FvWs0aCDAT0vw9Wg
+! Checksum: BRnRkOxDbB5tCaxPKLEhtA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-11-26 00:22:53（北京时间） 
-! Total count: 15116
+! Version: 2025-11-26 09:09:49（北京时间） 
+! Total count: 15118
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -581,6 +581,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orge.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orghrezept.de^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -10046,6 +10048,7 @@
 @@||omhm.qc.ca^$stealth=dpi
 @@||omniplex.ie/script/modules/cookiecuttr.js$~third-party
 @@||omniture.walmart.com^|
+@@||omniture.walmart.com^| https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/797
 @@||omniva.ee/ext/js/eu_cookies.js
 @@||omns.americanexpress.com/b/ss/
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
@@ -14851,8 +14854,7 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidedguardFilters/issues/47284
-@@||xfreehd.com^$generichidek|hotukdeals.com|jobamatic.com|play.google.com|santander.co.uk|techrepublic.com
+@@||xfreehd.com^$generichideext(),"/ad/")]])', '', '.mpd')
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
