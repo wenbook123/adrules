@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512011613
+! Version: 202512020104
 ! Title: Fanboy's Annoyance List
-! Last modified: 01 Dec 2025 16:13 UTC
+! Last modified: 02 Dec 2025 01:04 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f6fc6a7d957368b80de9d105ab2acf1cb1cfb6d1
+! Commit: 66e68d3aefc213331c925ffadb08d989ad29b580
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -37905,7 +37905,6 @@ dirsyncpro.org###cookie-notice-modal
 furaffinity.net,globalair.com,kennesaw.edu,reelrapture.com,southwire.com,tourradar.com###cookie-notification
 energylivenews.com###cookie-notification-mask
 kimkim.com###cookie-permissions-footer
-creamher.com,dorotheum.com,mrluckyraw.com,rospotrebnadzor.ru,spizoo.com###cookie-popup
 gorillas.io,simbrief.com###cookie-settings
 dotmetrics.net###cookie-snackbar-container
 hope.study###cookie-snackbar-popup
@@ -38505,7 +38504,6 @@ atoocall.com##.GDPRPopup-module--popup--3chjm
 venngage.com##.GDPR_main__fxmFf
 laufcycles.com##.GdprBanner_banner___hVQl
 airasia.com##.Gdpr__GdprParentWrapper-sc-z30mcl-0
-flyfi.com##.HASH_COOKIE_ALERT_GRID_ITEM_FIXED
 tunemymusic.com##.HeaderMenu_CookieAlert__ipEfK
 repost.aws##.Header_terms__3jQyq
 rythm.fm##.Homepage_banner__Bo2QI
@@ -39015,7 +39013,7 @@ agados.cz,concert.ua,delfortgroup.com,githubstatus.com,puffy.com,splice-cad.com,
 meest-shop.com##.cookie-consent-banner_root__M9V7x
 developers.turing.com##.cookie-consent-overlay
 buying.expert##.cookie-consent-popover
-hm.com##.cookie-consent-popup
+cos.com,hm.com##.cookie-consent-popup
 fling2night.com##.cookie-consent-root
 samsungknox.com##.cookie-consent-v3
 visitworld.today##.cookie-consent-wrapper
@@ -40324,6 +40322,7 @@ trello.com##[data-testid="cookies-consent-banner"]
 cline.bot,opencollective.com##[data-testid="cookies-dialog"]
 airhelp.com##[data-testid="cookiesNotice"]
 hims.com##[data-testid="cpra-popup"]
+bing.com##[data-viewname="MobileTopToastRefresh"]
 reddit.com##[reddit-cookie-banner]
 stuffthatworks.health##[role="alertdialog"]
 journalofdigitalhistory.org##[style*="position: fixed; bottom: 0px;"]
@@ -40605,6 +40604,8 @@ experianidentityservice.co.uk###ensBannerBG
 action.pl,appartementamsterdam.nl,bestbuycyprus.com,cambridge.org,discountbank.co.il,dividendmax.com,faccsa.com,haber7.com,huurwoningamsterdam.nl,jobg8.com,kameramsterdam.nl,macpac.co.nz,mercantile.co.il,meups.com.br,nomos-glashuette.com,ostwest.tv,piadinalumbro.gr,rules.co.uk,safra.sg,studiosamsterdam.nl,woonbotenamsterdam.com##.cookie-message
 ! ! .cookie-accept
 autocango.com##.cookie-accept
+! ! #cookie-popup
+creamher.com,dorotheum.com,klops.ru,mrluckyraw.com,rospotrebnadzor.ru,spizoo.com###cookie-popup
 ! ! #consentManager
 privateproperty.co.za###consentManager
 ! ! aria-label="cookieconsent"
@@ -41405,8 +41406,11 @@ unsplash.com##[open]:has(a[href="/cookies"])
 canva.com##[role="dialog"]:has-text(/cookie/i)
 bitbucket.org,chat.mistral.ai##[role="dialog"]:has-text(cookies)
 moebelix.at##body > div > div:has(#jentis_consent)
-aainflight.com##div[class*="_toastContainer_"]:has-text(We care about your privacy)
 yogainternational.com##div[class^="elements__Banner-"]:has(> div > a[href$="-privacy-policy"])
+! Intranet blocks
+! Domains that won't show up publicly. (like airplane wifi domains)
+flyfi.com##.HASH_COOKIE_ALERT_GRID_ITEM_FIXED
+aainflight.com##div[class*="_toastContainer_"]:has-text(We care about your privacy)
 ! googlefunding consent warning
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 ! medium blogs
