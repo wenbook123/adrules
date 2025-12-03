@@ -1,9 +1,9 @@
-! Checksum: TS8ieC05tiy6CGWXlvYsfA
-! Diff-Path: ../patches/224/224-s-1764691962-3600.patch
+! Checksum: nB6NDQLewIJgmTbMIh7Dpg
+! Diff-Path: ../patches/224/224-s-1764774726-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.49.7
-! TimeUpdated: 2025-12-02T16:09:37+00:00
+! Version: 2.1.49.12
+! TimeUpdated: 2025-12-03T15:09:15+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1083,7 +1083,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 toy-people.com##.article_insertAD
 news.cnyes.com##.a133dm9s
-||xchina.$domain=crxs.me
 crxs.me#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'visitUrl')
 crxs.me##.push-top
 cava.tw##.banner
@@ -2950,6 +2949,7 @@ $$script:contains(?is_not=1&target=1&ty=2)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/217901
 /^https:\/\/www\.xiguashuwu\.com\/[a-z]{15,20}\/[a-z]{15,20}\.js\?v=/$script,domain=xiguashuwu.com
 ! Specific rules to avoid redirects on tap with very similar scripts
+huoqwk.com,wap.biqugewx.info#%#//scriptlet('prevent-setTimeout', 'addEventListener("touchstart"')
 enhuku.com#%#//scriptlet('set-constant', 'adObj', 'noopFunc')
 m.13xsw.com,wap.yushuwu.cloud#%#//scriptlet('prevent-addEventListener', 'touchend', 'clientheight')
 !
@@ -5185,6 +5185,18 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||njdwxxyem.com^
+||shelter57.com^
+||1jzocofm4.com^
+||niuk12030gi.com^
+||nfvj.cn^
+||rkcfmfm97.com^
+||stubborn80.top^
+||dtrinzael.com^
+||4wbvq8yl2.com^
+||niuk12031gi.com^
+||umqigvethe.com^
+||vid12031hl.com^
 ||vbgyniffuy.com^
 ||j4s12kfavg.com^
 ||niuk12020gi.com^
@@ -22047,9 +22059,6 @@ fqsousou.com,kengso.com#@#.user-share
 @@||wl.jd.com/joya.js
 @@||wl.jd.com/wl.js
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
-@@||youku.com/cms/player/userinfo/
-@@||youku.com/cms/playlog/get?
-||hjfile.cn/analytics/site/TrackEvent.jstw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
 ||hjfile.cn/analytics/site/TrackEvent.js
