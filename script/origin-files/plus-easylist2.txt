@@ -11499,6 +11499,236 @@ techdracula.com##ins.adsbygoogle
 !#if env_mobile
 !#include filters-mobile.txt
 !#endif
+^="http://redact.dev"]
+
+! https://github.com/uBlockOrigin/uAssets/issues/10788
+legendas.dev##+js(refresh-defuser)
+investnewsbrazil.com##+js(nano-stb, contador, *, 0.001)
+investnewsbrazil.com##+js(acs, Light.Popup.create)
+
+! https://github.com/NanoMeow/QuickReports/issues/3432
+libreriamo.it##+js(nostif, ai_adb)
+
+! boost.ink link-hijack // boost.ink/ia7o
+boost.ink##+js(disable-newtab-links)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/52499
+! https://github.com/AdguardTeam/AdguardFilters/issues/116034
+@@||easyexploits.com^$ghide
+easyexploits.com##+js(aopr, mm)
+
+! https://github.com/NanoMeow/QuickReports/issues/3439
+dailymaverick.co.za##+js(nostif, t(), 0)
+
+! https://github.com/NanoMeow/QuickReports/issues/3446
+notiziemusica.it##+js(aopw, adBlockDetected)
+
+! https://github.com/uBlockOrigin/uAssets/issues/7175
+androgamer.org##+js(acs, jQuery, ai_adb)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/52613
+@@||fiches-auto.fr^$ghide
+fiches-auto.fr###bulle_avvis
+fiches-auto.fr##.adsbygoogle:style(visibility: collapse !important)
+
+! https://github.com/NanoMeow/QuickReports/issues/3451
+ludigames.com##+js(nostif, ads)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/fqjo82/pandora_just_started_detecting_ad_blocker_wont/
+! https://github.com/uBlockOrigin/uAssets/issues/12733
+@@||pandora.com/web-version/*.json$xhr,1p
+*$script,redirect-rule=noopjs,domain=pandora.com
+||pandora.com/static/ads/omsdk-$script,redirect=noop.js
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=pandora.com,redirect=google-ima.js:10
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/52633
+||clk.sh^$3p
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/52643
+hentaipornpics.net##+js(acs, $, zendplace)
+hentaipornpics.net##+js(aeld, mouseover, event.triggered)
+
+! https://github.com/NanoMeow/QuickReports/issues/3457
+@@||templateshub.net^$ghide
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/89752
+! https://github.com/AdguardTeam/AdguardFilters/issues/89758
+gaypornhdfree.*##+js(aeld, DOMContentLoaded, adsBlocked)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/52702
+*$xhr,3p,redirect-rule=nooptext,domain=podu.me
+*/ads$media,redirect-rule=noopmp3-0.1s,domain=podu.me
+||podu.me/*/advertisement^$xhr,1p
+podu.me##.adv-contanier
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/62436
+programmiedovetrovarli.it##+js(aost, encodeURIComponent, inlineScript)
+
+! https://forums.lanik.us/viewtopic.php?f=103&t=44512
+@@||bolsanow.com^$ghide
+
+! https://github.com/NanoMeow/QuickReports/issues/3460
+funzen.net##+js(nostif, mdpDeBlocker)
+funzen.net##+js(nowoif)
+
+! https://github.com/uBlockOrigin/uAssets/issues/7186
+subsvip.com##+js(nano-stb, , 10000, 0)
+subsvip.com###botaoBloqueio
+subsvip.com###botaoLink:style(display: block !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/9520
+smoner.com##+js(aopr, app_vars.force_disable_adblock)
+smoner.com##+js(set, blurred, false)
+smoner.com##.form-group:has(> div#box[style="display: inline-block;"])
+*$script,3p,denyallow=google.com|gstatic.com|recaptcha.net,domain=smoner.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/9841
+javcl.com##+js(nostif, 0x)
+javcl.com##+js(nosiif, 0x)
+javcl.com###wrapfabtest:style(height:1px !important;width:1px !important)
+
+! https://github.com/NanoMeow/QuickReports/issues/3471
+thesukan.net##+js(aost, String.prototype.charCodeAt, ai_)
+
+! scrubson. blogspot.com anti adb + popups
+scrubson.blogspot.com##+js(aopr, adcashMacros)
+
+! nsfw aquariumgays .com anti adb + popups
+aquariumgays.com##+js(aopr, _cpp)
+aquariumgays.com##+js(acs, eval, replace)
+
+! redecanais.bz ads
+redecanais.*###guerejo
+redecanais.*###guerejoback
+redecanais.*###iframeCore____
+allgamesejogos.*,bemestarglobal.*,gamesgo.*,lojadebicicleta.com.br,redecanais.*##[id="colunas"]:style(display: block !important;)
+
+! https://github.com/NanoMeow/QuickReports/issues/3477
+vz.lt##+js(acs, $, adblock)
+vz.lt##.banners
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/52866
+javxxx.me###player_3x2_container_inner
+*/player/plugins/vast-*.js$script
+
+! https://github.com/NanoMeow/QuickReports/issues/3487
+testlanguages.com##+js(set, sgpbCanRunAds, true)
+
+! nsfw porncomics .me popups
+porncomics.me##+js(aopr, open)
+
+! https://github.com/NanoMeow/QuickReports/issues/3494
+paginadanoticia.com.br##+js(aopr, pareAdblock)
+paginadanoticia.com.br##.banner-img
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/52934
+! https://github.com/NanoMeow/QuickReports/issues/4083
+tr.link##+js(nowoif, ppcnt)
+tr.link##+js(ra, data-ppcnt_ads, main[onclick])
+||tr.link/js/sweets.js$script,1p
+||tr.link/*/sweet.js$script,1p
+||tr.link/push/push.js$script,1p
+tr.link##.sweet-alert
+tr.link##.sweet-overlay
+
+! https://github.com/NanoMeow/QuickReports/issues/3500
+faucetdump.com##+js(acs, $, ads)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/fvpk26/can_someone_help_me_block_a_popup/
+orsm.net##+js(aopr, open)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/fvvmal/trying_to_hide_scriptblock_warning_on/
+fernsehserien.de##+js(aopr, googlefc)
+
+! https://forums.lanik.us/viewtopic.php?p=153975#p153975
+@@||precitaj.si^$ghide
+precitaj.si##ins.adsbygoogle
+
+! https://github.com/NanoMeow/QuickReports/issues/3512
+lg-firmwares.com##+js(nano-sib)
+@@||lg-firmwares.com^$ghide
+lg-firmwares.com##.cc-window, .buy_on_amazon, .post-ads
+
+! https://github.com/uBlockOrigin/uAssets/issues/7202
+! https://github.com/uBlockOrigin/uAssets/issues/12571
+animeblix.*##+js(nowoif)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/53052
+hd-tch.com##+js(acs, addEventListener, nextFunction)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/53080
+2kspecialist.net##+js(acs, addEventListener, blocker)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/53084
+digit77.com##+js(acs, addEventListener, Blocker)
+
+! pcmag.com whitespace caused by a necessary exception in EasyList
+pcmag.com###adkit_billboard:style(padding-top: 0px!important;)
+
+! kutubistan.blogspot.com/softdroid4u.blogspot.com anti-adb
+! https://github.com/AdguardTeam/AdguardFilters/issues/53098
+kutubistan.blogspot.com,softdroid4u.blogspot.com##+js(acs, addEventListener, blocker)
+
+! gudangfirmwere.com anti-adb
+gudangfirmwere.com##+js(acs, addEventListener, AdBlocker)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/53099
+gbadamud.blogspot.com##+js(acs, addEventListener, blocker)
+gbadamud.blogspot.com##.pinterestjo, .googlejo
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/81005
+javtiful.com##+js(rmnt, script, /adb/i)
+javtiful.com##+js(acs, document.addEventListener, adsBlocked)
+javtiful.com##+js(acs, String.fromCharCode, 'shift')
+javtiful.com##+js(acs, addEventListener, -0x)
+javtiful.com##+js(aopr, decodeURI)
+javtiful.com##body > div[style*="z-index:"]
+javtiful.com##[href^="//"][rel="nofollow norefferer noopener"]
+supervideo.*##+js(aopr, AaDetector)
+/tag*.js$script,domain=supervideo.tv|supervideo.one|supervideo.cc
+
+! nsfw thisav .com popups
+||intellipopup.com^$script,redirect=noopjs
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/53153
+@@||enterinit.com^$ghide
+enterinit.com##.bs-wrap-gdpr-law
+enterinit.com##*::selection:style(background-color:#338FFF!important)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/78143
+||cdn.jsdelivr.net/*/dist/js/wgd-core.min.js$script
+
+! https://github.com/uBlockOrigin/uAssets/issues/11113
+premid.app##+js(nosiif, innerHTML)
+premid.app##+js(nano-sib, clearInterval)
+@@||premid.app/ads/ads$xhr,1p
+@@||premid.app^$ghide
+premid.app##ins.adsbygoogle
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=premid.app
+
+! https://github.com/NanoMeow/QuickReports/issues/3527
+thejobsmovie.com##+js(nostif, adsBlocked)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/53238
+@@||techdracula.com^$ghide
+techdracula.com##ins.adsbygoogle
+
+!#include filters-general.txt
+
+! As of 2020-04-09, new filters will be added to year-based sublists
+!#include filters-2020.txt
+!#include filters-2021.txt
+!#include filters-2022.txt
+!#include filters-2023.txt
+!#include filters-2024.txt
+!#include filters-2025.txt
+
+! Link shortener filters go into their own dedicated list
+!#include ubo-link-shorteners.txt
+
+!#if env_mobile
+!#include filters-mobile.txt
+!#endif
 
 
 
