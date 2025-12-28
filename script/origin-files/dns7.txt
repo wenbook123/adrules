@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512280814
+! Version: 202512281610
 ! Title: EasyPrivacy
-! Last modified: 28 Dec 2025 08:14 UTC
+! Last modified: 28 Dec 2025 16:10 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4e5db8b976f4264ac0556cdff79035a5b92b0240
+! Commit: fbd8f364a80d36c0473b5b67724cde60f469f2f4
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2445,6 +2445,7 @@
 /track_visit?
 /track_visitor?
 /trackBatchEvents?
+/trackbee.min.js
 /TrackClick.
 /trackClickEvent.js
 /trackconversion?
@@ -3593,6 +3594,7 @@ omni.soundestlink.com$image
 ||ilius.net^
 ||impactcdn.com^
 ||impactradius-event.com^
+||imponestvional.com^
 ||imrworldwide.com^
 ||imzahrwl.xyz^
 ||ineed2s.ro^
@@ -5604,6 +5606,7 @@ omni.soundestlink.com$image
 ||redistats.com^$third-party
 ||redstatcounter.com^$third-party
 ||reedbusiness.net^$third-party
+||reelup.io^$third-party
 ||referer.org^$third-party
 ||referforex.com^$third-party
 ||referralrock.com^$third-party
@@ -6038,6 +6041,7 @@ omni.soundestlink.com$image
 ||track-web.net^$third-party
 ||trackadshub.com^$third-party
 ||trackalyzer.com^$third-party
+||trackbee.ai^$third-party
 ||trackcb.com^$third-party
 ||trackcmp.net^$third-party
 ||trackconsole.com^$third-party
@@ -10224,6 +10228,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn-ds.com/analytics/
 ||cdn-eu.usefathom.com^
 ||cdn-staging.delivr.ai/pixels/
+||cdn.9gtb.com^
 ||cdn.app.cfigroup.com/webmon/$script
 ||cdn.clkmc.com/cmc.js
 ||cdn.cuty.io/fps.js
@@ -11394,6 +11399,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||o.aolcdn.com/js/mg1.js
 ||o.momently.info^
 ||o9tt6h08li.execute-api.eu-west-1.amazonaws.com^
+||obs.branderblender.com^
 ||obs.du89buildings.com^
 ||obs.esnlocco.com^
 ||obs.jollyoutdoorjogger.com^
@@ -12058,6 +12064,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.menepe.com^
 ||t.metrilo.com^
 ||t.mydialoginsight.com^
+||t.paypal.com/ts?
 ||t.pointandplace.com^
 ||t.powerreviews.com^$third-party
 ||t.raptorsmartadvisor.com^
@@ -12517,6 +12524,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||weglot.com/pageviews?
 ||wetpaint.com^*/track?
 ||wf.typesquare.com^
+||wgs.wgs-static.com^
 ||whooshkaa.com/identify
 ||whooshkaa.com/listen/track
 ||whoson.com/poll.gif
@@ -12544,6 +12552,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wondershare.es/jslibs/track.js
 ||wordmonetize.com^$third-party
 ||wordpress.com/geo/
+||work.selecdoo.com^
 ||workers.dev/api/event
 ||workers.dev/js/script.js
 ||worldssl.net/reporting.js
@@ -12966,6 +12975,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||giga.de/vw/$image,third-party
 ||global-media.de^*/track/ai.img
 ||goldsilbershop.de/go.cgi?
+||gproxy-beta.mableai.workers.dev/wtag/js
 ||hbx.df-srv.de^
 ||hittracker.org/count.php
 ||hittracker.org/counter.php
@@ -13052,6 +13062,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tms.danzz.ch^
 ||top50-solar.de/solarcount/
 ||topblogs.de/tracker.php?
+||tr.metaflow.de^
 ||track2.cliplister.com^
 ||track2.dulingo.com^
 ||track2.mycliplister.com^
@@ -13608,7 +13619,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||logs.chatboost-cv.algoage.co.jp^
 ||macromill.com/imp/
 ||mail-count.matsui.co.jp^
-||metrics.streaks.jp^
 ||mofa.go.jp^*/count.cgi?
 ||monipla.com/launch.js
 ||moshimo.com^*/impression?
@@ -16554,6 +16564,8 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||google-analytics.com/analytics.js$redirect-rule,script,domain=mond.how
 ! https://github.com/AdguardTeam/AdguardFilters/issues/210109
 ||curos.ca/res/*/resources/scripts/lib/fingerprint.js$important,redirect=fingerprint2.js,script
+! https://github.com/uBlockOrigin/uAssets/issues/31330
+||metrics.streaks.jp^$redirect=noop.txt,xmlhttprequest
 ! Youtube
 ! ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$badfilter
 ||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$badfilter
