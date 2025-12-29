@@ -1,9 +1,9 @@
-! Checksum: x7iEF0S0M4RKSl3Fj5Ju0w
-! Diff-Path: ../patches/224/224-s-1766963460-3600.patch
+! Checksum: kZ9ejjjVlff4FhK03PmboA
+! Diff-Path: ../patches/224/224-s-1766988954-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.50.84
-! TimeUpdated: 2025-12-28T23:08:13+00:00
+! Version: 2.1.50.88
+! TimeUpdated: 2025-12-29T06:12:53+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1088,6 +1088,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 ! NOTE: Specific rules
 !
+fnc.ebc.net.tw##.dfp_ad
 supertaste.tvbs.com.tw##div[id^="taboola-"]
 supertaste.tvbs.com.tw#?#.sidebar > span:contains(人氣點閱榜)
 supertaste.tvbs.com.tw#?#.article_detail > div.cotxt_title:has(> p:contains(/延伸閱讀|你可能會喜歡|大家都在看/))
@@ -1966,6 +1967,7 @@ tieba.baidu.com##.top_toutu_admarks
 wnflb2023.com##.GzList
 bdys03.com##.artplayer-plugin-ads
 ||ll.ibiqiuge.com/m.js
+axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net###bottomSearch ~ div:not([id]) > .mySwiper
 axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('prevent-setTimeout', '/getCookie|checkCK|checkCookie|checkC00kie|checkCoookie|checkCookiiiie|document\.cookie|buttonClose|exptime/')
 axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('set-constant', 'infoList', 'emptyArr')
 axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##div[style*="z-index: 9999999"][style*="position: absolute"]
@@ -5240,6 +5242,14 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 ||bmzzojmzu.com^
 ||d8lzzy93g.com^
+||msn5vg8em.com^
+||vsvgpr.icu^
+||ainb12290zh.com^
+||registration09.top^
+||xenlzn.icu^
+||ghaudhur.com^
+||hydrocarbon77.top^
+||0e1y8x7ft.com^
 ||r4uws5iu3g.com^
 ||xo60kab7yv.com^
 ||xpzodh.icu^
