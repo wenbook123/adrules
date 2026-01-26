@@ -1,9 +1,9 @@
-! Checksum: cYkz+oQZR1aDmM8Z9QmjWA
-! Diff-Path: ../patches/224/224-s-1769404825-3600.patch
+! Checksum: Ii2lphM+XbayODcr0jBfjg
+! Diff-Path: ../patches/224/224-s-1769440470-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.52.73
-! TimeUpdated: 2026-01-26T05:17:25+00:00
+! Version: 2.1.52.78
+! TimeUpdated: 2026-01-26T15:11:31+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1090,6 +1090,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 ! NOTE: Specific rules
 !
+wzzy.cc##.xgplayer-error
+wzzy.cc###notice-overlay
 ||s.yimg.com/cv/apiv2/tw/bwchou25/
 quote.cngold.org##.foot_megagame
 cngold.org##.jams
@@ -3271,6 +3273,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 ! https://github.com/AdguardTeam/AdguardBrowserExtension/issues/3031
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/223494
+spandayoga.ch#@#.elementor-popup-modal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/220616
 sou-yun.cn#@##adsPanel
 ! https://github.com/AdguardTeam/AdguardFilters/issues/219840
@@ -5280,6 +5284,8 @@ newduba.cn###jq_youxi
 ||imjll5rwuq.com^
 ||o0rnzwzst5.com^
 ||gsk801261hh.com^
+||3dle4u60y7.com^
+||sqmn4wncty.com^
 ||7ryx7ph5y.com^
 ||acqephvfx.com^
 ||m5uiy5gd1.com^
@@ -14266,7 +14272,11 @@ meijutt.*/js/pcjs/
 ||711dm.com/color.
 ||joyacg.top/wp-content/uploads/*-640
 ||wnacg.com/game/
+||affxc.com^*-792-180.
+||affxc.com/topbanner-
 zhihu.com##.Pc-word-new
+dailijichang.com,qv2ray.org##.elementor-popup-modal
+dailijichang.com,qv2ray.org##.elementor-sticky--active[data-settings*="bottom"]
 supercloudsms.com##.container > img
 muinz.top##.module
 weibo.com#?#.vue-recycle-scroller__item-view:has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])
@@ -16876,7 +16886,6 @@ playno1.com##.eis_mtm[style="border-top:1px dashed #CDCDCD;padding-top:10px; pad
 backchina.com##.eis_subnav_area
 subaibai.com##.el-dialog__wrapper
 unikoshardware.com##.elementor-image > a[href^="https://bit.ly/"]
-unikoshardware.com##.elementor-popup-modal
 eprice.com.tw##.emome-ad
 huya.com##.end-ab-banner
 huya.com##.end-ab-wrap
