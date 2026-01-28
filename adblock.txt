@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: gXKhIwRLss+2wRCLqsyM1g
+! Checksum: QZ7EQoILhee3viO/taD1jw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2026-01-28 09:17:33（北京时间） 
-! Total count: 90023
+! Version: 2026-01-28 16:27:14（北京时间） 
+! Total count: 90069
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3637,6 +3637,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .cc/js/ads/
 .cc/js/dj1*.js
 .cc/js/dj2*.js
+.cfd/$script,third-party,domain=twkan.com
 .cloud/ads/
 .club/ads/
 .club/adv/
@@ -3832,6 +3833,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .exponea.com/*/open$image
 .facebook.com/tr/$image
 .facebook.com/tr?$image
+.file-downloads.outbound-links.js
 .fiverr.com/js_event_tracking/v1/track_email_open/$image
 .flipboard.com/usage?
 .fun/*.jss?17*&r=0$third-party
@@ -3857,6 +3859,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .goodwell18.com/track/
 .google-analytics.com/
 .gruene.de/lists/ut.php$image
+.hash.outbound-links.js
 .hgo0*uyi.com/$script,xmlhttprequest,third-party
 .hh0*aoik.com/$script,xmlhttprequest,third-party
 .hilton.com/subscription/watermark.gif?
@@ -3991,8 +3994,10 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .org/config/v7.js
 .org/js/ads/
 .org/topjs/
-.outbound-links.pageview-props.revenue.tagged-events.js
+.outbound-links.file-downloads.js
+.outbound-links.tagged-events.js
 .pageview-props.js
+.pageview-props.tagged-events.js
 .personaclick.com/track/$image
 .php?action=browse&
 .php?action_name=
@@ -4027,6 +4032,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .quora.com/qemail/mark_read?
 .recolution.de/tools/emails/open/$image
 .redsift.com/e/o/$image
+.revenue.tagged-events.js
 .revolut.com/q/$image
 .ru/ads/
 .s-pt.jp/mail/info/*/img/_.gif
@@ -4062,6 +4068,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .substackcdn.com/open?$image
 .svc/?tracking_id=
 .swf?clicktag=
+.tagged-events.outbound-links.js
+.tagged-events.revenue.js
 .telekom-dienste.de/common/1x1_transparent.png
 .test15./
 .theatlantic.com/email.gif?
@@ -5000,6 +5008,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /awstats_misc_tracker
 /azion-pulse.js
 /aztracker.js
+/azzas-tracker-web@
 /b.banners.impress.
 /b.gif?
 /b.k3r.jp/?a=$image
@@ -5864,6 +5873,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /ggtp/*
 /ggvip/*.js
 /gh/91porny/*
+/ghost-stats.min.js
 /gigyaGAIntegration.js
 /gingeranalytics.min.js
 /github.com/notifications/beacon=$image
@@ -6361,6 +6371,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /load_analytics.php
 /loader-wp/static/loader.min.js?
 /loader/counter.js
+/loaders/analyticsScript.ts?
 /localga.js
 /locotrack.js
 /log-adblock.php?
@@ -6507,6 +6518,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /matomo/*$script,domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 /matomo_video_tracking.js
 /matongwu/img/gg_
+/mc4wp-premium/ecommerce3/assets/js/tracker.js
 /mcookie.aspx
 /mcount.cgi?
 /measure/pixel/*
@@ -6910,9 +6922,11 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /pjk/static/tp.php
 /pjk/xjk/*.php
 /planetstat.php
+/plausible.file-downloads.js
 /plausible.js$domain=~plausible.io
 /plausible.manual.js
 /plausible.outbound-links.js$domain=~plausible.io
+/plausible.tagged-events.js
 /player-test-impression?
 /player/stats.php?
 /plg_convertformstools_gatracker/js/script.js
@@ -6945,6 +6959,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /popu.js$script
 /popunder1000.
 /portalwlanad/pages/*$popup
+/post-views-counter-pro/js/crawler-detect.js
+/post-views-counter-pro/js/frontend.js
 /post.pinterest.com/q/*$image
 /postcounter.php?
 /postlog?
@@ -7182,10 +7198,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /scr/wtixyd.js
 /screencount?vcid=
 /scribd_events?
-/script.hash.outbound-links.pageview-props.tagged-events.js
-/script.pageview-props.tagged-events.js
+/script.outbound-links.js
 /script.tagged-events.js
-/script.tagged-events.outbound-links.js
 /script/ad.
 /script/ads.
 /script/pixel.js
@@ -21008,6 +21022,7 @@ zzzyk.com###Tinfo
 ||036e.cn^
 ||039nez.com^
 ||03asdf.com^
+||03in08p3r1.com^
 ||03t441b8w.com^
 ||042.cn/adver/
 ||0439.com/javascript.php?part=advertisement&
@@ -21719,6 +21734,7 @@ zzzyk.com###Tinfo
 ||2wq9u06jq.com^
 ||2xclick.ru^$third-party
 ||2xmzazd.cn^
+||2xx63f0bfy.com^
 ||2yjw.com/statics/js/jquery.min.
 ||2yqcaqbfnv.nextgen.shareablee.com^
 ||2za.fun^
@@ -21896,6 +21912,7 @@ zzzyk.com###Tinfo
 ||3k8.com/d/js/m/thea
 ||3kfvgobkw.com^
 ||3l0zszdzjhpw.www.comicleaks.com^
+||3lxk4afsb.com^
 ||3mark.actonservice.com^
 ||3ml8v.cn^
 ||3ng6p6m0.de^$third-party
@@ -22287,6 +22304,7 @@ zzzyk.com###Tinfo
 ||5x17591y3b.com^
 ||5xdmw.com/tb.jpg
 ||5y9nfpes.52pk.com^
+||5yahh8v3.xyz^
 ||5ydj.com/images/banner/
 ||5yqi3kg1g.com^
 ||5zxkdat6t8.com^
@@ -22367,6 +22385,7 @@ zzzyk.com###Tinfo
 ||69shuba.cx^*/shu.js
 ||69shux.com/js/otherad.
 ||69t49.com/floating/layer.js
+||6acupxubky.com^
 ||6avz.com^$script,third-party
 ||6c641lgikp.top^
 ||6cjdya3djn.com^
@@ -22473,6 +22492,7 @@ zzzyk.com###Tinfo
 ||77qwq.com^
 ||77tracking.com^$third-party
 ||77v6jk9itk.com^
+||77zdmt8yq.com^
 ||77zz7.com^
 ||78.46.19.203^$third-party,domain=~sprueche-zitate.net.ip
 ||789peizi.com^
@@ -27450,6 +27470,7 @@ zzzyk.com###Tinfo
 ||ad.v3mh.com^
 ||ad.walkgame.com^
 ||ad.wamxb.info^
+||ad.weibo.com^
 ||ad.winrar.com.cn^
 ||ad.wurangxian.top^
 ||ad.ximalaya.com^
@@ -27700,6 +27721,7 @@ zzzyk.com###Tinfo
 ||adi*.cnool.net^
 ||adi.ni.com^
 ||adimg.liba.com^
+||adimg.uve.weibo.com^
 ||adimo.co/api/tracking/
 ||adinsight.co.kr^$third-party
 ||adinsight.com^$third-party
@@ -28002,6 +28024,7 @@ zzzyk.com###Tinfo
 ||adstk.io^
 ||adstore-1252524079.file.myqcloud.com^
 ||adstore-index-1252524079.file.myqcloud.com^
+||adstrategy.biz.weibo.com^
 ||adstudio-assets.scdn.co^
 ||adstudio.spotify.com^
 ||adsv.svc.litv.tv/ads?ad_unit=$xmlhttprequest,redirect=noopvast-3.0,important,domain=ani.gamer.com.tw
@@ -28065,6 +28088,7 @@ zzzyk.com###Tinfo
 ||adtraxx.de^$third-party
 ||adtriba.com^$third-party
 ||adtx2.cn^
+||adui.tg.meitu.com^
 ||adult-trade.nl/lo/track.php
 ||adultblogtoplist.com^$third-party
 ||adultium.com^
@@ -28132,6 +28156,7 @@ zzzyk.com###Tinfo
 ||adx-open-service.youku.com^
 ||adx-os.anythinktech.com^
 ||adx-saas.advlion.com^
+||adx-strategy-api-cn.statisticslinks.com^
 ||adx.36kr.com^
 ||adx.ads.heytapmobi.com^
 ||adx.ads.oppomobile.com^
@@ -28249,8 +28274,7 @@ zzzyk.com###Tinfo
 ||affirm.com/api/v2/session/touch_track
 ||affistats.com^$third-party
 ||afftrack.pro^$third-party
-||affxc.com/topbanner-
-||affxc.com^*-792-180.
+||affxc.com^$third-party
 ||affyun.com/wp-content/uploads/*-ad.
 ||affyun.com/wp-content/uploads/*/ad-
 ||affyun.com/wp-content/uploads/*/affffff.png
@@ -29414,6 +29438,7 @@ zzzyk.com###Tinfo
 ||analytics.erepublic.com^
 ||analytics.ericafischerphotography.com^
 ||analytics.esporteinterativo.com.br^
+||analytics.eternagame.org^
 ||analytics.eventbrite.com^
 ||analytics.everythingstream.com^
 ||analytics.evo.co.uk^
@@ -29524,6 +29549,7 @@ zzzyk.com###Tinfo
 ||analytics.lunge.de^
 ||analytics.m7g.twitch.tv^
 ||analytics.maikel.pro^
+||analytics.maileon.com^
 ||analytics.mailmunch.co^
 ||analytics.makeitmeme.com^
 ||analytics.makro.be^
@@ -37927,6 +37953,7 @@ zzzyk.com###Tinfo
 ||d.groc.press^
 ||d.haberler.com^
 ||d.jugnoo.in^
+||d.lilstts.com^
 ||d.line-scdn.net/*/torimochi.js/*/torimochi.js$script,redirect=googletagservices-gpt,domain=line.me
 ||d.m-net.de^
 ||d.mail.levi.com^
@@ -43550,6 +43577,7 @@ zzzyk.com###Tinfo
 ||figma.com/api/web_logger/
 ||figpii.com^$third-party
 ||figsprotein.com^
+||figurehunter.net^
 ||figvatqrwd.com^
 ||fiimox.lebenskraftpur.de^
 ||fijipic.xyz^
@@ -44374,6 +44402,7 @@ zzzyk.com###Tinfo
 ||fudezz.motorplus-online.com^
 ||fudezz.sonora.id^
 ||fudge.ai/metrics?
+||fuel-design.com/js/script.js
 ||fueldeck.com^$third-party
 ||fuelinspector.com^
 ||fuelx.com^$third-party
@@ -46485,6 +46514,8 @@ zzzyk.com###Tinfo
 ||gsk801260hh.com^
 ||gsk801261hh.com^
 ||gsk801270hh.com^
+||gsk801271hh.com^
+||gsk801280hh.com^
 ||gslb.hpplay.cn^
 ||gslive.edm.globalsources.com^
 ||gsmatch.edm.globalsources.com^
@@ -50934,6 +50965,7 @@ zzzyk.com###Tinfo
 ||itservices.ricoh.ie^
 ||itservices.ricoh.no^
 ||itsmore.cn^$third-party
+||itsstats.wp1.site^
 ||itt.enterprises.proximus.com^
 ||ituba.cc/uploads/allimg/201610/603/
 ||iturl.in/analytics?
@@ -54914,6 +54946,7 @@ zzzyk.com###Tinfo
 ||lolshipin.com/zt/sxx/
 ||lolwot.com/B5xaqzSGvMTM.js
 ||lomadee.com^$third-party
+||lonarzelq.com^
 ||lonelyflavor.com^
 ||longdidi.top^*.js
 ||longingtrees.com^
@@ -55579,6 +55612,7 @@ zzzyk.com###Tinfo
 ||m365log.com^$third-party
 ||m3cqjc3og6.com^
 ||m3ds.subarumetropolitain.com^
+||m3ks1o8jz.com^
 ||m3uef4b38brmbntdzx.franchiseplus.nl^
 ||m43ocq1uoj.com^
 ||m4fxreb5s.com^
@@ -60196,6 +60230,7 @@ zzzyk.com###Tinfo
 ||moreinfo.onnowdigital.com^
 ||moreinfo.powerpro360.com^
 ||moreinfo.sdmyers.com^
+||mores.toponad.com^
 ||morganfranklin.actonservice.com^
 ||mormont.gamer-network.net^
 ||mors22.com^
@@ -61935,6 +61970,7 @@ zzzyk.com###Tinfo
 ||nytjyf.dholic.co.jp^
 ||nytlog.com^$third-party
 ||nyuyiw.linea-storia.co.kr^
+||nyv388w6lc.com^
 ||nyvgbt.xyz^
 ||nyvknh.compracerta.com.br^
 ||nyxcosmetics.com/IZ/PXLZNv2dn4/init.js
@@ -62264,6 +62300,7 @@ zzzyk.com###Tinfo
 ||oiwnrl.theory.co.jp^
 ||oizs.cn^
 ||oj.brothercloud.com^
+||oj2c0dkk4.com^
 ||oj2q8.montecarlosbm.book-secure.com^
 ||ojbkmcsdx.xyz^
 ||ojizau.icu^
@@ -62666,6 +62703,7 @@ zzzyk.com###Tinfo
 ||online.hnoexpo.com^
 ||online.hsrexpo.com^
 ||online.jtiadvance.co.uk^
+||online.marketing/a.js
 ||online.rwdls.com^
 ||online.rwdstco.com^
 ||online.sharjahart.org^
@@ -68114,6 +68152,7 @@ zzzyk.com###Tinfo
 ||saltsabar.openapp.link^
 ||saltsacademy.com^
 ||saluton.cizion.com^
+||salvalaselva.org/plsbl/js
 ||salzwerk.viessmann.de^
 ||sam*.baby-kingdom.com^
 ||sam.manager-magazin.de^
@@ -74945,6 +74984,7 @@ zzzyk.com###Tinfo
 ||sssvd.china.com^
 ||sssxwsry.com^
 ||sst.babypark.nl^
+||sst.brodo.com^
 ||sst.bwt.com^
 ||sst.colemanfurniture.com^
 ||sst.cooperativa.cl^
@@ -75730,6 +75770,7 @@ zzzyk.com###Tinfo
 ||stats.briskoda.net^
 ||stats.broddin.be^
 ||stats.brumtechtapas.co.uk^
+||stats.bryancollins.com^
 ||stats.buddiy.net^
 ||stats.bungeefit.co.uk^
 ||stats.bunkr.ru^
@@ -78000,6 +78041,7 @@ zzzyk.com###Tinfo
 ||tagsrvcs.com^$third-party
 ||tagstaticx.com^$third-party
 ||tagtd.cn^
+||tagtic.cn^
 ||tagtoo.co/js/unitrack.js
 ||tagtoo.co^$third-party
 ||tagtracking.vibescm.com^
@@ -78663,6 +78705,7 @@ zzzyk.com###Tinfo
 ||temails.productnotice.thomsonreuters.com^
 ||temp.twicomi.com^
 ||tempertrick.com^
+||tempest33.com^
 ||templates_pc/default/scripts/chapter_bottom.js
 ||tempo.co^$doc,removeparam=tracking_page_direct
 ||temptteam.com^
@@ -82864,6 +82907,7 @@ zzzyk.com###Tinfo
 ||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html
 ||tuicool.com/images/upload/aliyun
+||tuiguang.meitu.com^
 ||tuinfra.com^$third-party
 ||tuisong.baidu.com^
 ||tulip18.com^$third-party
@@ -85092,6 +85136,7 @@ zzzyk.com###Tinfo
 ||volatileprofit.com^
 ||volatilevessel.com^
 ||volc.bj.ad.track.66mobi.com^
+||volcano93.top^
 ||volcano98.com^
 ||volceapplog.com^
 ||volgograd-info.ru^$third-party
@@ -85134,6 +85179,7 @@ zzzyk.com###Tinfo
 ||vppst.iltrovatore.it^
 ||vprza.com^$third-party
 ||vps234.com/resources/images/hosting-promotion/
+||vpsbenchmarks.com/plausible.vpsb.js
 ||vpsgu.cn^
 ||vpubmi.com^
 ||vpuuzj.schnullireich.de^
