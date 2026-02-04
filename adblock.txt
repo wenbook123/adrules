@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: GHvh2eYTZx+WyYt+dZAr5Q
+! Checksum: 2BA4aOFYnJfKHYOvZAS6nw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2026-02-04 09:27:12（北京时间） 
-! Total count: 89204
+! Version: 2026-02-04 16:36:37（北京时间） 
+! Total count: 89227
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2724,7 +2724,7 @@ $removeparam=fobs
 $removeparam=fpestid
 $removeparam=fr,domain=baidu.com|thegay.com|todayonline.com|hclips.com|search.yahoo.com
 $removeparam=fref
-$removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|cancam.jp|duckduckgo.com|duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion|ettoday.net|landevei.no|luisaviaroma.com|sogou.com|store.hbr.org|app.snyk.io|onlinepngtools.com|indiatimes.com|jetbrains.com|tvtropes.org|yandex.com
+$removeparam=from,doc,domain=apkpure.com|bandcamp.com|browserling.com|cancam.jp|duckduckgo.com|duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion|feeder.co|ettoday.net|landevei.no|luisaviaroma.com|sogou.com|store.hbr.org|app.snyk.io|onlinepngtools.com|indiatimes.com|jetbrains.com|tvtropes.org|yandex.com
 $removeparam=from,domain=indeed.com
 $removeparam=fromLoggedOutHome,domain=ocado.com
 $removeparam=fromMostRead,domain=bloomberg.com
@@ -8033,8 +8033,10 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /web-analytics.js
 /web-api/log/*
 /web-data-ingress?
+/web-pixel-*/worker.modern.js
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
+/web-pixels@*/web-pixel-*/sandbox/modern/*
 /web-vitals-analytics.js
 /web-vitals.iife.js
 /web/ad/*$domain=gamer.com.tw
@@ -13768,7 +13770,6 @@ dacota.tw#?#section[class*="widget_text"] > .widget-wrap > .textwidget > div[cla
 dahe.cn###adArea1
 dahe.cn###adsg
 dailiantong.com##.appDwn
-dailijichang.com,qv2ray.org##.elementor-sticky--active[data-settings*="bottom"]
 daily.zhihu.com##.Daily
 daily.zhihu.com##.active
 dailygh.com###video_fade
@@ -16407,6 +16408,8 @@ jmcomic1.me##div[style^="max-height: 600px"]
 jmcomic1.me#%#//scriptlet('remove-node-text', '#text', '中間廣告')
 jmcomic1.me#?#.container > div.row:has(ins[data-width="300"])
 jmnews.com.cn##div[id^="couplet_"]
+jmsnode.com,linuxsss.com,linuxssr.com,linuxtrojan.com,linuxv2ray.com,linuxxray.com,tizidajian.com,dailijichang.com,qv2ray.org##.elementor-popup-modal
+jmsnode.com,linuxsss.com,linuxssr.com,linuxtrojan.com,linuxv2ray.com,linuxxray.com,tizidajian.com,dailijichang.com,qv2ray.org##.elementor-sticky--active[data-settings*="bottom"]
 jmw.com.cn##.coupon
 jmw.com.cn##.head_1b
 jmw.com.cn##.head_3
@@ -16807,7 +16810,6 @@ linux.cn##.linuxcnad
 linux.cn##a[href^="https://linux.cn/go/"]
 linuxde.net##.ad360x500
 linuxidc.com##.linux801
-linuxsss.com,linuxssr.com,linuxtrojan.com,linuxv2ray.com,linuxxray.com,tizidajian.com,dailijichang.com,qv2ray.org##.elementor-popup-modal
 litv.tv##.ad_impression
 litv.tv##.internal_bn
 litv.tv##body > .right_float_poster_container
@@ -18607,6 +18609,7 @@ ref=prisjakt^$doc,removeparam=ref
 ref=privacy.thenexus.today$doc,removeparam=ref
 ref=producthunt$doc,removeparam=ref
 ref=rss^$doc,removeparam=ref
+ref=shadcn.com$doc,removeparam=ref
 ref=spreadprivacy.com$removeparam=ref
 ref=the-browser$doc,removeparam=ref
 ref=troyhunt.com$doc,removeparam=ref
@@ -19651,6 +19654,7 @@ tsdm39.com###ct > div > a[target="_blank"] > img
 tsubasa.im#%#//scriptlet('prevent-setInterval', '/home/?adblock=')
 tsubasa.im#%#//scriptlet('prevent-setTimeout', '/home/?adblock=')
 tt1069.com#@##ad-slot
+tt1069.com#@#.adzone
 tt776.com##iframe[src="/app/ad.html"]
 ttmeiju.me##DIV[style="float:left;margin-bottom:27px;margin-top:27px;"]
 ttshow.tw##div[id^="ad_article_"]
@@ -22636,6 +22640,7 @@ zzzyk.com###Tinfo
 ||8g0j.cn^
 ||8g2a7mifv.com^
 ||8gp4wjq3.com^
+||8gptk28oag.com^
 ||8h93.com^*.gif
 ||8jkx.com^
 ||8k69vb6421.com^
@@ -29996,6 +30001,7 @@ zzzyk.com###Tinfo
 ||api.qcmm07.com^
 ||api.quantumgraph.com/web/cm/
 ||api.qvpublish.com^
+||api.reo.dev^$third-party
 ||api.rivpoint.com/*/event/
 ||api.rtl.nl/monitoring/
 ||api.ryanyao.design^
@@ -32934,6 +32940,7 @@ zzzyk.com###Tinfo
 ||bhddjf.top^
 ||bhdnti.top^
 ||bheirqrol.com^
+||bheknoinum.com^
 ||bhgbqh.crocs.de^
 ||bhgzwqy.top^
 ||bhjuy10.com^
@@ -39921,6 +39928,7 @@ zzzyk.com###Tinfo
 ||dolrfm.fotoregistro.com.br^
 ||domain1.chahaoba.cn^
 ||domainbntest.branchcustom.xyz^
+||domaincolumn.com^
 ||domainit.com/scripts/track.js
 ||domains.ch^$removeparam=REF
 ||domaintools.com/buffer.pgif?
@@ -44431,6 +44439,7 @@ zzzyk.com###Tinfo
 ||gazzettaobjects.it^*/tracking/
 ||gb-asymbo.m-shop.me^
 ||gb.click.finning.com^
+||gb3scpejq.com^
 ||gba.kwm.com^
 ||gbcnvip15.com^
 ||gbiathrilzik.com^
@@ -45171,9 +45180,11 @@ zzzyk.com###Tinfo
 ||gnezdo.ru^$third-party
 ||gnfjvt.radpowerbikes.com^
 ||gnfqtz.smartphoto.se^
+||gnfr03906.com^
 ||gnglehraith.com^
 ||gnh2.destinia.lv^
 ||gnkvyn.freeportstore.com^
+||gnla02040qp.com^
 ||gnnkrz.josbank.com^
 ||gnozmx.locasun.fr^
 ||gnpge.com^$third-party
@@ -46150,6 +46161,8 @@ zzzyk.com###Tinfo
 ||gsk802020hh.com^
 ||gsk802021hh.com^
 ||gsk802030hh.com^
+||gsk802031hh.com^
+||gsk802040hh.com^
 ||gslive.edm.globalsources.com^
 ||gsmatch.edm.globalsources.com^
 ||gsmqez.xcite.com^
@@ -47376,6 +47389,7 @@ zzzyk.com###Tinfo
 ||house365.com/js/fixWin.php
 ||house365.com/js/lbpopup.js
 ||housecrm.com.br/track/
+||household35.top^
 ||houston-content.cresa.com^
 ||houston.advgo.net^
 ||houstonbbs.com/data/ad/
@@ -51756,6 +51770,7 @@ zzzyk.com###Tinfo
 ||kdata.fr^$third-party
 ||kdcl.pchome.com.tw^
 ||kdcxhr.cn^
+||kdewa111.familydoctor.com.cn^
 ||kdfjglkdflg.com^
 ||kdhmzv.oculosmeninaflor.com.br^
 ||kdkgorjbvlxjrnv.com^
@@ -59747,6 +59762,7 @@ zzzyk.com###Tinfo
 ||mov.t-mobile.com/p/js/1.js
 ||movable-ink-397.com^$third-party
 ||movable-ink-6710.com^$third-party
+||movableobject.com^
 ||move.azets.com^
 ||move.azets.dk^
 ||move.azets.fi^
@@ -62530,6 +62546,7 @@ zzzyk.com###Tinfo
 ||ouargilbpg.com^
 ||ouccoc.icu^
 ||oucnmtk.top^
+||oudw850vbx.com^
 ||oueia.xyz^
 ||ouest-france.fr/v1/javascripts/*-googletag-
 ||ouest-france.fr/v1/javascripts/*-prebid-
@@ -62602,6 +62619,7 @@ zzzyk.com###Tinfo
 ||oweeiyw.icu^
 ||owen.prolitteris.ch^
 ||owiurjngsd.com^
+||owlbees.com^
 ||owldata.com^$third-party
 ||owlfolk.com^
 ||owlinggnomist.com^
@@ -64703,6 +64721,7 @@ zzzyk.com###Tinfo
 ||pvoheg.bubbleroom.se^
 ||pvrugd.nieruchomosci-online.pl^
 ||pvtag.yahoo.co.jp^
+||pvtd.cn^
 ||pvtest.zol.com.cn^
 ||pvvxfh.top^
 ||pvx.xcar.com.cn^
@@ -64794,6 +64813,7 @@ zzzyk.com###Tinfo
 ||q06g.com^
 ||q0losid.com^
 ||q1.yyxwzx.com^
+||q1txsah8s.com^
 ||q20jqurls0y7gk8.info^
 ||q27sz.com^
 ||q29k22vpu.com^
@@ -78760,6 +78780,7 @@ zzzyk.com###Tinfo
 ||tljrvn.icu^
 ||tlm.adp.ca^
 ||tlprlf.xyz^
+||tlq8ufqddj.com^
 ||tls.thelibrarystore.com^
 ||tlsalw.platypusshoes.co.nz^
 ||tlsgq.cn^
@@ -84175,6 +84196,7 @@ zzzyk.com###Tinfo
 ||visualscience.external.bbc.co.uk^
 ||visualstudio.com/_da.gif?
 ||visualstudio.com/v2/track
+||visualwebsiteoptimizer.com/analysis/
 ||visualwebsiteoptimizer.com/cdn/analysis/
 ||visualwebsiteoptimizer.com/dyn
 ||visualwebsiteoptimizer.com/ee.gif?
@@ -88540,6 +88562,7 @@ zzzyk.com###Tinfo
 ||zcczrvsaqw.xyz^
 ||zcczrvsaw.xyz^
 ||zcdfnl.top^
+||zceniddd.com^
 ||zcfhi.cn.com^
 ||zcgqsd.icu^
 ||zcjemo.alwaysfashion.com^
