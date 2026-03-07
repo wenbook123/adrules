@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603070824
+! Version: 202603071618
 ! Title: Fanboy's Annoyance List
-! Last modified: 07 Mar 2026 08:24 UTC
+! Last modified: 07 Mar 2026 16:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b33a7a501c8133770d175aa710d8148fcc55931b
+! Commit: 91ff0b84322f9fb46801153d11edff264f3a57c7
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -31986,9 +31986,9 @@ youtube.com##.ytp-paid-content-overlay
 www.youtube.com#?##content > .ytd-rich-section-renderer:-abp-contains(YouTube Playables)
 ! youtube popups
 music.youtube.com#?#tp-yt-paper-dialog.ytmusic-popup-container:-abp-contains(/We’re listening!|family plan|Premium|ad-free|background play|kept playing|month free|without the ads|Try YouTube Music/)
-www.youtube.com##tp-yt-paper-dialog.ytd-popup-container:has(> .ytd-popup-container > #options.ytd-checkbox-survey-renderer)
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container:has(> .ytd-popup-container > #options[class$="survey-renderer"])
 www.youtube.com#?#.YtdTalkToRecsFlowRendererHost:-abp-contains(What hobbies are you interested in developing?)
-www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(/How do you feel|Which of the following|following Premium|Get background play|Choose all that apply|Become a member of this channel|Free trial|How are your|How interested|Live TV|Wish videos|better TV|cable box|cable reimagined|hidden fees|of YouTube TV|on YouTube TV|unlimited DVR|with YouTube TV|without the ads|try this feature|Terms apply|View live scores/)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(/How do you feel|Which of the following|following Premium|Get background play|Choose all that apply|Become a member of this channel|Free trial|How are your|How interested|Live TV|Wish videos|better TV|cable box|cable reimagined|hidden fees|of YouTube TV|on YouTube TV|unlimited DVR|with YouTube TV|without the ads|try this feature|Terms apply|View live scores|YouTube experience/)
 ! https://github.com/easylist/easylist/issues/22334 YT suggestion div
 www.youtube.com##.YtdTalkToRecsFlowRendererHost:-abp-contains(/Ask for videos|What do you like|Help us improve/)
 ! Login popups
@@ -47195,6 +47195,7 @@ dom.ria.com##div[class^="GdprComponent"]
 stoloto.ru##div[class^="Provider_container"]
 aliexpress.ru##div[class^="SnowPrivacyPolicyBanner_"]
 bb.market##div[class^="_cookies_"]
+pulsesync.dev##div[class^="cookieConsent-module-"]
 asna.ru##div[class^="modalCookies_"]
 rencredit.ru##div[data-attention-id="3420"]
 yoomoney.ru##div[data-qa="gdpr"]
